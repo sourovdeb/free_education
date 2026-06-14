@@ -1,6 +1,6 @@
 # Lesson Index — ELT365 + Mixed Lessons Batch
 
-**Published:** 2026-06-14 · **Status on WP:** draft · **Total:** 50 lessons (+ 1 test draft ID 831)
+**Updated:** 2026-06-14 · **Status on WP:** draft · **Total:** 80 lessons (+ 1 test draft ID 831)
 
 ## Block 1 — ELT365 Month 6: Receptive Skills (Days 152–181)
 
@@ -67,9 +67,68 @@
 | 880 | YL09 | Parents as Partners in Young Learner Learning |
 | 881 | YL10 | Digital Tools for Young Learner Classes |
 
+## Block 4 — CELTA Personal-Experience Lessons (30 lessons)
+
+**Source file:** `elt365_lessons/CELTA_Personal_Lessons_30.py`
+**Branch:** `claude/serene-planck-rma6rq`
+**Format:** Interactive HTML · Cambridge level badge · 5-min bite-size · Personal anecdotes from Sourov Deb's life
+**Duplicate note:** Grammar lessons 1–6 may appear multiple times (WP admin cleanup needed for IDs 1235–1240 and 1246–1251).
+
+### Grammar (12 lessons)
+
+| WP ID | # | Level | Title |
+|-------|---|-------|-------|
+| 1214 | G01 | A1 | Where Are You From? Countries & Nationalities |
+| 1220 | G02 | A1 | Jobs & Workplaces: What Do You Do? |
+| — | G03 | A2 | Daily Routines: Present Simple & Adverbs of Frequency |
+| 1206 | G04 | A2 | Comparatives & Superlatives: Bigger, Better, Best |
+| 1209 | G05 | A2 | Going To vs Will: Talking About the Future |
+| 1205 | G06 | A2 | Prepositions of Place & Movement: In, On, At, To, From |
+| 1207 | G07 | B1 | Have You Ever...? Present Perfect for Experience |
+| 1210 | G08 | B1 | Past Simple vs Past Continuous: Telling a Story |
+| 1223 | G09 | B1 | Phrasal Verbs: Life Changes |
+| 1224 | G10 | B1 | MAKE or DO? High-Frequency Collocations |
+| 1208 | G11 | B2 | Second Conditional: What Would You Do If...? |
+| 1204 | G12 | C1 | Inversion for Emphasis: Never Had I Imagined... |
+
+### Vocabulary (8 lessons)
+
+| WP ID | # | Level | Title |
+|-------|---|-------|-------|
+| 1219 | V01 | A2 | Food & Flavours: Vocabulary for Taste |
+| 1221 | V02 | B1 | Emotions & Feelings: Beyond Happy and Sad |
+| — | V03 | B1 | Collocations with MAKE and DO |
+| 1225 | V04 | B2 | Wine & Fine Dining Vocabulary |
+| 1226 | V05 | B2 | Academic Word List: 10 Essential Words for B2+ |
+| 1227 | V06 | B1 | Idiomatic English: Everyday Expressions |
+| — | V07 | B1 | Vocabulary Strategy: Learning Words in Chunks |
+| — | V08 | B1 | Phrasal Verbs: Life Changes (see G09) |
+
+### Skills (7 lessons)
+
+| WP ID | # | Level | Title |
+|-------|---|-------|-------|
+| 1228 | S01 | B1 | Reading for Gist: Don't Read Every Word |
+| 1229 | S02 | B1 | Writing a Personal Narrative: Your Story in 5 Moments |
+| 1230 | S03 | B2 | Speaking: How to Tell an Anecdote Fluently |
+| 1231 | S04 | A2 | Pronunciation: Silent Letters in English |
+| 1232 | S05 | B2 | Listening: Understanding Fast Native Speech |
+| 1233 | S06 | B2 | Cambridge B2 Opinion Essay: Structure and Language |
+| 1234 | S07 | B1 | Email Writing: Formal vs Informal |
+
+### Special / Mixed (3 lessons)
+
+| WP ID | # | Level | Title | Category |
+|-------|---|-------|-------|----------|
+| 1215 | X01 | B1 | English for Hospitality: Welcoming Guests | Career & Professional Development |
+| 1216 | X02 | B1 | Learning a Language as an Adult: Vocabulary Strategies | English Teaching |
+| 1217 | X03 | A2 | Your Story in English: Personal Introduction | English Teaching |
+
 ## Notes
+
 - Test draft (ID 831, title 'TEST DRAFT — please ignore') can be deleted from WP admin.
-- All lessons posted to `https://www.sourovdeb.com/wp-json/sourov/v1/ai-post` with `status: draft`.
-- Category mapping: Block 1 & 3 → **English Teaching** (ID 9) · Block 2 → **Career & Professional Development** (ID 56).
-- Disclaimer appended to every ELT365 and YL post per skill spec.
-- Script: `elt365_lessons/publisher/elt365_lessons_publisher.py`
+- All lessons posted via `https://www.sourovdeb.com/wp-json/sourov/v1/ai-post` with `status: draft`.
+- Category mapping: Block 1, 3, 4 grammar/vocab/skills → **English Teaching** (ID 9) · Block 2, X01 → **Career & Professional Development** (ID 56).
+- Disclaimer appended to every post per skill spec.
+- Block 4 source: `CELTA_Personal_Lessons_30.py` — canonical reference; re-run only after checking WP admin for duplicates.
+- **Duplicate cleanup needed:** Grammar lessons 1–6 have duplicate drafts at WP IDs 1235–1240 and 1246–1251. Safe to trash from WP admin.
