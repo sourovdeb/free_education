@@ -1,7 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-06-15  
-**Total Routines:** 2 | **Total Items:** 60+
+**Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 61+
 
 ---
 
@@ -9,6 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology Claims Audit](#routine-3-psychology-claims-audit)** — Fact-checked, funding-disclosed audits of psychology/neuroscience/mental-health claims
 
 ---
 
@@ -105,6 +106,29 @@
 
 ---
 
+## Routine 3: Psychology Claims Audit
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental-health treatment — checks primary sources, sample sizes, funding, and conflicts of interest on all sides, then compares against opposing/independent research.
+**Location:** `routines/03_psychology_claims_audit_routine/`
+**Status:** ✅ Active | **Items:** 1 audited post (growing)
+
+### Content
+
+#### Item: The "chemical imbalance" (serotonin) theory of depression
+📄 File: `posts/2026-07-05_serotonin-chemical-imbalance-depression.md`
+- 251-word cited micro-blog verdict, plus a full source list with DOIs and funding/COI disclosures for every citation
+- Covers: Lacasse & Leo (2005, PLoS Medicine), Moncrieff et al. (2022, Molecular Psychiatry umbrella review), and the 36-author "leaky umbrella" rebuttal (2023, Molecular Psychiatry)
+- Explicitly flags claims that could not be independently verified rather than guessing
+- **Not** auto-published live to sourovdeb.com — left for manual review given the sensitivity of naming specific researchers/companies on a contested medical topic
+
+### Key Metadata
+
+- **Output format:** Markdown (.md)
+- **Every post includes:** funding/COI disclosure per source, an explicit "could not verify" section, a medical disclaimer
+- **Date created:** 2026-07-05
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +144,22 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_psychology_claims_audit_routine/
+│       ├── README.md
+│       └── posts/
+│           └── 2026-07-05_serotonin-chemical-imbalance-depression.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +182,12 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Audited Claims** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Documentation Files** | 5 |
 
 ---
 
