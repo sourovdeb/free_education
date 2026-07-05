@@ -1,7 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-06-15  
-**Total Routines:** 2 | **Total Items:** 60+
+**Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 61+
 
 ---
 
@@ -9,6 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology, Marketing & Mental Health Audits](#routine-3-psychology-marketing--mental-health-audits)** — Fact-checked claim audits with funding/bias disclosure
 
 ---
 
@@ -105,6 +106,26 @@
 
 ---
 
+## Routine 3: Psychology, Marketing & Mental Health Audits
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — verifying primary sources and methodology, investigating funding and conflicts of interest, comparing against independent/opposing research, and drafting a sourced micro-blog verdict per claim.  
+**Location:** `routines/03_psychology_marketing_mental_health_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit
+
+### Audits
+
+| File | Claim audited | Verdict |
+|------|----------------|---------|
+| `2026-07-05_power-posing-audit.md` | "A 2-minute power pose raises testosterone, lowers cortisol, and increases risk tolerance" | Contested-to-debunked — a 5x-larger independent replication (Ranehill et al., 2015) found no hormonal or risk-taking effect, and original co-author Dana Carney publicly disavowed those findings in 2016; only a weaker, disputed self-reported-confidence effect remains |
+
+### Key Metadata
+
+- **Output format:** Markdown (audit + micro-blog draft per claim)
+- **External publishing:** Deliberately deferred for human review — see routine README
+- **Date created:** 2026-07-05
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +141,21 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_psychology_marketing_mental_health_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_power-posing-audit.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +178,12 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Documentation Files** | 5 |
 
 ---
 
