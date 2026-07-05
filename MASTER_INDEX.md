@@ -1,7 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-06-15  
-**Total Routines:** 2 | **Total Items:** 60+
+**Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 61+
 
 ---
 
@@ -9,6 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology / Marketing / Mental Health Myth-Audit](#routine-3-psychology--marketing--mental-health-myth-audit)** — Sourced, funding-aware audits of psych/neuro/marketing/mental-health claims
 
 ---
 
@@ -105,6 +106,37 @@
 
 ---
 
+## Routine 3: Psychology / Marketing / Mental Health Myth-Audit
+
+**What it does:** Researches and audits public claims about psychology,
+neuroscience, marketing influence, and mental health treatment — checking
+primary sources, methodology, funding, and conflicts of interest — then
+drafts a short cited micro-blog post as a WordPress news item.  
+**Location:** `routines/03_psych_myth_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit post
+
+### Content
+
+📄 File: `2026-07-05_chemical-imbalance-theory-of-depression.md`
+- Audits the claim that depression is caused by a serotonin "chemical
+  imbalance" corrected by SSRIs
+- Primary sources: Moncrieff et al. 2022 (*Molecular Psychiatry*), Kirsch et
+  al. 2008 (*PLoS Medicine*), Turner et al. 2008 (*NEJM*)
+- Documents funding of underlying industry trials vs. independent academic
+  reanalyses, and a disclosed conflict of interest among critics
+- Verdict: claim not well supported by current evidence
+
+### Key Metadata
+
+- **Output format:** Markdown (.md), 200–300 word publishable excerpt per post
+- **Every post includes:** claim statement, cited micro-blog draft, audit
+  methodology, sourcing-confidence note, publishing note
+- **Minimum sourcing bar:** at least two independent (non-industry-funded)
+  sources per claim
+- **Date created:** 2026-07-05
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +152,21 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_psych_myth_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_chemical-imbalance-theory-of-depression.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +189,12 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Myth-Audit Posts** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Documentation Files** | 5 |
 
 ---
 
