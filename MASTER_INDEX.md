@@ -1,7 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-06-15  
-**Total Routines:** 2 | **Total Items:** 60+
+**Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 61+
 
 ---
 
@@ -9,6 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psych Research Audit](#routine-3-psych-research-audit)** — Sourced audits of psychology/mental-health claims
 
 ---
 
@@ -105,6 +106,30 @@
 
 ---
 
+## Routine 3: Psych Research Audit
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing
+influence, and mental health treatment. For each claim: locates primary sources,
+checks methodology/sample size, investigates funding and conflicts of interest on
+every side of the debate, compares against independent/opposing research, and
+publishes a short sourced verdict as a news-item post.  
+**Location:** `routines/03_psych_research_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 post
+
+### Posts
+
+| # | Claim audited | File |
+|---|----------------|------|
+| 1 | Is depression a "chemical imbalance"? (serotonin theory vs. Moncrieff et al. 2022 umbrella review, and its industry-tied critics) | `POST_01_chemical-imbalance-serotonin-depression.md` |
+
+### Key Metadata
+
+- **Output format:** Markdown (.md) — 200–300 word micro-blog + full audit trail per post
+- **Every post includes:** primary source links, funding/COI disclosure for all sides, independent comparison source, explicit verdict
+- **Date created:** 2026-07-05
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +145,21 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_psych_research_audit_routine/
+│       ├── README.md
+│       └── POST_01_chemical-imbalance-serotonin-depression.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +182,12 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Research Audit Posts** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Documentation Files** | 5 |
 
 ---
 
