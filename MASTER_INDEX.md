@@ -1,7 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-06-15  
-**Total Routines:** 2 | **Total Items:** 60+
+**Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 61+
 
 ---
 
@@ -9,6 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology & Mental Health Claims Audit](#routine-3-psychology--mental-health-claims-audit)** — Sourced fact-checks of psychology, neuroscience, marketing, and mental-health treatment claims
 
 ---
 
@@ -105,6 +106,38 @@
 
 ---
 
+## Routine 3: Psychology & Mental Health Claims Audit
+
+**What it does:** Researches a specific claim about human psychology, neuroscience, marketing influence, or mental health treatment; verifies primary sources and methodology; checks funding and conflicts of interest; compares against opposing/independent research; and publishes a short sourced verdict as a micro-blog.  
+**Location:** `routines/03_psych_claims_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 entry so far
+
+### Entries
+
+#### Entry 1: Antidepressant efficacy vs. the serotonin hypothesis
+📄 File: `2026-07-05_antidepressants-serotonin-audit.md`
+- Audits two conflated claims: "antidepressants beat placebo" and "depression is caused by low serotonin"
+- Primary sources: Cipriani et al. 2018 (*Lancet*, 522 trials, n=116,477); Kirsch et al. 2008 (*PLoS Medicine*, FDA data); Moncrieff et al. 2022 (*Molecular Psychiatry*, umbrella review) plus the 2023 36-author rebuttal
+- Funding check: Cipriani meta-analysis publicly funded (NIHR/JSPS) but 78% of underlying trials industry-funded; Kirsch and Moncrieff both independently/academically funded, with ideological (not financial) conflicts noted
+- Verdict: efficacy claim robust but overstated for mild-to-moderate depression; serotonin mechanism not well supported
+
+### Process
+
+1. Identify a specific, checkable claim
+2. Locate primary peer-reviewed sources; note sample size and design
+3. Check funding (pharma, insurance, university, government, advocacy group)
+4. Flag conclusions that align suspiciously well with a funder's or author's interests
+5. Compare against independent/opposing research
+6. Publish a 200–300 word sourced micro-blog with an explicit verdict
+
+### Key Metadata
+
+- **Output format:** Markdown (.md)
+- **Each entry includes:** micro-blog summary + full audit notes (methodology, funding, bias check, comparison, verdict)
+- **Date created:** 2026-07-05
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +153,21 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_psych_claims_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_antidepressants-serotonin-audit.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +190,12 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Claims Audited** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Documentation Files** | 5 |
 
 ---
 
