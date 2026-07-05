@@ -45,6 +45,22 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_psychology_research_audits_routine**
+
+**What it does:** Researches and audits claims about psychology, neuroscience, marketing influence, and mental health treatment — verifying sources, funding, and conflicts of interest — then drafts a cited micro-blog news item with a verdict.
+
+**Contains:**
+- Claim audit files (methodology, funding/COI review, comparison against opposing research)
+- Micro-blog news item drafts (200–300 words, cited)
+
+**Frequency:** As needed  
+**Output format:** Markdown (.md)  
+**Status:** ✅ Active
+
+📖 [Go to routine →](03_psychology_research_audits_routine/)
+
+---
+
 ## File Structure
 
 ```
@@ -58,17 +74,21 @@ routines/
 │   └── publisher/
 │       └── elt365_lessons_publisher.py
 │
-└── 02_python_toolkit_routine/
-    ├── nlp_utils.py
-    ├── ai_file_organizer_pro.py
-    ├── ai_file_organizer_pro_v2.py
-    ├── audio2txt.py
-    ├── audio2txt (1).py
-    ├── pdf2txtv2.py
-    ├── pdf2txtv2 (1).py
-    ├── webscrapper.py
-    ├── webscrapper (1).py
-    └── README.md
+├── 02_python_toolkit_routine/
+│   ├── nlp_utils.py
+│   ├── ai_file_organizer_pro.py
+│   ├── ai_file_organizer_pro_v2.py
+│   ├── audio2txt.py
+│   ├── audio2txt (1).py
+│   ├── pdf2txtv2.py
+│   ├── pdf2txtv2 (1).py
+│   ├── webscrapper.py
+│   ├── webscrapper (1).py
+│   └── README.md
+│
+└── 03_psychology_research_audits_routine/
+    ├── README.md
+    └── PSYCH_001_chemical_imbalance_depression.md
 ```
 
 ---
@@ -106,4 +126,4 @@ When a new Claude Code routine creates content:
 
 **Back to main README?** 👉 [Free Education Root](../)
 
-*Last Updated: 2026-06-15*
+*Last Updated: 2026-07-05*
