@@ -45,6 +45,22 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_psych_claims_audit_routine**
+
+**What it does:** Researches and audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checking primary sources, methodology, funding/conflicts of interest, and opposing research — then publishes a short sourced verdict.
+
+**Contains:**
+- One markdown entry per audited claim
+- Each entry: a 200–300 word micro-blog summary plus full audit notes (methodology, funding, bias check, comparison)
+
+**Frequency:** As needed  
+**Output format:** Markdown (.md)  
+**Status:** ✅ Active
+
+📖 [Go to routine →](03_psych_claims_audit_routine/)
+
+---
+
 ## File Structure
 
 ```
@@ -58,17 +74,21 @@ routines/
 │   └── publisher/
 │       └── elt365_lessons_publisher.py
 │
-└── 02_python_toolkit_routine/
-    ├── nlp_utils.py
-    ├── ai_file_organizer_pro.py
-    ├── ai_file_organizer_pro_v2.py
-    ├── audio2txt.py
-    ├── audio2txt (1).py
-    ├── pdf2txtv2.py
-    ├── pdf2txtv2 (1).py
-    ├── webscrapper.py
-    ├── webscrapper (1).py
-    └── README.md
+├── 02_python_toolkit_routine/
+│   ├── nlp_utils.py
+│   ├── ai_file_organizer_pro.py
+│   ├── ai_file_organizer_pro_v2.py
+│   ├── audio2txt.py
+│   ├── audio2txt (1).py
+│   ├── pdf2txtv2.py
+│   ├── pdf2txtv2 (1).py
+│   ├── webscrapper.py
+│   ├── webscrapper (1).py
+│   └── README.md
+│
+└── 03_psych_claims_audit_routine/
+    ├── README.md
+    └── 2026-07-05_antidepressants-serotonin-audit.md
 ```
 
 ---
@@ -106,4 +126,4 @@ When a new Claude Code routine creates content:
 
 **Back to main README?** 👉 [Free Education Root](../)
 
-*Last Updated: 2026-06-15*
+*Last Updated: 2026-07-05*
