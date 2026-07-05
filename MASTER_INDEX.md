@@ -1,7 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-06-15  
-**Total Routines:** 2 | **Total Items:** 60+
+**Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 61+
 
 ---
 
@@ -9,6 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Sourced audits of psychology/neuroscience/marketing/mental-health claims
 
 ---
 
@@ -105,6 +106,26 @@
 
 ---
 
+## Routine 3: Psychology & Marketing Claim Audits
+
+**What it does:** Audits widely-repeated claims about human psychology, neuroscience, marketing influence, and mental health treatment — traces each claim to primary sources, checks sample size/methodology, discloses funding and conflicts of interest, and compares against independent or opposing research.  
+**Location:** `routines/03_psychology_marketing_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit
+
+### Audits
+
+| File | Claim audited | Verdict |
+|------|----------------|---------|
+| `power_posing_audit.md` | "Power posing" for 2 minutes changes testosterone/cortisol and behavior (Carney, Cuddy & Yap 2010) | Contested/largely falsified — only the subjective "feeling more powerful" effect survives replication (Ranehill et al. 2015; Simmons & Simonsohn 2017); original N=42; NSF-grant funded (no pharma/corporate conflict), but strong post-publication commercial incentive (TED talk, book) to defend it; co-author Dana Carney has publicly disavowed the effect. |
+
+### Key Metadata
+
+- **Output format:** Markdown (.md), one file per claim
+- **Sourcing standard:** At least 2 independent primary/secondary sources per audit, with funding/COI disclosure
+- **Date created:** 2026-07-05
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +141,21 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_psychology_marketing_audit_routine/
+│       ├── README.md
+│       └── power_posing_audit.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +178,12 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Documentation Files** | 5 |
 
 ---
 
