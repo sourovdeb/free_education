@@ -30,11 +30,22 @@
 
 ---
 
+### 🧠 I want a cited psychology/marketing claim audit
+👉 Go to **`routines/03_psychology_marketing_audit_routine/`**
+- Short, cited fact-checks of psychology, neuroscience, marketing, and mental-health-treatment claims
+- Verifies primary sources, funding/conflicts of interest, and opposing research
+- Format: Markdown (news items)
+- Status: Active, first item published 2026-07-07
+
+👉 [**Latest Audit**](routines/03_psychology_marketing_audit_routine/2026-07-07_antidepressants-vs-placebo-audit.md)
+
+---
+
 ## 📂 What's Inside
 
 | Folder | What | Items |
 |--------|------|-------|
-| **routines/** | Organized by Claude routine type | 60+ items |
+| **routines/** | Organized by Claude routine type | 61+ items |
 | **elt365_lessons/** | Original lessons (backup) | 50 lessons |
 | **python_toolkit/** | Original tools (backup) | 5 tools |
 
