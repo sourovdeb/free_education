@@ -9,6 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
 
 ---
 
@@ -105,6 +106,29 @@
 
 ---
 
+## Routine 3: Psychology & Marketing Claim Audits
+
+**What it does:** Researches a psychology/neuroscience/marketing/mental-health claim, verifies primary sources and sample sizes, checks funding and conflicts of interest, compares against independent or opposing research, and publishes a short cited verdict as a news item.
+**Location:** `routines/03_psychology_marketing_audit_routine/`
+**Status:** ✅ Active | **Items:** 1 news item
+
+### Content Blocks
+
+#### Block 3A: Antidepressants vs. Placebo Audit
+📄 File: `2026-07-07_antidepressants-vs-placebo-audit.md`
+- Compares Cipriani et al. 2018 (*The Lancet*), Kirsch et al. 2008 (*PLoS Medicine*), and Munkholm et al. 2019 (*BMJ Evidence-Based Medicine*)
+- Discloses that 78% of trials in the largest meta-analysis were industry-sponsored, while the meta-analysis itself was publicly funded
+- Verdict: claim is real but overstated — modest, contested effect size
+- Includes an appendix on decision-making psychology and marketing-spend rationale
+
+### Key Metadata
+
+- **Sources cited:** 4 independent sources per audit (minimum 2 required)
+- **Output format:** Markdown (.md)
+- **Date created:** 2026-07-07
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +144,21 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_psychology_marketing_audit_routine/
+│       ├── README.md
+│       └── 2026-07-07_antidepressants-vs-placebo-audit.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +181,12 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Documentation Files** | 5 |
 
 ---
 
