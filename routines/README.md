@@ -45,6 +45,25 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_psychology_marketing_audit_routine**
+
+**What it does:** Audits psychology/neuroscience/marketing/mental-health claims — primary
+sources, funding/conflict-of-interest check, replication comparison — and drafts a cited
+micro-blog post plus decision-making notes.
+
+**Contains:**
+- Full audit of "ego depletion" (contested — large registered replications found ≈zero effect)
+- Notes on decision-making psychology, marketing spend, low-effort heuristics, and cognitive overload
+- WordPress draft publisher script (currently blocked — see routine README)
+
+**Frequency:** As needed  
+**Output format:** Markdown (.md)  
+**Status:** ⚠️ Content complete, WordPress publish blocked (endpoint 404)
+
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
+
+---
+
 ## File Structure
 
 ```
@@ -58,17 +77,24 @@ routines/
 │   └── publisher/
 │       └── elt365_lessons_publisher.py
 │
-└── 02_python_toolkit_routine/
-    ├── nlp_utils.py
-    ├── ai_file_organizer_pro.py
-    ├── ai_file_organizer_pro_v2.py
-    ├── audio2txt.py
-    ├── audio2txt (1).py
-    ├── pdf2txtv2.py
-    ├── pdf2txtv2 (1).py
-    ├── webscrapper.py
-    ├── webscrapper (1).py
-    └── README.md
+├── 02_python_toolkit_routine/
+│   ├── nlp_utils.py
+│   ├── ai_file_organizer_pro.py
+│   ├── ai_file_organizer_pro_v2.py
+│   ├── audio2txt.py
+│   ├── audio2txt (1).py
+│   ├── pdf2txtv2.py
+│   ├── pdf2txtv2 (1).py
+│   ├── webscrapper.py
+│   ├── webscrapper (1).py
+│   └── README.md
+│
+└── 03_psychology_marketing_audit_routine/
+    ├── AUDIT_ego_depletion.md
+    ├── DECISION_MAKING_NOTES.md
+    ├── README.md
+    └── publisher/
+        └── psych_audit_publisher.py
 ```
 
 ---
