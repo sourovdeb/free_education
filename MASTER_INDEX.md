@@ -1,7 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-06-15  
-**Total Routines:** 2 | **Total Items:** 60+
+**Last Updated:** 2026-07-14  
+**Total Routines:** 3 | **Total Items:** 64+
 
 ---
 
@@ -9,6 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited audits of psychology/marketing/mental-health claims
 
 ---
 
@@ -105,6 +106,45 @@
 
 ---
 
+## Routine 3: Psychology & Marketing Claim Audits
+
+**What it does:** Audits a claim about human psychology, neuroscience, marketing
+influence, or mental health treatment each cycle — checks primary sources,
+sample sizes, funding/conflicts of interest, and contested/opposing research —
+then publishes a short cited news item. Also maintains research notes on
+decision-making, marketing spend, effort-seeking behavior, and persuasion
+under cognitive overload.  
+**Location:** `routines/03_psychology_marketing_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit log + 2 research-notes files + 1 news post (growing each cycle)
+
+### Content Blocks
+
+#### Audit Log
+📄 File: `audit_log.md`
+- Mirrors the `Psychology_Marketing_Claim_Audits` Google Sheet schema
+- 2026-07-07: antidepressants vs. placebo (Mental Health Treatment)
+- 2026-07-14: "choice overload" / the jam study (Marketing Influence)
+
+#### News Items
+📁 Folder: `news/`
+- 200–300 word cited micro-blog posts, one per audited claim
+
+#### Research Notes
+📄 File: `research_notes_2026-07-14.md`
+- How decisions form (childhood, attachment, trauma, ideology, society)
+- What marketing spend is actually buying (habit loops, heuristics, not rational persuasion)
+- Why humans default to low-effort options (cognitive miser model, metabolic cost of cognition)
+- Why an overloaded brain is easier to persuade, and today's overload sources
+
+### Key Metadata
+
+- **Output format:** Markdown (.md)
+- **Every audit includes:** primary sources with sample sizes, funding disclosure, at least 2 independent sources, and an explicit verdict
+- **Known limitation:** no Google Sheets write/append tool is available to this routine yet — `audit_log.md` is the durable record until the sheet is updated by hand
+- **Date created:** 2026-07-14
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +160,24 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_psychology_marketing_audit_routine/
+│       ├── README.md
+│       ├── audit_log.md
+│       ├── research_notes_2026-07-14.md
+│       └── news/
+│           └── 2026-07-14_choice-overload-audit.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +200,12 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Claim Audits** | 2 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Documentation Files** | 5 |
 
 ---
 
