@@ -44,3 +44,4 @@ Authorization: X-Sourov-Key: [key]
 ### Session history
 - **2026-07-19 09:40 UTC**: First aggressive sync, pushed 9 mental-health audits
 - **2026-07-19 ongoing**: Pushing additional lesson content
+- **2026-07-21 12:40 UTC**: Fixed same `tags`-as-string and `post_id`-vs-`id` bugs as `my_professional_documents/sync_verification.py` (identical script). Restricted scan to `elt365_lessons/` and `routines/` (was globbing entire repo). No free_education content was in this run's pushed batch of 5 — all came from my_professional_documents; free_education's `**/*.md` scan previously found 0 new items after dedup even before the fix. 8+ open PRs (#38–#48) with unpublished content (psychology audits, human-nature routines, multi-platform sync system) left unmerged for owner review — not auto-merged.
