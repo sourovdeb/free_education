@@ -24,6 +24,8 @@ The human brain is wired for tribal conformity. Evolutionary psychologist Robin 
 
 This means that for a scientist embedded in an institution — a university, a funding body, a professional society — the act of contradicting the dominant narrative is neurologically equivalent to touching a hot stove. The amygdala registers it as survival threat. The prefrontal cortex, where rational dissent is formed, can be overridden.
 
+The institutional use of **blocking vocabulary** is precise: words that describe the suppressed reality are systematically removed from acceptable discourse. You cannot name what you cannot speak. The public develops only **receptive knowledge** of the approved narrative — the ability to absorb and repeat it — while **productive knowledge** (the ability to generate independent critique) is actively discouraged. This is not accidental. It is the **lesson plan objective** of institutional epistemic control.
+
 Carl Jung named the mechanism the **Shadow** — the repository of everything we refuse to consciously acknowledge about ourselves and our institutions. Jung's insight was that suppressed material doesn't disappear; it accumulates power and eventually erupts, usually in the form of projection. We accuse the whistleblower of the very pathology our institution is exhibiting: paranoia, self-promotion, grifting.
 
 Freud was equally precise. His concept of the **reality principle** — the ego's capacity to delay immediate gratification in favour of long-term survival — is chronically undermined when institutional survival *demands* short-term conformity. The scientist who needs grant renewal, tenure, invitations to conferences: their ego's reality principle has been captured by the institution's incentive structure.
@@ -63,6 +65,8 @@ The mechanism Eric Weinstein describes in his 2026 remarks is not paranoid conje
 What has changed since 1970 is *scale* and *deniability*. The transition from direct asset recruitment to structural funding dependency (universities dependent on federal grants, journals dependent on pharmaceutical advertising, think tanks dependent on defence contracts) means the control architecture no longer requires individual corruption. The incentive structure does the work automatically. This is what Weinstein means when he says the covert operations community "can't be seen into" — it has become the ambient environment of academic production, not a visible foreign body within it.
 
 The social media layer compounds this geometrically. A 2021 paper in *Nature Human Behaviour* (Pennycook et al.) demonstrated that accuracy prompts on Twitter increased sharing of credible content — but also documented that the platform's engagement algorithm *structurally rewards outrage over accuracy*. This is not a bug. It is the predictable output of an optimisation function that was never asked to optimise for truth.
+
+The **listening for gist** problem becomes acute: the public learns to absorb only the main institutional narrative, tuning out detail that contradicts it. This mirrors exactly how language learners are taught receptive skills — the ability to grasp the general meaning without processing contradictory data. Institutions exploit this: they provide the gist (lab leak is conspiracy, narrative A is settled), and the population's **instructional checking questions** become rhetorical rather than genuine inquiry. "Is this true?" becomes "Am I allowed to think this?"
 
 ---
 

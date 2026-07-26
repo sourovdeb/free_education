@@ -30,6 +30,8 @@ The problem is that this mechanism was calibrated for bands of 30–150 people (
 
 When that evolutionary hardware runs inside a modern university, a media organisation, or a government agency, it produces **tall poppy syndrome** at institutional scale: the systematic pressure to cut down the individual who grows too distinctive, too accurate, too credible. The target need not be wrong. In fact, the more correct they are, the more threatening they become to the status quo of the coalition.
 
+The institutional **lesson plan objective** is unstated but clear: maintain conformity. The **instructional checking questions** directed at the dissident are not genuine — "What evidence do you have?" — but performative gates. The dissident is given only **receptive knowledge** permission: absorb the consensus, do not produce critique. When they violate this implicit boundary, the institution shifts from **freer practice** (you may speak in certain contexts) to control (you may not speak at all).
+
 This is what Jungian analyst James Hollis calls **institutional shadow** — the collective refusal of a group to acknowledge the parts of itself that threaten its self-image. The institution projects onto the deviant individual exactly the pathology it is most committed to not seeing in itself: narcissism, self-promotion, instability.
 
 ---
@@ -84,7 +86,7 @@ The individuals who are excluded from your coalition — who were perhaps exiled
 
 Boehm's ethnographic data suggests the reflex can be overridden — forager bands had elders who explicitly moderated the suppression impulse, recognising that certain kinds of excellence were coalition-enhancing rather than coalition-threatening. The question for modern institutions is whether any equivalent mechanism can be built.
 
-The first step is individual: recognising the reflex as an evolutionary artifact rather than a moral judgment. The person your institution is currently excluding: are they wrong, or are they simply inconvenient?
+The first step is individual: recognising the reflex as an evolutionary artifact rather than a moral judgment. The person your institution is currently excluding: are they wrong, or are they simply inconvenient? The distinction is crucial — it mirrors the **should/can difference** in language learning. You *should* exclude them (institutional pressure); but you *can* actually recognise their accuracy. The tension between what institutions permit you to say and what you can actually produce (productive knowledge) is where resistance begins. **Blocking vocabulary** — the words institutions forbid you to use about the excluded person — is the first thing to recover. Call them by their name. Use **productive skills** (independent judgment) rather than only **receptive knowledge** (what you've been taught to absorb).
 
 Reflect on this honestly, perhaps in a journal entry. If the patterns resonate with your own experience of institutional life, I'd be interested to hear from you at sourovdeb.is@gmail.com.
 
