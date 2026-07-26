@@ -5,9 +5,9 @@
 2. Model (2026-07-26)
 3. Prompt (2026-07-26)
 4. System Prompt (2026-07-26)
+5. Token (2026-07-26)
 
 ## Concepts to Cover Next
-5. Token
 6. Temperature
 7. Memory
 8. Tool
