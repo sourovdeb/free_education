@@ -32,6 +32,8 @@ We are not chimps. But the neural substrate is conserved. Philip Zimbardo's 2007
 
 What Freud named the **superego** — the internalised authority that regulates behaviour — is not a stable moral compass. It is a *coalition-dependent* regulatory system. The superego's commands change when the coalition's authority structure changes. This is why the same person can be tender with their children and compliant with institutional atrocity. The situations activate different authority frames, and different frames activate different superego configurations.
 
+The institutional use of **semi-formal greetings** and ritualized deference is itself a form of obedience training. You learn the correct tone ("with respect, I must defer to the authority"), the correct framing ("the consensus suggests"), the correct receptive posture. Your **productive knowledge** — the ability to generate independent judgment — is gradually replaced by receptive compliance. The **lesson plan objective** of institutional authority is not to educate but to train the **should/can distinction**: you should comply; you can speak only what you are permitted to produce.
+
 ---
 
 ## Historical Patterns
@@ -89,6 +91,8 @@ The evolutionary reason is straightforward: in the ancestral environment, disobe
 What this means practically is that the culture war — the surface-level conflict over language, identity, and symbols — was never the real battlefield. The real battlefield is the question of *who controls the authority frames that activate your obedience switch*. The woke corporation, the intelligence agency, the pharmaceutical company, the algorithm: each is competing to be the white coat in your Milgram experiment.
 
 The antidote is not cynicism. Cynicism is just obedience with extra steps — it defers to the authority that says all authorities are corrupt, which is itself an authority claim. The antidote is the disciplined cultivation of what psychologist Jonathan Haidt calls **moral elevation** — the capacity to recognise genuine moral courage when you see it, and to treat it as data about what humans are capable of, not as aberration.
+
+This requires recognising the mechanisms of institutional control. **Blocking vocabulary** makes it impossible to name the control. **Instructional checking questions** ("Do you understand?") are not genuine; they are **choral drilling** — group compliance testing. The distinction between **should** and **can** is everything: you *should* obey, but you *can* only think what you are permitted. **Receptive knowledge** is what institutions teach (absorb the consensus); **productive knowledge** (generate independent thought) is discouraged. **Freer practice** (the space where you might think independently) is systematically constrained.
 
 Francis Kelsey refused to approve thalidomide. Milgram's 35% refused to pull the lever. Franz Jägerstätter refused conscription into the Nazi army and was executed. These are not miracles. They are the minority phenotype — the distribution tail that, in sufficient numbers, keeps civilisations epistemically viable.
 
