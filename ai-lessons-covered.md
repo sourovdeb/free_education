@@ -7,9 +7,9 @@
 4. System Prompt (2026-07-26)
 5. Token (2026-07-26)
 6. Temperature (2026-07-26)
+7. Memory (2026-07-27)
 
 ## Concepts to Cover Next
-7. Memory
 8. Tool
 9. API
 10. JSON
