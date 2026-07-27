@@ -29,5 +29,7 @@
 
 ## Bonus Advanced Concepts
 16. Prompt Engineering (2026-07-27)
-17. Embeddings  Vector Databases (2026-07-27)
+17. Embeddings & Vector Databases (2026-07-27)
 18. Fine-Tuning (2026-07-27)
+19. LLMs vs Small Models (2026-07-27)
+20. Model Evaluation Metrics (2026-07-27)
