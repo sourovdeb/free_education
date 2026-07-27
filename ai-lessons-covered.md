@@ -26,3 +26,6 @@
 **Environment**: Mistral AI console (https://console.mistral.ai)
 **Categories**: Mental Health, ELT Masterclass, English Teaching, Philosophy, Photography, Software, DXO, Learn AI in Mistral Studio
 **SEO Keywords**: blocking vocabulary, should and can difference, gist questions, jigsaw listening, semi formal email, productive skills, receptive knowledge, subsidiary aim, marcus aurelius, listening for gist
+
+## Bonus Advanced Concepts
+16. Prompt Engineering (2026-07-27)
