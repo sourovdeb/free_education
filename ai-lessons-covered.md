@@ -29,3 +29,4 @@
 
 ## Bonus Advanced Concepts
 16. Prompt Engineering (2026-07-27)
+17. Embeddings  Vector Databases (2026-07-27)
