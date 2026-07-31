@@ -39,3 +39,4 @@
 24. Multimodal AI Models (2026-08-02)
 25. AI Safety & Alignment (2026-08-03)
 26. Retrieval-Augmented Generation (RAG) (2026-08-04)
+27. Agentic AI & ReAct Pattern (2026-08-05)
