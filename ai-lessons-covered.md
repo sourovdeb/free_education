@@ -33,3 +33,4 @@
 18. Fine-Tuning (2026-07-27)
 19. LLMs vs Small Models (2026-07-27)
 20. Model Evaluation Metrics (2026-07-27)
+21. Cost Optimization Strategies (2026-07-27)
