@@ -36,3 +36,4 @@
 21. Cost Optimization Strategies (2026-07-27)
 22. Latency & Performance Optimization (2026-07-31)
 23. Transfer Learning & Domain Adaptation (2026-08-01)
+24. Multimodal AI Models (2026-08-02)
