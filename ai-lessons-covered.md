@@ -21,8 +21,8 @@
 ✓ **COMPLETE: All 15 AI concepts in series created and ready for sync**
 
 ---
-**Last Updated**: 2026-08-09
-**Status**: 31 ADVANCED LESSONS COMPLETE
+**Last Updated**: 2026-08-10
+**Status**: 32 ADVANCED LESSONS COMPLETE
 **Environment**: Mistral AI console (https://console.mistral.ai)
 **Categories**: Mental Health, ELT Masterclass, English Teaching, Philosophy, Photography, Software, DXO, Learn AI in Mistral Studio
 **SEO Keywords**: blocking vocabulary, should and can difference, gist questions, jigsaw listening, semi formal email, productive skills, receptive knowledge, subsidiary aim, marcus aurelius, listening for gist
@@ -44,3 +44,4 @@
 29. Prompt Caching & Context Window Optimization (2026-08-07)
 30. Batch Processing & Async Inference (2026-08-08)
 31. Model Quantization Techniques (2026-08-09)
+32. Low-Rank Adaptation (LoRA) (2026-08-10)
