@@ -1,7 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-06-15  
-**Total Routines:** 2 | **Total Items:** 60+
+**Last Updated:** 2026-07-04  
+**Total Routines:** 3 | **Total Items:** 61+
 
 ---
 
@@ -9,6 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology Claims Audit](#routine-3-psychology-claims-audit)** — Fact-checked audits of psychology, neuroscience, marketing and mental-health claims
 
 ---
 
@@ -105,6 +106,32 @@
 
 ---
 
+## Routine 3: Psychology Claims Audit
+
+**What it does:** Researches and audits claims about human psychology, neuroscience, marketing influence, and mental-health treatment — verifying primary sources, disclosing funding/conflicts of interest, and comparing against opposing research — then drafts a short, cited micro-blog post per claim.  
+**Location:** `routines/03_psychology_claims_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audited claim (post + full audit notes)
+
+### Content
+
+#### Item 3A: The "Chemical Imbalance" (Serotonin) Theory of Depression
+📄 File: `POST_01_Serotonin_Chemical_Imbalance_Depression.md`
+- Audits the long-marketed claim that depression is caused by low brain serotonin
+- Primary source: Moncrieff et al. 2022 umbrella review (*Molecular Psychiatry*) — no dedicated funding
+- Opposing source: 31-author rebuttal with disclosed pharmaceutical-industry ties (Janssen, Lundbeck, Sunovion)
+- Neutral comparison: UK Science Media Centre independent expert reactions
+- Full sourcing and funding/COI table: `AUDIT_NOTES_01_Serotonin_Depression.md`
+- Status: Draft, pending human review before external/WordPress publication
+
+### Key Metadata
+
+- **Output format:** Markdown (.md) — one post + one audit-notes file per claim
+- **Minimum sourcing bar:** ≥2 independent sources per post, funding/COI disclosed or explicitly flagged as unverifiable
+- **Publishing:** Drafts only; matches Routine 1's review-before-publish pattern
+- **Date created:** 2026-07-04
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +147,22 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_psychology_claims_audit_routine/
+│       ├── README.md
+│       ├── POST_01_Serotonin_Chemical_Imbalance_Depression.md
+│       └── AUDIT_NOTES_01_Serotonin_Depression.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +185,12 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Psychology/Neuroscience Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Documentation Files** | 5 |
 
 ---
 
