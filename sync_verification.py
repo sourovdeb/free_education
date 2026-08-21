@@ -52,7 +52,10 @@ def categorize_content(filepath, content):
     return "Software"  # default fallback
 
 def scan_repositories():
-    """Scan my_professional_documents and free_education for publishable content."""
+    """Scan documented content directories in my_professional_documents and free_education
+    for publishable content. Only the directories CLAUDE.md lists as sync sources are
+    scanned — repo docs (READMEs, guides, CLAUDE.md) and personal files (cover letters,
+    job lists, credentials) are never candidates."""
     items = []
 
     # Skip sensitive/archive directories
@@ -62,22 +65,42 @@ def scan_repositories():
         "Story_of_Sourov", ".git", "__pycache__", "node_modules"
     }
 
-    for repo_path in [
-        Path("/home/user/my_professional_documents"),
-        Path("/home/user/free_education")
-    ]:
+    repo_include_dirs = {
+        Path("/home/user/my_professional_documents"): [
+            "blog_and_essays", "daily_essays", "posts", "guides",
+            "AI_Lessons", "AI_Term_Lessons", "CELTA_Teaching_Materials",
+            "presentations", "Presentations", "Growth_Hub", "initiatives",
+            "weekly-briefings",
+        ],
+        Path("/home/user/free_education"): [
+            "elt365_lessons", "routines",
+        ],
+    }
+
+    for repo_path, include_dirs in repo_include_dirs.items():
         if not repo_path.exists():
             continue
 
-        # Look for markdown, text, and essay files
-        for filepath in repo_path.glob("**/*.md"):
+        candidate_files = []
+        for include_dir in include_dirs:
+            candidate_files.extend((repo_path / include_dir).glob("**/*.md"))
+
+        for filepath in candidate_files:
             # Skip if in skip patterns
             if any(skip in str(filepath) for skip in skip_patterns):
+                continue
+
+            # Skip reusable templates - not publishable content
+            if "template" in filepath.stem.lower():
                 continue
 
             try:
                 with open(filepath, 'r', encoding='utf-8') as f:
                     content = f.read()
+
+                # Skip files already published/synced (carry explicit WP post IDs)
+                if "wp id" in content[:1000].lower() or "wp status" in content[:1000].lower():
+                    continue
 
                 # Use filename as title if frontmatter not present
                 title = filepath.stem.replace('_', ' ').replace('-', ' ').title()
@@ -105,14 +128,14 @@ def push_draft(title, content, category):
                 "content": content,
                 "status": "draft",
                 "category": category,
-                "tags": category.lower().replace(" ", "_"),
+                "tags": [category.lower().replace(" ", "_")],
             },
             headers={"X-Sourov-Key": API_KEY},
             timeout=15
         )
         if resp.status_code in [200, 201]:
             data = resp.json()
-            return data.get('post_id')
+            return data.get('id')
     except Exception as e:
         print(f"⚠ Could not push '{title}': {e}")
     return None
