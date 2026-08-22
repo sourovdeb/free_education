@@ -2,6 +2,8 @@
 
 **Last Updated:** 2026-07-14  
 **Total Routines:** 3 | **Total Items:** 64+
+**Last Updated:** 2026-07-18  
+**Total Routines:** 3 | **Total Items:** 65+
 
 ---
 
@@ -10,6 +12,7 @@
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited audits of psychology/marketing/mental-health claims
+- **[Routine 3: Human Nature Field Guide](#routine-3-human-nature-field-guide)** — Illustrated psychology primer for young readers
 
 ---
 
@@ -142,6 +145,52 @@ under cognitive overload.
 - **Every audit includes:** primary sources with sample sizes, funding disclosure, at least 2 independent sources, and an explicit verdict
 - **Known limitation:** no Google Sheets write/append tool is available to this routine yet — `audit_log.md` is the durable record until the sheet is updated by hand
 - **Date created:** 2026-07-14
+## Routine 3: Human Nature Field Guide
+
+**What it does:** A single illustrated 10-minute read on human psychology and behavior for a young audience — Freud, Jung, Dostoevsky, and Buddha, connected to evolutionary/hunter-gatherer mismatch theory and modern life (habits, addiction, fear, anger, greed, defense mechanisms, sex, competition, friendship, religion, ideology, politics, innovation).  
+**Location:** `routines/03_human_nature_routine/`  
+**Status:** ✅ Active | **Items:** 1 article + 5 SVG doodles
+
+### Content
+
+📄 File: `HUMAN_NATURE_Field_Guide.md`
+- Four-thinker primer (Freud's iceberg, Jung's shadow/persona, Dostoevsky's spite-as-freedom, Buddha's craving loop)
+- Evolutionary mismatch theory (300,000-year-old brain in a world built in the last 250 years)
+- A field map applying the lens across 13 modern topics
+- A section explicitly challenging good/bad binary thinking
+- A "Gaps in this research" section flagging contested vs. established claims
+- Cited sources throughout
+
+### Doodles (`assets/`)
+
+| File | What it shows |
+|------|----------------|
+| `iceberg.svg` | Freud: conscious tip, unconscious mass below the waterline |
+| `shadow-persona.svg` | Jung: the public mask and the shadow it casts |
+| `triune-brain.svg` | Simplified 3-layer brain metaphor (reptilian/limbic/neocortex) |
+| `craving-loop.svg` | Buddha's want → get → brief relief → want again cycle |
+| `tribe-vs-city.svg` | Hunter-gatherer band (~150 people) vs. a modern city/feed of millions |
+
+### Date Created
+
+- 2026-07-18
+## Routine 3: Psychology & Mental Health Claim Audits
+
+**What it does:** Researches a psychology, neuroscience, marketing-influence, or mental-health-treatment claim: locates primary sources, checks methodology/sample size, investigates funder conflicts of interest (pharma, insurers, universities, government), compares against opposing/independent research, and drafts a sourced, funding-disclosed micro-blog verdict.  
+**Location:** `routines/03_psychology_mental_health_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit (growing)
+
+### Audits Completed
+
+| File | Claim | Verdict |
+|------|-------|---------|
+| `2026-07-05_antidepressant-placebo-audit.md` | "SSRIs barely beat placebo, except in severe depression" | Contested — publication bias (Turner et al. 2008, NEJM) inflated pre-2008 evidence; strongest current synthesis (Cipriani et al. 2018, Lancet) shows a real effect but rests on a 78%-industry-funded trial base (cf. Lundh et al. 2017, Cochrane) |
+
+### Key Metadata
+
+- **Output format:** Markdown (.md) — audit + micro-blog per claim
+- **External publishing:** Held for human review before any post goes live (medical/mental-health subject matter)
+- **Date created:** 2026-07-05
 
 ---
 
@@ -178,6 +227,18 @@ free_education/
 │       ├── research_notes_2026-07-14.md
 │       └── news/
 │           └── 2026-07-14_choice-overload-audit.md
+│   └── 03_human_nature_routine/
+│       ├── HUMAN_NATURE_Field_Guide.md
+│       ├── README.md
+│       └── assets/
+│           ├── iceberg.svg
+│           ├── shadow-persona.svg
+│           ├── triune-brain.svg
+│           ├── craving-loop.svg
+│           └── tribe-vs-city.svg
+│   └── 03_psychology_mental_health_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_antidepressant-placebo-audit.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -205,6 +266,10 @@ free_education/
 | **Python Tools** | 5 |
 | **Claim Audits** | 2 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Claim Audits** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Illustrated Articles** | 1 (Human Nature Field Guide) |
+| **Documentation Files** | 6 |
 | **Documentation Files** | 5 |
 
 ---
