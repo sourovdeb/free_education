@@ -19,8 +19,8 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 - WordPress publisher script
 - Lesson index
 
-**Frequency:** As needed  
-**Output format:** Markdown (.md)  
+**Frequency:** As needed
+**Output format:** Markdown (.md)
 **Status:** ✅ Active
 
 📖 [Go to routine →](01_elt365_lessons_routine/)
@@ -37,14 +37,27 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 - Full setup and usage documentation
 - PyQt6 dark-theme UI
 
-**Frequency:** As needed  
-**Output format:** Python (.py)  
+**Frequency:** As needed
+**Output format:** Python (.py)
 **Status:** ✅ Active
 
 📖 [Go to routine →](02_python_toolkit_routine/)
 
 ---
 
+### 3️⃣ **03_psychology_marketing_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment (funding, conflicts of interest, contested evidence) and drafts a sourced micro-blog.
+
+**Contains:**
+- `persuasion-audit.md` — claim ledger, per-claim audit, micro-blog synthesis, source list
+- README noting known limitations (no connected publishing target, and a mismatched save-target Google Sheet from the stored task prompt)
+
+**Frequency:** As needed
+**Output format:** Markdown (.md)
+**Status:** ✅ Active (first run)
+
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 ### 3️⃣ **03_psychology_mental_health_audit_routine**
 
 **What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental-health treatment — locates primary sources, checks funding/conflicts of interest, compares against opposing research, and drafts a sourced micro-blog verdict.
@@ -86,6 +99,9 @@ routines/
 │   ├── webscrapper (1).py
 │   └── README.md
 │
+└── 03_psychology_marketing_audit_routine/
+    ├── persuasion-audit.md
+    └── README.md
 └── 03_psychology_mental_health_audit_routine/
     ├── README.md
     └── 2026-07-05_antidepressant-placebo-audit.md
@@ -126,4 +142,5 @@ When a new Claude Code routine creates content:
 
 **Back to main README?** 👉 [Free Education Root](../)
 
+*Last Updated: 2026-07-18*
 *Last Updated: 2026-07-05*
