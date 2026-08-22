@@ -118,6 +118,7 @@
 ---
 
 ## Notes
+
 - Test draft (ID 831, title 'TEST DRAFT — please ignore') can be deleted from WP admin.
 - All lessons posted to `https://www.sourovdeb.com/wp-json/sourov/v1/ai-post` with `status: draft`.
 - Category mapping: Blocks 1, 3, 4, 5, 6 → **English Teaching** · Block 2 → **Career & Professional Development**.
