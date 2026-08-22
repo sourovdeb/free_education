@@ -1,0 +1,953 @@
+
+<title>The Dark Architecture of Institutional Truth</title>
+<style>
+:root {
+  --bg: #07070E;
+  --surface: #0F0F1C;
+  --surface2: #171728;
+  --border: #222238;
+  --text: #E4DDD0;
+  --dim: #6E6E88;
+  --red: #C4302A;
+  --amber: #C9922A;
+  --green: #2A8A5A;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono: 'Courier New', Courier, monospace;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #F2EDE3;
+    --surface: #FFFFFF;
+    --surface2: #F7F3EC;
+    --border: #D8D0C0;
+    --text: #1A1828;
+    --dim: #888898;
+    --red: #B02820;
+    --amber: #B07A18;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #07070E; --surface: #0F0F1C; --surface2: #171728;
+  --border: #222238; --text: #E4DDD0; --dim: #6E6E88;
+  --red: #C4302A; --amber: #C9922A;
+}
+:root[data-theme="light"] {
+  --bg: #F2EDE3; --surface: #FFFFFF; --surface2: #F7F3EC;
+  --border: #D8D0C0; --text: #1A1828; --dim: #888898;
+  --red: #B02820; --amber: #B07A18;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ── DECK ── */
+#deck {
+  height: calc(100vh - 52px);
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 5vw 2rem;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity .35s ease, transform .35s ease;
+  pointer-events: none;
+  overflow: hidden;
+}
+.slide.active { opacity: 1; transform: none; pointer-events: all; }
+@media (prefers-reduced-motion: reduce) { .slide { transition: none; } }
+
+/* cover */
+.s-cover { border-left: 4px solid var(--red); padding-left: 3rem; background: var(--bg); }
+
+/* section break */
+.s-section {
+  background: var(--red);
+  border: none;
+}
+.s-section * { color: #fff !important; }
+.s-section .tag { color: rgba(255,255,255,.55) !important; }
+.s-section .subdeck { color: rgba(255,255,255,.7) !important; }
+
+/* ── TYPOGRAPHY ── */
+.tag {
+  font-family: var(--mono);
+  font-size: .65rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: .9rem;
+  display: block;
+}
+
+h1 {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  font-weight: 700;
+  line-height: 1.12;
+  text-wrap: balance;
+  max-width: 18ch;
+  margin-bottom: .5rem;
+}
+
+h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  text-wrap: balance;
+  max-width: 24ch;
+  margin-bottom: 1.2rem;
+}
+
+h3 {
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: .6rem;
+}
+
+p {
+  font-size: clamp(.9rem, 1.4vw, 1.05rem);
+  line-height: 1.68;
+  max-width: 58ch;
+}
+p + p { margin-top: .65rem; }
+
+.lead {
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
+  line-height: 1.6;
+  max-width: 50ch;
+}
+
+.stat-num {
+  font-family: var(--serif);
+  font-size: clamp(3.5rem, 7vw, 5.5rem);
+  font-weight: 700;
+  color: var(--red);
+  line-height: 1;
+  letter-spacing: -.02em;
+  display: block;
+}
+.stat-sub {
+  font-family: var(--mono);
+  font-size: .65rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--dim);
+  margin-top: .2rem;
+  display: block;
+}
+
+ul.pts { list-style: none; display: flex; flex-direction: column; gap: .7rem; max-width: 54ch; }
+ul.pts li {
+  font-size: clamp(.88rem, 1.35vw, 1rem);
+  line-height: 1.58;
+  padding-left: 1.2rem;
+  position: relative;
+}
+ul.pts li::before { content: '—'; position: absolute; left: 0; color: var(--red); }
+
+blockquote {
+  border-left: 3px solid var(--red);
+  padding-left: 1.4rem;
+  margin: 1.2rem 0;
+  font-family: var(--serif);
+  font-size: clamp(.95rem, 1.5vw, 1.15rem);
+  font-style: italic;
+  line-height: 1.62;
+  max-width: 52ch;
+}
+blockquote cite {
+  display: block;
+  font-family: var(--mono);
+  font-style: normal;
+  font-size: .65rem;
+  letter-spacing: .08em;
+  color: var(--amber);
+  margin-top: .4rem;
+}
+
+.source {
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .06em;
+  color: var(--dim);
+  margin-top: 1.5rem;
+  padding-top: .5rem;
+  border-top: 1px solid var(--border);
+  max-width: 70ch;
+}
+
+/* ── LAYOUT ── */
+.cols { display: grid; gap: 3rem; align-items: center; }
+.cols-2 { grid-template-columns: 1fr 1fr; }
+.cols-3-2 { grid-template-columns: 3fr 2fr; }
+.cols-2-3 { grid-template-columns: 2fr 3fr; }
+
+/* ── REDACT EFFECT ── */
+.rx {
+  display: inline-block;
+  background: var(--text);
+  color: transparent;
+  border-radius: 1px;
+  padding: 0 .08em;
+  transition: background .7s .2s ease, color .4s .5s ease;
+}
+.revealed .rx { background: transparent; color: inherit; }
+
+/* ── CALLOUT ── */
+.callout {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--amber);
+  padding: .9rem 1.2rem;
+  border-radius: 0 3px 3px 0;
+  max-width: 50ch;
+}
+.callout p { font-size: .88rem; color: var(--text); }
+
+/* ── CONTROLS ── */
+#controls {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: 52px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  padding: 0 2rem;
+  font-family: var(--mono);
+  font-size: .7rem;
+  z-index: 200;
+}
+
+#controls button {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: .3rem .8rem;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: .65rem;
+  letter-spacing: .06em;
+  transition: border-color .15s, color .15s;
+}
+#controls button:hover, #controls button:focus {
+  border-color: var(--red);
+  color: var(--red);
+  outline: none;
+}
+
+#counter { flex: 1; text-align: center; color: var(--dim); }
+#article-ind { color: var(--amber); font-size: .6rem; letter-spacing: .12em; text-transform: uppercase; min-width: 10ch; text-align: right; }
+
+#progress { display: flex; gap: 3px; align-items: center; }
+.pd { width: 4px; height: 4px; border-radius: 50%; background: var(--border); transition: background .2s; flex-shrink: 0; }
+.pd.cur { background: var(--red); }
+.pd.sect { width: 8px; border-radius: 1px; background: var(--amber); }
+
+/* ── NOTES PANEL ── */
+#notes {
+  position: fixed;
+  bottom: 52px; left: 0; right: 0;
+  background: rgba(4,4,14,.96);
+  border-top: 2px solid var(--amber);
+  padding: 1rem 5vw 1.2rem;
+  max-height: 28vh;
+  overflow-y: auto;
+  transform: translateY(100%);
+  transition: transform .2s ease;
+  z-index: 150;
+}
+#notes.open { transform: none; }
+#notes .nl { font-family: var(--mono); font-size: .6rem; letter-spacing: .14em; text-transform: uppercase; color: var(--amber); margin-bottom: .5rem; }
+#notes p { font-size: .82rem; line-height: 1.6; color: var(--text); max-width: 80ch; }
+
+/* ── SVG DIAGRAMS ── */
+svg.diagram { width: 100%; overflow: visible; }
+.dbox { fill: var(--surface2); stroke: var(--border); stroke-width: 1; }
+.dbox-r { fill: none; stroke: var(--red); stroke-width: 1.5; }
+.dbox-a { fill: none; stroke: var(--amber); stroke-width: 1; }
+.darrow { fill: none; stroke: var(--dim); stroke-width: 1.2; marker-end: url(#arr); }
+.darrow-r { fill: none; stroke: var(--red); stroke-width: 1.5; marker-end: url(#arr-r); }
+.dl { font-family: var(--mono); font-size: 10px; fill: var(--dim); letter-spacing: .04em; }
+.dt { font-family: var(--serif); font-size: 12px; fill: var(--text); font-weight: 700; }
+.ds { font-family: var(--serif); font-size: 20px; fill: var(--red); font-weight: 700; }
+</style>
+
+<!-- ═══════════════════════════ SLIDES ═══════════════════════════ -->
+<div id="deck">
+
+<!-- 0: COVER -->
+<div class="slide s-cover active" data-art="intro" data-notes="Welcome frame. Three articles, one thesis: the suppression of accurate-but-inconvenient information is not a bug in Western institutions — it is their evolutionary default state. Set the tone immediately. This is not conspiracy theory; it is documented social science. Tell the audience: you will leave today with a framework, not a revelation.">
+  <span class="tag">Dark Architecture — 3-Part Series · 2026</span>
+  <h1 class="revealed">The <span class="rx">Hidden</span><br>Architecture<br>of Institutional Truth</h1>
+  <p class="lead" style="margin-top:1.2rem; color: var(--dim);">How covert operations, evolutionary psychology,<br>and primal obedience conspire to suppress<br>the people most capable of saving us.</p>
+  <p class="source">Series: Covert Ops & Narrative / Shadow Institutions / Primal Obedience · Sourov Deb · sourovdeb.is@gmail.com</p>
+</div>
+
+<!-- ── ARTICLE 1 SECTION ── -->
+<!-- 1 -->
+<div class="slide s-section" data-art="1" data-notes="Article 1 opener. The culture war was a proxy war. The real war is about who gets to write institutional narratives — and who gets destroyed for writing them accurately. Key energy: this is not political, it is structural.">
+  <span class="tag" style="color:rgba(255,255,255,.5)">Article 1 of 3</span>
+  <h1>The Uncomfortable Truth:<br>How Covert Operations<br>Hijack Scientific Narratives</h1>
+  <p class="subdeck" style="margin-top:1rem; font-size:1.05rem;">From MKUltra to COVID lab-leak suppression — the documented mechanics of state narrative management.</p>
+</div>
+
+<!-- 2: HOOK -->
+<div class="slide" data-art="1" data-notes="The hook needs to land hard. MKUltra is not ancient history — the files were only released because of a misfiling accident. Helms ordered them destroyed in 1973. Ask the audience: what files haven't survived? Pause here. Let that sit. Then pivot to the 77 Nobelists — which happened in our lifetime.">
+  <div class="cols cols-3-2">
+    <div>
+      <span class="tag">Hook · 1953 & 2020</span>
+      <h2>Two Events.<br>Seventy Years Apart.<br>Same Mechanism.</h2>
+      <p><strong>1953:</strong> CIA launches MKUltra — LSD, sensory deprivation, electroshock on unwitting civilians. Ran for <em>20 years.</em> Exposed only because a misfiled batch survived the 1973 destruction order.</p>
+      <p style="margin-top:.8rem"><strong>2020:</strong> 77 Nobel laureates — particle physicists, chemists — co-sign a letter defending EcoHealth Alliance's Wuhan research. Many have zero virology expertise. The lab-leak hypothesis is declared conspiracy theory.</p>
+      <p class="source">Sources: Church Committee Final Report, Book I (1976) · NIH FOIA email releases (2021–23)</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:1.5rem; align-items:center;">
+      <div><span class="stat-num">20</span><span class="stat-sub">years MKUltra ran<br>before exposure</span></div>
+      <div><span class="stat-num">77</span><span class="stat-sub">Nobel signatories<br>outside their field</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- 3: HIDDEN DRIVER -->
+<div class="slide" data-art="1" data-notes="This is the pivot that makes the talk non-paranoid. The link is evolutionary psychology. Social rejection activates the SAME neural pathways as physical pain — this is measurable, replicated, peer-reviewed. Scientists are not cowards; they are primates. The amygdala doesn't care about the truth. It cares about survival. Jung's Shadow: institutions project onto the whistleblower the very pathology they're exhibiting.">
+  <div class="cols cols-2-3">
+    <div>
+      <span class="tag">The Hidden Driver</span>
+      <h2>Social Pain Is<br>Physical Pain.</h2>
+      <p>Naomi Eisenberger (UCLA, 2012) demonstrated that social exclusion activates the <em>same neural pain pathways</em> as physical injury.</p>
+      <p>For an embedded scientist, contradicting the dominant narrative is neurologically equivalent to touching a hot stove.</p>
+      <p style="margin-top:.9rem">Jung called the suppressed material the <strong>Shadow</strong>. It doesn't disappear. It accumulates — and erupts as projection: <em>"the whistleblower is the grifter."</em></p>
+      <p class="source">Eisenberger, "Pain of Social Disconnection," Nature Reviews Neuroscience (2012) · Jung, Aion (1951)</p>
+    </div>
+    <!-- SVG: Neural Cost Diagram -->
+    <svg class="diagram" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+          <polygon points="0 0, 7 3.5, 0 7" fill="#6E6E88"/>
+        </marker>
+        <marker id="arr-r" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+          <polygon points="0 0, 7 3.5, 0 7" fill="#C4302A"/>
+        </marker>
+      </defs>
+      <!-- Event box -->
+      <rect x="10" y="10" width="120" height="38" rx="3" class="dbox"/>
+      <text x="70" y="25" text-anchor="middle" class="dl">EVENT</text>
+      <text x="70" y="40" text-anchor="middle" class="dt" style="font-size:11px">Contradict the narrative</text>
+      <!-- Arrow down -->
+      <line x1="70" y1="48" x2="70" y2="74" class="darrow-r"/>
+      <!-- Amygdala box -->
+      <rect x="10" y="74" width="120" height="38" rx="3" style="fill:none; stroke:#C4302A; stroke-width:1.5;"/>
+      <text x="70" y="88" text-anchor="middle" class="dl" style="fill:#C4302A">AMYGDALA</text>
+      <text x="70" y="104" text-anchor="middle" class="dt" style="font-size:11px; fill:#C4302A">Survival threat detected</text>
+      <!-- Arrow down -->
+      <line x1="70" y1="112" x2="70" y2="138" class="darrow-r"/>
+      <!-- Pain box -->
+      <rect x="10" y="138" width="120" height="38" rx="3" class="dbox"/>
+      <text x="70" y="153" text-anchor="middle" class="dl">OUTPUT</text>
+      <text x="70" y="169" text-anchor="middle" class="dt" style="font-size:11px">Prefrontal override → comply</text>
+      <!-- Right: bypass path -->
+      <rect x="160" y="50" width="110" height="50" rx="3" style="fill:none; stroke:#2A8A5A; stroke-width:1; stroke-dasharray:4,3;"/>
+      <text x="215" y="68" text-anchor="middle" class="dl" style="fill:#2A8A5A">RARE</text>
+      <text x="215" y="83" text-anchor="middle" class="dt" style="font-size:11px; fill:#2A8A5A">Prefrontal override</text>
+      <text x="215" y="97" text-anchor="middle" class="dl" style="fill:#2A8A5A">→ dissent</text>
+      <line x1="130" y1="93" x2="160" y2="75" class="darrow" style="stroke:#2A8A5A; stroke-dasharray:4,3;"/>
+      <!-- Label bottom -->
+      <text x="70" y="200" text-anchor="middle" class="dl">Default: institutional compliance</text>
+      <text x="215" y="200" text-anchor="middle" class="dl" style="fill:#2A8A5A">Exception: ~35%</text>
+    </svg>
+  </div>
+</div>
+
+<!-- 4: ROME -->
+<div class="slide" data-art="1" data-notes="Damnatio memoriae is perfect for this audience because it's visceral and familiar. The Romans didn't need to kill you twice — they killed your credibility infrastructure. The coins, the statues, the inscriptions. Modern equivalent: the editor who spikes the story, the department chair who uninvites the speaker, the platform that labels a hypothesis 'misinformation.' Same operation. Mike Benz's research is key here — he documents that modern influence campaigns target the gatekeepers, not the journalists.">
+  <div class="cols cols-2">
+    <div>
+      <span class="tag">Historical Pattern 1 · Rome</span>
+      <h2><em>Damnatio Memoriae:</em><br>The Prototype</h2>
+      <p>The Roman Senate didn't need to refute inconvenient truth. It <em>erased the credibility infrastructure</em> around the individual: statues defaced, inscriptions chiselled out, coins reminted.</p>
+      <blockquote>
+        "You do not need to suppress the truth directly. You need to ensure the credentialed class is structurally incentivised to suppress it for you."
+        <cite>— paraphrasing Mike Benz, Foundation for Freedom Online</cite>
+      </blockquote>
+      <p class="source">Church Committee testimony (1977) · Operation Mockingbird, confirmed 1975</p>
+    </div>
+    <div>
+      <span class="tag">Historical Pattern 2 · Empire & Science</span>
+      <h3 style="margin-top:.3rem">The Institutional Laundering Template</h3>
+      <ul class="pts" style="margin-top:.5rem">
+        <li><strong>Tuskegee (1932–72)</strong> — medical deception via institutional legitimacy; 40 years of documented abuse under PHS authority</li>
+        <li><strong>Royal Society, Uganda 1907</strong> — lethal drug dosing on colonial subjects, peer-reviewed and published</li>
+        <li><strong>The lesson for marketers:</strong> credentialed consensus is the strongest delivery mechanism for false narrative</li>
+      </ul>
+      <div class="callout" style="margin-top:1rem">
+        <p><strong>The control point is the editor, not the journalist.</strong> Journalists are trusted. Editors are managed.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 5: DIAGRAM — Credibility Pipeline -->
+<div class="slide" data-art="1" data-notes="This diagram is the core of the talk. Walk through it slowly. The intelligence community doesn't need to instruct individual scientists. It funds the funding bodies. The funding bodies fund the universities. The universities produce the consensus. The consensus reaches the public through gatekeepers. The dissident trying to enter this chain is structurally blocked at every node. Ask: what would it take to short-circuit this? (Answer comes in article 2.)">
+  <span class="tag">The Credibility Laundering Pipeline</span>
+  <h2>No Direct Instruction Needed.</h2>
+  <!-- SVG: Horizontal flow -->
+  <svg class="diagram" viewBox="0 0 700 200" style="max-width:700px; margin-top:1rem">
+    <defs>
+      <marker id="a1" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><polygon points="0 0,7 3.5,0 7" fill="#6E6E88"/></marker>
+      <marker id="a2" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><polygon points="0 0,7 3.5,0 7" fill="#C4302A"/></marker>
+    </defs>
+    <!-- Boxes -->
+    <rect x="10" y="65" width="100" height="50" rx="3" class="dbox"/>
+    <text x="60" y="84" text-anchor="middle" class="dl">INTEL / STATE</text>
+    <text x="60" y="100" text-anchor="middle" class="dt" style="font-size:10px">USAID · CIA slush</text>
+    <rect x="145" y="65" width="100" height="50" rx="3" class="dbox"/>
+    <text x="195" y="84" text-anchor="middle" class="dl">FOUNDATIONS</text>
+    <text x="195" y="100" text-anchor="middle" class="dt" style="font-size:10px">NIH · EcoHealth</text>
+    <rect x="280" y="65" width="100" height="50" rx="3" class="dbox"/>
+    <text x="330" y="84" text-anchor="middle" class="dl">ACADEMIA</text>
+    <text x="330" y="100" text-anchor="middle" class="dt" style="font-size:10px">Grant-dependent</text>
+    <rect x="415" y="65" width="100" height="50" rx="3" class="dbox"/>
+    <text x="465" y="84" text-anchor="middle" class="dl">JOURNALS</text>
+    <text x="465" y="100" text-anchor="middle" class="dt" style="font-size:10px">Peer-review gate</text>
+    <rect x="550" y="65" width="120" height="50" rx="3" class="dbox"/>
+    <text x="610" y="84" text-anchor="middle" class="dl">PUBLIC BELIEF</text>
+    <text x="610" y="100" text-anchor="middle" class="dt" style="font-size:10px">Editors · Platforms</text>
+    <!-- Arrows -->
+    <line x1="110" y1="90" x2="145" y2="90" marker-end="url(#a1)" class="darrow"/>
+    <line x1="245" y1="90" x2="280" y2="90" marker-end="url(#a1)" class="darrow"/>
+    <line x1="380" y1="90" x2="415" y2="90" marker-end="url(#a1)" class="darrow"/>
+    <line x1="515" y1="90" x2="550" y2="90" marker-end="url(#a1)" class="darrow"/>
+    <!-- Dissident blocked -->
+    <rect x="240" y="148" width="100" height="38" rx="3" style="fill:none; stroke:#C4302A; stroke-width:1.5; stroke-dasharray:5,3;"/>
+    <text x="290" y="163" text-anchor="middle" class="dl" style="fill:#C4302A">DISSIDENT</text>
+    <text x="290" y="178" text-anchor="middle" class="dt" style="font-size:10px; fill:#C4302A">Accurate. Blocked.</text>
+    <line x1="290" y1="148" x2="290" y2="115" stroke="#C4302A" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#a2)"/>
+    <text x="295" y="134" class="dl" style="fill:#C4302A">BLOCKED</text>
+    <text x="10" y="190" class="dl">No direct instruction required. The incentive structure does the work.</text>
+  </svg>
+  <p class="source">George Stigler, "Theory of Economic Regulation" (1971) · Project CAMELOT, 1964 · Pennycook et al., Nature (2021)</p>
+</div>
+
+<!-- 6: UNIVERSITIES — HIGHEST-VALUE PIPELINE NODES -->
+<div class="slide" data-art="1" data-notes="This is the most provocative slide in Article 1. The audience expects these universities to be the solution. They are, structurally, part of the problem — not because of bad people, but because maximum prestige equals maximum narrative amplification value. The Cambridge Five were not an accident; they were the predictable outcome of an institution so high-value that BOTH sides of the Cold War competed to penetrate it. Henry Murray at Harvard was running CIA-adjacent psychological research on his own undergraduates — one of whom was Theodore Kaczynski. The Rhodes Scholarship is the most visible example of a deliberate credibility-class construction. 13 US Secretaries of State. This is not anti-intellectualism. It is the observation that the most powerful nodes are the most contested.">
+  <span class="tag">Article 1 · The Prestige Problem</span>
+  <h2>Harvard. Oxford. Cambridge.<br>The Highest-Value Nodes<br>Are the Most Contested.</h2>
+  <div class="cols cols-2" style="margin-top:.8rem">
+    <div style="display:flex; flex-direction:column; gap:1rem">
+      <!-- Cambridge -->
+      <div class="callout" style="border-left-color: var(--red)">
+        <h3 style="margin-bottom:.3rem">Cambridge</h3>
+        <p>Produced the Cambridge Five: Burgess, Maclean, Philby, Blunt, Cairncross — the most trusted institution in Western intelligence simultaneously harbouring its most damaging Soviet moles. Both sides understood that Cambridge credibility was the asset.</p>
+      </div>
+      <!-- Oxford -->
+      <div class="callout" style="border-left-color: var(--amber)">
+        <h3 style="margin-bottom:.3rem">Oxford · Rhodes Scholarship</h3>
+        <p>Cecil Rhodes' explicit design: a credibility class with shared ideological commitments across the Anglo-American leadership. 13 US Secretaries of State are Rhodes Scholars. Not a conspiracy — a <em>designed credentialing pipeline</em>, openly documented in Rhodes' will.</p>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:1rem">
+      <!-- Harvard -->
+      <div class="callout" style="border-left-color: var(--red)">
+        <h3 style="margin-bottom:.3rem">Harvard</h3>
+        <p>Henry Murray (Harvard psychology) ran OSS/CIA-adjacent personality research on undergraduates 1959–62. One 16-year-old subject was subjected to deliberate psychological stress and humiliation over three years. His name was Theodore Kaczynski. Murray's own notes document the distress. The connection is documented; the causal weight is debated.</p>
+      </div>
+      <div style="margin-top:.5rem">
+        <p style="font-family: var(--serif); font-style:italic; font-size:1rem; line-height:1.6; max-width:38ch; color:var(--text)">Maximum prestige = maximum credibility amplification = maximum narrative value. The most powerful nodes are the most worth capturing.</p>
+      </div>
+      <p class="source" style="margin-top:.3rem">Rhodes Trust founding documents (1902) · Andrew Lycett, "Ian Fleming" (1995) · Alston Chase, "Harvard and the Unabomber" (2003)</p>
+    </div>
+  </div>
+</div>
+
+<!-- 7: IMPLICATION A1 -->
+<div class="slide" data-art="1" data-notes="Close article 1 with the uncomfortable mirror. This is not about villains. It is about default states. Ask the audience: where in your professional life do you hold a belief because contradicting it would be costly? The Kelsey case is the antidote: one woman, one correct decision, millions of lives. Epistemic autonomy is rare, measurable, and consequential.">
+  <span class="tag">Implication · Article 1</span>
+  <h2>Institutional Epistemic Cowardice<br>Is the Default State.</h2>
+  <div class="cols cols-2" style="margin-top:1rem">
+    <div>
+      <p>The researchers who signed letters they didn't understand, the editors who spiked documented stories, the physicists who erased their own talks — <em>they were not villains.</em></p>
+      <p>They were primates operating under coalition pressure. The amygdala does not distinguish between physical threat and institutional threat.</p>
+      <blockquote style="margin-top:1rem">
+        "What Francis Kelsey did was not heroism. It was the exercise of genuine cognitive independence against the full weight of institutional pressure."
+        <cite>— Thalidomide case, 1961–62 · FDA vs. pharmaceutical industry</cite>
+      </blockquote>
+    </div>
+    <div>
+      <h3>The Question This Forces</h3>
+      <ul class="pts">
+        <li>Not: who are the bad actors?</li>
+        <li>But: which structures produce <em>epistemic cowardice</em>, and which produce epistemic autonomy?</li>
+        <li>Tenure was one answer. Peer review was one answer. Neither has proven sufficient.</li>
+        <li>The next answer remains unwritten.</li>
+      </ul>
+      <div class="callout" style="margin-top:1.2rem">
+        <p><strong>Journal prompt:</strong> Where do you hold a belief because contradicting it would be costly?</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── ARTICLE 2 SECTION ── -->
+<!-- 7 -->
+<div class="slide s-section" data-art="2" data-notes="Article 2 pivot. We've established WHY institutions suppress truth. Now: why do they suppress the people who tell it? The tall poppy reflex is the mechanism — and it's 300,000 years old. The pattern runs from Socrates to Jordan Peterson. The economics of reinsertion are startlingly mundane: $5–15M for a chaired professorship. Nobody is paying it.">
+  <span class="tag" style="color:rgba(255,255,255,.5)">Article 2 of 3</span>
+  <h1>The Shadow Institutions:<br>Why We Abandon<br>Our Best Thinkers</h1>
+  <p class="subdeck" style="margin-top:1rem; font-size:1.05rem;">Hunter-gatherer bands killed those who accumulated too much power. Modern institutions do the same to those who accumulate too much truth.</p>
+</div>
+
+<!-- 8: HOOK A2 -->
+<div class="slide" data-art="2" data-notes="Rosalind Franklin is not just a gender injustice story. It is a structural story. The institution extracted the empirical foundation of a Nobel Prize from her without her knowledge — then celebrated the people who used it. Watson later made racist statements. He was stripped of honours. Franklin got posthumous tributes. Neither outcome is heroic. Both are structurally predictable. This is not about good and bad people.">
+  <span class="tag">Hook · The Franklin–Watson Case</span>
+  <h2>The Institution Extracted<br>the Discovery. Celebrated<br>the Recipients.</h2>
+  <div class="cols cols-3-2" style="margin-top:.5rem">
+    <div>
+      <p>In 1952, Rosalind Franklin produced Photo 51 — the X-ray crystallography image that revealed the double-helix structure of DNA. It was shared with Watson and Crick <em>without her knowledge or consent.</em></p>
+      <p>In 1962, Watson and Crick received the Nobel Prize. Franklin had died four years earlier. She was not eligible for posthumous nomination.</p>
+      <p>Watson later made racist statements about genetic intelligence. He was stripped of all honours. Franklin received posthumous tributes.</p>
+      <blockquote style="margin-top:1rem">Neither outcome is heroic. Both are structurally predictable.
+        <cite>— Brenda Maddox, "Rosalind Franklin: The Dark Lady of DNA" (2002)</cite>
+      </blockquote>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:1.2rem">
+      <div><span class="stat-num">0</span><span class="stat-sub">Nobel nominations for<br>the woman whose data<br>made it possible</span></div>
+      <div><span class="stat-num">37</span><span class="stat-sub">her age at death from<br>ovarian cancer, 1958</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- 9: TALL POPPY -->
+<div class="slide" data-art="2" data-notes="Christopher Boehm's data is extraordinary. Across hundreds of ethnographic studies of forager societies, the pattern is consistent: the band collectively suppresses individuals who accumulate disproportionate resources, status, or decision-making authority. This is not culturally specific. It's species-wide. And it was survival-critical — for a band of 150 people. The problem is that this mechanism is now running inside institutions of 10,000+ people managing non-zero-sum knowledge production. It produces systematic self-sabotage.">
+  <div class="cols cols-2">
+    <div>
+      <span class="tag">The Hidden Driver · Evolutionary</span>
+      <h2>The Tall Poppy Reflex<br>Is 300,000 Years Old.</h2>
+      <p>Christopher Boehm (2012) documented across hundreds of ethnographic studies: forager bands maintained equality through <em>active suppression of dominance</em> — ridicule, ostracism, execution of those who accumulated too much.</p>
+      <p>This was survival-critical for a band of 150 people in a zero-sum resource environment.</p>
+      <p style="margin-top:.8rem">The problem: it was <strong>never designed for institutions of thousands</strong> managing non-zero-sum knowledge production.</p>
+      <p style="margin-top:.8rem">Running that hardware at institutional scale produces systematic destruction of the people most capable of improving the institution.</p>
+      <p class="source">Boehm, "Moral Origins" (2012) · Dunbar, "Grooming, Gossip" (1996)</p>
+    </div>
+    <!-- SVG: Tall Poppy Diagram -->
+    <svg class="diagram" viewBox="0 0 240 200">
+      <defs>
+        <marker id="sci" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+          <path d="M0,0 L8,4 M0,8 L8,4" stroke="#C4302A" stroke-width="1.5" fill="none"/>
+        </marker>
+      </defs>
+      <text x="120" y="18" text-anchor="middle" class="dl">COALITION EQUILIBRIUM</text>
+      <!-- Equal bars -->
+      <rect x="10" y="130" width="28" height="50" rx="2" class="dbox"/>
+      <rect x="48" y="115" width="28" height="65" rx="2" class="dbox"/>
+      <rect x="86" y="125" width="28" height="55" rx="2" class="dbox"/>
+      <!-- Tall bar (dissident) -->
+      <rect x="124" y="40" width="28" height="140" rx="2" style="fill:none; stroke:#C4302A; stroke-width:1.5;"/>
+      <text x="138" y="35" text-anchor="middle" class="dl" style="fill:#C4302A; font-size:9px">DISSIDENT</text>
+      <!-- Cut line -->
+      <line x1="115" y1="100" x2="165" y2="100" stroke="#C4302A" stroke-width="2" stroke-dasharray="6,3"/>
+      <text x="170" y="104" class="dl" style="fill:#C4302A; font-size:9px">COALITION</text>
+      <text x="170" y="115" class="dl" style="fill:#C4302A; font-size:9px">CUT LINE</text>
+      <!-- More equal bars -->
+      <rect x="162" y="120" width="28" height="60" rx="2" class="dbox"/>
+      <rect x="200" y="135" width="28" height="45" rx="2" class="dbox"/>
+      <!-- Jungian label -->
+      <text x="120" y="185" text-anchor="middle" class="dl">Jung: Institutional Shadow projects onto the target.</text>
+    </svg>
+  </div>
+</div>
+
+<!-- 10: SOCRATES + LYSENKO -->
+<div class="slide" data-art="2" data-notes="Socrates: his crime was epistemological — he showed that respected people didn't know what they claimed to know. Athens didn't execute him because he was wrong. They executed him because his method was structurally incompatible with coalition maintenance. The modern equivalent is not execution. It's defunding, deplatforming, the withdrawal of institutional affiliations. Same outcome: the argument loses its amplification infrastructure and dies of neglect. Lysenko: the perfect case of an institution selecting for compliance over accuracy. Stalin needed genetics to be wrong. So it was. 600 biologists destroyed. Soviet agriculture fell decades behind.">
+  <div class="cols cols-2">
+    <div>
+      <span class="tag">Pattern 1 · Athens, 399 BCE</span>
+      <h3>Socrates Was Not Executed<br>for Being Wrong.</h3>
+      <p>He was executed because his method of inquiry was <em>structurally incompatible with coalition maintenance.</em> He could not be bought, flattered, or absorbed.</p>
+      <p style="margin-top:.5rem">Modern equivalent: not execution — <strong>defunding, deplatforming, withdrawal of affiliations.</strong> The argument loses its amplification infrastructure and dies of neglect.</p>
+      <div class="callout" style="margin-top:1rem">
+        <p>You don't need to refute the argument. You need to destroy the career. Once the career is gone, the argument follows.</p>
+      </div>
+    </div>
+    <div>
+      <span class="tag">Pattern 2 · USSR, 1940–64</span>
+      <h3>When the State Selects<br>for Compliance.</h3>
+      <p>Trofim Lysenko rejected Mendelian genetics. Scientists who disagreed: imprisoned, gulag, killed. 600+ Soviet biologists destroyed over 24 years.</p>
+      <p style="margin-top:.5rem">Lysenko was not an aberration. He was the <em>optimal product</em> of an incentive structure that selected for political loyalty over empirical accuracy.</p>
+      <ul class="pts" style="margin-top:.8rem">
+        <li>Stalin needed genetics to be wrong (ideological conflict with transformable-human thesis)</li>
+        <li>The institution rewarded whoever provided the required answer</li>
+        <li>Soviet agricultural science fell 30 years behind the West</li>
+      </ul>
+      <p class="source">Medvedev, "Rise and Fall of T.D. Lysenko" (1969)</p>
+    </div>
+  </div>
+</div>
+
+<!-- 11: OXFORD/CAMBRIDGE — REINSERTION FAILURE -->
+<div class="slide" data-art="2" data-notes="This is the slide that will create the most audience discomfort — especially a UK audience. Weinstein specifically names Cambridge and Oxford as the institutions that SHOULD be leading the reabsorption of vindicated dissidents. They are doing the opposite. The Peterson case is the most recent and visible. The Scruton case is the most revealing: he was reinstated — but died 5 months later. The reinstatement came too late to matter. This is not accidental. The institutional ego defence is extremely powerful when the institution's brand identity is at stake. Cambridge's brand rests on tolerance of eccentricity. Rescinding Peterson was a betrayal of its own stated identity. The failure to acknowledge this is itself a symptom of institutional shadow.">
+  <span class="tag">Article 2 · Oxford &amp; Cambridge — The Specific Failure</span>
+  <h2>The Institutions That<br><em>Should</em> Lead Reinsertion<br>Are Leading Expulsion.</h2>
+  <div class="cols cols-2" style="margin-top:.8rem">
+    <div>
+      <h3>Cambridge · Jordan Peterson</h3>
+      <p>2019: Cambridge rescinds Peterson's visiting fellowship after faculty and student complaints. Peterson had been invited by the Faculty of Divinity. The invitation was withdrawn following a social-media campaign.</p>
+      <p style="margin-top:.6rem"><strong>Reinstated?</strong> No. Six years later, Peterson remains outside the institution that Weinstein identifies as the world's "leading collector of eccentrics."</p>
+      <div class="callout" style="margin-top:.8rem">
+        <p>Cambridge's stated identity: intellectual tolerance, engagement with difficult ideas. Its action: social-media responsive expulsion of a controversial figure. The gap between identity and behaviour is the definition of institutional shadow.</p>
+      </div>
+    </div>
+    <div>
+      <h3>Oxford · Roger Scruton</h3>
+      <p>2019: Scruton dismissed from a UK government arts advisory role after New Statesman journalist George Eaton misrepresented interview quotes — selectively editing to make statements appear racist and antisemitic.</p>
+      <p style="margin-top:.6rem">The full recording later proved misrepresentation. Eaton was disciplined. Scruton was reinstated. <strong>He died five months later.</strong></p>
+      <h3 style="margin-top:1rem">Rosalind Franklin · Cambridge-Adjacent</h3>
+      <p>The DNA discovery: the data extracted without consent, the Nobel Prize awarded to those who used it, the posthumous tributes to the person erased. All within the UK's elite academic network.</p>
+      <p class="source" style="margin-top:.8rem">Cambridge Faculty of Divinity statement, 2019 · New Statesman editor's note, April 2019 · Scruton Foundation records</p>
+    </div>
+  </div>
+</div>
+
+<!-- 12: REINSERTION ECONOMICS -->
+<div class="slide" data-art="2" data-notes="This is Eric Weinstein's core provocation. A chaired professorship costs $5–15M. The philanthropic class could literally buy its way back into the academy for its vindicated dissidents. Nobody is doing it. Why not? Because reinsertion would be an institutional admission that the expulsion was wrong. Institutions, like individuals, have egos. Institutional ego defence is one of the most robust and undertheorised phenomena in organisational psychology. Parallel institutions — podcasts, Substacks, independent conferences — produce reach but not the next generation. You cannot train a PhD student on a podcast.">
+  <div class="cols cols-3-2">
+    <div>
+      <span class="tag">Modern Echoes · The Economics of Reinsertion</span>
+      <h2>The Math Is<br>Embarrassingly Simple.<br>Nobody Is Doing It.</h2>
+      <p>A chaired professorship at a major US university costs <strong>$5–15 million</strong> to endow. Within range of any serious philanthropist.</p>
+      <p style="margin-top:.7rem">The vindicated dissidents — correct on lab leaks, the replication crisis, nutritional epidemiology — are being left in the parallel institutions: podcasts, Substack, event venues.</p>
+      <p style="margin-top:.7rem"><strong>Why?</strong> Reinstatement would be an institutional admission that the expulsion was wrong. Institutional ego defence prevents it.</p>
+      <blockquote style="margin-top:1rem">
+        "Parallel institutions are insufficient. A podcast does not produce the next generation of researchers."
+        <cite>— E. Weinstein, lecture, 2026</cite>
+      </blockquote>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:1.5rem">
+      <div><span class="stat-num">$15M</span><span class="stat-sub">max cost of an endowed<br>chair — the reinsertion tool</span></div>
+      <div><span class="stat-num">0</span><span class="stat-sub">vindicated dissidents<br>reinserted with chairs<br>since 2020</span></div>
+    </div>
+  </div>
+  <p class="source">Weinstein, E., "Dissident Academic Reinsertion," 2026 · Boehm, "Moral Origins" (2012)</p>
+</div>
+
+<!-- ── ARTICLE 3 SECTION ── -->
+<!-- 12 -->
+<div class="slide s-section" data-art="3" data-notes="Article 3 is the most disturbing. It's personal. We have empirical data showing that the majority of ordinary people, under institutional authority, will cross every moral threshold they've ever consciously identified as absolute. This is not about bad people. It is about situational architecture. And the state — from Rome to the CIA — has understood this for millennia. The culture war is a surface conflict. The real war is over who controls the authority frames that activate the obedience switch.">
+  <span class="tag" style="color:rgba(255,255,255,.5)">Article 3 of 3</span>
+  <h1>Primal Obedience:<br>The Evolutionary Trap<br>That Made Us Perfect<br>Subjects of State Science</h1>
+  <p class="subdeck" style="margin-top:1rem; font-size:1.05rem;">65% of Milgram's subjects electrocuted a stranger on command. The science of obedience is the most disturbing — and most suppressed — finding in human psychology.</p>
+</div>
+
+<!-- 13: MILGRAM HOOK -->
+<div class="slide" data-art="3" data-notes="Pause on the statistics. 65% delivered the maximum 450V shock — labelled 'Danger: Severe Shock' and then just 'XXX.' They heard the screams. They heard the begging. They continued. Not because they were sadists — follow-up interviews showed profound distress. They continued because a man in a white lab coat said 'please continue.' The authority cue overrode every other input. This is the most replicated finding in all of social psychology. And it has never been comfortably integrated into public discourse about institutional authority.">
+  <div class="cols cols-2-3">
+    <div>
+      <span class="tag">Hook · Yale, 1961</span>
+      <h2>The Man<br>in the White Coat<br>Said "Continue."</h2>
+      <p>65% of ordinary Americans — teachers, salespeople, engineers — delivered maximum 450-volt shocks to a screaming stranger, on the instruction of an experimenter.</p>
+      <p style="margin-top:.7rem">Milgram's conclusion: humans possess an <strong>agentic state</strong> — a mode where the individual is an instrument of legitimate authority, not a moral agent.</p>
+      <p style="margin-top:.7rem">Responsibility is experienced as belonging to the <em>authority</em>, not the <em>actor.</em></p>
+      <p class="source">Milgram, "Obedience to Authority" (1974) · replicated in 2008 by Burger, American Psychologist</p>
+    </div>
+    <!-- SVG: Voltage Arc / Compliance Gauge -->
+    <svg class="diagram" viewBox="0 0 280 200">
+      <!-- Arc gauge: semi-circle 0-450V -->
+      <text x="140" y="30" text-anchor="middle" class="dl">VOLTAGE COMPLIANCE ARC</text>
+      <!-- Background arc -->
+      <path d="M 30 150 A 110 110 0 0 1 250 150" fill="none" stroke="#222238" stroke-width="28"/>
+      <!-- Segments: green (safe) 0-150V -->
+      <path d="M 30 150 A 110 110 0 0 1 103 51" fill="none" stroke="#2A8A5A" stroke-width="28" opacity=".7"/>
+      <!-- Yellow 150-300 -->
+      <path d="M 103 51 A 110 110 0 0 1 177 51" fill="none" stroke="#C9922A" stroke-width="28" opacity=".7"/>
+      <!-- Red 300-450 -->
+      <path d="M 177 51 A 110 110 0 0 1 250 150" fill="none" stroke="#C4302A" stroke-width="28" opacity=".85"/>
+      <!-- Needle at max -->
+      <line x1="140" y1="150" x2="248" y2="152" stroke="#fff" stroke-width="2.5"/>
+      <circle cx="140" cy="150" r="5" fill="#fff"/>
+      <!-- Labels -->
+      <text x="22" y="170" class="dl">0V</text>
+      <text x="120" y="30" text-anchor="middle" class="dl">300V</text>
+      <text x="238" y="170" class="dl">450V</text>
+      <text x="140" y="170" text-anchor="middle" class="dl">DANGER</text>
+      <!-- Big stat -->
+      <text x="140" y="118" text-anchor="middle" style="font-family:Georgia,serif; font-size:32px; fill:#C4302A; font-weight:700;">65%</text>
+      <text x="140" y="135" text-anchor="middle" class="dl">delivered max shock</text>
+      <!-- 35% indicator -->
+      <text x="140" y="192" text-anchor="middle" class="dl" style="fill:#2A8A5A">35% refused — the minority phenotype</text>
+    </svg>
+  </div>
+</div>
+
+<!-- 14: YALE/STANFORD/HARVARD — OBEDIENCE RESEARCH & IRONY -->
+<div class="slide" data-art="3" data-notes="This is the bitter irony slide. Yale proved obedience. Stanford proved situational evil. Harvard ran it on its own students for the CIA. And these same institutions ARE the white coat in every subsequent experiment conducted on the public. Milgram ran a variation in a run-down Bridgeport office — compliance dropped from 65% to 47.5%. The 17.5-point gap IS the Yale effect. The institutional name is the authority mechanism. When the WHO frames a question as settled, it is performing exactly what the Yale experimenter performed in 1961 — and achieving the same result. The Kaczynski connection is deliberately controversial. Include it because it is documented, it is specific, and it illustrates that the harm from these experiments was not always confined to the laboratory.">
+  <span class="tag">Article 3 · Yale, Stanford, Harvard — The Bitter Irony</span>
+  <h2>The Institutions That Proved<br>We Obey — Proved It<br>Using Their Own Students.</h2>
+  <div class="cols cols-2" style="margin-top:.8rem">
+    <div>
+      <h3>Yale · The Milgram Effect</h3>
+      <p>Milgram ran a variation in a run-down Bridgeport office building. Compliance dropped from <strong>65% to 47.5%</strong>. The 17.5-point gap is the Yale name doing institutional work. The university IS the authority cue.</p>
+      <h3 style="margin-top:1rem">Stanford · Zimbardo</h3>
+      <p>Stanford students, Stanford facilities, Stanford professor's authority. The institutional prestige was integral to the situational power — guards needed to believe they were participants in a legitimate Stanford study to fully inhabit their roles. They did.</p>
+      <div class="callout" style="margin-top:.8rem; border-left-color:var(--red)">
+        <p><strong>The bitter irony:</strong> the institutions that empirically demonstrated authority's power to override individual moral judgment are themselves among the most powerful authority nodes in the credibility pipeline.</p>
+      </div>
+    </div>
+    <div>
+      <h3>Harvard · Murray &amp; Kaczynski</h3>
+      <p>1959–62: Henry Murray (Harvard psychology, OSS veteran) ran a 3-year psychological stress experiment on Harvard undergraduates — involving deliberate humiliation, stress-induction, and monitored responses to identity attack.</p>
+      <p style="margin-top:.6rem">One participant: a 16-year-old named Theodore Kaczynski. Murray's own research notes document the subjects' distress. Kaczynski later described the experience as formative in his radicalisation against technology and institutions.</p>
+      <p style="margin-top:.6rem">The causal weight is debated. The documented fact is not: <em>Harvard ran CIA-adjacent psychological experiments on its own undergraduates and called it research.</em></p>
+      <p class="source" style="margin-top:.8rem">Milgram, "Obedience to Authority" (1974), Bridgeport variation · Alston Chase, "Harvard and the Unabomber" (2003) · Zimbardo, "Lucifer Effect" (2007)</p>
+    </div>
+  </div>
+</div>
+
+<!-- 15: HIERARCHY SWITCH -->
+<div class="slide" data-art="3" data-notes="Michael Tomasello's work is crucial here — shared intentionality is the very thing that makes us human. Culture, language, institutions — all rest on the ability to subordinate individual judgment to group consensus. But that capacity and the capacity for obedience are not separate traits. They are two faces of the same adaptation. De Waal's chimps: lower-ranked individuals suppress accurate information when expressing it would challenge the alpha. We conserved that neural substrate. Zimbardo proved it runs at atrocity-generating speed in the right situational frame — days, not years.">
+  <div class="cols cols-2">
+    <div>
+      <span class="tag">The Hidden Driver · The Hierarchy Switch</span>
+      <h2>The Capacity for Culture<br>and the Capacity for<br>Obedience Are the Same Trait.</h2>
+      <p>Michael Tomasello: <em>shared intentionality</em> — the ability to coordinate without coercion — is the biological foundation of human culture.</p>
+      <p style="margin-top:.7rem">But it requires subordinating individual judgment to group consensus. Without it, coordination collapses.</p>
+      <p style="margin-top:.7rem">Frans de Waal: lower-ranked chimps suppress accurate information when it would challenge alpha dominance. We conserved that substrate.</p>
+      <p style="margin-top:.7rem">Philip Zimbardo (2007): given the right institutional frame — uniform, prisoner number, authority mandate — ordinary individuals generate atrocity <em>within days.</em></p>
+    </div>
+    <div>
+      <h3>Freud's Superego: Reinterpreted</h3>
+      <p>The superego is not a stable moral compass. It is a <strong>coalition-dependent regulatory system.</strong></p>
+      <p style="margin-top:.7rem">Its commands change when the coalition's authority structure changes. This is why the same person can be tender with their children and compliant with institutional atrocity.</p>
+      <ul class="pts" style="margin-top:1rem">
+        <li>Situation A: home → parent superego active</li>
+        <li>Situation B: institution → authority superego active</li>
+        <li>The moral subject does not change. <em>The situation does.</em></li>
+      </ul>
+      <p class="source">Tomasello, "Natural History of Human Morality" (2016) · de Waal, "Chimpanzee Politics" (1982) · Zimbardo, "Lucifer Effect" (2007)</p>
+    </div>
+  </div>
+</div>
+
+<!-- 15: ARENDT + PAPERCLIP -->
+<div class="slide" data-art="3" data-notes="Arendt's 'banality of evil' is the most dangerous idea in 20th century political philosophy — and the most suppressed in public discourse. Eichmann was not a monster. He was a competent middle manager. The Holocaust did not scale through extraordinary cruelty; it scaled through ordinary bureaucratic efficiency. The railway schedules, the processing forms — each operated according to its own internal logic. The Operation Paperclip case is equally devastating: 1,600 Nazi scientists laundered into American institutions through strategic rebranding. Von Braun built the Apollo programme on the backs of concentration camp slave labour. His Nazi Party membership: classified. The template has never gone out of use.">
+  <div class="cols cols-2">
+    <div>
+      <span class="tag">Pattern 1 · Arendt, Jerusalem 1961</span>
+      <h3>The Banality of Evil</h3>
+      <p>Adolf Eichmann coordinated the logistics of the Holocaust. He was not sadistic. He was <em>a middle manager who was very good at his job.</em></p>
+      <blockquote>
+        "The most effective state violence does not require cruelty. It requires only the correct institutional framing."
+        <cite>— Hannah Arendt, "Eichmann in Jerusalem" (1963)</cite>
+      </blockquote>
+      <ul class="pts" style="margin-top:.8rem">
+        <li>Frame starvation as economic correction → administrators comply</li>
+        <li>Frame experiment as medical research → scientists comply</li>
+        <li>Frame narrative suppression as national security → editors comply</li>
+      </ul>
+    </div>
+    <div>
+      <span class="tag">Pattern 2 · Operation Paperclip, 1945–55</span>
+      <h3>The Institutional Laundering<br>of Science</h3>
+      <p>1,600 German scientists — many with documented Nazi affiliations, some complicit in war crimes — imported into US research institutions.</p>
+      <p style="margin-top:.6rem">Wernher von Braun: built V-2 rockets using concentration camp slave labour. Became architect of the Apollo programme. Nazi Party membership: classified.</p>
+      <ul class="pts" style="margin-top:.7rem">
+        <li>Same template: Operation Gladio (ex-fascists in NATO stay-behind networks)</li>
+        <li>Same template: CIA recruitment of SS intelligence officers (Gehlen)</li>
+        <li>Same template documented by Annie Jacobsen (2014), Whitney Webb (2022)</li>
+      </ul>
+      <p class="source">Jacobsen, "Operation Paperclip" (2014) · Webb, "One Nation Under Blackmail" (2022)</p>
+    </div>
+  </div>
+</div>
+
+<!-- 16: COVID OBEDIENCE -->
+<div class="slide" data-art="3" data-notes="The COVID lab-leak suppression is the cleanest modern demonstration of Milgram dynamics at population scale. The suppression was not enforced through direct censorship — it was enforced through authority signalling. The WHO and NIH framed the question as settled. The institutional compliance mechanism did the rest. The FOIA emails are the smoking gun: NIH officials discussing how to 'take down' researchers who supported the lab-leak hypothesis. This is not speculation. It is documented. The 77 Nobelists letter follows identical logic to Milgram's experiment: the white coat is replaced by the prestige of the institution and the implicit career threat.">
+  <span class="tag">Modern Echoes · COVID Obedience Dynamics</span>
+  <div class="cols cols-3-2" style="margin-top:.5rem">
+    <div>
+      <h2>The Authority Cue<br>Replaced the<br>White Lab Coat.</h2>
+      <p>The lab-leak hypothesis — now acknowledged as plausible in declassified intelligence — was not suppressed through direct censorship. It was suppressed through <em>authority signalling.</em></p>
+      <ul class="pts" style="margin-top:.9rem">
+        <li>WHO + NIH frame the question as settled → compliance follows automatically</li>
+        <li>Journalists self-censored. Editors spiked stories. Platforms labelled accurate information "misinformation."</li>
+        <li>NIH FOIA emails (2021–23) show officials discussing how to <em>"take down"</em> researchers who supported the lab-leak hypothesis — not refute them, take them down</li>
+        <li>77 Nobelists letter: Milgram experiment at institutional scale. Sign or signal you're unreliable.</li>
+      </ul>
+      <p class="source">NIH FOIA releases (2021–23) · Declassified DNI COVID origin assessments (2023) · Church Committee precedent</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:1.5rem">
+      <div class="callout">
+        <p><strong>Not censorship.</strong> Structural incentive alignment. The intelligence community funds the infrastructure. The infrastructure produces the consensus. No individual instruction required.</p>
+      </div>
+      <div><span class="stat-num">"Take<br>down."</span><span class="stat-sub">NIH's documented language<br>re: dissenting virologists.<br>Not "refute." Take down.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- 17: THE LEVER — CLOSING -->
+<div class="slide" data-art="3" data-notes="This is the most important slide. Deliver it slowly. 'You would have pulled the lever.' This is not an accusation. It is a statistical prediction. Own it yourself first. Milgram's 65% are not monsters. They are the majority phenotype — selected by evolution for compliance with coalition authority because disobedience was lethal. We are the descendants of the compliant lineages. The antidote is not cynicism — cynicism is just obedience with extra steps. It is moral elevation: recognising genuine moral courage when you see it, and treating it as data about what humans are actually capable of. The 35% exist. They are not accidents. The question is: can we build institutions that select for them?">
+  <span class="tag">Implication · Article 3 — The Mirror</span>
+  <div class="cols cols-2">
+    <div>
+      <h2>You Would Have<br>Pulled the Lever.</h2>
+      <p>With high probability. This is not a moral judgment. It is a statistical prediction from the most replicated finding in social psychology.</p>
+      <p style="margin-top:.8rem">In the ancestral environment, disobeying coalition authority was lethal. We are the descendants of the more compliant lineages. <em>Our default is deference.</em></p>
+      <p style="margin-top:.8rem">The culture war was a surface conflict. The real battlefield: <strong>who controls the authority frames that activate your obedience switch?</strong></p>
+    </div>
+    <div>
+      <h3>The Antidote Is Not Cynicism</h3>
+      <p>Cynicism is just obedience with extra steps — it defers to the authority that says all authorities are corrupt.</p>
+      <p style="margin-top:.7rem">The antidote is <strong>moral elevation</strong> (Haidt): the capacity to recognise genuine moral courage and treat it as data about what humans are capable of.</p>
+      <ul class="pts" style="margin-top:1rem">
+        <li>Francis Kelsey refused to approve thalidomide — alone</li>
+        <li>Milgram's <strong>35%</strong> refused to pull the lever</li>
+        <li>Franz Jägerstätter refused Nazi conscription — was executed</li>
+      </ul>
+      <div class="callout" style="margin-top:1rem">
+        <p>These are the minority phenotype. In sufficient numbers, they keep civilisations epistemically viable.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 18: CLOSING / SYNTHESIS -->
+<div class="slide s-cover" data-art="3" data-notes="Closing synthesis. Three mechanisms, one conclusion: Western civilisation cannot be restored until its institutions can recognise and protect the people most capable of improving them. The culture war was a proxy war. The real war is about institutional narratives — and who controls them. The answer is: endowed chairs, epistemic autonomy, and the recognition that the tall poppy reflex is an evolutionary relic, not a moral judgment. End with the call to action and the email. Keep it simple.">
+  <span class="tag">Synthesis · 3-Article Series</span>
+  <h1>We Cannot Rescue<br>Western Civilisation<br>Until We <span class="rx">Become</span> It Again.</h1>
+  <div class="cols cols-2" style="margin-top:1.2rem">
+    <ul class="pts">
+      <li><strong>Article 1:</strong> The credibility laundering pipeline suppresses accurate information without individual corruption — the incentive structure does the work</li>
+      <li><strong>Article 2:</strong> The tall poppy reflex systematically destroys vindicated dissidents and nobody is paying $5–15M to reinsert them</li>
+      <li><strong>Article 3:</strong> You are operating with 300,000-year-old obedience hardware in a 21st-century epistemic environment — and the state knows it</li>
+    </ul>
+    <div>
+      <div class="callout">
+        <p><strong>The singular task:</strong> not parallel institutions, but the recapture of existing ones. Endowed chairs. Reinstated dissidents. Institutional structures that select for the 35%.</p>
+      </div>
+      <p style="margin-top:1.2rem; font-family: var(--mono); font-size:.75rem; color: var(--dim)">Journal. Reflect. Reach out: <span style="color:var(--amber)">sourovdeb.is@gmail.com</span></p>
+      <p class="source" style="margin-top:1rem">Full sources + articles: github.com/sourovdeb/free_education/routines/03_human_nature_routine</p>
+    </div>
+  </div>
+</div>
+
+</div><!-- #deck -->
+
+<!-- ── CONTROLS ── -->
+<div id="controls">
+  <button id="btn-prev" aria-label="Previous slide">← Prev</button>
+  <div id="progress"></div>
+  <span id="counter">1 / 19</span>
+  <span id="article-ind">Intro</span>
+  <button id="btn-next" aria-label="Next slide">Next →</button>
+  <button id="btn-notes" aria-label="Toggle speaker notes">Notes [N]</button>
+  <button id="btn-theme" aria-label="Toggle theme">⬛</button>
+</div>
+
+<!-- ── NOTES PANEL ── -->
+<div id="notes" role="complementary" aria-label="Speaker notes">
+  <div class="nl">Speaker Notes</div>
+  <p id="notes-text"></p>
+</div>
+
+<script>
+const slides = Array.from(document.querySelectorAll('.slide'));
+const total = slides.length;
+let cur = 0;
+let notesOpen = false;
+
+const counter = document.getElementById('counter');
+const artInd = document.getElementById('article-ind');
+const notesPanel = document.getElementById('notes');
+const notesText = document.getElementById('notes-text');
+const progress = document.getElementById('progress');
+
+const artLabels = { intro: 'Intro', '1': 'Article 1 · Covert Ops', '2': 'Article 2 · Shadow Institutions', '3': 'Article 3 · Primal Obedience' };
+const sectionSlides = new Set([1, 8, 14]);
+
+// Build progress dots
+slides.forEach((_, i) => {
+  const d = document.createElement('div');
+  d.className = 'pd' + (sectionSlides.has(i) ? ' sect' : '');
+  progress.appendChild(d);
+});
+
+function go(n) {
+  slides[cur].classList.remove('active');
+  const dots = progress.querySelectorAll('.pd');
+  dots[cur].classList.remove('cur');
+  cur = Math.max(0, Math.min(total - 1, n));
+  slides[cur].classList.add('active');
+  dots[cur].classList.add('cur');
+  counter.textContent = (cur + 1) + ' / ' + total;
+  const art = slides[cur].dataset.art || 'intro';
+  artInd.textContent = artLabels[art] || '';
+  const noteStr = slides[cur].dataset.notes || '';
+  notesText.textContent = noteStr;
+  // Trigger redact reveal
+  const rxEls = slides[cur].querySelectorAll('.rx');
+  rxEls.forEach(el => {
+    el.parentElement.classList.remove('revealed');
+    void el.offsetWidth;
+    setTimeout(() => el.parentElement.classList.add('revealed'), 50);
+  });
+}
+
+go(0);
+
+document.getElementById('btn-prev').addEventListener('click', () => go(cur - 1));
+document.getElementById('btn-next').addEventListener('click', () => go(cur + 1));
+
+function toggleNotes() {
+  notesOpen = !notesOpen;
+  notesPanel.classList.toggle('open', notesOpen);
+  document.getElementById('btn-notes').textContent = notesOpen ? 'Notes [N] ▲' : 'Notes [N]';
+}
+
+document.getElementById('btn-notes').addEventListener('click', toggleNotes);
+
+let dark = true;
+document.getElementById('btn-theme').addEventListener('click', () => {
+  dark = !dark;
+  document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  document.getElementById('btn-theme').textContent = dark ? '⬛' : '⬜';
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') { e.preventDefault(); go(cur + 1); }
+  else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); go(cur - 1); }
+  else if (e.key === 'n' || e.key === 'N') toggleNotes();
+  else if (e.key === 'Home') go(0);
+  else if (e.key === 'End') go(total - 1);
+});
+
+// Touch swipe
+let tx = 0;
+document.getElementById('deck').addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+document.getElementById('deck').addEventListener('touchend', e => {
+  const dx = e.changedTouches[0].clientX - tx;
+  if (Math.abs(dx) > 40) dx < 0 ? go(cur + 1) : go(cur - 1);
+});
+
+// Set initial theme to dark
+document.documentElement.setAttribute('data-theme', 'dark');
+</script>
