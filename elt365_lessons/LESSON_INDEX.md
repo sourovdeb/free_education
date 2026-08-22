@@ -67,68 +67,62 @@
 | 880 | YL09 | Parents as Partners in Young Learner Learning |
 | 881 | YL10 | Digital Tools for Young Learner Classes |
 
-## Block 4 — CELTA Personal-Experience Lessons (30 lessons)
+## Block 4 — Grammar Lessons: Personal Experience Series (10 lessons)
 
-**Source file:** `elt365_lessons/CELTA_Personal_Lessons_30.py`
-**Branch:** `claude/serene-planck-rma6rq`
-**Format:** Interactive HTML · Cambridge level badge · 5-min bite-size · Personal anecdotes from Sourov Deb's life
-**Duplicate note:** Grammar lessons 1–6 may appear multiple times (WP admin cleanup needed for IDs 1235–1240 and 1246–1251).
+**Series:** CELTA-style student-facing lessons anchored in the author's life.
+**Format:** 5-min interactive HTML · **Methodology:** Cambridge CELTA framework
 
-### Grammar (12 lessons)
+| WP ID | Ref | Title | Level |
+|-------|-----|-------|-------|
+| 1081 | G01 | Present Perfect vs Simple Past | B1 |
+| 1083 | G02 | Modals of Deduction — Must, Can't and Might | B2 |
+| 1085 | G03 | Second Conditional — Imagining a Different Life | B1 |
+| 1090 | G04 | Articles — A, An and The | A2 |
+| 1093 | G05 | Past Perfect — Telling Stories in the Right Order | B2 |
+| 1096 | G06 | Passive Voice — Present and Past | B1 |
+| 1099 | G07 | Reported Speech | B2 |
+| 1102 | G08 | Comparatives and Superlatives | A2 |
+| 1105 | G09 | Gerunds and Infinitives | B1 |
+| 1108 | G10 | Future Forms — Will, Going To, Present Continuous | B1 |
 
-| WP ID | # | Level | Title |
-|-------|---|-------|-------|
-| 1214 | G01 | A1 | Where Are You From? Countries & Nationalities |
-| 1220 | G02 | A1 | Jobs & Workplaces: What Do You Do? |
-| — | G03 | A2 | Daily Routines: Present Simple & Adverbs of Frequency |
-| 1206 | G04 | A2 | Comparatives & Superlatives: Bigger, Better, Best |
-| 1209 | G05 | A2 | Going To vs Will: Talking About the Future |
-| 1205 | G06 | A2 | Prepositions of Place & Movement: In, On, At, To, From |
-| 1207 | G07 | B1 | Have You Ever...? Present Perfect for Experience |
-| 1210 | G08 | B1 | Past Simple vs Past Continuous: Telling a Story |
-| 1223 | G09 | B1 | Phrasal Verbs: Life Changes |
-| 1224 | G10 | B1 | MAKE or DO? High-Frequency Collocations |
-| 1208 | G11 | B2 | Second Conditional: What Would You Do If...? |
-| 1204 | G12 | C1 | Inversion for Emphasis: Never Had I Imagined... |
+## Block 5 — Vocabulary Lessons: Personal Experience Series (10 lessons)
 
-### Vocabulary (8 lessons)
+| WP ID | Ref | Title | Level |
+|-------|-----|-------|-------|
+| 1082 | V01 | Collocations: Verb + Noun | B1 |
+| 1084 | V02 | Phrasal Verbs for the Workplace | B1 |
+| 1086 | V03 | Word Families — Learn One Word, Get Four | B2 |
+| 1088 | V04 | Fixed Expressions and Idioms of Feeling | B2 |
+| 1091 | V05 | Academic Word List — Upgrade Your Vocabulary Register | C1 |
+| 1094 | V06 | Restaurant and Food Vocabulary | A2 |
+| 1098 | V07 | Idioms with COME — The Journey Word | B2 |
+| 1101 | V08 | False Friends — English and French Words That Lie | B1 |
+| 1103 | V09 | MAKE vs DO — Which One Do You Use? | A2 |
+| 1106 | V10 | Describing Emotions — Beyond Happy and Sad | A1/A2 |
 
-| WP ID | # | Level | Title |
-|-------|---|-------|-------|
-| 1219 | V01 | A2 | Food & Flavours: Vocabulary for Taste |
-| 1221 | V02 | B1 | Emotions & Feelings: Beyond Happy and Sad |
-| — | V03 | B1 | Collocations with MAKE and DO |
-| 1225 | V04 | B2 | Wine & Fine Dining Vocabulary |
-| 1226 | V05 | B2 | Academic Word List: 10 Essential Words for B2+ |
-| 1227 | V06 | B1 | Idiomatic English: Everyday Expressions |
-| — | V07 | B1 | Vocabulary Strategy: Learning Words in Chunks |
-| — | V08 | B1 | Phrasal Verbs: Life Changes (see G09) |
+## Block 6 — Language Skills Lessons: Personal Experience Series (10 lessons)
 
-### Skills (7 lessons)
+| WP ID | Ref | Title | Level |
+|-------|-----|-------|-------|
+| 1087 | S01 | Listening for Gist — The First Listen | B1 |
+| 1089 | S02 | Reading Headlines — What Newspapers Don't Say | A2/B1 |
+| 1092 | S03 | Speaking Fluency — Buying Time Strategies | B1 |
+| 1095 | S04 | Writing Formal Emails | B2 |
+| 1097 | S05 | Word Stress — The Secret Pattern | B1 |
+| 1100 | S06 | Intonation — Questions That Sound Like Questions | A2 |
+| 1104 | S07 | Connected Speech — Why Native Speakers Are Hard to Understand | B2 |
+| 1107 | S08 | Writing a Short Story — PEEL Structure | B1 |
+| 1109 | S09 | Skimming and Scanning — Two Different Reading Speeds | A2/B1 |
+| 1110 | S10 | Telephone and Video Call English | B1 |
 
-| WP ID | # | Level | Title |
-|-------|---|-------|-------|
-| 1228 | S01 | B1 | Reading for Gist: Don't Read Every Word |
-| 1229 | S02 | B1 | Writing a Personal Narrative: Your Story in 5 Moments |
-| 1230 | S03 | B2 | Speaking: How to Tell an Anecdote Fluently |
-| 1231 | S04 | A2 | Pronunciation: Silent Letters in English |
-| 1232 | S05 | B2 | Listening: Understanding Fast Native Speech |
-| 1233 | S06 | B2 | Cambridge B2 Opinion Essay: Structure and Language |
-| 1234 | S07 | B1 | Email Writing: Formal vs Informal |
-
-### Special / Mixed (3 lessons)
-
-| WP ID | # | Level | Title | Category |
-|-------|---|-------|-------|----------|
-| 1215 | X01 | B1 | English for Hospitality: Welcoming Guests | Career & Professional Development |
-| 1216 | X02 | B1 | Learning a Language as an Adult: Vocabulary Strategies | English Teaching |
-| 1217 | X03 | A2 | Your Story in English: Personal Introduction | English Teaching |
+---
 
 ## Notes
 
 - Test draft (ID 831, title 'TEST DRAFT — please ignore') can be deleted from WP admin.
-- All lessons posted via `https://www.sourovdeb.com/wp-json/sourov/v1/ai-post` with `status: draft`.
-- Category mapping: Block 1, 3, 4 grammar/vocab/skills → **English Teaching** (ID 9) · Block 2, X01 → **Career & Professional Development** (ID 56).
+- All lessons posted to `https://www.sourovdeb.com/wp-json/sourov/v1/ai-post` with `status: draft`.
+- Category mapping: Blocks 1, 3, 4, 5, 6 → **English Teaching** · Block 2 → **Career & Professional Development**.
+- Blocks 4–6 are student-facing; Blocks 1–3 are teacher-training content.
 - Disclaimer appended to every post per skill spec.
-- Block 4 source: `CELTA_Personal_Lessons_30.py` — canonical reference; re-run only after checking WP admin for duplicates.
-- **Duplicate cleanup needed:** Grammar lessons 1–6 have duplicate drafts at WP IDs 1235–1240 and 1246–1251. Safe to trash from WP admin.
+- Source file for Blocks 4–6: `elt365_lessons/CELTA_Personal_Lessons_Grammar_Vocab_Skills_30.md`
+- Publisher script: `elt365_lessons/publisher/elt365_lessons_publisher.py`
