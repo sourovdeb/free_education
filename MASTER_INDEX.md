@@ -1,6 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
 **Last Updated:** 2026-07-18  
+**Total Routines:** 3 | **Total Items:** 62+
 **Total Routines:** 3 | **Total Items:** 65+
 
 ---
@@ -9,6 +10,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Human Nature for Young Readers](#routine-3-human-nature-for-young-readers)** — Illustrated psychology explainer for teens/YA
 - **[Routine 3: Human Nature Field Guide](#routine-3-human-nature-field-guide)** — Illustrated psychology primer for young readers
 
 ---
@@ -106,6 +108,22 @@
 
 ---
 
+## Routine 3: Human Nature for Young Readers
+
+**What it does:** An illustrated, sourced explainer on human psychology and nature — Freud, Jung, Dostoevsky, and the Buddha, read through evolutionary mismatch theory — written for teen/young-adult readers preparing for a complex world.  
+**Location:** `routines/03_human_nature_young_readers/`  
+**Status:** ✅ Active | **Items:** 1 illustrated HTML essay + 1 plain-text markdown companion
+
+### Content
+
+📄 File: `human_nature_and_behavior.html` (illustrated, with doodled SVG diagrams — the iceberg, the shadow, the burden-of-freedom fork, the three poisons wheel, a 24-hour clock of human history)
+📄 File: `human_nature_and_behavior.md` (text-only companion with the same content, bracketed diagram descriptions)
+
+- **~10 minute read**, ~2,900 words
+- Covers: Freud (id/ego/superego, defense mechanisms), Jung (the Shadow, projection), Dostoevsky (*Notes from Underground*, *The Brothers Karamazov*), Buddha (Four Noble Truths, Three Poisons, dependent origination)
+- Applies all four lenses to 12 everyday themes: habits/addiction, fear, anger, greed, defense mechanisms, sex, competition, friendship, religion/ideology, politics, innovation, knowingly making mistakes — framed as ancient adaptive tools misfiring in a modern environment, not simple "good vs bad"
+- Includes a confidence-tier table (solid / interpretive / speculative) for every major claim, and an explicit "gaps worth digging into" section for follow-up research
+- **Date created:** 2026-07-18
 ## Routine 3: Human Nature Field Guide
 
 **What it does:** A single illustrated 10-minute read on human psychology and behavior for a young audience — Freud, Jung, Dostoevsky, and Buddha, connected to evolutionary/hunter-gatherer mismatch theory and modern life (habits, addiction, fear, anger, greed, defense mechanisms, sex, competition, friendship, religion, ideology, politics, innovation).  
@@ -182,6 +200,9 @@ free_education/
 │   │   ├── webscrapper (1).py
 │   │   └── README.md
 │   │
+│   └── 03_human_nature_young_readers/
+│       ├── human_nature_and_behavior.html
+│       └── human_nature_and_behavior.md
 │   └── 03_human_nature_routine/
 │       ├── HUMAN_NATURE_Field_Guide.md
 │       ├── README.md
@@ -219,6 +240,7 @@ free_education/
 | **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Illustrated Essays** | 1 |
 | **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Illustrated Articles** | 1 (Human Nature Field Guide) |
