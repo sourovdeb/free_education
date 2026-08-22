@@ -1,7 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-07-05  
-**Total Routines:** 3 | **Total Items:** 61+
+**Last Updated:** 2026-07-18  
+**Total Routines:** 3 | **Total Items:** 65+
 
 ---
 
@@ -9,7 +9,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
-- **[Routine 3: Psychology & Mental Health Claim Audits](#routine-3-psychology--mental-health-claim-audits)** — Sourced audits of psych/neuro/marketing/mental-health claims
+- **[Routine 3: Human Nature Field Guide](#routine-3-human-nature-field-guide)** — Illustrated psychology primer for young readers
 
 ---
 
@@ -106,6 +106,35 @@
 
 ---
 
+## Routine 3: Human Nature Field Guide
+
+**What it does:** A single illustrated 10-minute read on human psychology and behavior for a young audience — Freud, Jung, Dostoevsky, and Buddha, connected to evolutionary/hunter-gatherer mismatch theory and modern life (habits, addiction, fear, anger, greed, defense mechanisms, sex, competition, friendship, religion, ideology, politics, innovation).  
+**Location:** `routines/03_human_nature_routine/`  
+**Status:** ✅ Active | **Items:** 1 article + 5 SVG doodles
+
+### Content
+
+📄 File: `HUMAN_NATURE_Field_Guide.md`
+- Four-thinker primer (Freud's iceberg, Jung's shadow/persona, Dostoevsky's spite-as-freedom, Buddha's craving loop)
+- Evolutionary mismatch theory (300,000-year-old brain in a world built in the last 250 years)
+- A field map applying the lens across 13 modern topics
+- A section explicitly challenging good/bad binary thinking
+- A "Gaps in this research" section flagging contested vs. established claims
+- Cited sources throughout
+
+### Doodles (`assets/`)
+
+| File | What it shows |
+|------|----------------|
+| `iceberg.svg` | Freud: conscious tip, unconscious mass below the waterline |
+| `shadow-persona.svg` | Jung: the public mask and the shadow it casts |
+| `triune-brain.svg` | Simplified 3-layer brain metaphor (reptilian/limbic/neocortex) |
+| `craving-loop.svg` | Buddha's want → get → brief relief → want again cycle |
+| `tribe-vs-city.svg` | Hunter-gatherer band (~150 people) vs. a modern city/feed of millions |
+
+### Date Created
+
+- 2026-07-18
 ## Routine 3: Psychology & Mental Health Claim Audits
 
 **What it does:** Researches a psychology, neuroscience, marketing-influence, or mental-health-treatment claim: locates primary sources, checks methodology/sample size, investigates funder conflicts of interest (pharma, insurers, universities, government), compares against opposing/independent research, and drafts a sourced, funding-disclosed micro-blog verdict.  
@@ -153,6 +182,15 @@ free_education/
 │   │   ├── webscrapper (1).py
 │   │   └── README.md
 │   │
+│   └── 03_human_nature_routine/
+│       ├── HUMAN_NATURE_Field_Guide.md
+│       ├── README.md
+│       └── assets/
+│           ├── iceberg.svg
+│           ├── shadow-persona.svg
+│           ├── triune-brain.svg
+│           ├── craving-loop.svg
+│           └── tribe-vs-city.svg
 │   └── 03_psychology_mental_health_audit_routine/
 │       ├── README.md
 │       └── 2026-07-05_antidepressant-placebo-audit.md
@@ -183,6 +221,8 @@ free_education/
 | **Python Tools** | 5 |
 | **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Illustrated Articles** | 1 (Human Nature Field Guide) |
+| **Documentation Files** | 6 |
 | **Documentation Files** | 5 |
 
 ---
