@@ -45,6 +45,18 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_psychology_marketing_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing
+influence, and mental health treatment (sources, funding/conflicts of interest,
+contested research), publishes a short cited news item each cycle, and keeps
+research notes on decision-making, marketing spend, effort-seeking behavior,
+and persuasion under cognitive overload.
+
+**Contains:**
+- `news/` — dated, cited micro-blog posts
+- `audit_log.md` — claim audit tracker (mirrors the Psychology_Marketing_Claim_Audits Google Sheet)
+- `research_notes_*.md` — literature synthesis, refreshed each cycle
 ### 3️⃣ **03_psychology_mental_health_audit_routine**
 
 **What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental-health treatment — locates primary sources, checks funding/conflicts of interest, compares against opposing research, and drafts a sourced micro-blog verdict.
@@ -57,6 +69,7 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 **Output format:** Markdown (.md)  
 **Status:** ✅ Active
 
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 📖 [Go to routine →](03_psychology_mental_health_audit_routine/)
 
 ---
@@ -86,6 +99,12 @@ routines/
 │   ├── webscrapper (1).py
 │   └── README.md
 │
+└── 03_psychology_marketing_audit_routine/
+    ├── README.md
+    ├── audit_log.md
+    ├── research_notes_2026-07-14.md
+    └── news/
+        └── 2026-07-14_choice-overload-audit.md
 └── 03_psychology_mental_health_audit_routine/
     ├── README.md
     └── 2026-07-05_antidepressant-placebo-audit.md
@@ -126,4 +145,5 @@ When a new Claude Code routine creates content:
 
 **Back to main README?** 👉 [Free Education Root](../)
 
+*Last Updated: 2026-07-14*
 *Last Updated: 2026-07-05*
