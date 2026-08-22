@@ -58,6 +58,19 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 **Status:** ✅ Active (first run)
 
 📖 [Go to routine →](03_psychology_marketing_audit_routine/)
+### 3️⃣ **03_psychology_mental_health_audit_routine**
+
+**What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental-health treatment — locates primary sources, checks funding/conflicts of interest, compares against opposing research, and drafts a sourced micro-blog verdict.
+
+**Contains:**
+- One audit file per claim (methodology review + funding check + micro-blog draft)
+- README explaining the audit process and external-publishing policy
+
+**Frequency:** As needed  
+**Output format:** Markdown (.md)  
+**Status:** ✅ Active
+
+📖 [Go to routine →](03_psychology_mental_health_audit_routine/)
 
 ---
 
@@ -89,6 +102,9 @@ routines/
 └── 03_psychology_marketing_audit_routine/
     ├── persuasion-audit.md
     └── README.md
+└── 03_psychology_mental_health_audit_routine/
+    ├── README.md
+    └── 2026-07-05_antidepressant-placebo-audit.md
 ```
 
 ---
@@ -127,3 +143,4 @@ When a new Claude Code routine creates content:
 **Back to main README?** 👉 [Free Education Root](../)
 
 *Last Updated: 2026-07-18*
+*Last Updated: 2026-07-05*
