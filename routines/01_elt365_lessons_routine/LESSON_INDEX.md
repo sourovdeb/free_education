@@ -1,6 +1,6 @@
 # Lesson Index — ELT365 + Mixed Lessons Batch
 
-**Updated:** 2026-06-14 · **Status on WP:** draft · **Total:** 80 lessons (+ 1 test draft ID 831)
+**Published:** 2026-06-14 · **Status on WP:** draft · **Total:** 50 lessons (+ 1 test draft ID 831)
 
 ## Block 1 — ELT365 Month 6: Receptive Skills (Days 152–181)
 
@@ -67,62 +67,9 @@
 | 880 | YL09 | Parents as Partners in Young Learner Learning |
 | 881 | YL10 | Digital Tools for Young Learner Classes |
 
-## Block 4 — Grammar Lessons: Personal Experience Series (10 lessons)
-
-**Series:** CELTA-style student-facing lessons anchored in the author's life.
-**Format:** 5-min interactive HTML · **Methodology:** Cambridge CELTA framework
-
-| WP ID | Ref | Title | Level |
-|-------|-----|-------|-------|
-| 1081 | G01 | Present Perfect vs Simple Past | B1 |
-| 1083 | G02 | Modals of Deduction — Must, Can't and Might | B2 |
-| 1085 | G03 | Second Conditional — Imagining a Different Life | B1 |
-| 1090 | G04 | Articles — A, An and The | A2 |
-| 1093 | G05 | Past Perfect — Telling Stories in the Right Order | B2 |
-| 1096 | G06 | Passive Voice — Present and Past | B1 |
-| 1099 | G07 | Reported Speech | B2 |
-| 1102 | G08 | Comparatives and Superlatives | A2 |
-| 1105 | G09 | Gerunds and Infinitives | B1 |
-| 1108 | G10 | Future Forms — Will, Going To, Present Continuous | B1 |
-
-## Block 5 — Vocabulary Lessons: Personal Experience Series (10 lessons)
-
-| WP ID | Ref | Title | Level |
-|-------|-----|-------|-------|
-| 1082 | V01 | Collocations: Verb + Noun | B1 |
-| 1084 | V02 | Phrasal Verbs for the Workplace | B1 |
-| 1086 | V03 | Word Families — Learn One Word, Get Four | B2 |
-| 1088 | V04 | Fixed Expressions and Idioms of Feeling | B2 |
-| 1091 | V05 | Academic Word List — Upgrade Your Vocabulary Register | C1 |
-| 1094 | V06 | Restaurant and Food Vocabulary | A2 |
-| 1098 | V07 | Idioms with COME — The Journey Word | B2 |
-| 1101 | V08 | False Friends — English and French Words That Lie | B1 |
-| 1103 | V09 | MAKE vs DO — Which One Do You Use? | A2 |
-| 1106 | V10 | Describing Emotions — Beyond Happy and Sad | A1/A2 |
-
-## Block 6 — Language Skills Lessons: Personal Experience Series (10 lessons)
-
-| WP ID | Ref | Title | Level |
-|-------|-----|-------|-------|
-| 1087 | S01 | Listening for Gist — The First Listen | B1 |
-| 1089 | S02 | Reading Headlines — What Newspapers Don't Say | A2/B1 |
-| 1092 | S03 | Speaking Fluency — Buying Time Strategies | B1 |
-| 1095 | S04 | Writing Formal Emails | B2 |
-| 1097 | S05 | Word Stress — The Secret Pattern | B1 |
-| 1100 | S06 | Intonation — Questions That Sound Like Questions | A2 |
-| 1104 | S07 | Connected Speech — Why Native Speakers Are Hard to Understand | B2 |
-| 1107 | S08 | Writing a Short Story — PEEL Structure | B1 |
-| 1109 | S09 | Skimming and Scanning — Two Different Reading Speeds | A2/B1 |
-| 1110 | S10 | Telephone and Video Call English | B1 |
-
----
-
 ## Notes
-
 - Test draft (ID 831, title 'TEST DRAFT — please ignore') can be deleted from WP admin.
 - All lessons posted to `https://www.sourovdeb.com/wp-json/sourov/v1/ai-post` with `status: draft`.
-- Category mapping: Blocks 1, 3, 4, 5, 6 → **English Teaching** · Block 2 → **Career & Professional Development**.
-- Blocks 4–6 are student-facing; Blocks 1–3 are teacher-training content.
-- Disclaimer appended to every post per skill spec.
-- Source file for Blocks 4–6: `elt365_lessons/CELTA_Personal_Lessons_Grammar_Vocab_Skills_30.md`
-- Publisher script: `elt365_lessons/publisher/elt365_lessons_publisher.py`
+- Category mapping: Block 1 & 3 → **English Teaching** (ID 9) · Block 2 → **Career & Professional Development** (ID 56).
+- Disclaimer appended to every ELT365 and YL post per skill spec.
+- Script: `elt365_lessons/publisher/elt365_lessons_publisher.py`
