@@ -135,6 +135,23 @@
 ### Date Created
 
 - 2026-07-18
+## Routine 3: Psychology & Mental Health Claim Audits
+
+**What it does:** Researches a psychology, neuroscience, marketing-influence, or mental-health-treatment claim: locates primary sources, checks methodology/sample size, investigates funder conflicts of interest (pharma, insurers, universities, government), compares against opposing/independent research, and drafts a sourced, funding-disclosed micro-blog verdict.  
+**Location:** `routines/03_psychology_mental_health_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit (growing)
+
+### Audits Completed
+
+| File | Claim | Verdict |
+|------|-------|---------|
+| `2026-07-05_antidepressant-placebo-audit.md` | "SSRIs barely beat placebo, except in severe depression" | Contested — publication bias (Turner et al. 2008, NEJM) inflated pre-2008 evidence; strongest current synthesis (Cipriani et al. 2018, Lancet) shows a real effect but rests on a 78%-industry-funded trial base (cf. Lundh et al. 2017, Cochrane) |
+
+### Key Metadata
+
+- **Output format:** Markdown (.md) — audit + micro-blog per claim
+- **External publishing:** Held for human review before any post goes live (medical/mental-health subject matter)
+- **Date created:** 2026-07-05
 
 ---
 
@@ -174,6 +191,9 @@ free_education/
 │           ├── triune-brain.svg
 │           ├── craving-loop.svg
 │           └── tribe-vs-city.svg
+│   └── 03_psychology_mental_health_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_antidepressant-placebo-audit.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -199,9 +219,11 @@ free_education/
 | **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Illustrated Articles** | 1 (Human Nature Field Guide) |
 | **Documentation Files** | 6 |
+| **Documentation Files** | 5 |
 
 ---
 
