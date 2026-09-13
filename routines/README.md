@@ -47,6 +47,14 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ### 3️⃣ **03_psych_research_audit_routine**
 
+**What it does:** Audits claims about human psychology, neuroscience, marketing
+influence, and mental health treatment — traces them to primary research, checks
+funding/conflicts of interest, compares against opposing research, and publishes a
+short sourced verdict.
+
+**Contains:**
+- One markdown post per audited claim (micro-blog + full audit trail)
+- Funding/conflict-of-interest disclosure for every source cited
 **What it does:** Researches and audits public claims about human psychology, neuroscience, marketing influence, and mental health treatment — checking primary sources, funding/conflicts of interest, and bias, then publishing a short cited micro-blog audit per claim.
 
 **Contains:**
@@ -93,6 +101,7 @@ of interest, and opposing research, then drafts a source-linked micro-blog post.
 **Output format:** Markdown (.md)  
 **Status:** ✅ Active
 
+📖 [Go to routine →](03_psych_research_audit_routine/)
 📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 
 ---
@@ -124,6 +133,7 @@ routines/
 │
 └── 03_psych_research_audit_routine/
     ├── README.md
+    └── POST_01_chemical-imbalance-serotonin-depression.md
     └── 2026-07-05_antidepressants_efficacy_audit.md
 └── 03_psychology_marketing_audit_routine/
     ├── README.md
