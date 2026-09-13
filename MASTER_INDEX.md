@@ -1,5 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
+**Last Updated:** 2026-07-10  
+**Total Routines:** 3 | **Total Items:** 61+
 **Last Updated:** 2026-07-18  
 **Total Routines:** 3 | **Total Items:** 65+
 
@@ -9,6 +11,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
 - **[Routine 3: Human Nature Field Guide](#routine-3-human-nature-field-guide)** — Illustrated psychology primer for young readers
 
 ---
@@ -106,6 +109,26 @@
 
 ---
 
+## Routine 3: Psychology & Marketing Claim Audits
+
+**What it does:** Researches a psychology/neuroscience/marketing/mental-health claim, verifies primary sources and sample sizes, checks funding and conflicts of interest, compares against independent or opposing research, and publishes a short cited verdict as a news item.
+**Location:** `routines/03_psychology_marketing_audit_routine/`
+**Status:** ✅ Active | **Items:** 1 news item
+
+### Content Blocks
+
+#### Block 3A: SSRIs vs. Psychotherapy Audit
+📄 File: `2026-07-10_ssri-vs-therapy-audit.md`
+- Compares Cuijpers et al. 2013 & 2020 (*World Psychiatry*), Turner et al. 2008 (*NEJM*), Lundh et al. (Cochrane-affiliated), and an NIH-funded psychotherapy publication-bias review
+- Discloses that published effect sizes are independently documented as inflated on **both** the drug-trial side (Turner 2008, ~32% inflation) and the psychotherapy-trial side (NIH-funded review)
+- Verdict: contested, not settled — short-term parity, psychotherapy more durable long-term, combined treatment best
+- Includes an appendix on decision-making psychology, marketing-spend rationale, effort-avoidance research, and cognitive-load/persuasion research
+
+### Key Metadata
+
+- **Sources cited:** 5 independent sources (minimum 2 required)
+- **Output format:** Markdown (.md)
+- **Date created:** 2026-07-10
 ## Routine 3: Human Nature Field Guide
 
 **What it does:** A single illustrated 10-minute read on human psychology and behavior for a young audience — Freud, Jung, Dostoevsky, and Buddha, connected to evolutionary/hunter-gatherer mismatch theory and modern life (habits, addiction, fear, anger, greed, defense mechanisms, sex, competition, friendship, religion, ideology, politics, innovation).  
@@ -182,6 +205,9 @@ free_education/
 │   │   ├── webscrapper (1).py
 │   │   └── README.md
 │   │
+│   └── 03_psychology_marketing_audit_routine/
+│       ├── README.md
+│       └── 2026-07-10_ssri-vs-therapy-audit.md
 │   └── 03_human_nature_routine/
 │       ├── HUMAN_NATURE_Field_Guide.md
 │       ├── README.md

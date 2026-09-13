@@ -60,17 +60,16 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 ### 3️⃣ **03_psychology_mental_health_audit_routine**
 
-**What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental-health treatment — locates primary sources, checks funding/conflicts of interest, compares against opposing research, and drafts a sourced micro-blog verdict.
+**What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental health treatment — verifies sources, checks funding/conflicts of interest, compares opposing research, and publishes a short cited verdict.
 
 **Contains:**
-- One audit file per claim (methodology review + funding check + micro-blog draft)
-- README explaining the audit process and external-publishing policy
+- Claim-audit news items (one per claim), each with primary sources, funding disclosure, and an independent-research comparison
 
 **Frequency:** As needed  
 **Output format:** Markdown (.md)  
 **Status:** ✅ Active
 
-📖 [Go to routine →](03_psychology_mental_health_audit_routine/)
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 
 ---
 
@@ -104,7 +103,7 @@ routines/
     └── README.md
 └── 03_psychology_mental_health_audit_routine/
     ├── README.md
-    └── 2026-07-05_antidepressant-placebo-audit.md
+    └── 2026-07-10_ssri-vs-therapy-audit.md
 ```
 
 ---
@@ -133,7 +132,7 @@ These folders document **automated tasks that run on a schedule**. Each routine:
 
 When a new Claude Code routine creates content:
 
-1. Create a folder: `03_your_routine_name/`
+1. Create a folder: `04_your_routine_name/`
 2. Move/copy the generated files there
 3. Add a README explaining what the routine does
 4. Update this file with the new routine
@@ -144,3 +143,4 @@ When a new Claude Code routine creates content:
 
 *Last Updated: 2026-07-18*
 *Last Updated: 2026-07-05*
+*Last Updated: 2026-07-10*
