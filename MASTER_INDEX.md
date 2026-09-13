@@ -1,7 +1,10 @@
 # 📚 Master Index — All Claude Code Routines
 
-**Last Updated:** 2026-06-15  
-**Total Routines:** 2 | **Total Items:** 60+
+**Last Updated:** 2026-07-10  
+**Total Routines:** 3 | **Total Items:** 61+
+**Last Updated:** 2026-07-18  
+**Total Routines:** 3 | **Total Items:** 62+
+**Total Routines:** 3 | **Total Items:** 65+
 
 ---
 
@@ -9,6 +12,9 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Human Nature for Young Readers](#routine-3-human-nature-for-young-readers)** — Illustrated psychology explainer for teens/YA
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
+- **[Routine 3: Human Nature Field Guide](#routine-3-human-nature-field-guide)** — Illustrated psychology primer for young readers
 
 ---
 
@@ -105,6 +111,91 @@
 
 ---
 
+## Routine 3: Human Nature for Young Readers
+
+**What it does:** An illustrated, sourced explainer on human psychology and nature — Freud, Jung, Dostoevsky, and the Buddha, read through evolutionary mismatch theory — written for teen/young-adult readers preparing for a complex world.  
+**Location:** `routines/03_human_nature_young_readers/`  
+**Status:** ✅ Active | **Items:** 1 illustrated HTML essay + 1 plain-text markdown companion
+
+### Content
+
+📄 File: `human_nature_and_behavior.html` (illustrated, with doodled SVG diagrams — the iceberg, the shadow, the burden-of-freedom fork, the three poisons wheel, a 24-hour clock of human history)
+📄 File: `human_nature_and_behavior.md` (text-only companion with the same content, bracketed diagram descriptions)
+
+- **~10 minute read**, ~2,900 words
+- Covers: Freud (id/ego/superego, defense mechanisms), Jung (the Shadow, projection), Dostoevsky (*Notes from Underground*, *The Brothers Karamazov*), Buddha (Four Noble Truths, Three Poisons, dependent origination)
+- Applies all four lenses to 12 everyday themes: habits/addiction, fear, anger, greed, defense mechanisms, sex, competition, friendship, religion/ideology, politics, innovation, knowingly making mistakes — framed as ancient adaptive tools misfiring in a modern environment, not simple "good vs bad"
+- Includes a confidence-tier table (solid / interpretive / speculative) for every major claim, and an explicit "gaps worth digging into" section for follow-up research
+- **Date created:** 2026-07-18
+## Routine 3: Psychology & Marketing Claim Audits
+
+**What it does:** Researches a psychology/neuroscience/marketing/mental-health claim, verifies primary sources and sample sizes, checks funding and conflicts of interest, compares against independent or opposing research, and publishes a short cited verdict as a news item.
+**Location:** `routines/03_psychology_marketing_audit_routine/`
+**Status:** ✅ Active | **Items:** 1 news item
+
+### Content Blocks
+
+#### Block 3A: SSRIs vs. Psychotherapy Audit
+📄 File: `2026-07-10_ssri-vs-therapy-audit.md`
+- Compares Cuijpers et al. 2013 & 2020 (*World Psychiatry*), Turner et al. 2008 (*NEJM*), Lundh et al. (Cochrane-affiliated), and an NIH-funded psychotherapy publication-bias review
+- Discloses that published effect sizes are independently documented as inflated on **both** the drug-trial side (Turner 2008, ~32% inflation) and the psychotherapy-trial side (NIH-funded review)
+- Verdict: contested, not settled — short-term parity, psychotherapy more durable long-term, combined treatment best
+- Includes an appendix on decision-making psychology, marketing-spend rationale, effort-avoidance research, and cognitive-load/persuasion research
+
+### Key Metadata
+
+- **Sources cited:** 5 independent sources (minimum 2 required)
+- **Output format:** Markdown (.md)
+- **Date created:** 2026-07-10
+## Routine 3: Human Nature Field Guide
+
+**What it does:** A single illustrated 10-minute read on human psychology and behavior for a young audience — Freud, Jung, Dostoevsky, and Buddha, connected to evolutionary/hunter-gatherer mismatch theory and modern life (habits, addiction, fear, anger, greed, defense mechanisms, sex, competition, friendship, religion, ideology, politics, innovation).  
+**Location:** `routines/03_human_nature_routine/`  
+**Status:** ✅ Active | **Items:** 1 article + 5 SVG doodles
+
+### Content
+
+📄 File: `HUMAN_NATURE_Field_Guide.md`
+- Four-thinker primer (Freud's iceberg, Jung's shadow/persona, Dostoevsky's spite-as-freedom, Buddha's craving loop)
+- Evolutionary mismatch theory (300,000-year-old brain in a world built in the last 250 years)
+- A field map applying the lens across 13 modern topics
+- A section explicitly challenging good/bad binary thinking
+- A "Gaps in this research" section flagging contested vs. established claims
+- Cited sources throughout
+
+### Doodles (`assets/`)
+
+| File | What it shows |
+|------|----------------|
+| `iceberg.svg` | Freud: conscious tip, unconscious mass below the waterline |
+| `shadow-persona.svg` | Jung: the public mask and the shadow it casts |
+| `triune-brain.svg` | Simplified 3-layer brain metaphor (reptilian/limbic/neocortex) |
+| `craving-loop.svg` | Buddha's want → get → brief relief → want again cycle |
+| `tribe-vs-city.svg` | Hunter-gatherer band (~150 people) vs. a modern city/feed of millions |
+
+### Date Created
+
+- 2026-07-18
+## Routine 3: Psychology & Mental Health Claim Audits
+
+**What it does:** Researches a psychology, neuroscience, marketing-influence, or mental-health-treatment claim: locates primary sources, checks methodology/sample size, investigates funder conflicts of interest (pharma, insurers, universities, government), compares against opposing/independent research, and drafts a sourced, funding-disclosed micro-blog verdict.  
+**Location:** `routines/03_psychology_mental_health_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit (growing)
+
+### Audits Completed
+
+| File | Claim | Verdict |
+|------|-------|---------|
+| `2026-07-05_antidepressant-placebo-audit.md` | "SSRIs barely beat placebo, except in severe depression" | Contested — publication bias (Turner et al. 2008, NEJM) inflated pre-2008 evidence; strongest current synthesis (Cipriani et al. 2018, Lancet) shows a real effect but rests on a 78%-industry-funded trial base (cf. Lundh et al. 2017, Cochrane) |
+
+### Key Metadata
+
+- **Output format:** Markdown (.md) — audit + micro-blog per claim
+- **External publishing:** Held for human review before any post goes live (medical/mental-health subject matter)
+- **Date created:** 2026-07-05
+
+---
+
 ## File Structure
 
 ```
@@ -120,17 +211,36 @@ free_education/
 │   │   └── publisher/
 │   │       └── elt365_lessons_publisher.py
 │   │
-│   └── 02_python_toolkit_routine/
-│       ├── nlp_utils.py
-│       ├── ai_file_organizer_pro.py
-│       ├── ai_file_organizer_pro_v2.py
-│       ├── audio2txt.py
-│       ├── audio2txt (1).py
-│       ├── pdf2txtv2.py
-│       ├── pdf2txtv2 (1).py
-│       ├── webscrapper.py
-│       ├── webscrapper (1).py
-│       └── README.md
+│   ├── 02_python_toolkit_routine/
+│   │   ├── nlp_utils.py
+│   │   ├── ai_file_organizer_pro.py
+│   │   ├── ai_file_organizer_pro_v2.py
+│   │   ├── audio2txt.py
+│   │   ├── audio2txt (1).py
+│   │   ├── pdf2txtv2.py
+│   │   ├── pdf2txtv2 (1).py
+│   │   ├── webscrapper.py
+│   │   ├── webscrapper (1).py
+│   │   └── README.md
+│   │
+│   └── 03_human_nature_young_readers/
+│       ├── human_nature_and_behavior.html
+│       └── human_nature_and_behavior.md
+│   └── 03_psychology_marketing_audit_routine/
+│       ├── README.md
+│       └── 2026-07-10_ssri-vs-therapy-audit.md
+│   └── 03_human_nature_routine/
+│       ├── HUMAN_NATURE_Field_Guide.md
+│       ├── README.md
+│       └── assets/
+│           ├── iceberg.svg
+│           ├── shadow-persona.svg
+│           ├── triune-brain.svg
+│           ├── craving-loop.svg
+│           └── tribe-vs-city.svg
+│   └── 03_psychology_mental_health_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_antidepressant-placebo-audit.md
 │
 ├── elt365_lessons/                        ← Original (keep for compatibility)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
@@ -153,11 +263,15 @@ free_education/
 
 | Metric | Count |
 |--------|-------|
-| **Total Routines** | 2 |
+| **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Illustrated Essays** | 1 |
+| **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
-| **Documentation Files** | 4 |
+| **Illustrated Articles** | 1 (Human Nature Field Guide) |
+| **Documentation Files** | 6 |
+| **Documentation Files** | 5 |
 
 ---
 
