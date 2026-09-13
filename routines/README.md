@@ -45,6 +45,19 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_psych_research_audit_routine**
+
+**What it does:** Researches and audits public claims about human psychology, neuroscience, marketing influence, and mental health treatment — checking primary sources, funding/conflicts of interest, and bias, then publishing a short cited micro-blog audit per claim.
+
+**Contains:**
+- One dated audit file per claim (methodology, funding check, bias assessment, and a ready-to-publish micro-blog post)
+- Routine README with process and notes
+
+**Frequency:** As scheduled  
+**Output format:** Markdown (.md)  
+**Status:** ✅ Active
+
+📖 [Go to routine →](03_psych_research_audit_routine/)
 ### 3️⃣ **03_psychology_marketing_audit_routine**
 
 **What it does:** Audits claims about human psychology, neuroscience, marketing
@@ -109,6 +122,9 @@ routines/
 │   ├── webscrapper (1).py
 │   └── README.md
 │
+└── 03_psych_research_audit_routine/
+    ├── README.md
+    └── 2026-07-05_antidepressants_efficacy_audit.md
 └── 03_psychology_marketing_audit_routine/
     ├── README.md
     └── 2026-07-04_serotonin-chemical-imbalance.md
@@ -154,6 +170,7 @@ When a new Claude Code routine creates content:
 
 **Back to main README?** 👉 [Free Education Root](../)
 
+*Last Updated: 2026-07-05*
 *Last Updated: 2026-07-04*
 *Last Updated: 2026-07-18*
 *Last Updated: 2026-07-05*

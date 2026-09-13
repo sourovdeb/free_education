@@ -1,5 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
+**Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 60+
 **Last Updated:** 2026-07-10  
 **Total Routines:** 3 | **Total Items:** 61+
 **Last Updated:** 2026-07-18  
@@ -12,6 +14,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology / Mental-Health Claim Audits](#routine-3-psychology--mental-health-claim-audits)** — Funding-and-bias audits of psychology, neuroscience, marketing, and mental-health claims
 - **[Routine 3: Human Nature for Young Readers](#routine-3-human-nature-for-young-readers)** — Illustrated psychology explainer for teens/YA
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
 - **[Routine 3: Human Nature Field Guide](#routine-3-human-nature-field-guide)** — Illustrated psychology primer for young readers
@@ -111,6 +114,23 @@
 
 ---
 
+## Routine 3: Psychology / Mental-Health Claim Audits
+
+**What it does:** Audits public claims about human psychology, neuroscience, marketing influence, and mental health treatment — verifies primary sources and methodology, investigates funding and conflicts of interest, checks for funder-favoring bias, compares against independent/opposing research, and publishes a short cited micro-blog audit per claim.  
+**Location:** `routines/03_psych_research_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit (growing)
+
+### Audits Published
+
+| File | Claim audited | Verdict |
+|------|----------------|---------|
+| `2026-07-05_antidepressants_efficacy_audit.md` | Are SSRIs/antidepressants clearly effective for depression? | Partially contested — statistical superiority to placebo is well replicated; clinical-significance magnitude for average-severity depression remains disputed, and industry funding shaped much of the underlying trial base. |
+
+### Key Metadata
+
+- **Every audit cites ≥2 independent sources** with funding disclosed
+- **Output format:** Markdown (.md), one file per claim
+- **Does not auto-publish to WordPress** (unlike Routine 1) — posts are committed as reviewed drafts
 ## Routine 3: Human Nature for Young Readers
 
 **What it does:** An illustrated, sourced explainer on human psychology and nature — Freud, Jung, Dostoevsky, and the Buddha, read through evolutionary mismatch theory — written for teen/young-adult readers preparing for a complex world.  
@@ -223,6 +243,9 @@ free_education/
 │   │   ├── webscrapper (1).py
 │   │   └── README.md
 │   │
+│   └── 03_psych_research_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_antidepressants_efficacy_audit.md
 │   └── 03_human_nature_young_readers/
 │       ├── human_nature_and_behavior.html
 │       └── human_nature_and_behavior.md
@@ -266,6 +289,8 @@ free_education/
 | **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Claim Audits** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Illustrated Essays** | 1 |
 | **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
