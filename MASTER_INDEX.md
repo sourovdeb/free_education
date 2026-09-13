@@ -2,7 +2,10 @@
 
 **Last Updated:** 2026-07-14  
 **Total Routines:** 3 | **Total Items:** 64+
+**Last Updated:** 2026-07-10  
+**Total Routines:** 3 | **Total Items:** 61+
 **Last Updated:** 2026-07-18  
+**Total Routines:** 3 | **Total Items:** 62+
 **Total Routines:** 3 | **Total Items:** 65+
 
 ---
@@ -12,6 +15,8 @@
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited audits of psychology/marketing/mental-health claims
+- **[Routine 3: Human Nature for Young Readers](#routine-3-human-nature-for-young-readers)** — Illustrated psychology explainer for teens/YA
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
 - **[Routine 3: Human Nature Field Guide](#routine-3-human-nature-field-guide)** — Illustrated psychology primer for young readers
 
 ---
@@ -145,6 +150,42 @@ under cognitive overload.
 - **Every audit includes:** primary sources with sample sizes, funding disclosure, at least 2 independent sources, and an explicit verdict
 - **Known limitation:** no Google Sheets write/append tool is available to this routine yet — `audit_log.md` is the durable record until the sheet is updated by hand
 - **Date created:** 2026-07-14
+## Routine 3: Human Nature for Young Readers
+
+**What it does:** An illustrated, sourced explainer on human psychology and nature — Freud, Jung, Dostoevsky, and the Buddha, read through evolutionary mismatch theory — written for teen/young-adult readers preparing for a complex world.  
+**Location:** `routines/03_human_nature_young_readers/`  
+**Status:** ✅ Active | **Items:** 1 illustrated HTML essay + 1 plain-text markdown companion
+
+### Content
+
+📄 File: `human_nature_and_behavior.html` (illustrated, with doodled SVG diagrams — the iceberg, the shadow, the burden-of-freedom fork, the three poisons wheel, a 24-hour clock of human history)
+📄 File: `human_nature_and_behavior.md` (text-only companion with the same content, bracketed diagram descriptions)
+
+- **~10 minute read**, ~2,900 words
+- Covers: Freud (id/ego/superego, defense mechanisms), Jung (the Shadow, projection), Dostoevsky (*Notes from Underground*, *The Brothers Karamazov*), Buddha (Four Noble Truths, Three Poisons, dependent origination)
+- Applies all four lenses to 12 everyday themes: habits/addiction, fear, anger, greed, defense mechanisms, sex, competition, friendship, religion/ideology, politics, innovation, knowingly making mistakes — framed as ancient adaptive tools misfiring in a modern environment, not simple "good vs bad"
+- Includes a confidence-tier table (solid / interpretive / speculative) for every major claim, and an explicit "gaps worth digging into" section for follow-up research
+- **Date created:** 2026-07-18
+## Routine 3: Psychology & Marketing Claim Audits
+
+**What it does:** Researches a psychology/neuroscience/marketing/mental-health claim, verifies primary sources and sample sizes, checks funding and conflicts of interest, compares against independent or opposing research, and publishes a short cited verdict as a news item.
+**Location:** `routines/03_psychology_marketing_audit_routine/`
+**Status:** ✅ Active | **Items:** 1 news item
+
+### Content Blocks
+
+#### Block 3A: SSRIs vs. Psychotherapy Audit
+📄 File: `2026-07-10_ssri-vs-therapy-audit.md`
+- Compares Cuijpers et al. 2013 & 2020 (*World Psychiatry*), Turner et al. 2008 (*NEJM*), Lundh et al. (Cochrane-affiliated), and an NIH-funded psychotherapy publication-bias review
+- Discloses that published effect sizes are independently documented as inflated on **both** the drug-trial side (Turner 2008, ~32% inflation) and the psychotherapy-trial side (NIH-funded review)
+- Verdict: contested, not settled — short-term parity, psychotherapy more durable long-term, combined treatment best
+- Includes an appendix on decision-making psychology, marketing-spend rationale, effort-avoidance research, and cognitive-load/persuasion research
+
+### Key Metadata
+
+- **Sources cited:** 5 independent sources (minimum 2 required)
+- **Output format:** Markdown (.md)
+- **Date created:** 2026-07-10
 ## Routine 3: Human Nature Field Guide
 
 **What it does:** A single illustrated 10-minute read on human psychology and behavior for a young audience — Freud, Jung, Dostoevsky, and Buddha, connected to evolutionary/hunter-gatherer mismatch theory and modern life (habits, addiction, fear, anger, greed, defense mechanisms, sex, competition, friendship, religion, ideology, politics, innovation).  
@@ -227,6 +268,12 @@ free_education/
 │       ├── research_notes_2026-07-14.md
 │       └── news/
 │           └── 2026-07-14_choice-overload-audit.md
+│   └── 03_human_nature_young_readers/
+│       ├── human_nature_and_behavior.html
+│       └── human_nature_and_behavior.md
+│   └── 03_psychology_marketing_audit_routine/
+│       ├── README.md
+│       └── 2026-07-10_ssri-vs-therapy-audit.md
 │   └── 03_human_nature_routine/
 │       ├── HUMAN_NATURE_Field_Guide.md
 │       ├── README.md
@@ -266,6 +313,7 @@ free_education/
 | **Python Tools** | 5 |
 | **Claim Audits** | 2 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Illustrated Essays** | 1 |
 | **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Illustrated Articles** | 1 (Human Nature Field Guide) |

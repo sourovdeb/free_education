@@ -19,8 +19,8 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 - WordPress publisher script
 - Lesson index
 
-**Frequency:** As needed  
-**Output format:** Markdown (.md)  
+**Frequency:** As needed
+**Output format:** Markdown (.md)
 **Status:** ✅ Active
 
 📖 [Go to routine →](01_elt365_lessons_routine/)
@@ -37,8 +37,8 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 - Full setup and usage documentation
 - PyQt6 dark-theme UI
 
-**Frequency:** As needed  
-**Output format:** Python (.py)  
+**Frequency:** As needed
+**Output format:** Python (.py)
 **Status:** ✅ Active
 
 📖 [Go to routine →](02_python_toolkit_routine/)
@@ -57,13 +57,23 @@ and persuasion under cognitive overload.
 - `news/` — dated, cited micro-blog posts
 - `audit_log.md` — claim audit tracker (mirrors the Psychology_Marketing_Claim_Audits Google Sheet)
 - `research_notes_*.md` — literature synthesis, refreshed each cycle
-### 3️⃣ **03_psychology_mental_health_audit_routine**
-
-**What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental-health treatment — locates primary sources, checks funding/conflicts of interest, compares against opposing research, and drafts a sourced micro-blog verdict.
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment (funding, conflicts of interest, contested evidence) and drafts a sourced micro-blog.
 
 **Contains:**
-- One audit file per claim (methodology review + funding check + micro-blog draft)
-- README explaining the audit process and external-publishing policy
+- `persuasion-audit.md` — claim ledger, per-claim audit, micro-blog synthesis, source list
+- README noting known limitations (no connected publishing target, and a mismatched save-target Google Sheet from the stored task prompt)
+
+**Frequency:** As needed
+**Output format:** Markdown (.md)
+**Status:** ✅ Active (first run)
+
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
+### 3️⃣ **03_psychology_mental_health_audit_routine**
+
+**What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental health treatment — verifies sources, checks funding/conflicts of interest, compares opposing research, and publishes a short cited verdict.
+
+**Contains:**
+- Claim-audit news items (one per claim), each with primary sources, funding disclosure, and an independent-research comparison
 
 **Frequency:** As needed  
 **Output format:** Markdown (.md)  
@@ -105,9 +115,11 @@ routines/
     ├── research_notes_2026-07-14.md
     └── news/
         └── 2026-07-14_choice-overload-audit.md
+    ├── persuasion-audit.md
+    └── README.md
 └── 03_psychology_mental_health_audit_routine/
     ├── README.md
-    └── 2026-07-05_antidepressant-placebo-audit.md
+    └── 2026-07-10_ssri-vs-therapy-audit.md
 ```
 
 ---
@@ -136,7 +148,7 @@ These folders document **automated tasks that run on a schedule**. Each routine:
 
 When a new Claude Code routine creates content:
 
-1. Create a folder: `03_your_routine_name/`
+1. Create a folder: `04_your_routine_name/`
 2. Move/copy the generated files there
 3. Add a README explaining what the routine does
 4. Update this file with the new routine
@@ -146,4 +158,6 @@ When a new Claude Code routine creates content:
 **Back to main README?** 👉 [Free Education Root](../)
 
 *Last Updated: 2026-07-14*
+*Last Updated: 2026-07-18*
 *Last Updated: 2026-07-05*
+*Last Updated: 2026-07-10*
