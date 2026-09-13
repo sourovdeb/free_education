@@ -45,6 +45,13 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_research_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checks primary sources, methodology, funding/conflicts of interest, and opposing research — then drafts a short sourced micro-blog verdict.
+
+**Contains:**
+- Research audit micro-blog posts (one per claim investigated)
+- Each post discloses funding, conflicts of interest, and cites at least two independent sources
 ### 3️⃣ **03_psych_research_audit_routine**
 
 **What it does:** Audits claims about human psychology, neuroscience, marketing
@@ -101,6 +108,7 @@ of interest, and opposing research, then drafts a source-linked micro-blog post.
 **Output format:** Markdown (.md)  
 **Status:** ✅ Active
 
+📖 [Go to routine →](03_research_audit_routine/)
 📖 [Go to routine →](03_psych_research_audit_routine/)
 📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 
@@ -131,6 +139,9 @@ routines/
 │   ├── webscrapper (1).py
 │   └── README.md
 │
+└── 03_research_audit_routine/
+    ├── README.md
+    └── 2026-07-05_serotonin-theory-of-depression.md
 └── 03_psych_research_audit_routine/
     ├── README.md
     └── POST_01_chemical-imbalance-serotonin-depression.md
