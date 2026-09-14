@@ -1,5 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
+**Last Updated:** 2026-07-07  
+**Total Routines:** 3 | **Total Items:** 62+
 **Last Updated:** 2026-07-12  
 **Total Routines:** 3 | **Total Items:** 60+
 **Last Updated:** 2026-07-14  
@@ -19,6 +21,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology / Marketing / Mental-Health Claim Audits](#routine-3-psychology--marketing--mental-health-claim-audits)** — Research-backed claim audits with funding disclosure, plus an AI product-ethics guardrail
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
 - **[Routine 3: Psychology/Marketing Claim Audit](#routine-3-psychologymarketing-claim-audit)** — Cited fact-checks of psychology/marketing/mental-health claims
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited audits of psychology/marketing/mental-health claims
@@ -121,6 +124,36 @@
 
 ---
 
+## Routine 3: Psychology / Marketing / Mental-Health Claim Audits
+
+**What it does:** Researches and audits claims about human psychology, neuroscience, marketing influence, and mental-health treatment — verifying primary sources and sample sizes, investigating funding/conflicts of interest on every side of a debate, and comparing against independent evidence before publishing a short cited micro-blog.  
+**Location:** `routines/03_psychology_marketing_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit post + 1 governance guardrail
+
+### Content
+
+📄 File: `NEWS_2026-07-07_chemical-imbalance-depression.md`
+- Claim audit: the "chemical imbalance"/serotonin theory of depression — Moncrieff et al. 2022 umbrella review, its 2023 rebuttal, and funding/conflict-of-interest disclosure on both sides (pharma ties among defenders, ideological/professional interests among critics)
+- Independent comparison evidence: Cipriani et al. 2018 (Lancet), Cuijpers et al. (World Psychiatry), NICE 2022 guidance
+- Bonus research: decision-making psychology (childhood, trauma, ideology, society), marketing ad-spend psychology, why companies ship incomplete products, and the evolutionary/hunter-gatherer basis for why people fall for these patterns despite modern education
+
+📄 File: `AI_PRODUCT_ETHICS_GUARDRAIL.md`
+- Governance document requiring any AI agent to name the psychological mechanism, its beneficiary, and its transparency before implementing persuasive-design/growth features
+- Requires flagging or refusing documented dark patterns (fake urgency, confirmshaming, roach motel, forced continuity, etc.) rather than silently building them
+
+### Methodology
+
+1. Identify a specific, falsifiable claim
+2. Locate primary sources; verify methodology and sample size
+3. Investigate funding for every side of the debate
+4. Check whether conclusions pattern-match funder interests
+5. Compare against independent/opposing research
+6. Publish a 200–300 word cited micro-blog with funding disclosed, plus a fuller audit-trail appendix
+7. Explicitly flag anything that could not be fully verified
+
+### Date Created
+
+- 2026-07-07
 ## Routine 3: Psychology/Marketing Claim Audit
 
 **What it does:** Audits a psychology, neuroscience, marketing, or mental-health claim —
@@ -379,6 +412,8 @@ free_education/
 │   │
 │   └── 03_psychology_marketing_audit_routine/
 │       ├── README.md
+│       ├── NEWS_2026-07-07_chemical-imbalance-depression.md
+│       └── AI_PRODUCT_ETHICS_GUARDRAIL.md
 │       └── 2026-07-07_antidepressants-vs-placebo-audit.md
 │       ├── AUDIT_ego_depletion.md
 │       ├── DECISION_MAKING_NOTES.md
@@ -441,6 +476,8 @@ free_education/
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
 | **Claim Audits** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Documentation Files** | 6 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Research Audits** | 1 (ego depletion) |
 | **Supporting Scripts** | 2 (publishers) + 1 (NLP utility) |
