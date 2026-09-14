@@ -133,6 +133,7 @@ site's name.
 
 | File | Claim audited | Verdict |
 |------|----------------|---------|
+| `2026-07-07_antidepressants-vs-placebo-audit.md` | Antidepressants are proven more effective than placebo | Real but overstated — modest average benefit, contested effect size |
 | `2026-07-10_ssri-vs-therapy-audit.md` | SSRIs are about as effective as psychotherapy (CBT) for depression | Contested — short-term parity, but effect sizes on both sides are likely inflated by publication bias; psychotherapy holds up better long-term; combined treatment beats either alone |
 
 ## Method

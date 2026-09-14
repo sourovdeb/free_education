@@ -47,6 +47,16 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ### 3️⃣ **03_psychology_marketing_audit_routine**
 
+**What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental health treatment — verifies sources, checks funding/conflicts of interest, compares opposing research, and publishes a short cited verdict.
+
+**Contains:**
+- Claim-audit news items (one per claim), each with primary sources, funding disclosure, and an independent-research comparison
+
+**Frequency:** As needed
+**Output format:** Markdown (.md)
+**Status:** ✅ Active
+
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 **What it does:** Audits psychology/neuroscience/marketing/mental-health claims — primary
 sources, funding/conflict-of-interest check, replication comparison — and drafts a cited
 micro-blog post plus decision-making notes.
@@ -166,6 +176,8 @@ routines/
 │   └── README.md
 │
 └── 03_psychology_marketing_audit_routine/
+    ├── README.md
+    └── 2026-07-07_antidepressants-vs-placebo-audit.md
     ├── AUDIT_ego_depletion.md
     ├── DECISION_MAKING_NOTES.md
     ├── README.md

@@ -19,6 +19,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
 - **[Routine 3: Psychology/Marketing Claim Audit](#routine-3-psychologymarketing-claim-audit)** — Cited fact-checks of psychology/marketing/mental-health claims
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited audits of psychology/marketing/mental-health claims
 - **[Routine 3: Human Nature for Young Readers](#routine-3-human-nature-for-young-readers)** — Illustrated psychology explainer for teens/YA
@@ -276,6 +277,18 @@ publishes a short sourced verdict as a news-item post.
 
 ### Content Blocks
 
+#### Block 3A: Antidepressants vs. Placebo Audit
+📄 File: `2026-07-07_antidepressants-vs-placebo-audit.md`
+- Compares Cipriani et al. 2018 (*The Lancet*), Kirsch et al. 2008 (*PLoS Medicine*), and Munkholm et al. 2019 (*BMJ Evidence-Based Medicine*)
+- Discloses that 78% of trials in the largest meta-analysis were industry-sponsored, while the meta-analysis itself was publicly funded
+- Verdict: claim is real but overstated — modest, contested effect size
+- Includes an appendix on decision-making psychology and marketing-spend rationale
+
+### Key Metadata
+
+- **Sources cited:** 4 independent sources per audit (minimum 2 required)
+- **Output format:** Markdown (.md)
+- **Date created:** 2026-07-07
 #### Block 3A: SSRIs vs. Psychotherapy Audit
 📄 File: `2026-07-10_ssri-vs-therapy-audit.md`
 - Compares Cuijpers et al. 2013 & 2020 (*World Psychiatry*), Turner et al. 2008 (*NEJM*), Lundh et al. (Cochrane-affiliated), and an NIH-funded psychotherapy publication-bias review
@@ -365,6 +378,8 @@ free_education/
 │   │   └── README.md
 │   │
 │   └── 03_psychology_marketing_audit_routine/
+│       ├── README.md
+│       └── 2026-07-07_antidepressants-vs-placebo-audit.md
 │       ├── AUDIT_ego_depletion.md
 │       ├── DECISION_MAKING_NOTES.md
 │       ├── README.md
@@ -425,6 +440,8 @@ free_education/
 | **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Claim Audits** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Research Audits** | 1 (ego depletion) |
 | **Supporting Scripts** | 2 (publishers) + 1 (NLP utility) |
 | **Documentation Files** | 6 |
