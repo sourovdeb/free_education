@@ -52,6 +52,12 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 **Contains:**
 - Dated audit files, one per claim, each with a full methodology/funding/bias writeup plus a ready-to-publish micro-blog draft
 - Held for human review before any external publishing (see the routine's README)
+### 3️⃣ **03_psychology_marketing_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checks primary sources, sample sizes, funding/conflicts of interest, and compares against independent research.
+
+**Contains:**
+- Claim audit write-ups (one per claim), each with sources, funding disclosure, and a verdict
 ### 3️⃣ **03_psychology_research_audits_routine**
 
 **What it does:** Researches and audits claims about psychology, neuroscience, marketing influence, and mental health treatment — verifying sources, funding, and conflicts of interest — then drafts a cited micro-blog news item with a verdict.
@@ -194,6 +200,9 @@ routines/
 └── 03_psychology_marketing_mental_health_audit_routine/
     ├── README.md
     └── 2026-07-05_power-posing-audit.md
+└── 03_psychology_marketing_audit_routine/
+    ├── README.md
+    └── power_posing_audit.md
 └── 03_psychology_research_audits_routine/
     ├── README.md
     └── PSYCH_001_chemical_imbalance_depression.md
