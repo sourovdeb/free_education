@@ -1,6 +1,15 @@
 # 📚 Master Index — All Claude Code Routines
 
 **Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 60+
+**Total Routines:** 3 | **Total Items:** 61+
+**Last Updated:** 2026-07-07  
+**Total Routines:** 3 | **Total Items:** 62+
+**Last Updated:** 2026-07-12  
+**Total Routines:** 3 | **Total Items:** 60+
+**Last Updated:** 2026-07-14  
+**Total Routines:** 3 | **Total Items:** 64+
+**Last Updated:** 2026-07-05  
 **Total Routines:** 3 | **Total Items:** 61+
 **Total Routines:** 3 | **Total Items:** 60+
 **Last Updated:** 2026-07-10  
@@ -18,6 +27,12 @@
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Sourced audits of psychology/neuroscience/marketing/mental-health claims
 - **[Routine 3: Psych Research Audit](#routine-3-psych-research-audit)** — Sourced audits of psychology/mental-health claims
 - **[Routine 3: Psychology / Mental-Health Claim Audits](#routine-3-psychology--mental-health-claim-audits)** — Funding-and-bias audits of psychology, neuroscience, marketing, and mental-health claims
+- **[Routine 3: Psychology & Neuroscience Claim Audits](#routine-3-psychology--neuroscience-claim-audits)** — Fact-checked micro-blogs on psychology/mental-health claims
+- **[Routine 3: Psychology / Marketing / Mental Health Myth-Audit](#routine-3-psychology--marketing--mental-health-myth-audit)** — Sourced, funding-aware audits of psych/neuro/marketing/mental-health claims
+- **[Routine 3: Psychology / Marketing / Mental-Health Claim Audits](#routine-3-psychology--marketing--mental-health-claim-audits)** — Research-backed claim audits with funding disclosure, plus an AI product-ethics guardrail
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
+- **[Routine 3: Psychology/Marketing Claim Audit](#routine-3-psychologymarketing-claim-audit)** — Cited fact-checks of psychology/marketing/mental-health claims
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited audits of psychology/marketing/mental-health claims
 - **[Routine 3: Human Nature for Young Readers](#routine-3-human-nature-for-young-readers)** — Illustrated psychology explainer for teens/YA
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
 - **[Routine 3: Human Nature Field Guide](#routine-3-human-nature-field-guide)** — Illustrated psychology primer for young readers
@@ -133,6 +148,170 @@
 
 - **Output format:** Markdown (.md), one file per claim
 - **Sourcing standard:** At least 2 independent primary/secondary sources per audit, with funding/COI disclosure
+## Routine 3: Psychology & Neuroscience Claim Audits
+
+**What it does:** Researches and audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checking primary sources, methodology, sample sizes, funding, and conflicts of interest — then publishes a short cited micro-blog verdict.  
+**Location:** `routines/03_psychology_research_audits_routine/`  
+**Status:** ✅ Active | **Items:** 1 claim audit
+
+### Content Blocks
+
+#### Audit #001: The "Chemical Imbalance" Theory of Depression
+📄 File: `PSYCH_001_chemical_imbalance_depression.md`
+- Compares Moncrieff et al. 2022 (*Molecular Psychiatry*), Turner et al. 2008 (*NEJM*), and Cipriani et al. 2018 (*The Lancet*)
+- Documents funding sources (UCL, NIHR/JSPS, FDA data) and pharma-linked author conflicts of interest
+- Verdict: serotonin "chemical imbalance" mechanism not supported; modest antidepressant efficacy over placebo is real but inflated by publication bias
+- Includes a ready-to-publish 200–300 word micro-blog with citations
+## Routine 3: Psychology / Marketing / Mental Health Myth-Audit
+
+**What it does:** Researches and audits public claims about psychology,
+neuroscience, marketing influence, and mental health treatment — checking
+primary sources, methodology, funding, and conflicts of interest — then
+drafts a short cited micro-blog post as a WordPress news item.  
+**Location:** `routines/03_psych_myth_audit_routine/`  
+## Routine 3: Psychology / Marketing / Mental-Health Claim Audits
+
+**What it does:** Researches and audits claims about human psychology, neuroscience, marketing influence, and mental-health treatment — verifying primary sources and sample sizes, investigating funding/conflicts of interest on every side of a debate, and comparing against independent evidence before publishing a short cited micro-blog.  
+**Location:** `routines/03_psychology_marketing_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit post + 1 governance guardrail
+
+### Content
+
+📄 File: `NEWS_2026-07-07_chemical-imbalance-depression.md`
+- Claim audit: the "chemical imbalance"/serotonin theory of depression — Moncrieff et al. 2022 umbrella review, its 2023 rebuttal, and funding/conflict-of-interest disclosure on both sides (pharma ties among defenders, ideological/professional interests among critics)
+- Independent comparison evidence: Cipriani et al. 2018 (Lancet), Cuijpers et al. (World Psychiatry), NICE 2022 guidance
+- Bonus research: decision-making psychology (childhood, trauma, ideology, society), marketing ad-spend psychology, why companies ship incomplete products, and the evolutionary/hunter-gatherer basis for why people fall for these patterns despite modern education
+
+📄 File: `AI_PRODUCT_ETHICS_GUARDRAIL.md`
+- Governance document requiring any AI agent to name the psychological mechanism, its beneficiary, and its transparency before implementing persuasive-design/growth features
+- Requires flagging or refusing documented dark patterns (fake urgency, confirmshaming, roach motel, forced continuity, etc.) rather than silently building them
+
+### Methodology
+
+1. Identify a specific, falsifiable claim
+2. Locate primary sources; verify methodology and sample size
+3. Investigate funding for every side of the debate
+4. Check whether conclusions pattern-match funder interests
+5. Compare against independent/opposing research
+6. Publish a 200–300 word cited micro-blog with funding disclosed, plus a fuller audit-trail appendix
+7. Explicitly flag anything that could not be fully verified
+
+### Date Created
+
+- 2026-07-07
+## Routine 3: Psychology/Marketing Claim Audit
+
+**What it does:** Audits a psychology, neuroscience, marketing, or mental-health claim —
+primary sources, funding/conflict-of-interest check, replication comparison — and drafts a
+cited micro-blog post. Also produces grounded notes on decision-making psychology,
+marketing spend, low-effort/heuristic behavior, and cognitive overload.
+**Location:** `routines/03_psychology_marketing_audit_routine/`
+**Status:** ⚠️ Active, content complete | **Items:** 1 audit + 1 notes file + 1 publisher script
+
+### Content
+
+📄 File: `AUDIT_ego_depletion.md`
+- Full audit of "ego depletion" (willpower as a limited resource): Baumeister et al. 1998,
+  funding (NIH, no industry conflict), and comparison against the 2016 Registered
+  Replication Report (24 labs, 2,141 participants, effect ≈ zero) and a 2021 36-lab
+  follow-up
+- Includes a 200–300 word cited micro-blog draft
+- Verdict: contested; effect likely far smaller than originally claimed, possibly zero
+
+📄 File: `DECISION_MAKING_NOTES.md`
+- How decisions form (dual-process theory, attachment, education, trauma, ideology)
+- What billions in ad spend actually buy (mental availability, habit, pricing power)
+- Why humans default to low-effort choices (bounded rationality, cognitive-miser theory)
+- What's currently overloading attention/decisions (notification volume, algorithmic
+  feeds) — and a debunking of the widely-repeated but unreliable "35,000 decisions a day"
+  statistic (traced to the retraction-plagued Cornell Food and Brand Lab)
+
+### Scripts & Tools
+
+| File | Purpose |
+|------|---------|
+| `publisher/psych_audit_publisher.py` | Posts the micro-blog as a draft to sourovdeb.com (Mental Health category) — **currently blocked**, see status below |
+
+### Key Metadata
+
+- **WordPress status:** ❌ Not published. The custom `sourov/v1/ai-post` endpoint used by
+  both this script and `elt365_lessons_publisher.py` now returns `404 rest_no_route` — it
+  appears to have been removed/deactivated on sourovdeb.com since the ELT365 batch was
+  published. Re-run the script once the endpoint is restored.
+- **Google Sheet:** The task referenced spreadsheet `1NZJtgfVtMKptUr2oxzeIZUnndMkftxiWboq-fvrchPI`
+  as a place to also save this research. That file is actually `EMAIL_INDEX` — an
+  unrelated job-application outreach tracker — so nothing was written there.
+- **Date created:** 2026-07-12
+## Routine 3: Psychology & Marketing Claim Audits
+
+**What it does:** Audits a claim about human psychology, neuroscience, marketing
+influence, or mental health treatment each cycle — checks primary sources,
+sample sizes, funding/conflicts of interest, and contested/opposing research —
+then publishes a short cited news item. Also maintains research notes on
+decision-making, marketing spend, effort-seeking behavior, and persuasion
+under cognitive overload.  
+**Location:** `routines/03_psychology_marketing_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit log + 2 research-notes files + 1 news post (growing each cycle)
+
+### Content Blocks
+
+#### Audit Log
+📄 File: `audit_log.md`
+- Mirrors the `Psychology_Marketing_Claim_Audits` Google Sheet schema
+- 2026-07-07: antidepressants vs. placebo (Mental Health Treatment)
+- 2026-07-14: "choice overload" / the jam study (Marketing Influence)
+
+#### News Items
+📁 Folder: `news/`
+- 200–300 word cited micro-blog posts, one per audited claim
+
+#### Research Notes
+📄 File: `research_notes_2026-07-14.md`
+- How decisions form (childhood, attachment, trauma, ideology, society)
+- What marketing spend is actually buying (habit loops, heuristics, not rational persuasion)
+- Why humans default to low-effort options (cognitive miser model, metabolic cost of cognition)
+- Why an overloaded brain is easier to persuade, and today's overload sources
+## Routine 3: Research Audit
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — verifies primary sources and methodology, investigates funding/conflicts of interest, checks for bias, compares against opposing research, and publishes a short sourced micro-blog verdict.  
+**Location:** `routines/03_research_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit post
+
+### Content
+
+📄 File: `2026-07-05_chemical-imbalance-theory-of-depression.md`
+- Audits the claim that depression is caused by a serotonin "chemical
+  imbalance" corrected by SSRIs
+- Primary sources: Moncrieff et al. 2022 (*Molecular Psychiatry*), Kirsch et
+  al. 2008 (*PLoS Medicine*), Turner et al. 2008 (*NEJM*)
+- Documents funding of underlying industry trials vs. independent academic
+  reanalyses, and a disclosed conflict of interest among critics
+- Verdict: claim not well supported by current evidence
+
+### Key Metadata
+
+- **Output format:** Markdown (.md), 200–300 word publishable excerpt per post
+- **Every post includes:** claim statement, cited micro-blog draft, audit
+  methodology, sourcing-confidence note, publishing note
+- **Minimum sourcing bar:** at least two independent (non-industry-funded)
+  sources per claim
+📄 File: `2026-07-05_serotonin-theory-of-depression.md`
+- Audits the "low serotonin causes depression" claim
+- Primary source: Moncrieff et al., umbrella review, *Molecular Psychiatry* (2022) — 17 systematic reviews/meta-analyses, largest genetic sub-study n=115,257
+- Funding/COI: no dedicated study funding; co-authors' financial interests (antidepressant-tapering company, book royalties) disclosed
+- Opposing view: Jauhar et al. rebuttal (36 researchers), *Molecular Psychiatry* (2023)
+- Verdict: narrow finding holds up, but claim is often over-read as "antidepressants don't work," which the review did not test
+
+### Key Metadata
+
+- **Output format:** Markdown (.md)
+- **Each audit includes:** Core claim, sources/methodology table, funding & COI section, bias pattern check, comparison verdict, and a cited micro-blog draft
+- **Publishing:** Not yet wired to an automated publisher (unlike Routine 1) — micro-blog drafts are reviewed manually before posting
+- **Every audit includes:** primary sources with sample sizes, funding disclosure, at least 2 independent sources, and an explicit verdict
+- **Known limitation:** no Google Sheets write/append tool is available to this routine yet — `audit_log.md` is the durable record until the sheet is updated by hand
+- **Date created:** 2026-07-14
+- **Minimum sources per post:** 2 independent sources, always cited with links
+- **Publishing note:** No WordPress content-authoring MCP tool was connected in the session that created this routine, so posts are committed here as the canonical draft pending manual/publisher-script upload to sourovdeb.com
 ## Routine 3: Psych Research Audit
 
 **What it does:** Audits claims about human psychology, neuroscience, marketing
@@ -194,6 +373,18 @@ publishes a short sourced verdict as a news-item post.
 
 ### Content Blocks
 
+#### Block 3A: Antidepressants vs. Placebo Audit
+📄 File: `2026-07-07_antidepressants-vs-placebo-audit.md`
+- Compares Cipriani et al. 2018 (*The Lancet*), Kirsch et al. 2008 (*PLoS Medicine*), and Munkholm et al. 2019 (*BMJ Evidence-Based Medicine*)
+- Discloses that 78% of trials in the largest meta-analysis were industry-sponsored, while the meta-analysis itself was publicly funded
+- Verdict: claim is real but overstated — modest, contested effect size
+- Includes an appendix on decision-making psychology and marketing-spend rationale
+
+### Key Metadata
+
+- **Sources cited:** 4 independent sources per audit (minimum 2 required)
+- **Output format:** Markdown (.md)
+- **Date created:** 2026-07-07
 #### Block 3A: SSRIs vs. Psychotherapy Audit
 📄 File: `2026-07-10_ssri-vs-therapy-audit.md`
 - Compares Cuijpers et al. 2013 & 2020 (*World Psychiatry*), Turner et al. 2008 (*NEJM*), Lundh et al. (Cochrane-affiliated), and an NIH-funded psychotherapy publication-bias review
@@ -285,6 +476,30 @@ free_education/
 │   └── 03_psychology_marketing_audit_routine/
 │       ├── README.md
 │       └── power_posing_audit.md
+│   └── 03_psychology_research_audits_routine/
+│       ├── README.md
+│       └── PSYCH_001_chemical_imbalance_depression.md
+│   └── 03_psych_myth_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_chemical-imbalance-theory-of-depression.md
+│   └── 03_psychology_marketing_audit_routine/
+│       ├── README.md
+│       ├── NEWS_2026-07-07_chemical-imbalance-depression.md
+│       └── AI_PRODUCT_ETHICS_GUARDRAIL.md
+│       └── 2026-07-07_antidepressants-vs-placebo-audit.md
+│       ├── AUDIT_ego_depletion.md
+│       ├── DECISION_MAKING_NOTES.md
+│       ├── README.md
+│       └── publisher/
+│           └── psych_audit_publisher.py
+│       ├── README.md
+│       ├── audit_log.md
+│       ├── research_notes_2026-07-14.md
+│       └── news/
+│           └── 2026-07-14_choice-overload-audit.md
+│   └── 03_research_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_serotonin-theory-of-depression.md
 │   └── 03_psych_research_audit_routine/
 │       ├── README.md
 │       └── POST_01_chemical-imbalance-serotonin-depression.md
@@ -334,7 +549,18 @@ free_education/
 | **Python Tools** | 5 |
 | **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Myth-Audit Posts** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Claim Audits** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Documentation Files** | 6 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Research Audits** | 1 (ego depletion) |
+| **Supporting Scripts** | 2 (publishers) + 1 (NLP utility) |
+| **Documentation Files** | 6 |
+| **Claim Audits** | 2 |
 | **Research Audit Posts** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
