@@ -1,5 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
+**Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 61+
 **Last Updated:** 2026-07-07  
 **Total Routines:** 3 | **Total Items:** 62+
 **Last Updated:** 2026-07-12  
@@ -21,6 +23,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology / Marketing / Mental Health Myth-Audit](#routine-3-psychology--marketing--mental-health-myth-audit)** — Sourced, funding-aware audits of psych/neuro/marketing/mental-health claims
 - **[Routine 3: Psychology / Marketing / Mental-Health Claim Audits](#routine-3-psychology--marketing--mental-health-claim-audits)** — Research-backed claim audits with funding disclosure, plus an AI product-ethics guardrail
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
 - **[Routine 3: Psychology/Marketing Claim Audit](#routine-3-psychologymarketing-claim-audit)** — Cited fact-checks of psychology/marketing/mental-health claims
@@ -124,6 +127,13 @@
 
 ---
 
+## Routine 3: Psychology / Marketing / Mental Health Myth-Audit
+
+**What it does:** Researches and audits public claims about psychology,
+neuroscience, marketing influence, and mental health treatment — checking
+primary sources, methodology, funding, and conflicts of interest — then
+drafts a short cited micro-blog post as a WordPress news item.  
+**Location:** `routines/03_psych_myth_audit_routine/`  
 ## Routine 3: Psychology / Marketing / Mental-Health Claim Audits
 
 **What it does:** Researches and audits claims about human psychology, neuroscience, marketing influence, and mental-health treatment — verifying primary sources and sample sizes, investigating funding/conflicts of interest on every side of a debate, and comparing against independent evidence before publishing a short cited micro-blog.  
@@ -234,6 +244,22 @@ under cognitive overload.
 
 ### Content
 
+📄 File: `2026-07-05_chemical-imbalance-theory-of-depression.md`
+- Audits the claim that depression is caused by a serotonin "chemical
+  imbalance" corrected by SSRIs
+- Primary sources: Moncrieff et al. 2022 (*Molecular Psychiatry*), Kirsch et
+  al. 2008 (*PLoS Medicine*), Turner et al. 2008 (*NEJM*)
+- Documents funding of underlying industry trials vs. independent academic
+  reanalyses, and a disclosed conflict of interest among critics
+- Verdict: claim not well supported by current evidence
+
+### Key Metadata
+
+- **Output format:** Markdown (.md), 200–300 word publishable excerpt per post
+- **Every post includes:** claim statement, cited micro-blog draft, audit
+  methodology, sourcing-confidence note, publishing note
+- **Minimum sourcing bar:** at least two independent (non-industry-funded)
+  sources per claim
 📄 File: `2026-07-05_serotonin-theory-of-depression.md`
 - Audits the "low serotonin causes depression" claim
 - Primary source: Moncrieff et al., umbrella review, *Molecular Psychiatry* (2022) — 17 systematic reviews/meta-analyses, largest genetic sub-study n=115,257
@@ -410,6 +436,9 @@ free_education/
 │   │   ├── webscrapper (1).py
 │   │   └── README.md
 │   │
+│   └── 03_psych_myth_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_chemical-imbalance-theory-of-depression.md
 │   └── 03_psychology_marketing_audit_routine/
 │       ├── README.md
 │       ├── NEWS_2026-07-07_chemical-imbalance-depression.md
@@ -475,6 +504,8 @@ free_education/
 | **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Myth-Audit Posts** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Documentation Files** | 6 |
