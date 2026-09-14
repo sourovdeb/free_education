@@ -45,6 +45,22 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_psychology_marketing_audit_routine**
+
+**What it does:** Audits psychology/neuroscience/marketing/mental-health claims — primary
+sources, funding/conflict-of-interest check, replication comparison — and drafts a cited
+micro-blog post plus decision-making notes.
+
+**Contains:**
+- Full audit of "ego depletion" (contested — large registered replications found ≈zero effect)
+- Notes on decision-making psychology, marketing spend, low-effort heuristics, and cognitive overload
+- WordPress draft publisher script (currently blocked — see routine README)
+
+**Frequency:** As needed  
+**Output format:** Markdown (.md)  
+**Status:** ⚠️ Content complete, WordPress publish blocked (endpoint 404)
+
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 ### 3️⃣ **03_research_audit_routine**
 
 **What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checks primary sources, methodology, funding/conflicts of interest, and opposing research — then drafts a short sourced micro-blog verdict.
@@ -149,6 +165,12 @@ routines/
 │   ├── webscrapper (1).py
 │   └── README.md
 │
+└── 03_psychology_marketing_audit_routine/
+    ├── AUDIT_ego_depletion.md
+    ├── DECISION_MAKING_NOTES.md
+    ├── README.md
+    └── publisher/
+        └── psych_audit_publisher.py
 └── 03_research_audit_routine/
     ├── README.md
     └── 2026-07-05_serotonin-theory-of-depression.md
