@@ -2,6 +2,9 @@
 
 **Last Updated:** 2026-07-14  
 **Total Routines:** 3 | **Total Items:** 64+
+**Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 61+
+**Total Routines:** 3 | **Total Items:** 60+
 **Last Updated:** 2026-07-10  
 **Total Routines:** 3 | **Total Items:** 61+
 **Last Updated:** 2026-07-18  
@@ -143,6 +146,20 @@ under cognitive overload.
 - What marketing spend is actually buying (habit loops, heuristics, not rational persuasion)
 - Why humans default to low-effort options (cognitive miser model, metabolic cost of cognition)
 - Why an overloaded brain is easier to persuade, and today's overload sources
+## Routine 3: Research Audit
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — verifies primary sources and methodology, investigates funding/conflicts of interest, checks for bias, compares against opposing research, and publishes a short sourced micro-blog verdict.  
+**Location:** `routines/03_research_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit post
+
+### Content
+
+📄 File: `2026-07-05_serotonin-theory-of-depression.md`
+- Audits the "low serotonin causes depression" claim
+- Primary source: Moncrieff et al., umbrella review, *Molecular Psychiatry* (2022) — 17 systematic reviews/meta-analyses, largest genetic sub-study n=115,257
+- Funding/COI: no dedicated study funding; co-authors' financial interests (antidepressant-tapering company, book royalties) disclosed
+- Opposing view: Jauhar et al. rebuttal (36 researchers), *Molecular Psychiatry* (2023)
+- Verdict: narrow finding holds up, but claim is often over-read as "antidepressants don't work," which the review did not test
 
 ### Key Metadata
 
@@ -150,6 +167,45 @@ under cognitive overload.
 - **Every audit includes:** primary sources with sample sizes, funding disclosure, at least 2 independent sources, and an explicit verdict
 - **Known limitation:** no Google Sheets write/append tool is available to this routine yet — `audit_log.md` is the durable record until the sheet is updated by hand
 - **Date created:** 2026-07-14
+- **Minimum sources per post:** 2 independent sources, always cited with links
+- **Publishing note:** No WordPress content-authoring MCP tool was connected in the session that created this routine, so posts are committed here as the canonical draft pending manual/publisher-script upload to sourovdeb.com
+## Routine 3: Psych Research Audit
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing
+influence, and mental health treatment. For each claim: locates primary sources,
+checks methodology/sample size, investigates funding and conflicts of interest on
+every side of the debate, compares against independent/opposing research, and
+publishes a short sourced verdict as a news-item post.  
+**Location:** `routines/03_psych_research_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 post
+
+### Posts
+
+| # | Claim audited | File |
+|---|----------------|------|
+| 1 | Is depression a "chemical imbalance"? (serotonin theory vs. Moncrieff et al. 2022 umbrella review, and its industry-tied critics) | `POST_01_chemical-imbalance-serotonin-depression.md` |
+
+### Key Metadata
+
+- **Output format:** Markdown (.md) — 200–300 word micro-blog + full audit trail per post
+- **Every post includes:** primary source links, funding/COI disclosure for all sides, independent comparison source, explicit verdict
+## Routine 3: Psychology / Mental-Health Claim Audits
+
+**What it does:** Audits public claims about human psychology, neuroscience, marketing influence, and mental health treatment — verifies primary sources and methodology, investigates funding and conflicts of interest, checks for funder-favoring bias, compares against independent/opposing research, and publishes a short cited micro-blog audit per claim.  
+**Location:** `routines/03_psych_research_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit (growing)
+
+### Audits Published
+
+| File | Claim audited | Verdict |
+|------|----------------|---------|
+| `2026-07-05_antidepressants_efficacy_audit.md` | Are SSRIs/antidepressants clearly effective for depression? | Partially contested — statistical superiority to placebo is well replicated; clinical-significance magnitude for average-severity depression remains disputed, and industry funding shaped much of the underlying trial base. |
+
+### Key Metadata
+
+- **Every audit cites ≥2 independent sources** with funding disclosed
+- **Output format:** Markdown (.md), one file per claim
+- **Does not auto-publish to WordPress** (unlike Routine 1) — posts are committed as reviewed drafts
 ## Routine 3: Human Nature for Young Readers
 
 **What it does:** An illustrated, sourced explainer on human psychology and nature — Freud, Jung, Dostoevsky, and the Buddha, read through evolutionary mismatch theory — written for teen/young-adult readers preparing for a complex world.  
@@ -268,6 +324,13 @@ free_education/
 │       ├── research_notes_2026-07-14.md
 │       └── news/
 │           └── 2026-07-14_choice-overload-audit.md
+│   └── 03_research_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_serotonin-theory-of-depression.md
+│   └── 03_psych_research_audit_routine/
+│       ├── README.md
+│       └── POST_01_chemical-imbalance-serotonin-depression.md
+│       └── 2026-07-05_antidepressants_efficacy_audit.md
 │   └── 03_human_nature_young_readers/
 │       ├── human_nature_and_behavior.html
 │       └── human_nature_and_behavior.md
@@ -312,6 +375,10 @@ free_education/
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
 | **Claim Audits** | 2 |
+| **Research Audit Posts** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
+| **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Illustrated Essays** | 1 |
 | **Claim Audits** | 1 |

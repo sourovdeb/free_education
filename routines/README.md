@@ -45,6 +45,34 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_research_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checks primary sources, methodology, funding/conflicts of interest, and opposing research — then drafts a short sourced micro-blog verdict.
+
+**Contains:**
+- Research audit micro-blog posts (one per claim investigated)
+- Each post discloses funding, conflicts of interest, and cites at least two independent sources
+### 3️⃣ **03_psych_research_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing
+influence, and mental health treatment — traces them to primary research, checks
+funding/conflicts of interest, compares against opposing research, and publishes a
+short sourced verdict.
+
+**Contains:**
+- One markdown post per audited claim (micro-blog + full audit trail)
+- Funding/conflict-of-interest disclosure for every source cited
+**What it does:** Researches and audits public claims about human psychology, neuroscience, marketing influence, and mental health treatment — checking primary sources, funding/conflicts of interest, and bias, then publishing a short cited micro-blog audit per claim.
+
+**Contains:**
+- One dated audit file per claim (methodology, funding check, bias assessment, and a ready-to-publish micro-blog post)
+- Routine README with process and notes
+
+**Frequency:** As scheduled  
+**Output format:** Markdown (.md)  
+**Status:** ✅ Active
+
+📖 [Go to routine →](03_psych_research_audit_routine/)
 ### 3️⃣ **03_psychology_marketing_audit_routine**
 
 **What it does:** Audits claims about human psychology, neuroscience, marketing
@@ -57,6 +85,16 @@ and persuasion under cognitive overload.
 - `news/` — dated, cited micro-blog posts
 - `audit_log.md` — claim audit tracker (mirrors the Psychology_Marketing_Claim_Audits Google Sheet)
 - `research_notes_*.md` — literature synthesis, refreshed each cycle
+influence, and mental-health treatment — checks primary sources, funding/conflicts
+of interest, and opposing research, then drafts a source-linked micro-blog post.
+
+**Contains:**
+- One markdown file per audited claim (methodology, funding/COI check, verdict, draft post)
+- Routine README
+
+**Frequency:** As needed  
+**Output format:** Markdown (.md)  
+**Status:** ✅ Active — drafts only, no auto-publish (see routine README)
 **What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment (funding, conflicts of interest, contested evidence) and drafts a sourced micro-blog.
 
 **Contains:**
@@ -79,6 +117,8 @@ and persuasion under cognitive overload.
 **Output format:** Markdown (.md)  
 **Status:** ✅ Active
 
+📖 [Go to routine →](03_research_audit_routine/)
+📖 [Go to routine →](03_psych_research_audit_routine/)
 📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 📖 [Go to routine →](03_psychology_mental_health_audit_routine/)
 
@@ -109,12 +149,20 @@ routines/
 │   ├── webscrapper (1).py
 │   └── README.md
 │
+└── 03_research_audit_routine/
+    ├── README.md
+    └── 2026-07-05_serotonin-theory-of-depression.md
+└── 03_psych_research_audit_routine/
+    ├── README.md
+    └── POST_01_chemical-imbalance-serotonin-depression.md
+    └── 2026-07-05_antidepressants_efficacy_audit.md
 └── 03_psychology_marketing_audit_routine/
     ├── README.md
     ├── audit_log.md
     ├── research_notes_2026-07-14.md
     └── news/
         └── 2026-07-14_choice-overload-audit.md
+    └── 2026-07-04_serotonin-chemical-imbalance.md
     ├── persuasion-audit.md
     └── README.md
 └── 03_psychology_mental_health_audit_routine/
@@ -158,6 +206,8 @@ When a new Claude Code routine creates content:
 **Back to main README?** 👉 [Free Education Root](../)
 
 *Last Updated: 2026-07-14*
+*Last Updated: 2026-07-05*
+*Last Updated: 2026-07-04*
 *Last Updated: 2026-07-18*
 *Last Updated: 2026-07-05*
 *Last Updated: 2026-07-10*
