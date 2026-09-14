@@ -44,6 +44,9 @@
 - Short, cited fact-checks of psychology, neuroscience, marketing, and mental-health-treatment claims
 - Verifies primary sources, funding/conflicts of interest, and opposing research
 - Format: Markdown (news items)
+- Status: Active, first item published 2026-07-07
+
+👉 [**Latest Audit**](routines/03_psychology_marketing_audit_routine/2026-07-07_antidepressants-vs-placebo-audit.md)
 - Status: Active, latest item published 2026-07-10
 
 👉 [**Latest Audit**](routines/03_psychology_marketing_audit_routine/2026-07-10_ssri-vs-therapy-audit.md)
@@ -62,6 +65,7 @@
 
 | Folder | What | Items |
 |--------|------|-------|
+| **routines/** | Organized by Claude routine type | 61+ items |
 | **routines/** | Organized by Claude routine type | 62+ items |
 | **routines/** | Organized by Claude routine type | 61+ items |
 | **routines/** | Organized by Claude routine type | 65+ items |
