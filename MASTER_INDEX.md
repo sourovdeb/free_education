@@ -26,6 +26,7 @@
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
 - **[Routine 3: Psychology, Marketing & Mental Health Audits](#routine-3-psychology-marketing--mental-health-audits)** — Fact-checked claim audits with funding/bias disclosure
+- **[Routine 3: Psychology Claims Audit](#routine-3-psychology-claims-audit)** — Fact-checked, funding-disclosed audits of psychology/neuroscience/mental-health claims
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Sourced audits of psychology/neuroscience/marketing/mental-health claims
 - **[Routine 3: Psych Research Audit](#routine-3-psych-research-audit)** — Sourced audits of psychology/mental-health claims
 - **[Routine 3: Psychology / Mental-Health Claim Audits](#routine-3-psychology--mental-health-claim-audits)** — Funding-and-bias audits of psychology, neuroscience, marketing, and mental-health claims
@@ -138,6 +139,20 @@
 
 **What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — verifying primary sources and methodology, investigating funding and conflicts of interest, comparing against independent/opposing research, and drafting a sourced micro-blog verdict per claim.  
 **Location:** `routines/03_psychology_marketing_mental_health_audit_routine/`  
+## Routine 3: Psychology Claims Audit
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental-health treatment — checks primary sources, sample sizes, funding, and conflicts of interest on all sides, then compares against opposing/independent research.
+**Location:** `routines/03_psychology_claims_audit_routine/`
+**Status:** ✅ Active | **Items:** 1 audited post (growing)
+
+### Content
+
+#### Item: The "chemical imbalance" (serotonin) theory of depression
+📄 File: `posts/2026-07-05_serotonin-chemical-imbalance-depression.md`
+- 251-word cited micro-blog verdict, plus a full source list with DOIs and funding/COI disclosures for every citation
+- Covers: Lacasse & Leo (2005, PLoS Medicine), Moncrieff et al. (2022, Molecular Psychiatry umbrella review), and the 36-author "leaky umbrella" rebuttal (2023, Molecular Psychiatry)
+- Explicitly flags claims that could not be independently verified rather than guessing
+- **Not** auto-published live to sourovdeb.com — left for manual review given the sensitivity of naming specific researchers/companies on a contested medical topic
 ## Routine 3: Psychology & Marketing Claim Audits
 
 **What it does:** Audits widely-repeated claims about human psychology, neuroscience, marketing influence, and mental health treatment — traces each claim to primary sources, checks sample size/methodology, discloses funding and conflicts of interest, and compares against independent or opposing research.  
@@ -317,6 +332,7 @@ under cognitive overload.
 ### Key Metadata
 
 - **Output format:** Markdown (.md)
+- **Every post includes:** funding/COI disclosure per source, an explicit "could not verify" section, a medical disclaimer
 - **Each audit includes:** Core claim, sources/methodology table, funding & COI section, bias pattern check, comparison verdict, and a cited micro-blog draft
 - **Publishing:** Not yet wired to an automated publisher (unlike Routine 1) — micro-blog drafts are reviewed manually before posting
 - **Every audit includes:** primary sources with sample sizes, funding disclosure, at least 2 independent sources, and an explicit verdict
@@ -488,6 +504,10 @@ free_education/
 │   └── 03_psychology_marketing_mental_health_audit_routine/
 │       ├── README.md
 │       └── 2026-07-05_power-posing-audit.md
+│   └── 03_psychology_claims_audit_routine/
+│       ├── README.md
+│       └── posts/
+│           └── 2026-07-05_serotonin-chemical-imbalance-depression.md
 │   └── 03_psychology_marketing_audit_routine/
 │       ├── README.md
 │       └── power_posing_audit.md
@@ -562,6 +582,8 @@ free_education/
 | **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Audited Claims** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Claim Audits** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Myth-Audit Posts** | 1 |
