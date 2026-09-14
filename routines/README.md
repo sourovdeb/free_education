@@ -76,6 +76,15 @@ short sourced verdict.
 ### 3️⃣ **03_psychology_marketing_audit_routine**
 
 **What it does:** Audits claims about human psychology, neuroscience, marketing
+influence, and mental health treatment (sources, funding/conflicts of interest,
+contested research), publishes a short cited news item each cycle, and keeps
+research notes on decision-making, marketing spend, effort-seeking behavior,
+and persuasion under cognitive overload.
+
+**Contains:**
+- `news/` — dated, cited micro-blog posts
+- `audit_log.md` — claim audit tracker (mirrors the Psychology_Marketing_Claim_Audits Google Sheet)
+- `research_notes_*.md` — literature synthesis, refreshed each cycle
 influence, and mental-health treatment — checks primary sources, funding/conflicts
 of interest, and opposing research, then drafts a source-linked micro-blog post.
 
@@ -111,6 +120,7 @@ of interest, and opposing research, then drafts a source-linked micro-blog post.
 📖 [Go to routine →](03_research_audit_routine/)
 📖 [Go to routine →](03_psych_research_audit_routine/)
 📖 [Go to routine →](03_psychology_marketing_audit_routine/)
+📖 [Go to routine →](03_psychology_mental_health_audit_routine/)
 
 ---
 
@@ -148,6 +158,10 @@ routines/
     └── 2026-07-05_antidepressants_efficacy_audit.md
 └── 03_psychology_marketing_audit_routine/
     ├── README.md
+    ├── audit_log.md
+    ├── research_notes_2026-07-14.md
+    └── news/
+        └── 2026-07-14_choice-overload-audit.md
     └── 2026-07-04_serotonin-chemical-imbalance.md
     ├── persuasion-audit.md
     └── README.md
@@ -191,6 +205,7 @@ When a new Claude Code routine creates content:
 
 **Back to main README?** 👉 [Free Education Root](../)
 
+*Last Updated: 2026-07-14*
 *Last Updated: 2026-07-05*
 *Last Updated: 2026-07-04*
 *Last Updated: 2026-07-18*
