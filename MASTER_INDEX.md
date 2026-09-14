@@ -24,6 +24,9 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Sourced audits of psychology/neuroscience/marketing/mental-health claims
+- **[Routine 3: Psych Research Audit](#routine-3-psych-research-audit)** — Sourced audits of psychology/mental-health claims
+- **[Routine 3: Psychology / Mental-Health Claim Audits](#routine-3-psychology--mental-health-claim-audits)** — Funding-and-bias audits of psychology, neuroscience, marketing, and mental-health claims
 - **[Routine 3: Psychology & Neuroscience Claim Audits](#routine-3-psychology--neuroscience-claim-audits)** — Fact-checked micro-blogs on psychology/mental-health claims
 - **[Routine 3: Psychology / Marketing / Mental Health Myth-Audit](#routine-3-psychology--marketing--mental-health-myth-audit)** — Sourced, funding-aware audits of psych/neuro/marketing/mental-health claims
 - **[Routine 3: Psychology / Marketing / Mental-Health Claim Audits](#routine-3-psychology--marketing--mental-health-claim-audits)** — Research-backed claim audits with funding disclosure, plus an AI product-ethics guardrail
@@ -129,6 +132,22 @@
 
 ---
 
+## Routine 3: Psychology & Marketing Claim Audits
+
+**What it does:** Audits widely-repeated claims about human psychology, neuroscience, marketing influence, and mental health treatment — traces each claim to primary sources, checks sample size/methodology, discloses funding and conflicts of interest, and compares against independent or opposing research.  
+**Location:** `routines/03_psychology_marketing_audit_routine/`  
+**Status:** ✅ Active | **Items:** 1 audit
+
+### Audits
+
+| File | Claim audited | Verdict |
+|------|----------------|---------|
+| `power_posing_audit.md` | "Power posing" for 2 minutes changes testosterone/cortisol and behavior (Carney, Cuddy & Yap 2010) | Contested/largely falsified — only the subjective "feeling more powerful" effect survives replication (Ranehill et al. 2015; Simmons & Simonsohn 2017); original N=42; NSF-grant funded (no pharma/corporate conflict), but strong post-publication commercial incentive (TED talk, book) to defend it; co-author Dana Carney has publicly disavowed the effect. |
+
+### Key Metadata
+
+- **Output format:** Markdown (.md), one file per claim
+- **Sourcing standard:** At least 2 independent primary/secondary sources per audit, with funding/COI disclosure
 ## Routine 3: Psychology & Neuroscience Claim Audits
 
 **What it does:** Researches and audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checking primary sources, methodology, sample sizes, funding, and conflicts of interest — then publishes a short cited micro-blog verdict.  
@@ -454,6 +473,9 @@ free_education/
 │   │   ├── webscrapper (1).py
 │   │   └── README.md
 │   │
+│   └── 03_psychology_marketing_audit_routine/
+│       ├── README.md
+│       └── power_posing_audit.md
 │   └── 03_psychology_research_audits_routine/
 │       ├── README.md
 │       └── PSYCH_001_chemical_imbalance_depression.md

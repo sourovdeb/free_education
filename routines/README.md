@@ -45,6 +45,12 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_psychology_marketing_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checks primary sources, sample sizes, funding/conflicts of interest, and compares against independent research.
+
+**Contains:**
+- Claim audit write-ups (one per claim), each with sources, funding disclosure, and a verdict
 ### 3️⃣ **03_psychology_research_audits_routine**
 
 **What it does:** Researches and audits claims about psychology, neuroscience, marketing influence, and mental health treatment — verifying sources, funding, and conflicts of interest — then drafts a cited micro-blog news item with a verdict.
@@ -183,6 +189,9 @@ routines/
 │   ├── webscrapper (1).py
 │   └── README.md
 │
+└── 03_psychology_marketing_audit_routine/
+    ├── README.md
+    └── power_posing_audit.md
 └── 03_psychology_research_audits_routine/
     ├── README.md
     └── PSYCH_001_chemical_imbalance_depression.md
