@@ -52,6 +52,13 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 **Contains:**
 - Dated audit files, one per claim, each with a full methodology/funding/bias writeup plus a ready-to-publish micro-blog draft
 - Held for human review before any external publishing (see the routine's README)
+### 3️⃣ **03_psychology_claims_audit_routine**
+
+**What it does:** Audits psychology, neuroscience, marketing-influence, and mental-health-treatment claims — checks primary sources, funding/conflicts of interest on all sides, and opposing research — then drafts a short cited micro-blog post.
+
+**Contains:**
+- Audited claim write-ups with full source lists and funding/COI disclosures
+- Explicit notes on anything that couldn't be verified
 ### 3️⃣ **03_psychology_marketing_audit_routine**
 
 **What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checks primary sources, sample sizes, funding/conflicts of interest, and compares against independent research.
@@ -76,6 +83,7 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 **Output format:** Markdown (.md)
 **Status:** ✅ Active
 
+📖 [Go to routine →](03_psychology_claims_audit_routine/)
 📖 [Go to routine →](03_psychology_marketing_audit_routine/)
 **What it does:** Audits psychology/neuroscience/marketing/mental-health claims — primary
 sources, funding/conflict-of-interest check, replication comparison — and drafts a cited
@@ -200,6 +208,10 @@ routines/
 └── 03_psychology_marketing_mental_health_audit_routine/
     ├── README.md
     └── 2026-07-05_power-posing-audit.md
+└── 03_psychology_claims_audit_routine/
+    ├── README.md
+    └── posts/
+        └── 2026-07-05_serotonin-chemical-imbalance-depression.md
 └── 03_psychology_marketing_audit_routine/
     ├── README.md
     └── power_posing_audit.md
