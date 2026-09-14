@@ -1,6 +1,7 @@
 # 📚 Master Index — All Claude Code Routines
 
 **Last Updated:** 2026-07-05  
+**Total Routines:** 3 | **Total Items:** 60+
 **Total Routines:** 3 | **Total Items:** 61+
 **Last Updated:** 2026-07-07  
 **Total Routines:** 3 | **Total Items:** 62+
@@ -23,6 +24,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology & Neuroscience Claim Audits](#routine-3-psychology--neuroscience-claim-audits)** — Fact-checked micro-blogs on psychology/mental-health claims
 - **[Routine 3: Psychology / Marketing / Mental Health Myth-Audit](#routine-3-psychology--marketing--mental-health-myth-audit)** — Sourced, funding-aware audits of psych/neuro/marketing/mental-health claims
 - **[Routine 3: Psychology / Marketing / Mental-Health Claim Audits](#routine-3-psychology--marketing--mental-health-claim-audits)** — Research-backed claim audits with funding disclosure, plus an AI product-ethics guardrail
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Cited fact-checks of psychology/mental-health claims
@@ -127,6 +129,20 @@
 
 ---
 
+## Routine 3: Psychology & Neuroscience Claim Audits
+
+**What it does:** Researches and audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checking primary sources, methodology, sample sizes, funding, and conflicts of interest — then publishes a short cited micro-blog verdict.  
+**Location:** `routines/03_psychology_research_audits_routine/`  
+**Status:** ✅ Active | **Items:** 1 claim audit
+
+### Content Blocks
+
+#### Audit #001: The "Chemical Imbalance" Theory of Depression
+📄 File: `PSYCH_001_chemical_imbalance_depression.md`
+- Compares Moncrieff et al. 2022 (*Molecular Psychiatry*), Turner et al. 2008 (*NEJM*), and Cipriani et al. 2018 (*The Lancet*)
+- Documents funding sources (UCL, NIHR/JSPS, FDA data) and pharma-linked author conflicts of interest
+- Verdict: serotonin "chemical imbalance" mechanism not supported; modest antidepressant efficacy over placebo is real but inflated by publication bias
+- Includes a ready-to-publish 200–300 word micro-blog with citations
 ## Routine 3: Psychology / Marketing / Mental Health Myth-Audit
 
 **What it does:** Researches and audits public claims about psychology,
@@ -270,6 +286,8 @@ under cognitive overload.
 ### Key Metadata
 
 - **Output format:** Markdown (.md)
+- **Each audit includes:** Core claim, sources/methodology table, funding & COI section, bias pattern check, comparison verdict, and a cited micro-blog draft
+- **Publishing:** Not yet wired to an automated publisher (unlike Routine 1) — micro-blog drafts are reviewed manually before posting
 - **Every audit includes:** primary sources with sample sizes, funding disclosure, at least 2 independent sources, and an explicit verdict
 - **Known limitation:** no Google Sheets write/append tool is available to this routine yet — `audit_log.md` is the durable record until the sheet is updated by hand
 - **Date created:** 2026-07-14
@@ -436,6 +454,9 @@ free_education/
 │   │   ├── webscrapper (1).py
 │   │   └── README.md
 │   │
+│   └── 03_psychology_research_audits_routine/
+│       ├── README.md
+│       └── PSYCH_001_chemical_imbalance_depression.md
 │   └── 03_psych_myth_audit_routine/
 │       ├── README.md
 │       └── 2026-07-05_chemical-imbalance-theory-of-depression.md
@@ -504,6 +525,8 @@ free_education/
 | **Total Routines** | 3 |
 | **Total Lessons** | 50 |
 | **Python Tools** | 5 |
+| **Claim Audits** | 1 |
+| **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Myth-Audit Posts** | 1 |
 | **Supporting Scripts** | 1 (publisher) + 1 (NLP utility) |
 | **Claim Audits** | 1 |
