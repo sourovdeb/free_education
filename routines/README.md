@@ -19,8 +19,8 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 - WordPress publisher script
 - Lesson index
 
-**Frequency:** As needed  
-**Output format:** Markdown (.md)  
+**Frequency:** As needed
+**Output format:** Markdown (.md)
 **Status:** ✅ Active
 
 📖 [Go to routine →](01_elt365_lessons_routine/)
@@ -37,11 +37,116 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 - Full setup and usage documentation
 - PyQt6 dark-theme UI
 
-**Frequency:** As needed  
-**Output format:** Python (.py)  
+**Frequency:** As needed
+**Output format:** Python (.py)
 **Status:** ✅ Active
 
 📖 [Go to routine →](02_python_toolkit_routine/)
+
+---
+
+### 3️⃣ **03_psychology_marketing_audit_routine**
+
+**What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental health treatment — verifies sources, checks funding/conflicts of interest, compares opposing research, and publishes a short cited verdict.
+
+**Contains:**
+- Claim-audit news items (one per claim), each with primary sources, funding disclosure, and an independent-research comparison
+
+**Frequency:** As needed
+**Output format:** Markdown (.md)
+**Status:** ✅ Active
+
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
+**What it does:** Audits psychology/neuroscience/marketing/mental-health claims — primary
+sources, funding/conflict-of-interest check, replication comparison — and drafts a cited
+micro-blog post plus decision-making notes.
+
+**Contains:**
+- Full audit of "ego depletion" (contested — large registered replications found ≈zero effect)
+- Notes on decision-making psychology, marketing spend, low-effort heuristics, and cognitive overload
+- WordPress draft publisher script (currently blocked — see routine README)
+
+**Frequency:** As needed  
+**Output format:** Markdown (.md)  
+**Status:** ⚠️ Content complete, WordPress publish blocked (endpoint 404)
+
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
+### 3️⃣ **03_research_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checks primary sources, methodology, funding/conflicts of interest, and opposing research — then drafts a short sourced micro-blog verdict.
+
+**Contains:**
+- Research audit micro-blog posts (one per claim investigated)
+- Each post discloses funding, conflicts of interest, and cites at least two independent sources
+### 3️⃣ **03_psych_research_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing
+influence, and mental health treatment — traces them to primary research, checks
+funding/conflicts of interest, compares against opposing research, and publishes a
+short sourced verdict.
+
+**Contains:**
+- One markdown post per audited claim (micro-blog + full audit trail)
+- Funding/conflict-of-interest disclosure for every source cited
+**What it does:** Researches and audits public claims about human psychology, neuroscience, marketing influence, and mental health treatment — checking primary sources, funding/conflicts of interest, and bias, then publishing a short cited micro-blog audit per claim.
+
+**Contains:**
+- One dated audit file per claim (methodology, funding check, bias assessment, and a ready-to-publish micro-blog post)
+- Routine README with process and notes
+
+**Frequency:** As scheduled  
+**Output format:** Markdown (.md)  
+**Status:** ✅ Active
+
+📖 [Go to routine →](03_psych_research_audit_routine/)
+### 3️⃣ **03_psychology_marketing_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing
+influence, and mental health treatment (sources, funding/conflicts of interest,
+contested research), publishes a short cited news item each cycle, and keeps
+research notes on decision-making, marketing spend, effort-seeking behavior,
+and persuasion under cognitive overload.
+
+**Contains:**
+- `news/` — dated, cited micro-blog posts
+- `audit_log.md` — claim audit tracker (mirrors the Psychology_Marketing_Claim_Audits Google Sheet)
+- `research_notes_*.md` — literature synthesis, refreshed each cycle
+influence, and mental-health treatment — checks primary sources, funding/conflicts
+of interest, and opposing research, then drafts a source-linked micro-blog post.
+
+**Contains:**
+- One markdown file per audited claim (methodology, funding/COI check, verdict, draft post)
+- Routine README
+
+**Frequency:** As needed  
+**Output format:** Markdown (.md)  
+**Status:** ✅ Active — drafts only, no auto-publish (see routine README)
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment (funding, conflicts of interest, contested evidence) and drafts a sourced micro-blog.
+
+**Contains:**
+- `persuasion-audit.md` — claim ledger, per-claim audit, micro-blog synthesis, source list
+- README noting known limitations (no connected publishing target, and a mismatched save-target Google Sheet from the stored task prompt)
+
+**Frequency:** As needed
+**Output format:** Markdown (.md)
+**Status:** ✅ Active (first run)
+
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
+### 3️⃣ **03_psychology_mental_health_audit_routine**
+
+**What it does:** Audits claims about psychology, neuroscience, marketing influence, and mental health treatment — verifies sources, checks funding/conflicts of interest, compares opposing research, and publishes a short cited verdict.
+
+**Contains:**
+- Claim-audit news items (one per claim), each with primary sources, funding disclosure, and an independent-research comparison
+
+**Frequency:** As needed  
+**Output format:** Markdown (.md)  
+**Status:** ✅ Active
+
+📖 [Go to routine →](03_research_audit_routine/)
+📖 [Go to routine →](03_psych_research_audit_routine/)
+📖 [Go to routine →](03_psychology_marketing_audit_routine/)
+📖 [Go to routine →](03_psychology_mental_health_audit_routine/)
 
 ---
 
@@ -58,17 +163,45 @@ routines/
 │   └── publisher/
 │       └── elt365_lessons_publisher.py
 │
-└── 02_python_toolkit_routine/
-    ├── nlp_utils.py
-    ├── ai_file_organizer_pro.py
-    ├── ai_file_organizer_pro_v2.py
-    ├── audio2txt.py
-    ├── audio2txt (1).py
-    ├── pdf2txtv2.py
-    ├── pdf2txtv2 (1).py
-    ├── webscrapper.py
-    ├── webscrapper (1).py
+├── 02_python_toolkit_routine/
+│   ├── nlp_utils.py
+│   ├── ai_file_organizer_pro.py
+│   ├── ai_file_organizer_pro_v2.py
+│   ├── audio2txt.py
+│   ├── audio2txt (1).py
+│   ├── pdf2txtv2.py
+│   ├── pdf2txtv2 (1).py
+│   ├── webscrapper.py
+│   ├── webscrapper (1).py
+│   └── README.md
+│
+└── 03_psychology_marketing_audit_routine/
+    ├── README.md
+    └── 2026-07-07_antidepressants-vs-placebo-audit.md
+    ├── AUDIT_ego_depletion.md
+    ├── DECISION_MAKING_NOTES.md
+    ├── README.md
+    └── publisher/
+        └── psych_audit_publisher.py
+└── 03_research_audit_routine/
+    ├── README.md
+    └── 2026-07-05_serotonin-theory-of-depression.md
+└── 03_psych_research_audit_routine/
+    ├── README.md
+    └── POST_01_chemical-imbalance-serotonin-depression.md
+    └── 2026-07-05_antidepressants_efficacy_audit.md
+└── 03_psychology_marketing_audit_routine/
+    ├── README.md
+    ├── audit_log.md
+    ├── research_notes_2026-07-14.md
+    └── news/
+        └── 2026-07-14_choice-overload-audit.md
+    └── 2026-07-04_serotonin-chemical-imbalance.md
+    ├── persuasion-audit.md
     └── README.md
+└── 03_psychology_mental_health_audit_routine/
+    ├── README.md
+    └── 2026-07-10_ssri-vs-therapy-audit.md
 ```
 
 ---
@@ -97,7 +230,7 @@ These folders document **automated tasks that run on a schedule**. Each routine:
 
 When a new Claude Code routine creates content:
 
-1. Create a folder: `03_your_routine_name/`
+1. Create a folder: `04_your_routine_name/`
 2. Move/copy the generated files there
 3. Add a README explaining what the routine does
 4. Update this file with the new routine
@@ -106,4 +239,9 @@ When a new Claude Code routine creates content:
 
 **Back to main README?** 👉 [Free Education Root](../)
 
-*Last Updated: 2026-06-15*
+*Last Updated: 2026-07-14*
+*Last Updated: 2026-07-05*
+*Last Updated: 2026-07-04*
+*Last Updated: 2026-07-18*
+*Last Updated: 2026-07-05*
+*Last Updated: 2026-07-10*
