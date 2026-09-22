@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science on responsibility</title>
+  <desc id="desc">A two-column comparison showing legal questions about intent and responsibility beside scientific questions about framing, authority, group pressure, and self-justification.</desc>
+  <rect width="1200" height="1600" fill="#f6f6f2"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#171717">
+    <text x="80" y="100" font-size="50" font-weight="700">Law versus science</text>
+    <text x="80" y="150" font-size="28">Different questions meet</text>
+
+    <rect x="70" y="230" width="500" height="1080" rx="20" fill="#ffffff" stroke="#171717" stroke-width="4"/>
+    <rect x="630" y="230" width="500" height="1080" rx="20" fill="#ffffff" stroke="#171717" stroke-width="4"/>
+
+    <text x="225" y="310" font-size="42" font-weight="700">LAW</text>
+    <text x="750" y="310" font-size="42" font-weight="700">SCIENCE</text>
+
+    <text x="120" y="410" font-size="29">Was intent present?</text>
+    <text x="120" y="485" font-size="29">Was choice voluntary?</text>
+    <text x="120" y="560" font-size="29">Was an order lawful?</text>
+    <text x="120" y="635" font-size="29">Who caused harm?</text>
+    <text x="120" y="710" font-size="29">What defense applies?</text>
+
+    <text x="680" y="410" font-size="29">How was harm framed?</text>
+    <text x="680" y="485" font-size="29">Who held authority?</text>
+    <text x="680" y="560" font-size="29">Was agency diffused?</text>
+    <text x="680" y="635" font-size="29">Were effects hidden?</text>
+    <text x="680" y="710" font-size="29">Was blame displaced?</text>
+
+    <line x1="570" y1="800" x2="630" y2="800" stroke="#171717" stroke-width="8"/>
+    <polygon points="630,800 600,780 600,820" fill="#171717"/>
+    <polygon points="570,800 600,780 600,820" fill="#171717"/>
+
+    <text x="220" y="905" font-size="36" font-weight="700">Shared problem</text>
+    <text x="175" y="970" font-size="29">Human choice has context.</text>
+    <text x="175" y="1025" font-size="29">Context does not erase.</text>
+    <text x="175" y="1080" font-size="29">Responsibility still needs proof.</text>
+
+    <rect x="120" y="1360" width="960" height="140" rx="18" fill="#e9e9e2"/>
+    <text x="160" y="1420" font-size="30" font-weight="700">Article 33 matters.</text>
+    <text x="160" y="1470" font-size="27">Orders rarely excuse crimes.</text>
+  </g>
+</svg>
