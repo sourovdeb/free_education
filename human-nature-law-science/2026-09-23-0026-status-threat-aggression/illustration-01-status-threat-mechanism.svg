@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Status threat mechanism</title>
+<desc id="desc">A five-stage flow showing insult, status threat, anger, restoration pressure, and possible retaliation, with moderators beside the pathway.</desc>
+<rect width="1200" height="1600" fill="#f7f7f3"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#161616">
+<text x="70" y="100" font-size="50" font-weight="700">Page 3 — Status threat</text>
+<text x="70" y="150" font-size="28">A conditional pathway</text>
+
+<rect x="110" y="235" width="700" height="150" rx="18" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="150" y="300" font-size="36" font-weight="700">1. Public insult</text>
+<text x="150" y="350" font-size="26">Standing feels challenged.</text>
+
+<line x1="460" y1="385" x2="460" y2="470" stroke="#222" stroke-width="5"/>
+<polygon points="460,500 444,465 476,465" fill="#222"/>
+
+<rect x="110" y="510" width="700" height="150" rx="18" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="150" y="575" font-size="36" font-weight="700">2. Status threat</text>
+<text x="150" y="625" font-size="26">Audience changes stakes.</text>
+
+<line x1="460" y1="660" x2="460" y2="745" stroke="#222" stroke-width="5"/>
+<polygon points="460,775 444,740 476,740" fill="#222"/>
+
+<rect x="110" y="785" width="700" height="150" rx="18" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="150" y="850" font-size="36" font-weight="700">3. Anger rises</text>
+<text x="150" y="900" font-size="26">Attention narrows.</text>
+
+<line x1="460" y1="935" x2="460" y2="1020" stroke="#222" stroke-width="5"/>
+<polygon points="460,1050 444,1015 476,1015" fill="#222"/>
+
+<rect x="110" y="1060" width="700" height="150" rx="18" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="150" y="1125" font-size="36" font-weight="700">4. Restoration pressure</text>
+<text x="150" y="1175" font-size="26">Retaliation becomes tempting.</text>
+
+<line x1="460" y1="1210" x2="460" y2="1295" stroke="#222" stroke-width="5"/>
+<polygon points="460,1325 444,1290 476,1290" fill="#222"/>
+
+<rect x="110" y="1335" width="700" height="150" rx="18" fill="#ecece6" stroke="#222" stroke-width="4"/>
+<text x="150" y="1400" font-size="36" font-weight="700">5. Possible retaliation</text>
+<text x="150" y="1450" font-size="26">Most people still abstain.</text>
+
+<rect x="860" y="330" width="270" height="720" rx="18" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="900" y="390" font-size="30" font-weight="700">Moderators</text>
+<text x="900" y="455" font-size="25">Personality</text>
+<text x="900" y="510" font-size="25">Culture</text>
+<text x="900" y="565" font-size="25">Audience</text>
+<text x="900" y="620" font-size="25">Alcohol</text>
+<text x="900" y="675" font-size="25">Weapons</text>
+<text x="900" y="730" font-size="25">Power</text>
+<text x="900" y="785" font-size="25">Relationship</text>
+<text x="900" y="840" font-size="25">Cooling time</text>
+<text x="900" y="895" font-size="25">Exit options</text>
+<text x="900" y="950" font-size="25">Peer norms</text>
+
+<text x="70" y="1550" font-size="24">Mechanism, not destiny.</text>
+</g>
+</svg>
