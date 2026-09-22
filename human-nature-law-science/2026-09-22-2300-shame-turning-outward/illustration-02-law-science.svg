@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Law and science ask different questions about provocation</title>
+<desc id="desc">Two-column comparison between legal provocation standards and scientific questions about shame, blame, appraisal, and regulation.</desc>
+<rect width="1200" height="1600" fill="#f7f7f4"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#151515">
+<text x="70" y="95" font-size="52" font-weight="700">Page 4 — Law vs Science</text>
+<text x="70" y="145" font-size="26">Same event. Different questions.</text>
+
+<rect x="60" y="220" width="500" height="1120" rx="24" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<rect x="640" y="220" width="500" height="1120" rx="24" fill="#ffffff" stroke="#222" stroke-width="4"/>
+
+<text x="235" y="300" font-size="42" font-weight="700">LAW</text>
+<text x="775" y="300" font-size="42" font-weight="700">SCIENCE</text>
+
+<text x="110" y="395" font-size="29" font-weight="700">Was provocation adequate?</text>
+<text x="110" y="455" font-size="27">Would reason fail?</text>
+<text x="110" y="515" font-size="27">Was passion sudden?</text>
+<text x="110" y="575" font-size="27">Was cooling possible?</text>
+<text x="110" y="635" font-size="27">What standard applies?</text>
+<text x="110" y="695" font-size="27">How culpable was conduct?</text>
+
+<text x="690" y="395" font-size="29" font-weight="700">What was appraised?</text>
+<text x="690" y="455" font-size="27">Was status threatened?</text>
+<text x="690" y="515" font-size="27">Was blame externalized?</text>
+<text x="690" y="575" font-size="27">How strong was shame?</text>
+<text x="690" y="635" font-size="27">How was anger regulated?</text>
+<text x="690" y="695" font-size="27">Which pathway followed?</text>
+
+<line x1="560" y1="790" x2="640" y2="790" stroke="#222" stroke-width="8"/>
+<polygon points="640,790 606,770 606,810" fill="#222"/>
+<polygon points="560,790 594,770 594,810" fill="#222"/>
+
+<rect x="190" y="850" width="820" height="250" rx="20" fill="#ecece7" stroke="#222" stroke-width="4"/>
+<text x="250" y="920" font-size="36" font-weight="700">The conflict</text>
+<text x="250" y="980" font-size="29">Law sets responsibility rules.</text>
+<text x="250" y="1030" font-size="29">Science maps behavioral variation.</text>
+<text x="250" y="1080" font-size="29">Explanation is not excuse.</text>
+
+<rect x="190" y="1160" width="820" height="250" rx="20" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="250" y="1230" font-size="34" font-weight="700">Important distinction</text>
+<text x="250" y="1290" font-size="29">Psychology describes reactions.</text>
+<text x="250" y="1340" font-size="29">Courts judge responsibility.</text>
+
+<text x="70" y="1515" font-size="24" fill="#444">Provocation rules differ by jurisdiction.</text>
+</g>
+</svg>
