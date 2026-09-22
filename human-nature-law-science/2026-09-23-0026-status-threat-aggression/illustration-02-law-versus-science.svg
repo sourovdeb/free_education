@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science</title>
+<desc id="desc">A split-panel diagram comparing legal questions about provocation with scientific questions about status threat.</desc>
+<rect width="1200" height="1600" fill="#f7f7f3"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#161616">
+<text x="70" y="100" font-size="50" font-weight="700">Page 4 — Law versus science</text>
+
+<rect x="70" y="220" width="500" height="1030" rx="22" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<rect x="630" y="220" width="500" height="1030" rx="22" fill="#ffffff" stroke="#222" stroke-width="4"/>
+
+<text x="235" y="300" font-size="42" font-weight="700">LAW</text>
+<text x="745" y="300" font-size="42" font-weight="700">SCIENCE</text>
+
+<text x="115" y="405" font-size="28">Was conduct voluntary?</text>
+<text x="115" y="485" font-size="28">Was provocation adequate?</text>
+<text x="115" y="565" font-size="28">Was cooling possible?</text>
+<text x="115" y="645" font-size="28">Should blame reduce?</text>
+<text x="115" y="725" font-size="28">What rule protects norms?</text>
+
+<text x="675" y="405" font-size="28">Did status feel threatened?</text>
+<text x="675" y="485" font-size="28">Did an audience matter?</text>
+<text x="675" y="565" font-size="28">Did anger escalate?</text>
+<text x="675" y="645" font-size="28">Which traits mattered?</text>
+<text x="675" y="725" font-size="28">Which context mattered?</text>
+
+<line x1="570" y1="820" x2="630" y2="820" stroke="#222" stroke-width="7"/>
+<polygon points="630,820 600,800 600,840" fill="#222"/>
+<polygon points="570,820 600,800 600,840" fill="#222"/>
+
+<text x="370" y="910" font-size="38" font-weight="700">Shared problem</text>
+<text x="250" y="980" font-size="30">Cause differs from excuse.</text>
+<text x="250" y="1040" font-size="30">Pressure differs from permission.</text>
+<text x="250" y="1100" font-size="30">Prediction differs from blame.</text>
+
+<rect x="130" y="1310" width="940" height="170" rx="18" fill="#ecece6" stroke="#222" stroke-width="3"/>
+<text x="180" y="1380" font-size="30" font-weight="700">Girouard example</text>
+<text x="180" y="1435" font-size="28">Words affected behavior.</text>
+<text x="610" y="1435" font-size="28">Words still lacked excuse.</text>
+</g>
+</svg>
