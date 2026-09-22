@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#f7f7f4"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111">
+    <text x="80" y="100" font-size="50" font-weight="700">Page 3 — How Blame Forms</text>
+    <text x="80" y="155" font-size="26">A threat-control pathway</text>
+
+    <rect x="120" y="240" width="960" height="150" rx="18" fill="#fff" stroke="#222" stroke-width="4"/>
+    <text x="165" y="300" font-size="36" font-weight="700">1. Harm happens</text>
+    <text x="165" y="350" font-size="28">The event feels threatening.</text>
+
+    <line x1="600" y1="390" x2="600" y2="485" stroke="#222" stroke-width="5"/>
+    <polygon points="600,520 582,480 618,480" fill="#222"/>
+
+    <rect x="120" y="530" width="960" height="170" rx="18" fill="#fff" stroke="#222" stroke-width="4"/>
+    <text x="165" y="595" font-size="36" font-weight="700">2. The mind seeks control</text>
+    <text x="165" y="648" font-size="28">Random harm feels unsafe.</text>
+
+    <line x1="600" y1="700" x2="600" y2="795" stroke="#222" stroke-width="5"/>
+    <polygon points="600,830 582,790 618,790" fill="#222"/>
+
+    <rect x="120" y="840" width="960" height="220" rx="18" fill="#fff" stroke="#222" stroke-width="4"/>
+    <text x="165" y="905" font-size="36" font-weight="700">3. Victim cues appear</text>
+    <text x="165" y="958" font-size="28">Clothing • alcohol • relationship</text>
+    <text x="165" y="1006" font-size="28">reputation • location • choices</text>
+
+    <line x1="600" y1="1060" x2="600" y2="1155" stroke="#222" stroke-width="5"/>
+    <polygon points="600,1190 582,1150 618,1150" fill="#222"/>
+
+    <rect x="120" y="1200" width="960" height="220" rx="18" fill="#ecece7" stroke="#222" stroke-width="4"/>
+    <text x="165" y="1270" font-size="36" font-weight="700">4. Responsibility shifts</text>
+    <text x="165" y="1324" font-size="28">“They should have known.”</text>
+    <text x="165" y="1373" font-size="28">Fear drops. Blame rises.</text>
+
+    <text x="80" y="1510" font-size="24" fill="#444">This is a mechanism model.</text>
+    <text x="80" y="1545" font-size="24" fill="#444">It predicts tendencies, not people.</text>
+  </g>
+</svg>
