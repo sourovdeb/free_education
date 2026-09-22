@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Handling a Guest Complaint | ELT365</title>
+<style>
+:root{--ink:#111;--paper:#f7f5ef;--line:#777;--accent:#1246a3;--ok:#0b6b3a;--bad:#8b1e1e}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.55 system-ui,sans-serif}
+main{max-width:760px;margin:auto;padding:2rem 1rem 5rem}header{border-block:3px solid var(--ink);padding:1rem 0}
+h1{font-size:clamp(2rem,8vw,4.5rem);line-height:.95;margin:.4rem 0}h2{border-top:1px solid var(--line);padding-top:1rem;margin-top:2.5rem}
+.meta{font:700 .8rem/1.4 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.06em}
+.card{border:1px solid var(--ink);padding:1rem;margin:1rem 0;background:#fff}.dialogue p{margin:.55rem 0}
+label{display:block;margin:.75rem 0}.choices{border:0;padding:0;margin:0}
+button{font:inherit;border:2px solid var(--ink);background:#fff;padding:.55rem .8rem;margin:.3rem .3rem .3rem 0;cursor:pointer}
+button:hover,button:focus-visible{background:var(--ink);color:#fff;outline:3px solid var(--accent);outline-offset:3px}
+.result{font-weight:700;min-height:1.6em}.ok{color:var(--ok)}.bad{color:var(--bad)}
+.phrase{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}.phrase div{border-bottom:1px solid var(--line);padding:.4rem}
+textarea{width:100%;min-height:8rem;font:inherit;padding:.7rem;border:2px solid var(--ink)}
+footer{border-top:3px solid var(--ink);margin-top:3rem;padding-top:1rem;font-size:.85rem}
+@media(max-width:520px){.phrase{grid-template-columns:1fr}body{font-size:17px}}
+@media print{button,.screen-only{display:none}body{background:#fff}main{max-width:none}.card{break-inside:avoid}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="meta">ELT365 · Offline Business English · Version 0.1</div>
+<h1>Handle a guest complaint</h1>
+<p>Practise listening through reading, clarifying, apologising, and offering action.</p>
+</header>
+
+<section aria-labelledby="goal">
+<h2 id="goal">Goal</h2>
+<p>By the end, you can respond to one hotel complaint using four moves.</p>
+<ol>
+<li>Listen.</li>
+<li>Clarify.</li>
+<li>Acknowledge.</li>
+<li>Offer action.</li>
+</ol>
+</section>
+
+<section aria-labelledby="model">
+<h2 id="model">Model dialogue</h2>
+<div class="card dialogue">
+<p><strong>Guest:</strong> Excuse me. The air conditioner is making a loud noise.</p>
+<p><strong>Staff:</strong> I’m sorry about that. Is the noise constant?</p>
+<p><strong>Guest:</strong> Yes. I couldn’t sleep.</p>
+<p><strong>Staff:</strong> I understand. I can send maintenance now, or arrange another room.</p>
+<p><strong>Guest:</strong> Another room, please.</p>
+<p><strong>Staff:</strong> Certainly. I’ll check availability now.</p>
+</div>
+</section>
+
+<section aria-labelledby="phrases">
+<h2 id="phrases">Phrase bank</h2>
+<div class="phrase">
+<div><strong>Clarify</strong><br>When did it start?</div>
+<div><strong>Clarify</strong><br>Is it happening now?</div>
+<div><strong>Acknowledge</strong><br>I understand the problem.</div>
+<div><strong>Apologise</strong><br>I’m sorry about that.</div>
+<div><strong>Act</strong><br>I can send someone now.</div>
+<div><strong>Act</strong><br>I can offer another room.</div>
+</div>
+</section>
+
+<section aria-labelledby="check">
+<h2 id="check">Check meaning</h2>
+<div class="card">
+<p id="q1">A guest says, “The shower has no hot water.” Which response should come first?</p>
+<div class="choices" role="group" aria-labelledby="q1">
+<button type="button" onclick="answer(1,false)">That is impossible.</button>
+<button type="button" onclick="answer(1,true)">I’m sorry. Is the water completely cold?</button>
+<button type="button" onclick="answer(1,false)">Come back tomorrow.</button>
+</div>
+<p id="r1" class="result" aria-live="polite"></p>
+</div>
+
+<div class="card">
+<p id="q2">Which sentence offers action?</p>
+<div class="choices" role="group" aria-labelledby="q2">
+<button type="button" onclick="answer(2,false)">When did it start?</button>
+<button type="button" onclick="answer(2,false)">I understand.</button>
+<button type="button" onclick="answer(2,true)">I can ask maintenance to visit.</button>
+</div>
+<p id="r2" class="result" aria-live="polite"></p>
+</div>
+</section>
+
+<section aria-labelledby="build">
+<h2 id="build">Build your response</h2>
+<p>Situation: A restaurant guest waited forty minutes. Their meal arrived cold.</p>
+<label for="response">Write four sentences. Clarify, acknowledge, apologise, then act.</label>
+<textarea id="response" placeholder="I’m sorry about the wait. ..."></textarea>
+<button class="screen-only" type="button" onclick="showModel()">Show one model</button>
+<p id="modelAnswer" class="result" aria-live="polite"></p>
+</section>
+
+<section aria-labelledby="roleplay">
+<h2 id="roleplay">Role-play</h2>
+<div class="card">
+<p><strong>Learner A:</strong> Choose one complaint.</p>
+<ul><li>Noisy room.</li><li>Cold meal.</li><li>Missing booking.</li></ul>
+<p><strong>Learner B:</strong> Use all four moves.</p>
+<p><strong>Observer:</strong> Tick each move heard.</p>
+<p>□ Clarify □ Acknowledge □ Apologise □ Act</p>
+</div>
+</section>
+
+<section aria-labelledby="exit">
+<h2 id="exit">Exit check</h2>
+<p>Record one response aloud. Keep it under thirty seconds. Ask a partner whether every move was clear.</p>
+</section>
+
+<footer>
+<p>Lesson content © 2026 Sourov Deb, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Code is licensed under MIT. No Cambridge affiliation, endorsement, accreditation, or CELTA award is claimed.</p>
+</footer>
+</main>
+<script>
+function answer(n,correct){
+ const el=document.getElementById('r'+n);
+ el.textContent=correct?'Correct. The reply apologises and clarifies.':'Try again. Begin with respect and clarification.';
+ el.className='result '+(correct?'ok':'bad');
+}
+function showModel(){
+ document.getElementById('modelAnswer').textContent="I’m sorry about the wait. Was the meal cold when it arrived? I understand why you are disappointed. I can replace it now or remove it from the bill.";
+}
+</script>
+</body>
+</html>
