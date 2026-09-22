@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Political status escalation</title>
+<desc id="desc">A timeline using the 1856 Sumner caning as an illustration of political conflict, public insult, honor interpretation, retaliation, and institutional aftermath.</desc>
+<rect width="1200" height="1600" fill="#f7f7f3"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#161616">
+<text x="70" y="100" font-size="50" font-weight="700">Page 5 — Political escalation</text>
+<text x="70" y="150" font-size="28">1856 Senate example</text>
+
+<line x1="180" y1="300" x2="180" y2="1360" stroke="#222" stroke-width="6"/>
+
+<circle cx="180" cy="350" r="24" fill="#222"/>
+<rect x="250" y="275" width="820" height="150" rx="18" fill="#fff" stroke="#222" stroke-width="4"/>
+<text x="295" y="335" font-size="34" font-weight="700">Political conflict</text>
+<text x="295" y="385" font-size="26">Kansas slavery debate.</text>
+
+<circle cx="180" cy="590" r="24" fill="#222"/>
+<rect x="250" y="515" width="820" height="150" rx="18" fill="#fff" stroke="#222" stroke-width="4"/>
+<text x="295" y="575" font-size="34" font-weight="700">Public insult</text>
+<text x="295" y="625" font-size="26">Sumner attacked Butler verbally.</text>
+
+<circle cx="180" cy="830" r="24" fill="#222"/>
+<rect x="250" y="755" width="820" height="150" rx="18" fill="#fff" stroke="#222" stroke-width="4"/>
+<text x="295" y="815" font-size="34" font-weight="700">Honor interpretation</text>
+<text x="295" y="865" font-size="26">Brooks framed kin insult.</text>
+
+<circle cx="180" cy="1070" r="24" fill="#222"/>
+<rect x="250" y="995" width="820" height="150" rx="18" fill="#fff" stroke="#222" stroke-width="4"/>
+<text x="295" y="1055" font-size="34" font-weight="700">Retaliation</text>
+<text x="295" y="1105" font-size="26">Brooks attacked Sumner.</text>
+
+<circle cx="180" cy="1310" r="24" fill="#222"/>
+<rect x="250" y="1235" width="820" height="150" rx="18" fill="#ecece6" stroke="#222" stroke-width="4"/>
+<text x="295" y="1295" font-size="34" font-weight="700">Institutional aftermath</text>
+<text x="295" y="1345" font-size="26">Public reactions then polarized.</text>
+
+<text x="70" y="1510" font-size="24">Illustration, not causal proof.</text>
+</g>
+</svg>
