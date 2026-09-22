@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">How shame can turn outward</title>
+<desc id="desc">A flow diagram showing public exposure leading to shame, then three possible routes: repair, withdrawal, or externalized blame and anger. The aggression route is conditional, not automatic.</desc>
+<rect width="1200" height="1600" fill="#f7f7f4"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#151515">
+<text x="70" y="95" font-size="52" font-weight="700">Page 3 — Shame Pathways</text>
+<text x="70" y="145" font-size="26">One feeling. Several routes.</text>
+
+<rect x="170" y="220" width="860" height="140" rx="20" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="220" y="285" font-size="38" font-weight="700">Exposure or humiliation</text>
+<text x="220" y="330" font-size="28">Status feels threatened.</text>
+
+<line x1="600" y1="360" x2="600" y2="455" stroke="#222" stroke-width="5"/>
+<polygon points="600,480 584,447 616,447" fill="#222"/>
+
+<rect x="170" y="490" width="860" height="150" rx="20" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="220" y="555" font-size="38" font-weight="700">Shame response</text>
+<text x="220" y="605" font-size="28">“Something is wrong with me.”</text>
+
+<line x1="600" y1="640" x2="600" y2="735" stroke="#222" stroke-width="5"/>
+<polygon points="600,760 584,727 616,727" fill="#222"/>
+
+<text x="70" y="825" font-size="30" font-weight="700">Three common routes</text>
+
+<rect x="60" y="880" width="330" height="360" rx="18" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="105" y="945" font-size="34" font-weight="700">Repair</text>
+<text x="105" y="1000" font-size="27">Accept responsibility.</text>
+<text x="105" y="1045" font-size="27">Correct the harm.</text>
+<text x="105" y="1090" font-size="27">Seek reconciliation.</text>
+<text x="105" y="1160" font-size="24">Often guilt-linked.</text>
+
+<rect x="435" y="880" width="330" height="360" rx="18" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="475" y="945" font-size="34" font-weight="700">Withdrawal</text>
+<text x="475" y="1000" font-size="27">Hide from others.</text>
+<text x="475" y="1045" font-size="27">Avoid reminders.</text>
+<text x="475" y="1090" font-size="27">Turn pain inward.</text>
+<text x="475" y="1160" font-size="24">Also well documented.</text>
+
+<rect x="810" y="880" width="330" height="360" rx="18" fill="#ecece7" stroke="#222" stroke-width="4"/>
+<text x="845" y="945" font-size="34" font-weight="700">Externalize</text>
+<text x="845" y="1000" font-size="27">Shift blame outward.</text>
+<text x="845" y="1045" font-size="27">Anger protects self.</text>
+<text x="845" y="1090" font-size="27">Retaliation may follow.</text>
+<text x="845" y="1160" font-size="24">This route is conditional.</text>
+
+<line x1="975" y1="1240" x2="975" y2="1325" stroke="#222" stroke-width="5"/>
+<polygon points="975,1350 959,1317 991,1317" fill="#222"/>
+
+<rect x="720" y="1360" width="420" height="130" rx="18" fill="#ffffff" stroke="#222" stroke-width="4"/>
+<text x="760" y="1415" font-size="31" font-weight="700">Possible aggression</text>
+<text x="760" y="1460" font-size="25">Never predetermined.</text>
+
+<text x="70" y="1535" font-size="24" fill="#444">Key moderator: externalized blame.</text>
+</g>
+</svg>
