@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Writer Desk banner maker</title>
+<style>
+:root{font:18px/1.5 system-ui;color:#101820;background:#f8f8f5}body{max-width:52rem;margin:auto;padding:1rem}label{display:block;margin:.7rem 0}input,select,button{font:inherit;padding:.45rem}canvas{width:100%;height:auto;border:2px solid #101820;margin:1rem 0}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #1649a0;outline-offset:2px}
+</style>
+<main>
+<h1>Banner maker</h1>
+<p>This tool runs in this browser. It does not send your text anywhere.</p>
+<label>Banner text <input id="text" value="A small place for thought" maxlength="90"></label>
+<label>Palette <select id="palette"><option value="ink">Ink and paper</option><option value="blue">Cobalt</option><option value="night">Night</option></select></label>
+<label>Size <select id="size"><option value="1600x500">Wide</option><option value="1200x630">Social</option><option value="1200x300">Strip</option></select></label>
+<canvas id="banner" width="1600" height="500" aria-label="Banner preview"></canvas>
+<button id="png">Download PNG</button> <button id="svg">Download SVG</button>
+</main>
+<script>
+const text=document.querySelector('#text'),palette=document.querySelector('#palette'),size=document.querySelector('#size'),canvas=document.querySelector('#banner'),ctx=canvas.getContext('2d');
+const colors={ink:['#f8f8f5','#141414','#1649a0'],blue:['#dbe9ff','#0b2046','#0057b8'],night:['#131313','#f8f8f5','#ffe500']};
+function esc(value){return value.replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[ch]));}
+function draw(){const [w,h]=size.value.split('x').map(Number),c=colors[palette.value];canvas.width=w;canvas.height=h;ctx.fillStyle=c[0];ctx.fillRect(0,0,w,h);ctx.strokeStyle=c[2];ctx.lineWidth=10;ctx.strokeRect(20,20,w-40,h-40);ctx.fillStyle=c[1];ctx.font='700 '+Math.max(44,Math.floor(w/18))+'px Georgia';ctx.textBaseline='middle';wrap(text.value||'Write here',w*.1,w/2,w*.8,Math.max(52,Math.floor(w/16)));ctx.font='20px system-ui';ctx.fillText('WRITER DESK',w*.1,h*.85);}
+function wrap(value,x,y,width,line){const words=value.split(/\s+/),lines=[''];words.forEach(word=>{let trial=(lines.at(-1)+' '+word).trim();if(ctx.measureText(trial).width>width){lines.push(word)}else{lines[lines.length-1]=trial}});const start=y-(lines.length-1)*line/2;lines.forEach((lineText,i)=>ctx.fillText(lineText,x,start+i*line));}
+function download(name,url){const a=document.createElement('a');a.href=url;a.download=name;a.click();URL.revokeObjectURL(url);}
+document.querySelector('#png').onclick=()=>download('writer-desk-banner.png',canvas.toDataURL('image/png'));
+document.querySelector('#svg').onclick=()=>{const [w,h]=size.value.split('x');const c=colors[palette.value];const source='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'"><rect width="100%" height="100%" fill="'+c[0]+'"/><rect x="20" y="20" width="'+(w-40)+'" height="'+(h-40)+'" fill="none" stroke="'+c[2]+'" stroke-width="10"/><text x="'+(w*.1)+'" y="'+(h*.5)+'" fill="'+c[1]+'" font-size="'+Math.max(44,Math.floor(w/18))+'" font-family="Georgia" font-weight="700">'+esc(text.value||'Write here')+'</text></svg>';download('writer-desk-banner.svg',URL.createObjectURL(new Blob([source],{type:'image/svg+xml'})));};
+[text,palette,size].forEach(el=>el.addEventListener('input',draw));draw();
+</script>
+</html>
