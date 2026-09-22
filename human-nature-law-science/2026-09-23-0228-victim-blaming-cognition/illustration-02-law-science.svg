@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#f7f7f4"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111">
+    <text x="80" y="100" font-size="50" font-weight="700">Page 4 — Law Versus Cognition</text>
+
+    <rect x="70" y="210" width="500" height="1080" rx="20" fill="#fff" stroke="#222" stroke-width="4"/>
+    <rect x="630" y="210" width="500" height="1080" rx="20" fill="#fff" stroke="#222" stroke-width="4"/>
+
+    <text x="245" y="290" font-size="40" font-weight="700">LAW</text>
+    <text x="760" y="290" font-size="40" font-weight="700">MIND</text>
+
+    <text x="120" y="385" font-size="29">Ask legal elements.</text>
+    <text x="120" y="455" font-size="29">Test relevant evidence.</text>
+    <text x="120" y="525" font-size="29">Limit stereotypes.</text>
+    <text x="120" y="595" font-size="29">Rule 412 filters.</text>
+    <text x="120" y="665" font-size="29">Responsibility stays specific.</text>
+
+    <text x="680" y="385" font-size="29">Seek causal stories.</text>
+    <text x="680" y="455" font-size="29">Use familiar cues.</text>
+    <text x="680" y="525" font-size="29">Prefer controllable causes.</text>
+    <text x="680" y="595" font-size="29">Notice character signals.</text>
+    <text x="680" y="665" font-size="29">Shift blame silently.</text>
+
+    <line x1="570" y1="760" x2="630" y2="760" stroke="#222" stroke-width="8"/>
+    <polygon points="630,760 597,740 597,780" fill="#222"/>
+    <polygon points="570,760 603,740 603,780" fill="#222"/>
+
+    <text x="385" y="850" font-size="38" font-weight="700">Conflict zone</text>
+    <text x="190" y="920" font-size="30">Law asks relevance.</text>
+    <text x="190" y="975" font-size="30">Cognition asks coherence.</text>
+    <text x="190" y="1030" font-size="30">Law excludes some cues.</text>
+    <text x="190" y="1085" font-size="30">Brains still react.</text>
+
+    <rect x="120" y="1330" width="960" height="150" rx="18" fill="#ecece7"/>
+    <text x="165" y="1392" font-size="30" font-weight="700">Core tension</text>
+    <text x="165" y="1444" font-size="29">Legal irrelevance can persist psychologically.</text>
+  </g>
+</svg>
