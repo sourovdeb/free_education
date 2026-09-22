@@ -1,0 +1,23 @@
+:root { --paper:#f8f8f5; --ink:#141414; --line:#767676; --accent:#1649a0; --measure:44rem; --font-size:18px; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:400 var(--font-size)/1.7 Georgia,serif; }
+body.profile-source { --paper:#f1f3f5; --ink:#10202a; --accent:#005e7a; }
+body.profile-large { --font-size:22px; --measure:52rem; --line:#4b4b4b; }
+body.high-contrast { --paper:#000; --ink:#fff; --accent:#ffe500; --line:#fff; }
+body.reduce-motion *,body.reduce-motion *::before,body.reduce-motion *::after { transition:none !important; scroll-behavior:auto !important; animation:none !important; }
+a { color:var(--accent); text-decoration-thickness:.12em; text-underline-offset:.16em; }
+a:focus-visible,button:focus-visible,input:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+.skip-link { position:absolute; left:-9999px; }
+.skip-link:focus { left:1rem; top:1rem; z-index:2; background:var(--paper); padding:.7rem; }
+.site-header,.site-footer,.writing-flow,.reading-settings { max-width:var(--measure); margin:auto; padding:1.25rem; }
+.site-header { display:flex; gap:1rem; align-items:start; justify-content:space-between; border-bottom:1px solid var(--line); }
+.site-title { display:block; color:var(--ink); font:bold clamp(1.4rem,4vw,2.4rem)/1.1 Arial,sans-serif; text-decoration:none; }
+.eyebrow { font:700 .78rem/1.2 ui-monospace,monospace; letter-spacing:.08em; }
+.settings-toggle,.read-link { border:1px solid var(--ink); background:transparent; color:var(--ink); font:inherit; padding:.45rem .7rem; cursor:pointer; }
+.reading-settings { border-bottom:1px solid var(--line); display:flex; gap:1rem; flex-wrap:wrap; font-family:Arial,sans-serif; font-size:.9em; }
+.writing-flow article { padding:2.2rem 0; border-bottom:1px solid var(--line); }
+h1 { font:700 clamp(2rem,7vw,4rem)/1.04 Arial,sans-serif; margin:.2rem 0 1rem; }
+h1 a { color:inherit; text-decoration:none; }
+.entry-copy { max-width:38rem; }
+.site-footer { border-top:1px solid var(--line); display:flex; gap:1rem; flex-wrap:wrap; font-family:Arial,sans-serif; font-size:.9em; }
+@media (max-width:38rem) { .site-header { display:block; } .settings-toggle { margin-top:1rem; } }

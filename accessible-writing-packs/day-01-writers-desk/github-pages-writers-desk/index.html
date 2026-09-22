@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A portable writing surface for writers, source notes, and large-type reading.">
+  <title>Writer's Desk</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-profile="writer">
+<a class="skip-link" href="#main">Skip to writing</a>
+<header class="site-header">
+  <div><p class="eyebrow">WRITER'S DESK / OFFLINE-FIRST</p><h1>Make room for words.</h1></div>
+  <button id="settings-toggle" aria-expanded="false" aria-controls="settings">Reading settings</button>
+</header>
+<aside id="settings" hidden>
+  <fieldset><legend>Profile</legend><button data-profile="writer">Writer</button><button data-profile="source">Source Notes</button><button data-profile="large">Large Type</button></fieldset>
+  <label>Text size <input id="font-scale" type="range" min="100" max="150" value="100"></label>
+  <label><input id="contrast" type="checkbox"> High contrast</label>
+  <label><input id="motion" type="checkbox"> Reduce motion</label>
+</aside>
+<main id="main">
+  <article class="opening">
+    <p class="eyebrow">START HERE</p>
+    <h2>A writing place.</h2>
+    <p>Use this page for essays, notes, code explanations, or letters. Replace the sample text in index.html. No account or build step is needed.</p>
+  </article>
+  <section aria-labelledby="recent-heading">
+    <p class="eyebrow">RECENT WRITING</p><h2 id="recent-heading">A small archive</h2>
+    <article><h3>Begin with one honest sentence</h3><p>Write what you know, then make the next sentence useful.</p><a href="#">Read sample</a></article>
+    <article><h3>Sources beside the claim</h3><p>Keep links and quotations near the sentence they support.</p><a href="#">Read sample</a></article>
+    <article><h3>Notes for tomorrow</h3><p>Leave a clear next step for your future self.</p><a href="#">Read sample</a></article>
+  </section>
+  <section id="optional-tools" hidden aria-labelledby="tools-heading">
+    <p class="eyebrow">OPTIONAL TOOLS</p><h2 id="tools-heading">Use only if wanted.</h2>
+    <p><a id="banner-link" href="tools/banner-maker/index.html">Open banner maker</a></p>
+    <p><a id="activities-link" href="activities/index.html">Open self-paced activities</a></p>
+  </section>
+</main>
+<footer><p>Writer's Desk is portable, local, and tracker-free.</p><a href="USER-MANUAL.md">User manual</a> <a href="ACCESSIBILITY.md">Accessibility notes</a></footer>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
