@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#f7f7f4"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111">
+    <text x="80" y="100" font-size="50" font-weight="700">Page 5 — One Event, Two Stories</text>
+
+    <rect x="80" y="210" width="1040" height="170" rx="18" fill="#fff" stroke="#222" stroke-width="4"/>
+    <text x="130" y="275" font-size="35" font-weight="700">Event</text>
+    <text x="130" y="330" font-size="29">A victim reports assault.</text>
+
+    <line x1="600" y1="380" x2="600" y2="470" stroke="#222" stroke-width="5"/>
+    <polygon points="600,505 582,465 618,465" fill="#222"/>
+
+    <rect x="70" y="520" width="500" height="470" rx="20" fill="#fff" stroke="#222" stroke-width="4"/>
+    <rect x="630" y="520" width="500" height="470" rx="20" fill="#fff" stroke="#222" stroke-width="4"/>
+
+    <text x="125" y="585" font-size="34" font-weight="700">Evidence-first story</text>
+    <text x="125" y="650" font-size="28">What happened?</text>
+    <text x="125" y="705" font-size="28">What supports it?</text>
+    <text x="125" y="760" font-size="28">What contradicts it?</text>
+    <text x="125" y="815" font-size="28">What is relevant?</text>
+    <text x="125" y="870" font-size="28">Which source is reliable?</text>
+
+    <text x="685" y="585" font-size="34" font-weight="700">Blame-first story</text>
+    <text x="685" y="650" font-size="28">Why were they there?</text>
+    <text x="685" y="705" font-size="28">Why trust that person?</text>
+    <text x="685" y="760" font-size="28">Why drink anything?</text>
+    <text x="685" y="815" font-size="28">Why not leave sooner?</text>
+    <text x="685" y="870" font-size="28">What kind person?</text>
+
+    <line x1="320" y1="990" x2="320" y2="1090" stroke="#222" stroke-width="5"/>
+    <line x1="880" y1="990" x2="880" y2="1090" stroke="#222" stroke-width="5"/>
+    <polygon points="320,1125 302,1085 338,1085" fill="#222"/>
+    <polygon points="880,1125 862,1085 898,1085" fill="#222"/>
+
+    <rect x="110" y="1140" width="420" height="190" rx="18" fill="#ecece7" stroke="#222" stroke-width="4"/>
+    <rect x="670" y="1140" width="420" height="190" rx="18" fill="#ecece7" stroke="#222" stroke-width="4"/>
+
+    <text x="160" y="1210" font-size="32" font-weight="700">Question narrows.</text>
+    <text x="160" y="1265" font-size="28">Evidence stays central.</text>
+
+    <text x="720" y="1210" font-size="32" font-weight="700">Question shifts.</text>
+    <text x="720" y="1265" font-size="28">Victim becomes cause.</text>
+
+    <text x="80" y="1450" font-size="25" fill="#444">This is schematic.</text>
+    <text x="80" y="1490" font-size="25" fill="#444">Real cases need evidence.</text>
+  </g>
+</svg>
