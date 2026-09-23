@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete coercive-control scenario timeline</title>
+  <desc id="desc">A fictional timeline showing how ordinary-seeming restrictions can accumulate into a coercive pattern, with evidence investigators might document.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#202124"/></marker>
+    <style>
+      .bg{fill:#f7f7f5}.ink{fill:#202124}.muted{fill:#5f6368}.box{fill:#fff;stroke:#202124;stroke-width:2}.evidence{fill:#eef3f7;stroke:#202124;stroke-width:2}.warn{fill:#fff4e5;stroke:#202124;stroke-width:2}.line{stroke:#202124;stroke-width:3;fill:none;marker-end:url(#arrow)}.h1{font:700 44px Arial,sans-serif}.h2{font:700 29px Arial,sans-serif}.h3{font:700 23px Arial,sans-serif}.body{font:22px Arial,sans-serif}.small{font:18px Arial,sans-serif}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="1600"/>
+  <text class="ink h1" x="70" y="80">PAGE 5 — CONCRETE SCENARIO</text>
+  <text class="muted body" x="70" y="125">Fictional pattern. Not diagnosis.</text>
+
+  <text class="ink h2" x="90" y="205">RELATIONSHIP TIMELINE</text>
+  <text class="ink h2" x="770" y="205">EVIDENCE VIEW</text>
+
+  <line class="line" x1="190" y1="270" x2="190" y2="1370"/>
+
+  <circle cx="190" cy="320" r="18" fill="#202124"/>
+  <rect class="box" x="245" y="265" width="440" height="115" rx="14"/>
+  <text class="ink h3" x="275" y="310">Month 1</text>
+  <text class="muted body" x="275" y="345">Location sharing starts.</text>
+  <rect class="evidence" x="760" y="265" width="360" height="115" rx="14"/>
+  <text class="ink h3" x="790" y="310">Possible evidence</text>
+  <text class="muted body" x="790" y="345">Messages and app logs.</text>
+
+  <circle cx="190" cy="525" r="18" fill="#202124"/>
+  <rect class="box" x="245" y="470" width="440" height="115" rx="14"/>
+  <text class="ink h3" x="275" y="515">Month 3</text>
+  <text class="muted body" x="275" y="550">Friend contact gets challenged.</text>
+  <rect class="evidence" x="760" y="470" width="360" height="115" rx="14"/>
+  <text class="ink h3" x="790" y="515">Possible evidence</text>
+  <text class="muted body" x="790" y="550">Witness timeline.</text>
+
+  <circle cx="190" cy="730" r="18" fill="#202124"/>
+  <rect class="box" x="245" y="675" width="440" height="115" rx="14"/>
+  <text class="ink h3" x="275" y="720">Month 5</text>
+  <text class="muted body" x="275" y="755">Money access gets restricted.</text>
+  <rect class="evidence" x="760" y="675" width="360" height="115" rx="14"/>
+  <text class="ink h3" x="790" y="720">Possible evidence</text>
+  <text class="muted body" x="790" y="755">Bank records.</text>
+
+  <circle cx="190" cy="935" r="18" fill="#202124"/>
+  <rect class="warn" x="245" y="880" width="440" height="115" rx="14"/>
+  <text class="ink h3" x="275" y="925">Month 7</text>
+  <text class="muted body" x="275" y="960">Work attendance gets disrupted.</text>
+  <rect class="evidence" x="760" y="880" width="360" height="115" rx="14"/>
+  <text class="ink h3" x="790" y="925">Possible evidence</text>
+  <text class="muted body" x="790" y="960">Employer records.</text>
+
+  <circle cx="190" cy="1140" r="18" fill="#202124"/>
+  <rect class="warn" x="245" y="1085" width="440" height="115" rx="14"/>
+  <text class="ink h3" x="275" y="1130">Month 9</text>
+  <text class="muted body" x="275" y="1165">Separation triggers surveillance.</text>
+  <rect class="evidence" x="760" y="1085" width="360" height="115" rx="14"/>
+  <text class="ink h3" x="790" y="1130">Possible evidence</text>
+  <text class="muted body" x="790" y="1165">Reports and device logs.</text>
+
+  <circle cx="190" cy="1345" r="18" fill="#202124"/>
+  <rect class="box" x="245" y="1290" width="875" height="130" rx="14"/>
+  <text class="ink h3" x="275" y="1335">Pattern finding</text>
+  <text class="muted body" x="275" y="1370">Each act seems separate.</text>
+  <text class="muted body" x="275" y="1405">Together, autonomy shrinks.</text>
+
+  <text class="ink h3" x="70" y="1490">Investigation rule</text>
+  <text class="muted body" x="70" y="1530">Reconstruct patterns, not assumptions.</text>
+  <text class="muted small" x="70" y="1570">Evidence base: NIJ stalking research; Campbell et al. 2003; CPS guidance.</text>
+</svg>
