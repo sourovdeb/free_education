@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker>
+    <style>
+      .t{font-family:Arial,sans-serif;fill:#111}.h{font-size:44px;font-weight:700}.s{font-size:24px}.b{fill:#fff;stroke:#111;stroke-width:3}.g{fill:#f2f2f2;stroke:#111;stroke-width:3}.a{stroke:#111;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#fff"/>
+  <text x="70" y="90" class="t h">Prestige bias: mechanism flow</text>
+  <text x="70" y="135" class="t s">A social shortcut.</text>
+
+  <rect x="330" y="190" width="540" height="120" rx="8" class="g"/>
+  <text x="600" y="245" text-anchor="middle" class="t s">UNCERTAINTY</text>
+  <text x="600" y="280" text-anchor="middle" class="t s">Direct quality stays hidden.</text>
+
+  <path d="M600 310 L600 390" class="a"/>
+  <rect x="330" y="400" width="540" height="130" rx="8" class="b"/>
+  <text x="600" y="455" text-anchor="middle" class="t s">WATCH OTHER PEOPLE</text>
+  <text x="600" y="495" text-anchor="middle" class="t s">Who gets attention?</text>
+
+  <path d="M600 530 L600 610" class="a"/>
+  <rect x="330" y="620" width="540" height="130" rx="8" class="g"/>
+  <text x="600" y="675" text-anchor="middle" class="t s">INFER PRESTIGE</text>
+  <text x="600" y="715" text-anchor="middle" class="t s">Attention becomes proxy.</text>
+
+  <path d="M600 750 L600 830" class="a"/>
+  <rect x="330" y="840" width="540" height="130" rx="8" class="b"/>
+  <text x="600" y="895" text-anchor="middle" class="t s">CHOOSE MODEL</text>
+  <text x="600" y="935" text-anchor="middle" class="t s">Copy their behavior.</text>
+
+  <path d="M600 970 L600 1050" class="a"/>
+  <rect x="330" y="1060" width="540" height="130" rx="8" class="g"/>
+  <text x="600" y="1115" text-anchor="middle" class="t s">MORE VISIBILITY</text>
+  <text x="600" y="1155" text-anchor="middle" class="t s">More people notice.</text>
+
+  <path d="M330 1125 C120 1125,120 680,320 680" class="a"/>
+  <text x="85" y="900" class="t s">Feedback loop</text>
+
+  <rect x="110" y="1290" width="430" height="170" rx="8" class="b"/>
+  <text x="325" y="1340" text-anchor="middle" class="t s">CORRECTION PATH</text>
+  <text x="325" y="1385" text-anchor="middle" class="t s">Show direct outcomes.</text>
+  <text x="325" y="1425" text-anchor="middle" class="t s">Match expertise domains.</text>
+
+  <rect x="660" y="1290" width="430" height="170" rx="8" class="g"/>
+  <text x="875" y="1340" text-anchor="middle" class="t s">RISK PATH</text>
+  <text x="875" y="1385" text-anchor="middle" class="t s">Status crosses domains.</text>
+  <text x="875" y="1425" text-anchor="middle" class="t s">Visibility replaces checking.</text>
+
+  <text x="70" y="1540" class="t s">Prestige can help learning.</text>
+  <text x="70" y="1575" class="t s">Prestige can spread error.</text>
+</svg>
