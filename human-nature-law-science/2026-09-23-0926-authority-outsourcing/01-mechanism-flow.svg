@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Authority outsourcing mechanism flow</title>
+  <desc id="desc">A flow diagram showing authority instruction, narrowed perceived choice, changes in agency and identification, then compliance or resistance, followed by responsibility attribution.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#222"/>
+    </marker>
+    <style>
+      .box{fill:#f7f7f7;stroke:#222;stroke-width:2;rx:14;ry:14}
+      .note{fill:#fff;stroke:#666;stroke-width:1.5;stroke-dasharray:7 5;rx:12;ry:12}
+      .line{stroke:#222;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+      .title{font:700 34px Arial,sans-serif;fill:#111}
+      .head{font:700 22px Arial,sans-serif;fill:#111}
+      .text{font:18px Arial,sans-serif;fill:#222}
+      .small{font:16px Arial,sans-serif;fill:#333}
+    </style>
+  </defs>
+
+  <text x="60" y="60" class="title">Authority Outsourcing: Mechanism Flow</text>
+
+  <rect x="420" y="95" width="360" height="90" class="box"/>
+  <text x="600" y="130" text-anchor="middle" class="head">Authority gives instruction</text>
+  <text x="600" y="158" text-anchor="middle" class="text">Rule source moves outward</text>
+
+  <path d="M600 185 L600 240" class="line"/>
+
+  <rect x="420" y="240" width="360" height="90" class="box"/>
+  <text x="600" y="275" text-anchor="middle" class="head">Choice feels narrower</text>
+  <text x="600" y="303" text-anchor="middle" class="text">Options still may exist</text>
+
+  <path d="M520 330 L360 405" class="line"/>
+  <path d="M680 330 L840 405" class="line"/>
+
+  <rect x="120" y="405" width="390" height="115" class="box"/>
+  <text x="315" y="443" text-anchor="middle" class="head">Agency pathway</text>
+  <text x="315" y="474" text-anchor="middle" class="text">Actions feel less authored</text>
+  <text x="315" y="500" text-anchor="middle" class="small">Responsibility may feel shared</text>
+
+  <rect x="690" y="405" width="390" height="115" class="box"/>
+  <text x="885" y="443" text-anchor="middle" class="head">Identity pathway</text>
+  <text x="885" y="474" text-anchor="middle" class="text">Leader goals feel shared</text>
+  <text x="885" y="500" text-anchor="middle" class="small">Compliance can feel chosen</text>
+
+  <path d="M315 520 L315 590" class="line"/>
+  <path d="M885 520 L885 590" class="line"/>
+
+  <rect x="115" y="590" width="400" height="95" class="box"/>
+  <text x="315" y="625" text-anchor="middle" class="head">Possible compliance</text>
+  <text x="315" y="653" text-anchor="middle" class="text">Blame shifts upward</text>
+
+  <rect x="685" y="590" width="400" height="95" class="box"/>
+  <text x="885" y="625" text-anchor="middle" class="head">Possible resistance</text>
+  <text x="885" y="653" text-anchor="middle" class="text">Personal agency stays salient</text>
+
+  <rect x="350" y="715" width="500" height="55" class="note"/>
+  <text x="600" y="748" text-anchor="middle" class="small">Evidence supports both pathways. Context decides neither.</text>
+
+  <path d="M315 685 L470 715" class="line"/>
+  <path d="M885 685 L730 715" class="line"/>
+</svg>
