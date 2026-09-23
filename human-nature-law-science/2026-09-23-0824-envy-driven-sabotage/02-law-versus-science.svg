@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison</title>
+  <desc id="desc">A comparison between legal proof, scientific explanation, moral judgment, and investigative practice in envy-driven sabotage.</desc>
+  <defs>
+    <style>
+      .title{font:700 46px Arial,sans-serif;fill:#111}
+      .head{font:700 30px Arial,sans-serif;fill:#111}
+      .body{font:400 23px Arial,sans-serif;fill:#222}
+      .small{font:400 20px Arial,sans-serif;fill:#333}
+      .panel{fill:#fff;stroke:#111;stroke-width:3;rx:10}
+      .soft{fill:#f2f2f2;stroke:#111;stroke-width:2;rx:10}
+      .line{stroke:#111;stroke-width:3}
+    </style>
+  </defs>
+
+  <rect width="1200" height="1600" fill="#fafafa"/>
+  <text x="70" y="90" class="title">LAW ≠ SCIENCE ≠ MORALITY</text>
+  <text x="70" y="132" class="small">The questions differ.</text>
+
+  <rect x="70" y="200" width="500" height="430" class="panel"/>
+  <text x="100" y="250" class="head">LAW</text>
+  <text x="100" y="305" class="body">What act occurred?</text>
+  <text x="100" y="350" class="body">What mental state?</text>
+  <text x="100" y="395" class="body">What evidence proves it?</text>
+  <text x="100" y="440" class="body">Which elements apply?</text>
+  <line x1="100" y1="480" x2="540" y2="480" class="line"/>
+  <text x="100" y="525" class="small">Motive may help.</text>
+  <text x="100" y="560" class="small">Motive may be unnecessary.</text>
+  <text x="100" y="595" class="small">Emotion never proves guilt.</text>
+
+  <rect x="630" y="200" width="500" height="430" class="panel"/>
+  <text x="660" y="250" class="head">SCIENCE</text>
+  <text x="660" y="305" class="body">What mechanisms operate?</text>
+  <text x="660" y="350" class="body">Which contexts matter?</text>
+  <text x="660" y="395" class="body">How likely are effects?</text>
+  <text x="660" y="440" class="body">What alternatives exist?</text>
+  <line x1="660" y1="480" x2="1100" y2="480" class="line"/>
+  <text x="660" y="525" class="small">Findings stay probabilistic.</text>
+  <text x="660" y="560" class="small">Groups differ.</text>
+  <text x="660" y="595" class="small">Individuals vary more.</text>
+
+  <rect x="70" y="690" width="500" height="340" class="soft"/>
+  <text x="100" y="740" class="head">MORAL JUDGMENT</text>
+  <text x="100" y="795" class="body">Who deserves blame?</text>
+  <text x="100" y="840" class="body">Was conduct petty?</text>
+  <text x="100" y="885" class="body">Was success deserved?</text>
+  <text x="100" y="930" class="small">Character stories feel simple.</text>
+  <text x="100" y="970" class="small">Mechanisms complicate them.</text>
+
+  <rect x="630" y="690" width="500" height="340" class="soft"/>
+  <text x="660" y="740" class="head">INVESTIGATION</text>
+  <text x="660" y="795" class="body">Which facts corroborate?</text>
+  <text x="660" y="840" class="body">Which facts contradict?</text>
+  <text x="660" y="885" class="body">What other motives fit?</text>
+  <text x="660" y="930" class="small">Rivalry can mislead.</text>
+  <text x="660" y="970" class="small">Tunnel vision can follow.</text>
+
+  <rect x="145" y="1110" width="910" height="310" class="panel"/>
+  <text x="600" y="1165" text-anchor="middle" class="head">CONFLICT ZONE</text>
+  <text x="600" y="1225" text-anchor="middle" class="body">Science can explain motive.</text>
+  <text x="600" y="1270" text-anchor="middle" class="body">Law still needs proof.</text>
+  <text x="600" y="1315" text-anchor="middle" class="body">Morality may infer character.</text>
+  <text x="600" y="1360" text-anchor="middle" class="body">Investigators need alternatives.</text>
+
+  <text x="70" y="1510" class="small">Rule: motive is context.</text>
+  <text x="70" y="1545" class="small">Rule: conduct needs evidence.</text>
+</svg>
