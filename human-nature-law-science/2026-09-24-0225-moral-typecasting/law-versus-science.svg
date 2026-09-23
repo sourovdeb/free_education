@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#fff"/>
+  <text x="80" y="90" font-family="Arial" font-size="44" font-weight="700">Law Versus Science</text>
+  <text x="80" y="140" font-family="Arial" font-size="24">Where role assumptions clash</text>
+
+  <rect x="90" y="210" width="650" height="610" fill="#f5f5f5" stroke="#111" stroke-width="2"/>
+  <text x="415" y="275" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">Legal structure</text>
+  <text x="415" y="335" text-anchor="middle" font-family="Arial" font-size="24">Roles stay distinct</text>
+  <line x1="150" y1="375" x2="680" y2="375" stroke="#111" stroke-width="2"/>
+  <text x="190" y="430" font-family="Arial" font-size="23">• Defendant</text>
+  <text x="190" y="475" font-family="Arial" font-size="23">• Victim</text>
+  <text x="190" y="520" font-family="Arial" font-size="23">• Witness</text>
+  <text x="190" y="565" font-family="Arial" font-size="23">• Investigator</text>
+  <text x="190" y="630" font-family="Arial" font-size="23">Roles protect rights.</text>
+  <text x="190" y="675" font-family="Arial" font-size="23">Roles organize procedure.</text>
+  <text x="190" y="720" font-family="Arial" font-size="23">Evidence should control.</text>
+  <text x="190" y="765" font-family="Arial" font-size="23">Culpability should control.</text>
+
+  <rect x="860" y="210" width="650" height="610" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="1185" y="275" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">Behavioral evidence</text>
+  <text x="1185" y="335" text-anchor="middle" font-family="Arial" font-size="24">Roles can overlap</text>
+  <line x1="920" y1="375" x2="1450" y2="375" stroke="#111" stroke-width="2"/>
+  <text x="960" y="430" font-family="Arial" font-size="23">• Victims can offend.</text>
+  <text x="960" y="475" font-family="Arial" font-size="23">• Offenders can suffer.</text>
+  <text x="960" y="520" font-family="Arial" font-size="23">• Context can reverse.</text>
+  <text x="960" y="565" font-family="Arial" font-size="23">• Labels change judgment.</text>
+  <text x="960" y="630" font-family="Arial" font-size="23">Punishment can shift.</text>
+  <text x="960" y="675" font-family="Arial" font-size="23">Perceived agency matters.</text>
+  <text x="960" y="720" font-family="Arial" font-size="23">Overlap is documented.</text>
+  <text x="960" y="765" font-family="Arial" font-size="23">Causes remain debated.</text>
+
+  <line x1="760" y1="500" x2="840" y2="500" stroke="#111" stroke-width="4"/>
+  <line x1="800" y1="460" x2="800" y2="540" stroke="#111" stroke-width="4"/>
+
+  <rect x="400" y="855" width="800" height="95" fill="#f5f5f5" stroke="#111" stroke-width="2"/>
+  <text x="800" y="895" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700">Conflict point</text>
+  <text x="800" y="930" text-anchor="middle" font-family="Arial" font-size="22">Formal roles can become moral identities.</text>
+</svg>
