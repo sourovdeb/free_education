@@ -1,0 +1,97 @@
+{{Draft}}
+
+= Open Business English for Hospitality =
+
+This is a draft instructional chapter.
+
+== Learning goal ==
+
+By the end, learners can respond to one guest complaint using four moves:
+
+# Clarify the problem.
+# Acknowledge the concern.
+# Apologise for the experience.
+# Offer one realistic action.
+
+== Model dialogue ==
+
+'''Guest:''' Excuse me. The air conditioner is making a loud noise.
+
+'''Staff:''' I’m sorry about that. Is the noise constant?
+
+'''Guest:''' Yes. I couldn’t sleep.
+
+'''Staff:''' I understand. I can send maintenance now, or arrange another room.
+
+'''Guest:''' Another room, please.
+
+'''Staff:''' Certainly. I’ll check availability now.
+
+== Phrase bank ==
+
+{| class="wikitable"
+! Purpose
+! Example
+|-
+| Clarify
+| When did it start?
+|-
+| Clarify
+| Is it happening now?
+|-
+| Acknowledge
+| I understand the problem.
+|-
+| Apologise
+| I’m sorry about that.
+|-
+| Act
+| I can send someone now.
+|-
+| Act
+| I can offer another room.
+|}
+
+== Practice ==
+
+A restaurant guest waited forty minutes. Their meal arrived cold.
+
+Write four sentences:
+
+# Clarify.
+# Acknowledge.
+# Apologise.
+# Act.
+
+== Pair role-play ==
+
+Learner A chooses one complaint:
+
+* Noisy room.
+* Cold meal.
+* Missing booking.
+
+Learner B uses all four moves.
+
+An observer records which moves were heard:
+
+* [ ] Clarify
+* [ ] Acknowledge
+* [ ] Apologise
+* [ ] Act
+
+== Reflection ==
+
+Which response sounded respectful?
+
+Which action was realistic?
+
+What changed after feedback?
+
+== Licensing note ==
+
+Original lesson by Sourov Deb.
+
+Proposed licence: CC BY-SA 4.0.
+
+This draft claims no Cambridge affiliation, endorsement, accreditation, or CELTA award.
