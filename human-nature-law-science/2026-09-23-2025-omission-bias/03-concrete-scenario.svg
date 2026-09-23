@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Concrete omission investigation scenario</title>
+<desc id="desc">A timeline showing a caregiver recognizing a medical emergency, failing to seek help, and investigators mapping duty, knowledge, capacity, causation, and intent.</desc>
+<style>
+  .bg{fill:#f7f7f5}.box{fill:#fff;stroke:#111;stroke-width:2}.soft{fill:#e9e9e6;stroke:#111;stroke-width:2}.ink{fill:#111;font-family:Arial,Helvetica,sans-serif}.h1{font-size:42px;font-weight:700}.h2{font-size:24px;font-weight:700}.t{font-size:19px}.small{font-size:15px}.line{stroke:#111;stroke-width:3;fill:none}.dash{stroke:#555;stroke-width:2;stroke-dasharray:8 8;fill:none}
+</style>
+<rect class="bg" width="1200" height="900"/>
+<text class="ink h1" x="70" y="78">CONCRETE SCENARIO</text>
+<text class="ink t" x="70" y="115">A failure to call.</text>
+
+<line class="line" x1="110" y1="245" x2="1090" y2="245"/>
+
+<circle cx="165" cy="245" r="12" fill="#111"/>
+<circle cx="395" cy="245" r="12" fill="#111"/>
+<circle cx="625" cy="245" r="12" fill="#111"/>
+<circle cx="855" cy="245" r="12" fill="#111"/>
+<circle cx="1080" cy="245" r="12" fill="#111"/>
+
+<rect class="box" x="80" y="300" width="180" height="150"/>
+<text class="ink h2" x="100" y="338">1. Crisis</text>
+<text class="ink t" x="100" y="375">Child collapses.</text>
+<text class="ink t" x="100" y="408">Caregiver notices.</text>
+
+<rect class="box" x="305" y="300" width="180" height="150"/>
+<text class="ink h2" x="325" y="338">2. Knowledge</text>
+<text class="ink t" x="325" y="375">Risk seems clear.</text>
+<text class="ink t" x="325" y="408">Help is available.</text>
+
+<rect class="soft" x="535" y="300" width="180" height="150"/>
+<text class="ink h2" x="555" y="338">3. Omission</text>
+<text class="ink t" x="555" y="375">No call occurs.</text>
+<text class="ink t" x="555" y="408">Time keeps moving.</text>
+
+<rect class="box" x="765" y="300" width="180" height="150"/>
+<text class="ink h2" x="785" y="338">4. Outcome</text>
+<text class="ink t" x="785" y="375">Harm worsens.</text>
+<text class="ink t" x="785" y="408">Causation is tested.</text>
+
+<rect class="box" x="985" y="300" width="150" height="150"/>
+<text class="ink h2" x="1005" y="338">5. Review</text>
+<text class="ink t" x="1005" y="375">Bias matters.</text>
+<text class="ink t" x="1005" y="408">Evidence decides.</text>
+
+<path class="dash" d="M625 450 V520"/>
+<path d="M625 520 l-10 -18 h20 z" fill="#111"/>
+
+<rect class="box" x="120" y="520" width="960" height="220"/>
+<text class="ink h2" x="150" y="560">INVESTIGATOR CHECKLIST</text>
+<text class="ink t" x="150" y="606">Duty: Was care required?</text>
+<text class="ink t" x="150" y="642">Knowledge: What was known?</text>
+<text class="ink t" x="150" y="678">Capacity: Could help happen?</text>
+<text class="ink t" x="615" y="606">Causation: Did delay matter?</text>
+<text class="ink t" x="615" y="642">Intent: What mental state?</text>
+<text class="ink t" x="615" y="678">Evidence: What supports each?</text>
+
+<rect class="soft" x="120" y="775" width="960" height="70"/>
+<text class="ink small" x="150" y="816">Core safeguard: Never treat nonaction as harmless automatically. Never treat nonaction as criminal automatically.</text>
+</svg>
