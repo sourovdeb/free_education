@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Bystander context scenario</title>
+<desc id="desc">Scenario diagram comparing public conflicts with commercial robberies, showing that intervention rates differ sharply by context and that safe helping can include calling for assistance.</desc>
+<rect width="1200" height="1600" fill="#f7f7f3"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#111">
+<text x="70" y="95" font-size="54" font-weight="700">PAGE 5 — CONTEXT CHANGES HELP</text>
+<text x="70" y="145" font-size="29">Crowds do not behave uniformly.</text>
+
+<rect x="80" y="220" width="1040" height="300" rx="22" fill="#fff" stroke="#111" stroke-width="4"/>
+<text x="130" y="285" font-size="38" font-weight="700">SCENARIO</text>
+<text x="130" y="345" font-size="30">A robbery begins.</text>
+<text x="130" y="395" font-size="30">Several people witness it.</text>
+<text x="130" y="445" font-size="30">Risk is unclear.</text>
+<text x="650" y="345" font-size="30">One person retreats.</text>
+<text x="650" y="395" font-size="30">One person calls.</text>
+<text x="650" y="445" font-size="30">Others wait.</text>
+
+<line x1="600" y1="520" x2="600" y2="610" stroke="#111" stroke-width="6"/>
+<polygon points="600,640 580,600 620,600" fill="#111"/>
+
+<rect x="80" y="655" width="1040" height="290" rx="22" fill="#ecece5" stroke="#111" stroke-width="4"/>
+<text x="130" y="720" font-size="38" font-weight="700">WHAT CHANGED?</text>
+<text x="130" y="790" font-size="29">Weapons raise costs.</text>
+<text x="130" y="840" font-size="29">Escape routes matter.</text>
+<text x="130" y="890" font-size="29">Bystander count matters.</text>
+<text x="650" y="790" font-size="29">Relationships matter.</text>
+<text x="650" y="840" font-size="29">Clarity matters.</text>
+<text x="650" y="890" font-size="29">Safe options matter.</text>
+
+<text x="80" y="1040" font-size="40" font-weight="700">FIELD EVIDENCE</text>
+
+<text x="90" y="1110" font-size="28">Public conflicts</text>
+<rect x="320" y="1075" width="720" height="55" fill="#d9d9d2" stroke="#111" stroke-width="2"/>
+<rect x="320" y="1075" width="654" height="55" fill="#111"/>
+<text x="990" y="1115" font-size="28">90.9%</text>
+
+<text x="90" y="1210" font-size="28">Commercial robberies</text>
+<rect x="320" y="1175" width="720" height="55" fill="#d9d9d2" stroke="#111" stroke-width="2"/>
+<rect x="320" y="1175" width="252" height="55" fill="#111"/>
+<text x="590" y="1215" font-size="28">35%</text>
+
+<rect x="100" y="1320" width="1000" height="170" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+<text x="150" y="1380" font-size="34" font-weight="700">THE LESSON</text>
+<text x="150" y="1435" font-size="29">One rate cannot generalize.</text>
+<text x="580" y="1435" font-size="29">Safe help still counts.</text>
+
+<text x="70" y="1555" font-size="23">Evidence: Philpot et al., 2020; Lindegaard et al., 2026.</text>
+</g>
+</svg>
