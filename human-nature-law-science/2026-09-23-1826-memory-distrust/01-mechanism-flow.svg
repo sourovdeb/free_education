@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Memory distrust mechanism flow</title>
+  <desc id="desc">A flow diagram showing how uncertainty, authority challenge, reduced self-trust, outside cues, reconstruction, and possible internalized confession can interact.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#222"/>
+    </marker>
+    <style>
+      .title{font:700 34px system-ui,sans-serif;fill:#111}
+      .sub{font:400 18px system-ui,sans-serif;fill:#444}
+      .box{fill:#fff;stroke:#222;stroke-width:2}
+      .risk{fill:#f7eded;stroke:#7b1e1e;stroke-width:2}
+      .protect{fill:#eef3ee;stroke:#274e2d;stroke-width:2}
+      .h{font:700 20px system-ui,sans-serif;fill:#111}
+      .t{font:400 16px system-ui,sans-serif;fill:#222}
+      .small{font:400 14px system-ui,sans-serif;fill:#444}
+      .line{stroke:#222;stroke-width:2.4;fill:none;marker-end:url(#arrow)}
+      .dash{stroke:#666;stroke-width:2;stroke-dasharray:8 8;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" fill="#fafafa"/>
+  <text x="60" y="62" class="title">MEMORY DISTRUST: MECHANISM FLOW</text>
+  <text x="60" y="94" class="sub">Confidence can change before memory changes.</text>
+
+  <rect x="55" y="150" width="190" height="125" rx="8" class="box"/>
+  <text x="150" y="184" text-anchor="middle" class="h">1. Uncertainty</text>
+  <text x="150" y="216" text-anchor="middle" class="t">Recall feels incomplete.</text>
+  <text x="150" y="244" text-anchor="middle" class="t">Confidence starts low.</text>
+
+  <rect x="295" y="150" width="210" height="125" rx="8" class="risk"/>
+  <text x="400" y="184" text-anchor="middle" class="h">2. Authority challenge</text>
+  <text x="400" y="216" text-anchor="middle" class="t">“Your memory failed.”</text>
+  <text x="400" y="244" text-anchor="middle" class="t">Evidence seems certain.</text>
+
+  <rect x="555" y="150" width="210" height="125" rx="8" class="risk"/>
+  <text x="660" y="184" text-anchor="middle" class="h">3. Self-trust falls</text>
+  <text x="660" y="216" text-anchor="middle" class="t">Own recall loses weight.</text>
+  <text x="660" y="244" text-anchor="middle" class="t">Outside cues gain weight.</text>
+
+  <rect x="815" y="150" width="220" height="125" rx="8" class="risk"/>
+  <text x="925" y="184" text-anchor="middle" class="h">4. Story building</text>
+  <text x="925" y="216" text-anchor="middle" class="t">Hints supply structure.</text>
+  <text x="925" y="244" text-anchor="middle" class="t">Gaps gain explanations.</text>
+
+  <path d="M245 212 L295 212" class="line"/>
+  <path d="M505 212 L555 212" class="line"/>
+  <path d="M765 212 L815 212" class="line"/>
+
+  <rect x="760" y="350" width="275" height="150" rx="8" class="risk"/>
+  <text x="897" y="388" text-anchor="middle" class="h">Possible outcome</text>
+  <text x="897" y="421" text-anchor="middle" class="t">Acceptance may occur.</text>
+  <text x="897" y="450" text-anchor="middle" class="t">Confabulation may occur.</text>
+  <text x="897" y="479" text-anchor="middle" class="t">A confession may follow.</text>
+  <path d="M925 275 L925 350" class="line"/>
+
+  <rect x="55" y="350" width="290" height="150" rx="8" class="protect"/>
+  <text x="200" y="388" text-anchor="middle" class="h">Protective interruption</text>
+  <text x="200" y="421" text-anchor="middle" class="t">Preserve first account.</text>
+  <text x="200" y="450" text-anchor="middle" class="t">Avoid leading details.</text>
+  <text x="200" y="479" text-anchor="middle" class="t">Seek independent evidence.</text>
+  <path d="M400 275 C400 325 330 350 310 365" class="dash"/>
+
+  <rect x="395" y="350" width="300" height="150" rx="8" class="box"/>
+  <text x="545" y="388" text-anchor="middle" class="h">What changes first?</text>
+  <text x="545" y="421" text-anchor="middle" class="t">Not always memory content.</text>
+  <text x="545" y="450" text-anchor="middle" class="t">Belief can change first.</text>
+  <text x="545" y="479" text-anchor="middle" class="t">That changes cue reliance.</text>
+  <path d="M660 275 C660 320 610 340 590 350" class="dash"/>
+
+  <line x1="55" y1="570" x2="1040" y2="570" stroke="#bbb" stroke-width="1"/>
+  <text x="55" y="612" class="h">Evidence boundary</text>
+  <text x="55" y="645" class="t">This sequence is probabilistic.</text>
+  <text x="55" y="675" class="t">Not everyone becomes suggestible.</text>
+  <text x="55" y="705" class="t">Lab magnitudes remain disputed.</text>
+
+  <text x="620" y="612" class="h">Core conflict</text>
+  <text x="620" y="645" class="t">Morality asks: “Why confess?”</text>
+  <text x="620" y="675" class="t">Science asks: “Which cues?”</text>
+  <text x="620" y="705" class="t">Law asks: “Was coercion?”</text>
+</svg>
