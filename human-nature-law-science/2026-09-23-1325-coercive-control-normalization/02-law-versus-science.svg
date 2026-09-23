@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison</title>
+  <desc id="desc">A two-column comparison showing incident-based legal thinking versus pattern-based behavioral evidence.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f7f5}.ink{fill:#202124}.muted{fill:#5f6368}.panel{fill:#ffffff;stroke:#202124;stroke-width:2}.bridge{fill:#eef3f7;stroke:#202124;stroke-width:2}.h1{font:700 44px Arial,sans-serif}.h2{font:700 30px Arial,sans-serif}.h3{font:700 24px Arial,sans-serif}.body{font:23px Arial,sans-serif}.small{font:19px Arial,sans-serif}.rule{stroke:#202124;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="1600"/>
+  <text class="ink h1" x="70" y="80">PAGE 4 — LAW VERSUS SCIENCE</text>
+  <text class="muted body" x="70" y="125">Why small acts confuse systems</text>
+
+  <rect class="panel" x="70" y="190" width="490" height="950" rx="16"/>
+  <rect class="panel" x="640" y="190" width="490" height="950" rx="16"/>
+
+  <text class="ink h2" x="315" y="250" text-anchor="middle">LEGAL VIEW</text>
+  <text class="ink h2" x="885" y="250" text-anchor="middle">SCIENCE VIEW</text>
+
+  <line class="rule" x1="110" y1="285" x2="520" y2="285"/>
+  <line class="rule" x1="680" y1="285" x2="1090" y2="285"/>
+
+  <text class="ink h3" x="110" y="345">Question</text>
+  <text class="muted body" x="110" y="385">What happened here?</text>
+  <text class="muted body" x="110" y="420">Was this act illegal?</text>
+
+  <text class="ink h3" x="680" y="345">Question</text>
+  <text class="muted body" x="680" y="385">What pattern formed?</text>
+  <text class="muted body" x="680" y="420">How did choices shrink?</text>
+
+  <text class="ink h3" x="110" y="500">Evidence unit</text>
+  <text class="muted body" x="110" y="540">Single event.</text>
+  <text class="muted body" x="110" y="575">Single witness.</text>
+  <text class="muted body" x="110" y="610">Single charge.</text>
+
+  <text class="ink h3" x="680" y="500">Evidence unit</text>
+  <text class="muted body" x="680" y="540">Repeated behavior.</text>
+  <text class="muted body" x="680" y="575">Context.</text>
+  <text class="muted body" x="680" y="610">Cumulative effect.</text>
+
+  <text class="ink h3" x="110" y="690">Common blind spot</text>
+  <text class="muted body" x="110" y="730">Each act looks minor.</text>
+  <text class="muted body" x="110" y="765">Some acts look lawful.</text>
+
+  <text class="ink h3" x="680" y="690">Common warning</text>
+  <text class="muted body" x="680" y="730">Meaning depends on context.</text>
+  <text class="muted body" x="680" y="765">Patterns change meaning.</text>
+
+  <text class="ink h3" x="110" y="845">Risk</text>
+  <text class="muted body" x="110" y="885">Fragmented case-building.</text>
+  <text class="muted body" x="110" y="920">Missed escalation.</text>
+
+  <text class="ink h3" x="680" y="845">Risk</text>
+  <text class="muted body" x="680" y="885">Over-labeling ordinary conflict.</text>
+  <text class="muted body" x="680" y="920">Measurement uncertainty.</text>
+
+  <text class="ink h3" x="110" y="1000">Needed safeguard</text>
+  <text class="muted body" x="110" y="1040">Proof thresholds.</text>
+  <text class="muted body" x="110" y="1075">Fair process.</text>
+
+  <text class="ink h3" x="680" y="1000">Needed safeguard</text>
+  <text class="muted body" x="680" y="1040">Pattern validation.</text>
+  <text class="muted body" x="680" y="1075">Context validation.</text>
+
+  <rect class="bridge" x="160" y="1200" width="880" height="250" rx="18"/>
+  <text class="ink h2" x="600" y="1260" text-anchor="middle">LEGAL BRIDGE</text>
+  <text class="ink body" x="600" y="1315" text-anchor="middle">England and Wales:</text>
+  <text class="muted body" x="600" y="1355" text-anchor="middle">Section 76 targets patterns.</text>
+  <text class="muted body" x="600" y="1395" text-anchor="middle">Serious effects still matter.</text>
+
+  <text class="muted small" x="70" y="1530">Sources: Serious Crime Act 2015; CPS guidance; Myhill 2015.</text>
+</svg>
