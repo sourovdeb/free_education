@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Concrete investigation scenario</title>
+<desc id="desc">Timeline showing a witness who sees an event, avoids thinking about it, later recalls fewer details, and an investigator who preserves the first account and seeks corroboration instead of assuming deception.</desc>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#222"/></marker>
+  <style>
+    .h1{font:700 52px Arial,sans-serif;fill:#111}.h2{font:700 30px Arial,sans-serif;fill:#111}.body{font:25px Arial,sans-serif;fill:#222}.small{font:21px Arial,sans-serif;fill:#333}.event{fill:#f7f7f7;stroke:#222;stroke-width:3;rx:18}.avoid{fill:#fff4d6;stroke:#9b6b00;stroke-width:3;rx:18}.invest{fill:#eef4ff;stroke:#34558b;stroke-width:3;rx:18}.line{stroke:#222;stroke-width:5;fill:none;marker-end:url(#arrow)}.dash{stroke:#666;stroke-width:3;stroke-dasharray:12 12}
+  </style>
+</defs>
+<rect width="1200" height="1600" fill="#fff"/>
+<text x="70" y="90" class="h1">A Concrete Scenario</text>
+<text x="70" y="140" class="h2">Why omission proves little</text>
+
+<line x1="175" y1="260" x2="175" y2="1360" class="dash"/>
+
+<circle cx="175" cy="300" r="20" fill="#222"/>
+<rect x="245" y="225" width="850" height="165" class="event"/>
+<text x="285" y="280" class="h2">DAY 0 — WITNESS SEES</text>
+<text x="285" y="330" class="body">A street dispute occurs.</text>
+<text x="285" y="370" class="small">Several details get encoded.</text>
+
+<path d="M175 390 L175 495" class="line"/>
+<circle cx="175" cy="530" r="20" fill="#9b6b00"/>
+<rect x="245" y="450" width="850" height="195" class="avoid"/>
+<text x="285" y="505" class="h2">DAYS 1–7 — AVOIDANCE</text>
+<text x="285" y="555" class="body">The witness avoids recall.</text>
+<text x="285" y="600" class="small">Reminders get pushed away.</text>
+<text x="285" y="632" class="small">This does not erase.</text>
+
+<path d="M175 645 L175 770" class="line"/>
+<circle cx="175" cy="805" r="20" fill="#222"/>
+<rect x="245" y="725" width="850" height="195" class="event"/>
+<text x="285" y="780" class="h2">DAY 14 — INTERVIEW</text>
+<text x="285" y="830" class="body">Some details are missing.</text>
+<text x="285" y="875" class="small">Confidence is also mixed.</text>
+<text x="285" y="907" class="small">Many causes remain possible.</text>
+
+<path d="M175 920 L175 1045" class="line"/>
+<circle cx="175" cy="1080" r="20" fill="#34558b"/>
+<rect x="245" y="995" width="850" height="230" class="invest"/>
+<text x="285" y="1050" class="h2">INVESTIGATOR RESPONSE</text>
+<text x="285" y="1100" class="body">Record exact uncertainty.</text>
+<text x="285" y="1145" class="body">Compare earlier records.</text>
+<text x="285" y="1190" class="body">Seek independent evidence.</text>
+<text x="285" y="1220" class="small">Do not infer lying.</text>
+
+<path d="M175 1225 L175 1350" class="line"/>
+<circle cx="175" cy="1385" r="20" fill="#222"/>
+<rect x="245" y="1305" width="850" height="180" class="event"/>
+<text x="285" y="1360" class="h2">FINAL INTERPRETATION</text>
+<text x="285" y="1410" class="body">Memory remains evidence.</text>
+<text x="285" y="1455" class="small">Corroboration decides weight.</text>
+
+<text x="70" y="1545" class="small">Scenario illustrates uncertainty.</text>
+<text x="465" y="1545" class="small">It proves no suppression.</text>
+</svg>
