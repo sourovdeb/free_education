@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison</title>
+  <desc id="desc">A comparison between legal voluntariness questions and scientific reliability questions in memory distrust cases.</desc>
+  <defs>
+    <style>
+      .title{font:700 34px system-ui,sans-serif;fill:#111}
+      .sub{font:400 18px system-ui,sans-serif;fill:#444}
+      .head{font:700 26px system-ui,sans-serif;fill:#111}
+      .h{font:700 18px system-ui,sans-serif;fill:#111}
+      .t{font:400 16px system-ui,sans-serif;fill:#222}
+      .law{fill:#f1f3f6;stroke:#25344a;stroke-width:2}
+      .sci{fill:#f4f1f7;stroke:#49305d;stroke-width:2}
+      .mid{fill:#fff8e8;stroke:#735918;stroke-width:2}
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" fill="#fafafa"/>
+  <text x="60" y="62" class="title">LAW VERSUS SCIENCE</text>
+  <text x="60" y="94" class="sub">The same confession raises different questions.</text>
+
+  <rect x="55" y="145" width="500" height="430" rx="8" class="law"/>
+  <text x="305" y="190" text-anchor="middle" class="head">LEGAL FRAME</text>
+
+  <text x="95" y="238" class="h">Primary question</text>
+  <text x="95" y="266" class="t">Was the statement voluntary?</text>
+
+  <text x="95" y="316" class="h">Connelly rule</text>
+  <text x="95" y="344" class="t">Police coercion matters constitutionally.</text>
+  <text x="95" y="372" class="t">Mental state alone differs.</text>
+
+  <text x="95" y="422" class="h">Court concern</text>
+  <text x="95" y="450" class="t">Admissibility and due process.</text>
+
+  <text x="95" y="500" class="h">Possible blind spot</text>
+  <text x="95" y="528" class="t">Internal acceptance looks voluntary.</text>
+
+  <rect x="645" y="145" width="500" height="430" rx="8" class="sci"/>
+  <text x="895" y="190" text-anchor="middle" class="head">SCIENTIFIC FRAME</text>
+
+  <text x="685" y="238" class="h">Primary question</text>
+  <text x="685" y="266" class="t">How reliable is recall?</text>
+
+  <text x="685" y="316" class="h">Memory question</text>
+  <text x="685" y="344" class="t">Did confidence get challenged?</text>
+  <text x="685" y="372" class="t">Did outside cues enter?</text>
+
+  <text x="685" y="422" class="h">Research concern</text>
+  <text x="685" y="450" class="t">Reliability and contamination.</text>
+
+  <text x="685" y="500" class="h">Possible blind spot</text>
+  <text x="685" y="528" class="t">Lab tasks lack stakes.</text>
+
+  <rect x="330" y="620" width="540" height="120" rx="8" class="mid"/>
+  <text x="600" y="657" text-anchor="middle" class="h">THE CONFLICT</text>
+  <text x="600" y="687" text-anchor="middle" class="t">A confession can qualify.</text>
+  <text x="600" y="716" text-anchor="middle" class="t">Its reliability may worry.</text>
+
+  <line x1="555" y1="365" x2="645" y2="365" stroke="#555" stroke-width="2"/>
+  <circle cx="600" cy="365" r="8" fill="#555"/>
+  <text x="600" y="348" text-anchor="middle" class="t">same statement</text>
+</svg>
