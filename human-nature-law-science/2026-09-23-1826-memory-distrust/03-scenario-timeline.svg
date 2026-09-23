@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Memory distrust scenario timeline</title>
+  <desc id="desc">A hypothetical interview timeline showing how uncertain recall, repeated challenge, leaked details, and independent corroboration checks can change a suspect's account.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#222"/>
+    </marker>
+    <style>
+      .title{font:700 34px system-ui,sans-serif;fill:#111}
+      .sub{font:400 18px system-ui,sans-serif;fill:#444}
+      .h{font:700 18px system-ui,sans-serif;fill:#111}
+      .t{font:400 15px system-ui,sans-serif;fill:#222}
+      .small{font:400 13px system-ui,sans-serif;fill:#444}
+      .box{fill:#fff;stroke:#333;stroke-width:2}
+      .risk{fill:#f8eeee;stroke:#7b1e1e;stroke-width:2}
+      .safe{fill:#eef5ef;stroke:#2e5b35;stroke-width:2}
+      .line{stroke:#222;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" fill="#fafafa"/>
+  <text x="60" y="62" class="title">HYPOTHETICAL INTERVIEW TIMELINE</text>
+  <text x="60" y="94" class="sub">The point is source tracking.</text>
+
+  <line x1="95" y1="270" x2="1090" y2="270" class="line"/>
+
+  <circle cx="150" cy="270" r="15" fill="#333"/>
+  <rect x="70" y="135" width="220" height="105" rx="8" class="box"/>
+  <text x="180" y="168" text-anchor="middle" class="h">00:00</text>
+  <text x="180" y="198" text-anchor="middle" class="t">“I do not know.”</text>
+  <text x="180" y="224" text-anchor="middle" class="small">First account preserved.</text>
+
+  <circle cx="390" cy="270" r="15" fill="#7b1e1e"/>
+  <rect x="295" y="320" width="230" height="125" rx="8" class="risk"/>
+  <text x="410" y="353" text-anchor="middle" class="h">00:45</text>
+  <text x="410" y="382" text-anchor="middle" class="t">Memory gets challenged.</text>
+  <text x="410" y="408" text-anchor="middle" class="t">“You must remember.”</text>
+  <text x="410" y="432" text-anchor="middle" class="small">Confidence begins falling.</text>
+
+  <circle cx="650" cy="270" r="15" fill="#7b1e1e"/>
+  <rect x="535" y="120" width="250" height="120" rx="8" class="risk"/>
+  <text x="660" y="153" text-anchor="middle" class="h">01:30</text>
+  <text x="660" y="182" text-anchor="middle" class="t">Case detail appears.</text>
+  <text x="660" y="208" text-anchor="middle" class="t">The suspect repeats it.</text>
+  <text x="660" y="232" text-anchor="middle" class="small">Source now becomes unclear.</text>
+
+  <circle cx="900" cy="270" r="15" fill="#7b1e1e"/>
+  <rect x="805" y="320" width="235" height="125" rx="8" class="risk"/>
+  <text x="922" y="353" text-anchor="middle" class="h">02:10</text>
+  <text x="922" y="382" text-anchor="middle" class="t">A story forms.</text>
+  <text x="922" y="408" text-anchor="middle" class="t">“Maybe I did.”</text>
+  <text x="922" y="432" text-anchor="middle" class="small">Acceptance is possible.</text>
+
+  <rect x="80" y="545" width="455" height="165" rx="8" class="safe"/>
+  <text x="110" y="582" class="h">INVESTIGATIVE CHECK</text>
+  <text x="110" y="614" class="t">Which details came first?</text>
+  <text x="110" y="644" class="t">Which details came police?</text>
+  <text x="110" y="674" class="t">Which facts corroborate independently?</text>
+
+  <rect x="665" y="545" width="455" height="165" rx="8" class="box"/>
+  <text x="695" y="582" class="h">INTERPRETATION LIMIT</text>
+  <text x="695" y="614" class="t">Changing stories prove nothing.</text>
+  <text x="695" y="644" class="t">They require source analysis.</text>
+  <text x="695" y="674" class="t">Independent evidence remains decisive.</text>
+
+  <text x="60" y="765" class="small">Scenario is fictional. Mechanisms reflect cited research.</text>
+</svg>
