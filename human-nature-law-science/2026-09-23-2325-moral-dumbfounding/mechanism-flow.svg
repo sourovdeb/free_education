@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Moral dumbfounding mechanism flow</title>
+<desc id="desc">A flow diagram showing rapid judgment, reason search, challenges, and three possible outcomes: revision, explicit reason, or persistent judgment without a stated reason.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#222"/>
+  </marker>
+  <style>
+    .box{fill:#fff;stroke:#222;stroke-width:3;rx:18;ry:18}
+    .soft{fill:#f2f2f2;stroke:#222;stroke-width:3;rx:18;ry:18}
+    .line{stroke:#222;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    .dash{stroke:#555;stroke-width:3;fill:none;stroke-dasharray:10 8;marker-end:url(#arrow)}
+    .title{font:700 38px system-ui,sans-serif;fill:#111}
+    .head{font:700 26px system-ui,sans-serif;fill:#111}
+    .text{font:500 22px system-ui,sans-serif;fill:#222}
+    .small{font:500 18px system-ui,sans-serif;fill:#333}
+  </style>
+</defs>
+<rect width="1200" height="900" fill="#fafafa"/>
+<text x="60" y="70" class="title">Moral dumbfounding: one pathway</text>
+
+<rect x="70" y="130" width="250" height="120" class="box"/>
+<text x="195" y="180" text-anchor="middle" class="head">Scenario arrives</text>
+<text x="195" y="216" text-anchor="middle" class="text">Norm gets triggered</text>
+
+<rect x="475" y="130" width="250" height="120" class="soft"/>
+<text x="600" y="180" text-anchor="middle" class="head">Quick judgment</text>
+<text x="600" y="216" text-anchor="middle" class="text">“This is wrong”</text>
+
+<rect x="880" y="130" width="250" height="120" class="box"/>
+<text x="1005" y="180" text-anchor="middle" class="head">Reason search</text>
+<text x="1005" y="216" text-anchor="middle" class="text">Why is it wrong?</text>
+
+<path d="M320 190 H470" class="line"/>
+<path d="M725 190 H875" class="line"/>
+
+<rect x="475" y="330" width="250" height="120" class="box"/>
+<text x="600" y="380" text-anchor="middle" class="head">Reasons challenged</text>
+<text x="600" y="416" text-anchor="middle" class="text">Harm gets removed</text>
+<path d="M1005 250 V305 H600 V325" class="line"/>
+
+<rect x="80" y="565" width="280" height="140" class="box"/>
+<text x="220" y="618" text-anchor="middle" class="head">Outcome A</text>
+<text x="220" y="655" text-anchor="middle" class="text">Judgment changes</text>
+<text x="220" y="687" text-anchor="middle" class="small">Reasoning wins</text>
+
+<rect x="460" y="565" width="280" height="140" class="box"/>
+<text x="600" y="618" text-anchor="middle" class="head">Outcome B</text>
+<text x="600" y="655" text-anchor="middle" class="text">Reason becomes clear</text>
+<text x="600" y="687" text-anchor="middle" class="small">Principle stays explicit</text>
+
+<rect x="840" y="565" width="280" height="140" class="soft"/>
+<text x="980" y="618" text-anchor="middle" class="head">Outcome C</text>
+<text x="980" y="655" text-anchor="middle" class="text">Judgment stays fixed</text>
+<text x="980" y="687" text-anchor="middle" class="small">No reason survives</text>
+
+<path d="M540 450 C480 505 350 510 250 558" class="dash"/>
+<path d="M600 450 V558" class="dash"/>
+<path d="M660 450 C730 505 850 510 950 558" class="dash"/>
+
+<rect x="155" y="775" width="890" height="72" class="soft"/>
+<text x="600" y="807" text-anchor="middle" class="head">Only Outcome C fits</text>
+<text x="600" y="835" text-anchor="middle" class="small">Even then, causes differ</text>
+</svg>
