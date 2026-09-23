@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete envy scenario map</title>
+  <desc id="desc">A workplace promotion scenario showing two different responses to upward comparison and how investigators should separate observed facts from inferred motives.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+    </marker>
+    <style>
+      .title{font:700 44px Arial,sans-serif;fill:#111}
+      .head{font:700 29px Arial,sans-serif;fill:#111}
+      .body{font:400 22px Arial,sans-serif;fill:#222}
+      .small{font:400 19px Arial,sans-serif;fill:#333}
+      .box{fill:#fff;stroke:#111;stroke-width:3;rx:10}
+      .soft{fill:#f3f3f3;stroke:#111;stroke-width:2;rx:10}
+      .arrow{stroke:#111;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect width="1200" height="1600" fill="#fafafa"/>
+  <text x="70" y="85" class="title">ONE PROMOTION, TWO PATHS</text>
+  <text x="70" y="125" class="small">Same comparison. Different conduct.</text>
+
+  <rect x="250" y="185" width="700" height="120" class="box"/>
+  <text x="600" y="235" text-anchor="middle" class="head">MONDAY: PROMOTION ANNOUNCED</text>
+  <text x="600" y="275" text-anchor="middle" class="body">Coworker C advances.</text>
+
+  <path d="M470 305 C430 365 330 385 305 440" class="arrow"/>
+  <path d="M730 305 C770 365 870 385 895 440" class="arrow"/>
+
+  <rect x="90" y="440" width="430" height="360" class="box"/>
+  <text x="305" y="495" text-anchor="middle" class="head">COWORKER A</text>
+  <text x="305" y="545" text-anchor="middle" class="body">Feels behind.</text>
+  <text x="305" y="585" text-anchor="middle" class="body">Asks for feedback.</text>
+  <text x="305" y="625" text-anchor="middle" class="body">Takes new training.</text>
+  <text x="305" y="665" text-anchor="middle" class="body">Improves applications.</text>
+  <text x="305" y="725" text-anchor="middle" class="small">Observed conduct:</text>
+  <text x="305" y="760" text-anchor="middle" class="small">self-directed effort</text>
+
+  <rect x="680" y="440" width="430" height="360" class="box"/>
+  <text x="895" y="495" text-anchor="middle" class="head">COWORKER B</text>
+  <text x="895" y="545" text-anchor="middle" class="body">Feels behind.</text>
+  <text x="895" y="585" text-anchor="middle" class="body">Withholds one update.</text>
+  <text x="895" y="625" text-anchor="middle" class="body">Questions C publicly.</text>
+  <text x="895" y="665" text-anchor="middle" class="body">Delays one handoff.</text>
+  <text x="895" y="725" text-anchor="middle" class="small">Observed conduct:</text>
+  <text x="895" y="760" text-anchor="middle" class="small">possible undermining</text>
+
+  <path d="M305 800 L305 890" class="arrow"/>
+  <path d="M895 800 L895 890" class="arrow"/>
+
+  <rect x="90" y="890" width="430" height="210" class="soft"/>
+  <text x="305" y="945" text-anchor="middle" class="head">INFERENCE</text>
+  <text x="305" y="995" text-anchor="middle" class="body">Envy is possible.</text>
+  <text x="305" y="1035" text-anchor="middle" class="body">Admiration is possible.</text>
+  <text x="305" y="1075" text-anchor="middle" class="small">Emotion stays uncertain.</text>
+
+  <rect x="680" y="890" width="430" height="210" class="soft"/>
+  <text x="895" y="945" text-anchor="middle" class="head">INFERENCE</text>
+  <text x="895" y="995" text-anchor="middle" class="body">Envy is possible.</text>
+  <text x="895" y="1035" text-anchor="middle" class="body">Anger is possible.</text>
+  <text x="895" y="1075" text-anchor="middle" class="small">Motive stays uncertain.</text>
+
+  <rect x="180" y="1170" width="840" height="300" class="box"/>
+  <text x="600" y="1225" text-anchor="middle" class="head">INVESTIGATIVE CHECK</text>
+  <text x="250" y="1280" class="body">1. Verify timelines.</text>
+  <text x="250" y="1325" class="body">2. Preserve messages.</text>
+  <text x="250" y="1370" class="body">3. Test alternatives.</text>
+  <text x="650" y="1280" class="body">4. Seek corroboration.</text>
+  <text x="650" y="1325" class="body">5. Separate motive.</text>
+  <text x="650" y="1370" class="body">6. Avoid tunnel vision.</text>
+  <text x="600" y="1430" text-anchor="middle" class="small">The promotion proves nothing.</text>
+
+  <text x="70" y="1535" class="small">Observed behavior outranks motive stories.</text>
+</svg>
