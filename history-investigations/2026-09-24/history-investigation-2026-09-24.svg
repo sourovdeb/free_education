@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence timeline and two status pathways</title>
+  <desc id="desc">A timeline links Tuskegee, Bengal, Suez, King surveillance, and Chernobyl. Three boxes separate records, interpretation, and uncertainty. Two lower paths compare dominance through coercion with prestige through skill and freely given respect.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 Z" fill="#12445a"/></marker></defs>
+  <style>text{font-family:Arial,sans-serif;fill:#10232d}.title{font-size:28px;font-weight:700}.label{font-size:20px;font-weight:700}.small{font-size:17px}.date{font-size:19px;font-weight:700}.line{stroke:#12445a;stroke-width:4}.arrow{stroke:#12445a;stroke-width:4;fill:none;marker-end:url(#arrow)}.box{stroke:#10232d;stroke-width:2;fill:#fff}.record{fill:#dff0f6}.interpret{fill:#fff0bd}.uncertain{fill:#f2dadd}.dominance{fill:#f3dddd}.prestige{fill:#dff0e3}</style>
+  <rect width="1200" height="800" fill="#fffdf7"/>
+  <text x="55" y="52" class="title">History Investigation — evidence before motive</text>
+  <text x="55" y="82" class="small">24 September 2026</text>
+  <line x1="90" y1="160" x2="1110" y2="160" class="line"/>
+  <g><circle cx="140" cy="160" r="11" fill="#12445a"/><text x="99" y="128" class="date">1932–72</text><text x="89" y="200" class="small">Tuskegee</text></g>
+  <g><circle cx="355" cy="160" r="11" fill="#12445a"/><text x="330" y="128" class="date">1943</text><text x="305" y="200" class="small">Bengal</text></g>
+  <g><circle cx="575" cy="160" r="11" fill="#12445a"/><text x="550" y="128" class="date">1956</text><text x="530" y="200" class="small">Suez</text></g>
+  <g><circle cx="795" cy="160" r="11" fill="#12445a"/><text x="770" y="128" class="date">1964</text><text x="708" y="200" class="small">King campaign</text></g>
+  <g><circle cx="1015" cy="160" r="11" fill="#12445a"/><text x="990" y="128" class="date">1986</text><text x="970" y="200" class="small">Chernobyl</text></g>
+  <rect x="55" y="255" width="330" height="95" class="box record"/><text x="78" y="290" class="label">1. Documented record</text><text x="78" y="320" class="small">Files, reports, dates, actions.</text>
+  <rect x="435" y="255" width="330" height="95" class="box interpret"/><text x="458" y="290" class="label">2. Interpretation</text><text x="458" y="320" class="small">Incentives and causal weight.</text>
+  <rect x="815" y="255" width="330" height="95" class="box uncertain"/><text x="838" y="290" class="label">3. Uncertainty</text><text x="838" y="320" class="small">Limits and counterevidence.</text>
+  <path d="M385 302 L430 302 M765 302 L810 302" class="arrow"/>
+  <text x="55" y="430" class="title">Primitive Echo: two status pathways</text>
+  <rect x="55" y="480" width="245" height="100" class="box dominance"/><text x="80" y="520" class="label">Dominance</text><text x="80" y="550" class="small">threats • control • leverage</text>
+  <rect x="420" y="480" width="245" height="100" class="box"/><text x="445" y="520" class="label">Compelled deference</text><text x="445" y="550" class="small">access follows pressure</text>
+  <path d="M300 530 L415 530" class="arrow"/>
+  <rect x="55" y="625" width="245" height="100" class="box prestige"/><text x="80" y="665" class="label">Prestige</text><text x="80" y="695" class="small">skill • knowledge • generosity</text>
+  <rect x="420" y="625" width="245" height="100" class="box"/><text x="445" y="665" class="label">Conferred respect</text><text x="445" y="695" class="small">access follows value</text>
+  <path d="M300 675 L415 675" class="arrow"/>
+  <rect x="760" y="500" width="385" height="205" class="box uncertain"/>
+  <text x="785" y="540" class="label">Inference boundary</text>
+  <text x="785" y="580" class="small">Status models explain patterns.</text>
+  <text x="785" y="612" class="small">They do not prove motives.</text>
+  <text x="785" y="644" class="small">Culture changes each pathway.</text>
+  <text x="785" y="676" class="small">Neither pathway excuses harm.</text>
+  <text x="55" y="770" class="small">Original SVG. Text and geometry only.</text>
+</svg>
