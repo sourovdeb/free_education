@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Source Notebook optional activities</title>
+<link rel="stylesheet" href="activities.css">
+<main>
+<a class="skip" href="#word-builder">Skip to activities</a>
+<header><p>OPTIONAL / SELF-PACED</p><h1>Small activities</h1><p>Use, pause, change, or leave. Nothing is timed or scored.</p></header>
+<section class="settings" aria-label="Activity settings">
+  <label>Text size <input id="font" type="range" min="100" max="150" value="100"></label>
+  <label><input id="contrast" type="checkbox"> High contrast</label>
+  <label><input id="motion" type="checkbox"> Reduce motion</label>
+  <label>Pace <select id="pace"><option value="900">Calm</option><option value="550">Steady</option><option value="0">Instant</option></select></label>
+  <label><input id="sound" type="checkbox"> Allow sound</label>
+</section>
+<section id="word-builder"><h2>Calm word builder</h2><p>Put the words into a sentence. Use Hint or Reset whenever wanted.</p><p id="words" class="tokens" aria-live="polite"></p><button id="word-hint">Hint</button> <button id="word-reset">Reset</button><p id="word-note" aria-live="polite"></p></section>
+<section id="memory-pairs"><h2>Memory pairs</h2><p>Choose two cards. Use Hint to show a matching pair.</p><div id="cards" class="cards" aria-live="polite"></div><button id="card-hint">Hint</button> <button id="card-reset">Reset</button><p id="card-note" aria-live="polite"></p></section>
+<section id="pattern-path"><h2>Pattern path</h2><p>Choose the next mark. There is no penalty.</p><div id="pattern" class="pattern" aria-live="polite"></div><button id="pattern-hint">Hint</button> <button id="pattern-reset">Reset</button><p id="pattern-note" aria-live="polite"></p></section>
+<footer><p>Sound starts off. These optional activities do not diagnose, treat, or prevent any condition.</p></footer>
+</main>
+<script src="activities.js"></script>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A portable writing surface for writers, source notes, and large-type reading.">
+  <title>Source Notebook</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-profile="source">
+<a class="skip-link" href="#main">Skip to writing</a>
+<header class="site-header">
+  <div><p class="eyebrow">SOURCE NOTEBOOK / OPEN FILE</p><h1>Keep evidence beside ideas.</h1></div>
+  <button id="settings-toggle" aria-expanded="false" aria-controls="settings">Notebook settings</button>
+</header>
+<aside id="settings" hidden>
+  <fieldset><legend>Profile</legend><button data-profile="writer">Writer</button><button data-profile="source">Source Notes</button><button data-profile="large">Large Type</button></fieldset>
+  <label>Text size <input id="font-scale" type="range" min="100" max="150" value="100"></label>
+  <label>Line spacing <input id="line-scale" type="range" min="140" max="210" value="172"></label>
+  <label><input id="contrast" type="checkbox"> High contrast</label>
+  <label><input id="motion" type="checkbox"> Reduce motion</label>
+</aside>
+<main id="main">
+  <article class="opening note">
+    <p class="eyebrow">FILE 00 / START HERE</p>
+    <h2>A notebook for claims.</h2>
+    <p>Write the idea. Place evidence nearby. Mark uncertainty. Replace these samples inside index.html.</p>
+  </article>
+  <section aria-labelledby="recent-heading">
+    <p class="eyebrow">INDEX / RECENT NOTES</p><h2 id="recent-heading">Research without clutter.</h2>
+    <article class="note"><div class="note-meta"><span>NOTE 01</span><span>STATUS: OPEN</span></div><h3>Claim before conclusion</h3><p>State the claim. Then list what would change your mind.</p><a href="#">Open sample note</a></article>
+    <article class="note"><div class="note-meta"><span>NOTE 02</span><span>STATUS: SOURCED</span></div><h3>Evidence beside context</h3><p>Keep links, dates, and limits near each claim.</p><a href="#">Open sample note</a></article>
+    <article class="note"><div class="note-meta"><span>NOTE 03</span><span>STATUS: NEXT</span></div><h3>Leave a continuation mark</h3><p>End each session with one next action.</p><a href="#">Open sample note</a></article>
+  </section>
+  <section id="optional-tools" hidden aria-labelledby="tools-heading">
+    <p class="eyebrow">OPTIONAL TOOLS</p><h2 id="tools-heading">Use only if wanted.</h2>
+    <p><a id="banner-link" href="tools/banner-maker/index.html">Open banner maker</a></p>
+    <p><a id="activities-link" href="activities/index.html">Open self-paced activities</a></p>
+  </section>
+</main>
+<footer><p>Source Notebook is portable, local, and tracker-free.</p><a href="USER-MANUAL.md">User manual</a> <a href="ACCESSIBILITY.md">Accessibility notes</a></footer>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
