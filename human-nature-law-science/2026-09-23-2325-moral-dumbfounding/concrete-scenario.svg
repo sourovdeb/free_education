@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Concrete investigation scenario</title>
+<desc id="desc">A timeline showing how an early negative impression can narrow a homicide investigation, then how independent review can reopen alternatives.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#222"/>
+  </marker>
+  <style>
+    .box{fill:#fff;stroke:#222;stroke-width:3;rx:16;ry:16}
+    .soft{fill:#f2f2f2;stroke:#222;stroke-width:3;rx:16;ry:16}
+    .title{font:700 38px system-ui,sans-serif;fill:#111}
+    .head{font:700 24px system-ui,sans-serif;fill:#111}
+    .text{font:500 20px system-ui,sans-serif;fill:#222}
+    .small{font:500 17px system-ui,sans-serif;fill:#333}
+    .line{stroke:#222;stroke-width:4;fill:none;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect width="1200" height="900" fill="#fafafa"/>
+<text x="60" y="70" class="title">Scenario: suspicion needs testing</text>
+
+<rect x="65" y="155" width="200" height="150" class="box"/>
+<text x="165" y="205" text-anchor="middle" class="head">1. File arrives</text>
+<text x="165" y="245" text-anchor="middle" class="text">Past conduct</text>
+<text x="165" y="275" text-anchor="middle" class="small">Feels troubling</text>
+
+<rect x="330" y="155" width="200" height="150" class="soft"/>
+<text x="430" y="205" text-anchor="middle" class="head">2. Hunch forms</text>
+<text x="430" y="245" text-anchor="middle" class="text">“Likely suspect”</text>
+<text x="430" y="275" text-anchor="middle" class="small">Not evidence</text>
+
+<rect x="595" y="155" width="200" height="150" class="box"/>
+<text x="695" y="205" text-anchor="middle" class="head">3. Reasons grow</text>
+<text x="695" y="245" text-anchor="middle" class="text">Ambiguous facts</text>
+<text x="695" y="275" text-anchor="middle" class="small">Gain extra weight</text>
+
+<rect x="860" y="155" width="270" height="150" class="soft"/>
+<text x="995" y="205" text-anchor="middle" class="head">4. Theory narrows</text>
+<text x="995" y="245" text-anchor="middle" class="text">Alternatives shrink</text>
+<text x="995" y="275" text-anchor="middle" class="small">Confidence rises</text>
+
+<path d="M265 230 H325" class="line"/>
+<path d="M530 230 H590" class="line"/>
+<path d="M795 230 H855" class="line"/>
+
+<rect x="280" y="410" width="640" height="120" class="box"/>
+<text x="600" y="455" text-anchor="middle" class="head">Independent review</text>
+<text x="600" y="492" text-anchor="middle" class="text">Reduce context. Test alternatives.</text>
+<path d="M995 305 V360 H600 V402" class="line"/>
+
+<rect x="75" y="650" width="300" height="140" class="box"/>
+<text x="225" y="703" text-anchor="middle" class="head">Alternative survives</text>
+<text x="225" y="742" text-anchor="middle" class="text">Reopen leads</text>
+<text x="225" y="772" text-anchor="middle" class="small">Original hunch weakens</text>
+
+<rect x="450" y="650" width="300" height="140" class="soft"/>
+<text x="600" y="703" text-anchor="middle" class="head">Evidence survives</text>
+<text x="600" y="742" text-anchor="middle" class="text">Theory stays</text>
+<text x="600" y="772" text-anchor="middle" class="small">Now independently tested</text>
+
+<rect x="825" y="650" width="300" height="140" class="box"/>
+<text x="975" y="703" text-anchor="middle" class="head">Confidence falls</text>
+<text x="975" y="742" text-anchor="middle" class="text">Search broadens</text>
+<text x="975" y="772" text-anchor="middle" class="small">Error risk decreases</text>
+
+<path d="M520 530 C440 590 350 600 250 642" class="line"/>
+<path d="M600 530 V642" class="line"/>
+<path d="M680 530 C760 590 850 600 950 642" class="line"/>
+
+<text x="600" y="855" text-anchor="middle" class="small">Safeguard: test reasons, not feelings.</text>
+</svg>
