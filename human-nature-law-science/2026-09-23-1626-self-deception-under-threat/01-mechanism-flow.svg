@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+    </marker>
+    <style>
+      .title{font:700 34px Arial,sans-serif;fill:#111}
+      .sub{font:400 18px Arial,sans-serif;fill:#444}
+      .box{fill:#fff;stroke:#111;stroke-width:2}
+      .soft{fill:#f4f4f4;stroke:#111;stroke-width:2}
+      .label{font:700 20px Arial,sans-serif;fill:#111}
+      .text{font:400 17px Arial,sans-serif;fill:#222}
+      .small{font:400 15px Arial,sans-serif;fill:#444}
+      .line{stroke:#111;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+      .dash{stroke:#555;stroke-width:2;stroke-dasharray:8 7;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <text x="60" y="60" class="title">Self-deception under threat</text>
+  <text x="60" y="92" class="sub">Mechanism flow. Bias is possible, not inevitable.</text>
+
+  <rect x="60" y="150" rx="6" ry="6" width="210" height="120" class="box"/>
+  <text x="85" y="185" class="label">Identity claim</text>
+  <text x="85" y="220" class="text">“I am competent.”</text>
+  <text x="85" y="245" class="text">“I am fair.”</text>
+
+  <rect x="330" y="150" rx="6" ry="6" width="210" height="120" class="box"/>
+  <text x="355" y="185" class="label">Threat arrives</text>
+  <text x="355" y="220" class="text">Evidence conflicts.</text>
+  <text x="355" y="245" class="text">Status feels at risk.</text>
+
+  <rect x="600" y="115" rx="6" ry="6" width="250" height="190" class="soft"/>
+  <text x="625" y="150" class="label">Defensive processing</text>
+  <text x="625" y="185" class="text">More hostile scrutiny.</text>
+  <text x="625" y="215" class="text">Friendly evidence passes.</text>
+  <text x="625" y="245" class="text">Excuses appear faster.</text>
+  <text x="625" y="275" class="text">Standards may shift.</text>
+
+  <rect x="910" y="150" rx="6" ry="6" width="220" height="120" class="box"/>
+  <text x="935" y="185" class="label">Protected story</text>
+  <text x="935" y="220" class="text">Belief feels sincere.</text>
+  <text x="935" y="245" class="text">Correction slows.</text>
+
+  <path d="M270 210 L330 210" class="line"/>
+  <path d="M540 210 L600 210" class="line"/>
+  <path d="M850 210 L910 210" class="line"/>
+
+  <rect x="330" y="430" rx="6" ry="6" width="270" height="150" class="box"/>
+  <text x="355" y="468" class="label">Interrupting route</text>
+  <text x="355" y="505" class="text">Affirm another value.</text>
+  <text x="355" y="535" class="text">Reduce identity threat.</text>
+  <text x="355" y="565" class="text">Reopen evidence review.</text>
+
+  <rect x="690" y="430" rx="6" ry="6" width="300" height="150" class="box"/>
+  <text x="715" y="468" class="label">Better procedure</text>
+  <text x="715" y="505" class="text">Use rival hypotheses.</text>
+  <text x="715" y="535" class="text">Separate person from claim.</text>
+  <text x="715" y="565" class="text">Reward correction.</text>
+
+  <path d="M435 270 L435 430" class="dash"/>
+  <path d="M600 505 L690 505" class="line"/>
+  <path d="M840 430 L840 330 L1010 330 L1010 270" class="dash"/>
+
+  <line x1="60" y1="650" x2="1130" y2="650" stroke="#bbb" stroke-width="1"/>
+  <text x="60" y="690" class="small">Evidence base: motivated reasoning, self-serving bias, self-affirmation.</text>
+  <text x="60" y="720" class="small">No arrow proves unconscious lying. The diagram shows a tested risk pathway.</text>
+</svg>
