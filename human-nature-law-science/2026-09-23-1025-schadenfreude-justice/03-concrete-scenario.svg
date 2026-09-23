@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete scenario</title>
+  <desc id="desc">A fictional investigation timeline showing where status, dislike, deservingness, and pleasure can leak into judgment.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#111"/></marker>
+    <style>
+      .bg{fill:#f7f7f5}.box{fill:#fff;stroke:#111;stroke-width:3}.risk{fill:#fff2e8;stroke:#111;stroke-width:3}.safe{fill:#eef8ef;stroke:#111;stroke-width:3}.t{font-family:Arial,sans-serif;fill:#111}.h1{font-size:48px;font-weight:700}.h2{font-size:27px;font-weight:700}.p{font-size:21px}.small{font-size:17px}.line{stroke:#111;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="t h1" x="70" y="75">Concrete scenario</text>
+  <text class="t p" x="70" y="115">Fictional financial-crime investigation.</text>
+
+  <line x1="130" y1="300" x2="1460" y2="300" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <circle cx="180" cy="300" r="18" fill="#111"/>
+  <rect class="box" x="80" y="165" rx="12" width="250" height="105"/>
+  <text class="t h2" x="105" y="205">1. Allegation</text>
+  <text class="t p" x="105" y="245">Director faces fraud claim.</text>
+
+  <circle cx="475" cy="300" r="18" fill="#111"/>
+  <rect class="risk" x="355" y="335" rx="12" width="265" height="135"/>
+  <text class="t h2" x="380" y="375">2. Status cue</text>
+  <text class="t p" x="380" y="415">Target seems privileged.</text>
+  <text class="t p" x="380" y="450">Dislike can rise.</text>
+
+  <circle cx="785" cy="300" r="18" fill="#111"/>
+  <rect class="box" x="655" y="165" rx="12" width="275" height="105"/>
+  <text class="t h2" x="680" y="205">3. Evidence</text>
+  <text class="t p" x="680" y="245">Records remain mixed.</text>
+
+  <circle cx="1090" cy="300" r="18" fill="#111"/>
+  <rect class="risk" x="965" y="335" rx="12" width="280" height="150"/>
+  <text class="t h2" x="990" y="375">4. Public reaction</text>
+  <text class="t p" x="990" y="415">“Finally, consequences.”</text>
+  <text class="t p" x="990" y="450">Pleasure can appear.</text>
+
+  <circle cx="1390" cy="300" r="18" fill="#111"/>
+  <rect class="box" x="1260" y="165" rx="12" width="270" height="105"/>
+  <text class="t h2" x="1285" y="205">5. Decision</text>
+  <text class="t p" x="1285" y="245">Evidence must decide.</text>
+
+  <rect class="safe" x="130" y="585" rx="16" width="1340" height="230"/>
+  <text class="t h2" x="170" y="635">Safeguard path</text>
+  <text class="t p" x="170" y="685">Record rival hypotheses.</text>
+  <text class="t p" x="480" y="685">Separate publicity.</text>
+  <text class="t p" x="750" y="685">Review contrary evidence.</text>
+  <text class="t p" x="1080" y="685">Explain final reasons.</text>
+  <text class="t p" x="170" y="755">Goal: interrupt emotional feedback.</text>
+
+  <path class="line" d="M1090 500 C1090 545 925 545 925 575"/>
+  <text class="t small" x="1030" y="535">Leakage risk</text>
+
+  <text class="t small" x="70" y="905">Important: this scenario proves nothing.</text>
+  <text class="t small" x="70" y="940">It shows a testable risk.</text>
+  <text class="t small" x="900" y="940">NIJ: tunnel vision can compound errors.</text>
+</svg>
