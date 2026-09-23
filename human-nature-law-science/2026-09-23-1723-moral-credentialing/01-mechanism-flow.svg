@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Moral credentialing mechanism flow</title>
+  <desc id="desc">Flow from visible virtue through reputation credit toward reduced scrutiny and possible later latitude.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#222"/>
+    </marker>
+    <style>
+      .box{fill:#fff;stroke:#222;stroke-width:3;rx:18}
+      .t{font:700 28px system-ui,sans-serif;fill:#111}
+      .s{font:500 22px system-ui,sans-serif;fill:#222}
+      .a{stroke:#222;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .note{fill:#f4f4f4;stroke:#555;stroke-width:2;rx:14}
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="#fafafa"/>
+  <text x="60" y="70" class="t">Moral credentialing flow</text>
+  <rect x="80" y="140" width="240" height="120" class="box"/>
+  <text x="200" y="188" text-anchor="middle" class="t">Visible virtue</text>
+  <text x="200" y="226" text-anchor="middle" class="s">Others observe goodness</text>
+
+  <rect x="480" y="140" width="240" height="120" class="box"/>
+  <text x="600" y="188" text-anchor="middle" class="t">Reputation credit</text>
+  <text x="600" y="226" text-anchor="middle" class="s">Trust rises</text>
+
+  <rect x="880" y="140" width="240" height="120" class="box"/>
+  <text x="1000" y="188" text-anchor="middle" class="t">Lower social risk</text>
+  <text x="1000" y="226" text-anchor="middle" class="s">Scrutiny can weaken</text>
+
+  <path d="M320 200 H470" class="a"/>
+  <path d="M720 200 H870" class="a"/>
+
+  <rect x="280" y="390" width="260" height="120" class="box"/>
+  <text x="410" y="438" text-anchor="middle" class="t">Ambiguous choice</text>
+  <text x="410" y="476" text-anchor="middle" class="s">Motives stay unclear</text>
+
+  <rect x="660" y="390" width="260" height="120" class="box"/>
+  <text x="790" y="438" text-anchor="middle" class="t">Possible latitude</text>
+  <text x="790" y="476" text-anchor="middle" class="s">Questionable choice feels safer</text>
+
+  <path d="M1000 260 V330 H410 V380" class="a"/>
+  <path d="M540 450 H650" class="a"/>
+
+  <rect x="160" y="610" width="880" height="110" class="note"/>
+  <text x="600" y="653" text-anchor="middle" class="t">Important limit</text>
+  <text x="600" y="695" text-anchor="middle" class="s">Observation matters most</text>
+</svg>
