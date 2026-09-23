@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Bystander diffusion mechanism flow</title>
+<desc id="desc">Flow diagram showing how noticing an emergency can lead through interpretation, responsibility, action knowledge, and intervention, while other bystanders can reduce personal responsibility or provide useful support.</desc>
+<rect width="1200" height="1600" fill="#f7f7f3"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#111">
+<text x="70" y="95" font-size="54" font-weight="700">PAGE 3 — RESPONSIBILITY THINS</text>
+<text x="70" y="145" font-size="28">The mechanism has checkpoints.</text>
+
+<rect x="120" y="230" width="960" height="150" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+<text x="170" y="295" font-size="38" font-weight="700">1. NOTICE</text>
+<text x="170" y="345" font-size="28">Something seems wrong.</text>
+
+<line x1="600" y1="380" x2="600" y2="455" stroke="#111" stroke-width="6"/>
+<polygon points="600,485 580,445 620,445" fill="#111"/>
+
+<rect x="120" y="500" width="960" height="150" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+<text x="170" y="565" font-size="38" font-weight="700">2. INTERPRET</text>
+<text x="170" y="615" font-size="28">Is this an emergency?</text>
+
+<rect x="760" y="690" width="320" height="140" rx="18" fill="#ecece5" stroke="#111" stroke-width="3"/>
+<text x="800" y="750" font-size="30" font-weight="700">OTHER PEOPLE</text>
+<text x="800" y="795" font-size="25">Faces become cues.</text>
+
+<line x1="920" y1="690" x2="920" y2="650" stroke="#111" stroke-width="4"/>
+<polygon points="920,630 905,660 935,660" fill="#111"/>
+
+<line x1="600" y1="650" x2="600" y2="735" stroke="#111" stroke-width="6"/>
+<polygon points="600,765 580,725 620,725" fill="#111"/>
+
+<rect x="120" y="780" width="560" height="170" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+<text x="170" y="845" font-size="38" font-weight="700">3. OWN RESPONSIBILITY</text>
+<text x="170" y="895" font-size="28">“Someone should act.”</text>
+<text x="170" y="930" font-size="28">“Maybe not me.”</text>
+
+<line x1="400" y1="950" x2="400" y2="1030" stroke="#111" stroke-width="6"/>
+<polygon points="400,1060 380,1020 420,1020" fill="#111"/>
+
+<rect x="120" y="1075" width="560" height="150" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+<text x="170" y="1140" font-size="38" font-weight="700">4. KNOW WHAT WORKS</text>
+<text x="170" y="1190" font-size="28">Call. Warn. Seek help.</text>
+
+<line x1="400" y1="1225" x2="400" y2="1305" stroke="#111" stroke-width="6"/>
+<polygon points="400,1335 380,1295 420,1295" fill="#111"/>
+
+<rect x="120" y="1350" width="560" height="150" rx="18" fill="#ecece5" stroke="#111" stroke-width="4"/>
+<text x="170" y="1415" font-size="38" font-weight="700">5. ACT</text>
+<text x="170" y="1465" font-size="28">Helping finally occurs.</text>
+
+<rect x="750" y="1000" width="330" height="360" rx="18" fill="#fff" stroke="#111" stroke-width="4"/>
+<text x="790" y="1060" font-size="32" font-weight="700">GROUP EFFECTS</text>
+<text x="790" y="1120" font-size="27">Can inhibit action.</text>
+<text x="790" y="1170" font-size="27">Can clarify danger.</text>
+<text x="790" y="1220" font-size="27">Can add support.</text>
+<text x="790" y="1270" font-size="27">Can spread duty.</text>
+<text x="790" y="1320" font-size="27">Context changes outcomes.</text>
+
+<text x="70" y="1560" font-size="25">Evidence: Fischer et al., 2011; Philpot et al., 2020.</text>
+</g>
+</svg>
