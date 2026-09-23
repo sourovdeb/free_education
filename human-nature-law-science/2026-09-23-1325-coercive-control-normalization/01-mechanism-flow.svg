@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Coercive-control normalization mechanism</title>
+  <desc id="desc">A vertical flow diagram showing how small restrictions can accumulate into reduced autonomy and entrapment.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#202124"/>
+    </marker>
+    <style>
+      .bg{fill:#f7f7f5}.ink{fill:#202124}.muted{fill:#5f6368}.box{fill:#ffffff;stroke:#202124;stroke-width:2}.accent{fill:#eceff1;stroke:#202124;stroke-width:2}.warn{fill:#fff4e5;stroke:#202124;stroke-width:2}.line{stroke:#202124;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .h1{font:700 44px Arial,sans-serif}.h2{font:700 28px Arial,sans-serif}.body{font:24px Arial,sans-serif}.small{font:20px Arial,sans-serif}.tiny{font:18px Arial,sans-serif}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="1600"/>
+  <text class="ink h1" x="70" y="80">PAGE 3 — MECHANISM FLOW</text>
+  <text class="muted body" x="70" y="125">Coercive-control normalization</text>
+  <text class="ink h2" x="70" y="190">Many small acts.</text>
+  <text class="ink h2" x="70" y="228">One shrinking life.</text>
+
+  <rect class="box" x="160" y="280" rx="18" width="880" height="120"/>
+  <text class="ink h2" x="600" y="330" text-anchor="middle">1. Small restriction</text>
+  <text class="muted body" x="600" y="370" text-anchor="middle">“Just tell me first.”</text>
+
+  <path class="line" d="M600 400 L600 465"/>
+
+  <rect class="box" x="160" y="470" rx="18" width="880" height="120"/>
+  <text class="ink h2" x="600" y="520" text-anchor="middle">2. Conflict falls</text>
+  <text class="muted body" x="600" y="560" text-anchor="middle">Compliance brings short relief.</text>
+
+  <path class="line" d="M600 590 L600 655"/>
+
+  <rect class="accent" x="160" y="660" rx="18" width="880" height="120"/>
+  <text class="ink h2" x="600" y="710" text-anchor="middle">3. Monitoring expands</text>
+  <text class="muted body" x="600" y="750" text-anchor="middle">Phone, money, contacts, movement.</text>
+
+  <path class="line" d="M600 780 L600 845"/>
+
+  <rect class="accent" x="160" y="850" rx="18" width="880" height="120"/>
+  <text class="ink h2" x="600" y="900" text-anchor="middle">4. Outside contact shrinks</text>
+  <text class="muted body" x="600" y="940" text-anchor="middle">Comparison points disappear.</text>
+
+  <path class="line" d="M600 970 L600 1035"/>
+
+  <rect class="warn" x="160" y="1040" rx="18" width="880" height="120"/>
+  <text class="ink h2" x="600" y="1090" text-anchor="middle">5. Exit costs rise</text>
+  <text class="muted body" x="600" y="1130" text-anchor="middle">Money, housing, safety, fear.</text>
+
+  <path class="line" d="M600 1160 L600 1225"/>
+
+  <rect class="warn" x="160" y="1230" rx="18" width="880" height="120"/>
+  <text class="ink h2" x="600" y="1280" text-anchor="middle">6. Self-censorship grows</text>
+  <text class="muted body" x="600" y="1320" text-anchor="middle">Choices narrow before commands.</text>
+
+  <path class="line" d="M600 1350 L600 1415"/>
+
+  <rect class="box" x="160" y="1420" rx="18" width="880" height="110"/>
+  <text class="ink h2" x="600" y="1468" text-anchor="middle">Result: constrained autonomy</text>
+  <text class="muted body" x="600" y="1508" text-anchor="middle">Pattern matters more.</text>
+
+  <text class="muted tiny" x="70" y="1570">Evidence base: Dutton &amp; Goodman; Lohmann et al.; Myhill.</text>
+</svg>
