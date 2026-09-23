@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison</title>
+  <desc id="desc">Three panels compare scientific, legal, and moral questions about authority and responsibility.</desc>
+  <defs>
+    <style>
+      .panel{fill:#fafafa;stroke:#222;stroke-width:2;rx:14;ry:14}
+      .band{fill:#ececec;stroke:#222;stroke-width:2;rx:12;ry:12}
+      .title{font:700 34px Arial,sans-serif;fill:#111}
+      .head{font:700 23px Arial,sans-serif;fill:#111}
+      .text{font:18px Arial,sans-serif;fill:#222}
+      .small{font:16px Arial,sans-serif;fill:#333}
+      .rule{stroke:#444;stroke-width:2}
+    </style>
+  </defs>
+
+  <text x="60" y="60" class="title">Authority Outsourcing: Law Versus Science</text>
+
+  <rect x="60" y="110" width="330" height="500" class="panel"/>
+  <text x="225" y="155" text-anchor="middle" class="head">SCIENCE</text>
+  <line x1="95" y1="180" x2="355" y2="180" class="rule"/>
+  <text x="95" y="225" class="text">What felt voluntary?</text>
+  <text x="95" y="270" class="text">Did agency shrink?</text>
+  <text x="95" y="315" class="text">Did coercion matter?</text>
+  <text x="95" y="360" class="text">Did identity matter?</text>
+  <text x="95" y="405" class="text">What changed behavior?</text>
+  <text x="95" y="470" class="small">Finding:</text>
+  <text x="95" y="500" class="text">Agency can decline.</text>
+  <text x="95" y="535" class="text">Obedience still varies.</text>
+
+  <rect x="435" y="110" width="330" height="500" class="panel"/>
+  <text x="600" y="155" text-anchor="middle" class="head">LAW</text>
+  <line x1="470" y1="180" x2="730" y2="180" class="rule"/>
+  <text x="470" y="225" class="text">Was choice available?</text>
+  <text x="470" y="270" class="text">Was coercion sufficient?</text>
+  <text x="470" y="315" class="text">Was order lawful?</text>
+  <text x="470" y="360" class="text">Was illegality manifest?</text>
+  <text x="470" y="405" class="text">What elements proved?</text>
+  <text x="470" y="470" class="small">Rule:</text>
+  <text x="470" y="500" class="text">Orders rarely erase liability.</text>
+  <text x="470" y="535" class="text">Exceptions stay narrow.</text>
+
+  <rect x="810" y="110" width="330" height="500" class="panel"/>
+  <text x="975" y="155" text-anchor="middle" class="head">MORAL JUDGMENT</text>
+  <line x1="845" y1="180" x2="1105" y2="180" class="rule"/>
+  <text x="845" y="225" class="text">Who deserves blame?</text>
+  <text x="845" y="270" class="text">Who should resist?</text>
+  <text x="845" y="315" class="text">Who owns consequences?</text>
+  <text x="845" y="360" class="text">Was obedience shameful?</text>
+  <text x="845" y="405" class="text">Was refusal required?</text>
+  <text x="845" y="470" class="small">Risk:</text>
+  <text x="845" y="500" class="text">Hindsight simplifies pressure.</text>
+  <text x="845" y="535" class="text">Blame becomes binary.</text>
+
+  <rect x="120" y="650" width="960" height="105" class="band"/>
+  <text x="600" y="690" text-anchor="middle" class="head">The conflict</text>
+  <text x="600" y="722" text-anchor="middle" class="text">Felt agency can shrink. Legal accountability can remain.</text>
+  <text x="600" y="748" text-anchor="middle" class="small">Nuremberg Principle IV. Rome Statute Article 33.</text>
+</svg>
