@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Investigation scenario for dehumanizing language</title>
+<desc id="desc">A flow showing how investigators should treat dehumanizing language as one clue among several, then test context, targeting, repetition, threats, coordination, conduct, and competing explanations.</desc>
+<rect width="1200" height="1600" fill="#f6f5f1"/>
+<g font-family="Arial, sans-serif" fill="#161616">
+<text x="80" y="110" font-size="54" font-weight="700">PAGE 5 — SCENARIO</text>
+<text x="80" y="170" font-size="28">Words are evidence clues.</text>
+
+<rect x="130" y="255" width="940" height="160" rx="18" fill="#ffffff" stroke="#161616" stroke-width="4"/>
+<text x="180" y="325" font-size="34" font-weight="700">Message appears</text>
+<text x="180" y="375" font-size="28">“Group X are pests.”</text>
+
+<line x1="600" y1="415" x2="600" y2="490" stroke="#161616" stroke-width="5"/>
+<polygon points="600,520 582,485 618,485" fill="#161616"/>
+
+<rect x="130" y="530" width="940" height="170" rx="18" fill="#ffffff" stroke="#161616" stroke-width="4"/>
+<text x="180" y="600" font-size="34" font-weight="700">Preserve the context</text>
+<text x="180" y="650" font-size="27">Who said it?</text>
+<text x="440" y="650" font-size="27">Who heard it?</text>
+<text x="740" y="650" font-size="27">When?</text>
+
+<line x1="600" y1="700" x2="600" y2="775" stroke="#161616" stroke-width="5"/>
+<polygon points="600,805 582,770 618,770" fill="#161616"/>
+
+<rect x="100" y="815" width="1000" height="250" rx="18" fill="#ffffff" stroke="#161616" stroke-width="4"/>
+<text x="150" y="885" font-size="34" font-weight="700">Test other evidence</text>
+<text x="150" y="945" font-size="27">Target selection</text>
+<text x="430" y="945" font-size="27">Threats</text>
+<text x="690" y="945" font-size="27">Repetition</text>
+<text x="150" y="1005" font-size="27">Coordination</text>
+<text x="430" y="1005" font-size="27">Conduct</text>
+<text x="690" y="1005" font-size="27">Alternatives</text>
+
+<line x1="600" y1="1065" x2="600" y2="1140" stroke="#161616" stroke-width="5"/>
+<polygon points="600,1170 582,1135 618,1135" fill="#161616"/>
+
+<rect x="130" y="1180" width="940" height="190" rx="18" fill="#e5e3dc" stroke="#161616" stroke-width="4"/>
+<text x="180" y="1250" font-size="34" font-weight="700">Then apply law</text>
+<text x="180" y="1305" font-size="28">Bias motive?</text>
+<text x="450" y="1305" font-size="28">Threat?</text>
+<text x="680" y="1305" font-size="28">Incitement?</text>
+<text x="880" y="1305" font-size="28">Act?</text>
+
+<text x="80" y="1495" font-size="27" font-weight="700">Rule:</text>
+<text x="170" y="1495" font-size="27">Never infer guilt from words.</text>
+</g>
+</svg>
