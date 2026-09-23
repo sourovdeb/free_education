@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science on bystander omission</title>
+<desc id="desc">Two-column diagram showing science asking why action failed while law asks whether a legal duty existed, with examples from People v. Beardsley and Vermont law.</desc>
+<rect width="1200" height="1600" fill="#f7f7f3"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#111">
+<text x="70" y="95" font-size="54" font-weight="700">PAGE 4 — SAME SILENCE</text>
+<text x="70" y="145" font-size="30">Different systems ask differently.</text>
+
+<rect x="70" y="220" width="500" height="1020" rx="22" fill="#fff" stroke="#111" stroke-width="4"/>
+<rect x="630" y="220" width="500" height="1020" rx="22" fill="#fff" stroke="#111" stroke-width="4"/>
+
+<text x="230" y="300" font-size="44" font-weight="700">SCIENCE</text>
+<text x="800" y="300" font-size="44" font-weight="700">LAW</text>
+
+<text x="120" y="390" font-size="32" font-weight="700">Question:</text>
+<text x="120" y="440" font-size="29">Why did action fail?</text>
+
+<text x="120" y="540" font-size="29">• Was danger unclear?</text>
+<text x="120" y="600" font-size="29">• Did others look calm?</text>
+<text x="120" y="660" font-size="29">• Was duty diffused?</text>
+<text x="120" y="720" font-size="29">• Did fear dominate?</text>
+<text x="120" y="780" font-size="29">• Was help feasible?</text>
+
+<text x="120" y="900" font-size="32" font-weight="700">Output:</text>
+<text x="120" y="955" font-size="29">Probabilities and mechanisms.</text>
+<text x="120" y="1015" font-size="29">Context changes estimates.</text>
+<text x="120" y="1075" font-size="29">Explanation stays conditional.</text>
+
+<text x="680" y="390" font-size="32" font-weight="700">Question:</text>
+<text x="680" y="440" font-size="29">Was action legally required?</text>
+
+<text x="680" y="540" font-size="29">• Did statute apply?</text>
+<text x="680" y="600" font-size="29">• Did relationship apply?</text>
+<text x="680" y="660" font-size="29">• Was care assumed?</text>
+<text x="680" y="720" font-size="29">• Was omission causal?</text>
+<text x="680" y="780" font-size="29">• Was assistance safe?</text>
+
+<text x="680" y="900" font-size="32" font-weight="700">Output:</text>
+<text x="680" y="955" font-size="29">Liability or no liability.</text>
+<text x="680" y="1015" font-size="29">Rules vary by place.</text>
+<text x="680" y="1075" font-size="29">Moral blame differs.</text>
+
+<rect x="120" y="1300" width="960" height="180" rx="18" fill="#ecece5" stroke="#111" stroke-width="4"/>
+<text x="180" y="1365" font-size="36" font-weight="700">THE CONFLICT</text>
+<text x="180" y="1420" font-size="30">Science explains omission.</text>
+<text x="560" y="1420" font-size="30">Law assigns duties.</text>
+<text x="180" y="1465" font-size="30">Explanation ≠ excuse.</text>
+
+<text x="70" y="1555" font-size="24">Cases: People v. Beardsley; Vermont 12 V.S.A. § 519.</text>
+</g>
+</svg>
