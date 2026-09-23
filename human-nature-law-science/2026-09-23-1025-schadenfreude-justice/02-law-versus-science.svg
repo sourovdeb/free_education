@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison</title>
+  <desc id="desc">A comparison between legal decision structure and psychological evidence about emotion, deservingness, and punishment.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f7f5}.panel{fill:#fff;stroke:#111;stroke-width:3}.mid{fill:#f1f1f1;stroke:#111;stroke-width:3}.risk{fill:#fff2e8;stroke:#111;stroke-width:2}.t{font-family:Arial,sans-serif;fill:#111}.h1{font-size:48px;font-weight:700}.h2{font-size:30px;font-weight:700}.p{font-size:22px}.small{font-size:18px}.rule{stroke:#111;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="t h1" x="70" y="75">Law versus science</text>
+  <text class="t p" x="70" y="115">The conflict is structural.</text>
+
+  <rect class="panel" x="70" y="165" rx="14" width="560" height="680"/>
+  <text class="t h2" x="110" y="220">Legal structure</text>
+  <line class="rule" x1="110" y1="245" x2="590" y2="245"/>
+  <text class="t p" x="110" y="300">1. Evidence first</text>
+  <text class="t p" x="110" y="350">2. Guilt separately</text>
+  <text class="t p" x="110" y="400">3. Culpability assessed</text>
+  <text class="t p" x="110" y="450">4. Punishment constrained</text>
+  <text class="t p" x="110" y="500">5. Reasons recorded</text>
+  <text class="t p" x="110" y="575">Core aim:</text>
+  <text class="t h2" x="110" y="620">Constrained judgment</text>
+  <text class="t small" x="110" y="690">Law permits emotion.</text>
+  <text class="t small" x="110" y="725">Procedure limits leakage.</text>
+  <text class="t small" x="110" y="760">Proportionality still matters.</text>
+
+  <rect class="mid" x="680" y="165" rx="14" width="240" height="680"/>
+  <text class="t h2" x="715" y="220">Friction</text>
+  <rect class="risk" x="710" y="275" rx="10" width="180" height="95"/>
+  <text class="t p" x="735" y="315">Dislike</text>
+  <text class="t p" x="735" y="350">→ blame</text>
+  <rect class="risk" x="710" y="405" rx="10" width="180" height="95"/>
+  <text class="t p" x="735" y="445">Blame</text>
+  <text class="t p" x="735" y="480">→ deserving</text>
+  <rect class="risk" x="710" y="535" rx="10" width="180" height="95"/>
+  <text class="t p" x="735" y="575">Punishment</text>
+  <text class="t p" x="735" y="610">→ pleasure</text>
+  <rect class="risk" x="710" y="665" rx="10" width="180" height="95"/>
+  <text class="t p" x="735" y="705">Pleasure</text>
+  <text class="t p" x="735" y="740">→ certainty</text>
+
+  <rect class="panel" x="970" y="165" rx="14" width="560" height="680"/>
+  <text class="t h2" x="1010" y="220">Behavioral evidence</text>
+  <line class="rule" x1="1010" y1="245" x2="1490" y2="245"/>
+  <text class="t p" x="1010" y="300">Emotion enters early.</text>
+  <text class="t p" x="1010" y="350">Deservingness shifts pleasure.</text>
+  <text class="t p" x="1010" y="400">Envy changes reactions.</text>
+  <text class="t p" x="1010" y="450">Competition changes empathy.</text>
+  <text class="t p" x="1010" y="500">Punishment can reward.</text>
+  <text class="t p" x="1010" y="575">Core finding:</text>
+  <text class="t h2" x="1010" y="620">Motives can mix</text>
+  <text class="t small" x="1010" y="690">Effects remain conditional.</text>
+  <text class="t small" x="1010" y="725">Methods have limits.</text>
+  <text class="t small" x="1010" y="760">No universal motive exists.</text>
+
+  <text class="t small" x="70" y="915">Legal example: Payne v. Tennessee, 501 U.S. 808.</text>
+  <text class="t small" x="850" y="915">Review: 10.1146/annurev-lawsocsci-021721-072326</text>
+</svg>
