@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="1000" fill="#fff"/>
+  <text x="80" y="90" font-family="Arial" font-size="44" font-weight="700">Concrete Scenario</text>
+  <text x="80" y="140" font-family="Arial" font-size="24">A homicide investigation</text>
+
+  <line x1="150" y1="300" x2="1450" y2="300" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <circle cx="220" cy="300" r="28" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="220" y="380" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">1. Conflict</text>
+  <text x="220" y="420" text-anchor="middle" font-family="Arial" font-size="20">Facts remain mixed.</text>
+
+  <circle cx="520" cy="300" r="28" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="520" y="380" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">2. Suspect named</text>
+  <text x="520" y="420" text-anchor="middle" font-family="Arial" font-size="20">Prior record surfaces.</text>
+
+  <circle cx="820" cy="300" r="28" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="820" y="380" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">3. Roles harden</text>
+  <text x="820" y="420" text-anchor="middle" font-family="Arial" font-size="20">Suspect equals agent.</text>
+  <text x="820" y="455" text-anchor="middle" font-family="Arial" font-size="20">Victim equals patient.</text>
+
+  <circle cx="1120" cy="300" r="28" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="1120" y="380" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">4. Evidence arrives</text>
+  <text x="1120" y="420" text-anchor="middle" font-family="Arial" font-size="20">Some facts conflict.</text>
+
+  <circle cx="1410" cy="300" r="28" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="1410" y="380" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">5. Decision</text>
+  <text x="1410" y="420" text-anchor="middle" font-family="Arial" font-size="20">Bias can persist.</text>
+
+  <rect x="110" y="520" width="620" height="330" fill="#f5f5f5" stroke="#111" stroke-width="2"/>
+  <text x="420" y="575" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">Risk pathway</text>
+  <text x="170" y="635" font-family="Arial" font-size="22">Prior label appears.</text>
+  <text x="170" y="680" font-family="Arial" font-size="22">Agency gets amplified.</text>
+  <text x="170" y="725" font-family="Arial" font-size="22">Vulnerability gets discounted.</text>
+  <text x="170" y="770" font-family="Arial" font-size="22">Alternate facts get weaker.</text>
+  <text x="170" y="815" font-family="Arial" font-size="22">Tunnel vision can follow.</text>
+
+  <rect x="870" y="520" width="620" height="330" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="1180" y="575" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">Safeguard pathway</text>
+  <text x="930" y="635" font-family="Arial" font-size="22">Keep two hypotheses.</text>
+  <text x="930" y="680" font-family="Arial" font-size="22">Log contrary evidence.</text>
+  <text x="930" y="725" font-family="Arial" font-size="22">Separate role labels.</text>
+  <text x="930" y="770" font-family="Arial" font-size="22">Use independent review.</text>
+  <text x="930" y="815" font-family="Arial" font-size="22">Recheck culpability evidence.</text>
+
+  <text x="80" y="930" font-family="Arial" font-size="20">This scenario is illustrative.</text>
+  <text x="80" y="965" font-family="Arial" font-size="20">NIJ documents tunnel vision.</text>
+</svg>
