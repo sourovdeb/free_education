@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete scenario map</title>
+  <desc id="desc">A hypothetical scenario showing how rumor, threat, moral framing, group reinforcement, and procedural resistance can shape collective punitive action.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#111"/></marker>
+    <style>
+      .bg{fill:#f7f7f5}.box{fill:#fff;stroke:#111;stroke-width:3}.risk{fill:#ece6e1;stroke:#111;stroke-width:3}.safe{fill:#e7ece8;stroke:#111;stroke-width:3}.t{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:54px;font-weight:700}.sh{font-size:31px;font-weight:700}.n{font-size:24px}.line{stroke:#111;stroke-width:5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="1600"/>
+  <text class="t h" x="80" y="95">Scenario: Punishment Feels Just</text>
+  <text class="t n" x="80" y="140">Hypothetical. Not a real case.</text>
+
+  <rect class="box" x="110" y="220" width="980" height="130" rx="8"/>
+  <text class="t sh" x="155" y="275">1. A rumor spreads</text>
+  <text class="t n" x="155" y="315">Someone allegedly betrayed us.</text>
+
+  <path class="line" d="M600 355 L600 420"/>
+
+  <rect class="box" x="110" y="430" width="980" height="130" rx="8"/>
+  <text class="t sh" x="155" y="485">2. Threat gets moralized</text>
+  <text class="t n" x="155" y="525">The act becomes unforgivable.</text>
+
+  <path class="line" d="M600 565 L600 630"/>
+
+  <rect class="risk" x="110" y="640" width="980" height="150" rx="8"/>
+  <text class="t sh" x="155" y="695">3. Group language hardens</text>
+  <text class="t n" x="155" y="735">Silence means disloyalty.</text>
+  <text class="t n" x="155" y="765">Punishment means loyalty.</text>
+
+  <path class="line" d="M600 795 L600 860"/>
+
+  <rect class="risk" x="110" y="870" width="980" height="150" rx="8"/>
+  <text class="t sh" x="155" y="925">4. Procedure feels weak</text>
+  <text class="t n" x="155" y="965">Waiting feels like betrayal.</text>
+  <text class="t n" x="155" y="995">Evidence feels too slow.</text>
+
+  <path class="line" d="M600 1025 L600 1090"/>
+
+  <rect class="risk" x="110" y="1100" width="450" height="220" rx="8"/>
+  <text class="t sh" x="150" y="1160">Escalation</text>
+  <text class="t n" x="150" y="1205">Punish now.</text>
+  <text class="t n" x="150" y="1240">Verify later.</text>
+  <text class="t n" x="150" y="1275">Harm gets justified.</text>
+
+  <rect class="safe" x="640" y="1100" width="450" height="220" rx="8"/>
+  <text class="t sh" x="680" y="1160">Interruption</text>
+  <text class="t n" x="680" y="1205">Check the claim.</text>
+  <text class="t n" x="680" y="1240">Allow dissent.</text>
+  <text class="t n" x="680" y="1275">Use lawful process.</text>
+
+  <path class="line" d="M600 1080 L370 1095"/>
+  <path class="line" d="M600 1080 L865 1095"/>
+
+  <rect class="box" x="110" y="1390" width="980" height="130" rx="8"/>
+  <text class="t sh" x="155" y="1445">Key lesson</text>
+  <text class="t n" x="155" y="1490">Moral certainty needs friction.</text>
+</svg>
