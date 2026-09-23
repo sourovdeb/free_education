@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Omission bias mechanism flow</title>
+<desc id="desc">A five-stage flow showing how equal harms can receive different moral blame when one follows action and one follows inaction.</desc>
+<style>
+  .bg{fill:#f7f7f5}.box{fill:#fff;stroke:#111;stroke-width:2}.soft{fill:#ececea;stroke:#111;stroke-width:2}.ink{fill:#111;font-family:Arial,Helvetica,sans-serif}.h1{font-size:42px;font-weight:700}.h2{font-size:24px;font-weight:700}.t{font-size:20px}.small{font-size:16px}.line{stroke:#111;stroke-width:3;fill:none}.dash{stroke:#555;stroke-width:2;stroke-dasharray:8 8;fill:none}
+</style>
+<rect class="bg" width="1200" height="900"/>
+<text class="ink h1" x="70" y="78">OMISSION BIAS</text>
+<text class="ink t" x="70" y="115">Same harm. Different blame.</text>
+
+<rect class="box" x="70" y="170" width="210" height="120"/>
+<text class="ink h2" x="95" y="212">1. Outcome</text>
+<text class="ink t" x="95" y="248">A harm occurs.</text>
+
+<path class="line" d="M280 230 H370"/>
+<path d="M370 230 l-18 -10 v20 z" fill="#111"/>
+
+<rect class="box" x="370" y="150" width="250" height="160"/>
+<text class="ink h2" x="395" y="195">2. Two routes</text>
+<text class="ink t" x="395" y="235">Route A: action.</text>
+<text class="ink t" x="395" y="270">Route B: inaction.</text>
+
+<path class="line" d="M620 200 H725"/>
+<path d="M725 200 l-18 -10 v20 z" fill="#111"/>
+<path class="line" d="M620 270 H725"/>
+<path d="M725 270 l-18 -10 v20 z" fill="#111"/>
+
+<rect class="box" x="725" y="135" width="380" height="130"/>
+<text class="ink h2" x="750" y="177">3A. Action route</text>
+<text class="ink t" x="750" y="213">Action feels more causal.</text>
+<text class="ink t" x="750" y="245">Blame often rises.</text>
+
+<rect class="soft" x="725" y="285" width="380" height="130"/>
+<text class="ink h2" x="750" y="327">3B. Inaction route</text>
+<text class="ink t" x="750" y="363">Inaction feels less causal.</text>
+<text class="ink t" x="750" y="395">Blame often falls.</text>
+
+<path class="line" d="M915 415 V510"/>
+<path d="M915 510 l-10 -18 h20 z" fill="#111"/>
+<path class="line" d="M915 265 V510"/>
+
+<rect class="box" x="690" y="510" width="425" height="150"/>
+<text class="ink h2" x="715" y="552">4. Judgment asymmetry</text>
+<text class="ink t" x="715" y="592">Consequences can match.</text>
+<text class="ink t" x="715" y="628">Moral judgment may not.</text>
+
+<path class="line" d="M690 585 H555"/>
+<path d="M555 585 l18 -10 v20 z" fill="#111"/>
+
+<rect class="soft" x="70" y="490" width="485" height="220"/>
+<text class="ink h2" x="95" y="532">5. Moderators</text>
+<text class="ink t" x="95" y="572">• Duty changes blame.</text>
+<text class="ink t" x="95" y="607">• Intent changes blame.</text>
+<text class="ink t" x="95" y="642">• Norms change blame.</text>
+<text class="ink t" x="95" y="677">• Status quo matters.</text>
+
+<path class="dash" d="M312 710 V770 H905 V660"/>
+
+<rect class="box" x="70" y="760" width="1045" height="85"/>
+<text class="ink h2" x="95" y="800">Evidence summary</text>
+<text class="ink small" x="95" y="830">Yeung et al. meta-analysis: g = 0.45. Effects varied across studies.</text>
+</svg>
