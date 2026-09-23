@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Dehumanization gradient</title>
+<desc id="desc">A five-step flow from ordinary categorization to reduced concern and easier instrumental harm, with a caution that violence can also occur without dehumanization.</desc>
+<rect width="1200" height="1600" fill="#f6f5f1"/>
+<g font-family="Arial, sans-serif" fill="#161616">
+<text x="80" y="110" font-size="54" font-weight="700">PAGE 3 — THE GRADIENT</text>
+<text x="80" y="170" font-size="28">Humanness can shrink mentally.</text>
+
+<rect x="120" y="250" width="960" height="160" rx="18" fill="#ffffff" stroke="#161616" stroke-width="4"/>
+<text x="170" y="315" font-size="36" font-weight="700">1. Category</text>
+<text x="170" y="365" font-size="28">“They are that group.”</text>
+
+<line x1="600" y1="410" x2="600" y2="485" stroke="#161616" stroke-width="5"/>
+<polygon points="600,515 582,480 618,480" fill="#161616"/>
+
+<rect x="120" y="525" width="960" height="160" rx="18" fill="#ffffff" stroke="#161616" stroke-width="4"/>
+<text x="170" y="590" font-size="36" font-weight="700">2. Distance</text>
+<text x="170" y="640" font-size="28">Individual stories disappear.</text>
+
+<line x1="600" y1="685" x2="600" y2="760" stroke="#161616" stroke-width="5"/>
+<polygon points="600,790 582,755 618,755" fill="#161616"/>
+
+<rect x="120" y="800" width="960" height="160" rx="18" fill="#ffffff" stroke="#161616" stroke-width="4"/>
+<text x="170" y="865" font-size="36" font-weight="700">3. Mind denial</text>
+<text x="170" y="915" font-size="28">Depth and feeling shrink.</text>
+
+<line x1="600" y1="960" x2="600" y2="1035" stroke="#161616" stroke-width="5"/>
+<polygon points="600,1065 582,1030 618,1030" fill="#161616"/>
+
+<rect x="120" y="1075" width="960" height="160" rx="18" fill="#ffffff" stroke="#161616" stroke-width="4"/>
+<text x="170" y="1140" font-size="36" font-weight="700">4. Moral distance</text>
+<text x="170" y="1190" font-size="28">Concern can become weaker.</text>
+
+<line x1="600" y1="1235" x2="600" y2="1310" stroke="#161616" stroke-width="5"/>
+<polygon points="600,1340 582,1305 618,1305" fill="#161616"/>
+
+<rect x="120" y="1350" width="960" height="130" rx="18" fill="#e5e3dc" stroke="#161616" stroke-width="4"/>
+<text x="170" y="1415" font-size="36" font-weight="700">5. Harm gets easier</text>
+<text x="170" y="1460" font-size="26">Especially instrumental harm.</text>
+
+<text x="80" y="1540" font-size="24">Caution: violence has other routes.</text>
+</g>
+</svg>
