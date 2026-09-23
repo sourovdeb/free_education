@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <style>
+    .title{font:700 34px Arial,sans-serif;fill:#111}
+    .sub{font:400 18px Arial,sans-serif;fill:#444}
+    .panel{fill:#fff;stroke:#111;stroke-width:2}
+    .head{fill:#f1f1f1;stroke:#111;stroke-width:2}
+    .label{font:700 22px Arial,sans-serif;fill:#111}
+    .text{font:400 18px Arial,sans-serif;fill:#222}
+    .small{font:400 15px Arial,sans-serif;fill:#444}
+    .center{font:700 18px Arial,sans-serif;fill:#111}
+  </style>
+
+  <text x="60" y="60" class="title">Law versus science</text>
+  <text x="60" y="92" class="sub">False belief and deliberate lying are not the same question.</text>
+
+  <rect x="60" y="135" width="500" height="70" class="head"/>
+  <text x="90" y="178" class="label">Legal frame</text>
+
+  <rect x="640" y="135" width="500" height="70" class="head"/>
+  <text x="670" y="178" class="label">Behavioral frame</text>
+
+  <rect x="60" y="205" width="500" height="410" class="panel"/>
+  <text x="90" y="250" class="text">1. Was testimony false?</text>
+  <text x="90" y="295" class="text">2. Was it material?</text>
+  <text x="90" y="340" class="text">3. Was falsity known?</text>
+  <text x="90" y="385" class="text">4. Was intent willful?</text>
+
+  <line x1="90" y1="420" x2="530" y2="420" stroke="#bbb"/>
+  <text x="90" y="465" class="text">Mistake can defeat perjury.</text>
+  <text x="90" y="505" class="text">Confusion can defeat perjury.</text>
+  <text x="90" y="545" class="text">Faulty memory can matter.</text>
+  <text x="90" y="590" class="small">Source: U.S. v. Dunnigan.</text>
+
+  <rect x="640" y="205" width="500" height="410" class="panel"/>
+  <text x="670" y="250" class="text">1. What threatened identity?</text>
+  <text x="670" y="295" class="text">2. What evidence got scrutiny?</text>
+  <text x="670" y="340" class="text">3. Did standards shift?</text>
+  <text x="670" y="385" class="text">4. Did confidence change?</text>
+
+  <line x1="670" y1="420" x2="1110" y2="420" stroke="#bbb"/>
+  <text x="670" y="465" class="text">Bias can stay sincere.</text>
+  <text x="670" y="505" class="text">Awareness can be partial.</text>
+  <text x="670" y="545" class="text">Intent is not measured.</text>
+  <text x="670" y="590" class="small">Sources: Kunda; Cohen; Epton.</text>
+
+  <rect x="390" y="650" width="420" height="90" class="head"/>
+  <text x="425" y="685" class="center">Conflict point</text>
+  <text x="425" y="718" class="text">Law needs thresholds. Science sees gradients.</text>
+</svg>
