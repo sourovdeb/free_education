@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Hypothetical investigation scenario</title>
+  <desc id="desc">Timeline showing how prior fair actions can create unwarranted confidence during a later investigative decision.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#222"/>
+    </marker>
+    <style>
+      .head{font:700 31px system-ui,sans-serif;fill:#111}
+      .text{font:600 22px system-ui,sans-serif;fill:#222}
+      .small{font:500 20px system-ui,sans-serif;fill:#333}
+      .node{fill:#fff;stroke:#222;stroke-width:3}
+      .line{stroke:#222;stroke-width:5;fill:none;marker-end:url(#arrow)}
+      .warn{fill:#f2f2f2;stroke:#555;stroke-width:2;rx:14}
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="#fafafa"/>
+  <text x="60" y="70" class="head">Hypothetical investigation timeline</text>
+  <path d="M120 360 H1080" class="line"/>
+
+  <circle cx="190" cy="360" r="46" class="node"/>
+  <text x="190" y="368" text-anchor="middle" class="head">1</text>
+  <text x="190" y="265" text-anchor="middle" class="text">Protocol followed</text>
+  <text x="190" y="300" text-anchor="middle" class="small">Review looks fair</text>
+
+  <circle cx="430" cy="360" r="46" class="node"/>
+  <text x="430" y="368" text-anchor="middle" class="head">2</text>
+  <text x="430" y="265" text-anchor="middle" class="text">Praise arrives</text>
+  <text x="430" y="300" text-anchor="middle" class="small">Team confidence rises</text>
+
+  <circle cx="670" cy="360" r="46" class="node"/>
+  <text x="670" y="368" text-anchor="middle" class="head">3</text>
+  <text x="670" y="265" text-anchor="middle" class="text">New clue appears</text>
+  <text x="670" y="300" text-anchor="middle" class="small">Meaning stays ambiguous</text>
+
+  <circle cx="910" cy="360" r="46" class="node"/>
+  <text x="910" y="368" text-anchor="middle" class="head">4</text>
+  <text x="910" y="265" text-anchor="middle" class="text">Scrutiny slips</text>
+  <text x="910" y="300" text-anchor="middle" class="small">Old trust carries forward</text>
+
+  <rect x="170" y="540" width="860" height="130" class="warn"/>
+  <text x="600" y="590" text-anchor="middle" class="head">Safeguard</text>
+  <text x="600" y="632" text-anchor="middle" class="text">Recheck each inference</text>
+  <text x="600" y="665" text-anchor="middle" class="small">Prior fairness proves little</text>
+</svg>
