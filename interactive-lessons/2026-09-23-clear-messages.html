@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clear Messages: Reschedule with Respect</title>
+<style>
+:root{--ink:#10232e;--paper:#f8f5ee;--sun:#ffd34e;--sea:#087e8b;--coral:#f05d5e;--line:#c7d5d9}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.5 system-ui,sans-serif}
+main{max-width:880px;margin:auto;padding:22px}.band{border:3px solid var(--ink);padding:clamp(22px,6vw,58px);background:var(--sun);box-shadow:8px 8px 0 var(--ink)}
+h1{font-size:clamp(2.3rem,8vw,5.4rem);line-height:.92;letter-spacing:-.07em;margin:0 0 18px}h2{font-size:1.6rem;margin:0 0 10px}
+.tag{font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:.76rem}.card{margin:25px 0;padding:25px;border:2px solid var(--ink);background:#fff}.goal{font-weight:700}.step{display:inline-block;padding:3px 9px;background:var(--sea);color:#fff;font-weight:800;font-size:.75rem}
+button{cursor:pointer;border:2px solid var(--ink);padding:12px 16px;background:var(--sun);font:700 1rem system-ui;box-shadow:3px 3px 0 var(--ink)}button:focus,input:focus,textarea:focus{outline:4px solid var(--coral);outline-offset:2px}button:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}
+.choice{display:block;width:100%;margin:10px 0;text-align:left;background:#fff}.choice.good{background:#bcebd4}.choice.bad{background:#ffd4d4}.feedback{min-height:30px;font-weight:700}
+label{display:block;font-weight:750;margin-top:14px}textarea{width:100%;min-height:160px;padding:13px;border:2px solid var(--ink);font:1rem system-ui}.model{background:#e5f5f7;border-left:9px solid var(--sea);padding:16px}.meter{height:16px;border:2px solid var(--ink);background:#fff}.fill{height:100%;width:0;background:var(--sea);transition:.2s}.share{background:var(--coral);color:#fff}.small{font-size:.88rem}@media (max-width:520px){main{padding:13px}.card{padding:18px}.band{box-shadow:5px 5px 0 var(--ink)}}
+</style>
+</head>
+<body>
+<main>
+<section class="band">
+<p class="tag">Open Source CELTA 2.0 · Speaking and writing</p>
+<h1>Clear Messages.</h1>
+<p>Reschedule a meeting. Keep trust.</p>
+<p class="goal">Goal: write one short message.</p>
+</section>
+<section class="card">
+<span class="step">01 · Notice</span>
+<h2>Which message works?</h2>
+<p>You missed a 10:00 interview. Choose your reply.</p>
+<button class="choice" data-ok="no">Sorry. I was busy.</button>
+<button class="choice" data-ok="yes">Hello Ms Amina. I apologise for missing our 10:00 interview. Could we reschedule for Thursday? I am available after 14:00. Thank you for your time.</button>
+<button class="choice" data-ok="no">Can we do it later?</button>
+<p class="feedback" id="feedback1" aria-live="polite"></p>
+</section>
+<section class="card">
+<span class="step">02 · Build</span>
+<h2>Use four parts</h2>
+<div class="model">
+<strong>Greeting</strong> → <strong>reason</strong> → <strong>request</strong> → <strong>thanks</strong>
+</div>
+<p>Write your message below. The checker finds each part.</p>
+<label for="message">Your message</label>
+<textarea id="message" placeholder="Hello …&#10;I apologise because …&#10;Could we …?&#10;Thank you …"></textarea>
+<button id="check">Check my message</button>
+<div class="meter" aria-label="Message score"><div class="fill" id="fill"></div></div>
+<p class="feedback" id="feedback2" aria-live="polite"></p>
+</section>
+<section class="card">
+<span class="step">03 · Say it</span>
+<h2>Read with calm stress</h2>
+<p class="model">I <strong>apologise</strong> for missing the meeting. Could we <strong>reschedule</strong>?</p>
+<button id="listen">Hear the model</button>
+<p class="small">Use a quiet voice. Pause after “meeting.”</p>
+</section>
+<section class="card">
+<span class="step">04 · Share</span>
+<h2>Post this lesson</h2>
+<p>Copy a LinkedIn caption.</p>
+<button class="share" id="share">Copy LinkedIn post</button>
+<p class="feedback" id="feedback3" aria-live="polite"></p>
+</section>
+<p class="small">Free to use and adapt. Created for low-bandwidth learning. Lesson design draws on communicative practice and pronunciation resources in Sourov Deb’s teaching archive.</p>
+</main>
+<script>
+document.querySelectorAll('.choice').forEach(b=>b.onclick=()=>{const ok=b.dataset.ok==='yes';b.classList.add(ok?'good':'bad');document.getElementById('feedback1').textContent=ok?'Correct. It names the issue, asks clearly, and respects time.':'Try again. A useful message gives enough information.'});
+document.getElementById('check').onclick=()=>{let s=document.getElementById('message').value.toLowerCase();let parts=[/hello|dear|good morning|good afternoon/.test(s),/sorry|apolog/.test(s),/could|can we|would it/.test(s),/thank/.test(s)];let n=parts.filter(Boolean).length;document.getElementById('fill').style.width=(n*25)+'%';document.getElementById('feedback2').textContent=n===4?'Complete. Send only when details are right.':n+'/4 parts found. Add: '+(['greeting','apology','clear request','thanks'].filter((x,i)=>!parts[i]).join(', '))+'.';};
+document.getElementById('listen').onclick=()=>{if(!('speechSynthesis'in window)){return}speechSynthesis.cancel();speechSynthesis.speak(new SpeechSynthesisUtterance('I apologise for missing the meeting. Could we reschedule?'));};
+document.getElementById('share').onclick=async()=>{const t='Free lesson: “Clear Messages.” Learners practise rescheduling with respect. No sign-in. No payment. Built for phones and classrooms. #OpenEducation #ELT #EnglishLearning';try{await navigator.clipboard.writeText(t);document.getElementById('feedback3').textContent='Caption copied.'}catch(e){document.getElementById('feedback3').textContent=t}};
+</script>
+</body></html>
