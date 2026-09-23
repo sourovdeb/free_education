@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Investigation scenario for just-world repair</title>
+  <desc id="desc">Scenario showing how an assault report can be evaluated through evidence or through character-based inference, with safeguards against bias.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="1000" fill="#fff"/>
+  <text x="80" y="85" font-family="Arial, sans-serif" font-size="44" font-weight="700">CONCRETE SCENARIO</text>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="24">An assault report enters review.</text>
+
+  <rect x="570" y="180" width="460" height="120" fill="#f2f2f2" stroke="#111" stroke-width="3"/>
+  <text x="800" y="230" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">INITIAL REPORT</text>
+  <text x="800" y="270" text-anchor="middle" font-family="Arial" font-size="22">Some details remain unclear.</text>
+
+  <line x1="800" y1="300" x2="800" y2="380" stroke="#111" stroke-width="4"/>
+  <line x1="800" y1="380" x2="420" y2="380" stroke="#111" stroke-width="4"/>
+  <line x1="800" y1="380" x2="1180" y2="380" stroke="#111" stroke-width="4"/>
+  <line x1="420" y1="380" x2="420" y2="445" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1180" y1="380" x2="1180" y2="445" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="120" y="470" width="600" height="300" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="420" y="525" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">EVIDENCE PATH</text>
+  <text x="180" y="585" font-family="Arial" font-size="23">1. Separate facts.</text>
+  <text x="180" y="630" font-family="Arial" font-size="23">2. Test contradictions.</text>
+  <text x="180" y="675" font-family="Arial" font-size="23">3. Seek corroboration.</text>
+  <text x="180" y="720" font-family="Arial" font-size="23">4. Keep alternatives open.</text>
+
+  <rect x="880" y="470" width="600" height="300" fill="#f2f2f2" stroke="#111" stroke-width="3"/>
+  <text x="1180" y="525" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">CHARACTER PATH</text>
+  <text x="940" y="585" font-family="Arial" font-size="23">1. Notice suffering.</text>
+  <text x="940" y="630" font-family="Arial" font-size="23">2. Feel justice threat.</text>
+  <text x="940" y="675" font-family="Arial" font-size="23">3. Moralize ambiguity.</text>
+  <text x="940" y="720" font-family="Arial" font-size="23">4. Discount credibility.</text>
+
+  <line x1="420" y1="770" x2="420" y2="840" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1180" y1="770" x2="1180" y2="840" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="420" y="890" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Outcome: evidence stays central.</text>
+  <text x="1180" y="890" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Risk: moral judgment spreads.</text>
+
+  <text x="800" y="955" text-anchor="middle" font-family="Arial" font-size="20">NIJ research links credibility judgments with extralegal victim characteristics. This diagram does not prove motive.</text>
+</svg>
