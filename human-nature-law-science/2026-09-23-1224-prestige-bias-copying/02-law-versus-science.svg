@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <style>
+      .t{font-family:Arial,sans-serif;fill:#111}.h{font-size:44px;font-weight:700}.sh{font-size:30px;font-weight:700}.s{font-size:24px}.b{fill:#fff;stroke:#111;stroke-width:3}.g{fill:#f2f2f2;stroke:#111;stroke-width:3}.line{stroke:#111;stroke-width:3}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#fff"/>
+  <text x="70" y="90" class="t h">Law versus science</text>
+  <text x="70" y="135" class="t s">Expert status creates friction.</text>
+
+  <rect x="70" y="210" width="500" height="760" class="b"/>
+  <rect x="630" y="210" width="500" height="760" class="g"/>
+  <text x="320" y="275" text-anchor="middle" class="t sh">LAW</text>
+  <text x="880" y="275" text-anchor="middle" class="t sh">SCIENCE</text>
+
+  <text x="110" y="350" class="t s">Rule 702 asks:</text>
+  <text x="110" y="405" class="t s">Reliable methods?</text>
+  <text x="110" y="455" class="t s">Enough facts?</text>
+  <text x="110" y="505" class="t s">Reliable application?</text>
+  <text x="110" y="555" class="t s">Helpful expertise?</text>
+
+  <line x1="110" y1="610" x2="530" y2="610" class="line"/>
+  <text x="110" y="670" class="t s">Legal goal:</text>
+  <text x="110" y="720" class="t s">Judge evidence quality.</text>
+  <text x="110" y="770" class="t s">Use qualified experts.</text>
+  <text x="110" y="820" class="t s">Separate method credibility.</text>
+
+  <text x="670" y="350" class="t s">Research finds:</text>
+  <text x="670" y="405" class="t s">Status cues matter.</text>
+  <text x="670" y="455" class="t s">Likeability can matter.</text>
+  <text x="670" y="505" class="t s">Discipline labels matter.</text>
+  <text x="670" y="555" class="t s">Evidence quality matters.</text>
+
+  <line x1="670" y1="610" x2="1090" y2="610" class="line"/>
+  <text x="670" y="670" class="t s">Scientific warning:</text>
+  <text x="670" y="720" class="t s">Humans use shortcuts.</text>
+  <text x="670" y="770" class="t s">Prestige can become proxy.</text>
+  <text x="670" y="820" class="t s">Effects stay conditional.</text>
+
+  <rect x="160" y="1050" width="880" height="220" class="g"/>
+  <text x="600" y="1110" text-anchor="middle" class="t sh">THE FRICTION</text>
+  <text x="600" y="1170" text-anchor="middle" class="t s">Qualification is not reliability.</text>
+  <text x="600" y="1220" text-anchor="middle" class="t s">Prestige can blur both.</text>
+
+  <rect x="160" y="1340" width="880" height="160" class="b"/>
+  <text x="600" y="1395" text-anchor="middle" class="t sh">SAFEGUARD</text>
+  <text x="600" y="1450" text-anchor="middle" class="t s">Expose methods and limits.</text>
+</svg>
