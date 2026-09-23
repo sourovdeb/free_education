@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science comparison</title>
+<desc id="desc">A comparison showing how legal systems demand evidence and guard against prejudice, while human judgment can feel certain before reasons become explicit.</desc>
+<defs>
+  <style>
+    .panel{fill:#fff;stroke:#222;stroke-width:3;rx:18;ry:18}
+    .soft{fill:#f2f2f2;stroke:#222;stroke-width:3;rx:18;ry:18}
+    .title{font:700 38px system-ui,sans-serif;fill:#111}
+    .head{font:700 28px system-ui,sans-serif;fill:#111}
+    .text{font:500 22px system-ui,sans-serif;fill:#222}
+    .small{font:500 18px system-ui,sans-serif;fill:#333}
+    .line{stroke:#333;stroke-width:3}
+  </style>
+</defs>
+<rect width="1200" height="900" fill="#fafafa"/>
+<text x="60" y="70" class="title">Law versus human judgment</text>
+
+<rect x="60" y="120" width="500" height="560" class="panel"/>
+<text x="310" y="175" text-anchor="middle" class="head">Legal safeguards</text>
+<line x1="100" y1="205" x2="520" y2="205" class="line"/>
+<text x="110" y="260" class="text">1. Prove specific facts</text>
+<text x="110" y="315" class="text">2. Test relevance</text>
+<text x="110" y="370" class="text">3. Limit prejudice</text>
+<text x="110" y="425" class="text">4. Hear both sides</text>
+<text x="110" y="480" class="text">5. Apply burdens</text>
+<text x="110" y="535" class="text">6. Record reasons</text>
+<text x="110" y="600" class="small">Rule 403 targets prejudice.</text>
+<text x="110" y="632" class="small">Old Chief shows why.</text>
+
+<rect x="640" y="120" width="500" height="560" class="soft"/>
+<text x="890" y="175" text-anchor="middle" class="head">Human tendencies</text>
+<line x1="680" y1="205" x2="1100" y2="205" class="line"/>
+<text x="690" y="260" class="text">1. Judge quickly</text>
+<text x="690" y="315" class="text">2. Feel certainty</text>
+<text x="690" y="370" class="text">3. Seek reasons</text>
+<text x="690" y="425" class="text">4. Defend identity</text>
+<text x="690" y="480" class="text">5. Miss alternatives</text>
+<text x="690" y="535" class="text">6. Rationalize later</text>
+<text x="690" y="600" class="small">Not every person.</text>
+<text x="690" y="632" class="small">Not every judgment.</text>
+
+<rect x="190" y="735" width="820" height="105" class="panel"/>
+<text x="600" y="780" text-anchor="middle" class="head">The conflict</text>
+<text x="600" y="815" text-anchor="middle" class="text">Confidence feels sufficient.</text>
+<text x="600" y="842" text-anchor="middle" class="small">Law demands tested reasons.</text>
+</svg>
