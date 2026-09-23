@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science on the status quo</title>
+<desc id="desc">A comparison panel contrasting legal reasons for precedent with scientific findings about status-quo and existence bias.</desc>
+<rect width="1200" height="820" fill="#fff"/>
+<text x="60" y="70" font-family="Arial" font-size="36" font-weight="700">LAW VERSUS SCIENCE</text>
+<text x="60" y="110" font-family="Arial" font-size="20">Stability can serve law.</text>
+
+<rect x="70" y="160" width="480" height="500" fill="#f5f5f5" stroke="#111" stroke-width="2"/>
+<text x="310" y="215" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">LEGAL LOGIC</text>
+<text x="110" y="275" font-family="Arial" font-size="22">• Precedent guides decisions.</text>
+<text x="110" y="325" font-family="Arial" font-size="22">• Reliance has value.</text>
+<text x="110" y="375" font-family="Arial" font-size="22">• Predictability has value.</text>
+<text x="110" y="425" font-family="Arial" font-size="22">• Stability has value.</text>
+<text x="110" y="475" font-family="Arial" font-size="22">• Change needs reasons.</text>
+<text x="110" y="545" font-family="Arial" font-size="20" font-weight="700">Key doctrine:</text>
+<text x="110" y="580" font-family="Arial" font-size="20">Stare decisis.</text>
+<text x="110" y="620" font-family="Arial" font-size="18">Not blind obedience.</text>
+
+<rect x="650" y="160" width="480" height="500" fill="#f5f5f5" stroke="#111" stroke-width="2"/>
+<text x="890" y="215" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">SCIENCE WARNING</text>
+<text x="690" y="275" font-family="Arial" font-size="22">• Defaults gain preference.</text>
+<text x="690" y="325" font-family="Arial" font-size="22">• Existence can signal goodness.</text>
+<text x="690" y="375" font-family="Arial" font-size="22">• Longevity can signal legitimacy.</text>
+<text x="690" y="425" font-family="Arial" font-size="22">• Current can become proper.</text>
+<text x="690" y="475" font-family="Arial" font-size="22">• Motives remain debated.</text>
+<text x="690" y="545" font-family="Arial" font-size="20" font-weight="700">Key warning:</text>
+<text x="690" y="580" font-family="Arial" font-size="20">Existing is not right.</text>
+<text x="690" y="620" font-family="Arial" font-size="18">But existing may work.</text>
+
+<rect x="310" y="700" width="580" height="70" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="600" y="744" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Stability needs independent reasons.</text>
+</svg>
