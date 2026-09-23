@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science on hostile intent</title>
+  <desc id="desc">A comparison showing law's need to infer mental state and science's warning that observers can infer hostility from ambiguous behavior.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+    </marker>
+    <style>
+      .bg{fill:#fff}.panel{fill:#f7f7f7;stroke:#111;stroke-width:2}.bridge{fill:#fff;stroke:#555;stroke-width:2;stroke-dasharray:8 6}.line{stroke:#111;stroke-width:3;fill:none;marker-end:url(#arrow)}.title{font:700 34px Arial,sans-serif;fill:#111}.head{font:700 27px Arial,sans-serif;fill:#111}.h{font:700 21px Arial,sans-serif;fill:#111}.t{font:18px Arial,sans-serif;fill:#111}.small{font:16px Arial,sans-serif;fill:#333}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="800"/>
+  <text class="title" x="60" y="60">Law Versus Science</text>
+  <text class="small" x="60" y="92">Intent must be inferred.</text>
+
+  <rect class="panel" x="60" y="140" rx="12" width="460" height="460"/>
+  <text class="head" x="290" y="188" text-anchor="middle">LEGAL TASK</text>
+  <text class="h" x="100" y="242">Question</text>
+  <text class="t" x="100" y="274">What intent existed?</text>
+  <text class="h" x="100" y="330">Evidence</text>
+  <text class="t" x="100" y="362">Words</text>
+  <text class="t" x="100" y="394">Acts</text>
+  <text class="t" x="100" y="426">Omissions</text>
+  <text class="h" x="100" y="482">Standard</text>
+  <text class="t" x="100" y="514">Offense defines mens rea</text>
+  <text class="t" x="100" y="546">Proof must support it</text>
+
+  <rect class="panel" x="680" y="140" rx="12" width="460" height="460"/>
+  <text class="head" x="910" y="188" text-anchor="middle">SCIENCE WARNING</text>
+  <text class="h" x="720" y="242">Problem</text>
+  <text class="t" x="720" y="274">Intent stays invisible</text>
+  <text class="h" x="720" y="330">Bias inputs</text>
+  <text class="t" x="720" y="362">Threat</text>
+  <text class="t" x="720" y="394">Anger</text>
+  <text class="t" x="720" y="426">Prior expectations</text>
+  <text class="h" x="720" y="482">Risk</text>
+  <text class="t" x="720" y="514">Ambiguity becomes hostility</text>
+  <text class="t" x="720" y="546">Confidence can remain high</text>
+
+  <path class="line" d="M520 370 H670"/>
+  <path class="line" d="M680 430 H530"/>
+
+  <rect class="bridge" x="370" y="640" rx="12" width="460" height="110"/>
+  <text class="h" x="600" y="680" text-anchor="middle">Bridge</text>
+  <text class="t" x="600" y="712" text-anchor="middle">Separate cue from inference</text>
+  <text class="small" x="600" y="738" text-anchor="middle">Require corroborating evidence</text>
+</svg>
