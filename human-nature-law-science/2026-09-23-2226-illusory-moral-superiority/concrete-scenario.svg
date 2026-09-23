@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Concrete investigation scenario</title>
+<desc id="desc">A hypothetical investigation timeline showing how self-perceived fairness can combine with early suspicion, confirmation search, and discounting of contrary evidence, plus an independent-review exit path.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#20242a"/>
+  </marker>
+  <style>
+    .bg{fill:#f7f5ef}
+    .step{fill:#fff;stroke:#20242a;stroke-width:2}
+    .risk{fill:#ece9df;stroke:#20242a;stroke-width:2}
+    .exit{fill:#e5eef0;stroke:#20242a;stroke-width:2}
+    .title{font:700 34px Arial,sans-serif;fill:#111}
+    .head{font:700 21px Arial,sans-serif;fill:#111}
+    .small{font:400 18px Arial,sans-serif;fill:#222}
+    .arrow{stroke:#20242a;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    .dash{stroke:#20242a;stroke-width:2;stroke-dasharray:8 8;fill:none;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect class="bg" width="1200" height="900"/>
+<text class="title" x="70" y="70">CONCRETE SCENARIO</text>
+<text class="small" x="70" y="105">Hypothetical investigation</text>
+
+<rect class="step" x="65" y="190" width="180" height="120" rx="8"/>
+<text class="head" x="155" y="230" text-anchor="middle">Self-view</text>
+<text class="small" x="155" y="265" text-anchor="middle">“I am fair.”</text>
+
+<rect class="step" x="295" y="190" width="180" height="120" rx="8"/>
+<text class="head" x="385" y="230" text-anchor="middle">First lead</text>
+<text class="small" x="385" y="265" text-anchor="middle">Witness names suspect.</text>
+
+<rect class="risk" x="525" y="190" width="180" height="120" rx="8"/>
+<text class="head" x="615" y="230" text-anchor="middle">Theory hardens</text>
+<text class="small" x="615" y="265" text-anchor="middle">Search narrows.</text>
+
+<rect class="risk" x="755" y="190" width="180" height="120" rx="8"/>
+<text class="head" x="845" y="230" text-anchor="middle">Contrary lead</text>
+<text class="small" x="845" y="265" text-anchor="middle">It feels weaker.</text>
+
+<rect class="risk" x="985" y="190" width="150" height="120" rx="8"/>
+<text class="head" x="1060" y="230" text-anchor="middle">Confidence</text>
+<text class="small" x="1060" y="265" text-anchor="middle">Case feels settled.</text>
+
+<path class="arrow" d="M245 250 H295"/>
+<path class="arrow" d="M475 250 H525"/>
+<path class="arrow" d="M705 250 H755"/>
+<path class="arrow" d="M935 250 H985"/>
+
+<rect class="exit" x="215" y="500" width="230" height="130" rx="8"/>
+<text class="head" x="330" y="540" text-anchor="middle">Independent review</text>
+<text class="small" x="330" y="578" text-anchor="middle">Fresh eyes enter.</text>
+<text class="small" x="330" y="605" text-anchor="middle">Context gets reduced.</text>
+
+<rect class="exit" x="485" y="500" width="230" height="130" rx="8"/>
+<text class="head" x="600" y="540" text-anchor="middle">Competing theory</text>
+<text class="small" x="600" y="578" text-anchor="middle">Alternative gets tested.</text>
+<text class="small" x="600" y="605" text-anchor="middle">Contrary facts return.</text>
+
+<rect class="exit" x="755" y="500" width="230" height="130" rx="8"/>
+<text class="head" x="870" y="540" text-anchor="middle">Recalibration</text>
+<text class="small" x="870" y="578" text-anchor="middle">Confidence can change.</text>
+<text class="small" x="870" y="605" text-anchor="middle">Evidence leads again.</text>
+
+<path class="dash" d="M845 310 C845 400 330 400 330 500"/>
+<path class="arrow" d="M445 565 H485"/>
+<path class="arrow" d="M715 565 H755"/>
+
+<rect class="step" x="300" y="720" width="600" height="110" rx="8"/>
+<text class="head" x="600" y="760" text-anchor="middle">Key principle</text>
+<text class="small" x="600" y="800" text-anchor="middle">Self-trust is not evidence.</text>
+</svg>
