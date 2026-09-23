@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+    </marker>
+    <style>
+      .title{font:700 34px Arial,sans-serif;fill:#111}
+      .sub{font:400 18px Arial,sans-serif;fill:#444}
+      .box{fill:#fff;stroke:#111;stroke-width:2}
+      .warn{fill:#f3f3f3;stroke:#111;stroke-width:2}
+      .label{font:700 19px Arial,sans-serif;fill:#111}
+      .text{font:400 16px Arial,sans-serif;fill:#222}
+      .small{font:400 14px Arial,sans-serif;fill:#444}
+      .line{stroke:#111;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+      .dash{stroke:#555;stroke-width:2;stroke-dasharray:7 6;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <text x="60" y="60" class="title">Scenario: committed investigator</text>
+  <text x="60" y="92" class="sub">Hypothetical sequence. Tunnel vision is documented.</text>
+
+  <rect x="60" y="155" width="190" height="125" class="box"/>
+  <text x="80" y="190" class="label">1. Early clue</text>
+  <text x="80" y="225" class="text">One suspect fits.</text>
+  <text x="80" y="252" class="text">Theory forms.</text>
+
+  <rect x="285" y="155" width="190" height="125" class="box"/>
+  <text x="305" y="190" class="label">2. Commitment</text>
+  <text x="305" y="225" class="text">Hours accumulate.</text>
+  <text x="305" y="252" class="text">Team aligns.</text>
+
+  <rect x="510" y="155" width="190" height="125" class="warn"/>
+  <text x="530" y="190" class="label">3. Conflict</text>
+  <text x="530" y="225" class="text">New clue disagrees.</text>
+  <text x="530" y="252" class="text">Competence feels tested.</text>
+
+  <rect x="735" y="155" width="190" height="125" class="warn"/>
+  <text x="755" y="190" class="label">4. Asymmetry</text>
+  <text x="755" y="225" class="text">Conflict gets scrutiny.</text>
+  <text x="755" y="252" class="text">Support gets trust.</text>
+
+  <rect x="960" y="155" width="190" height="125" class="warn"/>
+  <text x="980" y="190" class="label">5. Tunnel vision</text>
+  <text x="980" y="225" class="text">Alternatives shrink.</text>
+  <text x="980" y="252" class="text">Correction slows.</text>
+
+  <path d="M250 218 L285 218" class="line"/>
+  <path d="M475 218 L510 218" class="line"/>
+  <path d="M700 218 L735 218" class="line"/>
+  <path d="M925 218 L960 218" class="line"/>
+
+  <text x="60" y="380" class="label">Intervention route</text>
+
+  <rect x="60" y="420" width="250" height="130" class="box"/>
+  <text x="80" y="455" class="label">Independent reviewer</text>
+  <text x="80" y="490" class="text">No case ownership.</text>
+  <text x="80" y="518" class="text">Sees full evidence.</text>
+
+  <rect x="380" y="420" width="250" height="130" class="box"/>
+  <text x="400" y="455" class="label">Rival hypothesis</text>
+  <text x="400" y="490" class="text">Write alternatives.</text>
+  <text x="400" y="518" class="text">Seek disconfirming facts.</text>
+
+  <rect x="700" y="420" width="250" height="130" class="box"/>
+  <text x="720" y="455" class="label">Decision checkpoint</text>
+  <text x="720" y="490" class="text">What changed?</text>
+  <text x="720" y="518" class="text">What contradicts?</text>
+
+  <rect x="1010" y="420" width="140" height="130" class="box"/>
+  <text x="1030" y="455" class="label">Reopen</text>
+  <text x="1030" y="490" class="text">Revise theory.</text>
+  <text x="1030" y="518" class="text">Document why.</text>
+
+  <path d="M310 485 L380 485" class="line"/>
+  <path d="M630 485 L700 485" class="line"/>
+  <path d="M950 485 L1010 485" class="line"/>
+  <path d="M1080 420 L1080 330 L1060 330 L1060 280" class="dash"/>
+
+  <line x1="60" y1="650" x2="1150" y2="650" stroke="#bbb"/>
+  <text x="60" y="690" class="small">NIJ research documents confirmation bias and tunnel vision in investigative failures.</text>
+  <text x="60" y="720" class="small">The added self-threat pathway is plausible, but not directly measured in those case studies.</text>
+</svg>
