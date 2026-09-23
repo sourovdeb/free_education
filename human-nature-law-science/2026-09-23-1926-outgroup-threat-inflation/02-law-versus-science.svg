@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science comparison</title>
+<desc id="desc">Comparison panel showing legal requirements for individualized facts and scientific findings about category-shaped perception.</desc>
+<defs>
+  <style>
+    .panel{fill:#fff;stroke:#222;stroke-width:3;rx:20}
+    .mid{fill:#ededed;stroke:#111;stroke-width:4;rx:20}
+    .h{font:700 36px Arial,sans-serif;fill:#111;text-anchor:middle}
+    .t{font:26px Arial,sans-serif;fill:#111;text-anchor:middle}
+    .s{font:22px Arial,sans-serif;fill:#333;text-anchor:middle}
+    .line{stroke:#222;stroke-width:3}
+  </style>
+</defs>
+
+<rect width="1200" height="800" fill="#fafafa"/>
+<text x="600" y="65" class="h">Law versus science</text>
+
+<rect x="60" y="120" width="450" height="560" class="panel"/>
+<text x="285" y="175" class="h">LAW</text>
+<line x1="105" y1="205" x2="465" y2="205" class="line"/>
+<text x="285" y="260" class="t">Individualized suspicion</text>
+<text x="285" y="310" class="t">Specific facts</text>
+<text x="285" y="360" class="t">Articulable reasons</text>
+<text x="285" y="410" class="t">Evidence review</text>
+<text x="285" y="460" class="t">Equal protection</text>
+<text x="285" y="535" class="s">Brignoni-Ponce:</text>
+<text x="285" y="572" class="s">appearance alone fails.</text>
+
+<rect x="690" y="120" width="450" height="560" class="panel"/>
+<text x="915" y="175" class="h">SCIENCE</text>
+<line x1="735" y1="205" x2="1095" y2="205" class="line"/>
+<text x="915" y="260" class="t">Categories guide attention</text>
+<text x="915" y="310" class="t">Threat primes interpretation</text>
+<text x="915" y="360" class="t">Time pressure matters</text>
+<text x="915" y="410" class="t">Dislike can precede threat</text>
+<text x="915" y="460" class="t">Training can help</text>
+<text x="915" y="535" class="s">Meta-analyses show:</text>
+<text x="915" y="572" class="s">threat shifts attitudes.</text>
+
+<rect x="420" y="610" width="360" height="130" class="mid"/>
+<text x="600" y="658" class="h">THE TENSION</text>
+<text x="600" y="700" class="s">Facts enter through perception.</text>
+</svg>
