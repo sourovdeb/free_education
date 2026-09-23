@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science comparison</title>
+<desc id="desc">Two-column comparison showing where legal credibility judgments can differ from cognitive findings about motivated forgetting and retrieval suppression.</desc>
+<defs>
+  <style>
+    .h1{font:700 52px Arial,sans-serif;fill:#111}.h2{font:700 31px Arial,sans-serif;fill:#111}.body{font:25px Arial,sans-serif;fill:#222}.small{font:21px Arial,sans-serif;fill:#333}.left{fill:#f4f4f4;stroke:#333;stroke-width:3;rx:20}.right{fill:#eef4ff;stroke:#34558b;stroke-width:3;rx:20}.bridge{fill:#fff4d6;stroke:#9b6b00;stroke-width:3;rx:20}.rule{stroke:#444;stroke-width:2}
+  </style>
+</defs>
+<rect width="1200" height="1600" fill="#fff"/>
+<text x="70" y="90" class="h1">Law Versus Science</text>
+<text x="70" y="140" class="h2">Motivated forgetting</text>
+
+<rect x="70" y="210" width="500" height="1010" class="left"/>
+<rect x="630" y="210" width="500" height="1010" class="right"/>
+<text x="320" y="270" text-anchor="middle" class="h2">LEGAL PRESSURE</text>
+<text x="880" y="270" text-anchor="middle" class="h2">COGNITIVE EVIDENCE</text>
+
+<text x="110" y="350" class="h2">Consistency matters</text>
+<text x="110" y="400" class="body">Contradictions raise suspicion.</text>
+<text x="110" y="445" class="small">That can be rational.</text>
+<line x1="110" y1="490" x2="530" y2="490" class="rule"/>
+
+<text x="110" y="555" class="h2">Recall looks binary</text>
+<text x="110" y="605" class="body">Remember or forget.</text>
+<text x="110" y="650" class="small">Trials need decisions.</text>
+<line x1="110" y1="695" x2="530" y2="695" class="rule"/>
+
+<text x="110" y="760" class="h2">Omission looks telling</text>
+<text x="110" y="810" class="body">Missing details invite inference.</text>
+<text x="110" y="855" class="small">Sometimes deception exists.</text>
+<line x1="110" y1="900" x2="530" y2="900" class="rule"/>
+
+<text x="110" y="965" class="h2">Credibility gets judged</text>
+<text x="110" y="1015" class="body">Narratives become evidence.</text>
+<text x="110" y="1060" class="small">Law needs accountability.</text>
+
+<text x="670" y="350" class="h2">Access can shift</text>
+<text x="670" y="400" class="body">Retrieval history matters.</text>
+<text x="670" y="445" class="small">Suppression can reduce recall.</text>
+<line x1="670" y1="490" x2="1090" y2="490" class="rule"/>
+
+<text x="670" y="555" class="h2">Memory is graded</text>
+<text x="670" y="605" class="body">Access varies by cue.</text>
+<text x="670" y="650" class="small">Recognition can differ.</text>
+<line x1="670" y1="695" x2="1090" y2="695" class="rule"/>
+
+<text x="670" y="760" class="h2">Omission stays ambiguous</text>
+<text x="670" y="810" class="body">Forgetting has many causes.</text>
+<text x="670" y="855" class="small">Motive cannot be inferred.</text>
+<line x1="670" y1="900" x2="1090" y2="900" class="rule"/>
+
+<text x="670" y="965" class="h2">Effects are modest</text>
+<text x="670" y="1015" class="body">Meta-analysis supports SIF.</text>
+<text x="670" y="1060" class="small">Heterogeneity remains substantial.</text>
+
+<rect x="120" y="1280" width="960" height="220" class="bridge"/>
+<text x="600" y="1340" text-anchor="middle" class="h2">THE PRACTICAL BRIDGE</text>
+<text x="600" y="1392" text-anchor="middle" class="body">Preserve first accounts.</text>
+<text x="600" y="1435" text-anchor="middle" class="body">Record uncertainty precisely.</text>
+<text x="600" y="1478" text-anchor="middle" class="body">Seek independent corroboration.</text>
+</svg>
