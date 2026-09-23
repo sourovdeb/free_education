@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="1000" fill="#fff"/>
+  <text x="80" y="90" font-family="Arial" font-size="44" font-weight="700">Moral Typecasting</text>
+  <text x="80" y="140" font-family="Arial" font-size="24">How roles harden</text>
+
+  <rect x="90" y="220" width="300" height="140" fill="#f3f3f3" stroke="#111" stroke-width="2"/>
+  <text x="240" y="275" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">Harm occurs</text>
+  <text x="240" y="318" text-anchor="middle" font-family="Arial" font-size="22">Ambiguity appears</text>
+
+  <line x1="390" y1="290" x2="520" y2="290" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="540" y="190" width="430" height="200" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="755" y="240" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">Roles form</text>
+  <text x="650" y="300" text-anchor="middle" font-family="Arial" font-size="24">Agent</text>
+  <text x="650" y="338" text-anchor="middle" font-family="Arial" font-size="20">Does something</text>
+  <text x="860" y="300" text-anchor="middle" font-family="Arial" font-size="24">Patient</text>
+  <text x="860" y="338" text-anchor="middle" font-family="Arial" font-size="20">Receives something</text>
+
+  <line x1="970" y1="290" x2="1090" y2="290" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="1110" y="170" width="390" height="240" fill="#f3f3f3" stroke="#111" stroke-width="2"/>
+  <text x="1305" y="225" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">Perception shifts</text>
+  <text x="1305" y="280" text-anchor="middle" font-family="Arial" font-size="21">Agents seem capable</text>
+  <text x="1305" y="320" text-anchor="middle" font-family="Arial" font-size="21">Agents seem tougher</text>
+  <text x="1305" y="360" text-anchor="middle" font-family="Arial" font-size="21">Patients seem vulnerable</text>
+  <text x="1305" y="400" text-anchor="middle" font-family="Arial" font-size="21">Patients seem less agentic</text>
+
+  <line x1="1305" y1="410" x2="1305" y2="520" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="1030" y="550" width="550" height="260" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="1305" y="610" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">Judgment consequences</text>
+  <text x="1305" y="665" text-anchor="middle" font-family="Arial" font-size="22">Blame can harden</text>
+  <text x="1305" y="705" text-anchor="middle" font-family="Arial" font-size="22">Compassion can narrow</text>
+  <text x="1305" y="745" text-anchor="middle" font-family="Arial" font-size="22">Punishment can shift</text>
+  <text x="1305" y="785" text-anchor="middle" font-family="Arial" font-size="22">Counterevidence can fade</text>
+
+  <line x1="1030" y1="680" x2="850" y2="680" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="390" y="545" width="440" height="270" fill="#f3f3f3" stroke="#111" stroke-width="2"/>
+  <text x="610" y="605" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">Reality resists</text>
+  <text x="610" y="660" text-anchor="middle" font-family="Arial" font-size="22">Victims can act</text>
+  <text x="610" y="700" text-anchor="middle" font-family="Arial" font-size="22">Offenders can suffer</text>
+  <text x="610" y="740" text-anchor="middle" font-family="Arial" font-size="22">Roles can reverse</text>
+  <text x="610" y="780" text-anchor="middle" font-family="Arial" font-size="22">Contexts can overlap</text>
+
+  <line x1="390" y1="680" x2="210" y2="680" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="70" y="555" width="260" height="250" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="200" y="615" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">Safeguard</text>
+  <text x="200" y="670" text-anchor="middle" font-family="Arial" font-size="21">Test alternatives</text>
+  <text x="200" y="710" text-anchor="middle" font-family="Arial" font-size="21">Track contrary facts</text>
+  <text x="200" y="750" text-anchor="middle" font-family="Arial" font-size="21">Revisit first labels</text>
+
+  <text x="80" y="910" font-family="Arial" font-size="20">Evidence base: Gray &amp; Wegner, 2009.</text>
+  <text x="80" y="945" font-family="Arial" font-size="20">Related law work: Miller &amp; Borgida, 2016.</text>
+</svg>
