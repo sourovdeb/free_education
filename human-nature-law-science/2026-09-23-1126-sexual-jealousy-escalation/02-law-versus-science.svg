@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison</title>
+  <desc id="desc">Two-column comparison of legal assumptions and behavioral science findings about jealousy, control, and culpability.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill:#111; }
+      .h1 { font-size:34px; font-weight:700; }
+      .h2 { font-size:24px; font-weight:700; }
+      .h3 { font-size:19px; font-weight:700; }
+      .body { font-size:17px; }
+      .small { font-size:15px; }
+      .panel { fill:#fff; stroke:#222; stroke-width:2; rx:16; }
+      .law { fill:#eef3f8; stroke:#2f4d68; stroke-width:2; rx:12; }
+      .science { fill:#f2f7ef; stroke:#40643c; stroke-width:2; rx:12; }
+      .center { fill:#fff5e8; stroke:#8a4b08; stroke-width:2; rx:12; }
+      .line { stroke:#444; stroke-width:2; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="820" fill="#fafafa"/>
+  <text x="60" y="60" class="h1">Law Versus Science</text>
+  <text x="60" y="92" class="body">Same event.</text>
+  <text x="60" y="116" class="small">Different questions.</text>
+
+  <rect x="55" y="150" width="500" height="550" class="panel"/>
+  <rect x="645" y="150" width="500" height="550" class="panel"/>
+
+  <text x="305" y="195" text-anchor="middle" class="h2">LAW</text>
+  <text x="895" y="195" text-anchor="middle" class="h2">SCIENCE</text>
+
+  <rect x="85" y="225" width="440" height="92" class="law"/>
+  <text x="110" y="256" class="h3">Question</text>
+  <text x="110" y="284" class="body">What conduct occurred?</text>
+  <text x="110" y="307" class="small">What culpability applies?</text>
+
+  <rect x="675" y="225" width="440" height="92" class="science"/>
+  <text x="700" y="256" class="h3">Question</text>
+  <text x="700" y="284" class="body">What influenced behavior?</text>
+  <text x="700" y="307" class="small">Which risks cluster?</text>
+
+  <rect x="85" y="345" width="440" height="92" class="law"/>
+  <text x="110" y="376" class="h3">Emotion</text>
+  <text x="110" y="404" class="body">Emotion rarely excuses.</text>
+  <text x="110" y="427" class="small">Rules define relevance.</text>
+
+  <rect x="675" y="345" width="440" height="92" class="science"/>
+  <text x="700" y="376" class="h3">Emotion</text>
+  <text x="700" y="404" class="body">Threat can narrow attention.</text>
+  <text x="700" y="427" class="small">Bias can change choices.</text>
+
+  <rect x="85" y="465" width="440" height="92" class="law"/>
+  <text x="110" y="496" class="h3">Infidelity</text>
+  <text x="110" y="524" class="body">England restricts its role.</text>
+  <text x="110" y="547" class="small">Section 55 applies.</text>
+
+  <rect x="675" y="465" width="440" height="92" class="science"/>
+  <text x="700" y="496" class="h3">Infidelity</text>
+  <text x="700" y="524" class="body">Suspicion can matter.</text>
+  <text x="700" y="547" class="small">Truth remains separate.</text>
+
+  <rect x="85" y="585" width="440" height="92" class="law"/>
+  <text x="110" y="616" class="h3">Decision</text>
+  <text x="110" y="644" class="body">Evidence supports verdicts.</text>
+  <text x="110" y="667" class="small">Intent still matters.</text>
+
+  <rect x="675" y="585" width="440" height="92" class="science"/>
+  <text x="700" y="616" class="h3">Decision</text>
+  <text x="700" y="644" class="body">Risk remains probabilistic.</text>
+  <text x="700" y="667" class="small">Prediction stays imperfect.</text>
+
+  <line x1="600" y1="175" x2="600" y2="700" class="line"/>
+
+  <rect x="390" y="715" width="420" height="70" class="center"/>
+  <text x="600" y="744" text-anchor="middle" class="h3">CORE FRICTION</text>
+  <text x="600" y="771" text-anchor="middle" class="body">Explanation does not excuse.</text>
+</svg>
