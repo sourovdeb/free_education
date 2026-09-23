@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Just-world repair mechanism flow</title>
+  <desc id="desc">Flowchart showing how innocent suffering can threaten expectations of moral order and trigger external or psychological repair strategies.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="1000" fill="#fff"/>
+  <text x="80" y="85" font-family="Arial, sans-serif" font-size="44" font-weight="700">JUST-WORLD REPAIR</text>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="24">One event. Several repair routes.</text>
+
+  <rect x="100" y="205" width="360" height="135" fill="#f2f2f2" stroke="#111" stroke-width="2"/>
+  <text x="280" y="255" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">INNOCENT SUFFERING</text>
+  <text x="280" y="300" text-anchor="middle" font-family="Arial" font-size="22">“This should not happen.”</text>
+
+  <line x1="460" y1="272" x2="660" y2="272" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="690" y="205" width="360" height="135" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="870" y="255" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">JUSTICE THREAT</text>
+  <text x="870" y="300" text-anchor="middle" font-family="Arial" font-size="22">Moral order feels unstable.</text>
+
+  <line x1="1050" y1="272" x2="1235" y2="272" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="1260" y="205" width="250" height="135" fill="#f2f2f2" stroke="#111" stroke-width="2"/>
+  <text x="1385" y="255" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">REPAIR</text>
+  <text x="1385" y="300" text-anchor="middle" font-family="Arial" font-size="22">Reduce the threat.</text>
+
+  <line x1="1385" y1="340" x2="1385" y2="435" stroke="#111" stroke-width="4"/>
+  <line x1="1385" y1="435" x2="495" y2="435" stroke="#111" stroke-width="4"/>
+  <line x1="1385" y1="435" x2="1165" y2="435" stroke="#111" stroke-width="4"/>
+  <line x1="495" y1="435" x2="495" y2="505" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1165" y1="435" x2="1165" y2="505" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="190" y="530" width="610" height="300" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="495" y="585" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">EXTERNAL REPAIR</text>
+  <text x="260" y="645" font-family="Arial" font-size="24">• Help the victim</text>
+  <text x="260" y="695" font-family="Arial" font-size="24">• Compensate losses</text>
+  <text x="260" y="745" font-family="Arial" font-size="24">• Punish wrongdoing</text>
+  <text x="260" y="795" font-family="Arial" font-size="24">• Change institutions</text>
+
+  <rect x="860" y="530" width="610" height="300" fill="#f2f2f2" stroke="#111" stroke-width="3"/>
+  <text x="1165" y="585" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">PSYCHOLOGICAL REPAIR</text>
+  <text x="930" y="645" font-family="Arial" font-size="24">• Deny the injustice</text>
+  <text x="930" y="695" font-family="Arial" font-size="24">• Reframe the outcome</text>
+  <text x="930" y="745" font-family="Arial" font-size="24">• Blame the victim</text>
+  <text x="930" y="795" font-family="Arial" font-size="24">• Devalue the victim</text>
+
+  <text x="800" y="905" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">Important:</text>
+  <text x="800" y="940" text-anchor="middle" font-family="Arial" font-size="21">These routes are conditional. Context changes which response appears.</text>
+</svg>
