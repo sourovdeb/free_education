@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison</title>
+  <desc id="desc">Two panels compare legal impartiality with scientific evidence that severity and similarity can shift blame.</desc>
+  <defs>
+    <style>
+      .bg{fill:#fafafa}.panel{fill:#fff;stroke:#111;stroke-width:3}.band{fill:#ececec;stroke:#111;stroke-width:2}.t{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:48px;font-weight:700}.ph{font-size:35px;font-weight:700}.m{font-size:28px}.s{font-size:24px}.rule{stroke:#111;stroke-width:3}.arrow{stroke:#111;stroke-width:3;fill:none}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1200" height="1500"/>
+  <text class="t h" x="80" y="90">Law versus Science</text>
+  <text class="t s" x="80" y="135">Where blame can diverge</text>
+
+  <rect class="panel" x="70" y="220" rx="18" width="500" height="820"/>
+  <text class="t ph" x="320" y="285" text-anchor="middle">Legal ideal</text>
+  <line class="rule" x1="120" y1="320" x2="520" y2="320"/>
+  <text class="t m" x="150" y="390">Same evidence</text>
+  <text class="t m" x="150" y="445">Same standards</text>
+  <text class="t m" x="150" y="500">Impartial judgment</text>
+  <text class="t m" x="150" y="555">No sympathy effects</text>
+  <text class="t m" x="150" y="610">No fear effects</text>
+  <text class="t m" x="150" y="665">No identity effects</text>
+  <rect class="band" x="120" y="760" rx="12" width="400" height="180"/>
+  <text class="t s" x="320" y="815" text-anchor="middle">Jury instruction goal</text>
+  <text class="t m" x="320" y="870" text-anchor="middle">Evidence drives verdicts</text>
+  <text class="t s" x="320" y="915" text-anchor="middle">Bias should not decide</text>
+
+  <rect class="panel" x="630" y="220" rx="18" width="500" height="820"/>
+  <text class="t ph" x="880" y="285" text-anchor="middle">Scientific finding</text>
+  <line class="rule" x1="680" y1="320" x2="1080" y2="320"/>
+  <text class="t m" x="705" y="390">Outcome severity</text>
+  <text class="t m" x="705" y="445">can shift blame</text>
+  <text class="t m" x="705" y="525">Personal similarity</text>
+  <text class="t m" x="705" y="580">sometimes shifts blame</text>
+  <text class="t m" x="705" y="660">Threat and fear</text>
+  <text class="t m" x="705" y="715">can shape judgment</text>
+  <rect class="band" x="680" y="760" rx="12" width="400" height="180"/>
+  <text class="t s" x="880" y="815" text-anchor="middle">Evidence quality</text>
+  <text class="t m" x="880" y="870" text-anchor="middle">Severity: steadier</text>
+  <text class="t s" x="880" y="915" text-anchor="middle">Similarity: mixed</text>
+
+  <rect class="panel" x="150" y="1110" rx="18" width="900" height="280"/>
+  <text class="t ph" x="600" y="1170" text-anchor="middle">Bridge the gap</text>
+  <text class="t m" x="230" y="1240">Separate conduct</text>
+  <text class="t m" x="230" y="1290">Separate outcomes</text>
+  <text class="t m" x="230" y="1340">Test alternatives</text>
+  <text class="t m" x="650" y="1240">Blind context</text>
+  <text class="t m" x="650" y="1290">Record uncertainty</text>
+  <text class="t m" x="650" y="1340">Audit causation</text>
+</svg>
