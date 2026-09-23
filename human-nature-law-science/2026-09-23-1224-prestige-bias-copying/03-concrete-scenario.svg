@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker>
+    <style>
+      .t{font-family:Arial,sans-serif;fill:#111}.h{font-size:44px;font-weight:700}.sh{font-size:30px;font-weight:700}.s{font-size:24px}.b{fill:#fff;stroke:#111;stroke-width:3}.g{fill:#f2f2f2;stroke:#111;stroke-width:3}.a{stroke:#111;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#fff"/>
+  <text x="70" y="90" class="t h">Concrete scenario</text>
+  <text x="70" y="135" class="t s">Hypothetical homicide investigation.</text>
+
+  <rect x="300" y="200" width="600" height="130" class="g"/>
+  <text x="600" y="250" text-anchor="middle" class="t sh">STEP 1</text>
+  <text x="600" y="295" text-anchor="middle" class="t s">Evidence stays ambiguous.</text>
+
+  <path d="M600 330 L600 410" class="a"/>
+  <rect x="300" y="420" width="600" height="150" class="b"/>
+  <text x="600" y="475" text-anchor="middle" class="t sh">STEP 2</text>
+  <text x="600" y="520" text-anchor="middle" class="t s">Admired analyst favors Suspect A.</text>
+
+  <path d="M600 570 L600 650" class="a"/>
+  <rect x="300" y="660" width="600" height="170" class="g"/>
+  <text x="600" y="715" text-anchor="middle" class="t sh">STEP 3</text>
+  <text x="600" y="760" text-anchor="middle" class="t s">Junior reviewer sees memo.</text>
+  <text x="600" y="800" text-anchor="middle" class="t s">Prestige enters context.</text>
+
+  <path d="M600 830 L600 910" class="a"/>
+
+  <rect x="70" y="930" width="480" height="280" class="b"/>
+  <text x="310" y="985" text-anchor="middle" class="t sh">PATH A</text>
+  <text x="310" y="1035" text-anchor="middle" class="t s">Independent first review.</text>
+  <text x="310" y="1080" text-anchor="middle" class="t s">Context arrives later.</text>
+  <text x="310" y="1125" text-anchor="middle" class="t s">Disagreement stays visible.</text>
+  <text x="310" y="1170" text-anchor="middle" class="t s">Evidence remains separable.</text>
+
+  <rect x="650" y="930" width="480" height="280" class="g"/>
+  <text x="890" y="985" text-anchor="middle" class="t sh">PATH B</text>
+  <text x="890" y="1035" text-anchor="middle" class="t s">Senior view arrives first.</text>
+  <text x="890" y="1080" text-anchor="middle" class="t s">Attention narrows early.</text>
+  <text x="890" y="1125" text-anchor="middle" class="t s">Agreement gains social weight.</text>
+  <text x="890" y="1170" text-anchor="middle" class="t s">Bias can cascade.</text>
+
+  <rect x="170" y="1290" width="860" height="190" class="b"/>
+  <text x="600" y="1345" text-anchor="middle" class="t sh">INVESTIGATION QUESTION</text>
+  <text x="600" y="1400" text-anchor="middle" class="t s">Was agreement independently reached?</text>
+  <text x="600" y="1445" text-anchor="middle" class="t s">Or socially inherited?</text>
+
+  <text x="70" y="1550" class="t s">Prestige-specific causation remains unproven.</text>
+</svg>
