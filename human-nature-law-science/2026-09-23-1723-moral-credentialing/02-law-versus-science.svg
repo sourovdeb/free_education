@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison</title>
+  <desc id="desc">Comparison of legal caution around character evidence with science on moral credentialing.</desc>
+  <defs>
+    <style>
+      .panel{fill:#fff;stroke:#222;stroke-width:3;rx:18}
+      .head{font:700 32px system-ui,sans-serif;fill:#111}
+      .text{font:500 24px system-ui,sans-serif;fill:#222}
+      .small{font:600 21px system-ui,sans-serif;fill:#333}
+      .line{stroke:#333;stroke-width:3}
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="#fafafa"/>
+  <text x="60" y="70" class="head">Law versus science</text>
+
+  <rect x="70" y="130" width="500" height="540" class="panel"/>
+  <text x="320" y="190" text-anchor="middle" class="head">Law</text>
+  <line x1="120" y1="220" x2="520" y2="220" class="line"/>
+  <text x="120" y="280" class="text">Rule 404:</text>
+  <text x="120" y="320" class="text">Character rarely proves conduct</text>
+  <text x="120" y="395" class="text">Rule 608:</text>
+  <text x="120" y="435" class="text">Truthfulness evidence gets limits</text>
+  <text x="120" y="510" class="text">Homicide exception:</text>
+  <text x="120" y="550" class="text">Peacefulness can matter</text>
+  <text x="120" y="625" class="small">Main concern: prejudice</text>
+
+  <rect x="630" y="130" width="500" height="540" class="panel"/>
+  <text x="880" y="190" text-anchor="middle" class="head">Science</text>
+  <line x1="680" y1="220" x2="1080" y2="220" class="line"/>
+  <text x="680" y="280" class="text">Past virtue:</text>
+  <text x="680" y="320" class="text">Does not guarantee conduct</text>
+  <text x="680" y="395" class="text">Observed virtue:</text>
+  <text x="680" y="435" class="text">Can increase latitude</text>
+  <text x="680" y="510" class="text">Private virtue:</text>
+  <text x="680" y="550" class="text">Effects look weak</text>
+  <text x="680" y="625" class="small">Main concern: carryover</text>
+
+  <text x="600" y="735" text-anchor="middle" class="head">Shared safeguard: judge events</text>
+</svg>
