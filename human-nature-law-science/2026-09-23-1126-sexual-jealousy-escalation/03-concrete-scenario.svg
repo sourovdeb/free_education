@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete jealousy escalation scenario</title>
+  <desc id="desc">A fictional separation scenario showing jealousy, monitoring, coercive control, investigation flags, and intervention points.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#222"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill:#111; }
+      .h1 { font-size:34px; font-weight:700; }
+      .h2 { font-size:22px; font-weight:700; }
+      .body { font-size:17px; }
+      .small { font-size:15px; }
+      .event { fill:#fff; stroke:#222; stroke-width:2; rx:14; }
+      .warn { fill:#fff2ea; stroke:#8b3f16; stroke-width:2; rx:14; }
+      .action { fill:#edf7ef; stroke:#2c6c42; stroke-width:2; rx:14; }
+      .line { stroke:#222; stroke-width:2.5; fill:none; marker-end:url(#arrow); }
+      .soft { stroke:#666; stroke-width:2; fill:none; stroke-dasharray:7 7; marker-end:url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="860" fill="#fafafa"/>
+  <text x="60" y="60" class="h1">Concrete Scenario</text>
+  <text x="60" y="92" class="body">Fictional case.</text>
+  <text x="60" y="116" class="small">No outcome is inevitable.</text>
+
+  <text x="60" y="165" class="h2">Relationship timeline</text>
+
+  <rect x="60" y="200" width="190" height="100" class="event"/>
+  <text x="155" y="232" text-anchor="middle" class="h2">Step 1</text>
+  <text x="155" y="262" text-anchor="middle" class="body">Separation announced</text>
+  <text x="155" y="286" text-anchor="middle" class="small">Bond feels threatened</text>
+
+  <rect x="290" y="200" width="190" height="100" class="event"/>
+  <text x="385" y="232" text-anchor="middle" class="h2">Step 2</text>
+  <text x="385" y="262" text-anchor="middle" class="body">Suspicion increases</text>
+  <text x="385" y="286" text-anchor="middle" class="small">A rival gets imagined</text>
+
+  <rect x="520" y="200" width="190" height="100" class="warn"/>
+  <text x="615" y="232" text-anchor="middle" class="h2">Step 3</text>
+  <text x="615" y="262" text-anchor="middle" class="body">Phone checking begins</text>
+  <text x="615" y="286" text-anchor="middle" class="small">Monitoring expands</text>
+
+  <rect x="750" y="200" width="190" height="100" class="warn"/>
+  <text x="845" y="232" text-anchor="middle" class="h2">Step 4</text>
+  <text x="845" y="262" text-anchor="middle" class="body">Restrictions increase</text>
+  <text x="845" y="286" text-anchor="middle" class="small">Control becomes visible</text>
+
+  <rect x="980" y="200" width="160" height="100" class="warn"/>
+  <text x="1060" y="232" text-anchor="middle" class="h2">Step 5</text>
+  <text x="1060" y="262" text-anchor="middle" class="body">Threats appear</text>
+  <text x="1060" y="286" text-anchor="middle" class="small">Risk needs review</text>
+
+  <path d="M250 250 L290 250" class="line"/>
+  <path d="M480 250 L520 250" class="line"/>
+  <path d="M710 250 L750 250" class="line"/>
+  <path d="M940 250 L980 250" class="line"/>
+
+  <text x="60" y="375" class="h2">Investigation priorities</text>
+
+  <rect x="60" y="410" width="250" height="100" class="event"/>
+  <text x="185" y="442" text-anchor="middle" class="h2">Pattern</text>
+  <text x="185" y="472" text-anchor="middle" class="body">Prior control?</text>
+  <text x="185" y="496" text-anchor="middle" class="small">Prior stalking?</text>
+
+  <rect x="340" y="410" width="250" height="100" class="event"/>
+  <text x="465" y="442" text-anchor="middle" class="h2">Evidence</text>
+  <text x="465" y="472" text-anchor="middle" class="body">Messages preserved?</text>
+  <text x="465" y="496" text-anchor="middle" class="small">Witnesses identified?</text>
+
+  <rect x="620" y="410" width="250" height="100" class="event"/>
+  <text x="745" y="442" text-anchor="middle" class="h2">Risk</text>
+  <text x="745" y="472" text-anchor="middle" class="body">Weapons accessible?</text>
+  <text x="745" y="496" text-anchor="middle" class="small">Threats escalating?</text>
+
+  <rect x="900" y="410" width="240" height="100" class="event"/>
+  <text x="1020" y="442" text-anchor="middle" class="h2">Alternatives</text>
+  <text x="1020" y="472" text-anchor="middle" class="body">Contradictory evidence?</text>
+  <text x="1020" y="496" text-anchor="middle" class="small">Other explanations?</text>
+
+  <path d="M1060 300 C1060 350, 185 350, 185 410" class="soft"/>
+  <path d="M1060 300 C1060 360, 465 360, 465 410" class="soft"/>
+  <path d="M1060 300 C1060 370, 745 370, 745 410" class="soft"/>
+  <path d="M1060 300 L1020 410" class="soft"/>
+
+  <text x="60" y="590" class="h2">Intervention points</text>
+
+  <rect x="60" y="625" width="250" height="115" class="action"/>
+  <text x="185" y="660" text-anchor="middle" class="h2">Before control</text>
+  <text x="185" y="690" text-anchor="middle" class="body">Challenge assumptions</text>
+  <text x="185" y="716" text-anchor="middle" class="small">Stop surveillance</text>
+
+  <rect x="340" y="625" width="250" height="115" class="action"/>
+  <text x="465" y="660" text-anchor="middle" class="h2">During control</text>
+  <text x="465" y="690" text-anchor="middle" class="body">Protect autonomy</text>
+  <text x="465" y="716" text-anchor="middle" class="small">Document patterns</text>
+
+  <rect x="620" y="625" width="250" height="115" class="action"/>
+  <text x="745" y="660" text-anchor="middle" class="h2">During separation</text>
+  <text x="745" y="690" text-anchor="middle" class="body">Reassess risk</text>
+  <text x="745" y="716" text-anchor="middle" class="small">Use safety planning</text>
+
+  <rect x="900" y="625" width="240" height="115" class="action"/>
+  <text x="1020" y="660" text-anchor="middle" class="h2">During investigation</text>
+  <text x="1020" y="690" text-anchor="middle" class="body">Avoid passion labels</text>
+  <text x="1020" y="716" text-anchor="middle" class="small">Follow evidence</text>
+
+  <text x="60" y="812" class="small">Jealousy alone proves nothing.</text>
+  <text x="60" y="836" class="small">Patterns change the risk.</text>
+</svg>
