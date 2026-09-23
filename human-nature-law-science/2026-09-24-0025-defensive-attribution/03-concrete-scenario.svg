@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete defensive attribution scenario</title>
+  <desc id="desc">Two matched speeding cases produce different outcomes, illustrating how severity can change blame even when conduct is similar.</desc>
+  <defs>
+    <style>
+      .bg{fill:#fafafa}.panel{fill:#fff;stroke:#111;stroke-width:3}.band{fill:#ececec;stroke:#111;stroke-width:2}.t{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:48px;font-weight:700}.ph{font-size:34px;font-weight:700}.m{font-size:28px}.s{font-size:23px}.road{stroke:#777;stroke-width:12}.arrow{stroke:#111;stroke-width:4;fill:none}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1200" height="1500"/>
+  <text class="t h" x="80" y="90">Same Conduct, Different Harm</text>
+  <text class="t s" x="80" y="135">An attribution scenario</text>
+
+  <rect class="panel" x="70" y="220" rx="18" width="500" height="770"/>
+  <text class="t ph" x="320" y="285" text-anchor="middle">Case A</text>
+  <text class="t m" x="125" y="355">Driver speeds</text>
+  <text class="t m" x="125" y="405">Road is wet</text>
+  <text class="t m" x="125" y="455">Pedestrian appears</text>
+  <line class="road" x1="135" y1="560" x2="505" y2="560"/>
+  <rect x="195" y="510" width="125" height="60" rx="12" fill="#ddd" stroke="#111" stroke-width="3"/>
+  <circle cx="225" cy="580" r="18" fill="#fff" stroke="#111" stroke-width="3"/>
+  <circle cx="295" cy="580" r="18" fill="#fff" stroke="#111" stroke-width="3"/>
+  <line class="arrow" x1="330" y1="540" x2="450" y2="540"/>
+  <text class="t m" x="320" y="680" text-anchor="middle">Brakes succeed</text>
+  <text class="t m" x="320" y="730" text-anchor="middle">No collision</text>
+  <rect class="band" x="120" y="810" rx="12" width="400" height="120"/>
+  <text class="t s" x="320" y="860" text-anchor="middle">Typical reaction</text>
+  <text class="t m" x="320" y="905" text-anchor="middle">“Risky driving”</text>
+
+  <rect class="panel" x="630" y="220" rx="18" width="500" height="770"/>
+  <text class="t ph" x="880" y="285" text-anchor="middle">Case B</text>
+  <text class="t m" x="685" y="355">Driver speeds</text>
+  <text class="t m" x="685" y="405">Road is wet</text>
+  <text class="t m" x="685" y="455">Pedestrian appears</text>
+  <line class="road" x1="695" y1="560" x2="1065" y2="560"/>
+  <rect x="755" y="510" width="125" height="60" rx="12" fill="#ddd" stroke="#111" stroke-width="3"/>
+  <circle cx="785" cy="580" r="18" fill="#fff" stroke="#111" stroke-width="3"/>
+  <circle cx="855" cy="580" r="18" fill="#fff" stroke="#111" stroke-width="3"/>
+  <line class="arrow" x1="890" y1="540" x2="1010" y2="540"/>
+  <text class="t m" x="880" y="680" text-anchor="middle">Brakes fail</text>
+  <text class="t m" x="880" y="730" text-anchor="middle">Fatal collision</text>
+  <rect class="band" x="680" y="810" rx="12" width="400" height="120"/>
+  <text class="t s" x="880" y="860" text-anchor="middle">Typical reaction</text>
+  <text class="t m" x="880" y="905" text-anchor="middle">“Severe blame”</text>
+
+  <rect class="panel" x="130" y="1080" rx="18" width="940" height="310"/>
+  <text class="t ph" x="600" y="1145" text-anchor="middle">Question the judgment</text>
+  <text class="t m" x="220" y="1220">Was conduct different?</text>
+  <text class="t m" x="220" y="1275">Was knowledge different?</text>
+  <text class="t m" x="220" y="1330">Was control different?</text>
+  <text class="t s" x="700" y="1220">Law may value outcomes.</text>
+  <text class="t s" x="700" y="1275">Causal blame needs care.</text>
+  <text class="t s" x="700" y="1330">Severity can bias inference.</text>
+</svg>
