@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proof of Work: Write a Strong CV Bullet</title>
+<style>
+:root{--ink:#16161d;--paper:#f7f6f1;--lime:#c8f169;--violet:#5a42c8;--line:#bebdcc}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.5 system-ui,sans-serif}main{max-width:880px;margin:auto;padding:22px}.hero{background:var(--violet);color:#fff;border:3px solid var(--ink);padding:clamp(22px,6vw,58px);box-shadow:8px 8px 0 var(--lime)}h1{font-size:clamp(2.3rem,8vw,5.4rem);line-height:.92;letter-spacing:-.07em;margin:0 0 18px}.tag{font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:.76rem}.card{margin:25px 0;padding:25px;border:2px solid var(--ink);background:#fff}h2{font-size:1.6rem;margin:0 0 10px}.step{display:inline-block;padding:3px 9px;background:var(--lime);font-weight:800;font-size:.75rem}button{cursor:pointer;border:2px solid var(--ink);padding:12px 16px;background:var(--lime);font:700 1rem system-ui;box-shadow:3px 3px 0 var(--ink)}button:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}button:focus,textarea:focus{outline:4px solid var(--violet);outline-offset:2px}.choice{display:block;width:100%;margin:10px 0;text-align:left;background:#fff}.choice.good{background:#ccefcf}.choice.bad{background:#ffd3d3}.feedback{font-weight:750;min-height:30px}.formula{font-size:1.2rem;padding:15px;background:#f1f0ea;border-left:9px solid var(--violet)}textarea{display:block;width:100%;min-height:130px;padding:13px;margin:15px 0;border:2px solid var(--ink);font:1rem system-ui}.score{font-size:1.6rem;font-weight:900}.share{background:var(--violet);color:#fff}.small{font-size:.88rem}@media(max-width:520px){main{padding:13px}.card{padding:18px}.hero{box-shadow:5px 5px 0 var(--lime)}}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<p class="tag">Open Source CELTA 2.0 · Writing for work</p>
+<h1>Proof of Work.</h1>
+<p>Turn experience into one CV bullet.</p>
+<p><strong>Goal:</strong> show action and result.</p>
+</section>
+<section class="card">
+<span class="step">01 · Compare</span>
+<h2>Which bullet has proof?</h2>
+<p>Choose the stronger line.</p>
+<button class="choice" data-ok="no">I worked in a small shop.</button>
+<button class="choice" data-ok="yes">Helped 30 customers each day and reduced queue time through clear product guidance.</button>
+<button class="choice" data-ok="no">I am hard-working and friendly.</button>
+<p class="feedback" id="answer" aria-live="polite"></p>
+</section>
+<section class="card">
+<span class="step">02 · Build</span>
+<h2>Use this formula</h2>
+<p class="formula"><strong>Action</strong> + task + result</p>
+<p>Action words: helped · organised · taught · repaired · served · created · supported</p>
+<label for="bullet">Write one bullet.</label>
+<textarea id="bullet" placeholder="Example: Organised stock records and reduced missing items."></textarea>
+<button id="check">Check my bullet</button>
+<p class="score" id="score" aria-live="polite"></p>
+<p class="feedback" id="tips"></p>
+</section>
+<section class="card">
+<span class="step">03 · Improve</span>
+<h2>Add a fact</h2>
+<p>Better: <strong>Taught 18 learners</strong> twice weekly.</p>
+<p>Add one number, time, place, tool, or result.</p>
+<button id="example">Show another example</button>
+<p class="feedback" id="exampleOut"></p>
+</section>
+<section class="card">
+<span class="step">04 · Share</span>
+<h2>Post this lesson</h2>
+<p>Copy a LinkedIn caption.</p>
+<button class="share" id="share">Copy LinkedIn post</button>
+<p class="feedback" id="shareOut" aria-live="polite"></p>
+</section>
+<p class="small">Free to use and adapt. This lesson follows a task-first approach: notice, try, receive feedback, revise. It is suitable for phones, peer work, and community classes.</p>
+</main>
+<script>
+document.querySelectorAll('.choice').forEach(b=>b.onclick=()=>{let ok=b.dataset.ok==='yes';b.classList.add(ok?'good':'bad');document.getElementById('answer').textContent=ok?'Correct. It shows an action, scale, and outcome.':'Try again. Employers need evidence, not labels.'});
+document.getElementById('check').onclick=()=>{let v=document.getElementById('bullet').value.trim(),l=v.toLowerCase(),points=0,t=[];if(/helped|organised|organized|taught|repaired|served|created|supported|managed|led/.test(l)){points++;t.push('action found')}else t.push('add an action word');if(/\d|daily|weekly|monthly|faster|reduc|improv|increas|less|more/.test(l)){points++;t.push('evidence found')}else t.push('add one fact or result');if(v.split(/\s+/).length>=7){points++;t.push('enough detail')}else t.push('add detail');document.getElementById('score').textContent=points+'/3';document.getElementById('tips').textContent=t.join(' · ')+'.';};
+const examples=['Served customers during evening shifts and handled cash payments accurately.','Created a WhatsApp study group for 24 learners and shared weekly practice tasks.','Repaired six mobile phones each month and explained costs before work began.'];let i=0;document.getElementById('example').onclick=()=>{document.getElementById('exampleOut').textContent=examples[i++%examples.length]};
+document.getElementById('share').onclick=async()=>{let t='Free lesson: “Proof of Work.” Learners turn experience into strong CV bullets. No sign-in. No payment. Built for phones and classrooms. #OpenEducation #CareerSkills #EnglishLearning';try{await navigator.clipboard.writeText(t);document.getElementById('shareOut').textContent='Caption copied.'}catch(e){document.getElementById('shareOut').textContent=t}};
+</script>
+</body></html>
