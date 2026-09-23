@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Schadenfreude mechanism flow</title>
+  <desc id="desc">A flow diagram showing how rivalry, deservingness, envy, and punishment can produce pleasure and reinforce judgment.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#111"/>
+    </marker>
+    <style>
+      .bg{fill:#f7f7f5}.box{fill:#fff;stroke:#111;stroke-width:3}.soft{fill:#eef4ff;stroke:#111;stroke-width:3}.warn{fill:#fff2e8;stroke:#111;stroke-width:3}.good{fill:#eef8ef;stroke:#111;stroke-width:3}.t{font-family:Arial,sans-serif;fill:#111}.h1{font-size:48px;font-weight:700}.h2{font-size:27px;font-weight:700}.p{font-size:23px}.small{font-size:18px}.line{stroke:#111;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="t h1" x="70" y="80">Mechanism flow</text>
+  <text class="t p" x="70" y="120">Pleasure can borrow justice.</text>
+
+  <rect class="box" x="70" y="180" rx="16" width="300" height="170"/>
+  <text class="t h2" x="100" y="225">Trigger</text>
+  <text class="t p" x="100" y="265">Rule violation</text>
+  <text class="t p" x="100" y="300">Rival advantage</text>
+  <text class="t p" x="100" y="335">Status threat</text>
+
+  <rect class="soft" x="455" y="180" rx="16" width="300" height="170"/>
+  <text class="t h2" x="485" y="225">Appraisal</text>
+  <text class="t p" x="485" y="265">“They deserve it”</text>
+  <text class="t p" x="485" y="300">“Balance returns”</text>
+  <text class="t p" x="485" y="335">“My rank rises”</text>
+
+  <rect class="warn" x="840" y="180" rx="16" width="300" height="170"/>
+  <text class="t h2" x="870" y="225">Affective reward</text>
+  <text class="t p" x="870" y="265">Relief</text>
+  <text class="t p" x="870" y="300">Pleasure</text>
+  <text class="t p" x="870" y="335">Reduced empathy</text>
+
+  <rect class="box" x="1225" y="180" rx="16" width="300" height="170"/>
+  <text class="t h2" x="1255" y="225">Judgment shift</text>
+  <text class="t p" x="1255" y="265">Punishment feels right</text>
+  <text class="t p" x="1255" y="300">Certainty can rise</text>
+  <text class="t p" x="1255" y="335">Mercy can fall</text>
+
+  <path class="line" d="M370 265 H445"/>
+  <path class="line" d="M755 265 H830"/>
+  <path class="line" d="M1140 265 H1215"/>
+
+  <path class="line" d="M1375 350 C1375 455 610 455 610 360"/>
+  <text class="t small" x="900" y="438">Feedback can harden appraisal.</text>
+
+  <rect class="good" x="170" y="560" rx="16" width="1260" height="250"/>
+  <text class="t h2" x="210" y="610">What weakens the loop?</text>
+  <text class="t p" x="210" y="665">Cooperation</text>
+  <text class="t p" x="500" y="665">Uncertainty</text>
+  <text class="t p" x="760" y="665">Counterevidence</text>
+  <text class="t p" x="1080" y="665">Role separation</text>
+  <line x1="210" y1="710" x2="1390" y2="710" stroke="#111" stroke-width="2"/>
+  <text class="t small" x="210" y="755">Cikara: cooperation reduced responses.</text>
+  <text class="t small" x="210" y="790">Yam: deservingness predicted pleasure.</text>
+
+  <text class="t small" x="70" y="920">Key evidence: 10.1177/1948550611409245</text>
+  <text class="t small" x="590" y="920">10.1007/s11031-023-10041-2</text>
+  <text class="t small" x="1040" y="920">10.1126/science.1165604</text>
+</svg>
