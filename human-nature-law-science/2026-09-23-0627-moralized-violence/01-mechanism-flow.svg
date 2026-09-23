@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Moralized violence mechanism flow</title>
+  <desc id="desc">A six-stage flow showing how perceived violation can become moralized, reinforced, and converted into punitive violence, with interruption points.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#111"/>
+    </marker>
+    <style>
+      .bg{fill:#f7f7f5}.box{fill:#fff;stroke:#111;stroke-width:3}.warn{fill:#ece6e1;stroke:#111;stroke-width:3}.stop{fill:#e7ece8;stroke:#111;stroke-width:3}.t{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:54px;font-weight:700}.s{font-size:28px}.b{font-size:31px;font-weight:700}.n{font-size:24px}.line{stroke:#111;stroke-width:5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="1600"/>
+  <text class="t h" x="80" y="95">Moralized Violence</text>
+  <text class="t s" x="80" y="145">How punishment can feel righteous</text>
+
+  <rect class="box" x="100" y="210" width="1000" height="150" rx="8"/>
+  <text class="t b" x="145" y="265">1. Perceived violation</text>
+  <text class="t n" x="145" y="310">A rule seems broken.</text>
+  <text class="t n" x="145" y="340">A grievance forms.</text>
+
+  <path class="line" d="M600 365 L600 430"/>
+
+  <rect class="box" x="100" y="440" width="1000" height="150" rx="8"/>
+  <text class="t b" x="145" y="495">2. Moralization</text>
+  <text class="t n" x="145" y="540">The grievance becomes sacred.</text>
+  <text class="t n" x="145" y="570">Compromise feels corrupt.</text>
+
+  <path class="line" d="M600 595 L600 660"/>
+
+  <rect class="warn" x="100" y="670" width="1000" height="150" rx="8"/>
+  <text class="t b" x="145" y="725">3. Righteous anger</text>
+  <text class="t n" x="145" y="770">Punishment feels deserved.</text>
+  <text class="t n" x="145" y="800">Urgency rises.</text>
+
+  <path class="line" d="M600 825 L600 890"/>
+
+  <rect class="warn" x="100" y="900" width="1000" height="150" rx="8"/>
+  <text class="t b" x="145" y="955">4. Social reinforcement</text>
+  <text class="t n" x="145" y="1000">Peers confirm the duty.</text>
+  <text class="t n" x="145" y="1030">Doubt becomes disloyalty.</text>
+
+  <path class="line" d="M600 1055 L600 1120"/>
+
+  <rect class="warn" x="100" y="1130" width="1000" height="150" rx="8"/>
+  <text class="t b" x="145" y="1185">5. Procedure loses value</text>
+  <text class="t n" x="145" y="1230">Delay feels immoral.</text>
+  <text class="t n" x="145" y="1260">Evidence feels secondary.</text>
+
+  <path class="line" d="M600 1285 L600 1350"/>
+
+  <rect class="warn" x="100" y="1360" width="1000" height="150" rx="8"/>
+  <text class="t b" x="145" y="1415">6. Violence becomes thinkable</text>
+  <text class="t n" x="145" y="1460">Harm gets reframed.</text>
+  <text class="t n" x="145" y="1490">It now feels corrective.</text>
+
+  <rect class="stop" x="760" y="385" width="350" height="190" rx="8"/>
+  <text class="t b" x="795" y="435">Interruptions</text>
+  <text class="t n" x="795" y="480">Evidence checks</text>
+  <text class="t n" x="795" y="515">Dissenting peers</text>
+  <text class="t n" x="795" y="550">Procedural delay</text>
+</svg>
