@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Authority outsourcing scenario</title>
+  <desc id="desc">A workplace scenario compares compliance and refusal after a supervisor orders removal of a safety warning.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#222"/>
+    </marker>
+    <style>
+      .box{fill:#f8f8f8;stroke:#222;stroke-width:2;rx:14;ry:14}
+      .note{fill:#fff;stroke:#555;stroke-width:1.5;stroke-dasharray:7 5;rx:12;ry:12}
+      .line{stroke:#222;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+      .title{font:700 34px Arial,sans-serif;fill:#111}
+      .head{font:700 22px Arial,sans-serif;fill:#111}
+      .text{font:18px Arial,sans-serif;fill:#222}
+      .small{font:16px Arial,sans-serif;fill:#333}
+    </style>
+  </defs>
+
+  <text x="60" y="60" class="title">Authority Outsourcing: Concrete Scenario</text>
+
+  <rect x="365" y="100" width="470" height="110" class="box"/>
+  <text x="600" y="140" text-anchor="middle" class="head">Supervisor gives order</text>
+  <text x="600" y="172" text-anchor="middle" class="text">“Remove the safety warning.”</text>
+
+  <path d="M500 210 L300 310" class="line"/>
+  <path d="M700 210 L900 310" class="line"/>
+
+  <rect x="80" y="310" width="430" height="170" class="box"/>
+  <text x="295" y="350" text-anchor="middle" class="head">Worker A complies</text>
+  <text x="120" y="392" class="text">Order feels binding.</text>
+  <text x="120" y="425" class="text">Choice feels narrow.</text>
+  <text x="120" y="458" class="text">Blame shifts upward.</text>
+
+  <rect x="690" y="310" width="430" height="170" class="box"/>
+  <text x="905" y="350" text-anchor="middle" class="head">Worker B refuses</text>
+  <text x="730" y="392" class="text">Order feels unlawful.</text>
+  <text x="730" y="425" class="text">Choice stays visible.</text>
+  <text x="730" y="458" class="text">Responsibility stays personal.</text>
+
+  <path d="M295 480 L295 565" class="line"/>
+  <path d="M905 480 L905 565" class="line"/>
+
+  <rect x="90" y="565" width="410" height="105" class="note"/>
+  <text x="295" y="603" text-anchor="middle" class="head">Investigation questions</text>
+  <text x="295" y="636" text-anchor="middle" class="small">What was ordered?</text>
+  <text x="295" y="660" text-anchor="middle" class="small">What choices existed?</text>
+
+  <rect x="700" y="565" width="410" height="105" class="note"/>
+  <text x="905" y="603" text-anchor="middle" class="head">Evidence questions</text>
+  <text x="905" y="636" text-anchor="middle" class="small">What conduct occurred?</text>
+  <text x="905" y="660" text-anchor="middle" class="small">What intent is proved?</text>
+
+  <rect x="280" y="710" width="640" height="55" class="box"/>
+  <text x="600" y="744" text-anchor="middle" class="text">Same authority. Different agency. Different conduct.</text>
+</svg>
