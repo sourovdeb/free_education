@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Status-quo moralization mechanism</title>
+<desc id="desc">A flow showing how existing arrangements can gain moral approval through familiarity, default acceptance, inferred usefulness, and resistance to change.</desc>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#111"/>
+  </marker>
+</defs>
+<rect width="1200" height="820" fill="#fff"/>
+<text x="60" y="70" font-family="Arial, sans-serif" font-size="36" font-weight="700">STATUS-QUO MORALIZATION</text>
+<text x="60" y="110" font-family="Arial, sans-serif" font-size="20">Existence can gain approval.</text>
+
+<rect x="70" y="180" width="210" height="120" fill="#f4f4f4" stroke="#111" stroke-width="2"/>
+<text x="175" y="225" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Existing rule</text>
+<text x="175" y="260" text-anchor="middle" font-family="Arial" font-size="18">Already in place</text>
+
+<rect x="350" y="180" width="210" height="120" fill="#f4f4f4" stroke="#111" stroke-width="2"/>
+<text x="455" y="225" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Familiarity</text>
+<text x="455" y="260" text-anchor="middle" font-family="Arial" font-size="18">Feels normal</text>
+
+<rect x="630" y="180" width="210" height="120" fill="#f4f4f4" stroke="#111" stroke-width="2"/>
+<text x="735" y="225" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Inferred value</text>
+<text x="735" y="260" text-anchor="middle" font-family="Arial" font-size="18">Must serve something</text>
+
+<rect x="910" y="180" width="210" height="120" fill="#f4f4f4" stroke="#111" stroke-width="2"/>
+<text x="1015" y="225" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Moral approval</text>
+<text x="1015" y="260" text-anchor="middle" font-family="Arial" font-size="18">Feels more proper</text>
+
+<line x1="280" y1="240" x2="340" y2="240" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="560" y1="240" x2="620" y2="240" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="840" y1="240" x2="900" y2="240" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+
+<rect x="210" y="420" width="300" height="120" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="360" y="465" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">Status-quo preference</text>
+<text x="360" y="500" text-anchor="middle" font-family="Arial" font-size="18">Keep current option</text>
+
+<rect x="690" y="420" width="300" height="120" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="840" y="465" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">Injunctification</text>
+<text x="840" y="500" text-anchor="middle" font-family="Arial" font-size="18">Is becomes should</text>
+
+<line x1="455" y1="300" x2="390" y2="410" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1015" y1="300" x2="870" y2="410" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+
+<rect x="340" y="640" width="520" height="100" fill="#f4f4f4" stroke="#111" stroke-width="2"/>
+<text x="600" y="680" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">Resistance can increase</text>
+<text x="600" y="715" text-anchor="middle" font-family="Arial" font-size="18">But reasons also matter</text>
+
+<line x1="360" y1="540" x2="520" y2="630" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="840" y1="540" x2="680" y2="630" stroke="#111" stroke-width="3" marker-end="url(#arrow)"/>
+
+<text x="60" y="790" font-family="Arial" font-size="17">Evidence supports several links. Motive claims remain debated.</text>
+</svg>
