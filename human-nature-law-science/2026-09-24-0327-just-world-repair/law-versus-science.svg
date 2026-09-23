@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison for just-world repair</title>
+  <desc id="desc">Two-panel comparison showing legal safeguards against character prejudice and psychological evidence that justice motives can still influence judgments.</desc>
+  <rect width="1600" height="1000" fill="#fff"/>
+  <text x="80" y="85" font-family="Arial, sans-serif" font-size="44" font-weight="700">LAW VERSUS SCIENCE</text>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="24">The same case. Different assumptions.</text>
+
+  <line x1="800" y1="170" x2="800" y2="850" stroke="#111" stroke-width="3"/>
+
+  <text x="400" y="220" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">LAW</text>
+  <text x="1200" y="220" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">BEHAVIORAL SCIENCE</text>
+
+  <rect x="120" y="275" width="560" height="135" fill="#f2f2f2" stroke="#111" stroke-width="2"/>
+  <text x="400" y="325" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700">RELEVANCE</text>
+  <text x="400" y="365" text-anchor="middle" font-family="Arial" font-size="22">Decide from admissible evidence.</text>
+
+  <rect x="920" y="275" width="560" height="135" fill="#f2f2f2" stroke="#111" stroke-width="2"/>
+  <text x="1200" y="325" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700">MOTIVE</text>
+  <text x="1200" y="365" text-anchor="middle" font-family="Arial" font-size="22">Judgments can protect worldviews.</text>
+
+  <rect x="120" y="455" width="560" height="170" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="400" y="505" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700">RULE 404</text>
+  <text x="400" y="550" text-anchor="middle" font-family="Arial" font-size="22">Character evidence is limited.</text>
+  <text x="400" y="590" text-anchor="middle" font-family="Arial" font-size="22">Propensity can mislead jurors.</text>
+
+  <rect x="920" y="455" width="560" height="170" fill="#fff" stroke="#111" stroke-width="2"/>
+  <text x="1200" y="505" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700">JUSTICE THREAT</text>
+  <text x="1200" y="550" text-anchor="middle" font-family="Arial" font-size="22">Innocent suffering feels unstable.</text>
+  <text x="1200" y="590" text-anchor="middle" font-family="Arial" font-size="22">Character reinterpretation can follow.</text>
+
+  <rect x="120" y="670" width="560" height="150" fill="#f2f2f2" stroke="#111" stroke-width="2"/>
+  <text x="400" y="720" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700">RULE 412</text>
+  <text x="400" y="765" text-anchor="middle" font-family="Arial" font-size="22">Sexual-history evidence is restricted.</text>
+
+  <rect x="920" y="670" width="560" height="150" fill="#f2f2f2" stroke="#111" stroke-width="2"/>
+  <text x="1200" y="720" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700">HIDDEN INFERENCE</text>
+  <text x="1200" y="765" text-anchor="middle" font-family="Arial" font-size="22">People may still moralize victims.</text>
+
+  <rect x="300" y="875" width="1000" height="70" fill="#fff" stroke="#111" stroke-width="3"/>
+  <text x="800" y="918" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">TENSION: law can exclude evidence, but not every internal inference.</text>
+</svg>
