@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science comparison</title>
+<desc id="desc">A comparison showing legal reliance on intent and impartiality beside scientific findings about self-assessment and bias, joined by procedural safeguards.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#20242a"/>
+  </marker>
+  <style>
+    .bg{fill:#f7f5ef}
+    .panel{fill:#fff;stroke:#20242a;stroke-width:2}
+    .bridge{fill:#e5eef0;stroke:#20242a;stroke-width:2}
+    .title{font:700 34px Arial,sans-serif;fill:#111}
+    .head{font:700 28px Arial,sans-serif;fill:#111}
+    .item{font:400 21px Arial,sans-serif;fill:#222}
+    .note{font:700 20px Arial,sans-serif;fill:#111}
+    .arrow{stroke:#20242a;stroke-width:3;fill:none;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect class="bg" width="1200" height="900"/>
+<text class="title" x="70" y="70">LAW VERSUS SCIENCE</text>
+<text class="item" x="70" y="105">Where self-trust meets procedure</text>
+
+<rect class="panel" x="70" y="155" width="480" height="470" rx="8"/>
+<text class="head" x="310" y="205" text-anchor="middle">LAW</text>
+<text class="item" x="120" y="270">Intent can matter.</text>
+<text class="item" x="120" y="325">Good faith can matter.</text>
+<text class="item" x="120" y="380">Impartiality is required.</text>
+<text class="item" x="120" y="435">Credibility gets assessed.</text>
+<text class="item" x="120" y="490">Actions remain evidence.</text>
+<text class="item" x="120" y="545">Recusal can use risk.</text>
+<text class="note" x="310" y="595" text-anchor="middle">Self-certainty is insufficient.</text>
+
+<rect class="panel" x="650" y="155" width="480" height="470" rx="8"/>
+<text class="head" x="890" y="205" text-anchor="middle">SCIENCE</text>
+<text class="item" x="700" y="270">Self-ratings can inflate.</text>
+<text class="item" x="700" y="325">Bias escapes introspection.</text>
+<text class="item" x="700" y="380">Intentions get extra credit.</text>
+<text class="item" x="700" y="435">Confidence can mislead.</text>
+<text class="item" x="700" y="490">Context shapes judgment.</text>
+<text class="item" x="700" y="545">Outside checks can help.</text>
+<text class="note" x="890" y="595" text-anchor="middle">Calibration needs procedure.</text>
+
+<path class="arrow" d="M550 390 H650"/>
+
+<rect class="bridge" x="180" y="700" width="840" height="130" rx="8"/>
+<text class="head" x="600" y="745" text-anchor="middle">PROCEDURAL BRIDGE</text>
+<text class="item" x="330" y="790" text-anchor="middle">Objective recusal rules</text>
+<text class="item" x="600" y="790" text-anchor="middle">Independent review</text>
+<text class="item" x="870" y="790" text-anchor="middle">Audit trails</text>
+
+<path class="arrow" d="M310 625 V700"/>
+<path class="arrow" d="M890 625 V700"/>
+</svg>
