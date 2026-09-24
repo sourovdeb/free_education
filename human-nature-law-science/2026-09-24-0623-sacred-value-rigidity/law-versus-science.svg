@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science comparison</title>
+<desc id="desc">A comparison between legal bargaining assumptions and sacred-value research.</desc>
+<defs>
+  <style>
+    .panel{fill:#fff;stroke:#111;stroke-width:3}
+    .head{font:700 38px Arial,sans-serif}
+    .sub{font:700 30px Arial,sans-serif}
+    .txt{font:25px Arial,sans-serif}
+    .small{font:21px Arial,sans-serif}
+    .divider{stroke:#111;stroke-width:3}
+  </style>
+</defs>
+<rect width="1200" height="1500" fill="#f7f7f5"/>
+<text x="70" y="85" class="head">Law versus science</text>
+<text x="70" y="125" class="small">Where assumptions collide</text>
+
+<rect x="70" y="180" width="500" height="1080" class="panel"/>
+<rect x="630" y="180" width="500" height="1080" class="panel"/>
+
+<text x="320" y="245" text-anchor="middle" class="sub">LAW</text>
+<text x="880" y="245" text-anchor="middle" class="sub">SCIENCE</text>
+<line x1="100" y1="285" x2="540" y2="285" class="divider"/>
+<line x1="660" y1="285" x2="1100" y2="285" class="divider"/>
+
+<text x="110" y="350" class="txt">Cases need choices</text>
+<text x="110" y="395" class="small">Trials cost resources</text>
+<text x="110" y="440" class="small">Evidence stays uncertain</text>
+
+<text x="110" y="525" class="txt">Plea deals trade outcomes</text>
+<text x="110" y="570" class="small">Charges can change</text>
+<text x="110" y="615" class="small">Sentences can change</text>
+
+<text x="110" y="700" class="txt">Rules seek proportionality</text>
+<text x="110" y="745" class="small">Facts should dominate</text>
+<text x="110" y="790" class="small">Rights constrain bargains</text>
+
+<text x="110" y="875" class="txt">Compromise can be lawful</text>
+<text x="110" y="920" class="small">Even serious cases</text>
+<text x="110" y="965" class="small">Still require consent</text>
+
+<text x="670" y="350" class="txt">Some values resist exchange</text>
+<text x="670" y="395" class="small">Pricing feels offensive</text>
+<text x="670" y="440" class="small">Identity can be involved</text>
+
+<text x="670" y="525" class="txt">Incentives can backfire</text>
+<text x="670" y="570" class="small">Not in every setting</text>
+<text x="670" y="615" class="small">Context changes effects</text>
+
+<text x="670" y="700" class="txt">Outrage can harden</text>
+<text x="670" y="745" class="small">Punishment can escalate</text>
+<text x="670" y="790" class="small">Compromise can shrink</text>
+
+<text x="670" y="875" class="txt">Symbolic respect matters</text>
+<text x="670" y="920" class="small">Sometimes more than money</text>
+<text x="670" y="965" class="small">Field evidence supports this</text>
+
+<rect x="190" y="1310" width="820" height="120" class="panel"/>
+<text x="600" y="1360" text-anchor="middle" class="sub">THE CONFLICT</text>
+<text x="600" y="1405" text-anchor="middle" class="small">Law must bargain. People may refuse.</text>
+</svg>
