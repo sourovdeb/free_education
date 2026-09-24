@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+<title id="title">Sacred-value rigidity mechanism flow</title>
+<desc id="desc">A flowchart showing how identity-linked values can become non-negotiable and resist incentives.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+  </marker>
+  <style>
+    .box{fill:#fff;stroke:#111;stroke-width:3}
+    .head{font:700 38px Arial,sans-serif}
+    .txt{font:26px Arial,sans-serif}
+    .small{font:22px Arial,sans-serif}
+    .line{stroke:#111;stroke-width:4;fill:none;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect width="1200" height="1500" fill="#f7f7f5"/>
+<text x="70" y="85" class="head">Sacred-value rigidity</text>
+<text x="70" y="125" class="small">Mechanism flow</text>
+
+<rect x="210" y="180" width="780" height="120" rx="10" class="box"/>
+<text x="600" y="230" text-anchor="middle" class="txt">A value gains meaning</text>
+<text x="600" y="270" text-anchor="middle" class="small">Justice • loyalty • dignity</text>
+
+<path d="M600 300 L600 360" class="line"/>
+<rect x="210" y="380" width="780" height="120" rx="10" class="box"/>
+<text x="600" y="430" text-anchor="middle" class="txt">Meaning joins identity</text>
+<text x="600" y="470" text-anchor="middle" class="small">“People like us”</text>
+
+<path d="M600 500 L600 560" class="line"/>
+<rect x="210" y="580" width="780" height="120" rx="10" class="box"/>
+<text x="600" y="630" text-anchor="middle" class="txt">The value becomes sacred</text>
+<text x="600" y="670" text-anchor="middle" class="small">Trade-offs feel forbidden</text>
+
+<path d="M600 700 L600 760" class="line"/>
+<rect x="210" y="780" width="780" height="120" rx="10" class="box"/>
+<text x="600" y="830" text-anchor="middle" class="txt">A bargain appears</text>
+<text x="600" y="870" text-anchor="middle" class="small">Money • threat • compromise</text>
+
+<path d="M600 900 L600 960" class="line"/>
+<rect x="210" y="980" width="780" height="140" rx="10" class="box"/>
+<text x="600" y="1030" text-anchor="middle" class="txt">The bargain feels contaminating</text>
+<text x="600" y="1070" text-anchor="middle" class="small">Respect feels violated</text>
+
+<path d="M600 1120 L600 1180" class="line"/>
+<rect x="110" y="1200" width="450" height="150" rx="10" class="box"/>
+<text x="335" y="1255" text-anchor="middle" class="txt">Possible result</text>
+<text x="335" y="1300" text-anchor="middle" class="small">Outrage rises</text>
+<text x="335" y="1335" text-anchor="middle" class="small">Compromise falls</text>
+
+<rect x="640" y="1200" width="450" height="150" rx="10" class="box"/>
+<text x="865" y="1255" text-anchor="middle" class="txt">Possible reopening</text>
+<text x="865" y="1300" text-anchor="middle" class="small">Symbolic respect</text>
+<text x="865" y="1335" text-anchor="middle" class="small">Context still matters</text>
+
+<path d="M600 1120 L335 1200" class="line"/>
+<path d="M600 1120 L865 1200" class="line"/>
+
+<text x="70" y="1435" class="small">Evidence: Baron 1997 • Tetlock 2000 • Ginges 2007 • Berns 2012</text>
+</svg>
