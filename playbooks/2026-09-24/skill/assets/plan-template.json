@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "capacity_minutes": 300,
+  "capacity_status": "assumed",
+  "reserve_minutes": 30,
+  "commitment_limit": 2,
+  "commitments": ["income", "learning"],
+  "actions": [
+    {"id":"a1","commitment":"income","owner":"user","outcome":"Resolve an existing conversation","first_step":"Read its latest reply","minutes":150,"cost_ceiling":0,"due":"Choose a working date","deadline_type":"proposed","evidence":"Reply or submission receipt","failure_branch":"Record the blocker","stop_condition":"Time ceiling reached","authority":"planning_only"},
+    {"id":"a2","commitment":"learning","owner":"user","outcome":"Test one existing artifact","first_step":"Find one participant","minutes":60,"cost_ceiling":0,"due":"Choose a working date","deadline_type":"proposed","evidence":"Attempt and revision notes","failure_branch":"Preserve the sample","stop_condition":"No participant by review","authority":"planning_only"},
+    {"id":"a3","commitment":null,"owner":"user","outcome":"Resolve administration","first_step":"Check upcoming deadlines","minutes":30,"cost_ceiling":0,"due":"Choose a working date","deadline_type":"proposed","evidence":"Deadline list","failure_branch":"Seek relevant advice","stop_condition":"Urgency resolved","authority":"planning_only"},
+    {"id":"a4","commitment":null,"owner":"user","outcome":"Review the plan","first_step":"Open completion evidence","minutes":30,"cost_ceiling":0,"due":"Choose a working date","deadline_type":"proposed","evidence":"Three next actions","failure_branch":"Reduce the next week","stop_condition":"Review ceiling reached","authority":"planning_only"}
+  ]
+}
