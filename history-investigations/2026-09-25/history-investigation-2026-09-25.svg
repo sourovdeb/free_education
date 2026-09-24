@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">History Investigation evidence timeline and synchrony mechanism</title>
+  <desc id="desc">A timeline marks five cases from 1833 to 1962. An evidence ladder separates documented records, scholarly interpretation, and uncertainty. A behavior diagram shows shared rhythm leading to easier prediction, affiliation, coordination, and two possible outcomes: cooperation or conformity and exclusion.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071b2b"/>
+      <stop offset="1" stop-color="#123b48"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#001019" flood-opacity="0.45"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#75d7c4"/>
+    </marker>
+    <style>
+      .kicker{font:700 18px system-ui,sans-serif;letter-spacing:2px;fill:#75d7c4}
+      .title{font:700 42px Georgia,serif;fill:#f5efe3}
+      .sub{font:400 18px system-ui,sans-serif;fill:#b9cdd0}
+      .date{font:700 18px system-ui,sans-serif;fill:#f4c66d}
+      .event{font:600 16px system-ui,sans-serif;fill:#f5efe3}
+      .small{font:400 14px system-ui,sans-serif;fill:#b9cdd0}
+      .boxTitle{font:700 18px system-ui,sans-serif;fill:#071b2b}
+      .boxBody{font:400 14px system-ui,sans-serif;fill:#173d46}
+      .node{font:700 16px system-ui,sans-serif;fill:#f5efe3;text-anchor:middle}
+      .note{font:400 14px system-ui,sans-serif;fill:#d8e5e2;text-anchor:middle}
+    </style>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <text x="70" y="65" class="kicker">HISTORY INVESTIGATION · 25 SEPTEMBER 2026</text>
+  <text x="70" y="115" class="title">Records, incentives, and the limits of certainty</text>
+  <text x="70" y="150" class="sub">Five cases on one timeline · one evidence ladder · one behavior mechanism</text>
+
+  <line x1="105" y1="265" x2="1095" y2="265" stroke="#75d7c4" stroke-width="4"/>
+  <g>
+    <circle cx="130" cy="265" r="11" fill="#f4c66d"/>
+    <text x="130" y="215" text-anchor="middle" class="date">1833</text>
+    <text x="130" y="310" text-anchor="middle" class="event">Abolition Act</text>
+    <text x="130" y="333" text-anchor="middle" class="small">compensation design</text>
+
+    <circle cx="370" cy="265" r="11" fill="#f4c66d"/>
+    <text x="370" y="215" text-anchor="middle" class="date">1919</text>
+    <text x="370" y="310" text-anchor="middle" class="event">Versailles</text>
+    <text x="370" y="333" text-anchor="middle" class="small">Article 231</text>
+
+    <circle cx="580" cy="265" r="11" fill="#f4c66d"/>
+    <text x="580" y="215" text-anchor="middle" class="date">1920</text>
+    <text x="580" y="310" text-anchor="middle" class="event">19th Amendment</text>
+    <text x="580" y="333" text-anchor="middle" class="small">law versus access</text>
+
+    <circle cx="815" cy="265" r="11" fill="#f4c66d"/>
+    <text x="815" y="215" text-anchor="middle" class="date">1938</text>
+    <text x="815" y="310" text-anchor="middle" class="event">Evian Conference</text>
+    <text x="815" y="333" text-anchor="middle" class="small">sympathy and quotas</text>
+
+    <circle cx="1060" cy="265" r="11" fill="#f4c66d"/>
+    <text x="1060" y="215" text-anchor="middle" class="date">1962</text>
+    <text x="1060" y="310" text-anchor="middle" class="event">Cuba settlement</text>
+    <text x="1060" y="333" text-anchor="middle" class="small">public + private tracks</text>
+  </g>
+
+  <text x="70" y="410" class="kicker">EVIDENCE LADDER</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="445" width="385" height="78" rx="14" fill="#f4c66d"/>
+    <text x="95" y="476" class="boxTitle">1 · Documented record</text>
+    <text x="95" y="501" class="boxBody">What dated texts, archives, and data establish</text>
+    <rect x="92" y="535" width="341" height="78" rx="14" fill="#a8e0d4"/>
+    <text x="117" y="566" class="boxTitle">2 · Scholarly interpretation</text>
+    <text x="117" y="591" class="boxBody">How incentives and consequences may connect</text>
+    <rect x="114" y="625" width="297" height="78" rx="14" fill="#d8e5e2"/>
+    <text x="139" y="656" class="boxTitle">3 · Uncertainty</text>
+    <text x="139" y="681" class="boxBody">What records cannot settle or quantify</text>
+  </g>
+
+  <text x="530" y="410" class="kicker">PRIMITIVE ECHO · SHARED RHYTHM</text>
+  <g filter="url(#shadow)">
+    <rect x="530" y="450" width="180" height="72" rx="36" fill="#214f5a" stroke="#75d7c4" stroke-width="2"/>
+    <text x="620" y="480" class="node">Shared rhythm</text>
+    <text x="620" y="502" class="note">chant · dance · drill</text>
+    <line x1="710" y1="486" x2="770" y2="486" stroke="#75d7c4" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="780" y="450" width="180" height="72" rx="36" fill="#214f5a" stroke="#75d7c4" stroke-width="2"/>
+    <text x="870" y="480" class="node">Prediction</text>
+    <text x="870" y="502" class="note">others feel legible</text>
+    <line x1="960" y1="486" x2="1020" y2="486" stroke="#75d7c4" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="1025" y="450" width="120" height="72" rx="36" fill="#214f5a" stroke="#75d7c4" stroke-width="2"/>
+    <text x="1085" y="480" class="node">Affiliation</text>
+    <text x="1085" y="502" class="note">felt “us”</text>
+
+    <line x1="1085" y1="522" x2="1085" y2="580" stroke="#75d7c4" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="955" y="590" width="260" height="72" rx="18" fill="#2d6470"/>
+    <text x="1085" y="620" class="node">Coordinated action</text>
+    <text x="1085" y="644" class="note">a capacity, not a moral verdict</text>
+
+    <line x1="1020" y1="662" x2="905" y2="730" stroke="#75d7c4" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="1145" y1="662" x2="1150" y2="730" stroke="#75d7c4" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="755" y="738" width="290" height="84" rx="18" fill="#2f7a68"/>
+    <text x="900" y="773" class="node">Possible cooperation</text>
+    <text x="900" y="798" class="note">helping · trust · joint work</text>
+    <rect x="1058" y="738" width="128" height="84" rx="18" fill="#7a4c55"/>
+    <text x="1122" y="770" class="node">Possible</text>
+    <text x="1122" y="792" class="note">conformity</text>
+    <text x="1122" y="811" class="note">or exclusion</text>
+  </g>
+
+  <text x="70" y="865" class="small">Reading rule: records anchor the claim; interpretation explains; uncertainty limits.</text>
+  <text x="1130" y="865" text-anchor="end" class="small">Original factual diagram · no copyrighted imagery</text>
+</svg>
