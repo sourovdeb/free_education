@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Competitive victimhood mechanism</title>
+  <desc id="desc">Flow diagram showing real harm, group identity, recognition threat, comparative suffering, moral defense, reduced trust, and renewed conflict.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="1600" fill="#f5f2e8"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#111">Page 3 — Mechanism Flow</text>
+  <text x="80" y="145" font-family="Arial, sans-serif" font-size="28" fill="#333">Competitive victimhood</text>
+
+  <rect x="130" y="220" width="940" height="150" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="170" y="275" font-family="Arial, sans-serif" font-size="36" font-weight="700">1. Real harm occurs</text>
+  <text x="170" y="325" font-family="Arial, sans-serif" font-size="27">Losses can be factual.</text>
+
+  <line x1="600" y1="370" x2="600" y2="435" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="130" y="455" width="940" height="150" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="170" y="510" font-family="Arial, sans-serif" font-size="36" font-weight="700">2. Identity absorbs harm</text>
+  <text x="170" y="560" font-family="Arial, sans-serif" font-size="27">“Our group suffered.”</text>
+
+  <line x1="600" y1="605" x2="600" y2="670" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="130" y="690" width="940" height="150" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="170" y="745" font-family="Arial, sans-serif" font-size="36" font-weight="700">3. Recognition feels scarce</text>
+  <text x="170" y="795" font-family="Arial, sans-serif" font-size="27">Another group gets heard.</text>
+
+  <line x1="600" y1="840" x2="600" y2="905" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="130" y="925" width="940" height="150" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="170" y="980" font-family="Arial, sans-serif" font-size="36" font-weight="700">4. Comparison begins</text>
+  <text x="170" y="1030" font-family="Arial, sans-serif" font-size="27">“We suffered more.”</text>
+
+  <line x1="600" y1="1075" x2="600" y2="1140" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="130" y="1160" width="440" height="180" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="170" y="1215" font-family="Arial, sans-serif" font-size="32" font-weight="700">Moral defense</text>
+  <text x="170" y="1260" font-family="Arial, sans-serif" font-size="25">Guilt may decline.</text>
+  <text x="170" y="1300" font-family="Arial, sans-serif" font-size="25">Innocence feels restored.</text>
+
+  <rect x="630" y="1160" width="440" height="180" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="670" y="1215" font-family="Arial, sans-serif" font-size="32" font-weight="700">Conflict effects</text>
+  <text x="670" y="1260" font-family="Arial, sans-serif" font-size="25">Trust may decline.</text>
+  <text x="670" y="1300" font-family="Arial, sans-serif" font-size="25">Forgiveness may decline.</text>
+
+  <line x1="570" y1="1250" x2="630" y2="1250" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <path d="M850 1340 C850 1470, 350 1470, 350 605" fill="none" stroke="#111" stroke-width="4" stroke-dasharray="12 10" marker-end="url(#arrow)"/>
+  <text x="405" y="1450" font-family="Arial, sans-serif" font-size="25">Conflict can recycle identity.</text>
+
+  <text x="80" y="1540" font-family="Arial, sans-serif" font-size="23" fill="#333">Evidence: Noor 2012; Sullivan 2012; Dinnick 2025.</text>
+</svg>
