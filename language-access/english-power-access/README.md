@@ -10,7 +10,7 @@ Twelve presentations. One each hour.
 | 04 | [Printing and standard English](episode-04/) | Who set the rules? |
 | 05 | [Empire and English](episode-05/) | Who spread English? |
 | 06 | [Why English dominated](episode-06/) | Why did rivals lose ground? |
-| 07 | Conspiracies about English | Which claims have evidence? |
+| 07 | [Conspiracies about English](episode-07/) | Which claims have evidence? |
 | 08 | Orwell and political language | Why can words conceal harm? |
 | 09 | The English language business | Who pays, and why? |
 | 10 | Certificates and competence | What does each prove? |
