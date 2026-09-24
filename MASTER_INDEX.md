@@ -25,6 +25,7 @@
 
 - **[Routine 1: ELT365 Lessons](#routine-1-elt365-lessons)** — Educational lesson content for English teachers
 - **[Routine 2: Python AI Toolkit](#routine-2-python-ai-toolkit)** — Offline AI tools for productivity
+- **[Routine 3: Psychology, Marketing & Mental Health Audits](#routine-3-psychology-marketing--mental-health-audits)** — Fact-checked claim audits with funding/bias disclosure
 - **[Routine 3: Psychology Claims Audit](#routine-3-psychology-claims-audit)** — Fact-checked, funding-disclosed audits of psychology/neuroscience/mental-health claims
 - **[Routine 3: Psychology & Marketing Claim Audits](#routine-3-psychology--marketing-claim-audits)** — Sourced audits of psychology/neuroscience/marketing/mental-health claims
 - **[Routine 3: Psych Research Audit](#routine-3-psych-research-audit)** — Sourced audits of psychology/mental-health claims
@@ -134,6 +135,10 @@
 
 ---
 
+## Routine 3: Psychology, Marketing & Mental Health Audits
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — verifying primary sources and methodology, investigating funding and conflicts of interest, comparing against independent/opposing research, and drafting a sourced micro-blog verdict per claim.  
+**Location:** `routines/03_psychology_marketing_mental_health_audit_routine/`  
 ## Routine 3: Psychology Claims Audit
 
 **What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental-health treatment — checks primary sources, sample sizes, funding, and conflicts of interest on all sides, then compares against opposing/independent research.
@@ -158,6 +163,12 @@
 
 | File | Claim audited | Verdict |
 |------|----------------|---------|
+| `2026-07-05_power-posing-audit.md` | "A 2-minute power pose raises testosterone, lowers cortisol, and increases risk tolerance" | Contested-to-debunked — a 5x-larger independent replication (Ranehill et al., 2015) found no hormonal or risk-taking effect, and original co-author Dana Carney publicly disavowed those findings in 2016; only a weaker, disputed self-reported-confidence effect remains |
+
+### Key Metadata
+
+- **Output format:** Markdown (audit + micro-blog draft per claim)
+- **External publishing:** Deliberately deferred for human review — see routine README
 | `power_posing_audit.md` | "Power posing" for 2 minutes changes testosterone/cortisol and behavior (Carney, Cuddy & Yap 2010) | Contested/largely falsified — only the subjective "feeling more powerful" effect survives replication (Ranehill et al. 2015; Simmons & Simonsohn 2017); original N=42; NSF-grant funded (no pharma/corporate conflict), but strong post-publication commercial incentive (TED talk, book) to defend it; co-author Dana Carney has publicly disavowed the effect. |
 
 ### Key Metadata
@@ -490,6 +501,9 @@ free_education/
 │   │   ├── webscrapper (1).py
 │   │   └── README.md
 │   │
+│   └── 03_psychology_marketing_mental_health_audit_routine/
+│       ├── README.md
+│       └── 2026-07-05_power-posing-audit.md
 │   └── 03_psychology_claims_audit_routine/
 │       ├── README.md
 │       └── posts/
