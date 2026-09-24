@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="1600" fill="#fff"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111">
+    <text x="80" y="95" font-size="48" font-weight="700">Identity-Protective Cognition</text>
+    <text x="80" y="145" font-size="28">Mechanism flow</text>
+
+    <rect x="300" y="220" width="600" height="120" fill="#f4f4f4" stroke="#111" stroke-width="3"/>
+    <text x="600" y="270" text-anchor="middle" font-size="30" font-weight="700">Group identity matters</text>
+    <text x="600" y="310" text-anchor="middle" font-size="24">Belonging carries value</text>
+
+    <line x1="600" y1="340" x2="600" y2="430" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="300" y="450" width="600" height="120" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="600" y="500" text-anchor="middle" font-size="30" font-weight="700">Evidence arrives</text>
+    <text x="600" y="540" text-anchor="middle" font-size="24">Meaning meets identity</text>
+
+    <line x1="600" y1="570" x2="600" y2="640" stroke="#111" stroke-width="4"/>
+    <line x1="600" y1="640" x2="330" y2="640" stroke="#111" stroke-width="4"/>
+    <line x1="600" y1="640" x2="870" y2="640" stroke="#111" stroke-width="4"/>
+    <line x1="330" y1="640" x2="330" y2="700" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+    <line x1="870" y1="640" x2="870" y2="700" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="100" y="720" width="460" height="160" fill="#f4f4f4" stroke="#111" stroke-width="3"/>
+    <text x="330" y="770" text-anchor="middle" font-size="29" font-weight="700">Identity-friendly</text>
+    <text x="330" y="815" text-anchor="middle" font-size="24">Threat stays low</text>
+    <text x="330" y="850" text-anchor="middle" font-size="24">Scrutiny may soften</text>
+
+    <rect x="640" y="720" width="460" height="160" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="870" y="770" text-anchor="middle" font-size="29" font-weight="700">Identity-threatening</text>
+    <text x="870" y="815" text-anchor="middle" font-size="24">Threat rises</text>
+    <text x="870" y="850" text-anchor="middle" font-size="24">Scrutiny may harden</text>
+
+    <line x1="330" y1="880" x2="330" y2="980" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+    <line x1="870" y1="880" x2="870" y2="980" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="100" y="1000" width="460" height="160" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="330" y="1050" text-anchor="middle" font-size="29" font-weight="700">Acceptance becomes easier</text>
+    <text x="330" y="1095" text-anchor="middle" font-size="24">Weaknesses get less weight</text>
+    <text x="330" y="1130" text-anchor="middle" font-size="24">Confidence can rise</text>
+
+    <rect x="640" y="1000" width="460" height="160" fill="#f4f4f4" stroke="#111" stroke-width="3"/>
+    <text x="870" y="1050" text-anchor="middle" font-size="29" font-weight="700">Rejection becomes easier</text>
+    <text x="870" y="1095" text-anchor="middle" font-size="24">Weaknesses get more weight</text>
+    <text x="870" y="1130" text-anchor="middle" font-size="24">Counterarguments multiply</text>
+
+    <line x1="330" y1="1160" x2="330" y2="1250" stroke="#111" stroke-width="4"/>
+    <line x1="870" y1="1160" x2="870" y2="1250" stroke="#111" stroke-width="4"/>
+    <line x1="330" y1="1250" x2="600" y2="1250" stroke="#111" stroke-width="4"/>
+    <line x1="870" y1="1250" x2="600" y2="1250" stroke="#111" stroke-width="4"/>
+    <line x1="600" y1="1250" x2="600" y2="1310" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="260" y="1330" width="680" height="120" fill="#111" stroke="#111" stroke-width="3"/>
+    <text x="600" y="1380" text-anchor="middle" font-size="30" font-weight="700" fill="#fff">Prior identity can strengthen</text>
+    <text x="600" y="1420" text-anchor="middle" font-size="24" fill="#fff">The loop can repeat</text>
+
+    <text x="80" y="1520" font-size="24" font-weight="700">Safeguards</text>
+    <text x="230" y="1520" font-size="24">Blind cues • record dissent • test alternatives • review independently</text>
+  </g>
+</svg>
