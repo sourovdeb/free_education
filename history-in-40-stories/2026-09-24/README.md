@@ -32,7 +32,7 @@ The following queue is a set of research assignments. Only rows marked **Publish
 | 08 | The 1929 crash and the Great Depression | **Published** — [story](08-crash-1929/README.md) · [HTML](08-crash-1929/index.html) |
 | 09 | Bretton Woods: new monetary rules, 1944 | **Published** — [story](09-bretton-woods-1944/README.md) · [HTML](09-bretton-woods-1944/index.html) |
 | 10 | The dollar–gold break, 1971 | **Published** — [story](10-dollar-gold-1971/README.md) · [HTML](10-dollar-gold-1971/index.html) |
-| 11 | The Latin American debt crisis, 1982 | Planned |
+| 11 | The Latin American debt crisis, 1982 | **Published** — [story](11-latin-american-debt-1982/README.md) · [HTML](11-latin-american-debt-1982/index.html) |
 | 12 | Black Monday, 1987 | Planned |
 | 13 | Japan’s asset bubble and collapse | Planned |
 | 14 | The Asian financial crisis, 1997–1998 | Planned |
