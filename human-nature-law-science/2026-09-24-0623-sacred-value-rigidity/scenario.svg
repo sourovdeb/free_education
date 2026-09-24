@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+<title id="title">Concrete homicide investigation scenario</title>
+<desc id="desc">A fictional scenario showing different reasons a witness may refuse cooperation.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+  </marker>
+  <style>
+    .box{fill:#fff;stroke:#111;stroke-width:3}
+    .head{font:700 38px Arial,sans-serif}
+    .sub{font:700 28px Arial,sans-serif}
+    .txt{font:24px Arial,sans-serif}
+    .small{font:20px Arial,sans-serif}
+    .line{stroke:#111;stroke-width:4;fill:none;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect width="1200" height="1500" fill="#f7f7f5"/>
+<text x="70" y="85" class="head">Concrete scenario</text>
+<text x="70" y="125" class="small">Fictional homicide witness</text>
+
+<rect x="170" y="180" width="860" height="130" class="box"/>
+<text x="600" y="230" text-anchor="middle" class="sub">A witness refuses</text>
+<text x="600" y="275" text-anchor="middle" class="small">Silence has several causes</text>
+
+<path d="M600 310 L600 370" class="line"/>
+
+<rect x="70" y="410" width="300" height="190" class="box"/>
+<text x="220" y="460" text-anchor="middle" class="sub">FEAR</text>
+<text x="220" y="505" text-anchor="middle" class="small">Retaliation risk</text>
+<text x="220" y="545" text-anchor="middle" class="small">Needs protection</text>
+
+<rect x="450" y="410" width="300" height="190" class="box"/>
+<text x="600" y="460" text-anchor="middle" class="sub">DISTRUST</text>
+<text x="600" y="505" text-anchor="middle" class="small">Police seem unfair</text>
+<text x="600" y="545" text-anchor="middle" class="small">Needs legitimacy</text>
+
+<rect x="830" y="410" width="300" height="190" class="box"/>
+<text x="980" y="460" text-anchor="middle" class="sub">LOYALTY</text>
+<text x="980" y="505" text-anchor="middle" class="small">Silence feels moral</text>
+<text x="980" y="545" text-anchor="middle" class="small">May be sacred</text>
+
+<path d="M600 600 L600 690" class="line"/>
+
+<rect x="170" y="720" width="860" height="170" class="box"/>
+<text x="600" y="770" text-anchor="middle" class="sub">Bad shortcut</text>
+<text x="600" y="815" text-anchor="middle" class="small">“Offer more money.”</text>
+<text x="600" y="855" text-anchor="middle" class="small">That may miss cause.</text>
+
+<path d="M600 890 L600 970" class="line"/>
+
+<rect x="170" y="1000" width="860" height="220" class="box"/>
+<text x="600" y="1050" text-anchor="middle" class="sub">Better investigation</text>
+<text x="600" y="1095" text-anchor="middle" class="small">Test safety concerns.</text>
+<text x="600" y="1135" text-anchor="middle" class="small">Test trust concerns.</text>
+<text x="600" y="1175" text-anchor="middle" class="small">Test loyalty concerns.</text>
+
+<path d="M600 1220 L600 1290" class="line"/>
+
+<rect x="170" y="1310" width="860" height="120" class="box"/>
+<text x="600" y="1360" text-anchor="middle" class="sub">Then corroborate independently</text>
+<text x="600" y="1405" text-anchor="middle" class="small">Silence proves nothing.</text>
+</svg>
