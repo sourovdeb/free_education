@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ELT365 Translation Sprint Board</title>
+<style>
+:root{color-scheme:light dark;--bg:#f6f1e8;--card:#fff;--ink:#17211b;--accent:#176b4d;--line:#b6c3ba;--warn:#8a4b08;--bad:#9a1b1b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.45 system-ui,sans-serif}main{max-width:900px;margin:auto;padding:24px}h1{font-size:clamp(2rem,6vw,4rem);line-height:1}h2{margin-top:2rem}.card{background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:20px;margin:18px 0;box-shadow:6px 6px 0 var(--accent)}label{display:block;font-weight:700;margin-top:14px}input,select,textarea,button{width:100%;font:inherit;padding:12px;border:2px solid var(--ink);border-radius:9px;background:var(--card);color:var(--ink)}button{margin-top:14px;background:var(--accent);color:#fff;font-weight:800;cursor:pointer}button.secondary{background:transparent;color:var(--ink)}.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.result{border-left:8px solid var(--accent);padding:14px;background:color-mix(in srgb,var(--accent) 12%,var(--card))}.blocked{border-color:var(--bad)}.warning{border-color:var(--warn)}small{display:block;margin-top:8px}a{color:var(--accent);font-weight:700}.check label{font-weight:500}.check input{width:auto;margin-right:8px}@media print{button{display:none}.card{box-shadow:none}body{background:#fff;color:#000}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<p>ELT365 • Open Teacher Training</p>
+<h1>Translation Sprint Board</h1>
+<p>Check rights. Record changes. Export evidence.</p>
+</header>
+
+<section class="card" aria-labelledby="source-heading">
+<h2 id="source-heading">1. Source record</h2>
+<div class="grid">
+<div><label for="title">Source title</label><input id="title" required></div>
+<div><label for="creator">Source creator</label><input id="creator" required></div>
+<div><label for="url">Source URL</label><input id="url" type="url" required></div>
+<div><label for="version">Source version</label><input id="version"></div>
+<div><label for="license">Source license</label>
+<select id="license">
+<option value="unknown">Unknown</option>
+<option value="cc0">CC0</option>
+<option value="by">CC BY</option>
+<option value="bysa">CC BY-SA</option>
+<option value="bync">CC BY-NC</option>
+<option value="byncsa">CC BY-NC-SA</option>
+<option value="bynd">CC BY-ND</option>
+<option value="byncnd">CC BY-NC-ND</option>
+<option value="permission">Separate permission</option>
+</select></div>
+</div>
+<button id="check" type="button">Check translation rights</button>
+<div id="result" class="result" role="status" aria-live="polite">Choose a license first.</div>
+</section>
+
+<section class="card" aria-labelledby="work-heading">
+<h2 id="work-heading">2. Translation record</h2>
+<div class="grid">
+<div><label for="language">Target language</label><input id="language" required></div>
+<div><label for="translator">Translator</label><input id="translator" required></div>
+<div><label for="reviewer">Reviewer</label><input id="reviewer"></div>
+<div><label for="date">Review date</label><input id="date" type="date"></div>
+</div>
+<label for="changes">Changes made</label>
+<textarea id="changes" rows="4" placeholder="Translation, examples, local context"></textarea>
+<div class="check">
+<label><input id="credit" type="checkbox">Creator credit included</label>
+<label><input id="source" type="checkbox">Source link included</label>
+<label><input id="licenseLink" type="checkbox">License link included</label>
+<label><input id="changeNote" type="checkbox">Changes clearly marked</label>
+<label><input id="reviewed" type="checkbox">Language review completed</label>
+</div>
+<button id="export" type="button">Export JSON record</button>
+<button class="secondary" type="button" onclick="window.print()">Print this record</button>
+</section>
+
+<section class="card">
+<h2>3. Release gate</h2>
+<ul>
+<li>Stop for unknown rights.</li>
+<li>Stop all ND sharing.</li>
+<li>Continue SA requirements.</li>
+<li>Respect NC limits.</li>
+<li>Never imply endorsement.</li>
+<li>Publish editable source files.</li>
+</ul>
+<p><a href="https://creativecommons.org/faq/">Read the CC FAQ</a></p>
+<small>This tool gives guidance. It gives no legal advice.</small>
+</section>
+
+<footer>
+<p>Code: MIT. Original text: CC BY 4.0.</p>
+</footer>
+</main>
+<script>
+const rules={
+unknown:{state:"blocked",text:"Stop. Verify ownership and license."},
+bynd:{state:"blocked",text:"Stop. ND blocks shared translations."},
+byncnd:{state:"blocked",text:"Stop. ND blocks shared translations."},
+cc0:{state:"ok",text:"Proceed. Credit remains good practice."},
+by:{state:"ok",text:"Proceed. Credit and mark changes."},
+bysa:{state:"warning",text:"Proceed. Keep SA-compatible terms."},
+bync:{state:"warning",text:"Proceed noncommercially. Credit changes."},
+byncsa:{state:"warning",text:"Proceed noncommercially. Keep SA terms."},
+permission:{state:"warning",text:"Proceed only within written permission."}
+};
+const result=document.querySelector("#result");
+document.querySelector("#check").addEventListener("click",()=>{
+ const rule=rules[document.querySelector("#license").value];
+ result.className="result "+(rule.state==="blocked"?"blocked":rule.state==="warning"?"warning":"");
+ result.textContent=rule.text;
+});
+document.querySelector("#export").addEventListener("click",()=>{
+ const ids=["title","creator","url","version","license","language","translator","reviewer","date","changes","credit","source","licenseLink","changeNote","reviewed"];
+ const record={created:new Date().toISOString()};
+ ids.forEach(id=>{const el=document.getElementById(id);record[id]=el.type==="checkbox"?el.checked:el.value});
+ const blob=new Blob([JSON.stringify(record,null,2)],{type:"application/json"});
+ const link=document.createElement("a");
+ link.href=URL.createObjectURL(blob);
+ link.download="translation-record.json";
+ link.click();
+ URL.revokeObjectURL(link.href);
+});
+</script>
+</body>
+</html>
