@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science comparison</title>
+  <desc id="desc">Two-column comparison of legal assumptions and behavioral science findings regarding victim identifiability.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f7f2}.panel{fill:#fff;stroke:#222;stroke-width:2}.warn{fill:#fff3e8;stroke:#222;stroke-width:2}.t{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:38px;font-weight:700}.sh{font-size:28px;font-weight:700}.s{font-size:22px}.sm{font-size:18px}.line{stroke:#222;stroke-width:2}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="t h" x="70" y="70">Law versus science</text>
+  <text class="t s" x="70" y="110">Equal rules meet unequal salience.</text>
+
+  <rect class="panel" x="70" y="160" width="590" height="570" rx="8"/>
+  <rect class="panel" x="740" y="160" width="590" height="570" rx="8"/>
+  <text class="t sh" x="110" y="215">LEGAL AIM</text>
+  <text class="t sh" x="780" y="215">SCIENCE WARNING</text>
+  <line class="line" x1="110" y1="235" x2="620" y2="235"/>
+  <line class="line" x1="780" y1="235" x2="1290" y2="235"/>
+
+  <text class="t s" x="110" y="285">Comparable harms.</text>
+  <text class="t sm" x="110" y="320">Need comparable treatment.</text>
+  <text class="t s" x="110" y="385">Evidence needs relevance.</text>
+  <text class="t sm" x="110" y="420">Emotion is not proof.</text>
+  <text class="t s" x="110" y="485">Victims may individualize.</text>
+  <text class="t sm" x="110" y="520">Payne permits impact evidence.</text>
+  <text class="t s" x="110" y="585">Due process still applies.</text>
+  <text class="t sm" x="110" y="620">Unfair prejudice can matter.</text>
+
+  <text class="t s" x="780" y="285">Identification raises salience.</text>
+  <text class="t sm" x="780" y="320">Names can increase affect.</text>
+  <text class="t s" x="780" y="385">Affect changes weighting.</text>
+  <text class="t sm" x="780" y="420">Helping can shift.</text>
+  <text class="t s" x="780" y="485">Punishment can shift.</text>
+  <text class="t sm" x="780" y="520">Anger may mediate.</text>
+  <text class="t s" x="780" y="585">Effects remain conditional.</text>
+  <text class="t sm" x="780" y="620">Replication results are mixed.</text>
+
+  <rect class="warn" x="180" y="760" width="1040" height="95" rx="8"/>
+  <text class="t s" x="220" y="805">Conflict point: human uniqueness matters.</text>
+  <text class="t sm" x="220" y="835">But uniqueness can also distort weighting.</text>
+</svg>
