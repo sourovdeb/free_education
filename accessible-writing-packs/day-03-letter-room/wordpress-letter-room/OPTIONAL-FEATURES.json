@@ -1,0 +1,12 @@
+{
+  "default_state": "disabled",
+  "enable_from": "Appearance > Customize > Letter Room options",
+  "features": [
+    {"name":"Banner maker","path":"tools/banner-maker/index.html","purpose":"Make a local banner image or SVG."},
+    {"name":"Calm word builder","path":"activities/index.html#word-builder","purpose":"Arrange words without a timer."},
+    {"name":"Memory pairs","path":"activities/index.html#memory-pairs","purpose":"Optional card matching with hints."},
+    {"name":"Pattern path","path":"activities/index.html#pattern-path","purpose":"Optional pattern completion with hints."}
+  ],
+  "controls": ["pace", "hints", "sound", "motion", "contrast", "text size"],
+  "privacy": "No account, tracker, network request, or saved personal content."
+}
