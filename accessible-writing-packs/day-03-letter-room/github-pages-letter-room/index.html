@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A calm, large-type correspondence design for writers, open-source notes, and older readers.">
+  <title>Letter Room</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-profile="large">
+<a class="skip-link" href="#main">Skip to writing</a>
+<header class="site-header">
+  <div><p class="eyebrow">LETTER ROOM / CORRESPONDENCE</p><h1>Write something worth keeping.</h1></div>
+  <button id="settings-toggle" aria-expanded="false" aria-controls="settings">Reading settings</button>
+</header>
+<aside id="settings" hidden>
+  <fieldset><legend>Profile</legend><button data-profile="writer">Writer</button><button data-profile="source">Source Notes</button><button data-profile="large">Large Type</button></fieldset>
+  <label>Text size <input id="font-scale" type="range" min="100" max="150" value="100"></label>
+  <label>Line spacing <input id="line-scale" type="range" min="140" max="210" value="172"></label>
+  <label><input id="contrast" type="checkbox"> High contrast</label>
+  <label><input id="motion" type="checkbox"> Reduce motion</label>
+</aside>
+<main id="main">
+  <article class="opening letter">
+    <p class="eyebrow">LETTER 00 / START HERE</p>
+    <p class="salutation">Dear future reader,</p>
+    <h2>Make room for meaning.</h2>
+    <p>Write slowly. Keep sources nearby. Replace these example letters inside index.html when you are ready.</p>
+    <p class="signoff">With care,<br><strong>Your Letter Room</strong></p>
+  </article>
+  <section aria-labelledby="recent-heading">
+    <p class="eyebrow">MAIL TABLE / RECENT LETTERS</p><h2 id="recent-heading">Words can arrive gently.</h2>
+    <article class="letter"><div class="letter-meta"><span>25 SEPTEMBER</span><span>PERSONAL ESSAY</span></div><h3>Letter about a difficult idea</h3><p>Begin with the human question. Add evidence without losing warmth.</p><a href="#">Open sample letter</a></article>
+    <article class="letter"><div class="letter-meta"><span>22 SEPTEMBER</span><span>SOURCE NOTES</span></div><h3>Notes sent to tomorrow</h3><p>Record the link, date, limits, and one next step.</p><a href="#">Open sample letter</a></article>
+    <article class="letter"><div class="letter-meta"><span>18 SEPTEMBER</span><span>OPEN SOURCE</span></div><h3>Dear future maintainer</h3><p>Explain why the code exists before explaining how it works.</p><a href="#">Open sample letter</a></article>
+  </section>
+  <section id="optional-tools" hidden aria-labelledby="tools-heading">
+    <p class="eyebrow">OPTIONAL TOOLS</p><h2 id="tools-heading">Use only if wanted.</h2>
+    <p><a id="banner-link" href="tools/banner-maker/index.html">Open banner maker</a></p>
+    <p><a id="activities-link" href="activities/index.html">Open self-paced activities</a></p>
+  </section>
+</main>
+<footer><p>Letter Room is portable, offline-friendly, and tracker-free.</p><a href="USER-MANUAL.md">User manual</a> <a href="ACCESSIBILITY.md">Accessibility notes</a></footer>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
