@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audiobook Performance Coach"
+  short_description: "Coach intention, accents, and soundscapes"
+  default_prompt: "Use $audiobook-performance-coach to score this passage."
