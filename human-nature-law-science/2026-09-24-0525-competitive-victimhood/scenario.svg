@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete competitive victimhood scenario</title>
+  <desc id="desc">A neutral fictional scenario where two communities experience harm, compare suffering, reduce trust, and investigators separate group narratives from incident evidence.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="1600" fill="#f5f2e8"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#111">Page 5 — Concrete Scenario</text>
+  <text x="80" y="145" font-family="Arial, sans-serif" font-size="28" fill="#333">Fictional case. Real mechanism.</text>
+
+  <rect x="150" y="220" width="900" height="150" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="195" y="275" font-family="Arial, sans-serif" font-size="34" font-weight="700">1. Shared town</text>
+  <text x="195" y="325" font-family="Arial, sans-serif" font-size="26">Two communities coexist.</text>
+
+  <line x1="600" y1="370" x2="600" y2="430" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="150" y="450" width="900" height="170" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="195" y="505" font-family="Arial, sans-serif" font-size="34" font-weight="700">2. Violence occurs</text>
+  <text x="195" y="555" font-family="Arial, sans-serif" font-size="26">Both communities lose members.</text>
+  <text x="195" y="595" font-family="Arial, sans-serif" font-size="26">Police open investigations.</text>
+
+  <line x1="600" y1="620" x2="600" y2="680" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="90" y="700" width="470" height="250" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="130" y="755" font-family="Arial, sans-serif" font-size="32" font-weight="700">Community A</text>
+  <text x="130" y="805" font-family="Arial, sans-serif" font-size="25">“Our losses came first.”</text>
+  <text x="130" y="845" font-family="Arial, sans-serif" font-size="25">“We receive less recognition.”</text>
+  <text x="130" y="885" font-family="Arial, sans-serif" font-size="25">Trust starts falling.</text>
+
+  <rect x="640" y="700" width="470" height="250" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="680" y="755" font-family="Arial, sans-serif" font-size="32" font-weight="700">Community B</text>
+  <text x="680" y="805" font-family="Arial, sans-serif" font-size="25">“Our losses were ignored.”</text>
+  <text x="680" y="845" font-family="Arial, sans-serif" font-size="25">“They receive more sympathy.”</text>
+  <text x="680" y="885" font-family="Arial, sans-serif" font-size="25">Trust starts falling.</text>
+
+  <line x1="325" y1="950" x2="490" y2="1030" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="875" y1="950" x2="710" y2="1030" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="310" y="1050" width="580" height="190" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="350" y="1110" font-family="Arial, sans-serif" font-size="32" font-weight="700">3. Competition hardens</text>
+  <text x="350" y="1160" font-family="Arial, sans-serif" font-size="25">Each side claims priority.</text>
+  <text x="350" y="1200" font-family="Arial, sans-serif" font-size="25">Evidence gets moralized.</text>
+
+  <line x1="600" y1="1240" x2="600" y2="1300" stroke="#111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <rect x="120" y="1320" width="960" height="180" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="165" y="1375" font-family="Arial, sans-serif" font-size="32" font-weight="700">4. Evidence-centered response</text>
+  <text x="165" y="1420" font-family="Arial, sans-serif" font-size="24">Acknowledge both harms.</text>
+  <text x="450" y="1420" font-family="Arial, sans-serif" font-size="24">Interview separately.</text>
+  <text x="700" y="1420" font-family="Arial, sans-serif" font-size="24">Corroborate independently.</text>
+  <text x="165" y="1465" font-family="Arial, sans-serif" font-size="24">Do not rank suffering.</text>
+  <text x="480" y="1465" font-family="Arial, sans-serif" font-size="24">Do not infer guilt.</text>
+  <text x="750" y="1465" font-family="Arial, sans-serif" font-size="24">Test every claim.</text>
+
+  <text x="80" y="1550" font-family="Arial, sans-serif" font-size="23" fill="#333">Principle: compassion and proof.</text>
+</svg>
