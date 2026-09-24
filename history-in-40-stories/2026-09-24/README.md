@@ -26,7 +26,7 @@ The following queue is a set of research assignments. Only rows marked **Publish
 | 02 | The US securities panic of 1792 | **Published** — [story](02-panic-1792/README.md) · [HTML](02-panic-1792/index.html) |
 | 03 | The 1825 crash and Latin American ventures | **Published** — [story](03-panic-1825/README.md) · [HTML](03-panic-1825/index.html) |
 | 04 | British Railway Mania and the 1847 crisis | **Published** — [story](04-railway-mania-1847/README.md) · [HTML](04-railway-mania-1847/index.html) |
-| 05 | The international Panic of 1857 | Planned |
+| 05 | The international Panic of 1857 | **Published** — [story](05-panic-1857/README.md) · [HTML](05-panic-1857/index.html) |
 | 06 | The Panic of 1873 and railway finance | Planned |
 | 07 | The Panic of 1907 and private rescues | Planned |
 | 08 | The 1929 crash and the Great Depression | Planned |
