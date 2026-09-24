@@ -23,7 +23,7 @@ The following queue is a set of research assignments. Only rows marked **Publish
 | Episode | Topic | Status |
 |---|---|---|
 | 01 | Ayr Bank and the British credit crisis, 1769–1773 | **Published** — [story](01-ayr-bank-1772/README.md) · [HTML](01-ayr-bank-1772/index.html) |
-| 02 | The US securities panic of 1792 | Planned |
+| 02 | The US securities panic of 1792 | **Published** — [story](02-panic-1792/README.md) · [HTML](02-panic-1792/index.html) |
 | 03 | The 1825 crash and Latin American ventures | Planned |
 | 04 | British Railway Mania and the 1847 crisis | Planned |
 | 05 | The international Panic of 1857 | Planned |
