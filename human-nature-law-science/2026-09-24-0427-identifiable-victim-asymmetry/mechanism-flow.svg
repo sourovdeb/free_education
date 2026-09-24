@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Identifiable-victim asymmetry mechanism flow</title>
+  <desc id="desc">A flow diagram showing how identification increases mental concreteness, affect and attention, which can alter helping and punishment, with moderators and limits.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#222"/>
+    </marker>
+    <style>
+      .bg{fill:#f7f7f2}.box{fill:#fff;stroke:#222;stroke-width:2}.accent{fill:#eef2ff;stroke:#222;stroke-width:2}.limit{fill:#fff3e8;stroke:#222;stroke-width:2}.t{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:38px;font-weight:700}.s{font-size:23px}.sm{font-size:19px}.arrow{stroke:#222;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="t h" x="70" y="70">Mechanism flow</text>
+  <text class="t s" x="70" y="110">Identification changes salience.</text>
+
+  <rect class="box" x="80" y="180" rx="8" width="250" height="140"/>
+  <text class="t s" x="110" y="225">Named victim</text>
+  <text class="t sm" x="110" y="265">Name.</text>
+  <text class="t sm" x="110" y="295">Face.</text>
+
+  <rect class="accent" x="430" y="180" rx="8" width="280" height="140"/>
+  <text class="t s" x="460" y="225">Mental concreteness</text>
+  <text class="t sm" x="460" y="265">Easier imagery.</text>
+  <text class="t sm" x="460" y="295">Clearer target.</text>
+
+  <rect class="accent" x="810" y="180" rx="8" width="250" height="140"/>
+  <text class="t s" x="840" y="225">More affect</text>
+  <text class="t sm" x="840" y="265">Sympathy.</text>
+  <text class="t sm" x="840" y="295">Anger.</text>
+
+  <rect class="box" x="1120" y="180" rx="8" width="210" height="140"/>
+  <text class="t s" x="1150" y="225">Weight shifts</text>
+  <text class="t sm" x="1150" y="265">Helping.</text>
+  <text class="t sm" x="1150" y="295">Punishment.</text>
+
+  <path class="arrow" d="M330 250 H420"/>
+  <path class="arrow" d="M710 250 H800"/>
+  <path class="arrow" d="M1060 250 H1110"/>
+
+  <rect class="box" x="80" y="410" rx="8" width="250" height="150"/>
+  <text class="t s" x="110" y="455">Statistical victims</text>
+  <text class="t sm" x="110" y="495">Real people.</text>
+  <text class="t sm" x="110" y="525">Less concrete.</text>
+
+  <rect class="box" x="430" y="410" rx="8" width="280" height="150"/>
+  <text class="t s" x="460" y="455">More abstraction</text>
+  <text class="t sm" x="460" y="495">Counts.</text>
+  <text class="t sm" x="460" y="525">Probabilities.</text>
+
+  <rect class="box" x="810" y="410" rx="8" width="250" height="150"/>
+  <text class="t s" x="840" y="455">Weaker affect</text>
+  <text class="t sm" x="840" y="495">Often smaller.</text>
+  <text class="t sm" x="840" y="525">Not always.</text>
+
+  <rect class="box" x="1120" y="410" rx="8" width="210" height="150"/>
+  <text class="t s" x="1150" y="455">Weight shifts</text>
+  <text class="t sm" x="1150" y="495">Less help.</text>
+  <text class="t sm" x="1150" y="525">Less urgency.</text>
+
+  <path class="arrow" d="M330 485 H420"/>
+  <path class="arrow" d="M710 485 H800"/>
+  <path class="arrow" d="M1060 485 H1110"/>
+
+  <rect class="limit" x="80" y="660" rx="8" width="1250" height="150"/>
+  <text class="t s" x="110" y="705">Moderators and limits</text>
+  <text class="t sm" x="110" y="745">Single targets matter more. Context matters. Real stakes matter. Replications are mixed.</text>
+  <text class="t sm" x="110" y="785">The pooled effect is small. A recent preregistered replication found no donation effect.</text>
+</svg>
