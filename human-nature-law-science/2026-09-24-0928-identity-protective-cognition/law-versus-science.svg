@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="1600" fill="#fff"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111">
+    <text x="80" y="95" font-size="48" font-weight="700">Law Versus Science</text>
+    <text x="80" y="145" font-size="28">Identity-protective cognition</text>
+
+    <rect x="70" y="220" width="500" height="420" fill="#f4f4f4" stroke="#111" stroke-width="3"/>
+    <text x="320" y="285" text-anchor="middle" font-size="34" font-weight="700">Legal ideal</text>
+    <text x="110" y="360" font-size="26">• Neutral juror</text>
+    <text x="110" y="410" font-size="26">• Impartial investigator</text>
+    <text x="110" y="460" font-size="26">• Evidence leads</text>
+    <text x="110" y="510" font-size="26">• Instructions constrain bias</text>
+    <text x="110" y="560" font-size="26">• Conflicts get disclosed</text>
+
+    <rect x="630" y="220" width="500" height="420" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="880" y="285" text-anchor="middle" font-size="34" font-weight="700">Behavioral finding</text>
+    <text x="670" y="360" font-size="26">• Identity guides trust</text>
+    <text x="670" y="410" font-size="26">• Threat changes scrutiny</text>
+    <text x="670" y="460" font-size="26">• Sincerity can coexist</text>
+    <text x="670" y="510" font-size="26">• Bias can stay hidden</text>
+    <text x="670" y="560" font-size="26">• Ability offers no shield</text>
+
+    <line x1="570" y1="430" x2="630" y2="430" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="70" y="720" width="500" height="350" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="320" y="785" text-anchor="middle" font-size="34" font-weight="700">Legal tools</text>
+    <text x="110" y="860" font-size="26">• Voir dire</text>
+    <text x="110" y="910" font-size="26">• Jury instructions</text>
+    <text x="110" y="960" font-size="26">• Adversarial testing</text>
+    <text x="110" y="1010" font-size="26">• Conflict disclosure</text>
+
+    <rect x="630" y="720" width="500" height="350" fill="#f4f4f4" stroke="#111" stroke-width="3"/>
+    <text x="880" y="785" text-anchor="middle" font-size="34" font-weight="700">Science tools</text>
+    <text x="670" y="860" font-size="26">• Blind identity cues</text>
+    <text x="670" y="910" font-size="26">• Record contrary evidence</text>
+    <text x="670" y="960" font-size="26">• Independent review</text>
+    <text x="670" y="1010" font-size="26">• Competing hypotheses</text>
+
+    <rect x="150" y="1150" width="900" height="220" fill="#111" stroke="#111" stroke-width="3"/>
+    <text x="600" y="1215" text-anchor="middle" font-size="34" font-weight="700" fill="#fff">Conflict point</text>
+    <text x="600" y="1270" text-anchor="middle" font-size="28" fill="#fff">Law needs neutral minds.</text>
+    <text x="600" y="1315" text-anchor="middle" font-size="28" fill="#fff">Science finds motivated minds.</text>
+    <text x="600" y="1360" text-anchor="middle" font-size="28" fill="#fff">Procedure manages the gap.</text>
+
+    <line x1="600" y1="1370" x2="600" y2="1440" stroke="#111" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="220" y="1460" width="760" height="90" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="600" y="1515" text-anchor="middle" font-size="28" font-weight="700">Reduce identity cues before judgment.</text>
+  </g>
+</svg>
