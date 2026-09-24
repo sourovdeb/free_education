@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Law versus science on competitive victimhood</title>
+  <desc id="desc">Comparison panels showing law's focus on specific harm and causation versus psychology's focus on comparative suffering and group identity.</desc>
+  <rect width="1200" height="1600" fill="#f5f2e8"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#111">Page 4 — Law Versus Science</text>
+  <text x="80" y="145" font-family="Arial, sans-serif" font-size="28" fill="#333">Victimhood means different things.</text>
+
+  <rect x="70" y="220" width="500" height="1040" rx="12" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="110" y="290" font-family="Arial, sans-serif" font-size="42" font-weight="700">LAW</text>
+  <text x="110" y="340" font-family="Arial, sans-serif" font-size="26">Question: what happened?</text>
+
+  <line x1="110" y1="385" x2="530" y2="385" stroke="#111" stroke-width="3"/>
+  <text x="110" y="445" font-family="Arial, sans-serif" font-size="31" font-weight="700">Victim status</text>
+  <text x="110" y="490" font-family="Arial, sans-serif" font-size="25">Harm must exist.</text>
+  <text x="110" y="530" font-family="Arial, sans-serif" font-size="25">Causation must connect.</text>
+  <text x="110" y="570" font-family="Arial, sans-serif" font-size="25">Jurisdiction also matters.</text>
+
+  <text x="110" y="650" font-family="Arial, sans-serif" font-size="31" font-weight="700">Criminal guilt</text>
+  <text x="110" y="695" font-family="Arial, sans-serif" font-size="25">Evidence targets conduct.</text>
+  <text x="110" y="735" font-family="Arial, sans-serif" font-size="25">Responsibility stays specific.</text>
+  <text x="110" y="775" font-family="Arial, sans-serif" font-size="25">Group suffering proves nothing.</text>
+
+  <text x="110" y="855" font-family="Arial, sans-serif" font-size="31" font-weight="700">Core legal risk</text>
+  <text x="110" y="900" font-family="Arial, sans-serif" font-size="25">Moral status spills over.</text>
+  <text x="110" y="940" font-family="Arial, sans-serif" font-size="25">Sympathy becomes credibility.</text>
+  <text x="110" y="980" font-family="Arial, sans-serif" font-size="25">Blame becomes assumption.</text>
+
+  <text x="110" y="1060" font-family="Arial, sans-serif" font-size="31" font-weight="700">Legal safeguard</text>
+  <text x="110" y="1105" font-family="Arial, sans-serif" font-size="25">Prove each element.</text>
+  <text x="110" y="1145" font-family="Arial, sans-serif" font-size="25">Separate harm from guilt.</text>
+
+  <rect x="630" y="220" width="500" height="1040" rx="12" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="670" y="290" font-family="Arial, sans-serif" font-size="42" font-weight="700">SCIENCE</text>
+  <text x="670" y="340" font-family="Arial, sans-serif" font-size="26">Question: who suffered more?</text>
+
+  <line x1="670" y1="385" x2="1090" y2="385" stroke="#111" stroke-width="3"/>
+  <text x="670" y="445" font-family="Arial, sans-serif" font-size="31" font-weight="700">Group comparison</text>
+  <text x="670" y="490" font-family="Arial, sans-serif" font-size="25">Recognition can feel scarce.</text>
+  <text x="670" y="530" font-family="Arial, sans-serif" font-size="25">Identity changes weighting.</text>
+  <text x="670" y="570" font-family="Arial, sans-serif" font-size="25">Threat changes comparison.</text>
+
+  <text x="670" y="650" font-family="Arial, sans-serif" font-size="31" font-weight="700">Observed outcomes</text>
+  <text x="670" y="695" font-family="Arial, sans-serif" font-size="25">Forgiveness can decline.</text>
+  <text x="670" y="735" font-family="Arial, sans-serif" font-size="25">Trust can decline.</text>
+  <text x="670" y="775" font-family="Arial, sans-serif" font-size="25">Contact can decline.</text>
+
+  <text x="670" y="855" font-family="Arial, sans-serif" font-size="31" font-weight="700">Method warning</text>
+  <text x="670" y="900" font-family="Arial, sans-serif" font-size="25">Many studies correlate.</text>
+  <text x="670" y="940" font-family="Arial, sans-serif" font-size="25">Context shifts effects.</text>
+  <text x="670" y="980" font-family="Arial, sans-serif" font-size="25">Power still matters.</text>
+
+  <text x="670" y="1060" font-family="Arial, sans-serif" font-size="31" font-weight="700">Scientific safeguard</text>
+  <text x="670" y="1105" font-family="Arial, sans-serif" font-size="25">Measure competing causes.</text>
+  <text x="670" y="1145" font-family="Arial, sans-serif" font-size="25">Avoid moral inference.</text>
+
+  <rect x="150" y="1320" width="900" height="150" rx="10" fill="#ffffff" stroke="#111" stroke-width="4"/>
+  <text x="195" y="1380" font-family="Arial, sans-serif" font-size="32" font-weight="700">Conflict point</text>
+  <text x="195" y="1430" font-family="Arial, sans-serif" font-size="25">Law needs specific proof.</text>
+  <text x="610" y="1430" font-family="Arial, sans-serif" font-size="25">Groups seek moral recognition.</text>
+
+  <text x="80" y="1540" font-family="Arial, sans-serif" font-size="23" fill="#333">Sources: ICC Rule 85; Noor 2012; Dinnick 2025.</text>
+</svg>
