@@ -4,6 +4,12 @@ Evidence-led research and reusable assets supporting free language education.
 
 ## Reports
 
+- [2026-09-24 — Trilingual translation sprint](2026/09/2026-09-24/report.md)
+  - Selected path: CC community translation
+  - Languages: English, French, Bengali
+  - Asset: offline translation sprint board
+  - Status: completed
+
 - [2026-09-23 — Wikimedia qualification before funding](2026/09/2026-09-23/report.md)
   - Selected path: Rapid Fund qualification
   - Funding range: USD 500–5,000
