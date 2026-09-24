@@ -6,7 +6,7 @@ Twelve presentations. One each hour.
 | --- | --- | --- |
 | 01 | Where English began | Which evidence survives? |
 | 02 | [Ancient Britain before English](episode-02/) | Which languages held power? |
-| 03 | Vikings and Norman rule | How did English change? |
+| 03 | [Vikings and Norman rule](episode-03/) | How did English change? |
 | 04 | Printing and standard English | Who set the rules? |
 | 05 | Empire and English | Who spread English? |
 | 06 | Why English dominated | Why did rivals lose ground? |
