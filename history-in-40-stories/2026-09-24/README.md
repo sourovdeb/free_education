@@ -29,7 +29,7 @@ The following queue is a set of research assignments. Only rows marked **Publish
 | 05 | The international Panic of 1857 | **Published** — [story](05-panic-1857/README.md) · [HTML](05-panic-1857/index.html) |
 | 06 | The Panic of 1873 and railway finance | **Published** — [story](06-panic-1873/README.md) · [HTML](06-panic-1873/index.html) |
 | 07 | The Panic of 1907 and private rescues | **Published** — [story](07-panic-1907/README.md) · [HTML](07-panic-1907/index.html) |
-| 08 | The 1929 crash and the Great Depression | Planned |
+| 08 | The 1929 crash and the Great Depression | **Published** — [story](08-crash-1929/README.md) · [HTML](08-crash-1929/index.html) |
 | 09 | Bretton Woods: new monetary rules, 1944 | Planned |
 | 10 | The dollar–gold break, 1971 | Planned |
 | 11 | The Latin American debt crisis, 1982 | Planned |
