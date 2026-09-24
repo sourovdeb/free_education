@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete sentencing scenario</title>
+  <desc id="desc">A timeline showing how two legally similar cases can feel different when one victim is presented with vivid identifying details.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#222"/>
+    </marker>
+    <style>
+      .bg{fill:#f7f7f2}.box{fill:#fff;stroke:#222;stroke-width:2}.hot{fill:#fff3e8;stroke:#222;stroke-width:2}.cool{fill:#eef2ff;stroke:#222;stroke-width:2}.t{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:38px;font-weight:700}.sh{font-size:26px;font-weight:700}.s{font-size:21px}.sm{font-size:18px}.arrow{stroke:#222;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="900"/>
+  <text class="t h" x="70" y="70">Concrete scenario</text>
+  <text class="t s" x="70" y="110">Two similar cases.</text>
+
+  <rect class="box" x="80" y="175" width="260" height="150" rx="8"/>
+  <text class="t sh" x="110" y="220">Same legal facts</text>
+  <text class="t sm" x="110" y="260">Same charge.</text>
+  <text class="t sm" x="110" y="290">Same prior record.</text>
+
+  <path class="arrow" d="M340 250 H430"/>
+
+  <rect class="hot" x="440" y="145" width="350" height="200" rx="8"/>
+  <text class="t sh" x="470" y="195">Case A</text>
+  <text class="t s" x="470" y="235">Named victim.</text>
+  <text class="t s" x="470" y="270">Photo shown.</text>
+  <text class="t s" x="470" y="305">Family impact described.</text>
+
+  <rect class="cool" x="440" y="410" width="350" height="200" rx="8"/>
+  <text class="t sh" x="470" y="460">Case B</text>
+  <text class="t s" x="470" y="500">Minimal details.</text>
+  <text class="t s" x="470" y="535">No photograph.</text>
+  <text class="t s" x="470" y="570">Impact stays abstract.</text>
+
+  <path class="arrow" d="M790 245 H880"/>
+  <path class="arrow" d="M790 510 H880"/>
+
+  <rect class="hot" x="890" y="145" width="410" height="200" rx="8"/>
+  <text class="t sh" x="920" y="195">Possible response</text>
+  <text class="t s" x="920" y="235">More vivid harm.</text>
+  <text class="t s" x="920" y="270">More emotion.</text>
+  <text class="t s" x="920" y="305">Possibly more punishment.</text>
+
+  <rect class="cool" x="890" y="410" width="410" height="200" rx="8"/>
+  <text class="t sh" x="920" y="460">Possible response</text>
+  <text class="t s" x="920" y="500">Less vivid harm.</text>
+  <text class="t s" x="920" y="535">Less emotion.</text>
+  <text class="t s" x="920" y="570">Possibly less punishment.</text>
+
+  <rect class="box" x="190" y="700" width="1020" height="125" rx="8"/>
+  <text class="t sh" x="230" y="748">Safeguard</text>
+  <text class="t s" x="230" y="785">Separate harm, culpability, evidence.</text>
+  <text class="t sm" x="230" y="815">The effect is possible, not certain.</text>
+</svg>
