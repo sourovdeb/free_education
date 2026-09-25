@@ -12,7 +12,7 @@ Twelve presentations. One each hour.
 | 06 | [Why English dominated](episode-06/) | Why did rivals lose ground? |
 | 07 | [Conspiracies about English](episode-07/) | Which claims have evidence? |
 | 08 | [Orwell and political language](episode-08/) | Why can words conceal harm? |
-| 09 | The English language business | Who pays, and why? |
+| 09 | [The English language business](episode-09/) | Who pays, and why? |
 | 10 | Certificates and competence | What does each prove? |
 | 11 | AI and access | What can learners gain? |
 | 12 | Recognition without prestige | Which evidence earns trust? |
