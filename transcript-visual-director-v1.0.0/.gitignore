@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+*.dpapi
+vendor/
+.venv/
+cache/
+projects/
+inbox/
+secrets/
+state/
+reports/
+*.log
