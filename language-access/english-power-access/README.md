@@ -13,7 +13,7 @@ Twelve presentations. One each hour.
 | 07 | [Conspiracies about English](episode-07/) | Which claims have evidence? |
 | 08 | [Orwell and political language](episode-08/) | Why can words conceal harm? |
 | 09 | [The English language business](episode-09/) | Who pays, and why? |
-| 10 | Certificates and competence | What does each prove? |
+| 10 | [Certificates and competence](episode-10/) | What does each prove? |
 | 11 | AI and access | What can learners gain? |
 | 12 | Recognition without prestige | Which evidence earns trust? |
 
