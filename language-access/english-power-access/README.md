@@ -15,6 +15,6 @@ Twelve presentations. One each hour.
 | 09 | [The English language business](episode-09/) | Who pays, and why? |
 | 10 | [Certificates and competence](episode-10/) | What does each prove? |
 | 11 | [AI and access](episode-11/) | What can learners gain? |
-| 12 | Recognition without prestige | Which evidence earns trust? |
+| 12 | [Recognition without prestige](episode-12/) | Which evidence earns trust? |
 
 Each episode includes sources. A PDF serves LinkedIn. An HTML fragment serves WordPress. Website copies remain drafts. Sources distinguish records and inference. Secret plans require evidence.
