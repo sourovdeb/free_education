@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "series": "5-Minute English Lab",
-  "status": "active",
+  "status": "active_partial_delivery",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
   "next_lesson_id": "FML-0002",
@@ -31,11 +31,12 @@
       "deployment_status": "not_deployed",
       "github_content_commit": "8bcae13687277939b5783a80d8ed3ecf9569d94e",
       "github_pdf_binary_status": "not_mirrored",
-      "github_pdf_fallback": "carousel.html"
+      "github_pdf_fallback": "carousel.html",
+      "delivery_status": "partial"
     }
   ],
   "lease": null,
-  "revision": 2,
+  "revision": 3,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -53,6 +54,7 @@
     "Setup has not created a lesson.",
     "Inspect existing objectives before selecting the next topic.",
     "Do not infer website publication from repository indices.",
-    "Keep private delivery identifiers outside this public registry."
+    "Keep private delivery identifiers outside this public registry.",
+    "FML-0001 has pending private delivery work. Future runs must reconcile private state before creating FML-0002."
   ]
 }
