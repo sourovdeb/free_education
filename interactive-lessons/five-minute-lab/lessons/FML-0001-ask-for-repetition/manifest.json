@@ -1,0 +1,88 @@
+{
+  "lesson_id": "FML-0001",
+  "version": "1.0.0",
+  "title": "Sorry, Could You Say That Again?",
+  "created_at": "2026-09-26T21:13:15+04:00",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "live_url": null,
+  "core_player_bytes": 11687,
+  "core_budget_bytes": 250000,
+  "core_budget_passed": true,
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 1354,
+      "sha256": "abcca2edd0163b02a7c4cf8080b73d46e7bc89bb6bb0162f04f001b50a346dc7"
+    },
+    {
+      "name": "SOURCES.md",
+      "bytes": 1938,
+      "sha256": "490db6291e5c8b5eb4eb039c3446d943388db39ef90624318678ca572f4fdf94"
+    },
+    {
+      "name": "TESTS.md",
+      "bytes": 1321,
+      "sha256": "27f586860595efb801ffc85ac79b57a7f5ab60839c6d25bed4a34ff51dc52814"
+    },
+    {
+      "name": "carousel.html",
+      "bytes": 2603,
+      "sha256": "ea35fbe983f480fff4562346aee812056b24d8d7802873a1dbf5e4292b99e6ea"
+    },
+    {
+      "name": "diagram.svg",
+      "bytes": 1861,
+      "sha256": "95e545c531d626b9e272582bb2e1c4988330108c5e69fedc689beeb7e06c2787"
+    },
+    {
+      "name": "diagram.txt",
+      "bytes": 334,
+      "sha256": "1342ad4c489bb0db4b40c425bc3600571a4109bfc53ba68712917c58435fddb8"
+    },
+    {
+      "name": "index.html",
+      "bytes": 11687,
+      "sha256": "25fe8f0a206bbe1b55eae7179728ce28c71dd736d173446eb39e972c4fe7421a"
+    },
+    {
+      "name": "lesson.json",
+      "bytes": 8129,
+      "sha256": "94e4b397aeb3631c4dda19f9cda11ca7cf5ee6e2c65ee74fa1620065d642c8a8"
+    },
+    {
+      "name": "linkedin-carousel.pdf",
+      "bytes": 4869,
+      "sha256": "3898f9adc7d0211878243c30df5da6c122c663489cd6528aa4ead6bdf119546b"
+    },
+    {
+      "name": "linkedin-post.txt",
+      "bytes": 594,
+      "sha256": "f25f62d27948daa1822fe995c78524f7cd93516e8f1580a0b9ae3ef8ab7d2866"
+    },
+    {
+      "name": "medium.md",
+      "bytes": 2562,
+      "sha256": "37f2224f15c4dfb429e7af3a88dbbe83404805ce09706d4ebc4dfb134fd89fc6"
+    },
+    {
+      "name": "wordpress-draft.html",
+      "bytes": 2560,
+      "sha256": "09859c2ab957deb233b45d058c332dde0640bf480456541715bee62f4df38fe2"
+    }
+  ],
+  "tests": {
+    "json_parse": "passed",
+    "javascript_syntax": "passed",
+    "browser_interaction": "passed_via_set_content",
+    "file_scheme_navigation": "blocked_by_environment",
+    "external_network_requests": 0,
+    "pdf_render_pages": 4,
+    "pdf_visual_inspection": "passed"
+  },
+  "notes": [
+    "Manifest excludes its own checksum.",
+    "ZIP is created after the manifest.",
+    "No live deployment exists."
+  ]
+}

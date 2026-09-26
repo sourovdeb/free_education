@@ -1,0 +1,34 @@
+MISSED ONE DETAIL?
+
+Try this repair path:
+
+HEAR -> MISS -> ASK -> HEAR -> CHECK
+
+Hotel example:
+
+“Breakfast starts at six…”
+You miss the time.
+
+Try:
+“Could you say the time again, please?”
+
+Then confirm:
+“Six forty-five, right?”
+
+Key distinction:
+Missed words need repetition.
+Unknown meaning needs clarification.
+
+Try another situation:
+You miss a table number.
+Ask for it again.
+Then confirm fourteen.
+
+Lesson: FML-0001.
+Level estimate: A2-B1.
+
+Repository review link:
+https://github.com/sourovdeb/free_education/pull/58
+
+No playable URL exists.
+Publication needs owner review.

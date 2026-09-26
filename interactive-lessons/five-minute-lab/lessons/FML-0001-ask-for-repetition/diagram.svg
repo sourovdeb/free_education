@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+<title id="title">Repair a missed detail</title>
+<desc id="desc">Five steps: hear, miss one detail, ask, hear again, confirm.</desc>
+<style>
+text{font-family:Arial,sans-serif;fill:#111}.box{fill:#fff;stroke:#111;stroke-width:3}.arrow{stroke:#111;stroke-width:4;marker-end:url(#m)}.small{font-size:24px}.big{font-size:32px;font-weight:700}
+</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker></defs>
+<rect class="box" x="20" y="80" width="150" height="120" rx="12"/><text class="big" x="95" y="130" text-anchor="middle">HEAR</text><text class="small" x="95" y="170" text-anchor="middle">a message</text>
+<line class="arrow" x1="170" y1="140" x2="220" y2="140"/>
+<rect class="box" x="230" y="80" width="170" height="120" rx="12"/><text class="big" x="315" y="125" text-anchor="middle">MISS</text><text class="small" x="315" y="165" text-anchor="middle">one detail</text>
+<line class="arrow" x1="400" y1="140" x2="450" y2="140"/>
+<rect class="box" x="460" y="80" width="150" height="120" rx="12"/><text class="big" x="535" y="130" text-anchor="middle">ASK</text><text class="small" x="535" y="170" text-anchor="middle">repeat it</text>
+<line class="arrow" x1="610" y1="140" x2="660" y2="140"/>
+<rect class="box" x="670" y="80" width="150" height="120" rx="12"/><text class="big" x="745" y="125" text-anchor="middle">HEAR</text><text class="small" x="745" y="165" text-anchor="middle">again</text>
+<line class="arrow" x1="820" y1="140" x2="865" y2="140"/>
+<rect class="box" x="875" y="80" width="105" height="120" rx="12"/><text class="big" x="927" y="125" text-anchor="middle">CHECK</text><text class="small" x="927" y="165" text-anchor="middle">detail</text>
+</svg>
