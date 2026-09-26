@@ -1,0 +1,85 @@
+{
+  "id": "FML-0002",
+  "version": "1.0.0",
+  "title": "So, That's 7:30 on Thursday?",
+  "slug": "confirm-a-time",
+  "pathway": "use-english",
+  "interaction_family": "arrange-and-match",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Recognise common days and clock times."],
+  "objective": "Confirm a booking time by repeating the key detail in a checking question.",
+  "scenario": {
+    "context": "An airport shuttle booking.",
+    "message": "Your shuttle is booked for Thursday at 7:30 a.m. Pick-up is at the east entrance.",
+    "problem": "You want to check the time before ending the conversation."
+  },
+  "model": {
+    "primary": "So, that's 7:30 a.m. on Thursday, right?",
+    "neutral_alternative": "Is that 7:30 a.m. on Thursday?",
+    "meaning": "Repeat the important detail and request confirmation.",
+    "form": "So, + that's + time + on + day + right?",
+    "appropriacy": "The right? ending is conversational. A full question is more neutral.",
+    "time_language": "Use at with clock times. Use on with days."
+  },
+  "activities": [
+    {
+      "type": "choose",
+      "prompt": "Which sentence checks the booking time?",
+      "options": [
+        {"id":"a","text":"Is that 7:30 a.m. on Thursday?","quality":"best_for_goal","feedback":"You repeat the booking detail and ask for confirmation."},
+        {"id":"b","text":"What time is it?","quality":"different_meaning","feedback":"This asks about time. It does not confirm the booking detail."},
+        {"id":"c","text":"See you sometime Thursday.","quality":"loses_detail","feedback":"This drops the exact time."}
+      ],
+      "best_option": "a"
+    },
+    {
+      "type": "match",
+      "prompt": "Match each booking detail.",
+      "pairs": [
+        {"detail":"Thursday","role":"day"},
+        {"detail":"7:30 a.m.","role":"time"},
+        {"detail":"east entrance","role":"place"}
+      ]
+    },
+    {
+      "type": "arrange",
+      "prompt": "Build the checking question.",
+      "chunks": ["So,","that's","7:30 a.m.","on Thursday,","right?"],
+      "answer": ["So,","that's","7:30 a.m.","on Thursday,","right?"],
+      "feedback": "This repeats the detail and asks for confirmation."
+    }
+  ],
+  "transfer": {
+    "situation": "Your appointment is Monday at 2:15 p.m. in Room 4.",
+    "task": "Say or write one sentence confirming the day and time.",
+    "acceptable_responses": [
+      "So, that's 2:15 p.m. on Monday, right?",
+      "Is that 2:15 p.m. on Monday?",
+      "Did you say Monday at 2:15 p.m.?"
+    ],
+    "rubric": [
+      "I repeated the day or time.",
+      "I asked for confirmation.",
+      "I kept the exact time.",
+      "My wording fits."
+    ]
+  },
+  "review_prompt": "What can you say when you want to check a booking time?",
+  "visual": {
+    "title": "Check the detail before leaving",
+    "alt_text": "Hear the booking, identify the key detail, repeat it, then ask for confirmation.",
+    "prose": "Hear the booking. Identify the detail. Repeat that detail. Ask for confirmation."
+  },
+  "sources": {
+    "details_file": "SOURCES.md",
+    "rights": "Original scenario, feedback, code, and diagram. No third-party media."
+  },
+  "canonical_url": null,
+  "live_player_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_passed_browser_navigation_blocked_pdf_render_passed",
+  "deployment_status": "not_deployed",
+  "relationship_to_existing_library": "Different objective from prior time-language lessons."
+}
