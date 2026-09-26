@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+<title id="title">Check the detail before leaving</title>
+<desc id="desc">A four-step path: hear a booking, identify the risky detail, repeat that detail, ask for confirmation.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker></defs>
+<g fill="#fff" stroke="#111" stroke-width="3">
+<rect x="25" y="80" width="180" height="120" rx="10"/><rect x="275" y="80" width="200" height="120" rx="10"/><rect x="545" y="80" width="180" height="120" rx="10"/><rect x="795" y="80" width="180" height="120" rx="10"/>
+</g>
+<g stroke="#111" stroke-width="4" marker-end="url(#arrow)"><line x1="205" y1="140" x2="265" y2="140"/><line x1="475" y1="140" x2="535" y2="140"/><line x1="725" y1="140" x2="785" y2="140"/></g>
+<g fill="#111" font-family="Arial,sans-serif" text-anchor="middle">
+<text x="115" y="128" font-size="30" font-weight="700">HEAR</text><text x="115" y="167" font-size="23">booking</text>
+<text x="375" y="120" font-size="28" font-weight="700">FIND</text><text x="375" y="158" font-size="22">risky detail</text><text x="375" y="187" font-size="18">day / time / place</text>
+<text x="635" y="128" font-size="29" font-weight="700">REPEAT</text><text x="635" y="167" font-size="22">the detail</text>
+<text x="885" y="128" font-size="29" font-weight="700">CHECK</text><text x="885" y="167" font-size="22">confirm it</text>
+</g></svg>
