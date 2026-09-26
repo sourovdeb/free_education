@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Negative-news attention and repeated-checking mechanism</title>
+  <desc id="desc">A behavior-mechanism diagram. A possible threat signal captures attention, prompts another information check, and may leave uncertainty unresolved as feeds supply more alarming items. A feedback arrow returns to threat signals. Three evidence bands distinguish documented psychological tendency, evolutionary interpretation, and uncertainty. Exit ramps include a stopping cue, diverse sources, and an action step.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2740"/>
+      <stop offset="1" stop-color="#163956"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 z" fill="#f4b266"/>
+    </marker>
+    <style>
+      .sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+      .title{font-size:40px;font-weight:750;fill:#f8fbff}
+      .sub{font-size:20px;fill:#c9d9e8}
+      .step{font-size:22px;font-weight:700;fill:#102a43}
+      .detail{font-size:17px;fill:#314b61}
+      .num{font-size:22px;font-weight:800;fill:#fff}
+      .bandtitle{font-size:18px;font-weight:800;letter-spacing:.8px}
+      .bandtext{font-size:17px;fill:#eaf2f8}
+      .exit{font-size:17px;font-weight:700;fill:#103a32}
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" rx="24" fill="url(#bg)"/>
+  <text x="64" y="70" class="sans title">Why bad news can become a checking loop</text>
+  <text x="64" y="104" class="sans sub">Evidence, an evolutionary interpretation, and the limits of the claim</text>
+
+  <g>
+    <rect x="60" y="150" width="245" height="145" rx="18" fill="#f7efe4"/>
+    <circle cx="94" cy="184" r="21" fill="#c9633f"/>
+    <text x="94" y="192" text-anchor="middle" class="sans num">1</text>
+    <text x="126" y="190" class="sans step">Possible threat</text>
+    <text x="84" y="230" class="sans detail">A negative headline</text>
+    <text x="84" y="255" class="sans detail">signals danger or loss.</text>
+
+    <line x1="305" y1="222" x2="346" y2="222" stroke="#f4b266" stroke-width="6" marker-end="url(#arrow)"/>
+
+    <rect x="365" y="150" width="245" height="145" rx="18" fill="#edf4f7"/>
+    <circle cx="399" cy="184" r="21" fill="#197c89"/>
+    <text x="399" y="192" text-anchor="middle" class="sans num">2</text>
+    <text x="431" y="190" class="sans step">Attention capture</text>
+    <text x="389" y="230" class="sans detail">Negative information often</text>
+    <text x="389" y="255" class="sans detail">receives extra weight.</text>
+
+    <line x1="610" y1="222" x2="651" y2="222" stroke="#f4b266" stroke-width="6" marker-end="url(#arrow)"/>
+
+    <rect x="670" y="150" width="245" height="145" rx="18" fill="#edf4f7"/>
+    <circle cx="704" cy="184" r="21" fill="#197c89"/>
+    <text x="704" y="192" text-anchor="middle" class="sans num">3</text>
+    <text x="736" y="190" class="sans step">Another check</text>
+    <text x="694" y="230" class="sans detail">“One more update” may</text>
+    <text x="694" y="255" class="sans detail">promise safety or closure.</text>
+
+    <line x1="915" y1="222" x2="956" y2="222" stroke="#f4b266" stroke-width="6" marker-end="url(#arrow)"/>
+
+    <rect x="975" y="150" width="165" height="145" rx="18" fill="#f7efe4"/>
+    <circle cx="1009" cy="184" r="21" fill="#c9633f"/>
+    <text x="1009" y="192" text-anchor="middle" class="sans num">4</text>
+    <text x="1041" y="185" class="sans step">Feed</text>
+    <text x="1041" y="211" class="sans step">refills</text>
+    <text x="999" y="249" class="sans detail">Uncertainty</text>
+    <text x="999" y="274" class="sans detail">may remain.</text>
+
+    <path d="M1058 297 C1058 345, 182 345, 182 297" fill="none" stroke="#f4b266" stroke-width="5" stroke-dasharray="10 9" marker-end="url(#arrow)"/>
+    <text x="620" y="330" text-anchor="middle" class="sans sub">Repeated exposure can restart the loop</text>
+  </g>
+
+  <g>
+    <rect x="60" y="385" width="1080" height="76" rx="14" fill="#1f5770"/>
+    <text x="84" y="415" class="sans bandtitle" fill="#8fe2ea">DOCUMENTED</text>
+    <text x="84" y="443" class="sans bandtext">Negative information often has stronger effects on attention and judgment—but the tendency varies.</text>
+
+    <rect x="60" y="475" width="1080" height="76" rx="14" fill="#5d4938"/>
+    <text x="84" y="505" class="sans bandtitle" fill="#ffd29d">INTERPRETATION</text>
+    <text x="84" y="533" class="sans bandtext">Missing a threat can be unusually costly; selection may have favored fast monitoring of danger cues.</text>
+
+    <rect x="60" y="565" width="1080" height="76" rx="14" fill="#493f65"/>
+    <text x="84" y="595" class="sans bandtitle" fill="#d7c6ff">UNCERTAINTY</text>
+    <text x="84" y="623" class="sans bandtext">Platform design, real crises, habits, and individual differences also shape doomscrolling.</text>
+  </g>
+
+  <g>
+    <text x="60" y="691" class="sans sub">Possible exit ramps</text>
+    <rect x="250" y="661" width="220" height="48" rx="24" fill="#bfe8d7"/>
+    <text x="360" y="691" text-anchor="middle" class="sans exit">Set a stopping cue</text>
+    <rect x="490" y="661" width="220" height="48" rx="24" fill="#bfe8d7"/>
+    <text x="600" y="691" text-anchor="middle" class="sans exit">Diversify sources</text>
+    <rect x="730" y="661" width="220" height="48" rx="24" fill="#bfe8d7"/>
+    <text x="840" y="691" text-anchor="middle" class="sans exit">Choose one action</text>
+  </g>
+
+  <text x="1140" y="730" text-anchor="end" class="sans" font-size="14" fill="#99b1c5">History Investigation · 27 Sep 2026</text>
+</svg>
