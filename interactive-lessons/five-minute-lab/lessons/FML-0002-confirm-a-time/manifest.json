@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "lesson_id": "FML-0002",
+  "version": "1.0.0",
+  "title": "So, That's 7:30 on Thursday?",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "interaction_family": "arrange-and-match",
+  "core_player_bytes": 13317,
+  "browser_runtime_test": "blocked_by_environment",
+  "pdf_render_pages": 4,
+  "pdf_visual_inspection": "passed",
+  "files": [
+    {"name":"lesson.json","size_bytes":6402},
+    {"name":"index.html","size_bytes":13317},
+    {"name":"wordpress-draft.html","size_bytes":2319},
+    {"name":"medium.md","size_bytes":2458},
+    {"name":"linkedin-post.txt","size_bytes":577},
+    {"name":"linkedin-carousel.pdf","size_bytes":3849},
+    {"name":"carousel.html","size_bytes":1678},
+    {"name":"diagram.svg","size_bytes":1528},
+    {"name":"diagram.txt","size_bytes":356},
+    {"name":"README.md","size_bytes":966},
+    {"name":"SOURCES.md","size_bytes":1885},
+    {"name":"TESTS.md","size_bytes":1333}
+  ],
+  "notes": [
+    "Checksums remain in Drive package.",
+    "Source links are not live-player links.",
+    "GitHub Pages was not enabled.",
+    "WordPress, Medium, and LinkedIn were not published."
+  ]
+}
