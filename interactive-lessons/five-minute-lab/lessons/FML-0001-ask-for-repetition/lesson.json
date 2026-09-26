@@ -6,7 +6,10 @@
   "pathway": "use-english",
   "interaction_family": "choose-and-explain",
   "audience": "Older teenagers and adults",
-  "level_estimate": ["A2","B1"],
+  "level_estimate": [
+    "A2",
+    "B1"
+  ],
   "duration_estimate_minutes": "3-5",
   "prerequisites": [
     "Can understand simple service conversations",
