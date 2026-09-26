@@ -1,0 +1,26 @@
+5-Minute English Lab | FML-0002
+
+You hear a booking time.
+You think it is right.
+But one mistake matters.
+
+Try this check:
+
+Is that 7:30 a.m. on Thursday?
+
+Or, in conversation:
+
+So, that's 7:30 a.m. on Thursday, right?
+
+The skill is simple:
+hear -> identify -> repeat -> confirm.
+
+New task:
+Your appointment is Monday, 2:15 p.m.
+How would you confirm it?
+
+Repository source:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0002-confirm-a-time
+
+The repository link is source code.
+No live player is claimed.
