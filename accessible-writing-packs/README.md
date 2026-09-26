@@ -40,3 +40,17 @@ Presets: Writer, Source Notes, and Large Type.
 - Package commit: https://github.com/sourovdeb/free_education/commit/6ffc9d4d276e12b33588fc0456a7b1bc0c556f0c
 
 Banner and activity modules stay disabled by default. Readers control pace, hints, sound, motion, contrast, text size, and line spacing.
+
+## Day 04 — Story Garden
+
+Goal: separate growing spaces for stories, sources, and open-source guides.
+
+Presets: Writer, Source Notes, and Large Type.
+
+- WordPress source: day-04-story-garden/wordpress-story-garden
+- WordPress ZIP: day-04-story-garden/story-garden-wordpress-theme.zip
+- GitHub Pages source: day-04-story-garden/github-pages-story-garden
+- GitHub Pages ZIP: day-04-story-garden/story-garden-github-pages.zip
+- Package commit: https://github.com/sourovdeb/free_education/commit/c0d39d370c9c502419da2cbba74c96b7ee32e90a
+
+Banner and activity modules stay disabled by default. Readers control pace, hints, sound, motion, contrast, text size, and line spacing.
