@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "series": "5-Minute English Lab",
+  "status": "configured",
+  "setup_date": "2026-09-26",
+  "first_scheduled_run": "2026-09-26T21:00:00+04:00",
+  "next_lesson_id": "FML-0001",
+  "default_pathway": "use-english",
+  "estimated_levels": ["A2", "B1"],
+  "lessons": [],
+  "lease": null,
+  "revision": 0,
+  "editorial_policy": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "candidate_objectives": [
+    "Ask someone to repeat an unclear detail",
+    "Check a time before confirming",
+    "Find evidence in a short notice",
+    "Request an item in a service encounter",
+    "Use a collocation in a new situation"
+  ],
+  "source_indices_to_compare": [
+    "LESSONS_INDEX.md",
+    "celta_lessons/LESSON_INDEX.md",
+    "interactive-lessons/"
+  ],
+  "notes": [
+    "Setup has not created a lesson.",
+    "Inspect existing objectives before selecting the next topic.",
+    "Do not infer website publication from repository indices.",
+    "Keep private delivery identifiers outside this public registry."
+  ]
+}
