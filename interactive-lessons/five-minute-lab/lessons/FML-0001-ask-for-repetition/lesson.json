@@ -1,0 +1,195 @@
+{
+  "id": "FML-0001",
+  "version": "1.0.0",
+  "title": "Sorry, Could You Say That Again?",
+  "slug": "ask-for-repetition",
+  "pathway": "use-english",
+  "interaction_family": "choose-and-explain",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2","B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": [
+    "Can understand simple service conversations",
+    "Can form basic questions"
+  ],
+  "objective": "Ask someone to repeat one missed detail, then confirm what was heard.",
+  "framework": "Situational language focus with speaking production",
+  "scenario": {
+    "setting": "Hotel reception",
+    "prompt": "The receptionist says: Breakfast starts at six [noise] in the Palm Room. You missed the time.",
+    "goal": "Ask for the missing time without restarting the whole conversation."
+  },
+  "model": {
+    "repeat_general": "Sorry, could you say that again, please?",
+    "repeat_specific": "Could you say the time again, please?",
+    "confirm": "Six forty-five, right?"
+  },
+  "language_focus": {
+    "meaning": "Use a repetition request when words were not heard clearly. Use a checking question after hearing the detail again.",
+    "form": [
+      "Could you + base verb + ... ?",
+      "Did you say + detail?",
+      "detail + right?"
+    ],
+    "appropriateness": "Can and could both work for requests. Could often sounds more polite. Tone and context also matter.",
+    "distinction": "If you heard the words but do not understand their meaning, ask for clarification instead of repetition."
+  },
+  "visual": {
+    "alt_text": "A five-step path: hear a message, miss one detail, ask for repetition, hear the detail again, confirm it.",
+    "prose": "When one detail is missed, ask for that part again. After hearing it, confirm the detail before continuing."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "prompt": "You missed the time. What helps most?",
+      "options": [
+        {
+          "id": "a",
+          "text": "What?",
+          "quality": "possible_but_blunt",
+          "feedback": "It signals a problem. It does not show which detail you missed. In some contexts, it can sound abrupt."
+        },
+        {
+          "id": "b",
+          "text": "Could you say the time again, please?",
+          "quality": "best_for_goal",
+          "feedback": "This names the missing detail. It asks for repetition. It is clear and polite."
+        },
+        {
+          "id": "c",
+          "text": "Breakfast is good.",
+          "quality": "not_the_goal",
+          "feedback": "This comments on breakfast. It does not repair the missed information."
+        }
+      ],
+      "best_option": "b"
+    },
+    {
+      "id": "decision-2",
+      "prompt": "You missed everything. Which request works?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sorry, could you say that again, please?",
+          "quality": "best_for_goal",
+          "feedback": "This asks for the whole message again. Sorry can soften the interruption."
+        },
+        {
+          "id": "b",
+          "text": "Could you explain breakfast?",
+          "quality": "different_problem",
+          "feedback": "This asks for an explanation. Use it when the meaning is unclear, not when the words were missed."
+        },
+        {
+          "id": "c",
+          "text": "Repeat.",
+          "quality": "grammatical_but_direct",
+          "feedback": "The meaning is understandable. The imperative is very direct. A request form usually suits service situations better."
+        }
+      ],
+      "best_option": "a"
+    },
+    {
+      "id": "decision-3",
+      "prompt": "The receptionist repeats: Six forty-five. What checks it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Six forty-five, right?",
+          "quality": "best_for_goal",
+          "feedback": "This checks the detail you heard. It gives the other person a chance to correct it."
+        },
+        {
+          "id": "b",
+          "text": "Could you repeat?",
+          "quality": "possible_but_unneeded",
+          "feedback": "You can ask again if needed. Here, you already heard the detail. Checking is faster."
+        },
+        {
+          "id": "c",
+          "text": "Yes, breakfast.",
+          "quality": "not_specific",
+          "feedback": "This does not confirm the time. The risky detail remains unchecked."
+        }
+      ],
+      "best_option": "a"
+    }
+  ],
+  "production_task": {
+    "scenario": "A café worker tells you: Your table is outside, number fourteen. You hear the location, but not the number.",
+    "instruction": "Say or write one sentence asking for the number again. Then add one checking sentence after you hear: fourteen.",
+    "acceptable_examples": [
+      "Could you say the table number again, please? Fourteen, right?",
+      "Sorry, could you repeat the number, please? Did you say fourteen?",
+      "Can you say the number again, please? Fourteen?"
+    ],
+    "self_check": [
+      "I asked for repetition.",
+      "I named the missing detail.",
+      "I checked fourteen afterwards.",
+      "My wording fits the situation."
+    ]
+  },
+  "retrieval_prompt": "Tomorrow, without looking: what can you say when you miss one detail?",
+  "sources": [
+    {
+      "type": "internal_method",
+      "title": "Blue Lesson Frameworks - a summary.pdf",
+      "author": "Training resource; author not stated in inspected text",
+      "year": null,
+      "url": null,
+      "accessed": "2026-09-26",
+      "coverage": "Situational framework; meaning, pronunciation, form; controlled and freer practice.",
+      "rights": "Private source used for method structure only. No pages or exercises redistributed."
+    },
+    {
+      "type": "internal_method",
+      "title": "Guidance notes - Speaking.pdf",
+      "author": "Simon Brooks",
+      "year": 2016,
+      "url": null,
+      "accessed": "2026-09-26",
+      "coverage": "Context setting, useful language, preparation, speaking task, content and language feedback.",
+      "rights": "Private source used for method structure only. No pages or exercises redistributed."
+    },
+    {
+      "type": "public_language_reference",
+      "title": "Can, could or may?",
+      "author": "Cambridge Dictionary, English Grammar Today",
+      "year": null,
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/can-could-or-may",
+      "accessed": "2026-09-26",
+      "coverage": "Can/could in requests; could described as more polite than can.",
+      "rights": "Reference only. Lesson wording and examples are original except conventional short forms."
+    },
+    {
+      "type": "public_language_reference",
+      "title": "How to ask someone to repeat something",
+      "author": "British Council LearnEnglish",
+      "year": 2019,
+      "url": "https://learnenglish.britishcouncil.org/sites/podcasts/files/LearnEnglish-Howto-ask-someone-to-repeat-something.pdf",
+      "accessed": "2026-09-26",
+      "coverage": "Functional phrases for requesting repetition.",
+      "rights": "Reference only. Source worksheet is not redistributed."
+    },
+    {
+      "type": "public_language_reference",
+      "title": "Questions: echo and checking questions",
+      "author": "Cambridge Dictionary, English Grammar Today",
+      "year": null,
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/questions-echo-and-checking-questions",
+      "accessed": "2026-09-26",
+      "coverage": "Echo/checking questions used for confirmation in spoken English.",
+      "rights": "Reference only. Source content is not redistributed."
+    }
+  ],
+  "rights": {
+    "original_material": "Lesson text, code, SVG and layout created for this project. Existing repository CC0 applies only where the project owns the material.",
+    "third_party": "External and private sources retain their own rights. No third-party page, worksheet, audio or image is included."
+  },
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_and_browser_checks_passed_file_scheme_unverified",
+  "canonical_url": null,
+  "live_url": null,
+  "created_at": "2026-09-26T21:13:15+04:00"
+}
