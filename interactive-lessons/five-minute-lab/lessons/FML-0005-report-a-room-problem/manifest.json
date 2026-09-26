@@ -1,0 +1,46 @@
+{
+  "schema_version":"1.0.0",
+  "lesson_id":"FML-0005",
+  "version":"1.0.0",
+  "title":"The Shower Isn't Working",
+  "editorial_status":"needs_owner_review",
+  "deployment_status":"not_deployed",
+  "canonical_url":null,
+  "live_player_url":null,
+  "tests":{
+    "json_parse":"passed",
+    "html_parse":"passed",
+    "javascript_syntax":"passed",
+    "activity_logic":"passed",
+    "external_runtime_scan":"passed",
+    "browser_runtime":"passed_via_set_content",
+    "external_network_requests":0,
+    "viewport_test":"390x844_headless_browser",
+    "core_player_bytes":5906,
+    "core_player_under_250kb":"passed",
+    "pdf_render_pages":4,
+    "pdf_visual_inspection":"passed",
+    "physical_phone":"not_run",
+    "learner_study":"not_run"
+  },
+  "files":{
+    "README.md":"saved",
+    "lesson.json":"saved",
+    "index.html":"saved",
+    "wordpress-draft.html":"saved",
+    "medium.md":"saved",
+    "linkedin-post.txt":"saved",
+    "linkedin-carousel.pdf":"drive_or_local_binary",
+    "carousel.html":"saved",
+    "diagram.svg":"saved",
+    "diagram.txt":"saved",
+    "SOURCES.md":"saved",
+    "TESTS.md":"saved"
+  },
+  "notes":[
+    "No live player is claimed.",
+    "WordPress remains unpublished.",
+    "Medium remains unpublished.",
+    "LinkedIn remains unpublished."
+  ]
+}
