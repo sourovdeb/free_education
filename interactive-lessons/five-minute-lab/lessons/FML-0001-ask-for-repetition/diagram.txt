@@ -1,0 +1,10 @@
+REPAIR A MISSED DETAIL
+
+[HEAR] -> [MISS ONE DETAIL] -> [ASK] -> [HEAR AGAIN] -> [CONFIRM]
+
+Prose equivalent:
+When one detail is missed, ask for that part again.
+After hearing it, confirm the detail before continuing.
+
+Alt text:
+A five-step path: hear a message, miss one detail, ask for repetition, hear the detail again, confirm it.
