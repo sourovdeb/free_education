@@ -1,0 +1,3 @@
+First separate the known clues from the missing clue. Ask which room using a direct or embedded question. In the embedded version, keep statement order: the meeting is in. Then repeat the room and floor together and invite confirmation.
+
+Alt text: A layered papercut office route. Known time and floor clues lead to a polite room question. The answer adds the Orchid Room, then room and floor combine in one confirmation.

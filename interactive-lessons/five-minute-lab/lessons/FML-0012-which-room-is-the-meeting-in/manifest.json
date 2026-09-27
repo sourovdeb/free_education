@@ -1,0 +1,96 @@
+{
+  "id": "FML-0012",
+  "version": "1.0.0",
+  "title": "Which Room Is the Meeting In?",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T18:25:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 11948,
+      "sha256": "2485505fab37a6a6f5fa2ad73465d86e1fe2353f2fa79074834a189f371d8cdb"
+    },
+    {
+      "path": "index.html",
+      "bytes": 28996,
+      "sha256": "e3f391a45943b66e23f0f54cf58818d8d11d00e508a50f861e833d99cf3bae1c"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 4869,
+      "sha256": "ed81cabfb0059c791a01c0f296be8658e5912571b1193a4b0cadcd1f584c0639"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4287,
+      "sha256": "49f6199cde832e9670b8d12809af25bf8e1bedbfb7d36742c02ba9cba8fa3d67"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 524,
+      "sha256": "b91d934810179c518d4b6c6a30c2649a8706d8ccdd052f84d01021300c9370c7"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 227670,
+      "sha256": "f4d59b0617ec04582c58e70a4a38440ac8d81106abaaa635671b77ca251ac222"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6021,
+      "sha256": "7649e5d0e40da9d3918e77e152350c266ed884e8e1cdd9985c5f9850d63eb105"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2085,
+      "sha256": "ab1b27ed8dfe0c228f1c8d2f379ef7c41dd95fe77d454a5010f25bc70e8bdecf"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 40430,
+      "sha256": "d9d3d9e7af6bc799d10571dc00984cf62517a2ef2061ae712b1b275cc70bba78"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 422,
+      "sha256": "c322771b86b30cd63894243b4e746f9ca19cf4766bb8d0852da2568aad2a93ad"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "af7a840b9ca281f5d7fb120c717e56cf7e920197b70477eb7b9c701d7efb75b7"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1833,
+      "sha256": "49940205a66190c157e9f4069218006c5c4bc235ca7c22b4baad38650341f380"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1533,
+      "sha256": "ddfaa4c73eaf261f672bf4dfcb78a6d8a34de390decb0cfee50dea3aa8187c72"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1370,
+      "sha256": "2da708e8760154054e885e236eb61e9554c8e507e300dce59999682b6b7a2cb3"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 518,
+      "sha256": "85d0a522588e33b37b264d08125d263b16d96df44d204d427278a8ecf6f3b736"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 376932,
+      "sha256": "e34688737c55061e5e5ef64b31e3ae70d4e4e35a9197ffba6b16a3c1a997d518"
+    },
+    {
+      "path": "build.py",
+      "bytes": 37423,
+      "sha256": "ec66f06163bd501951d6e673f7b343c9a6a7124cc0e4bd27c141b9ed46e51c01"
+    }
+  ]
+}

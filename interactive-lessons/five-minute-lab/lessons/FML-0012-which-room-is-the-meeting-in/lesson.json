@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0012",
+  "version": "1.0.0",
+  "title": "Which Room Is the Meeting In?",
+  "slug": "which-room-is-the-meeting-in",
+  "pathway": "use-english",
+  "interaction_family": "location-clue-and-readback",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": [
+    "Understand simple workplace locations.",
+    "Recognise room names, floor numbers, and clock times."
+  ],
+  "observable_outcome": "The learner asks politely for a missing meeting-room detail, then confirms the room and floor in one checking question.",
+  "learning_objective": "Clarify which meeting room to use, then confirm the floor and room accurately.",
+  "scenario": {
+    "setting": "An office reception desk before a client meeting.",
+    "prompt": "Your invitation says Client check-in at 10:00 on the third floor. The room name is smudged. Reception says the meeting is in the Orchid Room.",
+    "puzzle": "Which clue is missing, and how can you ask for it politely before checking the full location?",
+    "privacy_note": "The company, meeting, and room names are fictional teaching data."
+  },
+  "model": {
+    "clarify": "Could you tell me which room the meeting is in, please?",
+    "customer_reply": "The Orchid Room, on the third floor.",
+    "confirm": "So that's the Orchid Room on the third floor, right?",
+    "neutral_variant": "Which room is the meeting in, please?"
+  },
+  "language_focus": {
+    "grammar": "After Could you tell me, use statement order in the embedded question: which room the meeting is in. Do not repeat direct-question order as which room is the meeting in.",
+    "meaning": "The floor narrows the location, but the room name identifies the exact meeting place. The readback joins both details for confirmation.",
+    "appropriateness": "Could you tell me ... please? is polite at a reception desk. Which room is the meeting in, please? is also correct and more direct. Which room, please? works when the situation is already clear.",
+    "location_language": "Use in for the room and on for the floor: in the Orchid Room, on the third floor."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "The time and floor are clear. Which detail still needs clarification?",
+    "options": [
+      {
+        "text": "The room name",
+        "correct": true,
+        "feedback": "Correct. The exact room is missing, so ask which room the meeting is in."
+      },
+      {
+        "text": "The meeting time",
+        "correct": false,
+        "feedback": "The invitation clearly says 10:00. Asking again would not solve the missing-room problem."
+      },
+      {
+        "text": "The floor",
+        "correct": false,
+        "feedback": "The third floor is already clear. You still need the room name."
+      }
+    ]
+  },
+  "request_activity": {
+    "id": "decision-2",
+    "prompt": "Choose a correct, polite reception question.",
+    "options": [
+      {
+        "text": "Could you tell me which room the meeting is in, please?",
+        "correct": true,
+        "feedback": "Correct. The polite frame is followed by statement order: the meeting is in."
+      },
+      {
+        "text": "Which room is the meeting in, please?",
+        "correct": true,
+        "feedback": "Also correct. This direct question is polite with please, though less indirect."
+      },
+      {
+        "text": "Could you tell me which room is the meeting in?",
+        "correct": false,
+        "feedback": "The meaning is understandable, but standard embedded-question order is which room the meeting is in."
+      }
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each clue to its meeting-location slot.",
+    "slots": ["time", "floor", "room"],
+    "items": [
+      {
+        "detail": "10:00",
+        "answer": "time",
+        "feedback": {
+          "time": "Correct. 10:00 tells you when the meeting starts.",
+          "floor": "10:00 is a clock time, not a floor.",
+          "room": "10:00 is not a room name."
+        }
+      },
+      {
+        "detail": "third floor",
+        "answer": "floor",
+        "feedback": {
+          "time": "Third floor tells you where in the building, not when.",
+          "floor": "Correct. Third floor narrows the building location.",
+          "room": "This is a floor, not the exact room."
+        }
+      },
+      {
+        "detail": "Orchid Room",
+        "answer": "room",
+        "feedback": {
+          "time": "Orchid Room is a place, not a time.",
+          "floor": "Orchid Room names the exact room, not the floor.",
+          "room": "Correct. Orchid Room is the exact meeting place."
+        }
+      }
+    ]
+  },
+  "production_task": {
+    "scenario": "A workshop starts at 14:30 on the second floor. The room name is unclear. Reception says Palm Room.",
+    "instruction": "Write one polite clarification question. Then write one complete readback question with Palm Room and the second floor.",
+    "acceptable_responses": [
+      "Could you tell me which room the workshop is in, please? So that's the Palm Room on the second floor, right?",
+      "Which room is the workshop in, please? Let me check: the Palm Room on the second floor. Is that correct?"
+    ],
+    "rubric": [
+      "I asked for the missing room.",
+      "I used a polite form.",
+      "I repeated the room and floor.",
+      "I invited confirmation."
+    ],
+    "valid_variants": "Both direct and embedded questions can work. Meeting, workshop, session, and event are acceptable when they fit the situation."
+  },
+  "review_prompt": "Tomorrow, explain why we say Could you tell me which room the meeting is in? rather than Could you tell me which room is the meeting in?",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {
+      "paper_cream": "#FFF3D9",
+      "coral": "#F28C45",
+      "teal": "#5BAA78",
+      "mustard": "#F2C14E",
+      "navy": "#1D2942",
+      "lilac": "#D98BA6"
+    },
+    "paper_layers": [
+      "lobby wall",
+      "building floors",
+      "lift doors",
+      "visitor",
+      "receptionist",
+      "invitation card",
+      "room plaques",
+      "speech cards"
+    ],
+    "cutout_assets": [
+      "office building",
+      "lift",
+      "visitor",
+      "receptionist",
+      "invitation",
+      "floor tile",
+      "room plaque",
+      "speech strip",
+      "direction arrow"
+    ],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Overlapping pieces use offset shadows and visible cream cut edges.",
+    "motion_principle": "Cutout objects slide, pivot, open, reorder, and travel to demonstrate locating and confirming a meeting room. Captions remain fixed.",
+    "accessibility": "Dark navy text on cream panels; words, arrows, and feedback repeat every colour relationship."
+  },
+  "scenes": [
+    {
+      "id": "arrive",
+      "title": "Read the invitation",
+      "caption": "Client check-in: 10:00, third floor, room name unclear.",
+      "explanation": "The office opens in layers while the invitation slides forward. The time and floor are readable, but the room strip stays covered.",
+      "motion_cues": ["building floors rise", "lift doors open", "invitation slides forward"]
+    },
+    {
+      "id": "spot",
+      "title": "Spot the missing clue",
+      "caption": "10:00 is clear. Third floor is clear. The room name is missing.",
+      "explanation": "The known time and floor tiles lock into place. A labelled room-shaped gap remains open.",
+      "motion_cues": ["time tile drops", "floor tile drops", "room gap opens"]
+    },
+    {
+      "id": "ask",
+      "title": "Ask politely",
+      "caption": "Could you tell me which room the meeting is in, please?",
+      "explanation": "The visitor pivots toward reception. A three-layer speech card unfolds to show the polite frame and embedded question.",
+      "motion_cues": ["visitor arm pivots", "speech card unfolds", "question layers slide together"]
+    },
+    {
+      "id": "order",
+      "title": "Keep statement order",
+      "caption": "Could you tell me + which room + the meeting is in?",
+      "explanation": "Word tiles reorder after the polite frame. The subject the meeting stays before is.",
+      "motion_cues": ["direct-question tiles separate", "subject tile moves left", "embedded question locks"]
+    },
+    {
+      "id": "confirm",
+      "title": "Confirm both clues",
+      "caption": "So that's the Orchid Room on the third floor, right?",
+      "explanation": "The third-floor tile and Orchid Room plaque stack into one route card. A check mark pivots into view.",
+      "motion_cues": ["floor tile rises", "room plaque slides", "check mark pivots"]
+    },
+    {
+      "id": "transfer",
+      "title": "Your workshop",
+      "caption": "Palm Room, second floor, 14:30.",
+      "explanation": "A visitor moves to a new floor. Ask for the room, then read back Palm Room and the second floor.",
+      "motion_cues": ["visitor enters lift", "floor indicator changes", "Palm Room plaque reveals"]
+    }
+  ],
+  "visual": {
+    "title": "Find the missing room, then confirm the route",
+    "alt_text": "A layered papercut office route. Known time and floor clues lead to a polite room question. The answer adds the Orchid Room, then room and floor combine in one confirmation.",
+    "prose": "First separate the known clues from the missing clue. Ask which room using a direct or embedded question. In the embedded version, keep statement order: the meeting is in. Then repeat the room and floor together and invite confirmation."
+  },
+  "sources": [
+    {
+      "institution": "British Council",
+      "title": "Requests, offers and invitations",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/requests-offers-invitations",
+      "accessed": "2026-09-27",
+      "inspected": "Requests section: could you and would you are polite request forms; can and will are described as less polite.",
+      "limitation": "The meeting-room dialogue and activities are original. The source supports the polite request frame only."
+    },
+    {
+      "institution": "Cambridge Dictionary",
+      "title": "Reported speech: indirect speech",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/reported-speech-indirect-speech",
+      "accessed": "2026-09-27",
+      "inspected": "Indirect wh-question section: statement word order uses subject plus verb, not direct-question inversion.",
+      "limitation": "The lesson applies the same embedded-question order after Could you tell me. It does not reproduce Cambridge exercises."
+    },
+    {
+      "institution": "British Council",
+      "title": "Prepositions of place: in, on, at",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/prepositions-place",
+      "accessed": "2026-09-27",
+      "inspected": "Examples include on the fifth floor and locations inside rooms or spaces.",
+      "limitation": "Used only to support the conventional location phrases in the original scenario."
+    }
+  ],
+  "rights": {
+    "scenario": "Original fictional scenario.",
+    "text": "Original lesson text; conventional short language examples only.",
+    "art": "Original procedural papercut shapes and textures.",
+    "video": "Original silent procedural animation generated from lesson.json.",
+    "fonts": "System DejaVu Sans used at build time; font files are not distributed.",
+    "third_party_assets": "None."
+  },
+  "canonical_url": null,
+  "live_player_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}
