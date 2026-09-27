@@ -1,47 +1,47 @@
-# Sources
+# Sources and rights
 
-## British Council LearnEnglish
+## Question forms
 
-**Question forms**
+British Council LearnEnglish
 
 https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms
 
-Accessed: 2026-09-27.
+Accessed: 2026-09-27
 
-Inspected: question inversion.
+Inspected: Present simple questions use do before the subject and the infinitive form of the verb.
 
-Limit: general grammar.
+Limit: General grammar reference; not hotel-specific.
 
-## Cambridge Dictionary
+## checkout
 
-**checkout**
+Cambridge University Press & Assessment
 
 https://dictionary.cambridge.org/dictionary/english/checkout
 
-Accessed: 2026-09-27.
+Accessed: 2026-09-27
 
-Inspected: hotel checkout meaning.
+Inspected: Hotel checkout is when a guest leaves after paying and returning a key.
 
-Limit: dictionary definition.
+Limit: Dictionary definition; hotel practices can vary.
 
-## Cambridge Learner's Dictionary
+## pay
 
-**pay**
+Cambridge University Press & Assessment
 
 https://dictionary.cambridge.org/dictionary/learner-english/pay
 
-Accessed: 2026-09-27.
+Accessed: 2026-09-27
 
-Inspected: A1 payment meaning.
+Inspected: Pay means giving money for goods or services.
 
-Limit: dictionary definition.
+Limit: Learner dictionary definition.
 
-## Rights
+## Assets
 
-Lesson text is original.
+All scenarios, choices, feedback, diagrams, doodles, captions, code, and animation are original.
 
-Scenarios are original.
+No textbook assets appear.
 
-Diagram is original.
+Video has no audio.
 
-No copied artwork appears.
+Existing repository licensing governs owned work.
