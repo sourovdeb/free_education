@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "edition": "2026-09-27/1400-rules-choice-and-prestige",
+  "title": "History Investigation: Rules, choice, and prestige",
+  "generated_at": "2026-09-27T14:00:00+04:00",
+  "chapter_count": 6,
+  "source_count": 18,
+  "body_word_counts": [144, 147, 154, 160, 159, 157],
+  "video_verification": {
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "frame_rate": "25/1",
+    "duration_seconds": 210.0,
+    "frame_count": 5250,
+    "audio_streams": 0,
+    "progressive_animation": true,
+    "visual_chapters": 6
+  },
+  "artifact_checks": {
+    "svg_xml_valid": true,
+    "viewer_controls_present": true,
+    "viewer_embedded_data": true,
+    "wordpress_unpublished_marker": true,
+    "card_word_limits_pass": true,
+    "source_count_limits_pass": true,
+    "visual_frames_inspected": true
+  },
+  "website": {
+    "wordpress_ready_file_created": true,
+    "published": false,
+    "remote_write_attempted": false,
+    "limitation": "Remote WordPress actions are unavailable."
+  },
+  "files": {
+    "README.md": {"bytes": 1454, "sha256": "0a8bd50b3664f77f3a827bcdd6e27988bafc5fe8a3d8c0fd8372570e9c597cf8"},
+    "build.py": {"bytes": 13897, "sha256": "9506403149f4de235aa73905b64f51e2e9d2b8161e8eaff11be29f7e031a4ec1"},
+    "edition.md": {"bytes": 11109, "sha256": "183e4b232a8509bddf961965787bdf0e456fa534c6d74f9a21d4777525a05015"},
+    "evidence.svg": {"bytes": 3300, "sha256": "67e995bd7eb7c64357ea177c72d39ee785313f9a8d74e27f4850cf205182e170"},
+    "history-investigation.mp4": {"bytes": 743987, "sha256": "142d0ddafd3eed08974d694d573c667524d3e35f65fae400256d22b8e9b5662c"},
+    "lesson-viewer.html": {"bytes": 18849, "sha256": "7266710956cfaff11591ebc6986c8384c6c70b5399b2064e523a8f13a392dd79"},
+    "lesson.json": {"bytes": 14083, "sha256": "ab393d41680281d9addb592b79eae7d22274ba9f577c31c3292797f5f012cbec"},
+    "render_video.py": {"bytes": 12195, "sha256": "41e0e87561894cbcfb8e460c48c586cf829679cd8db6eafde5e6409d2e00a107"},
+    "wordpress-draft.html": {"bytes": 13822, "sha256": "100b854dd9d5b7ef62f0c74a14fa5edc965df2fbb40d69820f2da9c8aaa211c6"}
+  }
+}
