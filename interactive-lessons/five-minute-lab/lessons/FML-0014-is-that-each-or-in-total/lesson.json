@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0014",
+  "version": "1.0.0",
+  "title": "Is That €60 Each or in Total?",
+  "slug": "is-that-each-or-in-total",
+  "pathway": "use-english",
+  "interaction_family": "price-scope-and-readback",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Understand simple prices and group numbers.", "Recognise basic yes-no questions with be."],
+  "observable_outcome": "The learner asks whether a quoted price is per person or total, then confirms the amount and group size in one checking question.",
+  "learning_objective": "Clarify whether a quoted price is per person or total, then confirm the amount and group size accurately.",
+  "scenario": {
+    "setting": "A tour desk before a group booking.",
+    "prompt": "The agent says: The tour is €60. Your group has three adults. The quote does not say whether €60 is for each person or for the whole group.",
+    "puzzle": "What must you clarify before paying, and how can you confirm the final amount?",
+    "privacy_note": "The tour, people, and prices are fictional teaching data."
+  },
+  "model": {
+    "clarify": "Is that €60 per person or €60 in total?",
+    "customer_reply": "It is €60 per person.",
+    "confirm": "So that is €180 in total for three people, right?",
+    "neutral_variant": "Just to check, is the €60 price for each person or for the whole group?"
+  },
+  "language_focus": {
+    "grammar": "With be, put is before the subject: Is that ...? An alternative question presents two possibilities joined by or: Is that €60 per person or €60 in total? A checking statement can end with right? in neutral informal conversation.",
+    "meaning": "Per person means for each person. In total means the whole amount for everyone together. The two phrases change the cost, so repeat both the final amount and the group size.",
+    "appropriateness": "The direct alternative question is clear and neutral at a tour desk. Just to check softens the question. Avoid asking only Is that right? before stating the amount you want confirmed.",
+    "detail_language": "For three people names the group size. If the price is €60 per person, three people cost €180 in total. The arithmetic illustrates the language consequence; the target skill is clarification and readback."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "The agent says only: The tour is €60. What is unclear?",
+    "options": [
+      {"text": "Whether €60 is per person or total", "correct": true, "feedback": "Correct. The quote gives an amount but not its scope: one person or the whole group."},
+      {"text": "Whether the tour exists", "correct": false, "feedback": "The agent is offering the tour. The missing detail is what the €60 price covers."},
+      {"text": "Whether three is a number", "correct": false, "feedback": "The group size is already clear. You need to connect the quoted price to each person or everyone together."}
+    ]
+  },
+  "request_activity": {
+    "id": "decision-2",
+    "prompt": "Choose a clear clarification question.",
+    "options": [
+      {"text": "Is that €60 per person or €60 in total?", "correct": true, "feedback": "Correct. The question names both possible meanings and lets the agent choose one."},
+      {"text": "Just to check, is the €60 price for each person or for the whole group?", "correct": true, "feedback": "Also correct. Just to check softens the question; each person and the whole group explain the two meanings."},
+      {"text": "That €60 per person or total?", "correct": false, "feedback": "The meaning may be guessed, but the standard full question needs be before the subject: Is that ...?"}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each detail to its confirmation slot.",
+    "slots": ["rate", "group size", "final total"],
+    "items": [
+      {"detail": "€60 per person", "answer": "rate", "feedback": {"rate": "Correct. This is the amount for each individual person.", "group size": "€60 per person is a rate, not the number of people.", "final total": "€60 is not the whole cost when three people each pay €60."}},
+      {"detail": "three people", "answer": "group size", "feedback": {"rate": "Three people is the size of the group, not a price for each person.", "group size": "Correct. This states how many people are included in the calculation.", "final total": "Three is a count of people, not the final amount."}},
+      {"detail": "€180 in total", "answer": "final total", "feedback": {"rate": "€180 is the combined amount here, not the price for one person.", "group size": "€180 is an amount, not a number of people.", "final total": "Correct. This is the whole amount for all three people."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "A kayak hire worker says: The lesson is €45. You are booking for two people. The worker explains that €45 is per person.",
+    "instruction": "Write one question that clarifies the price scope. Then write one complete confirmation with the total and the group size.",
+    "acceptable_responses": [
+      "Is that €45 per person or €45 in total? So that is €90 in total for two people, right?",
+      "Just to check, is €45 for each person or for both of us? So the total is €90 for two people. Is that correct?"
+    ],
+    "rubric": [
+      "I asked whether the price was for each person or the whole group.",
+      "I used a complete question with is before the subject.",
+      "I repeated the final total.",
+      "I repeated the group size and invited confirmation."
+    ],
+    "valid_variants": "Per person and for each person are equivalent here. In total, altogether, and for the whole group can work when the amount clearly covers everyone. A different final wording is acceptable if it repeats the amount and group size."
+  },
+  "review_prompt": "Tomorrow, explain the difference between per person and in total. Then make one alternative question with or and one complete price readback.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["tour kiosk", "three traveller cutouts", "price tag", "per-person coins", "total receipt", "speech cards", "check mark"],
+    "cutout_assets": ["tour kiosk", "traveller", "price tag", "coin", "receipt", "speech card", "or hinge", "check mark"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Layered price tags, coins, people, and receipt cards use cream cut edges and offset shadows.",
+    "motion_principle": "A single €60 tag splits into three per-person tags, coins stack into a €180 receipt, and speech cards unfold to show the clarification and readback. Captions remain fixed.",
+    "accessibility": "Dark navy text on cream panels; every colour-coded amount also has a word label, number, and shape."
+  },
+  "scenes": [
+    {"id": "quote", "title": "See the unclear quote", "caption": "The tour is €60. Your group has three adults.", "explanation": "A tour kiosk opens. One €60 tag slides in beside three traveller cutouts, but no scope label appears.", "motion_cues": ["kiosk opens", "price tag slides", "three travellers enter"]},
+    {"id": "scope", "title": "Name the two meanings", "caption": "Does €60 mean per person or in total?", "explanation": "The €60 tag pivots between one-person and whole-group paper layers. A labelled or hinge joins the two options.", "motion_cues": ["tag pivots", "per-person card enters", "total card enters", "or hinge opens"]},
+    {"id": "ask", "title": "Ask the alternative question", "caption": "Is that €60 per person or €60 in total?", "explanation": "A layered speech card unfolds. The two price-scope choices slide into the same question.", "motion_cues": ["speech card unfolds", "per-person phrase slides", "total phrase slides"]},
+    {"id": "reply", "title": "Apply the reply", "caption": "It is €60 per person.", "explanation": "The single quote duplicates into three €60 person-tags. Each tag lands beside one traveller.", "motion_cues": ["quote duplicates", "three tags travel", "tags align with people"]},
+    {"id": "confirm", "title": "Confirm amount and group", "caption": "So that is €180 in total for three people, right?", "explanation": "Three €60 coins stack into a €180 receipt. Three labelled people and a check mark remain visible.", "motion_cues": ["coins stack", "receipt rises", "check mark pivots"]},
+    {"id": "transfer", "title": "Your kayak booking", "caption": "€45 each becomes €90 in total for two people.", "explanation": "Two kayak cutouts enter. Two €45 tags combine into a €90 receipt. Ask, then confirm before paying.", "motion_cues": ["kayaks enter", "price tags combine", "receipt slides forward"]}
+  ],
+  "visual": {
+    "title": "Clarify the price scope, then confirm the whole booking",
+    "alt_text": "A colourful layered papercut flow. One €60 quote branches to per person or in total. The reply selects per person. Three €60 person-tags then combine into a €180 total for three people, followed by a confirmation check.",
+    "prose": "First notice that a price without a scope can have two meanings. Ask whether it is per person or in total. Use the reply with the group size to identify the whole amount. Then repeat the total and number of people and invite confirmation."
+  },
+  "sources": [
+    {"institution": "Cambridge Dictionary", "title": "Per", "url": "https://dictionary.cambridge.org/dictionary/english/per", "accessed": "2026-09-27", "inspected": "The search result defines per in prices and rates as for each.", "limitation": "The page itself returned a 403 to the retrieval tool. The indexed definition snippet was inspected; the lesson dialogue and tasks are original."},
+    {"institution": "Cambridge Dictionary", "title": "Total", "url": "https://dictionary.cambridge.org/dictionary/english/total", "accessed": "2026-09-27", "inspected": "The indexed definition coverage identifies total as the whole amount; related Cambridge results describe sum total as the whole of something.", "limitation": "The page itself returned a 403 to the retrieval tool. No dictionary example is reproduced."},
+    {"institution": "British Council LearnEnglish", "title": "Question forms", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms", "accessed": "2026-09-27", "inspected": "The explanation states that questions with be put the verb before the subject and illustrates A1-A2 question formation.", "limitation": "It supports question order, not this original tour-price scenario."},
+    {"institution": "British Council LearnEnglish Teens", "title": "Question words", "url": "https://learnenglishteens.britishcouncil.org/comment/88129", "accessed": "2026-09-27", "inspected": "The A2-B1 page explains auxiliary-before-subject question formation and includes a choice question using or.", "limitation": "The source does not prescribe the lesson's exact alternative question."}
+  ],
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Definitions and grammar points are paraphrased with links. No protected exercise or artwork is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}
