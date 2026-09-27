@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0011",
+  "next_lesson_id": "FML-0012",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -250,16 +250,34 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0011",
+      "version": "1.0.0",
+      "title": "Could You Spell the Street Name?",
+      "slug": "confirm-a-delivery-address",
+      "pathway": "use-english",
+      "interaction_family": "address-slot-and-readback",
+      "objective": "Clarify one unclear part of a delivery address and confirm the complete address accurately.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0011-confirm-a-delivery-address/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "564718a7178d1268c026e5a1d6a3de7f5d0d559a",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": {
-    "lesson_id": "FML-0011",
-    "version": "1.0.0",
-    "acquired_at": "2026-09-27T17:05:00Z",
-    "expires_at": "2026-09-27T18:05:00Z",
-    "purpose": "lesson-pack-build"
-  },
-  "revision": 14,
+  "lease": null,
+  "revision": 15,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -287,6 +305,16 @@
     "FML-0004 v1.1.0 is mirrored and owner-delivered. The partial v1.0.0 checkpoint remains preserved.",
     "FML-0003 v1.1.0 is mirrored and owner-delivered. The partial v1.0.0 checkpoint remains preserved.",
     "FML-0002 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
-    "FML-0001 through FML-0010 are reconciled. Continue with one non-duplicate objective per run."
-  ]
+    "FML-0001 through FML-0010 are reconciled. Continue with one non-duplicate objective per run.",
+    "FML-0011 v1.0.0 is the first colourful-papercut pack. GitHub, Drive, and owner email were verified. No deployment occurred."
+  ],
+  "design_default": {
+    "style": "colourful-papercut",
+    "applies_from": "FML-0011",
+    "palette": "lesson-specific 4-6 colours",
+    "static_assets": "layered paper shapes, cut edges, texture, overlap, shadows",
+    "video": "silent 1280x720 at 25fps with captions and transcript",
+    "motion": "within-scene cutout motion; optional playback; still-frame route",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA"
+  }
 }
