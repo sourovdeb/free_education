@@ -1,0 +1,212 @@
+{
+  "status": "complete_visual_gate",
+  "title": "Patrons, Contracts, and Results",
+  "local_timestamp": "2026-09-28T02:00:00+04:00",
+  "folder": "history-investigations/2026-09-28/0200-patrons-contracts-and-results",
+  "cards": [
+    {
+      "title": "Tata wealth met public power",
+      "word_count": 141,
+      "sources": 3
+    },
+    {
+      "title": "Ford grants redesigned agriculture",
+      "word_count": 152,
+      "sources": 4
+    },
+    {
+      "title": "Mellon contracts enclosed discovery",
+      "word_count": 156,
+      "sources": 3
+    },
+    {
+      "title": "Lead sponsors defined safe evidence",
+      "word_count": 148,
+      "sources": 4
+    },
+    {
+      "title": "Atrazine funding split findings",
+      "word_count": 154,
+      "sources": 4
+    },
+    {
+      "title": "Primitive Echo: reciprocity pressure",
+      "word_count": 152,
+      "sources": 3
+    }
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "width": 1280,
+    "height": 720,
+    "fps": 25,
+    "frames": 4500,
+    "audio": false,
+    "sha256": "a9c462f87ddafbff295474a5ef8edab3e9bfd2d5293bdb017ae29a31024c9011"
+  },
+  "motion_gate": [
+    {
+      "chapter": 1,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        7.35,
+        8.46
+      ],
+      "moving_objects": [
+        "endowment",
+        "public funds",
+        "IISc",
+        "industry"
+      ],
+      "captions": [
+        "Tata pledges family wealth.",
+        "Government releases funding.",
+        "Shared power shapes IISc."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 2,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        5.08,
+        5.41
+      ],
+      "moving_objects": [
+        "grant",
+        "new rice",
+        "irrigation",
+        "yield",
+        "unequal costs"
+      ],
+      "captions": [
+        "Ford money enters IRRI.",
+        "States add water inputs.",
+        "Costs divide unevenly."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 3,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        6.18,
+        8.7
+      ],
+      "moving_objects": [
+        "sponsor deal",
+        "fellow",
+        "discovery",
+        "sponsor owns",
+        "publication delay"
+      ],
+      "captions": [
+        "Mellons fund an institute.",
+        "Scientists solve sponsor problems.",
+        "Publication waits behind contracts."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 4,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        7.04,
+        5.88
+      ],
+      "moving_objects": [
+        "industry funds",
+        "Patterson data",
+        "children"
+      ],
+      "captions": [
+        "Workers reveal immediate danger.",
+        "Threshold evidence guides policy.",
+        "Children bear delayed costs."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 5,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        7.11,
+        9.09
+      ],
+      "moving_objects": [
+        "research funds",
+        "Hayes lab",
+        "sponsor lab",
+        "systematic review",
+        "EPA review"
+      ],
+      "captions": [
+        "Syngenta funds frog research.",
+        "Other studies report less.",
+        "Regulators retain uncertainty."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 6,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        5.61,
+        6.73
+      ],
+      "moving_objects": [
+        "gift",
+        "return favor",
+        "prescribing",
+        "disclosure"
+      ],
+      "captions": [
+        "One person offers value.",
+        "Reciprocity returns support.",
+        "Disclosure weakens hidden pressure."
+      ],
+      "status": "passed"
+    }
+  ],
+  "website": {
+    "wordpress_ready": true,
+    "published": false,
+    "reason": "Hostinger actions unavailable"
+  },
+  "files": [
+    "README.md",
+    "edition.md",
+    "wordpress-draft.html",
+    "evidence.svg",
+    "lesson.json",
+    "lesson-viewer.html",
+    "render_video.py",
+    "history-investigation.mp4",
+    "QA.md",
+    "manifest.json"
+  ]
+}

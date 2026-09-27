@@ -1,0 +1,1437 @@
+{
+  "title": "Patrons, Contracts, and Results",
+  "subtitle": "History Investigation — 28 September 2026, 02:00 Réunion",
+  "palette": {
+    "ink": "#25323a",
+    "paper": "#f4ead2",
+    "teal": "#2d6f73",
+    "coral": "#c95f4a",
+    "gold": "#d8a33b",
+    "blue": "#517b9f",
+    "green": "#70875b"
+  },
+  "chapter_seconds": 30,
+  "fps": 25,
+  "cards": [
+    {
+      "id": "tata-iisc",
+      "title": "Tata wealth met public power",
+      "question": "Who actually built IISc?",
+      "body": "**Documented fact.** Jamsetji Tata used wealth. He proposed a university. His 1898 endowment followed. Mysore supplied 371 acres. Mysore also funded construction. Colonial government funded remainder. IISc formed during 1909. Students entered during 1911. Chemistry opened first. Electrical technology also opened. Research soon supported factories. The Tata family persisted. Dorabji continued negotiations. **Benefits.** India gained research capacity. Scientists later built programs. Applied research supported industry. **Scholarly interpretation.** Family wealth opened possibilities. Government partnership created reality. The institution was collaborative. Philanthropy selected scientific modernization. Colonial approval constrained execution. Criticism emerged by 1936. Reviewers called work academic. Regional recruitment drew concern. **Counterevidence and limits.** Patronage proves no capture. Tata died before opening. Public actors held power. Mysore contributions were decisive. Later scholars gained autonomy. Factory counts show application. They cannot measure welfare. Motives remain partly interpretive. Records support institution-building. They reject sole-founder mythology.",
+      "summary": "A family endowment started IISc. Public partners made it real.",
+      "sources": [
+        [
+          "IISc History",
+          "https://www.iisc.ac.in/history/"
+        ],
+        [
+          "Philanthropy and the Making of a New Moral Order",
+          "https://link.springer.com/article/10.1007/s10551-022-05094-1"
+        ],
+        [
+          "The Indian Institute of Science, Bangalore",
+          "https://www.nature.com/articles/138042a0"
+        ]
+      ],
+      "beats": [
+        "Tata pledges family wealth.",
+        "Mysore contributes land.",
+        "Government releases funding.",
+        "Labs open for research.",
+        "Shared power shapes IISc."
+      ],
+      "setting": "Colonial office and campus",
+      "objects": [
+        {
+          "kind": "portrait",
+          "label": "Tata",
+          "fact": "Jamsetji Tata proposed IISc.",
+          "track": [
+            [
+              78,
+              220
+            ],
+            [
+              78,
+              220
+            ],
+            [
+              78,
+              220
+            ],
+            [
+              78,
+              220
+            ],
+            [
+              78,
+              220
+            ],
+            [
+              78,
+              220
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "coin",
+          "label": "endowment",
+          "fact": "Tata pledged personal wealth.",
+          "track": [
+            [
+              105,
+              160
+            ],
+            [
+              205,
+              145
+            ],
+            [
+              270,
+              145
+            ],
+            [
+              270,
+              145
+            ],
+            [
+              270,
+              145
+            ],
+            [
+              270,
+              145
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "land",
+          "label": "Mysore land",
+          "fact": "Mysore supplied 371 acres.",
+          "track": [
+            [
+              305,
+              230
+            ],
+            [
+              305,
+              230
+            ],
+            [
+              305,
+              230
+            ],
+            [
+              305,
+              230
+            ],
+            [
+              305,
+              230
+            ],
+            [
+              305,
+              230
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "document",
+          "label": "public funds",
+          "fact": "Government supplied remaining funds.",
+          "track": [
+            [
+              570,
+              105
+            ],
+            [
+              500,
+              105
+            ],
+            [
+              420,
+              130
+            ],
+            [
+              365,
+              150
+            ],
+            [
+              365,
+              150
+            ],
+            [
+              365,
+              150
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "university",
+          "label": "IISc",
+          "fact": "IISc formed during 1909.",
+          "track": [
+            [
+              535,
+              225
+            ],
+            [
+              535,
+              225
+            ],
+            [
+              535,
+              225
+            ],
+            [
+              510,
+              210
+            ],
+            [
+              455,
+              205
+            ],
+            [
+              455,
+              205
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "gear",
+          "label": "industry",
+          "fact": "Research supported six factories.",
+          "track": [
+            [
+              585,
+              245
+            ],
+            [
+              585,
+              245
+            ],
+            [
+              585,
+              245
+            ],
+            [
+              585,
+              245
+            ],
+            [
+              555,
+              160
+            ],
+            [
+              555,
+              160
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 141
+    },
+    {
+      "id": "ford-green-revolution",
+      "title": "Ford grants redesigned agriculture",
+      "question": "What followed targeted grants?",
+      "body": "**Documented fact.** Edsel Ford founded Ford. Family shares built its endowment. The foundation funded agriculture. Ford and Rockefeller created centers. IRRI opened during 1960. Ford made early grants. Researchers bred responsive crops. Governments supplied irrigation. Credit supported fertilizer purchases. New wheat spread quickly. New rice also spread. **Benefits.** Grain yields increased. Food prices fell. Famine risks declined. Research spared some cropland. **Scholarly interpretation.** Grants favored measurable yields. Institutions spread one model. State policy magnified it. Private money gained agenda power. **Harms.** Rain-fed regions benefited later. Larger farmers adapted sooner. Water demand increased. Fertilizer use caused damage. Crop diversity also narrowed. **Counterevidence and limits.** Seeds caused no harm alone. Subsidies encouraged input misuse. Public agencies made choices. Farmers retained some agency. Yield gains helped poor consumers. Later research found land-sparing. Ford acted with partners. Therefore, Ford caused no revolution alone. The record supports catalytic funding. Distribution depended upon policy. Environmental outcomes also varied.",
+      "summary": "Ford grants built crop centers. Policy determined later outcomes.",
+      "sources": [
+        [
+          "Ford Foundation History",
+          "https://www.fordfoundation.org/about/about-the-ford-foundation/a-history-of-social-justice/"
+        ],
+        [
+          "Ford Foundation 1971 Annual Report",
+          "https://www.fordfoundation.org/wp-content/uploads/2015/05/1971-annual-report.pdf"
+        ],
+        [
+          "Green Revolution: Impacts, Limits, and the Path Ahead",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3411969/"
+        ],
+        [
+          "Green Revolution Research Saved Cropland",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3666715/"
+        ]
+      ],
+      "beats": [
+        "Ford money enters IRRI.",
+        "Breeders change seed traits.",
+        "States add water inputs.",
+        "Harvests rise across regions.",
+        "Costs divide unevenly."
+      ],
+      "setting": "Rice institute and farms",
+      "objects": [
+        {
+          "kind": "foundation",
+          "label": "Ford fund",
+          "fact": "Ford funded research centers.",
+          "track": [
+            [
+              75,
+              110
+            ],
+            [
+              75,
+              110
+            ],
+            [
+              75,
+              110
+            ],
+            [
+              75,
+              110
+            ],
+            [
+              75,
+              110
+            ],
+            [
+              75,
+              110
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "coin",
+          "label": "grant",
+          "fact": "Early grants supported IRRI.",
+          "track": [
+            [
+              120,
+              145
+            ],
+            [
+              220,
+              145
+            ],
+            [
+              295,
+              150
+            ],
+            [
+              295,
+              150
+            ],
+            [
+              295,
+              150
+            ],
+            [
+              295,
+              150
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "lab",
+          "label": "IRRI",
+          "fact": "IRRI opened during 1960.",
+          "track": [
+            [
+              320,
+              205
+            ],
+            [
+              320,
+              205
+            ],
+            [
+              320,
+              205
+            ],
+            [
+              320,
+              205
+            ],
+            [
+              320,
+              205
+            ],
+            [
+              320,
+              205
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "seed",
+          "label": "new rice",
+          "fact": "Breeders developed responsive varieties.",
+          "track": [
+            [
+              355,
+              160
+            ],
+            [
+              355,
+              160
+            ],
+            [
+              430,
+              155
+            ],
+            [
+              500,
+              175
+            ],
+            [
+              545,
+              195
+            ],
+            [
+              545,
+              195
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "water",
+          "label": "irrigation",
+          "fact": "Governments expanded irrigation.",
+          "track": [
+            [
+              430,
+              105
+            ],
+            [
+              430,
+              105
+            ],
+            [
+              430,
+              105
+            ],
+            [
+              460,
+              130
+            ],
+            [
+              500,
+              165
+            ],
+            [
+              520,
+              205
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "harvest",
+          "label": "yield",
+          "fact": "Yields and food supplies rose.",
+          "track": [
+            [
+              560,
+              230
+            ],
+            [
+              560,
+              230
+            ],
+            [
+              560,
+              230
+            ],
+            [
+              545,
+              200
+            ],
+            [
+              500,
+              150
+            ],
+            [
+              500,
+              150
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "warning",
+          "label": "unequal costs",
+          "fact": "Benefits and harms varied.",
+          "track": [
+            [
+              590,
+              85
+            ],
+            [
+              590,
+              85
+            ],
+            [
+              590,
+              85
+            ],
+            [
+              590,
+              85
+            ],
+            [
+              520,
+              90
+            ],
+            [
+              435,
+              100
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 152
+    },
+    {
+      "id": "mellon-fellowships",
+      "title": "Mellon contracts enclosed discovery",
+      "question": "Who owned fellowship discoveries?",
+      "body": "**Documented fact.** Andrew Mellon backed Duncan. Richard Mellon joined him. Their institute opened during 1913. Companies bought research fellowships. Sponsors selected defined problems. Scientists received facilities. Many trained there. Sponsors owned resulting discoveries. Publication initially waited three years. Later restrictions became tighter. More than 100 companies participated. Over 1,000 scientists trained. Researchers produced 1,600 patents. They also published 4,700 papers. Work supported synthetic rubber. It supported gas masks. Petrochemical ventures also emerged. **Benefits.** Industry gained research capacity. Young scientists gained careers. Public health studies examined smoke. **Scholarly interpretation.** Contracts directed scientific attention. Ownership converted knowledge privately. Delayed publication protected sponsors. It also slowed public scrutiny. **Counterevidence and limits.** Secrecy was not absolute. Thousands of papers appeared. Independent research later expanded. Corporate problems sometimes served society. Patents can fund development. Archive counts measure outputs. They cannot establish usefulness. No single rule proves suppression. The system mixed education, profit, and discovery. Its conflict was structural.",
+      "summary": "Sponsors funded fellows. Contracts controlled discoveries and timing.",
+      "sources": [
+        [
+          "Mellon Institute Chemical Landmark",
+          "https://www.acs.org/education/whatischemistry/landmarks/mellon-institute.html"
+        ],
+        [
+          "Mellon Institute Research Papers",
+          "https://findingaids.library.cmu.edu/repositories/2/resources/164"
+        ],
+        [
+          "Research Activities of the Mellon Institute",
+          "https://www.nature.com/articles/133866c0"
+        ]
+      ],
+      "beats": [
+        "Mellons fund an institute.",
+        "Companies purchase fellowships.",
+        "Scientists solve sponsor problems.",
+        "Sponsors receive discoveries.",
+        "Publication waits behind contracts."
+      ],
+      "setting": "Contract laboratory",
+      "objects": [
+        {
+          "kind": "bank",
+          "label": "Mellon wealth",
+          "fact": "Mellon brothers backed the institute.",
+          "track": [
+            [
+              75,
+              215
+            ],
+            [
+              75,
+              215
+            ],
+            [
+              75,
+              215
+            ],
+            [
+              75,
+              215
+            ],
+            [
+              75,
+              215
+            ],
+            [
+              75,
+              215
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "contract",
+          "label": "sponsor deal",
+          "fact": "Companies purchased fellowships.",
+          "track": [
+            [
+              120,
+              145
+            ],
+            [
+              220,
+              145
+            ],
+            [
+              300,
+              150
+            ],
+            [
+              300,
+              150
+            ],
+            [
+              300,
+              150
+            ],
+            [
+              300,
+              150
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "scientist",
+          "label": "fellow",
+          "fact": "Scientists solved sponsor problems.",
+          "track": [
+            [
+              330,
+              225
+            ],
+            [
+              330,
+              225
+            ],
+            [
+              400,
+              210
+            ],
+            [
+              455,
+              205
+            ],
+            [
+              455,
+              205
+            ],
+            [
+              455,
+              205
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "flask",
+          "label": "discovery",
+          "fact": "Fellows generated discoveries.",
+          "track": [
+            [
+              470,
+              175
+            ],
+            [
+              470,
+              175
+            ],
+            [
+              470,
+              175
+            ],
+            [
+              520,
+              165
+            ],
+            [
+              555,
+              150
+            ],
+            [
+              555,
+              150
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "lock",
+          "label": "sponsor owns",
+          "fact": "Sponsors owned discoveries.",
+          "track": [
+            [
+              585,
+              95
+            ],
+            [
+              585,
+              95
+            ],
+            [
+              585,
+              95
+            ],
+            [
+              530,
+              110
+            ],
+            [
+              480,
+              125
+            ],
+            [
+              480,
+              125
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "clock",
+          "label": "publication delay",
+          "fact": "Publication first waited three years.",
+          "track": [
+            [
+              280,
+              90
+            ],
+            [
+              280,
+              90
+            ],
+            [
+              280,
+              90
+            ],
+            [
+              280,
+              90
+            ],
+            [
+              365,
+              90
+            ],
+            [
+              430,
+              95
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 156
+    },
+    {
+      "id": "lead-kehoe",
+      "title": "Lead sponsors defined safe evidence",
+      "question": "Who carried proof burdens?",
+      "body": "**Documented fact.** Ethyl gasoline caused poisonings. Five workers died during 1924. Industry supported Robert Kehoe. Cincinnati housed his laboratory. Companies funded its lead research. Kehoe measured workers repeatedly. His studies advanced toxicology. They also treated exposure thresholds. Industry demanded contrary proof. Regulators accepted that framework. Clair Patterson later measured contamination. His geochemical work challenged baselines. Environmental lead proved widespread. **Benefits.** Long studies produced exposure data. Occupational toxicology gained methods. **Scholarly interpretation.** Sponsorship narrowed acceptable questions. The burden favored continued sales. Company access strengthened Kehoe. Alternative evidence faced resistance. **Harms.** Leaded fuel remained common. Children accumulated exposure. Low-level harms gained recognition later. **Counterevidence and limits.** Kehoe published real measurements. Historical standards differed. Industry funding disproves no datum. Patterson also faced uncertainties. Regulation required several evidence streams. Later historians document influence. They cannot assign every delay. The strongest finding concerns structure. One funded laboratory dominated access. That dominance shaped policy.",
+      "summary": "Industry funded the main laboratory. Its burden favored continued use.",
+      "sources": [
+        [
+          "Clair Patterson and Robert Kehoe's Paradigm",
+          "https://pubmed.ncbi.nlm.nih.gov/9719610/"
+        ],
+        [
+          "Politics of Lead Toxicology",
+          "https://pubmed.ncbi.nlm.nih.gov/17486583/"
+        ],
+        [
+          "Lead Industry Influence",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9528640/"
+        ],
+        [
+          "Responses of Human Subjects to Lead",
+          "https://pubmed.ncbi.nlm.nih.gov/13630578/"
+        ]
+      ],
+      "beats": [
+        "Workers reveal immediate danger.",
+        "Industry funds Kehoe's laboratory.",
+        "Threshold evidence guides policy.",
+        "Patterson finds global contamination.",
+        "Children bear delayed costs."
+      ],
+      "setting": "Factory, laboratory, city",
+      "objects": [
+        {
+          "kind": "factory",
+          "label": "Ethyl plant",
+          "fact": "Leaded fuel caused worker poisonings.",
+          "track": [
+            [
+              70,
+              220
+            ],
+            [
+              70,
+              220
+            ],
+            [
+              70,
+              220
+            ],
+            [
+              70,
+              220
+            ],
+            [
+              70,
+              220
+            ],
+            [
+              70,
+              220
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "worker",
+          "label": "workers",
+          "fact": "Five workers died during 1924.",
+          "track": [
+            [
+              150,
+              230
+            ],
+            [
+              150,
+              230
+            ],
+            [
+              150,
+              230
+            ],
+            [
+              150,
+              230
+            ],
+            [
+              150,
+              230
+            ],
+            [
+              150,
+              230
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "coin",
+          "label": "industry funds",
+          "fact": "Companies funded Kehoe's laboratory.",
+          "track": [
+            [
+              120,
+              115
+            ],
+            [
+              225,
+              115
+            ],
+            [
+              305,
+              130
+            ],
+            [
+              305,
+              130
+            ],
+            [
+              305,
+              130
+            ],
+            [
+              305,
+              130
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "lab",
+          "label": "Kehoe lab",
+          "fact": "Kehoe measured exposures repeatedly.",
+          "track": [
+            [
+              340,
+              210
+            ],
+            [
+              340,
+              210
+            ],
+            [
+              340,
+              210
+            ],
+            [
+              340,
+              210
+            ],
+            [
+              340,
+              210
+            ],
+            [
+              340,
+              210
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "gate",
+          "label": "proof gate",
+          "fact": "Policy demanded contrary proof.",
+          "track": [
+            [
+              470,
+              225
+            ],
+            [
+              470,
+              225
+            ],
+            [
+              470,
+              225
+            ],
+            [
+              470,
+              225
+            ],
+            [
+              470,
+              225
+            ],
+            [
+              470,
+              225
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "sample",
+          "label": "Patterson data",
+          "fact": "Patterson measured global contamination.",
+          "track": [
+            [
+              585,
+              120
+            ],
+            [
+              585,
+              120
+            ],
+            [
+              585,
+              120
+            ],
+            [
+              550,
+              145
+            ],
+            [
+              510,
+              170
+            ],
+            [
+              485,
+              190
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "child",
+          "label": "children",
+          "fact": "Low-level harms emerged later.",
+          "track": [
+            [
+              575,
+              245
+            ],
+            [
+              575,
+              245
+            ],
+            [
+              575,
+              245
+            ],
+            [
+              575,
+              245
+            ],
+            [
+              540,
+              230
+            ],
+            [
+              510,
+              225
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 148
+    },
+    {
+      "id": "syngenta-atrazine",
+      "title": "Atrazine funding split findings",
+      "question": "Did sponsorship predict outcomes?",
+      "body": "**Documented fact.** Syngenta sells atrazine. It funded toxicology studies. Tyrone Hayes first participated. He later worked independently. His frog studies reported effects. Other studies reported fewer effects. A 2016 systematic review compared studies. Industry sponsorship predicted favorable conclusions. Sponsored studies also had weaknesses. Yet pooled effect estimates differed less. EPA reviewed many experiments. Its 2007 review rejected amphibian effects. Later ecological reviews continued. **Benefits.** Registrant studies supplied required evidence. Atrazine supports crop production. Monitoring produced extensive water data. **Scholarly interpretation.** Funding influenced study design. It also influenced interpretation. Outcome differences need no fabrication. Methods can create divergence. **Harms.** Biased evidence can delay safeguards. Attacks can chill independent work. **Counterevidence and limits.** Hayes's findings faced replication disputes. EPA identified methodological flaws broadly. Sponsorship proves no false result. Independent studies also vary. Regulatory conclusions changed with endpoints. The 2016 review found complex patterns. Funding predicted conclusions most clearly. Causation remains difficult. Transparent protocols reduce uncertainty.",
+      "summary": "Funding predicted conclusions. Effect estimates remained more complex.",
+      "sources": [
+        [
+          "Sponsorship and Atrazine Outcomes",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4996667/"
+        ],
+        [
+          "Atrazine Gonadal Malformations Study",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC1874169/"
+        ],
+        [
+          "EPA Atrazine Updates",
+          "https://archive.epa.gov/pesticides/reregistration/web/html/atrazine_update.html"
+        ],
+        [
+          "EPA Atrazine Review Hub",
+          "https://www.epa.gov/ingredients-used-pesticide-products/atrazine"
+        ]
+      ],
+      "beats": [
+        "Syngenta funds frog research.",
+        "Hayes reports reproductive effects.",
+        "Other studies report less.",
+        "Review compares sponsorship patterns.",
+        "Regulators retain uncertainty."
+      ],
+      "setting": "Frog laboratories and review desk",
+      "objects": [
+        {
+          "kind": "company",
+          "label": "Syngenta",
+          "fact": "Syngenta manufactures atrazine.",
+          "track": [
+            [
+              72,
+              210
+            ],
+            [
+              72,
+              210
+            ],
+            [
+              72,
+              210
+            ],
+            [
+              72,
+              210
+            ],
+            [
+              72,
+              210
+            ],
+            [
+              72,
+              210
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "coin",
+          "label": "research funds",
+          "fact": "Syngenta funded toxicology research.",
+          "track": [
+            [
+              120,
+              145
+            ],
+            [
+              215,
+              145
+            ],
+            [
+              295,
+              145
+            ],
+            [
+              295,
+              145
+            ],
+            [
+              295,
+              145
+            ],
+            [
+              295,
+              145
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "frog",
+          "label": "Hayes lab",
+          "fact": "Hayes reported reproductive effects.",
+          "track": [
+            [
+              335,
+              210
+            ],
+            [
+              335,
+              210
+            ],
+            [
+              405,
+              200
+            ],
+            [
+              450,
+              185
+            ],
+            [
+              450,
+              185
+            ],
+            [
+              450,
+              185
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "frog",
+          "label": "sponsor lab",
+          "fact": "Other studies reported fewer effects.",
+          "track": [
+            [
+              335,
+              260
+            ],
+            [
+              335,
+              260
+            ],
+            [
+              405,
+              250
+            ],
+            [
+              450,
+              245
+            ],
+            [
+              450,
+              245
+            ],
+            [
+              450,
+              245
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "balance",
+          "label": "systematic review",
+          "fact": "Funding predicted conclusions.",
+          "track": [
+            [
+              575,
+              100
+            ],
+            [
+              575,
+              100
+            ],
+            [
+              575,
+              100
+            ],
+            [
+              520,
+              120
+            ],
+            [
+              470,
+              140
+            ],
+            [
+              470,
+              140
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "agency",
+          "label": "EPA review",
+          "fact": "EPA reviewed conflicting studies.",
+          "track": [
+            [
+              575,
+              225
+            ],
+            [
+              575,
+              225
+            ],
+            [
+              575,
+              225
+            ],
+            [
+              575,
+              225
+            ],
+            [
+              535,
+              210
+            ],
+            [
+              500,
+              195
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 154
+    },
+    {
+      "id": "primitive-reciprocity",
+      "title": "Primitive Echo: reciprocity pressure",
+      "question": "Why can gifts influence?",
+      "body": "**Documented evidence.** Humans often return benefits. Repeated interaction rewards reciprocity. Reputation extends that mechanism. Cross-cultural experiments find variation. They also find cooperation. Modern gifts can trigger obligation. Drug companies fund meals. They also pay physicians. Reviews associate payments with prescribing. Associations span many specialties. Larger payments show stronger links. Timing sometimes precedes changes. **Evolutionary interpretation.** Reciprocity supported cooperation. Small groups met repeatedly. Memory exposed non-repayment. Reputation guided partner choice. Modern institutions exploit these tendencies. A meal feels personal. Its commercial purpose recedes. **Benefits.** Reciprocity sustains trust. It supports mutual aid. Industry contact can educate. Samples can assist patients. **Harms.** Obligations can distort judgment. Recipients may deny influence. Patients cannot observe exchanges. **Counterevidence and limits.** Evolution predicts no prescription. Culture shapes gift rules. Payments and prescribing remain observational. Companies may target frequent prescribers. Reviews cannot remove all confounding. Direct reciprocity is one mechanism. Norms and incentives matter. Disclosure helps observers. Separation reduces pressure.",
+      "summary": "Reciprocity sustains cooperation. Gifts can redirect judgment.",
+      "sources": [
+        [
+          "Reciprocity, Culture, and Human Cooperation",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2689715/"
+        ],
+        [
+          "Industry Payments and Physician Prescribing",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315858/"
+        ],
+        [
+          "Physician-Industry Interactions: Systematic Review",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5623540/"
+        ]
+      ],
+      "beats": [
+        "One person offers value.",
+        "Memory records the favor.",
+        "Reciprocity returns support.",
+        "Commerce redirects the pathway.",
+        "Disclosure weakens hidden pressure."
+      ],
+      "setting": "Camp exchange and clinic",
+      "objects": [
+        {
+          "kind": "giver",
+          "label": "giver",
+          "fact": "Repeated exchange supports cooperation.",
+          "track": [
+            [
+              85,
+              220
+            ],
+            [
+              85,
+              220
+            ],
+            [
+              85,
+              220
+            ],
+            [
+              85,
+              220
+            ],
+            [
+              85,
+              220
+            ],
+            [
+              85,
+              220
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "gift",
+          "label": "gift",
+          "fact": "Benefits can trigger obligation.",
+          "track": [
+            [
+              125,
+              175
+            ],
+            [
+              225,
+              170
+            ],
+            [
+              300,
+              175
+            ],
+            [
+              300,
+              175
+            ],
+            [
+              300,
+              175
+            ],
+            [
+              300,
+              175
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "receiver",
+          "label": "receiver",
+          "fact": "Memory tracks received help.",
+          "track": [
+            [
+              325,
+              225
+            ],
+            [
+              325,
+              225
+            ],
+            [
+              325,
+              225
+            ],
+            [
+              325,
+              225
+            ],
+            [
+              325,
+              225
+            ],
+            [
+              325,
+              225
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "return",
+          "label": "return favor",
+          "fact": "Reciprocity returns support.",
+          "track": [
+            [
+              360,
+              155
+            ],
+            [
+              360,
+              155
+            ],
+            [
+              430,
+              150
+            ],
+            [
+              500,
+              155
+            ],
+            [
+              500,
+              155
+            ],
+            [
+              500,
+              155
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "prescription",
+          "label": "prescribing",
+          "fact": "Payments correlate with prescribing.",
+          "track": [
+            [
+              565,
+              225
+            ],
+            [
+              565,
+              225
+            ],
+            [
+              565,
+              225
+            ],
+            [
+              530,
+              210
+            ],
+            [
+              490,
+              200
+            ],
+            [
+              490,
+              200
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "disclosure",
+          "label": "disclosure",
+          "fact": "Transparency reveals the exchange.",
+          "track": [
+            [
+              585,
+              90
+            ],
+            [
+              585,
+              90
+            ],
+            [
+              585,
+              90
+            ],
+            [
+              585,
+              90
+            ],
+            [
+              515,
+              100
+            ],
+            [
+              440,
+              110
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 152
+    }
+  ]
+}
