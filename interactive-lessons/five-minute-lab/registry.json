@@ -348,8 +348,13 @@
       "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": null,
-  "revision": 20,
+  "lease": {
+    "lesson_id": "FML-0015",
+    "acquired_at": "2026-09-27T21:02:02Z",
+    "expires_at": "2026-09-27T23:02:02Z",
+    "purpose": "build-and-deliver"
+  },
+  "revision": 21,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
