@@ -37,6 +37,30 @@
       "revision_of": "1.0.0"
     },
     {
+      "id": "FML-0004",
+      "version": "1.1.0",
+      "title": "Tuesday, Not Thursday",
+      "slug": "correct-a-misunderstanding",
+      "pathway": "use-english",
+      "interaction_family": "find-evidence-and-correct",
+      "objective": "Correct one mistaken booking day and confirm the corrected day and time.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0004-correct-a-misunderstanding/",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "be7debfcd1ce09c5afcf398a6581cf651ac16623",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent",
+      "revision_of": "1.0.0"
+    },
+    {
       "id": "FML-0005",
       "version": "1.1.0",
       "title": "The Shower Isn't Working",
@@ -181,7 +205,7 @@
     }
   ],
   "lease": null,
-  "revision": 11,
+  "revision": 12,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -206,6 +230,7 @@
     "FML-0007 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
     "FML-0006 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
     "FML-0005 v1.1.0 is mirrored and owner-delivered. The empty v1.0.0 Drive checkpoint remains preserved.",
-    "FML-0002 through FML-0004 still require registry reconciliation."
+    "FML-0004 v1.1.0 is mirrored and owner-delivered. The partial v1.0.0 checkpoint remains preserved.",
+    "FML-0002 through FML-0003 still require registry reconciliation."
   ]
 }
