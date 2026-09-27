@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 390" role="img" aria-label="A four-step path: hear Thursday at 7:30, spot that Thursday conflicts with the Tuesday booking, correct Tuesday not Thursday, then confirm Tuesday at 7:30.">
+<rect width="900" height="390" fill="white"/>
+<g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="28" y="120" width="185" height="126"/><rect x="247" y="120" width="185" height="126"/><rect x="466" y="120" width="185" height="126"/><rect x="685" y="120" width="185" height="126"/>
+<path d="M213 183h34m185 0h34m185 0h34"/><path d="m235 172 12 11-12 11m219-22 12 11-12 11m219-22 12 11-12 11"/>
+<path d="M75 147h92v70H75zM75 166h92M103 137v20m36-20v20"/><path d="M285 155h106v55H285zM298 174h80m-80 18h52"/>
+<path d="M507 156h104v55H507zM522 175h75m-75 18h58"/><path d="M720 156h112v55H720zM735 175h82m-82 18h62"/>
+</g>
+<g fill="#111" font-family="system-ui,sans-serif" text-anchor="middle">
+<text x="450" y="52" font-size="30" font-weight="700">FROM MISMATCH TO SHARED DETAIL</text>
+<text x="120" y="100" font-size="21" font-weight="700">HEAR</text><text x="120" y="278" font-size="18">Thursday, 7:30</text>
+<text x="340" y="100" font-size="21" font-weight="700">SPOT</text><text x="340" y="278" font-size="18">booking: Tuesday</text>
+<text x="558" y="100" font-size="21" font-weight="700">CORRECT</text><text x="558" y="278" font-size="18">Tuesday, not Thursday</text>
+<text x="778" y="100" font-size="21" font-weight="700">CONFIRM</text><text x="778" y="278" font-size="18">Tuesday, 7:30?</text>
+<text x="450" y="345" font-size="22">Repair only the detail that conflicts with the evidence.</text>
+</g></svg>

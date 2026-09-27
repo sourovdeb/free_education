@@ -1,28 +1,35 @@
-# FML-0004 - Tuesday, Not Thursday
+# FML-0004 | Tuesday, Not Thursday
 
-Version: 1.0.0
-Status: needs owner review
-Deployment: not deployed
+Version: 1.1.0.
+Revision of: 1.0.0.
 
-## Goal
+Goal: Use Sorry, I meant X, not Y and a short confirmation question to repair one wrong booking detail.
 
-Correct one wrong booking detail.
-Then confirm the corrected detail.
+Open `index.html` after extraction.
+Use the scene buttons.
+Arrow keys change scenes.
+Choose three responses.
+Read each feedback message.
+Write one transfer reply.
+Use the self-check.
 
-## Publication boundary
+No login is required.
+No tracking is included.
+No network calls occur.
+No progress is stored.
+No timer is enforced.
+Video playback stays optional.
+Video contains no audio.
+Nothing is AI-graded.
+Owner review remains required.
+Nothing was deployed.
 
-Nothing is deployed here.
-WordPress remains a draft.
-Medium remains a source.
-LinkedIn remains unpublished.
-GitHub code is not Pages.
+## Revision
 
-## Accessibility
-
-The player uses buttons.
-Keyboard focus remains visible.
-No dragging is required.
-No sound is required.
-No timer is required.
-No account is required.
-Reading mode remains present.
+Version 1.1.0 restores the lesson.
+It adds six visual scenes.
+It adds keyboard controls.
+It adds touch controls.
+It adds captioned video.
+It adds reading transcript.
+Version 1.0.0 remains preserved.
