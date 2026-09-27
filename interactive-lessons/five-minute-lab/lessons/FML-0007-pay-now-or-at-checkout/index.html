@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FML-0007 - Pay Now or at Checkout?</title>
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#111;background:#f4f4f2}
+body{margin:0}.wrap{max-width:760px;margin:auto;padding:16px}.card{background:#fff;border:2px solid #111;padding:18px;margin:16px 0}
+.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:.84rem}.choices{display:grid;gap:10px}
+button{min-height:48px;border:2px solid #111;background:#fff;padding:10px 14px;font:inherit;text-align:left;cursor:pointer}
+button:focus{outline:4px solid #555;outline-offset:2px}.feedback{border-left:5px solid #111;padding:10px;margin-top:10px}
+.diagram{font-family:ui-monospace,Consolas,monospace;white-space:pre-wrap;background:#eee;padding:14px}
+textarea{width:100%;min-height:90px;font:inherit;padding:10px;box-sizing:border-box;border:2px solid #111}
+.small{font-size:.92rem}.hidden{display:none}
+</style>
+</head>
+<body>
+<main class="wrap">
+<p class="eyebrow">5-Minute English Lab · FML-0007</p>
+<h1>Pay Now or at Checkout?</h1>
+<p><strong>Goal:</strong> Ask when payment happens.</p>
+<section class="card">
+<h2>1. Situation</h2>
+<p>Your room is booked.</p>
+<p>Payment timing is unclear.</p>
+<div class="diagram" aria-label="Payment timing map">BOOKING → STAY → CHECKOUT
+           ↓
+Do I pay now
+or at checkout?</div>
+<p class="small">Meaning: the question compares two procedures.</p>
+</section>
+<section class="card">
+<h2>2. Choose the question</h2>
+<p>Which sentence checks payment timing?</p>
+<div class="choices" data-group="q1">
+<button data-correct="1" data-feedback="Yes. It asks which payment time applies.">Do I pay now or at checkout?</button>
+<button data-correct="0" data-feedback="This sounds like a statement, not a question.">I pay now or at checkout.</button>
+<button data-correct="0" data-feedback="After 'do', use the base verb: pay.">Do I paying now or checkout?</button>
+</div>
+<div id="f1" class="feedback hidden" role="status"></div>
+</section>
+<section class="card">
+<h2>3. Follow the answer</h2>
+<p>Reception says:</p>
+<p><strong>At checkout.</strong></p>
+<p>What does that mean?</p>
+<div class="choices" data-group="q2">
+<button data-correct="1" data-feedback="Yes. Hotel checkout is the leaving-and-billing stage.">Pay when leaving the hotel.</button>
+<button data-correct="0" data-feedback="No. 'At checkout' refers to leaving the hotel.">Pay before entering the room.</button>
+<button data-correct="0" data-feedback="No. The answer gives timing, not permission.">Payment is optional.</button>
+</div>
+<div id="f2" class="feedback hidden" role="status"></div>
+</section>
+<section class="card">
+<h2>4. Try a new situation</h2>
+<p>At a cafe, payment is unclear.</p>
+<p>Write one two-option question.</p>
+<textarea id="transfer" aria-label="Write your question"></textarea>
+<button id="show">Show self-check</button>
+<div id="rubric" class="feedback hidden">
+<p>Possible answers:</p>
+<ul>
+<li>Do I pay here or at the table?</li>
+<li>Should I pay here or at the table?</li>
+</ul>
+<p>Check three things:</p>
+<ul>
+<li>It asks a procedure.</li>
+<li>It gives two options.</li>
+<li>The verb form works.</li>
+</ul>
+</div>
+</section>
+<section class="card">
+<h2>Keep this</h2>
+<p><strong>Do I pay + option A + or + option B?</strong></p>
+<p>Tomorrow: Do I pay ___ or ___?</p>
+<button id="reset">Reset lesson</button>
+</section>
+<noscript>
+<section class="card">
+<h2>Reading mode</h2>
+<p>Use: Do I pay now or at checkout?</p>
+<p>The correct meaning of "at checkout" is payment when leaving the hotel.</p>
+<p>Transfer example: Do I pay here or at the table?</p>
+</section>
+</noscript>
+</main>
+<script>
+document.querySelectorAll('[data-group]').forEach((group, index)=>{
+  const feedback=document.getElementById('f'+(index+1));
+  group.querySelectorAll('button').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      group.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed','false'));
+      btn.setAttribute('aria-pressed','true');
+      feedback.textContent=btn.dataset.feedback;
+      feedback.classList.remove('hidden');
+    });
+  });
+});
+document.getElementById('show').addEventListener('click',()=>document.getElementById('rubric').classList.remove('hidden'));
+document.getElementById('reset').addEventListener('click',()=>{
+  document.querySelectorAll('[aria-pressed]').forEach(b=>b.setAttribute('aria-pressed','false'));
+  document.querySelectorAll('.feedback').forEach(x=>x.classList.add('hidden'));
+  document.getElementById('transfer').value='';
+  window.scrollTo({top:0,behavior:'auto'});
+});
+</script>
+</body></html>
