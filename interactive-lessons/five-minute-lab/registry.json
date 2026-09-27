@@ -37,6 +37,30 @@
       "revision_of": "1.0.0"
     },
     {
+      "id": "FML-0009",
+      "version": "1.1.0",
+      "title": "Catch It or Miss It?",
+      "slug": "catch-the-train",
+      "pathway": "use-english",
+      "interaction_family": "context-switch-collocation",
+      "objective": "Choose and use catch, take, or miss with scheduled transport according to meaning.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0009-catch-the-train/",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "ee7f4c9c708fb6c767fb7142a044bf8c81708d76",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent",
+      "revision_of": "1.0.0"
+    },
+    {
       "id": "FML-0010",
       "version": "1.0.0",
       "title": "By Friday?",
@@ -61,7 +85,7 @@
     }
   ],
   "lease": null,
-  "revision": 6,
+  "revision": 7,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -80,7 +104,8 @@
     "Do not infer website publication from repository indices.",
     "Keep private delivery identifiers outside this public registry.",
     "FML-0001 v1.1.0 adds 720p25 doodle video and scene controls. Delivery verified.",
-    "Other existing lesson IDs require registry reconciliation before another new lesson is created.",
-    "FML-0010 v1.0.0 is mirrored and owner-delivered. No deployment occurred."
+    "FML-0010 v1.0.0 is mirrored and owner-delivered. No deployment occurred.",
+    "FML-0009 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
+    "FML-0002 through FML-0008 still require registry reconciliation."
   ]
 }
