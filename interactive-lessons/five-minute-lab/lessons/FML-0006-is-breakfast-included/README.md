@@ -1,27 +1,35 @@
-# FML-0006 - Is Breakfast Included?
+# FML-0006 | Is Breakfast Included?
 
-Version: 1.0.0  
-Status: needs owner review  
-Deployment: none
+Version: 1.1.0.
+Revision of: 1.0.0.
 
-## Goal
+Goal: Use Is + service + included? to check a package, then respond accurately to included or extra-cost information.
 
-Ask whether a service forms part of a hotel price.
+Open `index.html` after extraction.
+Use the scene buttons.
+Arrow keys change scenes.
+Choose three responses.
+Read each feedback message.
+Write one transfer reply.
+Use the self-check.
 
-## Files
+No login is required.
+No tracking is included.
+No network calls occur.
+No progress is stored.
+No timer is enforced.
+Video playback stays optional.
+Video contains no audio.
+Nothing is AI-graded.
+Owner review remains required.
+Nothing was deployed.
 
-- `lesson.json` - master lesson.
-- `index.html` - self-contained player.
-- `wordpress-draft.html` - review copy.
-- `medium.md` - article copy.
-- `linkedin-post.txt` - post copy.
-- `linkedin-carousel.pdf` - four-page PDF.
-- `carousel.html` - editable PDF source.
-- `diagram.svg` - original diagram.
-- `diagram.txt` - text equivalent.
-- `SOURCES.md` - evidence and rights.
-- `TESTS.md` - checks.
-- `manifest.json` - sizes and hashes.
+## Revision
 
-No live URL is claimed.
-No learner data is stored.
+Version 1.1.0 preserves content.
+It adds six visual scenes.
+It adds keyboard controls.
+It adds touch controls.
+It adds captioned video.
+It adds reading transcript.
+Version 1.0.0 remains preserved.
