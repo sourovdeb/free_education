@@ -37,6 +37,30 @@
       "revision_of": "1.0.0"
     },
     {
+      "id": "FML-0007",
+      "version": "1.1.0",
+      "title": "Pay Now or at Checkout?",
+      "slug": "pay-now-or-at-checkout",
+      "pathway": "use-english",
+      "interaction_family": "conversation-fork",
+      "objective": "Ask when payment happens, understand the answer, then confirm the payment time.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0007-pay-now-or-at-checkout/",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "285b977cab96748b339c26ff7aa5b00c4b6d93f1",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent",
+      "revision_of": "1.0.0"
+    },
+    {
       "id": "FML-0008",
       "version": "1.1.0",
       "title": "Could I Leave My Bag Here?",
@@ -109,7 +133,7 @@
     }
   ],
   "lease": null,
-  "revision": 8,
+  "revision": 9,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -131,6 +155,7 @@
     "FML-0010 v1.0.0 is mirrored and owner-delivered. No deployment occurred.",
     "FML-0009 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
     "FML-0008 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
-    "FML-0002 through FML-0007 still require registry reconciliation."
+    "FML-0007 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
+    "FML-0002 through FML-0006 still require registry reconciliation."
   ]
 }
