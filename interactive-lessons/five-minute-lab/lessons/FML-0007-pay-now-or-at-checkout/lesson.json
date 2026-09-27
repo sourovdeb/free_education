@@ -1,0 +1,127 @@
+{
+  "id": "FML-0007",
+  "version": "1.0.0",
+  "title": "Pay Now or at Checkout?",
+  "slug": "pay-now-or-at-checkout",
+  "pathway": "use-english",
+  "interaction_family": "conversation-fork",
+  "audience": "Older teenagers and adults",
+  "level_estimate": [
+    "A2",
+    "B1"
+  ],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": [
+    "Can understand simple hotel questions.",
+    "Knows present simple question forms."
+  ],
+  "objective": "Ask when payment happens, then respond to the answer.",
+  "scenario": {
+    "setting": "Hotel reception",
+    "prompt": "Your room is booked. You do not know when payment happens.",
+    "model": "Do I pay now or at checkout?"
+  },
+  "language": {
+    "form": "Do + subject + base verb + option A + or + option B?",
+    "meaning": "The speaker asks which of two times or procedures is correct.",
+    "appropriateness": "Useful for checking a procedure. 'Should I pay ...?' is also possible when asking what the hotel expects."
+  },
+  "activities": [
+    {
+      "type": "choose",
+      "prompt": "Which question checks the payment procedure?",
+      "options": [
+        {
+          "text": "Do I pay now or at checkout?",
+          "correct": true,
+          "feedback": "Yes. It asks which payment time applies."
+        },
+        {
+          "text": "I pay now or at checkout.",
+          "correct": false,
+          "feedback": "This sounds like a statement, not a question."
+        },
+        {
+          "text": "Do I paying now or checkout?",
+          "correct": false,
+          "feedback": "After 'do', use the base verb: pay."
+        }
+      ]
+    },
+    {
+      "type": "conversation_fork",
+      "prompt": "Reception says: 'At checkout.' What does that mean?",
+      "options": [
+        {
+          "text": "Pay when leaving the hotel.",
+          "correct": true,
+          "feedback": "Yes. Hotel checkout is the leaving-and-billing stage."
+        },
+        {
+          "text": "Pay before entering the room.",
+          "correct": false,
+          "feedback": "No. 'At checkout' refers to leaving the hotel."
+        },
+        {
+          "text": "Payment is optional.",
+          "correct": false,
+          "feedback": "No. The answer gives timing, not permission."
+        }
+      ]
+    }
+  ],
+  "transfer": {
+    "situation": "At a cafe, you do not know the payment place.",
+    "task": "Write one question using two options.",
+    "acceptable_responses": [
+      "Do I pay here or at the table?",
+      "Should I pay here or at the table?"
+    ],
+    "rubric": [
+      "It asks a real procedure question.",
+      "It gives two clear options.",
+      "The verb form is usable."
+    ]
+  },
+  "review_prompt": "Tomorrow, complete: Do I pay ___ or ___.",
+  "visual": {
+    "alt_text": "A payment timeline shows booking, stay, and checkout. The question compares paying now with paying at checkout.",
+    "text_equivalent": "BOOKING -> STAY -> CHECKOUT. Ask: Do I pay NOW or AT CHECKOUT?"
+  },
+  "sources": [
+    {
+      "institution": "British Council LearnEnglish",
+      "title": "Question forms",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms",
+      "accessed": "2026-09-27",
+      "coverage": "Question inversion and auxiliary use.",
+      "limits": "General grammar reference."
+    },
+    {
+      "institution": "Cambridge Dictionary",
+      "title": "checkout",
+      "url": "https://dictionary.cambridge.org/dictionary/english/checkout",
+      "accessed": "2026-09-27",
+      "coverage": "Hotel checkout meaning.",
+      "limits": "Dictionary definition."
+    },
+    {
+      "institution": "Cambridge Learner's Dictionary",
+      "title": "pay",
+      "url": "https://dictionary.cambridge.org/dictionary/learner-english/pay",
+      "accessed": "2026-09-27",
+      "coverage": "A1 meaning of pay.",
+      "limits": "Dictionary definition."
+    }
+  ],
+  "rights": {
+    "lesson_text": "Original",
+    "scenarios": "Original",
+    "diagram": "Original",
+    "third_party_assets": "None"
+  },
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "canonical_url": null,
+  "live_player_url": null
+}
