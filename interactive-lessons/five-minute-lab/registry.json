@@ -300,7 +300,12 @@
       "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": null,
+  "lease": {
+    "run_id": "fml-0013-20260927T1858Z",
+    "lesson_id": "FML-0013",
+    "acquired_at": "2026-09-27T18:58:00Z",
+    "expires_at": "2026-09-27T19:40:00Z"
+  },
   "revision": 17,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
