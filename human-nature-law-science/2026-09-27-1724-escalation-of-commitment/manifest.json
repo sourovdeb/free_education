@@ -1,0 +1,17 @@
+{
+  "folder":"2026-09-27-1724-escalation-of-commitment",
+  "topic":"Escalation of Commitment",
+  "github_files":[
+    "README.md",
+    "01-mechanism-flow.svg",
+    "02-law-versus-science.svg",
+    "03-concrete-scenario.svg",
+    "index.html",
+    "styles.css",
+    "lesson-data.js",
+    "render_video.py",
+    "verify.json"
+  ],
+  "rendered_artifact":"summary.mp4",
+  "rendered_artifact_note":"Rendered locally and included in the downloadable ZIP. The repository contains the renderer and verification."
+}
