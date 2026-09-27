@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "edition": "2026-09-27/1700-files-fear-and-persistence",
+  "created_timezone": "Indian/Reunion",
+  "chapter_count": 6,
+  "body_word_counts": [157, 154, 154, 156, 151, 144],
+  "source_counts": [4, 4, 4, 4, 4, 4],
+  "video_verification": {
+    "width": 1280,
+    "height": 720,
+    "fps": "25/1",
+    "duration_seconds": 210.0,
+    "video_streams": 1,
+    "audio_streams": 0,
+    "size_bytes": 732089
+  },
+  "checks": {
+    "svg_xml_valid": true,
+    "svg_accessible_title_and_description": true,
+    "viewer_controls_present": true,
+    "viewer_dependencies": "none",
+    "wordpress_status": "unpublished file only",
+    "remote_website_write": false
+  },
+  "sha256": {
+    "edition.md": "94c990bcbf647691aed8be5a861d28ba47da5bc6479ebaee05e5be75bd5ee10d",
+    "wordpress-draft.html": "0f69f321612b1887833b6165102ecd64caf46c18177814f5d945994cfa48dbd6",
+    "evidence.svg": "d5d4a7462595c1eb7fb324aac9a304b13bac2c72e3f0fa2a870377d2e4812ab6",
+    "lesson-viewer.html": "5d4f58b7f87b764c3c1ac19696c4ac98fa2f692ac6fdb10e382e9944231b2bec",
+    "lesson.json": "8cd1e271fbbface1777dda6359eaffece7f10c34bbcbf3962c15fd6586b03ee1",
+    "build.py": "9a3f317d2f26aae72ba9ef228522faa4068c3b575ee97ae849f9ce6c80c2bfa6",
+    "render_video.py": "a7106584c379fd7fdd3950ae27f04d239353066e5dccf6f99e7aa10bb71b6e7a",
+    "history-investigation.mp4": "f7a0eab8472e35fccc39e74e64594554900e8a804bf108bbb13b2a93ba4c04ca"
+  }
+}
