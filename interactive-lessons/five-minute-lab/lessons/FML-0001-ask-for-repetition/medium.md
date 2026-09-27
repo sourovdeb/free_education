@@ -1,85 +1,99 @@
 # Sorry, Could You Say That Again?
 
-**5-Minute English Lab · FML-0001**  
-**Level estimate:** A2-B1  
-**Goal:** Ask someone to repeat one missed detail, then confirm what was heard.
+FML-0001 | v1.1.0
+
+Goal: Ask someone to repeat one missed detail, then confirm what was heard.
+
+Audience: Older teenagers and adults. A2–B1 estimate. Duration: 3–5 minutes.
+
+Prerequisites: Can understand simple service conversations; Can form basic questions
 
 ## Situation
 
 The receptionist says: Breakfast starts at six [noise] in the Palm Room. You missed the time.
 
-You do not need everything repeated.
-Ask for the missing detail.
-
-```text
-HEAR -> MISS DETAIL -> ASK -> HEAR AGAIN -> CONFIRM
-```
+![Request the missing time](diagram.svg)
 
 When one detail is missed, ask for that part again. After hearing it, confirm the detail before continuing.
 
-## Try it
+## Conversation
 
-You missed the time.
-Which response helps most?
+**Hear the message:** Breakfast starts at six [noise] in the Palm Room.
 
-A. What?  
-B. Could you say the time again, please?  
-C. Breakfast is good.
+The place is known. The time is missing.
 
-**Best for this goal: B.**
-It names the missing detail.
-It asks for repetition.
+**Name the gap:** Could you say the time again, please?
 
-## Useful pattern
+Name the detail you need repeated.
 
-**Could you + base verb + ... ?**
+**Hear the reply:** Six forty-five.
 
-- Could you say that again, please?
-- Could you repeat the room number, please?
-- Could you say the time again, please?
+The reply supplies the missing time.
 
-Can also works.
-Could often sounds more polite.
-Tone also affects politeness.
+**Check the detail:** Six forty-five, right?
 
-## Repeat or clarify?
+Checking gives space for correction.
 
-Use repetition requests first.
-Use them when words vanish.
+**Build your request:** Could you | say | the time | again, please?
 
-Use clarification questions differently.
-Use them when meaning fails.
+Could you + base verb forms the request.
 
-Example:
+**Try the café:** You missed the table number. Ask, then check: fourteen.
 
-- Missed words: “Could you repeat that?”
-- Unknown meaning: “What does *deposit* mean?”
+Say or write one sentence asking for the number again. Then add one checking sentence after you hear: fourteen.
 
-## Confirm the detail
+## Language
 
-After hearing “six forty-five,” check it:
+**meaning:** Use a repetition request when words were not heard clearly. Use a checking question after hearing the detail again.
 
-**Six forty-five, right?**
+**form:** Could you + base verb + ... ? / Did you say + detail? / detail + right?
 
-A checking question prevents drift.
-It gives correction space.
+**appropriateness:** Can and could both work for requests. Could often sounds more polite. Tone and context also matter.
 
-## New situation
+**distinction:** If you heard the words but do not understand their meaning, ask for clarification instead of repetition.
+
+## You missed the time. What helps most?
+
+- **What?** It signals a problem. It does not show which detail you missed. In some contexts, it can sound abrupt.
+
+- **Could you say the time again, please?** This names the missing detail. It asks for repetition. It is clear and polite.
+
+- **Breakfast is good.** This comments on breakfast. It does not repair the missed information.
+
+## You missed everything. Which request works?
+
+- **Sorry, could you say that again, please?** This asks for the whole message again. Sorry can soften the interruption.
+
+- **Could you explain breakfast?** This asks for an explanation. Use it when the meaning is unclear, not when the words were missed.
+
+- **Repeat.** The meaning is understandable. The imperative is very direct. A request form usually suits service situations better.
+
+## The receptionist repeats: Six forty-five. What checks it?
+
+- **Six forty-five, right?** This checks the detail you heard. It gives the other person a chance to correct it.
+
+- **Could you repeat?** You can ask again if needed. Here, you already heard the detail. Checking is faster.
+
+- **Yes, breakfast.** This does not confirm the time. The risky detail remains unchecked.
+
+## Your turn
 
 A café worker tells you: Your table is outside, number fourteen. You hear the location, but not the number.
 
 Say or write one sentence asking for the number again. Then add one checking sentence after you hear: fourteen.
 
-Self-check:
+- I asked for repetition.
+- I named the missing detail.
+- I checked fourteen afterwards.
+- My wording fits the situation.
 
-- I requested repetition.
-- I named the detail.
-- I checked fourteen.
-- My wording fits.
+Examples; alternatives can work.
 
-Possible answer:
+Could you say the table number again, please? Fourteen, right?
 
-> Could you repeat the number, please? Did you say fourteen?
+Sorry, could you repeat the number, please? Did you say fourteen?
+
+Can you say the number again, please? Fourteen?
 
 ## Later recall
 
@@ -87,16 +101,16 @@ Tomorrow, without looking: what can you say when you miss one detail?
 
 ## Sources
 
-Cambridge Dictionary, *Can, could or may?*  
-https://dictionary.cambridge.org/us/grammar/british-grammar/can-could-or-may
+Cambridge Dictionary, English Grammar Today. Can, could or may?. https://dictionary.cambridge.org/us/grammar/british-grammar/can-could-or-may
 
-British Council LearnEnglish, *How to ask someone to repeat something*  
-https://learnenglish.britishcouncil.org/sites/podcasts/files/LearnEnglish-Howto-ask-someone-to-repeat-something.pdf
+Accessed 2026-09-27. Coverage: Official search excerpt inspected; direct page returned HTTP 403. Can/could in requests; could described as more polite than can.
 
-Cambridge Dictionary, *Questions: echo and checking questions*  
-https://dictionary.cambridge.org/grammar/british-grammar/questions-echo-and-checking-questions
+British Council LearnEnglish. How to ask someone to repeat something. https://learnenglish.britishcouncil.org/sites/podcasts/files/LearnEnglish-Howto-ask-someone-to-repeat-something.pdf
 
-Internal teaching frameworks informed lesson shape.
-No private source material is reproduced.
+Accessed 2026-09-27. Coverage: Full four-page reference inspected; repetition expressions only.
 
-Prototype status: owner review required.
+Cambridge Dictionary, English Grammar Today. Questions: echo and checking questions. https://dictionary.cambridge.org/grammar/british-grammar/questions-echo-and-checking-questions
+
+Accessed 2026-09-27. Coverage: Official search excerpt inspected; direct page returned HTTP 403. Echo/checking questions used for confirmation in spoken English.
+
+Owner review required. No deployment.
