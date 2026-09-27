@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science</title>
+<desc id="desc">Two panels compare legal reassessment with behavioral commitment effects.</desc>
+<rect width="1280" height="720" fill="white"/>
+<g fill="white" stroke="black" stroke-width="4">
+<rect x="70" y="150" width="520" height="470"/>
+<rect x="690" y="150" width="520" height="470"/>
+</g>
+<g font-family="monospace" fill="black">
+<text x="70" y="80" font-size="36">LAW VS SCIENCE</text>
+<text x="110" y="205" font-size="30">LAW</text>
+<text x="730" y="205" font-size="30">BEHAVIORAL SCIENCE</text>
+<text x="110" y="265" font-size="22">Reassess evidence.</text>
+<text x="110" y="315" font-size="22">Disclose favorable facts.</text>
+<text x="110" y="365" font-size="22">Correct case theory.</text>
+<text x="110" y="415" font-size="22">Ignore sunk costs.</text>
+<text x="730" y="265" font-size="22">Past effort feels valuable.</text>
+<text x="730" y="315" font-size="22">Stopping feels wasteful.</text>
+<text x="730" y="365" font-size="22">Error threatens identity.</text>
+<text x="730" y="415" font-size="22">Context changes effects.</text>
+<text x="70" y="675" font-size="18">Bridge: review, stop rules, contrary evidence.</text>
+</g>
+</svg>

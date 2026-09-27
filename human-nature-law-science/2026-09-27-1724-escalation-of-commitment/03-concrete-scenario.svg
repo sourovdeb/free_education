@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Investigation scenario</title>
+<desc id="desc">A suspect is selected. Work follows. Contrary evidence appears. The team can double down or reopen the theory.</desc>
+<rect width="1280" height="720" fill="white"/>
+<g fill="none" stroke="black" stroke-width="4">
+<path d="M100 250H1160"/>
+<circle cx="170" cy="250" r="18"/>
+<circle cx="430" cy="250" r="18"/>
+<circle cx="690" cy="250" r="18"/>
+<circle cx="950" cy="250" r="18"/>
+<path d="M690 270V430H440 M690 270V430H990"/>
+<rect x="170" y="420" width="270" height="150"/>
+<rect x="990" y="420" width="220" height="150"/>
+</g>
+<g font-family="monospace" fill="black">
+<text x="70" y="80" font-size="36">CASE COMMITMENT</text>
+<text x="110" y="205" font-size="20">1. suspect chosen</text>
+<text x="365" y="205" font-size="20">2. hours invested</text>
+<text x="620" y="205" font-size="20">3. contrary clue</text>
+<text x="885" y="205" font-size="20">4. decision point</text>
+<text x="205" y="465" font-size="24">DOUBLE DOWN</text>
+<text x="205" y="505" font-size="18">protect old theory</text>
+<text x="1015" y="465" font-size="24">REOPEN</text>
+<text x="1015" y="505" font-size="18">test alternatives</text>
+<text x="70" y="660" font-size="18">Illustrative scenario. No guilt inference.</text>
+</g>
+</svg>

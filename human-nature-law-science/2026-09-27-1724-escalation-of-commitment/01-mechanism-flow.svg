@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Escalation mechanism</title>
+<desc id="desc">Choice leads to investment, bad news, and more investment. Review offers an exit.</desc>
+<rect width="1280" height="720" fill="white"/>
+<g fill="none" stroke="black" stroke-width="4">
+<rect x="80" y="180" width="220" height="120"/>
+<rect x="380" y="180" width="220" height="120"/>
+<rect x="680" y="180" width="220" height="120"/>
+<rect x="980" y="180" width="220" height="120"/>
+<path d="M300 240H380 M600 240H680 M900 240H980"/>
+<path d="M1090 300C1090 460 500 460 190 300"/>
+<path d="M760 430V560H1050"/>
+</g>
+<g font-family="monospace" fill="black">
+<text x="80" y="90" font-size="36">ESCALATION LOOP</text>
+<text x="110" y="225" font-size="22">INITIAL CHOICE</text>
+<text x="410" y="225" font-size="22">INVESTMENT</text>
+<text x="710" y="225" font-size="22">BAD NEWS</text>
+<text x="1010" y="225" font-size="22">MORE INPUT</text>
+<text x="760" y="545" font-size="22">EXIT: FUTURE EVIDENCE</text>
+<text x="80" y="670" font-size="18">Past costs can shape current choice.</text>
+</g>
+</svg>
