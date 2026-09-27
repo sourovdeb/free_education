@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "edition": "2026-09-27/1800-allies-sparks-and-cascades",
+  "created_timezone": "Indian/Reunion",
+  "chapter_count": 6,
+  "body_word_counts": [145, 163, 153, 160, 160, 145],
+  "source_counts": [4, 4, 4, 4, 3, 4],
+  "video_verification": {
+    "width": 1280,
+    "height": 720,
+    "fps": "25/1",
+    "duration_seconds": 210.0,
+    "video_streams": 1,
+    "audio_streams": 0,
+    "size_bytes": 733278
+  },
+  "checks": {
+    "svg_xml_valid": true,
+    "svg_accessible_title_and_description": true,
+    "viewer_controls_present": true,
+    "viewer_dependencies": "none",
+    "wordpress_status": "unpublished file only",
+    "remote_website_write": false
+  },
+  "sha256": {
+    "edition.md": "5912d9ec035e4489070a492330a499163de43191f925ca76d7d23716f608f28d",
+    "wordpress-draft.html": "6a939d1c91c2f4de87bee254bafb1c355f77d26e5e791d1f58f5ae71df3233a2",
+    "evidence.svg": "8b9ed23605a47cace71ed4ce96ddc65f04bd949785c0b5ffb4fcd273d42a5aa7",
+    "lesson-viewer.html": "34be122d660e25275bb4672966b752f3acd7df7faabf36ede02e35028032f783",
+    "lesson.json": "172112e624e1b3417e264de199487a10e616e89c6667d533505c559b7786ce55",
+    "build.py": "d2540d937177c4e7962052350de111abe55bdf7ded97e14924082997194b51de",
+    "render_video.py": "2aa64cf14633414016c7bf43a73041f01e477cd62690d70b286572fe453e29dc",
+    "history-investigation.mp4": "44f73353454c9bf4581fcb88bfcfa273759f19482b682deb32aead331d6152b0"
+  }
+}
