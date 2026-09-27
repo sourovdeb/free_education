@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "title": "History Investigation: Promises, pressure, and repetition",
+  "edition_date": "2026-09-27",
+  "edition_time": "20:00",
+  "timezone": "Indian/Reunion",
+  "slug": "promises-pressure-and-repetition",
+  "video": {"width": 1280, "height": 720, "fps": 25, "duration_seconds": 210, "audio": false, "style": "silent black-and-white progressive hand-sketched doodle"},
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Atlantic Charter: universal language met imperial limits",
+      "short_title": "A promise exceeded intentions",
+      "summary": "Roosevelt and Churchill promised self-government broadly. Churchill resisted applying that language directly to British colonies.",
+      "documented_fact": "Roosevelt and Churchill met secretly. Their August 1941 charter listed principles. It rejected territorial aggrandizement. It endorsed chosen government. It promised restored sovereign rights. Britain still ruled vast colonies. Churchill soon narrowed application. He emphasized Nazi-occupied European nations. American diplomats recorded Indian discontent. Colonial activists nevertheless cited the charter. Allied governments later adopted its language. The charter influenced United Nations planning.",
+      "scholarly_interpretation": "The document served wartime strategy. It advertised moral distinction from fascism. Roosevelt also challenged imperial trade preferences. Churchill protected imperial authority. Their ambiguity produced wider political leverage. Anticolonial movements repurposed Allied language. A limited declaration became vocabulary for claims. Promises can empower unintended audiences.",
+      "uncertainty": "The charter was not binding. Roosevelt’s colonial intentions were inconsistent. Churchill’s position also evolved slowly. Independence movements predated 1941. The charter did not create them. It supplied international legitimacy. War weakened European empires independently. Decolonization followed different local paths. Rhetorical influence remains difficult measuring.",
+      "sources": [
+        {"title": "Atlantic Charter Text — Yale Avalon Project", "url": "https://avalon.law.yale.edu/wwii/atlantic.asp"},
+        {"title": "Atlantic Conference and Charter — U.S. Office of the Historian", "url": "https://history.state.gov/milestones/1937-1945/atlantic-conf"},
+        {"title": "Churchill Statement and Indian Discontent — U.S. Foreign Relations", "url": "https://history.state.gov/historicaldocuments/frus1941v03/d137"},
+        {"title": "The Atlantic Charter — FDR Presidential Library", "url": "https://www.fdrlibrary.org/atlantic-charter"}
+      ],
+      "visual": {"icon": "scroll", "steps": ["Allies publish broad principles", "Empire narrows their meaning", "Colonial activists cite them", "Rhetoric gains independent force"], "caption": "Promises can escape their authors."}
+    },
+    {
+      "number": 2,
+      "title": "Japan’s surrender: two shocks disrupted strategy",
+      "short_title": "Two shocks narrowed choices",
+      "summary": "Atomic bombings devastated cities. Soviet entry also destroyed Tokyo’s hopes for mediation and transformed military geography.",
+      "documented_fact": "Japan faced blockade and bombing. Leaders remained divided during 1945. America demanded surrender at Potsdam. Hiroshima was bombed August 6. The Soviet Union declared war August 8. Soviet armies invaded Manchuria. Nagasaki was bombed August 9. Japan’s council still deadlocked. Emperor Hirohito intervened twice. Japan announced surrender August 15. The imperial institution ultimately survived occupation.",
+      "scholarly_interpretation": "Atomic destruction created unprecedented pressure. Soviet entry closed another option. Tokyo had sought Soviet mediation. Invasion threatened continental positions. It also raised partition fears. These shocks worked together. Existing military defeat framed both. The emperor’s intervention resolved deadlock. Single-cause stories obscure institutional decisions.",
+      "uncertainty": "Historians dispute causal weights. Japanese records support multiple readings. Leaders mentioned bombs and Soviets. Counterfactual surrender timing is unknowable. American invasion forecasts varied. Soviet plans had independent motives. The bombs killed civilians massively. Explaining decisions does not justify them. Moral and causal questions differ.",
+      "sources": [
+        {"title": "Atomic Bombings and Japan’s Surrender — National Security Archive", "url": "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"},
+        {"title": "Soviet Offensives of August 1945 — Truman Presidential Library", "url": "https://www.trumanlibrary.gov/public/Manchuria_DocumentSet.pdf"},
+        {"title": "Decision to Drop the Atomic Bomb — Truman Presidential Library", "url": "https://www.trumanlibrary.gov/education/presidential-inquiries/decision-drop-atomic-bomb"},
+        {"title": "Understanding the Bomb and Surrender — JSTOR", "url": "https://www.jstor.org/stable/24912295"}
+      ],
+      "visual": {"icon": "atom", "steps": ["Blockade weakens Japan", "Hiroshima reveals atomic power", "Soviets invade Manchuria", "Imperial intervention breaks deadlock"], "caption": "Converging shocks closed alternatives."}
+    },
+    {
+      "number": 3,
+      "title": "Indonesia 1965: foreign support met domestic violence",
+      "short_title": "Outside backing met mass killing",
+      "summary": "Indonesia’s army led anti-communist killings. Declassified records show American knowledge, approval, and material support.",
+      "documented_fact": "Officers were killed September 1965. The army blamed Indonesia’s Communist Party. General Suharto gained command. Soldiers and allied groups attacked alleged communists. Killings spread across regions. Detention also became massive. Death estimates vary widely. U.S. diplomats reported executions contemporaneously. Washington welcomed the army’s campaign. American aid supported military operations. Sukarno lost power gradually. Suharto established authoritarian rule.",
+      "scholarly_interpretation": "Domestic actors organized the violence. Local rivalries shaped victim selection. Army coordination mattered centrally. Cold War support reduced external constraints. American officials viewed outcomes strategically. Anti-communism enabled political realignment. Foreign backing was consequential, not controlling. Indonesia was not merely manipulated. Internal and international incentives intersected.",
+      "uncertainty": "Exact deaths remain unknown. Regional patterns differed substantially. Records are incomplete. Some remain classified. Claims about specific name lists remain debated. Declassified cables clearly show knowledge. They also show encouragement and assistance. They do not prove total American direction. Indonesian responsibility remains primary.",
+      "sources": [
+        {"title": "U.S. Embassy Files on Indonesia’s Mass Killings — National Security Archive", "url": "https://nsarchive.gwu.edu/briefing-book/indonesia/2017-10-17/indonesia-mass-murder-1965-us-embassy-files"},
+        {"title": "Indonesia Documents, 1964–1968 — U.S. Foreign Relations", "url": "https://history.state.gov/historicaldocuments/frus1964-68v26"},
+        {"title": "Indonesia: U.S. Documents Released — Human Rights Watch", "url": "https://www.hrw.org/news/2017/10/18/indonesia-us-documents-released-1965-66-massacres"}
+      ],
+      "visual": {"icon": "file", "steps": ["Officers are killed", "Army assigns collective blame", "Mass violence spreads", "Foreign support lowers constraints"], "caption": "Domestic violence gained external backing."}
+    },
+    {
+      "number": 4,
+      "title": "AIDS activism: patients became research participants",
+      "short_title": "Patients changed research rules",
+      "summary": "ACT UP combined protest with technical expertise. Activists influenced trial access, endpoints, and drug-review procedures.",
+      "documented_fact": "AIDS deaths rose rapidly. Treatments remained severely limited. FDA approved AZT in 1987. Access costs were high. ACT UP formed that year. Members studied virology and regulation. They protested FDA policies nationally. Activists demanded faster access. They also challenged exclusionary trials. Agencies created expanded-access pathways. FDA established accelerated approval in 1992. Surrogate endpoints enabled earlier decisions. Later therapies transformed survival.",
+      "scholarly_interpretation": "Activism was not anti-science. It contested research governance. Patients supplied experiential knowledge. Technical fluency increased negotiating power. Protest created urgency. Insider meetings redesigned proposals. Regulators balanced speed and evidence. This changed patient participation broadly. AIDS politics reshaped medical citizenship.",
+      "uncertainty": "Activists held diverse positions. Agencies were already adapting. Drug companies also pursued reform. Accelerated approval carries real risks. Surrogate endpoints can mislead. Early access may complicate trials. Later success involved many actors. Activism was influential, not solitary. Benefits varied across communities.",
+      "sources": [
+        {"title": "Clinical Research and Drug Regulation — National Academies / NIH Bookshelf", "url": "https://www.ncbi.nlm.nih.gov/books/NBK234563/"},
+        {"title": "Seize Control of the FDA — ACT UP Oral History Project", "url": "https://www.actuporalhistory.org/actions/seize-control-of-the-fda"},
+        {"title": "FDA’s HIV/AIDS Role — U.S. Food and Drug Administration", "url": "https://www.fda.gov/about-fda/fda-history-exhibits/history-fdas-role-preventing-spread-hivaids"},
+        {"title": "Accelerated Approval — U.S. Food and Drug Administration", "url": "https://www.fda.gov/patients/fast-track-breakthrough-therapy-accelerated-approval-priority-review/accelerated-approval"}
+      ],
+      "visual": {"icon": "petition", "steps": ["Patients face lethal delay", "Activists learn technical rules", "Protest opens negotiations", "Approval pathways change"], "caption": "Expertise turned protest into design."}
+    },
+    {
+      "number": 5,
+      "title": "Nixon in China: ideology yielded to strategic balance",
+      "short_title": "Rivals exploited a deeper split",
+      "summary": "Washington and Beijing remained ideological enemies. Their Soviet concerns created space for rapprochement and calculated ambiguity.",
+      "documented_fact": "Washington recognized Taiwan’s government. China and America lacked relations. China’s Soviet alliance had fractured. Border fighting erupted in 1969. Nixon signaled possible engagement. Pakistan carried private messages. Kissinger visited secretly during 1971. Nixon arrived in February 1972. He met Mao and Zhou. The Shanghai Communiqué listed sharp disagreements. Both opposed regional hegemony. Taiwan language remained deliberately different. Full normalization waited until 1979.",
+      "scholarly_interpretation": "This was not ideological conversion. Strategic geometry changed incentives. Beijing feared Soviet pressure. Washington sought leverage globally. Vietnam negotiations mattered too. Nixon’s anti-communist standing reduced domestic costs. Ambiguous wording postponed impossible agreement. Ceremony advertised a new balance. Rivalry made limited cooperation rational.",
+      "uncertainty": "Triangular pressure was not everything. Trade interests remained modest initially. Domestic Chinese politics mattered. Nixon’s electoral incentives also mattered. Beijing and Washington interpret Taiwan differently. The communiqué recorded divergence rather than settlement. Later cooperation was not predetermined. Rapprochement survived Watergate nonetheless.",
+      "sources": [
+        {"title": "Shanghai Communiqué — U.S. Foreign Relations", "url": "https://history.state.gov/historicaldocuments/frus1969-76v17/d203"},
+        {"title": "Kissinger’s Secret Trip to China — National Security Archive", "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB66/"},
+        {"title": "Nixon’s China Visit and Joint Communiqué — Chinese Foreign Ministry", "url": "https://www.mfa.gov.cn/eng/zy/wjls/3604_665547/202405/t20240531_11367541.html"}
+      ],
+      "visual": {"icon": "path", "steps": ["China and Soviets split", "Secret channels test cooperation", "Leaders stage a summit", "Ambiguity preserves movement"], "caption": "Strategic rivalry opened dialogue."}
+    },
+    {
+      "number": 6,
+      "title": "Primitive Echo: repetition can feel like truth",
+      "short_title": "Familiarity imitates truth",
+      "summary": "Repeated claims become easier processing. That fluency can be mistaken for evidence, even when claims are false.",
+      "documented_fact": "Experiments began during the 1970s. Participants rated repeated statements truer. Later studies replicated the pattern. Researchers call it illusory truth. Repetition increases processing fluency. Familiar claims feel easier. The effect reaches news headlines. Prior knowledge offers incomplete protection. More repetitions can strengthen belief. Delays can reduce effects. Warnings help inconsistently. Study designs remain mostly laboratory-based.",
+      "scholarly_interpretation": "Familiarity is normally useful. Repeated signals often reflect social importance. Shared information supports cultural learning. Efficient minds reuse recognition cues. Modern media can exploit this shortcut. Automated feeds multiply exposure. Source memory also fades. Fluency then masquerades as corroboration. Repeating corrections may carry risk.",
+      "uncertainty": "Adaptive explanations remain inferential. Repetition is not always persuasive. Strong beliefs can resist it. Attention and coherence matter. Most studies use short claims. Real information environments are noisier. Recent meta-analysis supports an average effect. Its size varies substantially. Verification can interrupt familiarity.",
+      "sources": [
+        {"title": "Frequency and Referential Validity — Journal of Verbal Learning and Verbal Behavior", "url": "https://www.sciencedirect.com/science/article/pii/S0022537177800121"},
+        {"title": "Illusory Truth Review — PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/38113667/"},
+        {"title": "Illusory Truth Systematic Map — PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9166874/"},
+        {"title": "Prior Exposure and Fake News — PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6279465/"}
+      ],
+      "visual": {"icon": "radio", "steps": ["A claim appears", "The claim repeats", "Processing becomes fluent", "Familiarity feels evidential"], "caption": "Recognition can mimic verification."}
+    }
+  ]
+}
