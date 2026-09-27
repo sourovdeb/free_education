@@ -1,0 +1,18 @@
+Is Breakfast Included?
+
+Room: €80.
+Wi-Fi is included.
+Breakfast is not listed.
+
+Put is before breakfast.
+Included checks the package.
+Extra cost means not included.
+
+Try the pickup transfer.
+
+Source and download repository:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0006-is-breakfast-included
+
+This source is not deployed.
+A2-B1 editorial estimate.
+Owner review remains required.
