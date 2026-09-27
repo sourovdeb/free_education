@@ -1,0 +1,45 @@
+{
+  "edition": "2026-09-27/2059-rules-resources-and-copying",
+  "timezone": "Indian/Reunion",
+  "body_word_counts": [
+    198,
+    192,
+    178,
+    184,
+    183,
+    187
+  ],
+  "source_counts": [
+    2,
+    2,
+    3,
+    2,
+    3,
+    3
+  ],
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": "25/1",
+    "duration_seconds": 210,
+    "audio_streams": 0,
+    "size_bytes": 5881013
+  },
+  "checks": {
+    "svg_xml_valid": true,
+    "viewer_controls_present": true,
+    "object_motion_sampled": true,
+    "within_scene_motion_samples": 6,
+    "wordpress_status": "unpublished file only",
+    "remote_website_write": false
+  },
+  "sha256": {
+    "lesson-viewer.html": "2dbdb34f9f14d754acc0ed68244e8572da782be05a776a15ac60c2ea84efa977",
+    "render_video.py": "ae51161f07c5d8c473bd1d4cbceba3073dc6eea435fae336d1b36e44911e4cfe",
+    "lesson.json": "08844ab88a0e013a5d54b78bab25aedc59e02230e1a116e920e363a4b47dfca7",
+    "wordpress-draft.html": "9e3c6924a4229e300b9a5a5223764d00255b71fa457f0ddd253044a3a7da77f9",
+    "evidence.svg": "e0a3736d4ceef2a7139d3c435d149633df7b51891a3166a5aafd85cbcd695dfc",
+    "edition.md": "b3f582b6866c14d3a7ae026cef944a8575ba131e651ccb1712ac5a593da1b417",
+    "history-investigation.mp4": "1c1947296c7a6c7c6bf4a67d90f02c580ebfc4a60fe11510cf0243b153230de5"
+  }
+}
