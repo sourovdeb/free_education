@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0017",
+  "version": "1.0.0",
+  "title": "Was It on the Bus or at the Station?",
+  "slug": "clarify-a-lost-item-location",
+  "pathway": "use-english",
+  "interaction_family": "lost-item-location-and-description",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Recognise common transport and bag words", "understand a simple past event with left"],
+  "observable_outcome": "The learner distinguishes the transport from the station, states the exact position, and gives two identifying features.",
+  "learning_objective": "Clarify whether a lost item was left on a bus or at the station, then describe it for identification.",
+  "scenario": {
+    "setting": "A phone call to a lost-property desk.",
+    "prompt": "Your small black backpack is missing. You remember putting it under a seat near the back of the number 12 bus. It has a red zip tag and a front pocket.",
+    "puzzle": "Was it left on the bus or at the station, and which details can help staff identify it?",
+    "privacy_note": "The lost-property desk, route, person, and bag are fictional teaching data."
+  },
+  "model": {
+    "clarify": "I think I left it on the number 12 bus, not at the station.",
+    "customer_reply": "It's a small black backpack with a red zip tag and a front pocket.",
+    "confirm": "So that's bus 12, under a seat near the back, correct?",
+    "neutral_variant": "I believe it was on bus 12. It's small and black, with a red zip tag."
+  },
+  "language_focus": {
+    "grammar": "Use on with public transport such as a bus or train, and at with a place used as a point, such as a station. With can add identifying features: a backpack with a red zip tag.",
+    "meaning": "The route and exact position tell staff where to search. Size, colour, item type, and distinctive features help distinguish one bag from another.",
+    "appropriateness": "I think or I believe honestly shows that a memory may be uncertain. Not at the station corrects the alternative. A short confirmation lets both people check the location before ending the call.",
+    "detail_language": "Small black backpack is a natural compact description here. The lesson models size before colour before the item, but it does not claim that every English adjective sequence follows one universal rule."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "Which location best matches the memory?",
+    "options": [
+      {"text": "On the number 12 bus", "correct": true, "feedback": "Correct. You remember putting the bag under a seat near the back of bus 12."},
+      {"text": "At Central Station", "correct": false, "feedback": "The station is the alternative, but the evidence points to a seat on bus 12."},
+      {"text": "In a taxi", "correct": false, "feedback": "No taxi appears in the memory. Use the route and seat clue: on bus 12."}
+    ]
+  },
+  "request_activity": {
+    "id": "decision-2",
+    "prompt": "Which description gives useful identifying evidence?",
+    "options": [
+      {"text": "It's a small black backpack with a red zip tag and a front pocket.", "correct": true, "feedback": "Correct. It gives item type, size, colour, and two visible features."},
+      {"text": "It's a bag. I really need it.", "correct": false, "feedback": "The need is understandable, but 'a bag' is too general. Add colour, size, and a distinctive feature."},
+      {"text": "It's nice and quite new.", "correct": false, "feedback": "Nice and new are subjective or hard to verify. Give visible details such as colour, tag, and pocket."}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each clue to its information slot.",
+    "slots": ["transport", "exact position", "identifying feature"],
+    "items": [
+      {"detail": "number 12 bus", "answer": "transport", "feedback": {"transport": "Correct. The route identifies the vehicle to search.", "exact position": "Under a seat near the back is the exact position.", "identifying feature": "The red zip tag and front pocket identify the bag itself."}},
+      {"detail": "under a seat near the back", "answer": "exact position", "feedback": {"transport": "The transport is the number 12 bus.", "exact position": "Correct. This narrows the search to one part of the bus.", "identifying feature": "This describes where the bag was, not what the bag looks like."}},
+      {"detail": "red zip tag and front pocket", "answer": "identifying feature", "feedback": {"transport": "The transport clue is number 12 bus.", "exact position": "The position is under a seat near the back.", "identifying feature": "Correct. These visible features can distinguish the backpack from similar black bags."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "You left an umbrella on train 6, on the overhead rack. It has a blue curved handle and a name label.",
+    "instruction": "Write one location clarification, one identifying description, and one confirmation question.",
+    "acceptable_responses": [
+      "I think I left it on train 6, not at the station. It was on the overhead rack. It's a black umbrella with a blue curved handle and a name label. So that's train 6, on the overhead rack, correct?",
+      "I believe it was on train 6. It's an umbrella with a blue curved handle and a name label. That's train 6 and the overhead rack, right?"
+    ],
+    "rubric": ["I distinguished the vehicle from the station.", "I named the route and exact position.", "I gave the item type and visible features.", "I ended with a confirmation question."],
+    "valid_variants": "I think and I believe can both mark uncertain memory. On train 6 and aboard train 6 can work. Right?, correct?, and Is that right? can all invite confirmation."
+  },
+  "review_prompt": "Tomorrow, recall the three lost-item slots: transport, exact position, and identifying features. Describe one imaginary item using all three.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["city sky", "station facade", "bus body", "bus seats", "backpack", "route card", "feature labels", "speech cards"],
+    "cutout_assets": ["bus", "station", "seat", "backpack", "red zip tag", "front pocket", "route card", "speech card", "check mark", "train", "umbrella"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Vehicles, seats, bags, labels, and speech pieces use cream cut edges and offset shadows.",
+    "motion_principle": "The bus and station separate; the backpack slides under a rear seat; feature pieces assemble on the bag; clue cards stack for the readback. Captions remain fixed.",
+    "accessibility": "Dark navy text on cream panels; each colour-coded clue also has a word label and distinct shape."
+  },
+  "scenes": [
+    {"id": "where", "title": "Bus or station?", "caption": "Was it on the bus or at the station?", "explanation": "A layered bus and station slide apart while a question card stays between them.", "motion_cues": ["bus enters", "station enters", "question card rises"]},
+    {"id": "memory", "title": "Use the memory", "caption": "I put it under a seat near the back of bus 12.", "explanation": "The backpack slides under a rear bus seat as the station card folds away.", "motion_cues": ["bag slides", "rear seat lifts", "station card folds"]},
+    {"id": "clarify", "title": "Clarify the location", "caption": "On the number 12 bus, not at the station.", "explanation": "The bus route card joins an on card while the station card moves behind a not flap.", "motion_cues": ["route card slides", "on card pivots", "not flap closes"]},
+    {"id": "describe", "title": "Describe the backpack", "caption": "A small black backpack with a red zip tag and a front pocket.", "explanation": "Size, colour, item, tag, and pocket pieces assemble into one labelled backpack.", "motion_cues": ["bag body rises", "tag pivots", "pocket slides"]},
+    {"id": "confirm", "title": "Confirm the search", "caption": "Bus 12, under a seat near the back, correct?", "explanation": "Transport, position, and feature cards stack in search order. A check mark pivots beside them.", "motion_cues": ["transport card slides", "position card slides", "check mark pivots"]},
+    {"id": "transfer", "title": "Your train umbrella", "caption": "On train 6, on the overhead rack, with a blue curved handle.", "explanation": "A train enters as an umbrella rises to the rack; its blue handle and name label appear.", "motion_cues": ["train enters", "umbrella rises", "handle and label appear"]}
+  ],
+  "visual": {
+    "title": "Place, position, features",
+    "alt_text": "A colourful layered papercut flow. A bus card selects on bus 12 rather than at the station; a backpack moves under a rear seat; a red zip tag and front pocket attach; then transport, exact position, and identifying-feature cards stack beside a check mark.",
+    "prose": "First choose the vehicle or place from the evidence: on bus 12, not at the station. Next state the exact position: under a seat near the back. Then describe the item with visible identifying features. Finish by reading back the transport and position for confirmation."
+  },
+  "sources": [
+    {"institution": "British Council LearnEnglish", "title": "Prepositions of place: 'in', 'on', 'at'", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/prepositions-place", "accessed": "2026-09-27", "inspected": "The full grammar explanation says on is used for some public transport, including a bus and train, and at is used for common activity places and exact positions, including a train station.", "limitation": "It supports the location prepositions, not this original lost-property scenario."},
+    {"institution": "Transport for London", "title": "Lost property", "url": "https://tfl.gov.uk/help-and-contact/lost-property", "accessed": "2026-09-27", "inspected": "The official search result identifies the page as guidance for reporting and claiming items lost on London transport, including buses.", "limitation": "The page itself returned HTTP 403 in this environment, so no form fields or procedural details were relied upon."},
+    {"institution": "British Council Singapore", "title": "How to use the English prepositions in, at, on correctly", "url": "https://www.britishcouncil.sg/blog/Understand-English-prepositions", "accessed": "2026-09-27", "inspected": "The full article contrasts on the train/bus with in a car/taxi and discusses at for specific places.", "limitation": "It supports transport usage only; the examples and activity here are original."}
+  ],
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Grammar guidance is paraphrased with links. No protected exercise, artwork, or transport branding is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}
