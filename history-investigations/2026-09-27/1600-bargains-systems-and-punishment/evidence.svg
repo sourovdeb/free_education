@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+<title id="title">Evidence ladder for contested causation</title>
+<desc id="desc">A black-and-white evidence ladder. Primary records form the base. Independent corroboration is the next step. Mechanisms connect records to interpretation. Explicit uncertainty caps the claim. A side warning says one document is not a total explanation.</desc>
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12z" fill="#111"/></marker>
+<style>.t{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;fill:#111}.h{font-size:48px;font-weight:800}.s{font-size:22px}.n{font-size:28px;font-weight:800}.b{font-size:20px}.k{font-size:16px;font-weight:800;letter-spacing:2px}.box{fill:#fff;stroke:#111;stroke-width:4}.dash{fill:#fff;stroke:#111;stroke-width:3;stroke-dasharray:10 8}</style></defs>
+<rect width="1280" height="760" fill="#fff"/>
+<text x="64" y="76" class="t h">How strong claims are built</text>
+<text x="64" y="112" class="t s">Contested causation needs more than one revealing document</text>
+<g>
+<rect class="box" x="60" y="180" width="250" height="170" rx="8"/><text x="84" y="215" class="t k">RECORDS</text><text x="84" y="260" class="t n">Primary traces</text><text x="84" y="292" class="t b">Treaties. Reports.</text><text x="84" y="320" class="t b">Judgments. Archives.</text>
+<path d="M312 265H370" stroke="#111" stroke-width="6" marker-end="url(#a)"/>
+<rect class="box" x="390" y="180" width="250" height="170" rx="8"/><text x="414" y="215" class="t k">CHECKS</text><text x="414" y="260" class="t n">Corroboration</text><text x="414" y="292" class="t b">Independent sources</text><text x="414" y="320" class="t b">test each claim.</text>
+<path d="M642 265H700" stroke="#111" stroke-width="6" marker-end="url(#a)"/>
+<rect class="box" x="720" y="180" width="250" height="170" rx="8"/><text x="744" y="215" class="t k">MECHANISM</text><text x="744" y="260" class="t n">Causal pathway</text><text x="744" y="292" class="t b">Incentives connect</text><text x="744" y="320" class="t b">choices and outcomes.</text>
+<path d="M972 265H1030" stroke="#111" stroke-width="6" marker-end="url(#a)"/>
+<rect class="box" x="1050" y="180" width="170" height="170" rx="8"/><text x="1074" y="215" class="t k">LIMIT</text><text x="1074" y="260" class="t n">Uncertainty</text><text x="1074" y="292" class="t b">Rival causes</text><text x="1074" y="320" class="t b">stay visible.</text>
+</g>
+<rect class="dash" x="60" y="420" width="1160" height="150" rx="8"/>
+<text x="88" y="460" class="t k">COMMON FAILURE</text><text x="88" y="510" class="t n">One document becomes everything.</text><text x="88" y="545" class="t b">A record can prove an action. It rarely proves every motive.</text>
+<g transform="translate(60 630)"><rect width="1160" height="70" fill="#111"/><text x="28" y="44" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="24" font-weight="700" fill="#fff">Evidence rule: explanation expands only as support expands.</text></g>
+</svg>
