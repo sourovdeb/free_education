@@ -1,0 +1,12 @@
+{
+  "chapter_words": 2161,
+  "panels": 24,
+  "source_sha256": "862915d07c07d0d00e7fdcbaccf4af482cc66eea9c13c12ab8f5d6bada773ff3",
+  "reconstructed_sha256": "862915d07c07d0d00e7fdcbaccf4af482cc66eea9c13c12ab8f5d6bada773ff3",
+  "all_source_characters_preserved": true,
+  "books_indexed": 126,
+  "remaining_scope": "Only Chapter I of Alice is scored. Queue entries are not completed chapters.",
+  "normalization": "Markdown glossary destinations removed; visible words unchanged.",
+  "source_issue": "Opening extraction reads A lice.",
+  "schedule": "Not activated: ChatGPT tasks have an hourly minimum."
+}
