@@ -1,0 +1,122 @@
+{
+  "edition": "2026-09-28/0100-fortunes-funding-and-focus",
+  "status": "complete_visual_gate",
+  "title": "Fortunes, Funding, and Focus",
+  "word_counts": [
+    174,
+    173,
+    178,
+    170,
+    170,
+    173
+  ],
+  "source_counts": [
+    3,
+    3,
+    4,
+    4,
+    4,
+    4
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "resolution": "1280x720",
+    "fps": 25,
+    "audio_streams": 0,
+    "status": "passed"
+  },
+  "rendered_frame_review": {
+    "seconds_per_chapter": [
+      4,
+      15,
+      26
+    ],
+    "mean_pixel_differences": [
+      [
+        6.03,
+        9.34
+      ],
+      [
+        4.65,
+        6.05
+      ],
+      [
+        4.98,
+        6.51
+      ],
+      [
+        8.37,
+        6.1
+      ],
+      [
+        5.5,
+        7.84
+      ],
+      [
+        4.24,
+        5.26
+      ]
+    ]
+  },
+  "viewer_controls": [
+    "scrub",
+    "pause",
+    "step back",
+    "step forward",
+    "replay",
+    "causal object buttons",
+    "sources",
+    "reduced motion"
+  ],
+  "website": "unpublished file only",
+  "files": {
+    "README.md": {
+      "bytes": 447,
+      "sha256": "c6e3544c836c790fae1cfd2455b4d705166a3f18cab24150b626948e3a724f1e"
+    },
+    "edition.md": {
+      "bytes": 11213,
+      "sha256": "4d7e1f2117b33d51d3d588776ef2428ae2ae15a4e21343d7e4cbecf0ea54bf54"
+    },
+    "wordpress-draft.html": {
+      "bytes": 12503,
+      "sha256": "b9da69479186c1e126c98026b2a2a336fd231aaf28b05bbdb1dc94d947636bda"
+    },
+    "evidence.svg": {
+      "bytes": 2985,
+      "sha256": "24b42d8665b87c8036d02efdfd51251758b458fa1bc0ab26624d53a5f6fa816a"
+    },
+    "lesson.json": {
+      "bytes": 37501,
+      "sha256": "4851985bcb62fcdde76735de45651fe4018c17bcd34ab5ac92a6b46e903322a6"
+    },
+    "lesson-viewer.html": {
+      "bytes": 23999,
+      "sha256": "29740e823f26676426286552a54e4911ee856b694b78a021faa5670087c1bee2"
+    },
+    "build_edition.py": {
+      "bytes": 29101,
+      "sha256": "023d966d4783c71de3a34e3a8c22031b0512bd98dafccedeb0511e874b7c4960"
+    },
+    "render_video.py": {
+      "bytes": 11941,
+      "sha256": "5e98e0075d5d1803399ab4d8b35eaa966ea00fc66bb4ca4b3e91f88346a74be4"
+    },
+    "finalize.py": {
+      "bytes": 3304,
+      "sha256": "2f65d3fd96269d85b007dcec3c7a28f11febf927b47f45d8f96f2206a8c55b97"
+    },
+    "QA.md": {
+      "bytes": 1878,
+      "sha256": "3ee66c67ee6582a9de3e520dcce47a9ca5ea4496092dddcca7666b87465186df"
+    },
+    "history-investigation.mp4": {
+      "bytes": 1711860,
+      "sha256": "51942a15146f70147ea2bb800f60c59b7b13371322af30e91191a1625765afab"
+    },
+    "rendered-contact-sheet.jpg": {
+      "bytes": 219494,
+      "sha256": "677a59a14619a49cf45ccffc0095f22aba0f86335081dc263a29b82d5c1de5d0"
+    }
+  }
+}
