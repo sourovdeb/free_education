@@ -1,0 +1,75 @@
+{
+  "edition": "2026-09-28/0000-money-and-evidence",
+  "status": "incomplete_visual_gate",
+  "word_counts": [
+    163,
+    162,
+    154,
+    153,
+    150,
+    160
+  ],
+  "source_counts": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "resolution": "1280x720",
+    "fps": 25,
+    "audio_streams": 0,
+    "status": "rejected_prototype"
+  },
+  "review_frames_seconds_per_chapter": [
+    4,
+    15,
+    26
+  ],
+  "website": "unpublished file only",
+  "files": {
+    "README.md": {
+      "bytes": 460,
+      "sha256": "b29cb2e029aacb23bed2a448e0b4e4141127419404125afa5120deaee052eb9e"
+    },
+    "QA.md": {
+      "bytes": 1126,
+      "sha256": "ad8fc66bc8c17fc3bdc3f373dcab0b791d4578dfddb62ab322d7f626893788db"
+    },
+    "edition.md": {
+      "bytes": 9475,
+      "sha256": "29ed6b49ce9c9e0a03a3fb3251bd13cdb2e0a422c6096b2778c1a800835aeef0"
+    },
+    "wordpress-draft.html": {
+      "bytes": 10295,
+      "sha256": "bd82249f5e8c2cd28333834fa26fc1da3f7e43725c8778d8b19239f7891b0779"
+    },
+    "evidence.svg": {
+      "bytes": 4052,
+      "sha256": "2f274f659aebc1146cd7c37f1f4d6a582d9d703094deb496fd7af5663291e1f1"
+    },
+    "lesson.json": {
+      "bytes": 33031,
+      "sha256": "8b35266fe3492101be4bdfc8afb9c48a65c50d3eda5f48683131853b920ccc11"
+    },
+    "lesson-viewer.html": {
+      "bytes": 23807,
+      "sha256": "6f0242df433ad6b2d6a33d35eccf3bc2343652a3eb2fa7e154c2ec16784aa48c"
+    },
+    "render_video.py": {
+      "bytes": 10503,
+      "sha256": "fb22d3b3b4f3a04fb7ed4526d5e60f72a54f80b9d7ca1eca116a18737c0bfde8"
+    },
+    "build_viewer.py": {
+      "bytes": 4547,
+      "sha256": "cf11f4e816d2dd25889a4ed36783c3571dfaf06e759d0c56de1a61cd1ed8de11"
+    },
+    "history-investigation.mp4": {
+      "bytes": 1753729,
+      "sha256": "2d0c059d6440437c650155e2961ab20806de8bc60a48b9637f4a571fcb230a7e"
+    }
+  }
+}
