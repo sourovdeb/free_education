@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0015",
+  "next_lesson_id": "FML-0016",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -346,15 +346,34 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0015",
+      "version": "1.0.0",
+      "title": "Not the Main Entrance - the Taxi Rank",
+      "slug": "confirm-a-pickup-point",
+      "pathway": "use-english",
+      "interaction_family": "location-correction-and-readback",
+      "objective": "Correct a mistaken pickup location, then confirm the landmark and pickup time accurately.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0015-confirm-a-pickup-point/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "84dce1b4904091cdad81a2dabb29d9017a8127ee",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": {
-    "lesson_id": "FML-0015",
-    "acquired_at": "2026-09-27T21:02:02Z",
-    "expires_at": "2026-09-27T23:02:02Z",
-    "purpose": "build-and-deliver"
-  },
-  "revision": 21,
+  "lease": null,
+  "revision": 22,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -386,7 +405,8 @@
     "FML-0011 v1.0.0 is the first colourful-papercut pack. GitHub, Drive, and owner email were verified. No deployment occurred.",
     "FML-0012 v1.0.0 is mirrored and owner-delivered. Colourful-papercut motion was verified. No deployment occurred.",
     "FML-0013 v1.0.0 is mirrored and owner-delivered. Colourful-papercut file motion was verified. No deployment occurred.",
-    "FML-0014 v1.0.0 is mirrored and owner-delivered. Colourful-papercut price-scope motion was verified. Browser launch was attempted but unavailable. No deployment occurred."
+    "FML-0014 v1.0.0 is mirrored and owner-delivered. Colourful-papercut price-scope motion was verified. Browser launch was attempted but unavailable. No deployment occurred.",
+    "FML-0015 v1.0.0 is mirrored and owner-delivered. Colourful-papercut pickup-point motion was verified. Browser launch was attempted but Playwright was unavailable. No deployment occurred."
   ],
   "design_default": {
     "style": "colourful-papercut",
