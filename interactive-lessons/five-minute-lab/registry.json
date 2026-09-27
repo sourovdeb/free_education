@@ -276,8 +276,13 @@
       "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": null,
-  "revision": 15,
+  "lease": {
+    "lesson_id": "FML-0012",
+    "run_id": "2026-09-27T18:10:00Z-fml0012",
+    "reserved_at": "2026-09-27T18:10:00Z",
+    "expires_at": "2026-09-27T19:10:00Z"
+  },
+  "revision": 16,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
