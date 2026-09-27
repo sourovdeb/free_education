@@ -37,6 +37,30 @@
       "revision_of": "1.0.0"
     },
     {
+      "id": "FML-0006",
+      "version": "1.1.0",
+      "title": "Is Breakfast Included?",
+      "slug": "is-breakfast-included",
+      "pathway": "use-english",
+      "interaction_family": "question-builder",
+      "objective": "Ask whether a service is part of a hotel price, interpret the answer, then state a decision.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0006-is-breakfast-included/",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "c05f6001a00296645a0006d4b242fa7559ea470e",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent",
+      "revision_of": "1.0.0"
+    },
+    {
       "id": "FML-0007",
       "version": "1.1.0",
       "title": "Pay Now or at Checkout?",
@@ -133,7 +157,7 @@
     }
   ],
   "lease": null,
-  "revision": 9,
+  "revision": 10,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -156,6 +180,7 @@
     "FML-0009 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
     "FML-0008 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
     "FML-0007 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
-    "FML-0002 through FML-0006 still require registry reconciliation."
+    "FML-0006 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
+    "FML-0002 through FML-0005 still require registry reconciliation."
   ]
 }
