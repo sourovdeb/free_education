@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "edition": "2026-09-27/1600-bargains-systems-and-punishment",
+  "created_timezone": "Indian/Reunion",
+  "chapter_count": 6,
+  "body_word_counts": [155, 152, 147, 143, 143, 141],
+  "source_counts": [4, 3, 4, 4, 3, 4],
+  "video_verification": {
+    "width": 1280,
+    "height": 720,
+    "fps": "25/1",
+    "duration_seconds": 210.0,
+    "video_streams": 1,
+    "audio_streams": 0,
+    "size_bytes": 739946
+  },
+  "checks": {
+    "svg_xml_valid": true,
+    "svg_accessible_title_and_description": true,
+    "viewer_controls_present": true,
+    "viewer_dependencies": "none",
+    "wordpress_status": "unpublished file only",
+    "remote_website_write": false
+  },
+  "sha256": {
+    "edition.md": "fb5acea3746eb358f64a70cfea0b8406b9529d5c265e98edf620838a67f8d963",
+    "wordpress-draft.html": "9efa738cc3e5aa6ccd8e795100ee648aa6b6fa5b047c998be28d8329d8a60177",
+    "evidence.svg": "c0aa048d687ae9a4bef24feb5442ce6d569fd2abd0774e2e3e0d09175c9384cc",
+    "lesson-viewer.html": "023479bc20ea413d894e5b63fec6ce67267c9cf8bbabd54161bc09a44c8c16c6",
+    "lesson.json": "7855a5b285e72e98ebfcfd5140b64f091ec38642d1062a34ac314d7371ff11f4",
+    "build.py": "15db144a0a4751c219de71ac3ec37ce5914c0c567d747caa7a2af7942afda674",
+    "render_video.py": "c552c299f61243eb2fa4eb5311225ce1cc1debad09f4ee2e1b0e3dc2064fe2c2",
+    "history-investigation.mp4": "3e77a17fcacc7f153764eb7249b2aa2c303d5c169af5db831147a3d76e817f23"
+  }
+}
