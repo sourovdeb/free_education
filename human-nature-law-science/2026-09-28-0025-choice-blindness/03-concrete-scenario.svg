@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Concrete investigation scenario</title><desc id="desc">A timeline shows a witness choosing a lineup photo, receiving feedback, later reporting stronger confidence, and a safeguard preserving the initial statement.</desc>
+<rect width="1280" height="720" fill="#c7b58f"/>
+<text x="64" y="70" font-family="monospace" font-size="34" font-weight="700">CONCRETE SCENARIO / EYEWITNESS</text>
+<line x1="110" y1="330" x2="1170" y2="330" stroke="#111" stroke-width="6"/>
+<rect x="80" y="145" width="240" height="130" fill="#eee5ce" stroke="#111" stroke-width="3"/><text x="105" y="185" font-family="monospace" font-size="24" font-weight="700">T0 / LINEUP</text><text x="105" y="225" font-family="monospace" font-size="21">Choice: Photo 4</text><text x="105" y="255" font-family="monospace" font-size="21">Confidence: 55%</text>
+<rect x="370" y="385" width="240" height="130" fill="#e3dccb" stroke="#111" stroke-width="3"/><text x="395" y="425" font-family="monospace" font-size="24" font-weight="700">T1 / FEEDBACK</text><text x="395" y="465" font-family="monospace" font-size="21">“Good choice.”</text><text x="395" y="495" font-family="monospace" font-size="21">Memory updates</text>
+<rect x="660" y="145" width="240" height="130" fill="#eee5ce" stroke="#111" stroke-width="3"/><text x="685" y="185" font-family="monospace" font-size="24" font-weight="700">T2 / INTERVIEW</text><text x="685" y="225" font-family="monospace" font-size="21">“I was sure.”</text><text x="685" y="255" font-family="monospace" font-size="21">Confidence: 85%</text>
+<rect x="950" y="385" width="240" height="130" fill="#e3dccb" stroke="#111" stroke-width="3"/><text x="975" y="425" font-family="monospace" font-size="24" font-weight="700">SAFEGUARD</text><text x="975" y="465" font-family="monospace" font-size="21">Keep T0 record</text><text x="975" y="495" font-family="monospace" font-size="21">Compare changes</text>
+<text x="95" y="610" font-family="monospace" font-size="24">Related eyewitness effect. Not direct homicide proof.</text>
+</svg>
