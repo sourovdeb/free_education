@@ -2,48 +2,89 @@
 
 ## Edition status
 
-Chapter I of Pride and Prejudice now has [a compact illustrated PDF](pride-and-prejudice-chapter-one.pdf): 17 pages, 15 generated graphite sketches, and all 856 supplied source words. This replaces the superseded placeholder pilot. No complete book is claimed.
+Pride and Prejudice Chapter I now has a revised [landscape illustrated PDF](pride-and-prejudice-chapter-one.pdf).
 
-HTML, PPTX and an 8:16 silent 720p/25fps ASCII motion video have been built as a companion review edition. Media remains private in Drive. HTML navigation, pause and motion passed isolated logic tests; browser visual inspection remains pending. The illustrations are still drawings, with scene-specific motion in their derived ASCII interpretations.
+- 19 pages.
+- 15 graphite illustrations.
+- 856 source words covered.
+- 22 glossary entries.
+- Direct typographic performance scoring.
 
-TypeSafe reviewed original production rules, not manuscript text. Remaining chapters await production. Quality takes priority over completion speed.
+Chapter I is complete.
 
-## 1. Prepare the source
+The novel remains unfinished.
 
-Keep a read-only source copy. Record title, author, edition, provenance and chapter boundaries. Verify publication rights before public distribution. Flag extraction problems. Never silently discard text.
+Full HTML, PPTX, MP4, artwork, and source maps stay in private Drive storage. GitHub holds only the compact PDF and this tutorial.
+
+TypeSafe reviewed the generic production rules. It received no manuscript text.
+
+## 1. Preserve the source
+
+Keep one unchanged source file. Record its checksum. Preserve chapter order, punctuation, negation, attribution, and extraction defects.
+
+Create reversible span mappings. Validate coverage against the unchanged source. Do not validate against the adapted spelling.
 
 ## 2. Plan with TypeSafe
 
-Every production run must successfully use the dedicated TypeSafe credential for scene planning or review. Keep that credential private. Never embed it in HTML, PDF, email, prompts committed here, or logs. Failed authentication blocks completion.
+Run TypeSafe before semantic production decisions. Use `jev-latest`. Keep credentials outside repositories, files, emails, and logs.
 
-## 3. Build panels
+If manuscript submission is blocked, submit the annotation rules. Record that scope. Never claim TypeSafe reviewed text it never received.
 
-Divide chapters at meaningful scene or argument changes. Track each panel's exact source offsets. Cover dialogue, narration and philosophical passages.
+## 3. Design panels
 
-For each panel, retain source text separately from performance annotations. Add character cues in brackets and narrator cues between double dollar signs. Use / for pauses, // for shifts and /// for silence. Store annotation spans separately so validation can remove inserted material without removing original punctuation. Put playable vocal placement, comfortable physicality and intention immediately before each character's speech. Bold selected source words. Acceleration (`>`) resets at the next beat or voice cue. Added ellipses are explicit directions. Preserve source spelling; put pronunciation guidance alongside it. These are the user's performance conventions, not a universal industry standard.
+Split the chapter at scene changes, arguments, or shifts in attention. Every panel needs an actual image. Prompts and placeholders do not count.
 
-## 4. Create artwork
+For nonfiction, show mechanisms and contrasts. Label visual metaphors and reconstructions. Separate them from documented evidence.
 
-Generate an actual black-and-white pencil sketch for every panel. Keep character designs consistent. Use scene-specific composition and expressions.
+## 4. Generate artwork
 
-For nonfiction, show the mechanism, contrast or argument. Clearly label imagined analogies and historical reconstructions. Do not present invented scenes as documentary evidence. Prompts and placeholders do not count as illustrations.
+Use monochrome pencil-sketch artwork. Keep recurring characters consistent. Match expressions, staging, and objects to each panel.
 
-## 5. Lay out the PDF
+Check every image manually. Reject generic decoration and broken anatomy. Preserve the approved character designs across chapters.
 
-Place each sketch above its scored passage. Split long passages across continuation pages rather than shrinking text. Include chapter navigation, panel numbers and provenance. Embed fonts and compress drawings without losing line detail.
+## 5. Adapt performance
 
-Render every PDF page to an image. Inspect text clipping, missing drawings, page breaks and reading order. Reconstruct the source text from panel ranges and compare it with the original.
+Express performance within the displayed words.
 
-## 6. Build companion formats
+- Bold selected stress.
+- Stretch letters sparingly.
+- Separate syllables when useful.
+- Use `/`, `//`, and `///` for pauses.
+- Use `>` for bounded acceleration.
 
-Create one offline HTML reader with embedded artwork, Previous/Next controls, chapter navigation, scored text and a motion pause button. Display animated ASCII interpretations in pre elements.
+Avoid prose acting blocks inside the reading flow. Speaker labels can remain. Do not exaggerate every sentence.
 
-Export PPTX and silent 1280×720 MP4 at 25fps. Use perceptible scene-specific motion. Verify frames differ meaningfully, all chapters are covered, and the video contains no audio. Split long books into chapter videos with an index.
+Keep the original source separately. A phrase such as `de-e-ear` remains an adaptation. It never replaces Austen's spelling in the source layer.
 
-## 7. Deliver and track
+## 6. Add learning glossaries
 
-Keep full packages, HTML, artwork, PPTX and video in Google Drive. Email verified Drive links after successful upload. Keep only compact illustrated PDFs and this tutorial in GitHub. Split or compress oversized PDFs.
+After every chapter, select useful words and expressions. Include:
 
-Use private Drive state for chapter completion, hashes and delivery receipts. Mark a book complete only after every chapter passes coverage and visual checks. Change interface colors and fonts between books; keep drawings monochrome.
+- Source spelling.
+- Contextual meaning.
+- Pronunciation stress.
+- One new example.
 
-Deleting files from the active branch does not erase earlier Git history. This workflow does not rewrite repository history.
+Explain archaic meanings. Link adapted spellings back to their source headwords.
+
+## 7. Build reading formats
+
+Use landscape PDF and slides. Keep text legible. Split crowded panels across continuation slides.
+
+The HTML reader should work offline. Embed images. Include Previous and Next controls, chapter navigation, moving ASCII, motion pause, glossary access, and an original-source toggle.
+
+## 8. Build video
+
+Export silent MP4 at 640×360 and 25fps. Use moving artwork and animated ASCII. Static slides do not count.
+
+Show fewer words per frame. Keep captions readable at 360p. Include a chapter glossary section.
+
+Verify resolution, frame rate, duration, motion, and zero audio streams.
+
+## 9. Validate delivery
+
+Render every PDF page and slide. Inspect full-size output. Test HTML navigation and motion. Reconstruct source coverage from mappings.
+
+Store full media in Drive. Send one delivery email per completed version. Keep GitHub limited to compact PDFs and this tutorial.
+
+Mark a book complete only after every chapter passes.
