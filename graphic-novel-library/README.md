@@ -2,9 +2,11 @@
 
 ## Edition status
 
-The previous Austen Chapter I placeholder ZIP and HTML have been removed from the active repository. Its Drive ZIP has been deleted. The former chapter completion record has been removed. No replacement illustrated book is complete yet.
+Chapter I of Pride and Prejudice now has [a compact illustrated PDF](pride-and-prejudice-chapter-one.pdf): 17 pages, 15 generated graphite sketches, and all 856 supplied source words. This replaces the superseded placeholder pilot. No complete book is claimed.
 
-The hourly automation now requires actual scene artwork and moving video. One book per run is the target, not a completion guarantee. Unfinished books must retain checkpoints and report missing chapters.
+HTML, PPTX and an 8:16 silent 720p/25fps ASCII motion video have been built as a companion review edition. Media remains private in Drive. HTML navigation, pause and motion passed isolated logic tests; browser visual inspection remains pending. The illustrations are still drawings, with scene-specific motion in their derived ASCII interpretations.
+
+TypeSafe reviewed original production rules, not manuscript text. Remaining chapters await production. Quality takes priority over completion speed.
 
 ## 1. Prepare the source
 
@@ -18,7 +20,7 @@ Every production run must successfully use the dedicated TypeSafe credential for
 
 Divide chapters at meaningful scene or argument changes. Track each panel's exact source offsets. Cover dialogue, narration and philosophical passages.
 
-For each panel, retain source text separately from performance annotations. Add character cues in brackets and narrator cues between double dollar signs. Use / for pauses, // for shifts and /// for silence. Store annotation spans separately so validation can remove inserted material without removing original punctuation.
+For each panel, retain source text separately from performance annotations. Add character cues in brackets and narrator cues between double dollar signs. Use / for pauses, // for shifts and /// for silence. Store annotation spans separately so validation can remove inserted material without removing original punctuation. Put playable vocal placement, comfortable physicality and intention immediately before each character's speech. Bold selected source words. Acceleration (`>`) resets at the next beat or voice cue. Added ellipses are explicit directions. Preserve source spelling; put pronunciation guidance alongside it. These are the user's performance conventions, not a universal industry standard.
 
 ## 4. Create artwork
 
