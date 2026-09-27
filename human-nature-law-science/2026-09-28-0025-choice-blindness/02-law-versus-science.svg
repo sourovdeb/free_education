@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science comparison</title><desc id="desc">Two columns compare legal needs for attributable intent with scientific evidence about reconstructive introspection and procedural safeguards.</desc>
+<rect width="1280" height="720" fill="#c7b58f"/>
+<text x="64" y="70" font-family="monospace" font-size="34" font-weight="700">LAW vs SCIENCE</text>
+<rect x="70" y="120" width="530" height="500" fill="#eee5ce" stroke="#111" stroke-width="3"/>
+<rect x="680" y="120" width="530" height="500" fill="#e3dccb" stroke="#111" stroke-width="3"/>
+<text x="105" y="170" font-family="monospace" font-size="30" font-weight="700">LEGAL NEED</text>
+<text x="715" y="170" font-family="monospace" font-size="30" font-weight="700">SCIENTIFIC WARNING</text>
+<g font-family="monospace" font-size="23"><text x="105" y="230">• Attribute intent</text><text x="105" y="278">• Assess testimony</text><text x="105" y="326">• Assign responsibility</text><text x="105" y="374">• Let juries weigh</text><text x="105" y="422">• Use contemporaneous proof</text><text x="715" y="230">• Memory reconstructs</text><text x="715" y="278">• Confidence can move</text><text x="715" y="326">• Reasons can reconstruct</text><text x="715" y="374">• Feedback can contaminate</text><text x="715" y="422">• Provenance can disappear</text></g>
+<rect x="315" y="485" width="650" height="90" fill="#8c1d18"/>
+<text x="350" y="525" fill="#fff" font-family="monospace" font-size="24" font-weight="700">CONFLICT: COHERENT REASONS</text><text x="350" y="555" fill="#fff" font-family="monospace" font-size="22">may not preserve original causes.</text>
+</svg>
