@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "edition": "2026-09-27/1900-debt-borders-and-ownership",
+  "created_timezone": "Indian/Reunion",
+  "chapter_count": 6,
+  "body_word_counts": [147, 146, 143, 156, 148, 150],
+  "source_counts": [4, 3, 3, 4, 3, 4],
+  "video_verification": {
+    "width": 1280,
+    "height": 720,
+    "fps": "25/1",
+    "duration_seconds": 210.0,
+    "video_streams": 1,
+    "audio_streams": 0,
+    "size_bytes": 742774
+  },
+  "checks": {
+    "svg_xml_valid": true,
+    "svg_accessible_title_and_description": true,
+    "viewer_controls_present": true,
+    "viewer_dependencies": "none",
+    "wordpress_status": "unpublished file only",
+    "remote_website_write": false
+  },
+  "sha256": {
+    "edition.md": "b97f13ae5cfa37fc23c18522cd28c72eba1b09fef38f4e9a7299fc359fdfe65d",
+    "wordpress-draft.html": "7cfd6b433f6bc7c00aeb25af57b44c63e24a7756c9e9a17a5c415ff229e87cff",
+    "evidence.svg": "f8e8d850c6db2916d1475b2c391a1e9995f4944bd498570da0e08d320df4894e",
+    "lesson-viewer.html": "f7041a09c8d5b78d86e8c1a205bdb2e2e24f8c0cd4da363c343f0b5535dfe291",
+    "lesson.json": "7610c6f3a6073596b2d6bbf5f965ee605ca35ed12aa033f8ffa586bfcfcc6677",
+    "build.py": "0cd55c08344b9a62cc50bc7c9f0290a41c7e6eedd4a39a4de18ac6eb1c701ab6",
+    "render_video.py": "bf9c68374594852cdb10ed521afac8b25dec741e0132ebe88094bc1b8dc02e86",
+    "history-investigation.mp4": "d61fa1a545ec148e0eb06a69efd2c45a11704ef68ceed26a7ad1ff146da4ece3"
+  }
+}
