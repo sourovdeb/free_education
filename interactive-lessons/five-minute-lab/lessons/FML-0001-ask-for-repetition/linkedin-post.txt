@@ -1,34 +1,13 @@
-MISSED ONE DETAIL?
+Sorry, Could You Say That Again?
 
-Try this repair path:
+The receptionist says: Breakfast starts at six [noise] in the Palm Room. You missed the time.
 
-HEAR -> MISS -> ASK -> HEAR -> CHECK
+Could you say the time again, please?
+Six forty-five, right?
 
-Hotel example:
+Say or write one sentence asking for the number again. Then add one checking sentence after you hear: fourteen.
 
-“Breakfast starts at six…”
-You miss the time.
+Source/download repository; not playable:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0001-ask-for-repetition
 
-Try:
-“Could you say the time again, please?”
-
-Then confirm:
-“Six forty-five, right?”
-
-Key distinction:
-Missed words need repetition.
-Unknown meaning needs clarification.
-
-Try another situation:
-You miss a table number.
-Ask for it again.
-Then confirm fourteen.
-
-Lesson: FML-0001.
-Level estimate: A2-B1.
-
-Repository review link:
-https://github.com/sourovdeb/free_education/pull/58
-
-No playable URL exists.
-Publication needs owner review.
+Review required. A2–B1 estimate.

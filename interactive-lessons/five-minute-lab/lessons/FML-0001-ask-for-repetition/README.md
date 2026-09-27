@@ -1,64 +1,52 @@
-# FML-0001 - Sorry, Could You Say That Again?
+# FML-0001 v1.1.0
 
-## Goal
+Open index.html after extraction.
+Choose scenes using numbered buttons.
+Read captions beneath each scene.
+Answer each choice; read feedback.
+Write your request and check.
+Compare using the self-check.
+Reset clears your writing.
 
-Ask someone to repeat one missed detail, then confirm what was heard.
+No login or tracking.
+No runtime network dependencies.
+No automatic speech grading.
+No forced timer or motion.
+Video playback remains optional.
+No publication was performed.
+Owner review remains required.
 
-## Audience
+## Files
 
-Older teenagers and adults.
-A2-B1 is estimated.
+- index.html: player and visualizer.
+- lesson.json: master lesson data.
+- doodle-720p25.mp4: captioned illustration.
+- video-transcript.md: video reading equivalent.
+- medium.md: article and reading edition.
+- wordpress-draft.html: script-free import file.
+- linkedin-post.txt: post text.
+- linkedin-carousel.pdf: four-page carousel.
+- carousel.html: editable carousel source.
+- diagram.svg and diagram.txt: explanation.
+- build.py: regenerate every edition.
+- SOURCES.md: references and rights.
+- TESTS.md: executed checks and limits.
+- manifest.json: bytes and SHA-256 hashes.
 
-## Time
+## Regenerate
 
-About three to five minutes.
-No timer is enforced.
+Requires Python, Pillow and reportlab.
+Video generation also requires ffmpeg.
+Edit lesson.json before rebuilding.
+Run: python build.py --video
+Review outputs after changing text.
+Check wrapping before distribution.
+This generator targets six scenes.
+It is not an installed template.
 
-## Master source
+## Revision
 
-`lesson.json` is canonical.
-Platform outputs match it.
-
-## Platform files
-
-- `index.html`: interactive player.
-- `wordpress-draft.html`: WordPress draft.
-- `medium.md`: Medium reading version.
-- `linkedin-post.txt`: LinkedIn text.
-- `linkedin-carousel.pdf`: LinkedIn document.
-- `carousel.html`: editable carousel.
-- `diagram.svg`: original diagram.
-- `diagram.txt`: text equivalent.
-- `SOURCES.md`: sources and rights.
-- `TESTS.md`: checks and limits.
-- `manifest.json`: sizes and hashes.
-
-## Interaction
-
-Choose and explain.
-Three decisions appear.
-Each choice gets feedback.
-A production task follows.
-
-## Accessibility
-
-Controls exceed 48px height.
-Keyboard controls use natives.
-Focus indicators are visible.
-Dragging is not required.
-Colour is not required.
-Motion is not required.
-Audio is not required.
-JavaScript has reading fallback.
-Nothing is saved locally.
-
-## Deployment
-
-This pack is not deployed.
-No live URL exists.
-WordPress remains a draft file.
-Medium remains a draft file.
-LinkedIn remains unpublished.
-Owner review is required.
-
-Created: 2026-09-26T21:13:15+04:00
+Preserves FML-0001's original objective.
+Adds video and scene controls.
+Original version remains in history.
+Other lessons remain untouched.

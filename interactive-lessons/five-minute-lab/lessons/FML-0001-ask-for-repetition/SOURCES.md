@@ -1,65 +1,45 @@
 # Sources and rights
 
-## Internal method sources
+## Can, could or may?
 
-### Blue Lesson Frameworks - a summary.pdf
-- Accessed: 2026-09-26.
-- Inspected coverage: situational framework.
-- Applied idea: context, language focus, controlled practice, freer use.
-- Rights: private training source.
-- No pages were republished.
-- No Drive identifiers appear here.
+Cambridge Dictionary, English Grammar Today
 
-### Guidance notes - Speaking.pdf
-- Author shown: Simon Brooks.
-- Document date shown: 2016.
-- Accessed: 2026-09-26.
-- Inspected coverage: context, useful language, preparation, speaking, feedback.
-- Rights: private training source.
-- No pages were republished.
-- No Drive identifiers appear here.
-
-## Public language references
-
-### Cambridge Dictionary
-**Can, could or may?**
 https://dictionary.cambridge.org/us/grammar/british-grammar/can-could-or-may
 
-- Accessed: 2026-09-26.
-- Inspected: requests section.
-- Supports: can/could request forms.
-- Supports: could is more polite.
-- Limitation: politeness varies by context.
+Accessed: 2026-09-27
 
-### British Council LearnEnglish
-**How to ask someone to repeat something**
+Inspected: Official search excerpt inspected; direct page returned HTTP 403. Can/could in requests; could described as more polite than can.
+
+Rights: Reference only. Lesson wording and examples are original except conventional short forms.
+
+## How to ask someone to repeat something
+
+British Council LearnEnglish
+
 https://learnenglish.britishcouncil.org/sites/podcasts/files/LearnEnglish-Howto-ask-someone-to-repeat-something.pdf
 
-- Published: 2019.
-- Accessed: 2026-09-26.
-- Inspected: phrase-answer section.
-- Supports: repetition-request functions.
-- The worksheet is not included.
+Accessed: 2026-09-27
 
-### Cambridge Dictionary
-**Questions: echo and checking questions**
+Inspected: Full four-page reference inspected; repetition expressions only.
+
+Rights: Reference only. Source worksheet is not redistributed.
+
+## Questions: echo and checking questions
+
+Cambridge Dictionary, English Grammar Today
+
 https://dictionary.cambridge.org/grammar/british-grammar/questions-echo-and-checking-questions
 
-- Accessed: 2026-09-26.
-- Inspected: spoken checking questions.
-- Supports: confirmation after hearing.
+Accessed: 2026-09-27
 
-## Rights statement
+Inspected: Official search excerpt inspected; direct page returned HTTP 403. Echo/checking questions used for confirmation in spoken English.
 
-All scenario text is original.
-All activity feedback is original.
-The diagram is original.
-The code is original.
+Rights: Reference only. Source content is not redistributed.
 
-The repository uses CC0.
-That applies to owned material.
-Third-party rights remain unchanged.
-No textbook page is included.
-No worksheet page is included.
-No third-party image is included.
-No third-party audio is included.
+## Revision limitations
+
+Private sources were not reopened in this revision. Existing teaching method retained; source claims from v1.0.0 are not asserted as newly verified.
+
+## Assets
+
+Scenario, captions, diagrams and code: project-created. Existing repository licence applies to owned work. No textbook assets reproduced. Fonts: system DejaVu Sans; font files are not distributed. Video has no audio.
