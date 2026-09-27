@@ -1,0 +1,220 @@
+{
+  "status": "complete_visual_gate",
+  "title": "Patronage, Publication, and Proof",
+  "local_timestamp": "2026-09-28T03:00:00+04:00",
+  "folder": "history-investigations/2026-09-28/0300-patronage-publication-and-proof",
+  "cards": [
+    {
+      "title": "Solvay wealth convened physics",
+      "word_count": 147,
+      "sources": 4
+    },
+    {
+      "title": "Aircraft wealth funded risky science",
+      "word_count": 145,
+      "sources": 4
+    },
+    {
+      "title": "Study 329 changed meaning",
+      "word_count": 141,
+      "sources": 3
+    },
+    {
+      "title": "Tamiflu files changed confidence",
+      "word_count": 141,
+      "sources": 4
+    },
+    {
+      "title": "Neurontin trials became marketing",
+      "word_count": 150,
+      "sources": 4
+    },
+    {
+      "title": "Primitive Echo: visible generosity",
+      "word_count": 150,
+      "sources": 4
+    }
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "width": 1280,
+    "height": 720,
+    "fps": 25,
+    "frames": 4500,
+    "audio": false,
+    "sha256": "30c309780b3377f13ce91cb98a5ca0e64f9d168abf95518bdc0721da68826e53"
+  },
+  "motion_gate": [
+    {
+      "chapter": 1,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        10.63,
+        9.76
+      ],
+      "moving_objects": [
+        "family wealth",
+        "invitations",
+        "Curie",
+        "quantum debate",
+        "institutes",
+        "invite-only"
+      ],
+      "captions": [
+        "Factory profits fund debate.",
+        "Scientists contest quantum ideas.",
+        "Access remains patron-shaped."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 2,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        6.07,
+        8.88
+      ],
+      "moving_objects": [
+        "sale proceeds",
+        "investigator",
+        "flexible lab",
+        "risk-taking",
+        "more misses"
+      ],
+      "captions": [
+        "Aircraft funds sit enclosed.",
+        "Endowment reaches researchers.",
+        "Breakthroughs and misses increase."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 3,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        7.96,
+        10.68
+      ],
+      "moving_objects": [
+        "trial funding",
+        "participants",
+        "2001 article",
+        "company files",
+        "RIAT review",
+        "harms recoded"
+      ],
+      "captions": [
+        "GSK funds adolescent testing.",
+        "Publication reframes the evidence.",
+        "Harms become more visible."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 4,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        8.99,
+        10.92
+      ],
+      "moving_objects": [
+        "Tamiflu",
+        "stockpile",
+        "full reports",
+        "Cochrane",
+        "hospitalization",
+        "uncertainty"
+      ],
+      "captions": [
+        "Roche runs influenza trials.",
+        "Reviewers seek full reports.",
+        "Modest benefits remain."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 5,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        9.36,
+        11.52
+      ],
+      "moving_objects": [
+        "trial budget",
+        "unpublished",
+        "changed outcomes",
+        "prescribers",
+        "off-label sales",
+        "court records"
+      ],
+      "captions": [
+        "Company funds off-label trials.",
+        "Published outcomes become favorable.",
+        "Litigation exposes the mechanism."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 6,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        8.79,
+        9.77
+      ],
+      "moving_objects": [
+        "public gift",
+        "audience",
+        "prestige",
+        "named institute",
+        "governance"
+      ],
+      "captions": [
+        "A donor offers resources.",
+        "Prestige follows the gift.",
+        "Governance tests public value."
+      ],
+      "status": "passed"
+    }
+  ],
+  "website": {
+    "wordpress_ready": true,
+    "published": false,
+    "reason": "Hostinger actions unavailable"
+  },
+  "files": [
+    "README.md",
+    "edition.md",
+    "wordpress-draft.html",
+    "evidence.svg",
+    "lesson.json",
+    "lesson-viewer.html",
+    "render_video.py",
+    "history-investigation.mp4",
+    "QA.md",
+    "manifest.json"
+  ]
+}
