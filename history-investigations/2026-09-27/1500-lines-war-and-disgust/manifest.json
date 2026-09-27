@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "edition": "2026-09-27/1500-lines-war-and-disgust",
+  "title": "History Investigation: Lines, war, and disgust",
+  "generated_at": "2026-09-27T15:00:00+04:00",
+  "chapter_count": 6,
+  "source_count": 18,
+  "body_word_counts": [156, 159, 158, 154, 152, 154],
+  "video_verification": {"codec": "h264", "width": 1280, "height": 720, "frame_rate": "25/1", "duration_seconds": 210.0, "frame_count": 5250, "audio_streams": 0, "progressive_animation": true, "visual_chapters": 6},
+  "artifact_checks": {"svg_xml_valid": true, "viewer_controls_present": true, "viewer_embedded_data": true, "wordpress_unpublished_marker": true, "card_word_limits_pass": true, "source_count_limits_pass": true, "visual_frames_inspected": true},
+  "website": {"wordpress_ready_file_created": true, "published": false, "remote_write_attempted": false, "limitation": "Remote WordPress actions are unavailable."},
+  "files": {
+    "README.md": {"bytes": 1460, "sha256": "e513df25c06c07736fff1fd1c4e6fb5feca2dfabfd3c8103b900267c72b6cf9c"},
+    "build.py": {"bytes": 13756, "sha256": "81057839f25096543c726b4abb753ecd67326bd7149166cc5c113656b7ab93d4"},
+    "edition.md": {"bytes": 10800, "sha256": "268a9ef722420afacd15494820776528b12195ada47d7b166cdb9b29c89def5a"},
+    "evidence.svg": {"bytes": 3169, "sha256": "d816c3a6020e28b4715ea69ed685e2697f2884d7facae9f801e2b62709cac8db"},
+    "history-investigation.mp4": {"bytes": 744671, "sha256": "ba59bd68439118949300287c32ccf4471530d7dd5008734f847e847368a0217b"},
+    "lesson-viewer.html": {"bytes": 18518, "sha256": "dbeeff9321b48e973d8df52ec964727caf27badd9e0bec5e9b8a462616574a8b"},
+    "lesson.json": {"bytes": 13732, "sha256": "743ddd34c1a4d9efff4a3d32b7d4a924ada56b51b7c702d6740f60619109b3c6"},
+    "render_video.py": {"bytes": 12191, "sha256": "b39f4b403510760b30a46f8aa743910d0094afb44e252f07f8e2562e38b217bb"},
+    "wordpress-draft.html": {"bytes": 13519, "sha256": "8df9f3e438c822fb980c15936b12c48ad0068bd94996fdf7894449e270491790"}
+  }
+}
