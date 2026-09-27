@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 390" role="img" aria-label="A four-stage evidence path: ask where to wait, scan the shuttle notice, highlight Gate B not Gate A, then answer Gate B with the supporting line.">
+<rect width="900" height="390" fill="white"/>
+<g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="28" y="120" width="185" height="126"/><rect x="247" y="120" width="185" height="126"/><rect x="466" y="120" width="185" height="126"/><rect x="685" y="120" width="185" height="126"/>
+<path d="M213 183h34m185 0h34m185 0h34"/><path d="m235 172 12 11-12 11m219-22 12 11-12 11m219-22 12 11-12 11"/>
+<path d="M72 151h98v58H72zM86 169h68m-68 20h46"/><path d="M285 150h108v62H285zM301 168h78m-78 20h59"/>
+<path d="M505 147h108v68H505zM521 165h76m-76 20h76m-76 20h58"/><path d="M724 154h104v58H724zM740 173h72m-72 20h45"/>
+</g>
+<g fill="#111" font-family="system-ui,sans-serif" text-anchor="middle">
+<text x="450" y="52" font-size="30" font-weight="700">FROM QUESTION TO EVIDENCE</text>
+<text x="120" y="100" font-size="21" font-weight="700">QUESTION</text><text x="120" y="278" font-size="18">Where should you wait?</text>
+<text x="340" y="100" font-size="21" font-weight="700">SCAN</text><text x="340" y="278" font-size="18">look for gate</text>
+<text x="558" y="100" font-size="21" font-weight="700">EVIDENCE</text><text x="558" y="278" font-size="18">Gate B, not Gate A</text>
+<text x="778" y="100" font-size="21" font-weight="700">ANSWER</text><text x="778" y="278" font-size="18">Gate B</text>
+<text x="450" y="345" font-size="22">Copy the smallest complete line that proves the answer.</text>
+</g></svg>

@@ -1,48 +1,35 @@
-# FML-0003 - Find the Words That Prove It
+# FML-0003 | Find the Words That Prove It
 
-## Goal
+Version: 1.1.0.
+Revision of: 1.0.0.
 
-Answer a specific-information question.
-Then identify supporting text.
+Goal: Use question keywords to scan a short notice, select relevant evidence, and give an evidence-based answer.
 
-## Audience
+Open `index.html` after extraction.
+Use the scene buttons.
+Arrow keys change scenes.
+Choose three responses.
+Read each feedback message.
+Write one transfer reply.
+Use the self-check.
 
-Older teenagers and adults.
-A2-B1 level estimate.
-Three-to-five minute target.
-
-## Interaction
-
-Find-the-evidence.
-
-The learner answers first.
-Then the learner proves it.
-
-## Files
-
-- `lesson.json`: master record.
-- `index.html`: interactive player.
-- `wordpress-draft.html`: review copy.
-- `medium.md`: reading version.
-- `linkedin-post.txt`: post copy.
-- `linkedin-carousel.pdf`: document post.
-- `carousel.html`: editable PDF source.
-- `diagram.svg`: visual path.
-- `diagram.txt`: text equivalent.
-- `SOURCES.md`: evidence and rights.
-- `TESTS.md`: checks and limits.
-- `manifest.json`: versions and hashes.
-
-## Publication
-
+No login is required.
+No tracking is included.
+No network calls occur.
+No progress is stored.
+No timer is enforced.
+Video playback stays optional.
+Video contains no audio.
+Nothing is AI-graded.
 Owner review remains required.
-No live deployment is claimed.
-WordPress remains unpublished.
-Medium remains unpublished.
-LinkedIn remains unpublished.
+Nothing was deployed.
 
-## Rights
+## Revision
 
-The learning content is original.
-References support teaching choices.
-They are not republished exercises.
+Version 1.1.0 restores the lesson.
+It adds six visual scenes.
+It adds keyboard controls.
+It adds touch controls.
+It adds captioned video.
+It adds reading transcript.
+Version 1.0.0 remains preserved.
