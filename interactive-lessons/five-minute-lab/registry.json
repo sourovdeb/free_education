@@ -252,7 +252,13 @@
       "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": null,
+  "lease": {
+    "lesson_id": "FML-0011",
+    "version": "1.0.0",
+    "acquired_at": "2026-09-27T17:05:00Z",
+    "expires_at": "2026-09-27T18:05:00Z",
+    "purpose": "lesson-pack-build"
+  },
   "revision": 14,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
