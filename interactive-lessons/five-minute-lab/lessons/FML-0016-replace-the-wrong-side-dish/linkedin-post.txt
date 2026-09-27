@@ -1,0 +1,21 @@
+Chips, Not Salad
+
+One wrong side dish can change a meal.
+Name the mismatch, request the replacement, then confirm the full order.
+
+Name the contrast:
+“Excuse me, I ordered chips, not salad.”
+
+Make the request:
+“Could you replace the salad with chips, please?”
+
+Then confirm the full meal:
+“Thank you. So that's grilled fish with chips, right?”
+
+Try it with a burger:
+side salad instead of onion rings.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0016-replace-the-wrong-side-dish
+
+Owner review required.
