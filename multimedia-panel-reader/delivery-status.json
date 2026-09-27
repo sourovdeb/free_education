@@ -1,0 +1,14 @@
+{
+  "chapter": "Alice I",
+  "completed_chapters": 1,
+  "indexed_book_entries": 126,
+  "site": "https://sourov-panel-reader.sourovdeb.chatgpt.site",
+  "site_access": "owner-only",
+  "scheduled": false,
+  "schedule_blocker": "15-minute cadence unsupported by ChatGPT Tasks",
+  "wordpress": "not modified; Hostinger tools unavailable in this session",
+  "browser_ui_test": "unavailable: browser executable missing",
+  "github": "pending",
+  "drive": "pending",
+  "gmail": "pending"
+}

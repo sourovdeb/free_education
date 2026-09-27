@@ -1,0 +1,8 @@
+interface:
+  display_name: "Chapter Panel Reader"
+  short_description: "Create presentations with the Chapter Panel Reader template"
+  icon_small: "./assets/preview.png"
+  icon_large: "./assets/preview.png"
+  default_prompt: "Create a presentation using the Chapter Panel Reader template."
+policy:
+  allow_implicit_invocation: true
