@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "series": "5-Minute English Lab",
-  "status": "reconciliation_required",
+  "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": null,
+  "next_lesson_id": "FML-0011",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -34,6 +34,30 @@
       "github_pdf_fallback": "carousel.html",
       "delivery_status": "saved_and_sent",
       "github_video_status": "mirrored",
+      "revision_of": "1.0.0"
+    },
+    {
+      "id": "FML-0002",
+      "version": "1.1.0",
+      "title": "So, That's 7:30 on Thursday?",
+      "slug": "confirm-a-time",
+      "pathway": "use-english",
+      "interaction_family": "arrange-and-match",
+      "objective": "Confirm a booking day and time by repeating the key details in a checking question.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0002-confirm-a-time/",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "f5f6cb739cb3c484181e8f4cf2d3f5f3b503ba43",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent",
       "revision_of": "1.0.0"
     },
     {
@@ -229,7 +253,7 @@
     }
   ],
   "lease": null,
-  "revision": 13,
+  "revision": 14,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -255,7 +279,8 @@
     "FML-0006 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
     "FML-0005 v1.1.0 is mirrored and owner-delivered. The empty v1.0.0 Drive checkpoint remains preserved.",
     "FML-0004 v1.1.0 is mirrored and owner-delivered. The partial v1.0.0 checkpoint remains preserved.",
-    "FML-0002 still requires registry reconciliation.",
-    "FML-0003 v1.1.0 is mirrored and owner-delivered. The partial v1.0.0 checkpoint remains preserved."
+    "FML-0003 v1.1.0 is mirrored and owner-delivered. The partial v1.0.0 checkpoint remains preserved.",
+    "FML-0002 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
+    "FML-0001 through FML-0010 are reconciled. Continue with one non-duplicate objective per run."
   ]
 }
