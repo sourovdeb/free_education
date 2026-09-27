@@ -1,0 +1,18 @@
+The Shower Isn't Working
+
+Room 214.
+The water stays cold.
+The shower isn't working.
+
+Name the faulty item.
+Add one evidence detail.
+Ask for action politely.
+
+Confirm the room and time.
+
+Source and download repository:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0005-the-shower-isnt-working
+
+This source is not deployed.
+A2-B1 editorial estimate.
+Owner review remains required.

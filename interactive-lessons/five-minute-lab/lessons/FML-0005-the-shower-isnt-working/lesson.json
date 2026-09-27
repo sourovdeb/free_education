@@ -1,0 +1,101 @@
+{
+  "id": "FML-0005",
+  "version": "1.1.0",
+  "title": "The Shower Isn't Working",
+  "slug": "the-shower-isnt-working",
+  "pathway": "use-english",
+  "interaction_family": "problem-report-builder",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Understands common hotel room items", "Can use short present-time statements"],
+  "observable_outcome": "Report a hotel room malfunction with evidence, request help, then confirm the room and response time.",
+  "learning_objective": "Use item + isn't working, one evidence detail, and a polite request to report a hotel problem and confirm the next step.",
+  "scenario": {
+    "setting": "Hotel reception",
+    "prompt": "You are in room 214. The shower runs, but the water stays cold.",
+    "model": "The shower isn't working. There's no hot water. Could you send someone to look at it, please?"
+  },
+  "language": {
+    "grammar": "The shower isn't working uses subject + is not + verb-ing. The shower doesn't work is also possible; isn't working foregrounds the problem happening now.",
+    "meaning": "Here, work means operate correctly. The evidence no hot water explains the exact malfunction.",
+    "appropriateness": "State the item and evidence before asking for action. Could you send someone to look at it, please? is a polite request; Can you send someone? is also normal and direct.",
+    "time_phrase": "We'll send someone in ten minutes gives a waiting period. Confirm the room and approximate time so both people share the same next step."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "type": "choose-and-explain",
+      "prompt": "Which report matches the evidence?",
+      "options": [
+        {"text": "The shower isn't working. There's no hot water.", "correct": true, "feedback": "Yes. It names the item, reports the current malfunction, and adds useful evidence."},
+        {"text": "The shower doesn't like me.", "correct": false, "feedback": "No. A shower cannot like or dislike someone. Report what the device does or does not do."},
+        {"text": "The shower was dirty yesterday.", "correct": false, "feedback": "This describes a different past problem. It does not report today's cold water."}
+      ]
+    },
+    {
+      "id": "decision-2",
+      "type": "arrange-and-match",
+      "prompt": "Which order builds the current problem?",
+      "options": [
+        {"text": "The + shower + isn't + working.", "correct": true, "feedback": "Correct. Put the item first, then is not, then the -ing form."},
+        {"text": "The + shower + not + working is.", "correct": false, "feedback": "This order is not a standard statement. Keep isn't before working."},
+        {"text": "Isn't + the shower + work.", "correct": false, "feedback": "This resembles a question but mixes forms. Say The shower isn't working."}
+      ]
+    },
+    {
+      "id": "decision-3",
+      "type": "response-choice",
+      "prompt": "Reception says, 'We'll send someone in ten minutes.' Which reply confirms the plan?",
+      "options": [
+        {"text": "Thank you. Room 214, in about ten minutes?", "correct": true, "feedback": "Yes. It checks both the room and the approximate response time."},
+        {"text": "So I should fix it myself?", "correct": false, "feedback": "No. Reception has offered to send help; this changes the agreed action."},
+        {"text": "You sent someone yesterday.", "correct": false, "feedback": "This looks backward and does not confirm today's room or waiting time."}
+      ]
+    }
+  ],
+  "transfer": {
+    "situation": "The heater in room 318 blows cold air. Reception says a technician can come in fifteen minutes.",
+    "task": "Write a short report with one evidence detail. Add a polite request. Then confirm room 318 and the fifteen-minute wait.",
+    "acceptable_responses": [
+      "The heater isn't working. It's only blowing cold air. Could you send someone, please? So, room 318 in about fifteen minutes?",
+      "The heater doesn't work properly; the air is cold. Can someone look at it, please? Thank you - room 318, in fifteen minutes.",
+      "There's a problem with the heater. It only blows cold air. Could you send a technician? Just to confirm: room 318 in about fifteen minutes?"
+    ],
+    "rubric": ["The report names the item.", "One detail shows the problem.", "The request asks for action politely.", "The confirmation includes room 318.", "The confirmation includes about fifteen minutes.", "Clear valid variants are accepted."]
+  },
+  "review_prompt": "Tomorrow, report that a room light is not working, give one detail, and ask for help.",
+  "visual": {
+    "alt_text": "A four-step repair path. A cold-water symbol leads to The shower isn't working, then to Could you send someone, please, and finally to room 214 in about ten minutes.",
+    "text_equivalent": "OBSERVE: no hot water -> REPORT: The shower isn't working -> REQUEST: Could you send someone, please? -> CONFIRM: room 214, about ten minutes."
+  },
+  "scenes": [
+    {"title": "Notice", "caption": "The water runs, but it stays cold.", "explanation": "Observe one concrete detail before calling reception.", "focus": "EVIDENCE"},
+    {"title": "Report", "caption": "The shower isn't working.", "explanation": "Name the item and foreground the current malfunction.", "focus": "PROBLEM"},
+    {"title": "Explain", "caption": "There's no hot water.", "explanation": "A specific detail helps reception understand the problem.", "focus": "DETAIL"},
+    {"title": "Request", "caption": "Could you send someone to look at it, please?", "explanation": "The Could you pattern makes a polite request for action.", "focus": "ACTION"},
+    {"title": "Next step", "caption": "We'll send someone in ten minutes.", "explanation": "Reception gives a response plan and waiting period.", "focus": "PLAN"},
+    {"title": "Confirm", "caption": "Thank you. Room 214, in about ten minutes?", "explanation": "Repeat the room and time to confirm the shared plan.", "focus": "CHECK"}
+  ],
+  "video": {"resolution": "1280x720", "frame_rate": 25, "audio": false, "captions": true, "optional": true},
+  "sources": [
+    {"institution": "Cambridge University Press & Assessment", "title": "work", "url": "https://dictionary.cambridge.org/dictionary/english/work", "accessed": "2026-09-27", "coverage": "For a machine or device, work can mean operate correctly and without failure.", "limitations": "Dictionary coverage; the hotel scenario and activities are original."},
+    {"institution": "British Council LearnEnglish", "title": "Present continuous", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous", "accessed": "2026-09-27", "coverage": "Present continuous is used for activity taking place now or around now.", "limitations": "General grammar reference; does not prescribe one universal fault-report form."},
+    {"institution": "Cambridge University Press & Assessment", "title": "Requests", "url": "https://dictionary.cambridge.org/grammar/british-grammar/requests", "accessed": "2026-09-27", "coverage": "Requests are often made politely and indirectly with forms including can and could.", "limitations": "General pragmatics reference; hotel service expectations vary."}
+  ],
+  "rights": {
+    "lesson_text": "Original",
+    "scenarios": "Original",
+    "diagram": "Original",
+    "code": "Original adaptation of the series generator",
+    "video": "Original black-and-white doodles and captions",
+    "third_party_assets": "None",
+    "source_use": "References inform language claims. No source exercise or artwork is reproduced."
+  },
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed",
+  "canonical_url": null,
+  "live_player_url": null,
+  "revision_of": "1.0.0"
+}

@@ -1,0 +1,3 @@
+A four-step repair path. A cold-water symbol leads to The shower isn't working, then to Could you send someone, please, and finally to room 214 in about ten minutes.
+
+OBSERVE: no hot water -> REPORT: The shower isn't working -> REQUEST: Could you send someone, please? -> CONFIRM: room 214, about ten minutes.
