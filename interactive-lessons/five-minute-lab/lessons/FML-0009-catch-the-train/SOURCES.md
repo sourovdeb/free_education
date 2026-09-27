@@ -1,61 +1,47 @@
-# Sources
+# Sources and rights
 
-## Cambridge Dictionary
+## catch
 
-**catch**
+Cambridge Dictionary
 
 https://dictionary.cambridge.org/us/dictionary/english/catch
 
-Accessed: 2026-09-27.
+Accessed: 2026-09-27
 
-Inspected: transport meaning.
+Inspected: Transport sense: travel on or be in time for a train, bus, aircraft, or similar service.
 
-Coverage: travel on transport.
+Limit: Dictionary coverage; lesson examples are original.
 
-Coverage: be in time.
+## train
 
-Limit: dictionary reference.
-
-## Cambridge Dictionary
-
-**train**
+Cambridge Dictionary
 
 https://dictionary.cambridge.org/us/dictionary/english/train
 
-Accessed: 2026-09-27.
+Accessed: 2026-09-27
 
-Inspected: train usage examples.
+Inspected: Examples confirm both catch/take a train and miss a train.
 
-Coverage: catch/take a train.
+Limit: Dictionary examples support usage, not a rigid catch-versus-take rule.
 
-Coverage: miss a train.
+## Take
 
-Limit: dictionary examples.
-
-## Cambridge Dictionary
-
-**Take**
+Cambridge Dictionary - English Grammar Today
 
 https://dictionary.cambridge.org/us/grammar/british-grammar/take
 
-Accessed: 2026-09-27.
+Accessed: 2026-09-27
 
-Inspected: phrases with take.
+Inspected: Lists take a bus and take a train among common phrases.
 
-Coverage: take a bus/train.
+Limit: General grammar reference.
 
-Limit: general grammar reference.
+## Assets
 
-## Rights
+All scenarios, choices, feedback, diagrams, doodles, captions, code, and animation are original.
 
-Lesson text is original.
+No textbook assets appear.
 
-Scenarios are original.
+Video has no audio.
 
-Diagram is original.
-
-Code is original.
-
-No source artwork appears.
-
-No source exercises appear.
+Existing repository licensing governs owned work.
