@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "edition": "2026-09-27/1300-labels-law-and-agency",
+  "title": "History Investigation: Labels, law, and agency",
+  "generated_at": "2026-09-27T13:00:00+04:00",
+  "chapter_count": 6,
+  "source_count": 21,
+  "body_word_counts": [145, 150, 156, 155, 155, 151],
+  "video_verification": {
+    "codec": "h264",
+    "width": 1280,
+    "height": 720,
+    "frame_rate": "25/1",
+    "duration_seconds": 210.0,
+    "frame_count": 5250,
+    "audio_streams": 0,
+    "progressive_animation": true,
+    "visual_chapters": 6
+  },
+  "artifact_checks": {
+    "svg_xml_valid": true,
+    "viewer_controls_present": true,
+    "viewer_embedded_data": true,
+    "wordpress_unpublished_marker": true,
+    "card_word_limits_pass": true,
+    "source_count_limits_pass": true
+  },
+  "website": {
+    "wordpress_ready_file_created": true,
+    "published": false,
+    "remote_write_attempted": false,
+    "limitation": "Remote WordPress actions are unavailable."
+  },
+  "files": {
+    "README.md": {
+      "bytes": 1452,
+      "sha256": "cf47462739775f90963033f238c3a535df2e241d2f7fc1acaf00a8fa907cb1f6"
+    },
+    "build.py": {
+      "bytes": 13764,
+      "sha256": "449e85321d4d9387c59e20c0c3298cbc6d08302432632ef58568ba4ea76abebd"
+    },
+    "edition.md": {
+      "bytes": 11482,
+      "sha256": "37cd82f3ddc9f9d2ec51d0ff71153928e48237d010649980b8a53a6612e53e5d"
+    },
+    "evidence.svg": {
+      "bytes": 3207,
+      "sha256": "daccf728de294b60acafcda5140df0fc706b086663e7ac6e409b709f5835f220"
+    },
+    "history-investigation.mp4": {
+      "bytes": 729744,
+      "sha256": "2fe75806cd76f33f3f84f1319610a1dc9763a2b63e7e8c2350e6931548d1fe64"
+    },
+    "lesson-viewer.html": {
+      "bytes": 19314,
+      "sha256": "65e283257b8f55a83cbfb5af468f40a42e6e4673ffda138dd2def9272b55234f"
+    },
+    "lesson.json": {
+      "bytes": 15402,
+      "sha256": "372275e32db1d9653736d778242549d47d9e0aef49f18367b604568625886bcd"
+    },
+    "render_video.py": {
+      "bytes": 12191,
+      "sha256": "161acab4e67e5ac2ad1aafc5d8bfa5a1d5c310ce41dc2d93a58e294b646434e1"
+    },
+    "wordpress-draft.html": {
+      "bytes": 14182,
+      "sha256": "8110391ca6be68c8fbce7b2495496bac06a5bd5091719dba76e40c7e1851898b"
+    }
+  }
+}
