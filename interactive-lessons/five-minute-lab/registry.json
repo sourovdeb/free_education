@@ -37,6 +37,30 @@
       "revision_of": "1.0.0"
     },
     {
+      "id": "FML-0003",
+      "version": "1.1.0",
+      "title": "Find the Words That Prove It",
+      "slug": "find-the-evidence",
+      "pathway": "use-english",
+      "interaction_family": "find-the-evidence",
+      "objective": "Use question keywords to scan a short notice, select relevant evidence, and give an evidence-based answer.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0003-find-the-evidence/",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "2294aea7e72e63ae111845839c6a5c76d4917eac",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent",
+      "revision_of": "1.0.0"
+    },
+    {
       "id": "FML-0004",
       "version": "1.1.0",
       "title": "Tuesday, Not Thursday",
@@ -205,7 +229,7 @@
     }
   ],
   "lease": null,
-  "revision": 12,
+  "revision": 13,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -231,6 +255,7 @@
     "FML-0006 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
     "FML-0005 v1.1.0 is mirrored and owner-delivered. The empty v1.0.0 Drive checkpoint remains preserved.",
     "FML-0004 v1.1.0 is mirrored and owner-delivered. The partial v1.0.0 checkpoint remains preserved.",
-    "FML-0002 through FML-0003 still require registry reconciliation."
+    "FML-0002 still requires registry reconciliation.",
+    "FML-0003 v1.1.0 is mirrored and owner-delivered. The partial v1.0.0 checkpoint remains preserved."
   ]
 }
