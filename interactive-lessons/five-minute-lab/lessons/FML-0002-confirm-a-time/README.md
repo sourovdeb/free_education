@@ -1,42 +1,37 @@
-# FML-0002 - Confirm a booking time
+# FML-0002 | So, That's 7:30 on Thursday?
 
-## Start here
+Version: 1.1.0.
+Revision of: 1.0.0.
 
-Open `index.html` locally.
-No server is required.
-No account is required.
+Goal: Confirm a booking time by selecting the risky details, arranging a checking question, and producing a new confirmation.
 
-## Learning goal
+Open `index.html` after extraction.
+Use the scene buttons.
+Arrow keys change scenes.
+Choose one checking question.
+Match three booking details.
+Arrange one checking question.
+Write one transfer reply.
+Use the self-check.
 
-Confirm a booking time.
-Repeat the risky detail.
-Ask the listener to confirm.
+No login is required.
+No tracking is included.
+No network calls occur.
+No progress is stored.
+No timer is enforced.
+Video playback stays optional.
+Video contains no audio.
+Nothing is AI-graded.
+Owner review remains required.
+Nothing was deployed.
 
-## Platform files
+## Revision
 
-- `index.html`: interactive player.
-- `wordpress-draft.html`: WordPress review copy.
-- `medium.md`: Medium reading copy.
-- `linkedin-post.txt`: LinkedIn text.
-- `linkedin-carousel.pdf`: four-panel PDF.
-- `carousel.html`: editable carousel source.
-- `lesson.json`: master lesson data.
-- `diagram.svg`: original visual.
-- `diagram.txt`: text equivalent.
-- `SOURCES.md`: evidence and rights.
-- `TESTS.md`: executed checks.
-- `manifest.json`: package record.
-
-## Status
-
-Owner review is required.
-Nothing is deployed here.
-The repository link is source.
-The PDF is not interactive.
-
-## Existing-library note
-
-This differs from FML-0001.
-It uses arrange-and-match.
-It also differs from time lessons.
-Its target is confirmation.
+Version 1.1.0 restores the pack.
+It preserves the objective.
+It adds six visual scenes.
+It adds keyboard controls.
+It adds touch controls.
+It adds captioned video.
+It adds a reading transcript.
+Version 1.0.0 remains preserved.

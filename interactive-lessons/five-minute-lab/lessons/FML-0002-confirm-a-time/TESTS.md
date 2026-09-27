@@ -1,66 +1,43 @@
 # Tests
 
-## Executed
+Executed on 2026-09-27.
 
-- JSON parse: passed.
-- HTML parse: passed.
-- JavaScript syntax: passed.
-- Activity data checks: passed.
-- Core player budget: passed.
-- External runtime scan: passed.
-- PDF render: four pages.
-- PDF visual inspection: passed.
+## Passed
 
-## Player size
-
-- `index.html`: 13,317 bytes.
-- Budget: 250 KB maximum.
-
-## Activity checks
-
-- Best choice exists.
-- Match roles are unique.
-- Arrange answer matches chunks.
-- Reset logic was statically reviewed.
+- JSON parsed successfully.
+- HTML parsed successfully.
+- JavaScript syntax passed.
+- Choice logic passed.
+- Match feedback passed.
+- Arrange sequence passed.
+- Reset code is present.
+- Keyboard controls are present.
+- Touch controls are present.
 - Reading mode is present.
+- No remote runtime dependency.
+- No learner network request.
+- No browser storage call.
+- Manifest hashes passed.
+- ZIP integrity passed.
+- Player size: 17230 bytes.
+- PDF: four pages.
+- PDF size: 192731 bytes.
+- PDF pages were rendered.
+- PDF pages were inspected.
+- No PDF clipping found.
+- No PDF overlap found.
+- Video codec: H.264.
+- Video size: 1280x720.
+- Video rate: 25fps.
+- Video duration: 30 seconds.
+- Video contains no audio.
+- Video frames were inspected.
+- Booking-card visual is present.
 
-## Runtime limits
+## Limits
 
-Direct `file://` navigation failed.
-Chromium returned administrator blocking.
-A localhost fallback also failed.
-The same administrator block applied.
-Browser interaction was not executed.
-Runtime request counting was unavailable.
-
-Static inspection found no:
-
-- external scripts;
-- external stylesheets;
-- `fetch()` calls;
-- `XMLHttpRequest` calls;
-- local-storage use;
-- required remote assets.
-
-Regular source links remain present.
-They open only if chosen.
-
-## Device limits
-
-No physical phone was tested.
-No learner study was run.
-No pedagogy validation occurred.
-
-## PDF verification
-
-The PDF rendered successfully.
-All four pages were inspected.
-No clipping was observed.
-No overlap was observed.
-No broken glyphs appeared.
-
-## Repair history
-
-One JavaScript quote failed.
-The quote was repaired.
-Syntax then passed.
+- Browser execution was unavailable.
+- Physical phones were untested.
+- Learners were not tested.
+- Pedagogy is not validated.
+- Owner review remains required.

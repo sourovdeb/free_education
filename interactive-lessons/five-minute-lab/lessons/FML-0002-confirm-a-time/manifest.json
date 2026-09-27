@@ -1,33 +1,87 @@
 {
-  "schema_version": "1.0.0",
-  "lesson_id": "FML-0002",
-  "version": "1.0.0",
+  "id": "FML-0002",
+  "version": "1.1.0",
   "title": "So, That's 7:30 on Thursday?",
+  "revision_of": "1.0.0",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T16:20:00Z",
   "editorial_status": "needs_owner_review",
   "deployment_status": "not_deployed",
-  "interaction_family": "arrange-and-match",
-  "core_player_bytes": 13317,
-  "browser_runtime_test": "blocked_by_environment",
-  "pdf_render_pages": 4,
-  "pdf_visual_inspection": "passed",
   "files": [
-    {"name":"lesson.json","size_bytes":6402},
-    {"name":"index.html","size_bytes":13317},
-    {"name":"wordpress-draft.html","size_bytes":2319},
-    {"name":"medium.md","size_bytes":2458},
-    {"name":"linkedin-post.txt","size_bytes":577},
-    {"name":"linkedin-carousel.pdf","size_bytes":3849},
-    {"name":"carousel.html","size_bytes":1678},
-    {"name":"diagram.svg","size_bytes":1528},
-    {"name":"diagram.txt","size_bytes":356},
-    {"name":"README.md","size_bytes":966},
-    {"name":"SOURCES.md","size_bytes":1885},
-    {"name":"TESTS.md","size_bytes":1333}
-  ],
-  "notes": [
-    "Checksums remain in Drive package.",
-    "Source links are not live-player links.",
-    "GitHub Pages was not enabled.",
-    "WordPress, Medium, and LinkedIn were not published."
+    {
+      "path": "lesson.json",
+      "bytes": 9169,
+      "sha256": "7b82d6d3e1308cab8afce7aafe350acfb131599ffd0d4d835d48eac7f39dff85"
+    },
+    {
+      "path": "index.html",
+      "bytes": 17230,
+      "sha256": "0f2029b50d10fd11d833782398eb288ccff027f56b78521508ea64ebfb717c1f"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 4802,
+      "sha256": "b68e9682de35a582f3773aa67a119fd353857f84b8a6bbf059507d4e3a7e14d6"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4282,
+      "sha256": "055deac903112ac525158da1d58c0d5720d36bcc2613383acffa9f04cd5dbabf"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 469,
+      "sha256": "918cf64f6e10b9d0c0434a7c8ee067665c5bdc7fbe5de6339f0f865476ff3ba7"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 192731,
+      "sha256": "67a65b1c530bb6b5cc9d510dfac3196952c164977ff5e563351f6c7d48fdda79"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 8609,
+      "sha256": "0b15eb4bd02341026eeb9ade1c23e87e13ee0829270b6137e359f7b69f5cba83"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 1653,
+      "sha256": "8f56a3545f8c098074be2cfbd41ae99d61b22d5157c7654f2c01c1d2650a2648"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 236,
+      "sha256": "4856d80298679f9ab2de2a0314b62165b34da85fc3c657667d30f00c1cb3db07"
+    },
+    {
+      "path": "README.md",
+      "bytes": 917,
+      "sha256": "a442dedd5152e4d28e271a9a2266126d58d2186ccb7ff625f7fdb272cd1135a4"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2007,
+      "sha256": "1a74ab43d64fa4d40fa6064823cfd6da018ecda5788123c3164e416f1829d524"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 996,
+      "sha256": "f448486f81fb6cadf392d88deae19340562cc77a534610301786c57334762e36"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 747,
+      "sha256": "e34e6788222835a6935f16a6b6d382b2053ef064b20204fe3406ec791dc21708"
+    },
+    {
+      "path": "doodle-720p25.mp4",
+      "bytes": 141891,
+      "sha256": "86268334256340de326a03e7fdf9654f63aa345498addd100a49996872686d66"
+    },
+    {
+      "path": "build.py",
+      "bytes": 22119,
+      "sha256": "cefea742f2efb6aabfa49b68fa61d86fdde0a6f6073fd53536e6631953d65455"
+    }
   ]
 }

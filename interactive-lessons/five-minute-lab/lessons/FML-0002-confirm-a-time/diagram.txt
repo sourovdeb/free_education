@@ -1,9 +1,3 @@
-CHECK THE DETAIL BEFORE LEAVING
+A four-step path from hearing a booking to confirming it: hear Thursday at 7:30, select the day and time, repeat the details, then ask right?
 
-[HEAR BOOKING] -> [FIND RISKY DETAIL] -> [REPEAT DETAIL] -> [CHECK]
-
-Prose equivalent:
-Hear the booking. Identify the detail that could cause a problem. Repeat that detail. Ask the other person to confirm it.
-
-Alt text:
-A four-step path: hear a booking, identify the risky detail, repeat that detail, ask for confirmation.
+HEAR: Thursday at 7:30 -> SELECT: day plus time -> REPEAT: 7:30 on Thursday -> CHECK: right?

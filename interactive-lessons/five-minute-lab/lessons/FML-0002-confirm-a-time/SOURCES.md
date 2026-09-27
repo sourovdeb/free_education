@@ -1,59 +1,63 @@
 # Sources and rights
 
-## Private method source
+## Questions: statement questions (you're over 18?)
 
-### TKT: Modules 1-3 Handbook for teachers
-- Institution: Cambridge English.
-- Accessed: 2026-09-26.
-- Inspected: overview and teaching-framework sections.
-- Applied: simple lesson planning, learner needs, and assessment logic.
-- Rights: reference source only.
-- No handbook exercise is reproduced.
-- No private Drive identifier appears here.
+Cambridge University Press & Assessment
 
-## Public language sources
+https://dictionary.cambridge.org/grammar/british-grammar/questions-statement-questions-you-re-over-18
 
-### Cambridge Dictionary
-**Questions: statement questions (you're over 18?)**
-https://dictionary.cambridge.org/us/grammar/british-grammar/questions-statement-questions-you-re-over-18
+Accessed: 2026-09-27
 
-- Accessed: 2026-09-26.
-- Inspected: statement questions used for confirmation.
-- Supports: repeating known information as a question can check accuracy.
-- Limitation: intonation changes meaning and certainty.
+Inspected: Official Cambridge search coverage states that speakers can use statement questions when they think they know the answer and seek confirmation; fall-rising intonation can signal confirmation.
 
-### Cambridge Dictionary
-**Tags**
-https://dictionary.cambridge.org/us/grammar/british-grammar/tags
+Limit: Direct page access returned HTTP 403. The lesson dialogue and activities are original.
 
-- Accessed: 2026-09-26.
-- Inspected: universal tag **right**.
-- Supports: **right?** can request confirmation in informal situations.
-- Limitation: this form is informal.
+## Tags
 
-### British Council LearnEnglish
-**Unit 5: Making arrangements**
-https://learnenglish.britishcouncil.org/business-english/english-emails/unit-5-making-arrangements
+Cambridge University Press & Assessment
 
-- Accessed: 2026-09-26.
-- Inspected: time expressions for arrangements.
-- Supports: **at** with clock times; **on** with days.
-- Limitation: source context is email writing.
+https://dictionary.cambridge.org/grammar/british-grammar/tags
 
-## Library relationship
+Accessed: 2026-09-27
 
-An earlier lesson covers prices, times, and room numbers.
-This lesson has another objective.
-It teaches confirmation of details.
-It does not teach time pronunciation.
+Inspected: Official Cambridge reference used for the conversational confirmation tag right?.
 
-## Rights statement
+Limit: Direct page access returned HTTP 403. A neutral full-question alternative is also taught.
 
-All scenario text is original.
-All feedback text is original.
-The diagram is original.
-The code is original.
-No third-party image is included.
-No third-party audio is included.
-No source exercise is copied.
-Third-party rights remain unchanged.
+## Unit 5: Making arrangements
+
+British Council LearnEnglish
+
+https://learnenglish.britishcouncil.org/free-resources/business/english-emails/unit-5-making-arrangements
+
+Accessed: 2026-09-27
+
+Inspected: The official page gives on with days and at with clock times in arrangements.
+
+Limit: The source focuses on email arrangements; this lesson applies the time language to spoken confirmation.
+
+## Prepositions of time: at, in, on
+
+British Council LearnEnglish
+
+https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/prepositions-of-time-at-in-on
+
+Accessed: 2026-09-27
+
+Inspected: The official A1-A2 grammar page explains at with clock times and on with days.
+
+Limit: It supports form only and does not validate this lesson with learners.
+
+## Private-source gap
+
+The v1.0.0 record cites a private TKT handbook overview. That private source was not reopened for this revision, and no exercise or wording from it is reproduced.
+
+## Assets
+
+All scenarios, choices, feedback, diagrams, doodles, captions, code, and animation are original.
+
+No textbook assets appear.
+
+Video has no audio.
+
+Existing repository licensing governs owned work.
