@@ -1,0 +1,1199 @@
+{
+  "title": "Money and evidence",
+  "date_local": "2026-09-28 00:00 Indian/Reunion",
+  "status": "pending_visual_review",
+  "cards": [
+    {
+      "title": "Rockefeller: health and power",
+      "kind": "dynasty",
+      "question": "Who chose the disease to fight?",
+      "summary": "Rockefeller funded hookworm treatment. His commission also built public-health machinery.",
+      "body": "Documented: In 1909, John D. Rockefeller gave one million dollars to a commission against hookworm in the American South. The disease caused anemia and fatigue. It spread through contaminated soil. The commission combined tests, treatment, education, and state partnerships. Its archive says the campaign helped build public health services. Yet the name promised eradication. Its leaders knew sustained prevention would be harder. The choice also suited Rockefeller philanthropy. A single, treatable disease offered visible results. It could connect doctors, schools, and governments. Interpretation: A family fortune helped choose which health problem gained attention. That choice produced care and lasting institutions. It also gave private donors agenda-setting power. These two outcomes can coexist. Uncertainty: Records support the commission's aims and methods. They cannot establish one private motive for Rockefeller himself. Nor do they prove that this campaign displaced every rival need. The useful question is who defined success. Count treatments, but also ask who set priorities and who would pay after the donor left.",
+      "sources": [
+        [
+          "Rockefeller Archive Center — campaign history",
+          "https://resource.rockarch.org/story/public-health-how-the-fight-against-hookworm-helped-build-a-system/"
+        ],
+        [
+          "Rockefeller Archive Center — photo essay",
+          "https://resource.rockarch.org/story/the-rockefeller-sanitary-commission-and-the-south/"
+        ],
+        [
+          "Elman et al. — public-health study",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3910046/"
+        ]
+      ],
+      "beats": [
+        "Hookworm moves through soil.",
+        "A donor funds field clinics.",
+        "Workers test and treat.",
+        "State services absorb the work.",
+        "Eradication proves harder."
+      ]
+    },
+    {
+      "title": "Carnegie: prestige and false science",
+      "kind": "dynasty",
+      "question": "How did bad data gain authority?",
+      "summary": "Carnegie housed eugenics research. Its records helped drive harmful policy.",
+      "body": "Documented: The Eugenics Record Office opened at Cold Spring Harbor in 1910. A Harriman donation first supplied land and a building. Carnegie later took the office under its institution. Staff gathered family records and claimed complex human traits followed simple inheritance. Their forms filled cabinets. Harry Laughlin used the work to argue for immigration restrictions and forced sterilization. The National Park Service calls the methods flawed and the underlying assumptions racist. The office closed in 1939. Interpretation: Institutional standing and money helped turn weak categories into apparent evidence. A respected research setting made policy claims seem scientific. Funding did not make the claims true. Uncertainty: Carnegie's role changed across time. The original land came from Harriman funding. A family's name alone cannot explain every policy or every scientist's motive. This case shows a pathway: donors support an institution, researchers classify people, and officials borrow its authority. The archive lets us trace that pathway. It cannot assign every later harm to one patron.",
+      "sources": [
+        [
+          "Cold Spring Harbor Laboratory — archive",
+          "https://www.cshl.edu/archives/institutional-collections/eugenics-record-office/"
+        ],
+        [
+          "U.S. National Park Service — history",
+          "https://www.nps.gov/articles/000/cold-spring-harbor-laboratory-and-the-place-of-science-in-u-s-history.htm"
+        ],
+        [
+          "CSHL ArchivesSpace — collection",
+          "https://archivesspace.cshl.edu/repositories/2/resources/67"
+        ]
+      ],
+      "beats": [
+        "Donors build an office.",
+        "Workers fill family cards.",
+        "A flawed pedigree gains a seal.",
+        "Claims reach lawmakers.",
+        "The archive marks the harm."
+      ]
+    },
+    {
+      "title": "Sugar: a funded review",
+      "kind": "corporate research",
+      "question": "Who framed the review?",
+      "summary": "Sugar interests funded a review. Its published argument minimized sugar risk.",
+      "body": "Documented: Sugar Research Foundation records show a 1965 project on heart disease. The group paid for a literature review. It set objectives, supplied articles, and saw drafts. The review appeared in the New England Journal of Medicine in 1967. It emphasized fat and cholesterol. It gave less weight to evidence about sugar. The funding and sponsor role were not disclosed. Historians reconstructed the sequence from internal papers. Interpretation: The sponsor did not need to invent data. It could influence which question the review asked and which evidence seemed central. That is a specific conflict of interest. It does not prove fat was harmless. It does not settle the whole history of dietary advice. Uncertainty: The historical analysis shows influence on this review. It cannot measure precisely how much later disease or policy flowed from it. Read the review beside its funding trail. Then ask whether other studies reached the same result without sponsor control.",
+      "sources": [
+        [
+          "Kearns et al. — JAMA Internal Medicine",
+          "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2548255"
+        ],
+        [
+          "Hegsted et al. — NEJM review, part I",
+          "https://www.nejm.org/doi/full/10.1056/NEJM196707272770405"
+        ],
+        [
+          "Hegsted et al. — NEJM review, part II",
+          "https://www.nejm.org/doi/full/10.1056/NEJM196708032770505"
+        ]
+      ],
+      "beats": [
+        "A funder sends a brief.",
+        "Selected papers reach authors.",
+        "Sugar evidence slips below.",
+        "A journal prints conclusions.",
+        "Disclosure remains absent."
+      ]
+    },
+    {
+      "title": "Tobacco: the open question",
+      "kind": "corporate research",
+      "question": "What did delay buy?",
+      "summary": "Tobacco firms sponsored doubt. Courts later found sustained deception.",
+      "body": "Documented: Cigarette executives met in 1953 amid rising cancer concerns. In January 1954, companies published a statement framing causation as an open question. They announced an industry research committee. Later, a United States court found a decades-long scheme to deceive smokers. The Justice Department describes research programs and public messages that sustained uncertainty despite internal knowledge. Meanwhile, the 1964 Surgeon General's report concluded cigarettes caused lung cancer in men. Interpretation: Research sponsorship can create a public appearance of inquiry while serving a sales strategy. A call for more studies can be reasonable. Here, the court found deception after reviewing extensive evidence. Uncertainty: The judgment concerns named defendants and specific conduct. It does not mean every funded scientist falsified findings. Nor does the 1954 statement alone prove all later acts. The stronger case comes from the combined archive, testimony, and court findings. Track the funding, the message, and what executives knew at each date.",
+      "sources": [
+        [
+          "U.S. Justice Department — tobacco findings",
+          "https://www.justice.gov/osg/brief/philip-morris-usa-inc-v-united-states-opposition"
+        ],
+        [
+          "CDC — Surgeon General history",
+          "https://www.cdc.gov/tobacco-surgeon-general-reports/about/history.html"
+        ],
+        [
+          "UCSF — Frank Statement archive",
+          "https://download.industrydocuments.ucsf.edu/r/y/j/p/ryjp0002/ryjp0002.pdf"
+        ]
+      ],
+      "beats": [
+        "Cancer evidence arrives.",
+        "Rivals form one committee.",
+        "A press statement asks for time.",
+        "Internal files go behind glass.",
+        "A court compares both records."
+      ]
+    },
+    {
+      "title": "Exxon: models and messages",
+      "kind": "corporate research",
+      "question": "What did company models show?",
+      "summary": "Exxon scientists projected warming. Researchers found public messages diverged.",
+      "body": "Documented: Exxon scientists made climate projections between 1977 and 2003. A 2023 quantitative study compared them with later temperatures. Depending on its metric, 63 to 83 percent matched observations. The researchers found the projections contradicted several public claims about uncertainty. ExxonMobil says its scientists published research and disputes accusations that critics selected documents unfairly. Interpretation: A company can produce capable science while its public messaging presents another picture. The contrast matters more than a slogan about what executives knew. Scientists, managers, and advertisers held different roles. Uncertainty: Model skill alone cannot show what each executive believed. It also cannot establish the legal result of current disputes. ExxonMobil's response deserves reading beside the study. The study's measured comparison remains a testable claim. Follow a dated model, then a dated advertisement. Check whether their uncertainty language matches. This case concerns the handling of corporate research, not the invention of the greenhouse effect.",
+      "sources": [
+        [
+          "Supran et al. — Science study",
+          "https://www.science.org/doi/10.1126/science.abk0063"
+        ],
+        [
+          "Harvard — study methods and figures",
+          "https://news.harvard.edu/gazette/story/2023/01/harvard-led-analysis-finds-exxonmobil-internal-research-accurately-predicted-climate-change/"
+        ],
+        [
+          "ExxonMobil — company response",
+          "https://ir.exxonmobil.com/news-releases/news-release-details/exxonmobil-says-climate-research-stories-inaccurate-and"
+        ]
+      ],
+      "beats": [
+        "Scientists plot rising heat.",
+        "A memo crosses the lab.",
+        "Public text stresses doubt.",
+        "Observed heat meets the model.",
+        "Compare both dated records."
+      ]
+    },
+    {
+      "title": "Primitive Echo: prestige cues",
+      "kind": "behavior",
+      "question": "Why trust a famous name?",
+      "summary": "People may copy prestige cues. Experiments show limits to this shortcut.",
+      "body": "Documented: Humans often learn from others. One proposed shortcut uses prestige: attention and respect may signal useful skill. In an online experiment, people copied respected peers more when relevant success information was missing. A review found mixed evidence across settings. It warned that prestige does not always predict competence. Interpretation: In uncertain settings, a university name, donor, or expert title can save attention. The shortcut may help when status tracks real skill. It can mislead when wealth or publicity creates status. That matters for research funding. An impressive sponsor can make a claim seem stronger before anyone checks its methods. Uncertainty: No single experiment proves an ancient instinct causes modern science errors. Culture, incentives, and institutions also shape trust. Prestige effects can stay within one field. A skilled chemist need not know nutrition. A useful response is simple: ask who funded the work, inspect methods, and compare independent findings. Status can guide a first look. It should never replace evidence.",
+      "sources": [
+        [
+          "Jiménez and Mesoudi — evidence review",
+          "https://www.nature.com/articles/s41599-019-0228-7"
+        ],
+        [
+          "Brand et al. — PLOS experiment",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255346"
+        ],
+        [
+          "Brand et al. — Scientific Reports experiment",
+          "https://www.nature.com/articles/s41598-020-68982-4"
+        ]
+      ],
+      "beats": [
+        "A crowd follows one figure.",
+        "A badge draws attention.",
+        "Evidence stays in a drawer.",
+        "Results emerge elsewhere.",
+        "The crowd changes its source."
+      ]
+    }
+  ],
+  "palette": {
+    "ink": "#272735",
+    "paper": "#f0e5cc",
+    "teal": "#2f7777",
+    "coral": "#c95d51",
+    "gold": "#dda644",
+    "blue": "#487ca2"
+  },
+  "scenes": [
+    {
+      "setting": "Rural clinic, American South",
+      "objects": [
+        {
+          "kind": "coin",
+          "label": "$1m",
+          "points": [
+            [
+              40,
+              125
+            ],
+            [
+              130,
+              125
+            ],
+            [
+              240,
+              125
+            ],
+            [
+              240,
+              125
+            ],
+            [
+              240,
+              125
+            ],
+            [
+              240,
+              125
+            ]
+          ]
+        },
+        {
+          "kind": "wagon",
+          "label": "field clinic",
+          "points": [
+            [
+              40,
+              215
+            ],
+            [
+              70,
+              215
+            ],
+            [
+              130,
+              215
+            ],
+            [
+              260,
+              215
+            ],
+            [
+              330,
+              215
+            ],
+            [
+              330,
+              215
+            ]
+          ]
+        },
+        {
+          "kind": "worm",
+          "label": "hookworm",
+          "points": [
+            [
+              450,
+              270
+            ],
+            [
+              450,
+              270
+            ],
+            [
+              450,
+              270
+            ],
+            [
+              455,
+              270
+            ],
+            [
+              500,
+              280
+            ],
+            [
+              550,
+              295
+            ]
+          ]
+        },
+        {
+          "kind": "person",
+          "label": "patient",
+          "points": [
+            [
+              470,
+              212
+            ],
+            [
+              470,
+              212
+            ],
+            [
+              470,
+              212
+            ],
+            [
+              470,
+              195
+            ],
+            [
+              470,
+              170
+            ],
+            [
+              470,
+              160
+            ]
+          ]
+        },
+        {
+          "kind": "paper",
+          "label": "state service",
+          "points": [
+            [
+              580,
+              115
+            ],
+            [
+              580,
+              115
+            ],
+            [
+              580,
+              115
+            ],
+            [
+              470,
+              110
+            ],
+            [
+              360,
+              110
+            ],
+            [
+              300,
+              110
+            ]
+          ]
+        }
+      ],
+      "title": "Rockefeller: health and power",
+      "question": "Who chose the disease to fight?",
+      "beats": [
+        "Hookworm moves through soil.",
+        "A donor funds field clinics.",
+        "Workers test and treat.",
+        "State services absorb the work.",
+        "Eradication proves harder."
+      ],
+      "sources": [
+        [
+          "Rockefeller Archive Center — campaign history",
+          "https://resource.rockarch.org/story/public-health-how-the-fight-against-hookworm-helped-build-a-system/"
+        ],
+        [
+          "Rockefeller Archive Center — photo essay",
+          "https://resource.rockarch.org/story/the-rockefeller-sanitary-commission-and-the-south/"
+        ],
+        [
+          "Elman et al. — public-health study",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3910046/"
+        ]
+      ],
+      "summary": "Rockefeller funded hookworm treatment. His commission also built public-health machinery."
+    },
+    {
+      "setting": "Cold Spring Harbor archive",
+      "objects": [
+        {
+          "kind": "coin",
+          "label": "funding",
+          "points": [
+            [
+              45,
+              115
+            ],
+            [
+              115,
+              115
+            ],
+            [
+              210,
+              115
+            ],
+            [
+              210,
+              115
+            ],
+            [
+              210,
+              115
+            ],
+            [
+              210,
+              115
+            ]
+          ]
+        },
+        {
+          "kind": "file",
+          "label": "family cards",
+          "points": [
+            [
+              300,
+              230
+            ],
+            [
+              300,
+              230
+            ],
+            [
+              300,
+              230
+            ],
+            [
+              395,
+              230
+            ],
+            [
+              490,
+              230
+            ],
+            [
+              560,
+              230
+            ]
+          ]
+        },
+        {
+          "kind": "stamp",
+          "label": "false claim",
+          "points": [
+            [
+              430,
+              90
+            ],
+            [
+              430,
+              90
+            ],
+            [
+              430,
+              90
+            ],
+            [
+              430,
+              165
+            ],
+            [
+              430,
+              165
+            ],
+            [
+              430,
+              165
+            ]
+          ]
+        },
+        {
+          "kind": "gavel",
+          "label": "policy",
+          "points": [
+            [
+              585,
+              140
+            ],
+            [
+              585,
+              140
+            ],
+            [
+              585,
+              140
+            ],
+            [
+              540,
+              140
+            ],
+            [
+              470,
+              140
+            ],
+            [
+              420,
+              140
+            ]
+          ]
+        }
+      ],
+      "title": "Carnegie: prestige and false science",
+      "question": "How did bad data gain authority?",
+      "beats": [
+        "Donors build an office.",
+        "Workers fill family cards.",
+        "A flawed pedigree gains a seal.",
+        "Claims reach lawmakers.",
+        "The archive marks the harm."
+      ],
+      "sources": [
+        [
+          "Cold Spring Harbor Laboratory — archive",
+          "https://www.cshl.edu/archives/institutional-collections/eugenics-record-office/"
+        ],
+        [
+          "U.S. National Park Service — history",
+          "https://www.nps.gov/articles/000/cold-spring-harbor-laboratory-and-the-place-of-science-in-u-s-history.htm"
+        ],
+        [
+          "CSHL ArchivesSpace — collection",
+          "https://archivesspace.cshl.edu/repositories/2/resources/67"
+        ]
+      ],
+      "summary": "Carnegie housed eugenics research. Its records helped drive harmful policy."
+    },
+    {
+      "setting": "Research desk, 1965–67",
+      "objects": [
+        {
+          "kind": "sack",
+          "label": "sugar",
+          "points": [
+            [
+              65,
+              220
+            ],
+            [
+              100,
+              220
+            ],
+            [
+              180,
+              220
+            ],
+            [
+              220,
+              220
+            ],
+            [
+              220,
+              220
+            ],
+            [
+              220,
+              220
+            ]
+          ]
+        },
+        {
+          "kind": "coin",
+          "label": "grant",
+          "points": [
+            [
+              90,
+              90
+            ],
+            [
+              160,
+              90
+            ],
+            [
+              260,
+              90
+            ],
+            [
+              360,
+              90
+            ],
+            [
+              360,
+              90
+            ],
+            [
+              360,
+              90
+            ]
+          ]
+        },
+        {
+          "kind": "paper",
+          "label": "sugar evidence",
+          "points": [
+            [
+              340,
+              225
+            ],
+            [
+              340,
+              225
+            ],
+            [
+              340,
+              225
+            ],
+            [
+              390,
+              245
+            ],
+            [
+              470,
+              280
+            ],
+            [
+              510,
+              300
+            ]
+          ]
+        },
+        {
+          "kind": "paper",
+          "label": "fat evidence",
+          "points": [
+            [
+              350,
+              205
+            ],
+            [
+              350,
+              205
+            ],
+            [
+              350,
+              185
+            ],
+            [
+              420,
+              165
+            ],
+            [
+              500,
+              145
+            ],
+            [
+              545,
+              130
+            ]
+          ]
+        },
+        {
+          "kind": "journal",
+          "label": "1967 review",
+          "points": [
+            [
+              585,
+              215
+            ],
+            [
+              585,
+              215
+            ],
+            [
+              585,
+              215
+            ],
+            [
+              585,
+              215
+            ],
+            [
+              520,
+              215
+            ],
+            [
+              440,
+              215
+            ]
+          ]
+        }
+      ],
+      "title": "Sugar: a funded review",
+      "question": "Who framed the review?",
+      "beats": [
+        "A funder sends a brief.",
+        "Selected papers reach authors.",
+        "Sugar evidence slips below.",
+        "A journal prints conclusions.",
+        "Disclosure remains absent."
+      ],
+      "sources": [
+        [
+          "Kearns et al. — JAMA Internal Medicine",
+          "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2548255"
+        ],
+        [
+          "Hegsted et al. — NEJM review, part I",
+          "https://www.nejm.org/doi/full/10.1056/NEJM196707272770405"
+        ],
+        [
+          "Hegsted et al. — NEJM review, part II",
+          "https://www.nejm.org/doi/full/10.1056/NEJM196708032770505"
+        ]
+      ],
+      "summary": "Sugar interests funded a review. Its published argument minimized sugar risk."
+    },
+    {
+      "setting": "Tobacco press room, 1954",
+      "objects": [
+        {
+          "kind": "cigarette",
+          "label": "product",
+          "points": [
+            [
+              75,
+              230
+            ],
+            [
+              95,
+              230
+            ],
+            [
+              120,
+              230
+            ],
+            [
+              120,
+              230
+            ],
+            [
+              120,
+              230
+            ],
+            [
+              120,
+              230
+            ]
+          ]
+        },
+        {
+          "kind": "report",
+          "label": "cancer evidence",
+          "points": [
+            [
+              310,
+              205
+            ],
+            [
+              310,
+              205
+            ],
+            [
+              310,
+              205
+            ],
+            [
+              360,
+              205
+            ],
+            [
+              450,
+              205
+            ],
+            [
+              520,
+              205
+            ]
+          ]
+        },
+        {
+          "kind": "curtain",
+          "label": "industry files",
+          "points": [
+            [
+              565,
+              190
+            ],
+            [
+              565,
+              190
+            ],
+            [
+              565,
+              190
+            ],
+            [
+              450,
+              190
+            ],
+            [
+              370,
+              190
+            ],
+            [
+              370,
+              190
+            ]
+          ]
+        },
+        {
+          "kind": "newspaper",
+          "label": "open question",
+          "points": [
+            [
+              480,
+              85
+            ],
+            [
+              480,
+              85
+            ],
+            [
+              480,
+              85
+            ],
+            [
+              390,
+              85
+            ],
+            [
+              270,
+              85
+            ],
+            [
+              140,
+              85
+            ]
+          ]
+        },
+        {
+          "kind": "gavel",
+          "label": "court",
+          "points": [
+            [
+              590,
+              265
+            ],
+            [
+              590,
+              265
+            ],
+            [
+              590,
+              265
+            ],
+            [
+              590,
+              265
+            ],
+            [
+              460,
+              265
+            ],
+            [
+              390,
+              265
+            ]
+          ]
+        }
+      ],
+      "title": "Tobacco: the open question",
+      "question": "What did delay buy?",
+      "beats": [
+        "Cancer evidence arrives.",
+        "Rivals form one committee.",
+        "A press statement asks for time.",
+        "Internal files go behind glass.",
+        "A court compares both records."
+      ],
+      "sources": [
+        [
+          "U.S. Justice Department — tobacco findings",
+          "https://www.justice.gov/osg/brief/philip-morris-usa-inc-v-united-states-opposition"
+        ],
+        [
+          "CDC — Surgeon General history",
+          "https://www.cdc.gov/tobacco-surgeon-general-reports/about/history.html"
+        ],
+        [
+          "UCSF — Frank Statement archive",
+          "https://download.industrydocuments.ucsf.edu/r/y/j/p/ryjp0002/ryjp0002.pdf"
+        ]
+      ],
+      "summary": "Tobacco firms sponsored doubt. Courts later found sustained deception."
+    },
+    {
+      "setting": "Climate lab and public podium",
+      "objects": [
+        {
+          "kind": "thermometer",
+          "label": "warming",
+          "points": [
+            [
+              100,
+              225
+            ],
+            [
+              100,
+              225
+            ],
+            [
+              100,
+              210
+            ],
+            [
+              100,
+              190
+            ],
+            [
+              100,
+              165
+            ],
+            [
+              100,
+              145
+            ]
+          ]
+        },
+        {
+          "kind": "graph",
+          "label": "model",
+          "points": [
+            [
+              245,
+              195
+            ],
+            [
+              245,
+              195
+            ],
+            [
+              245,
+              195
+            ],
+            [
+              245,
+              195
+            ],
+            [
+              245,
+              195
+            ],
+            [
+              245,
+              195
+            ]
+          ]
+        },
+        {
+          "kind": "memo",
+          "label": "internal memo",
+          "points": [
+            [
+              330,
+              155
+            ],
+            [
+              330,
+              155
+            ],
+            [
+              420,
+              155
+            ],
+            [
+              510,
+              155
+            ],
+            [
+              510,
+              155
+            ],
+            [
+              510,
+              155
+            ]
+          ]
+        },
+        {
+          "kind": "podium",
+          "label": "public message",
+          "points": [
+            [
+              540,
+              220
+            ],
+            [
+              540,
+              220
+            ],
+            [
+              540,
+              220
+            ],
+            [
+              540,
+              220
+            ],
+            [
+              540,
+              220
+            ],
+            [
+              540,
+              220
+            ]
+          ]
+        },
+        {
+          "kind": "question",
+          "label": "doubt",
+          "points": [
+            [
+              570,
+              105
+            ],
+            [
+              570,
+              105
+            ],
+            [
+              570,
+              105
+            ],
+            [
+              520,
+              105
+            ],
+            [
+              450,
+              105
+            ],
+            [
+              450,
+              105
+            ]
+          ]
+        }
+      ],
+      "title": "Exxon: models and messages",
+      "question": "What did company models show?",
+      "beats": [
+        "Scientists plot rising heat.",
+        "A memo crosses the lab.",
+        "Public text stresses doubt.",
+        "Observed heat meets the model.",
+        "Compare both dated records."
+      ],
+      "sources": [
+        [
+          "Supran et al. — Science study",
+          "https://www.science.org/doi/10.1126/science.abk0063"
+        ],
+        [
+          "Harvard — study methods and figures",
+          "https://news.harvard.edu/gazette/story/2023/01/harvard-led-analysis-finds-exxonmobil-internal-research-accurately-predicted-climate-change/"
+        ],
+        [
+          "ExxonMobil — company response",
+          "https://ir.exxonmobil.com/news-releases/news-release-details/exxonmobil-says-climate-research-stories-inaccurate-and"
+        ]
+      ],
+      "summary": "Exxon scientists projected warming. Researchers found public messages diverged."
+    },
+    {
+      "setting": "A crowd weighs expertise",
+      "objects": [
+        {
+          "kind": "expert",
+          "label": "prestige",
+          "points": [
+            [
+              160,
+              180
+            ],
+            [
+              160,
+              180
+            ],
+            [
+              160,
+              180
+            ],
+            [
+              160,
+              180
+            ],
+            [
+              160,
+              180
+            ],
+            [
+              160,
+              180
+            ]
+          ]
+        },
+        {
+          "kind": "crowd",
+          "label": "attention",
+          "points": [
+            [
+              320,
+              255
+            ],
+            [
+              280,
+              255
+            ],
+            [
+              240,
+              255
+            ],
+            [
+              230,
+              255
+            ],
+            [
+              330,
+              255
+            ],
+            [
+              440,
+              255
+            ]
+          ]
+        },
+        {
+          "kind": "file",
+          "label": "results",
+          "points": [
+            [
+              530,
+              260
+            ],
+            [
+              530,
+              260
+            ],
+            [
+              530,
+              260
+            ],
+            [
+              480,
+              245
+            ],
+            [
+              400,
+              215
+            ],
+            [
+              310,
+              180
+            ]
+          ]
+        },
+        {
+          "kind": "magnifier",
+          "label": "check",
+          "points": [
+            [
+              580,
+              125
+            ],
+            [
+              580,
+              125
+            ],
+            [
+              580,
+              125
+            ],
+            [
+              500,
+              125
+            ],
+            [
+              400,
+              125
+            ],
+            [
+              310,
+              125
+            ]
+          ]
+        }
+      ],
+      "title": "Primitive Echo: prestige cues",
+      "question": "Why trust a famous name?",
+      "beats": [
+        "A crowd follows one figure.",
+        "A badge draws attention.",
+        "Evidence stays in a drawer.",
+        "Results emerge elsewhere.",
+        "The crowd changes its source."
+      ],
+      "sources": [
+        [
+          "Jiménez and Mesoudi — evidence review",
+          "https://www.nature.com/articles/s41599-019-0228-7"
+        ],
+        [
+          "Brand et al. — PLOS experiment",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255346"
+        ],
+        [
+          "Brand et al. — Scientific Reports experiment",
+          "https://www.nature.com/articles/s41598-020-68982-4"
+        ]
+      ],
+      "summary": "People may copy prestige cues. Experiments show limits to this shortcut."
+    }
+  ]
+}
