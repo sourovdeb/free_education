@@ -1,0 +1,20 @@
+{
+  "id": "FML-0007",
+  "version": "1.0.0",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {"name":"README.md","bytes":593,"sha256":"cdf800b8c32043080ec63915ae67e55f9cd3a2973236388bb0c735b47dcdd3c6"},
+    {"name":"SOURCES.md","bytes":726,"sha256":"e6467630acc481268461bb68b2ba70bd84cf6454501d4aa7a7717ecfd6fb20f2"},
+    {"name":"TESTS.md","bytes":505,"sha256":"a644f4c07ab953667eea451432dbeb44b7a794c34d386f59b9e57e708143812e"},
+    {"name":"carousel.html","bytes":1352,"sha256":"6fad2d02044e0856c6f6f1b2256efb3976776059f927e9d7490bfef181cfeffa"},
+    {"name":"diagram.svg","bytes":1141,"sha256":"3bacdd5cf064d888a6b54545c16784ca21d67a9b3ca663ab775b8281b41e6a42"},
+    {"name":"diagram.txt","bytes":220,"sha256":"6f36b1cceb829e4ab3abf9b02d35eea61eb1156363eacffcaf81b92275f4d0fb"},
+    {"name":"index.html","bytes":4702,"sha256":"bd33b0b7111bd34ebb3bfd4aea478f11c53afcb31d5ba06abf0bcf041ea09a07"},
+    {"name":"lesson.json","bytes":4157,"sha256":"57aee9a23e3d19b4bb6016a13433327d2403342d33f7bbfd3b8e07dcf021a9a9"},
+    {"name":"linkedin-carousel.pdf","bytes":3609,"sha256":"40ec5f929112ed577e73eedbb71963c3e3a5b989afb93afb192bf8196cedeebe"},
+    {"name":"linkedin-post.txt","bytes":332,"sha256":"b84a8446ccbc35eea4bc56bc6c69e99ba7be8b143a3960fd97513d1a8a875877"},
+    {"name":"medium.md","bytes":1205,"sha256":"326cd5260ddd80840d4f13e45c887589cc60561762735151ebe06b0c0f8bdbbc"},
+    {"name":"wordpress-draft.html","bytes":813,"sha256":"9188a656a05100d7826e863e2b588ea37993993282d051417a7dd21f525034a3"}
+  ]
+}
