@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0014",
+  "next_lesson_id": "FML-0015",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -322,15 +322,34 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0014",
+      "version": "1.0.0",
+      "title": "Is That €60 Each or in Total?",
+      "slug": "is-that-each-or-in-total",
+      "pathway": "use-english",
+      "interaction_family": "price-scope-and-readback",
+      "objective": "Clarify whether a quoted price is per person or total, then confirm the amount and group size accurately.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0014-is-that-each-or-in-total/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "5a5630c857c43f33e67f086752f6204bb3577f0a",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": {
-    "lesson_id": "FML-0014",
-    "acquired_at": "2026-09-27T20:02:00Z",
-    "expires_at": "2026-09-27T22:02:00Z",
-    "purpose": "build-and-deliver"
-  },
-  "revision": 19,
+  "lease": null,
+  "revision": 20,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -361,7 +380,8 @@
     "FML-0001 through FML-0010 are reconciled. Continue with one non-duplicate objective per run.",
     "FML-0011 v1.0.0 is the first colourful-papercut pack. GitHub, Drive, and owner email were verified. No deployment occurred.",
     "FML-0012 v1.0.0 is mirrored and owner-delivered. Colourful-papercut motion was verified. No deployment occurred.",
-    "FML-0013 v1.0.0 is mirrored and owner-delivered. Colourful-papercut file motion was verified. No deployment occurred."
+    "FML-0013 v1.0.0 is mirrored and owner-delivered. Colourful-papercut file motion was verified. No deployment occurred.",
+    "FML-0014 v1.0.0 is mirrored and owner-delivered. Colourful-papercut price-scope motion was verified. Browser launch was attempted but unavailable. No deployment occurred."
   ],
   "design_default": {
     "style": "colourful-papercut",
