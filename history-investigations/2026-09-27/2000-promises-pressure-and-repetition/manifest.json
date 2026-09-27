@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "edition": "2026-09-27/2000-promises-pressure-and-repetition",
+  "created_timezone": "Indian/Reunion",
+  "chapter_count": 6,
+  "body_word_counts": [149, 142, 146, 140, 145, 141],
+  "source_counts": [4, 4, 3, 4, 3, 4],
+  "video_verification": {
+    "width": 1280,
+    "height": 720,
+    "fps": "25/1",
+    "duration_seconds": 210.0,
+    "video_streams": 1,
+    "audio_streams": 0,
+    "size_bytes": 767925
+  },
+  "checks": {
+    "svg_xml_valid": true,
+    "svg_accessible_title_and_description": true,
+    "viewer_controls_present": true,
+    "viewer_dependencies": "none",
+    "wordpress_status": "unpublished file only",
+    "remote_website_write": false
+  },
+  "sha256": {
+    "edition.md": "bb94e26c75b205a962c855686b84f71fbfefc731852b3fc05d457d2a42ca1228",
+    "wordpress-draft.html": "402969853e5e865f0945846583746e0daf6cd7772ef226fe0016d95335279a35",
+    "evidence.svg": "212beed31310f69fb9def96aa79390944e9b5da125560f137cf32a939ac15fb2",
+    "lesson-viewer.html": "b145663dd57a893efa3312176a1f2ea50d62398998635aa33bee1ca3a17247f0",
+    "lesson.json": "29f4a1f18391213305a0b04beddcb19792f2357119e14e3927b456604d243988",
+    "build.py": "731601d66f7cd3e869e9c2291c0da410a6b26cd6a510d93236eecc8c45f4b434",
+    "render_video.py": "2921f85769fd37fe9afb6250f28c09187d12a67ce4784867ab2013f31bc2d617",
+    "history-investigation.mp4": "ce1910c209ec2ba8232b13757499690b491776d522b0b55f17a191738dc69c4b"
+  }
+}
