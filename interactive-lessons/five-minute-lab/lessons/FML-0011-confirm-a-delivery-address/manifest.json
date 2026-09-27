@@ -1,0 +1,96 @@
+{
+  "id": "FML-0011",
+  "version": "1.0.0",
+  "title": "Could You Spell the Street Name?",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T17:20:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 11607,
+      "sha256": "de94336dff7317d381ab227feb1bf9dfd9f102370b9106eb0285766254971b3f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 28851,
+      "sha256": "65e2ba5ce1b3aa0a611856bb7cdaef242cb74b986c6d271d77d1f826481c8f98"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 4786,
+      "sha256": "466c8368316b305db9231bbfbf970fe24649aced8d60e9fc74b9e680be3824a7"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4138,
+      "sha256": "9f2304a7a825de1429bc1de633270ececb5d0776a1e437ee0a41ed7a3fd69512"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 531,
+      "sha256": "568886cad2c498d3c702a2899c4ed43d0574a7918decd0a2d3bf164ca2941e5f"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 211789,
+      "sha256": "30d2b9a9e1d6561850903bbf0333489b634449b6966f4d1e2ea8879b19d97e73"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 5981,
+      "sha256": "c3825d96406b444d26bb639da90efde87de7d8104e07ff74d82d3d2bd5f0b6aa"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2135,
+      "sha256": "ad94b50acdeeb7918bf3efc2c569670f31c2a63384471557415b1659f5d5b315"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 45058,
+      "sha256": "d7eae61e90d08224fa2b69efd899e2f30aaa401dec8755cb4840d7b0c0416b58"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 407,
+      "sha256": "5ec47021b08ce4ebea99516b4dfd332e4ce86a7c4e6e4cf020f76f604710cec1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "af41ca98ed24f3b4fdd7eb6542aed58385c9d9060a24e6349884429a18690f25"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1622,
+      "sha256": "2cb3d1286700f78b3c9790cac1ab85eb1d7e7d43acc4d90da34c62aa9aea4601"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1501,
+      "sha256": "2138dade45477fe43585ee92abfad1771fa0e4604bba3e1af901298e7a2aca1a"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1149,
+      "sha256": "34344bf5473ea65cb5d657615324d92eff944bc5a65e8bc6798cef14233a4dd1"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 479,
+      "sha256": "6c7e7ca263b2ef2f7bf7963925913e77770f76bd5f350738d477a6be6db053a0"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 412349,
+      "sha256": "dff4414490c803d8b67b461e98a508fbe0736ec3c3e30b300d98924c578f26c5"
+    },
+    {
+      "path": "build.py",
+      "bytes": 37337,
+      "sha256": "d86db6cc7e70e4a095db440ce178727e32555cec6e114b9824c4d603b695c6bb"
+    }
+  ]
+}
