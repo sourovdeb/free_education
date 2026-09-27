@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Reactive devaluation mechanism</title>
+<desc id="desc">An adversarial source lowers perceived proposal value, with a blind review safeguard.</desc>
+<defs>
+<marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker>
+<style>.h{font:700 36px Arial}.t{font:700 23px Arial}.s{font:19px Arial}.b{fill:#fff;stroke:#111;stroke-width:2}.g{fill:#f2f2f2;stroke:#111;stroke-width:2}.l{stroke:#111;stroke-width:3;fill:none;marker-end:url(#a)}</style>
+</defs>
+<rect width="1200" height="800" fill="#fff"/>
+<text x="55" y="65" class="h">Reactive Devaluation</text>
+<text x="55" y="105" class="s">Same terms. Different source.</text>
+
+<rect x="60" y="170" width="220" height="120" rx="6" class="b"/>
+<text x="88" y="215" class="t">Proposal arrives</text>
+<text x="88" y="252" class="s">Terms are fixed.</text>
+
+<rect x="350" y="170" width="220" height="120" rx="6" class="g"/>
+<text x="382" y="215" class="t">Opponent label</text>
+<text x="382" y="252" class="s">Source becomes salient.</text>
+
+<rect x="640" y="170" width="220" height="120" rx="6" class="g"/>
+<text x="675" y="215" class="t">Suspicion rises</text>
+<text x="675" y="252" class="s">Motives get questioned.</text>
+
+<rect x="930" y="170" width="210" height="120" rx="6" class="g"/>
+<text x="958" y="215" class="t">Value falls</text>
+<text x="958" y="252" class="s">Terms seem worse.</text>
+
+<path d="M280 230 L350 230" class="l"/>
+<path d="M570 230 L640 230" class="l"/>
+<path d="M860 230 L930 230" class="l"/>
+
+<rect x="180" y="410" width="360" height="130" rx="6" class="b"/>
+<text x="220" y="455" class="t">Safeguard branch</text>
+<text x="220" y="495" class="s">Hide source first.</text>
+<text x="220" y="525" class="s">Score terms separately.</text>
+
+<rect x="670" y="410" width="360" height="130" rx="6" class="g"/>
+<text x="710" y="455" class="t">Risk branch</text>
+<text x="710" y="495" class="s">Reject source first.</text>
+<text x="710" y="525" class="s">Justify rejection later.</text>
+
+<path d="M750 290 C700 350 560 370 500 410" class="l"/>
+<path d="M1035 290 L1035 385 L900 410" class="l"/>
+
+<rect x="180" y="635" width="850" height="95" rx="6" class="b"/>
+<text x="225" y="680" class="t">Key test</text>
+<text x="370" y="680" class="s">Would ratings change blindly?</text>
+</svg>
