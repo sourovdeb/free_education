@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "title": "History Investigation: Labels, law, and agency",
+  "edition_date": "2026-09-27",
+  "edition_time": "13:00",
+  "timezone": "Indian/Reunion",
+  "slug": "labels-law-and-agency",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 25,
+    "duration_seconds": 210,
+    "audio": false,
+    "style": "silent black-and-white progressive doodle"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "1918 influenza: the name followed censorship",
+      "short_title": "A misleading name",
+      "summary": "Wartime reporting made neutral Spain unusually visible. The name tracked news, not origin.",
+      "documented_fact": "The 1918 influenza pandemic spread worldwide. Spain was not its proven source. Spain remained neutral during war. Its wartime censorship was lighter. Spanish newspapers reported outbreaks openly. King Alfonso XIII became ill. Belligerent governments restricted bad news. They feared weakening public morale. Spain therefore looked unusually afflicted. The label followed that visibility. It did not establish origin. Troop movements aided transmission. Crowded camps also mattered.",
+      "scholarly_interpretation": "The name records media conditions. It is not epidemiology. Wartime incentives shaped public knowledge. Censorship distorted apparent disease geography. Neutral reporting looked like exceptional suffering. National disease labels can stigmatize. They can also misdirect attention.",
+      "uncertainty": "Researchers still debate the origin. Proposed locations include several continents. Surviving evidence remains incomplete. Censorship also varied between states. Newspapers were not uniformly silent. No single government invented everything. Spain did not cause naming alone. The term spread through networks. Those routes remain partly unclear.",
+      "sources": [
+        {
+          "title": "History of the 1918 Flu Pandemic — CDC",
+          "url": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-commemoration/1918-pandemic-history.htm"
+        },
+        {
+          "title": "Trench Conflict and Infectious Disease — CDC Emerging Infectious Diseases",
+          "url": "https://wwwnc.cdc.gov/eid/article/24/11/ac-2411_article"
+        },
+        {
+          "title": "FDR and the Flu Pandemic — U.S. National Archives",
+          "url": "https://fdr.blogs.archives.gov/2020/04/28/one-of-the-millions-fdr-and-the-flu-pandemic-of-1918-1920/"
+        }
+      ],
+      "visual": {
+        "icon": "newspaper",
+        "steps": ["War censors mute reports", "Spain reports openly", "Visibility becomes a label", "The label hides uncertainty"],
+        "caption": "News visibility is not origin."
+      }
+    },
+    {
+      "number": 2,
+      "title": "Magna Carta: a failed truce became a rights symbol",
+      "short_title": "A failed first life",
+      "summary": "The 1215 charter quickly failed. Reissues and later interpretation created its constitutional legacy.",
+      "documented_fact": "Magna Carta was sealed in 1215. It addressed an armed conflict. King John faced rebel barons. They demanded specific protections. Most clauses regulated feudal grievances. Clause 61 empowered twenty-five barons. They could compel royal compliance. Pope Innocent III annulled it. About ten weeks had passed. Civil war then resumed. John died the next year. Regents reissued a revised charter. Further versions followed later. The 1225 version endured.",
+      "scholarly_interpretation": "Modern memory often reads backward. Later lawyers elevated selected clauses. “No free man” gained reach. Tax consent gained wider significance. Repetition transformed a failed truce. It became a constitutional symbol. This legacy was historically constructed. It was not instant democracy.",
+      "uncertainty": "Original beneficiaries were narrowly defined. Women lacked equal standing. Unfree peasants gained little protection. Yet later influence was real. Symbols can reshape institutions. Direct causal lines remain disputable. Modern constitutions have many sources. Magna Carta created none alone. Myth and influence can coexist.",
+      "sources": [
+        {
+          "title": "How did Magna Carta come about? — UK Parliament",
+          "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/magnacartahow/"
+        },
+        {
+          "title": "The contents of Magna Carta — UK Parliament",
+          "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/magnacartaclauses/"
+        },
+        {
+          "title": "The legacy of Magna Carta — UK Parliament",
+          "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/originsofparliament/birthofparliament/overview/magnacarta/magnacartalegacy/"
+        },
+        {
+          "title": "The annulment of Magna Carta — British Library",
+          "url": "https://www.bl.uk/stories/blogs/posts/shameful-and-demeaning-the-annulment-of-magna-carta"
+        }
+      ],
+      "visual": {
+        "icon": "scroll",
+        "steps": ["1215: armed settlement", "Ten weeks: annulled", "1216–1225: reissued", "Later centuries: reinterpreted"],
+        "caption": "Failure preceded constitutional memory."
+      }
+    },
+    {
+      "number": 3,
+      "title": "The UDHR: global delegates changed the words",
+      "short_title": "Many authors, one text",
+      "summary": "Delegates from several regions reshaped the Declaration. Eleanor Roosevelt was central, but not solitary.",
+      "documented_fact": "The UN adopted the Declaration. The date was 10 December 1948. Eighteen commissioners represented varied backgrounds. Over fifty states joined drafting. Eleanor Roosevelt chaired the commission. She did not write alone. Hansa Mehta represented India. She secured “all human beings.” Earlier wording said “all men.” Lakshmi Menon defended sex equality. Begum Shaista Ikramullah represented Pakistan. She pressed freedom within marriage. P. C. Chang represented China. Charles Malik represented Lebanon. Both shaped major debates.",
+      "scholarly_interpretation": "This was negotiated authorship. It was not one American gift. Nor was it purely Western. Delegates crossed philosophical traditions. Women corrected masculine language. Smaller states changed important provisions. Roosevelt’s leadership still mattered. Shared authorship does not diminish it.",
+      "uncertainty": "Contributions cannot be cleanly measured. Meeting records privilege formal delegates. Many colonial peoples lacked seats. Power among states remained unequal. The Declaration was initially nonbinding. Its legal influence developed later. Universalism also remains contested. These limits do not erase participation. They qualify the familiar story.",
+      "sources": [
+        {
+          "title": "History of the Declaration — United Nations",
+          "url": "https://www.un.org/en/about-us/udhr/history-of-the-declaration"
+        },
+        {
+          "title": "Women who shaped the UDHR — United Nations",
+          "url": "https://www.un.org/sites/un2.un.org/files/2019/11/women_who_shaped_the_udhr.pdf"
+        },
+        {
+          "title": "UDHR procedural history — United Nations Audiovisual Library",
+          "url": "https://legal.un.org/avl/ha/udhr/udhr.html"
+        }
+      ],
+      "visual": {
+        "icon": "table",
+        "steps": ["Many delegates debate", "Wording changes", "Rights broaden", "A declaration emerges"],
+        "caption": "Authorship crossed national borders."
+      }
+    },
+    {
+      "number": 4,
+      "title": "The New Deal: exclusion had unequal consequences",
+      "short_title": "Coverage with exclusions",
+      "summary": "Major labor protections excluded farm and domestic work. Racial impact is clear; one controlling motive is not.",
+      "documented_fact": "The 1935 Social Security Act excluded agricultural labor. It also excluded domestic service. The National Labor Relations Act did likewise. These sectors employed many Black workers. Domestic work also employed many women. The exclusions therefore hit unequally. Other workers were excluded too. Government and nonprofit workers appeared there. Administrative records cited collection problems. Small employers kept few records. Congress later expanded some coverage. Major gaps nevertheless persisted.",
+      "scholarly_interpretation": "A common account cites racism. Its factual core is substantial. Southern power protected labor hierarchy. Employers also resisted new taxes. Administrators feared implementation costs. Roosevelt needed a broad coalition. These incentives could reinforce each other. One motive need not exclude another.",
+      "uncertainty": "Disparate impact is well documented. A single controlling motive is not. Surviving records do not prove that race alone determined these clauses. Administrative reasons could be genuine. They could also be convenient. Political bargaining left uneven traces. Avoid turning complexity into innocence. Avoid turning impact into mind-reading.",
+      "sources": [
+        {
+          "title": "Social Security Act (1935) — U.S. National Archives",
+          "url": "https://www.archives.gov/milestone-documents/social-security-act"
+        },
+        {
+          "title": "Excluding agricultural and domestic workers — Social Security Administration",
+          "url": "https://www.ssa.gov/policy/docs/ssb/v70n4/v70n4p49.html"
+        },
+        {
+          "title": "African Americans and the American Labor Movement — U.S. National Archives",
+          "url": "https://www.archives.gov/publications/prologue/1997/summer/american-labor-movement.html"
+        }
+      ],
+      "visual": {
+        "icon": "umbrella",
+        "steps": ["Protection expands", "Occupations are excluded", "Impact follows labor structure", "Coverage widens later"],
+        "caption": "Neutral wording can land unequally."
+      }
+    },
+    {
+      "number": 5,
+      "title": "Meiji Restoration: old language, new machinery",
+      "short_title": "Restoration built novelty",
+      "summary": "Imperial restoration language legitimized rapid centralization, taxation, conscription, and selective institutional borrowing.",
+      "documented_fact": "Imperial rule was proclaimed in 1868. Tokugawa government then ended. A small former-samurai coalition led. The new state abolished domains. Prefectures replaced them in 1871. National conscription followed in 1873. Land taxes became cash payments. These reforms funded central government. They also provoked resistance. Farmers protested conscription and taxes. Disaffected samurai also revolted. State forces suppressed those challenges. A constitution arrived in 1889. The Imperial Diet opened in 1890. Voting remained tightly restricted.",
+      "scholarly_interpretation": "“Restoration” legitimized revolutionary construction. Leaders invoked ancient imperial authority. They built unfamiliar state machinery. Western institutions were selectively borrowed. National strength guided those choices. Unequal treaties also drove urgency. This was neither simple Westernization nor timeless revival.",
+      "uncertainty": "Top-down stories remain incomplete. Tokugawa commerce enabled later growth. Education had expanded earlier. Local officials implemented reforms. Commoners resisted and adapted. Leaders also disagreed internally. Industrialization was not prewritten. Later imperial expansion was consequential. It was not every reformer’s single purpose. Outcomes exceeded original intentions.",
+      "sources": [
+        {
+          "title": "Supporters of the Meiji government — National Diet Library",
+          "url": "https://www.ndl.go.jp/portrait/e/pickup/012"
+        },
+        {
+          "title": "The Meiji Restoration and Modernization — Columbia University",
+          "url": "https://afe.easia.columbia.edu/special/japan_1750_meiji.htm"
+        },
+        {
+          "title": "Opposition movements in early Meiji — Cambridge University Press",
+          "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-japan/opposition-movements-in-early-meiji-18681885/4AD341D1897AF6FDF7984E36D0304845"
+        },
+        {
+          "title": "The Iwakura Mission and domestic reform — Japan Center for Asian Historical Records",
+          "url": "https://www.jacar.go.jp/english/exhibition/iwakura_en/column/index.html"
+        }
+      ],
+      "visual": {
+        "icon": "gear",
+        "steps": ["Imperial authority returns", "Domains become prefectures", "Taxes fund conscription", "A centralized state forms"],
+        "caption": "Restoration language built novelty."
+      }
+    },
+    {
+      "number": 6,
+      "title": "Primitive Echo: why chatbots feel social",
+      "short_title": "Agency from language",
+      "summary": "Humans readily infer minds from responsive cues. Chatbots supply those cues without proving consciousness.",
+      "documented_fact": "Humans often anthropomorphize nonhumans. We assign intentions and emotions. Epley and colleagues modeled this. Social need can increase attribution. Uncertainty can also increase it. Later experiments tested predictability. Anthropomorphism made stimuli seem understandable. Individual differences predict trust. They also predict moral concern. Chatbots provide contingent language. Humanlike cues affect social responses. A recent meta-analysis found small effects. Effects differed across designs.",
+      "scholarly_interpretation": "Evolutionary accounts emphasize agency detection. Missing a real agent mattered. Predators and allies carried consequences. False positives could cost less. Responsive language now supplies cues. Chatbots can therefore feel social. That feeling need not be foolish. It uses ordinary social machinery.",
+      "uncertainty": "The evolutionary account remains inferential. We cannot inspect ancestral cognition. Anthropomorphism also reflects culture. Loneliness and interface design matter. Not every user responds alike. Social feelings may aid engagement. They may also inflate trust. Fluent output proves no consciousness. Warmth proves no inner experience. Keep usefulness separate from personhood.",
+      "sources": [
+        {
+          "title": "On seeing human — Psychological Review/PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17907867/"
+        },
+        {
+          "title": "Effectance motivation increases anthropomorphism — PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20649365/"
+        },
+        {
+          "title": "Human-like cues in conversational agents: meta-analysis — Humanities and Social Sciences Communications",
+          "url": "https://www.nature.com/articles/s41599-025-05618-w"
+        },
+        {
+          "title": "Motion, identity and the bias toward agency — Frontiers in Human Neuroscience",
+          "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00597/full"
+        }
+      ],
+      "visual": {
+        "icon": "chatbot",
+        "steps": ["Words answer contingently", "Agency gets inferred", "Trust can increase", "Consciousness remains unproven"],
+        "caption": "Social cues trigger social machinery."
+      }
+    }
+  ]
+}
