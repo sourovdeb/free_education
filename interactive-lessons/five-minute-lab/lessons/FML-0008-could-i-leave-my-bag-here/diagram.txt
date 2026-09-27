@@ -1,0 +1,7 @@
+PERMISSION       ACTION + OBJECT       PLACE       TIME LIMIT
+Could I      +    leave my bag     +    here    +  until three?
+
+Meaning:
+Could I...? = permission request.
+leave my bag = put it there.
+until three = up to 3:00.
