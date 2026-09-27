@@ -1,0 +1,199 @@
+{
+  "id": "FML-0010",
+  "version": "1.0.0",
+  "title": "By Friday?",
+  "slug": "by-friday-not-on-friday",
+  "pathway": "use-english",
+  "interaction_family": "choose-and-explain",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "objective": "Confirm whether a work deadline includes Friday, then restate the exact cutoff.",
+  "prerequisites": [
+    "Understand weekdays and clock times",
+    "Form short confirmation questions"
+  ],
+  "scenario": {
+    "setting": "A workplace message",
+    "prompt": "Your manager writes: ‘Please send the revised rota by Friday.’ You need the exact deadline before promising delivery."
+  },
+  "model": {
+    "clarify": "Just to confirm, do you need it before Friday starts, or anytime on Friday?",
+    "reply": "By 3 p.m. Friday, please.",
+    "confirm": "Understood. I’ll send it no later than 3 p.m. Friday."
+  },
+  "language_focus": {
+    "meaning": "By marks the latest acceptable point. On places an event on that day.",
+    "form": [
+      "by + deadline: by Friday; by 3 p.m. Friday",
+      "on + day/date: on Friday; on 27 September"
+    ],
+    "appropriateness": "When ‘by Friday’ lacks an exact hour, clarify the cutoff. Workplaces may interpret the day differently.",
+    "distinction": "‘Send it by Friday’ allows earlier delivery. ‘Send it on Friday’ places delivery on Friday."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "prompt": "What does ‘by Friday’ usually signal?",
+      "options": [
+        {
+          "text": "Friday is the latest point.",
+          "status": "best",
+          "feedback": "Yes. ‘By’ marks a deadline. Earlier delivery works. The exact Friday cutoff may still need checking."
+        },
+        {
+          "text": "Delivery must happen on Friday.",
+          "status": "not_best",
+          "feedback": "Not necessarily. ‘On Friday’ places the event that day. ‘By Friday’ also permits earlier delivery."
+        },
+        {
+          "text": "Delivery can wait until Monday.",
+          "status": "not_best",
+          "feedback": "No. Monday follows the stated deadline. Ask before assuming any extension."
+        }
+      ]
+    },
+    {
+      "id": "decision-2",
+      "prompt": "Which reply finds the missing detail?",
+      "options": [
+        {
+          "text": "Just to confirm, before Friday starts, or anytime Friday?",
+          "status": "best",
+          "feedback": "Best. It exposes the ambiguity and requests an exact boundary."
+        },
+        {
+          "text": "Okay, I’ll send it Friday.",
+          "status": "not_best",
+          "feedback": "This promises a day but never checks the cutoff. The manager may expect it earlier."
+        },
+        {
+          "text": "Why did you choose Friday?",
+          "status": "not_best",
+          "feedback": "This asks about the reason. It does not establish the deadline."
+        }
+      ]
+    },
+    {
+      "id": "decision-3",
+      "prompt": "The manager says, ‘By 3 p.m. Friday.’ Choose the clearest check.",
+      "options": [
+        {
+          "text": "Understood. No later than 3 p.m. Friday.",
+          "status": "best",
+          "feedback": "Best. It restates the latest acceptable time without changing it."
+        },
+        {
+          "text": "Understood. After 3 p.m. Friday.",
+          "status": "not_best",
+          "feedback": "This reverses the deadline. ‘By 3 p.m.’ means not later than 3 p.m."
+        },
+        {
+          "text": "Understood. Exactly at 3 p.m. Friday.",
+          "status": "not_best",
+          "feedback": "Too narrow. A deadline permits earlier completion."
+        }
+      ]
+    }
+  ],
+  "production_task": {
+    "scenario": "A colleague writes: ‘Can you share the figures by Tuesday?’",
+    "instruction": "Write one reply. Confirm the cutoff. Then state when you plan to send the figures.",
+    "acceptable_examples": [
+      "Just to confirm, do you need them before Tuesday, or anytime Tuesday? I can send them Monday afternoon.",
+      "Do you need the figures by a specific time Tuesday? I plan to send them by noon."
+    ],
+    "self_check": [
+      "I asked about Tuesday’s cutoff.",
+      "I used by for the deadline.",
+      "I stated my delivery plan.",
+      "My reply stays polite."
+    ]
+  },
+  "retrieval_prompt": "Tomorrow, explain the difference: ‘Send it by Friday’ and ‘Send it on Friday.’",
+  "visual": {
+    "title": "Deadline window",
+    "alt_text": "A Monday-to-Friday timeline. A thick line ends at Friday 3 p.m. The line shows any earlier delivery is acceptable. A separate circle on Friday shows that on Friday names the day, not a deadline.",
+    "prose": "Picture a line running toward Friday. ‘By Friday’ points to the line’s end: finish before or at that boundary. ‘On Friday’ circles Friday itself: the event happens that day. Adding ‘3 p.m.’ makes the boundary visible."
+  },
+  "scenes": [
+    {
+      "title": "The message",
+      "caption": "Please send the revised rota by Friday.",
+      "explanation": "The manager gives a deadline word but no hour.",
+      "speaker": "Manager"
+    },
+    {
+      "title": "The two readings",
+      "caption": "Before Friday starts? Or anytime Friday?",
+      "explanation": "Different workplace habits can produce different cutoffs.",
+      "speaker": "Worker"
+    },
+    {
+      "title": "The question",
+      "caption": "Just to confirm, which cutoff do you mean?",
+      "explanation": "A short confirmation prevents a missed deadline.",
+      "speaker": "Worker"
+    },
+    {
+      "title": "The answer",
+      "caption": "By 3 p.m. Friday, please.",
+      "explanation": "The manager now supplies an exact boundary.",
+      "speaker": "Manager"
+    },
+    {
+      "title": "The check",
+      "caption": "Understood. No later than 3 p.m. Friday.",
+      "explanation": "The worker restates the boundary without changing it.",
+      "speaker": "Worker"
+    },
+    {
+      "title": "Your turn",
+      "caption": "Can you share the figures by Tuesday?",
+      "explanation": "Ask for Tuesday’s cutoff. Then give your delivery plan.",
+      "speaker": "Colleague"
+    }
+  ],
+  "sources": [
+    {
+      "author": "Cambridge University Press & Assessment",
+      "title": "By - English Grammar Today",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/by",
+      "accessed": "2026-09-27",
+      "coverage": "The page states that by can mean not later than for arrangements and deadlines.",
+      "limitations": "The lesson’s workplace dialogue and activities are original.",
+      "rights": "Linked reference only; no exercises or images reproduced."
+    },
+    {
+      "author": "Cambridge University Press & Assessment",
+      "title": "At, on and in (time) - English Grammar Today",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/in-on-and-at-time",
+      "accessed": "2026-09-27",
+      "coverage": "The page explains on with dates and singular weekdays for one occasion.",
+      "limitations": "The lesson narrows that distinction to deadline clarification.",
+      "rights": "Linked reference only; no exercises or images reproduced."
+    },
+    {
+      "author": "British Council",
+      "title": "Prepositions of time: at, in, on",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/prepositions-of-time-at-in-on",
+      "accessed": "2026-09-27",
+      "coverage": "The page covers time prepositions, including on with days and dates.",
+      "limitations": "It supports form only. It does not define the lesson’s workplace cutoff.",
+      "rights": "Linked reference only; no exercises or images reproduced."
+    }
+  ],
+  "rights": {
+    "scenario": "Original project text",
+    "diagram": "Original project artwork",
+    "video": "Original project animation",
+    "code": "Original project code",
+    "third_party_assets": "None embedded",
+    "audio": "None"
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}

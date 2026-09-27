@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="A Monday-to-Friday timeline. A thick line ends at Friday 3 p.m. The line shows any earlier delivery is acceptable. A separate circle on Friday shows that on Friday names the day, not a deadline.">
+<rect width="760" height="330" fill="white"/>
+<g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+  <path d="M90 168H668"/>
+  <path d="M90 151v34M215 151v34M340 151v34M465 151v34M590 151v34"/>
+  <path d="M90 122H615" stroke-width="10"/>
+  <path d="M615 104v36"/>
+  <circle cx="590" cy="238" r="38"/>
+</g>
+<g fill="#111" font-family="system-ui, sans-serif">
+  <text x="65" y="205" font-size="24">MON</text>
+  <text x="190" y="205" font-size="24">TUE</text>
+  <text x="310" y="205" font-size="24">WED</text>
+  <text x="438" y="205" font-size="24">THU</text>
+  <text x="565" y="205" font-size="24">FRI</text>
+  <text x="90" y="90" font-size="27" font-weight="700">BY 3 P.M. FRIDAY</text>
+  <text x="90" y="272" font-size="23">Earlier delivery works</text>
+  <text x="645" y="118" font-size="22">cutoff</text>
+  <text x="540" y="305" font-size="22">ON FRIDAY</text>
+</g></svg>
