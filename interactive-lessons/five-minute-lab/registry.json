@@ -37,6 +37,30 @@
       "revision_of": "1.0.0"
     },
     {
+      "id": "FML-0008",
+      "version": "1.1.0",
+      "title": "Could I Leave My Bag Here?",
+      "slug": "could-i-leave-my-bag-here",
+      "pathway": "use-english",
+      "interaction_family": "permission-request-builder",
+      "objective": "Ask permission to leave an item somewhere until a stated time, then acknowledge the answer.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0008-could-i-leave-my-bag-here/",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "f5751c8823f6c926d4f71fbfe96db97559df407a",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent",
+      "revision_of": "1.0.0"
+    },
+    {
       "id": "FML-0009",
       "version": "1.1.0",
       "title": "Catch It or Miss It?",
@@ -85,7 +109,7 @@
     }
   ],
   "lease": null,
-  "revision": 7,
+  "revision": 8,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -106,6 +130,7 @@
     "FML-0001 v1.1.0 adds 720p25 doodle video and scene controls. Delivery verified.",
     "FML-0010 v1.0.0 is mirrored and owner-delivered. No deployment occurred.",
     "FML-0009 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
-    "FML-0002 through FML-0008 still require registry reconciliation."
+    "FML-0008 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
+    "FML-0002 through FML-0007 still require registry reconciliation."
   ]
 }
