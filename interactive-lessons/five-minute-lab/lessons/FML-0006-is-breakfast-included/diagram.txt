@@ -1,0 +1,3 @@
+A package map places room and Wi-Fi inside an €80 box. Breakfast sits outside with a question mark. The question Is breakfast included? checks whether breakfast moves inside the package.
+
+€80 PACKAGE: room + Wi-Fi | UNKNOWN: breakfast? -> ASK: Is breakfast included? -> ANSWER: included or extra cost -> DECIDE.
