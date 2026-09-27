@@ -57,11 +57,11 @@
       "github_content_commit": "ba904d8666246eabb4edd4b20c6e79c7e9fc894d",
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
-      "delivery_status": "github_saved_drive_and_email_pending"
+      "delivery_status": "saved_and_sent"
     }
   ],
   "lease": null,
-  "revision": 5,
+  "revision": 6,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -81,6 +81,6 @@
     "Keep private delivery identifiers outside this public registry.",
     "FML-0001 v1.1.0 adds 720p25 doodle video and scene controls. Delivery verified.",
     "Other existing lesson IDs require registry reconciliation before another new lesson is created.",
-    "FML-0010 v1.0.0 source, PDF, and video are mirrored. Drive and Gmail delivery remain pending."
+    "FML-0010 v1.0.0 is mirrored and owner-delivered. No deployment occurred."
   ]
 }
