@@ -1,0 +1,17 @@
+Could I Leave My Bag Here?
+
+Checkout is 11:00.
+The train leaves at 15:30.
+
+Could I asks permission.
+Leave stays in base form.
+Until gives the end point.
+
+Try the parcel transfer.
+
+Source and download repository:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0008-could-i-leave-my-bag-here
+
+This source is not deployed.
+A2-B1 editorial estimate.
+Owner review remains required.

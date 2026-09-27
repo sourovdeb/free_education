@@ -1,69 +1,59 @@
-# Sources
+# Sources and rights
 
-## Cambridge Dictionary
+## Can, could or may?
 
-**Can, could or may?**
+Cambridge Dictionary
 
 https://dictionary.cambridge.org/us/grammar/british-grammar/can-could-or-may
 
-Accessed: 2026-09-27.
+Accessed: 2026-09-27
 
-Inspected: permission section.
+Inspected: Permission requests; could is more formal/polite than can.
 
-Supports: could asks permission.
+Limit: General grammar reference; context affects register.
 
-Limit: context affects register.
+## Permission
 
-## British Council LearnEnglish
-
-**Permission**
+British Council LearnEnglish
 
 https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/permission
 
-Accessed: 2026-09-27.
+Accessed: 2026-09-27
 
-Inspected: asking permission.
+Inspected: Can/could/may for asking permission.
 
-Supports: can/could/may choices.
+Limit: General reference; not a hotel-specific source.
 
-Limit: general grammar reference.
+## leave
 
-## Cambridge Essential English Dictionary
-
-**leave**
+Cambridge Essential English Dictionary
 
 https://dictionary.cambridge.org/us/dictionary/essential-british-english/leave
 
-Accessed: 2026-09-27.
+Accessed: 2026-09-27
 
-Inspected: A2 storage sense.
+Inspected: A2 sense: put something in a place where it will stay.
 
-Supports: leave an item somewhere.
+Limit: Dictionary definition.
 
-Limit: dictionary definition.
+## Until
 
-## Cambridge Dictionary
+Cambridge Dictionary
 
-**until**
+https://dictionary.cambridge.org/grammar/british-grammar/until
 
-https://dictionary.cambridge.org/dictionary/english/until
+Accessed: 2026-09-27
 
-Accessed: 2026-09-27.
+Inspected: Until as a preposition means up to a stated time.
 
-Inspected: time meaning.
+Limit: General grammar coverage.
 
-Supports: up to stated time.
+## Assets
 
-Limit: general reference.
+All scenarios, choices, feedback, diagrams, doodles, captions, code, and animation are original.
 
-## Rights
+No textbook assets appear.
 
-Lesson text is original.
+Video has no audio.
 
-Scenarios are original.
-
-Diagram is original.
-
-Code is original.
-
-No copied artwork appears.
+Existing repository licensing governs owned work.

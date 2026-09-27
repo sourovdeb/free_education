@@ -1,23 +1,87 @@
 {
   "id": "FML-0008",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "title": "Could I Leave My Bag Here?",
+  "revision_of": "1.0.0",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T09:00:00Z",
   "editorial_status": "needs_owner_review",
-  "test_status": "static_logic_passed_pdf_inspected_browser_navigation_blocked",
   "deployment_status": "not_deployed",
-  "canonical_url": null,
-  "live_player_url": null,
   "files": [
-    {"name":"README.md","bytes":600,"sha256":"e348ce4f78d696e1963b2f82441915562a21b6e2d3a33a92f99acf8e8671dc18"},
-    {"name":"SOURCES.md","bytes":1119,"sha256":"979200d19bb02c96431e49e42415ca483103bd72c82bfbdf3389823698ebd670"},
-    {"name":"TESTS.md","bytes":1447,"sha256":"448a3c3590f2bf71b6e4571394607fb3ea3d6fc8a39e6dcd04250e41602952fb"},
-    {"name":"carousel.html","bytes":1786,"sha256":"c495a54f524356cae058b5908094afa7d3a457eee643557c5b77c0d58dfdb6b9"},
-    {"name":"diagram.svg","bytes":1798,"sha256":"6710f538d7ae5be231e204406001a7c74bf04e5fe068073509e33fae4ed2ad55"},
-    {"name":"diagram.txt","bytes":225,"sha256":"ac0ccc52ad9b2ea47b74367286336bce0aadd350df7bab79114b83f973fa512e"},
-    {"name":"index.html","bytes":5884,"sha256":"733b5ab2894c1c284769ec9f20d1b7a11ca4e4fbe024958b89a743d8b763c069"},
-    {"name":"lesson.json","bytes":6257,"sha256":"f04027ca7bc766010fe3eafcbb113ea45bf75b4d30dc27aeb6b1954b6578558e"},
-    {"name":"linkedin-carousel.pdf","bytes":3742,"sha256":"f61b321e9e20e16b9ec446853aa09946c1e30f89624cbe7a79f9b814966f13d9"},
-    {"name":"linkedin-post.txt","bytes":523,"sha256":"b3c4b6176c8d4dd3b06b3e56125361e3959b4d229001640d50c708ebd260fe64"},
-    {"name":"medium.md","bytes":1761,"sha256":"cfe31746bf976e55412fef020784e27a00c7dff20b8942d42dff60fa8aefadba"},
-    {"name":"wordpress-draft.html","bytes":1164,"sha256":"e17060df0d93dd3836cb1f546ab67e647c4455c786b17f641cf42fcc1e58da20"}
+    {
+      "path": "lesson.json",
+      "bytes": 7708,
+      "sha256": "31568c89bc8438c9f6690150442de509c00e5fa15ca393c32f334ab9e4bbd8b9"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14076,
+      "sha256": "7ff950a39672e83b8e4eb65c59bc1ed1d8edcd195767a003bca25c08af30489a"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 4394,
+      "sha256": "390fda38343a7ca5146bcde1a3e5809efbcc08256edf2c6cbd269fdaf5793bc0"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 3423,
+      "sha256": "a0bbe461be07831d06df0daeeb36a808088e29fc4a83949cdd03e409c3309fa8"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 448,
+      "sha256": "df69a4a6455516590c0fe73a8d2d137ec42aec4647c2278af9a4082aa1be2902"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 179320,
+      "sha256": "ad8b9e1664edef9eddc1981af1f9d70b20339f0d52a0789227b058faabc3f6e3"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 7300,
+      "sha256": "d04cbffeb63ec91d2a920e9f6a85dabadf50820462c297999f4bbae3d08e9c33"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 1372,
+      "sha256": "e5bd1f8247f2608c1bd98c369ceb56d95a3672540bf93f94f18c43cff3c5b499"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 223,
+      "sha256": "55c36c22be2c8f80980dd5513fc1be83e798d7cae5d9e4c7dfc322ba64b44da2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 828,
+      "sha256": "0eac873a01c57d1e63ddbd6f0daa1b65f7929445fe5396902f18ec3af64bf769"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1244,
+      "sha256": "10595831c5368a6c0a6e17f314c1f62c4d6661a00348b638327fd32dc877f951"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 974,
+      "sha256": "8c048cba86e059be9f6e53e27b0e8e7cb4e7ffe957a7cedd2b85546a20bd58ca"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 756,
+      "sha256": "10edf0c6bb75e242af0f45e4f9ed0f150ab16bf65601db7c0694b20ce445034c"
+    },
+    {
+      "path": "doodle-720p25.mp4",
+      "bytes": 132713,
+      "sha256": "aa5d272d7315f8eaddb4f1418937e4595f9402c8e65486bf83af238139b61b58"
+    },
+    {
+      "path": "build.py",
+      "bytes": 18227,
+      "sha256": "8e446d49fd842ae12cfbd72b913f1988bf12e58690231be8bc15681a770f9884"
+    }
   ]
 }

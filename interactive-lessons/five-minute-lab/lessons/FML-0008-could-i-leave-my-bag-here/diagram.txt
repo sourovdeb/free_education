@@ -1,7 +1,3 @@
-PERMISSION       ACTION + OBJECT       PLACE       TIME LIMIT
-Could I      +    leave my bag     +    here    +  until three?
+A four-part sentence map shows permission, action and object, place, and time limit: Could I | leave my bag | here | until three?
 
-Meaning:
-Could I...? = permission request.
-leave my bag = put it there.
-until three = up to 3:00.
+PERMISSION: Could I | ACTION + OBJECT: leave my bag | PLACE: here | TIME LIMIT: until three
