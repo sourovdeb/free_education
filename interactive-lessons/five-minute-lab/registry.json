@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0016",
+  "next_lesson_id": "FML-0017",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -370,16 +370,34 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0016",
+      "version": "1.0.0",
+      "title": "Chips, Not Salad",
+      "slug": "replace-the-wrong-side-dish",
+      "pathway": "use-english",
+      "interaction_family": "order-correction-and-readback",
+      "objective": "Ask a restaurant to replace the wrong side dish, then confirm the corrected order.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0016-replace-the-wrong-side-dish/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "31f0a331e062a72b590b390fe2830801e4dd6618",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": {
-    "lesson_id": "FML-0016",
-    "run_id": "automation-20260927T220053Z",
-    "acquired_at": "2026-09-27T22:00:53Z",
-    "expires_at": "2026-09-28T00:00:53Z",
-    "status": "building"
-  },
-  "revision": 23,
+  "lease": null,
+  "revision": 24,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
