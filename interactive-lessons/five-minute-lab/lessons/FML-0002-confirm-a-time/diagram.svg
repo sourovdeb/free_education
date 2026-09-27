@@ -1,14 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
-<title id="title">Check the detail before leaving</title>
-<desc id="desc">A four-step path: hear a booking, identify the risky detail, repeat that detail, ask for confirmation.</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker></defs>
-<g fill="#fff" stroke="#111" stroke-width="3">
-<rect x="25" y="80" width="180" height="120" rx="10"/><rect x="275" y="80" width="200" height="120" rx="10"/><rect x="545" y="80" width="180" height="120" rx="10"/><rect x="795" y="80" width="180" height="120" rx="10"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 390" role="img" aria-label="A four-step path from hearing a booking to confirming it: hear Thursday at 7:30, select the day and time, repeat the details, then ask right?">
+<rect width="900" height="390" fill="white"/>
+<g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="28" y="120" width="185" height="126"/><rect x="247" y="120" width="185" height="126"/><rect x="466" y="120" width="185" height="126"/><rect x="685" y="120" width="185" height="126"/>
+<path d="M213 183h34m185 0h34m185 0h34"/><path d="m235 172 12 11-12 11m219-22 12 11-12 11m219-22 12 11-12 11"/>
+<path d="M70 152h102v58H70zM84 171h74m-74 19h50"/><path d="M284 151h110v61H284zM300 170h78m-78 20h55"/>
+<path d="M505 150h108v64H505zM521 169h76m-76 21h76"/><path d="M725 151h104v63H725zM741 170h72m-72 21h48"/>
 </g>
-<g stroke="#111" stroke-width="4" marker-end="url(#arrow)"><line x1="205" y1="140" x2="265" y2="140"/><line x1="475" y1="140" x2="535" y2="140"/><line x1="725" y1="140" x2="785" y2="140"/></g>
-<g fill="#111" font-family="Arial,sans-serif" text-anchor="middle">
-<text x="115" y="128" font-size="30" font-weight="700">HEAR</text><text x="115" y="167" font-size="23">booking</text>
-<text x="375" y="120" font-size="28" font-weight="700">FIND</text><text x="375" y="158" font-size="22">risky detail</text><text x="375" y="187" font-size="18">day / time / place</text>
-<text x="635" y="128" font-size="29" font-weight="700">REPEAT</text><text x="635" y="167" font-size="22">the detail</text>
-<text x="885" y="128" font-size="29" font-weight="700">CHECK</text><text x="885" y="167" font-size="22">confirm it</text>
+<g fill="#111" font-family="system-ui,sans-serif" text-anchor="middle">
+<text x="450" y="52" font-size="30" font-weight="700">CHECK THE BOOKING DETAIL</text>
+<text x="120" y="100" font-size="21" font-weight="700">HEAR</text><text x="120" y="278" font-size="18">Thursday, 7:30</text>
+<text x="340" y="100" font-size="21" font-weight="700">SELECT</text><text x="340" y="278" font-size="18">day + time</text>
+<text x="558" y="100" font-size="21" font-weight="700">REPEAT</text><text x="558" y="278" font-size="18">7:30 on Thursday</text>
+<text x="778" y="100" font-size="21" font-weight="700">CHECK</text><text x="778" y="278" font-size="18">right?</text>
+<text x="450" y="345" font-size="22">Repeat the exact details before asking for confirmation.</text>
 </g></svg>
