@@ -37,6 +37,30 @@
       "revision_of": "1.0.0"
     },
     {
+      "id": "FML-0005",
+      "version": "1.1.0",
+      "title": "The Shower Isn't Working",
+      "slug": "the-shower-isnt-working",
+      "pathway": "use-english",
+      "interaction_family": "problem-report-builder",
+      "objective": "Report a hotel room malfunction with evidence, request help, then confirm the room and response time.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0005-the-shower-isnt-working/",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "7992f14414bf16bc81e2366510d0e1331c185a50",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent",
+      "revision_of": "1.0.0"
+    },
+    {
       "id": "FML-0006",
       "version": "1.1.0",
       "title": "Is Breakfast Included?",
@@ -157,7 +181,7 @@
     }
   ],
   "lease": null,
-  "revision": 10,
+  "revision": 11,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -181,6 +205,7 @@
     "FML-0008 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
     "FML-0007 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
     "FML-0006 v1.1.0 is mirrored and owner-delivered. Version 1.0.0 remains preserved.",
-    "FML-0002 through FML-0005 still require registry reconciliation."
+    "FML-0005 v1.1.0 is mirrored and owner-delivered. The empty v1.0.0 Drive checkpoint remains preserved.",
+    "FML-0002 through FML-0004 still require registry reconciliation."
   ]
 }
