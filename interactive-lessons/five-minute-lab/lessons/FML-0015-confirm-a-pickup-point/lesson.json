@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0015",
+  "version": "1.0.0",
+  "title": "Not the Main Entrance - the Taxi Rank",
+  "slug": "confirm-a-pickup-point",
+  "pathway": "use-english",
+  "interaction_family": "location-correction-and-readback",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Understand simple place words and clock times.", "Recognise a short confirmation question."],
+  "observable_outcome": "The learner corrects one mistaken pickup location, then confirms the landmark and pickup time in a complete checking question.",
+  "learning_objective": "Correct a mistaken pickup location, then confirm the landmark and pickup time accurately.",
+  "scenario": {
+    "setting": "A phone call with a taxi driver before a station pickup.",
+    "prompt": "The driver says: I'll meet you at the station main entrance at 8:15. Your booking says: taxi rank beside the blue clock, 8:15.",
+    "puzzle": "Which detail is wrong, and how can you correct it before confirming the full pickup point?",
+    "privacy_note": "The station, driver, time, and booking details are fictional teaching data."
+  },
+  "model": {
+    "clarify": "Sorry, not the main entrance - the taxi rank beside the blue clock.",
+    "customer_reply": "The driver says: Yes, the taxi rank beside the blue clock.",
+    "confirm": "So you'll meet me at the taxi rank beside the blue clock at 8:15, right?",
+    "neutral_variant": "Just to clarify, the pickup point is the taxi rank beside the blue clock, not the main entrance."
+  },
+  "language_focus": {
+    "grammar": "A concise correction can contrast not X with Y: not the main entrance - the taxi rank. In the full readback, at introduces the exact meeting point and the clock time: at the taxi rank ... at 8:15.",
+    "meaning": "The time is already correct; the mistaken detail is the place. Beside means next to or at the side of something. The landmark makes the taxi rank easier to identify.",
+    "appropriateness": "Sorry or Just to clarify makes the correction polite and direct. State the correct place immediately, then repeat place, landmark, and time so the driver can confirm.",
+    "detail_language": "At can identify an exact position such as an entrance and also a clock time. Beside the blue clock adds a visible landmark; colour is repeated in words, so colour is not the only cue."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "Compare the driver's message with the booking. Which detail is mistaken?",
+    "options": [
+      {"text": "The pickup location", "correct": true, "feedback": "Correct. Both messages say 8:15, but the driver says main entrance and the booking says taxi rank."},
+      {"text": "The pickup time", "correct": false, "feedback": "Both messages say 8:15. The location is the detail that changes."},
+      {"text": "The person collecting you", "correct": false, "feedback": "The driver is already clear. Correct the meeting place, then confirm the landmark and time."}
+    ]
+  },
+  "request_activity": {
+    "id": "decision-2",
+    "prompt": "Choose a clear, polite correction.",
+    "options": [
+      {"text": "Sorry, not the main entrance - the taxi rank beside the blue clock.", "correct": true, "feedback": "Correct. It names the wrong place, supplies the right place, and includes the landmark."},
+      {"text": "Just to clarify, the pickup point is the taxi rank beside the blue clock, not the main entrance.", "correct": true, "feedback": "Also correct. Just to clarify softens the correction, and the exact pickup point comes before the contrast."},
+      {"text": "No. Wrong.", "correct": false, "feedback": "This rejects the message but does not supply the correct pickup point. Name the taxi rank and landmark."}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each detail to its readback slot.",
+    "slots": ["place", "landmark", "time"],
+    "items": [
+      {"detail": "the taxi rank", "answer": "place", "feedback": {"place": "Correct. This is the pickup place.", "landmark": "The taxi rank is the place itself, not the object beside it.", "time": "The taxi rank tells where, not when."}},
+      {"detail": "beside the blue clock", "answer": "landmark", "feedback": {"place": "This phrase helps identify the place, but the place itself is the taxi rank.", "landmark": "Correct. The blue clock is the visible reference next to the taxi rank.", "time": "This phrase tells where the rank is, not when pickup happens."}},
+      {"detail": "at 8:15", "answer": "time", "feedback": {"place": "8:15 is a clock time, not a meeting place.", "landmark": "8:15 is not a visible object near the rank.", "time": "Correct. At introduces the clock time."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "A hotel driver says: I'll collect you in the lobby at 6:40. Your message says: side entrance beside the pharmacy, 6:40.",
+    "instruction": "Write one polite correction. Then write one complete confirmation with the correct place, landmark, and time.",
+    "acceptable_responses": [
+      "Sorry, not the lobby - the side entrance beside the pharmacy. So you'll collect me at the side entrance beside the pharmacy at 6:40, right?",
+      "Just to clarify, the pickup point is the side entrance beside the pharmacy, not the lobby. That's the side entrance beside the pharmacy at 6:40, correct?"
+    ],
+    "rubric": [
+      "I politely corrected the wrong place.",
+      "I stated the correct pickup place.",
+      "I included the landmark.",
+      "I repeated the time and invited confirmation."
+    ],
+    "valid_variants": "Next to can replace beside here. Is that correct?, right?, and correct? can all invite confirmation. A speaker may omit the wrong place if the correct pickup point is stated clearly, but naming the contrast can prevent another mix-up."
+  },
+  "review_prompt": "Tomorrow, recall the three readback slots for a pickup point. Then correct one wrong place and confirm place, landmark, and time.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["station facade", "driver and passenger cutouts", "taxi", "main-entrance card", "taxi-rank sign", "blue clock", "time token", "speech cards"],
+    "cutout_assets": ["station", "person", "taxi", "entrance card", "rank sign", "clock", "time token", "speech card", "route arrow", "check mark"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Layered station, taxi, location cards, clock, and speech pieces use cream cut edges and offset shadows.",
+    "motion_principle": "The taxi first moves toward the wrong entrance, then redirects to the taxi rank; the blue clock pivots into place and the place, landmark, and time cards stack for the readback. Captions remain fixed.",
+    "accessibility": "Dark navy text on cream panels; every colour-coded place also has a word label, icon, and shape."
+  },
+  "scenes": [
+    {"id": "mismatch", "title": "Spot the mismatch", "caption": "The driver says main entrance. Your booking says taxi rank.", "explanation": "A taxi slides toward the main entrance while the booking card reveals taxi rank beside the blue clock.", "motion_cues": ["taxi enters", "main entrance card rises", "booking card reveals"]},
+    {"id": "redirect", "title": "Correct the place", "caption": "Not the main entrance - the taxi rank.", "explanation": "The wrong route folds away. A new arrow slides toward the labelled taxi-rank sign.", "motion_cues": ["wrong route folds", "correct route slides", "rank sign rises"]},
+    {"id": "say", "title": "Say the correction", "caption": "Sorry, not the main entrance - the taxi rank beside the blue clock.", "explanation": "A layered speech card unfolds. The wrong-place piece moves out and the correct place moves in.", "motion_cues": ["speech card unfolds", "wrong place exits", "correct place enters"]},
+    {"id": "landmark", "title": "Add the landmark", "caption": "The taxi rank is beside the blue clock.", "explanation": "A blue clock pivots beside the taxi-rank sign. The word beside bridges the two labelled pieces.", "motion_cues": ["clock pivots", "sign slides", "beside bridge appears"]},
+    {"id": "confirm", "title": "Confirm all three details", "caption": "Taxi rank beside the blue clock at 8:15, right?", "explanation": "Place, landmark, and time cards stack in order. A check mark pivots beside the full readback.", "motion_cues": ["place card slides", "landmark card slides", "time card slides", "check mark pivots"]},
+    {"id": "transfer", "title": "Your hotel pickup", "caption": "Side entrance beside the pharmacy at 6:40.", "explanation": "The lobby card moves aside. A side-entrance door and pharmacy cross slide together before the 6:40 token arrives.", "motion_cues": ["lobby card exits", "side entrance enters", "pharmacy marker slides", "time token arrives"]}
+  ],
+  "visual": {
+    "title": "Correct the place, then confirm place, landmark, and time",
+    "alt_text": "A colourful layered papercut flow. A main-entrance route is crossed out and redirected to a taxi rank. A blue clock appears beside the rank. Three labelled cards - place, landmark, and time - stack into one confirmation question.",
+    "prose": "First compare the spoken message with the booking. Correct only the mistaken place. Add the landmark to identify the exact point. Then repeat the place, landmark, and time in one confirmation question."
+  },
+  "sources": [
+    {"institution": "British Council LearnEnglish", "title": "Prepositions of place: in, on, at", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/prepositions-place", "accessed": "2026-09-27", "inspected": "The A1-A2 explanation states that at can mark common meeting places and exact positions, including a station and an entrance.", "limitation": "It supports the location pattern, not this original taxi scenario."},
+    {"institution": "British Council LearnEnglish", "title": "Prepositions of time: at, in, on", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/prepositions-of-time-at-in-on", "accessed": "2026-09-27", "inspected": "The A1-A2 explanation states that at is usually used with clock times.", "limitation": "It supports at 8:15, not the lesson's complete dialogue."},
+    {"institution": "Cambridge Dictionary", "title": "Beside or besides?", "url": "https://dictionary.cambridge.org/grammar/british-grammar/beside-or-besides", "accessed": "2026-09-27", "inspected": "The indexed Cambridge grammar result defines beside as at the side of or next to.", "limitation": "Direct page retrieval returned a 403. The indexed definition snippet was inspected; no dictionary example is reproduced."}
+  ],
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Grammar and word meanings are paraphrased with links. No protected exercise or artwork is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}
