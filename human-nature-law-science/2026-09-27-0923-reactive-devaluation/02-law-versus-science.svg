@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Law versus science</title>
+<desc id="desc">Law may consider source bias, while science warns that source identity can distort merit judgments.</desc>
+<defs><style>.h{font:700 36px Arial}.t{font:700 23px Arial}.s{font:19px Arial}.b{fill:#fff;stroke:#111;stroke-width:2}.g{fill:#f2f2f2;stroke:#111;stroke-width:2}</style></defs>
+<rect width="1200" height="800" fill="#fff"/>
+<text x="55" y="65" class="h">Law Versus Science</text>
+<text x="55" y="105" class="s">Source matters. Merit matters.</text>
+
+<rect x="60" y="160" width="500" height="470" rx="6" class="b"/>
+<text x="95" y="210" class="t">LAW</text>
+<text x="95" y="260" class="s">Source bias can matter.</text>
+<text x="95" y="305" class="s">Witness motives can matter.</text>
+<text x="95" y="350" class="s">Group ties can matter.</text>
+<text x="95" y="395" class="s">Prejudice still needs limits.</text>
+<text x="95" y="440" class="s">Rule 403 balances risk.</text>
+<text x="95" y="510" class="t">Core question</text>
+<text x="95" y="550" class="s">Is source evidence probative?</text>
+
+<rect x="640" y="160" width="500" height="470" rx="6" class="g"/>
+<text x="675" y="210" class="t">SCIENCE</text>
+<text x="675" y="260" class="s">Source labels shift ratings.</text>
+<text x="675" y="305" class="s">Mistrust can overshoot.</text>
+<text x="675" y="350" class="s">Identity can distort value.</text>
+<text x="675" y="395" class="s">Threat can change construal.</text>
+<text x="675" y="440" class="s">Blind review can help.</text>
+<text x="675" y="510" class="t">Core question</text>
+<text x="675" y="550" class="s">Did source change merit?</text>
+
+<rect x="250" y="670" width="700" height="80" rx="6" class="b"/>
+<text x="320" y="718" class="t">Bridge: evaluate both separately.</text>
+</svg>
