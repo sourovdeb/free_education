@@ -1,0 +1,101 @@
+{
+  "title": "Hindsight Bias",
+  "question": "What buried human trait creates conflict between scientific evidence, legal assumptions, moral judgment, and social self-image?",
+  "disturbingTruth": "Knowing outcomes rewrites foresight.",
+  "doesNotProve": "Experts always misjudge past choices.",
+  "chapters": [
+    {
+      "title": "The trap",
+      "body": "Outcome knowledge changes perspective. Earlier uncertainty becomes harder. The mind remembers a cleaner path. Matching clues gain weight. Rival clues lose salience. This creates false inevitability. Hindsight does not require lying. The reviewer may feel sincere. That sincerity matters legally. It matters scientifically too. A meta-analysis found robust effects. Another found smaller effects. Their estimates differed. Methods partly explain that difference. The effect therefore has boundaries. It is not destiny. Yet modest shifts can matter. They can affect blame. They can affect prevention. They can affect institutional learning. The remedy begins with records. Write forecasts before outcomes. Record alternative paths. Record confidence levels. Preserve ignored evidence. Then compare later judgments. The goal is calibration. Learning needs outcomes. Fair judgment needs uncertainty. Both must coexist.",
+      "evidence": "Meta-analyses support hindsight effects.",
+      "interpretation": "Known outcomes can compress uncertainty.",
+      "uncertainty": "Effect sizes vary by method."
+    },
+    {
+      "title": "Law versus hindsight",
+      "body": "Legal systems often judge reasonableness. Reasonableness belongs to prior time. Hindsight belongs to later time. That creates friction. Foreseeability standards try compensating. Courts ask what was knowable. Research shows difficulty. Outcome knowledge can alter estimates. Yet legal structure can constrain effects. The 900-judge study illustrates this. Probability estimates moved. Probable-cause decisions did not. That counterargument matters. Bias does not automatically control rulings. Another large project differed. Bankruptcy outcomes changed foreseeability. Conduct ratings became harsher. Responsibility effects stayed mixed. So context matters. Legal rules sometimes buffer psychology. Sometimes they do not. The safeguard is procedural. Reconstruct the information set. Exclude later facts when irrelevant. Use written standards. Compare similar cases. Preserve contemporaneous documents. Explain counterfactuals. The question stays simple. What could they know then? Not what we know now.",
+      "evidence": "Judge studies show mixed effects.",
+      "interpretation": "Procedure can buffer bias.",
+      "uncertainty": "Rulings may resist estimate shifts."
+    },
+    {
+      "title": "Investigation pressure",
+      "body": "Investigators work backward. Harm already happened. Evidence then enters a story. That structure invites hindsight. Known outcomes can sharpen clues. Ambiguous warnings look stronger. Missed opportunities look obvious. Yet direct homicide evidence remains limited. One forensic study used homicide outcomes. Outcome knowledge increased risk ratings. Police studies show related confirmation processes. They are not identical. Initial theories can shape evidence. Hindsight can later reinforce them. Good procedure separates stages. Record hypotheses early. Record alternatives too. Keep confidence estimates. Preserve rejected leads. Mark when facts arrived. Independent review can challenge narratives. Blind review can help sometimes. These practices do not accuse investigators. They protect investigators too. Later scrutiny becomes fairer. Courts receive clearer timelines. Defense teams see information states. Victims receive stronger process. The goal is traceability. A case file should show uncertainty evolving.",
+      "evidence": "Forensic outcome studies show risk.",
+      "interpretation": "Known outcomes can sharpen clues.",
+      "uncertainty": "Homicide-specific evidence stays limited."
+    },
+    {
+      "title": "History after outcomes",
+      "body": "Historical narratives know endings. That creates structural bias. Later success looks planned. Later failure looks obvious. Political actors then seem predictable. Institutions seem either wise. Or they seem foolish. Both readings can overreach. The 9/11 Commission named hindsight. It warned against bright paths. One realized sequence dominates memory. Alternative possibilities stay shadowed. That does not erase responsibility. It changes method. Historians should use dated records. They should separate later testimony. They should preserve competing forecasts. They should mark unknowns. Public archives enable this. Neutrality also matters. Hindsight applies across parties. It applies across regimes. It applies across institutions. No political ranking follows. The mechanism concerns cognition. Not ideology. Good history restores uncertainty. Then it judges choices. Evidence comes first. Interpretation comes next. Moral judgment remains possible. It should rest on contemporary knowledge.",
+      "evidence": "The 9/11 Commission warned about hindsight.",
+      "interpretation": "Known endings reshape historical narratives.",
+      "uncertainty": "This does not erase responsibility."
+    },
+    {
+      "title": "Nietzsche lens",
+      "body": "Nietzsche distrusted causal stories. He also attacked moral certainty. That creates a lens. It does not create evidence. After bad outcomes, people seek causes. They seek agents. They seek responsibility. Hindsight can make those stories cleaner. Nietzsche might call that simplification. Psychology tests the narrower process. Studies measure changed estimates. Studies measure memory shifts. Legal research tests judgments. Nietzsche measures none of these. His role is diagnostic. He asks uncomfortable questions. When did blame harden? Which facts existed then? Which facts arrived later? What alternatives disappeared? Those questions can improve inquiry. They cannot answer it. Data still decides empirical claims. Law still decides legal standards. History still checks documents. Philosophy can expose assumptions. It cannot replace methods. That boundary protects rigor. It also preserves Nietzsche’s proper role.",
+      "evidence": "No empirical claim comes from Nietzsche.",
+      "interpretation": "His lens questions causal certainty.",
+      "uncertainty": "Philosophy cannot establish mechanisms."
+    },
+    {
+      "title": "Greene and safeguards",
+      "body": "Greene writes about strategy. His claims are interpretive. He is not evidence. Still, his advice overlaps safeguards. Distance can reduce certainty. Multiple perspectives expose stories. Counterfactual thinking restores alternatives. Research supports some techniques. Results remain inconsistent. A 2024 forensic study helps. Novices showed hindsight effects. Experts showed less evidence. Awareness helped novices. The sample remained small. Replication would strengthen confidence. The best safeguard is layered. Record prior forecasts. Preserve confidence estimates. Generate alternative outcomes. Mark information dates. Blind irrelevant outcomes. Use independent reviewers. Compare contemporaneous evidence. Separate prediction from explanation. These checks make uncertainty visible. They do not remove judgment. They improve its audit trail. Greene’s strategic language can frame discipline. Science determines whether techniques work. Where they conflict, science wins.",
+      "evidence": "Awareness may help some novices.",
+      "interpretation": "Layered safeguards restore uncertainty.",
+      "uncertainty": "Debiasing evidence remains mixed."
+    }
+  ],
+  "visuals": [
+    "01-mechanism-flow.svg",
+    "02-law-versus-science.svg",
+    "03-concrete-scenario.svg"
+  ],
+  "sources": [
+    {
+      "label": "Guilbault et al. 2004",
+      "url": "https://doi.org/10.1080/01973533.2004.9646399"
+    },
+    {
+      "label": "Christensen-Szalanski and Willham 1991",
+      "url": "https://doi.org/10.1016/0749-5978(91)90010-Q"
+    },
+    {
+      "label": "Giroux et al. 2016",
+      "url": "https://doi.org/10.1027/2151-2604/a000253"
+    },
+    {
+      "label": "Strohmaier et al. 2021",
+      "url": "https://doi.org/10.1111/jasp.12722"
+    },
+    {
+      "label": "Rachlinski et al. 2011",
+      "url": "https://doi.org/10.1111/j.1740-1461.2011.01230.x"
+    },
+    {
+      "label": "Beltrani et al. 2018",
+      "url": "https://doi.org/10.1080/14999013.2018.1505790"
+    },
+    {
+      "label": "Forensic study 2024",
+      "url": "https://doi.org/10.1080/24732850.2024.2396991"
+    },
+    {
+      "label": "9/11 Commission Chapter 11",
+      "url": "https://www.9-11commission.gov/report/911Report_Ch11.htm"
+    },
+    {
+      "label": "Cornell foreseeability",
+      "url": "https://www.law.cornell.edu/wex/foreseeability"
+    },
+    {
+      "label": "Nietzsche primary text",
+      "url": "https://www.gutenberg.org/files/52263/52263-h/52263-h.htm"
+    },
+    {
+      "label": "Robert Greene publisher",
+      "url": "https://www.penguinrandomhouse.com/books/317474/the-laws-of-human-nature-by-robert-greene/9780698184541/"
+    }
+  ]
+}
