@@ -1,0 +1,221 @@
+{
+  "status": "complete_visual_gate",
+  "title": "Deals, Data, and Human Costs",
+  "local_timestamp": "2026-09-28T05:00:00+04:00",
+  "folder": "history-investigations/2026-09-28/0500-deals-data-and-human-costs",
+  "cards": [
+    {
+      "title": "Rubber concessions rewarded coercion",
+      "word_count": 148,
+      "sources": 3
+    },
+    {
+      "title": "Recognition carried a price",
+      "word_count": 153,
+      "sources": 4
+    },
+    {
+      "title": "War-crimes data shaped immunity",
+      "word_count": 155,
+      "sources": 3
+    },
+    {
+      "title": "The missile bargain stayed private",
+      "word_count": 153,
+      "sources": 3
+    },
+    {
+      "title": "Insurance priced mass killing",
+      "word_count": 159,
+      "sources": 4
+    },
+    {
+      "title": "Primitive Echo: sharing buffers risk",
+      "word_count": 162,
+      "sources": 4
+    }
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "width": 1280,
+    "height": 720,
+    "fps": 25,
+    "frames": 4500,
+    "audio": false,
+    "sha256": "ee27058bb47aad3da139e0e0f40590079384602cdd1b6f074629811775b8aa28"
+  },
+  "motion_gate": [
+    {
+      "chapter": 1,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        11.76,
+        10.69
+      ],
+      "moving_objects": [
+        "concession",
+        "village labor",
+        "wild rubber",
+        "export profit",
+        "1904 report"
+      ],
+      "captions": [
+        "Concessions divide forests.",
+        "Force extracts rubber.",
+        "Reports expose coercion."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 2,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        12.31,
+        13.26
+      ],
+      "moving_objects": [
+        "French fleet",
+        "1825 ordinance",
+        "French banks",
+        "payments",
+        "many causes"
+      ],
+      "captions": [
+        "Warships carry demands.",
+        "Haiti borrows payment.",
+        "Causation stays bounded."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 3,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        9.73,
+        12.1
+      ],
+      "moving_objects": [
+        "prisoners",
+        "experiment data",
+        "occupation",
+        "immunity",
+        "declassified files"
+      ],
+      "captions": [
+        "Prisoners become subjects.",
+        "Investigators seek data.",
+        "Archives reveal bargaining."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 4,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        10.29,
+        13.38
+      ],
+      "moving_objects": [
+        "Cuban missiles",
+        "quarantine",
+        "private terms",
+        "Turkey Jupiters",
+        "face-saving",
+        "declassified"
+      ],
+      "captions": [
+        "Missiles face missiles.",
+        "Private terms cross rooms.",
+        "Public memory simplifies."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 5,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        10.38,
+        15.48
+      ],
+      "moving_objects": [
+        "Zong",
+        "captives",
+        "Atlantic",
+        "insurance claim",
+        "King\u2019s Bench",
+        "Sharp\u2019s record"
+      ],
+      "captions": [
+        "Navigation extends passage.",
+        "Owners file insurance.",
+        "Abolitionists spread evidence."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 6,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        9.27,
+        12.0
+      ],
+      "moving_objects": [
+        "hunter",
+        "surplus",
+        "camp partners",
+        "shared portions",
+        "reciprocity",
+        "norms"
+      ],
+      "captions": [
+        "One hunter gains surplus.",
+        "Partners receive portions.",
+        "Norms limit exploitation."
+      ],
+      "status": "passed"
+    }
+  ],
+  "website": {
+    "wordpress_ready": true,
+    "published": false,
+    "reason": "Hostinger actions unavailable"
+  },
+  "files": [
+    "README.md",
+    "edition.md",
+    "wordpress-draft.html",
+    "evidence.svg",
+    "lesson.json",
+    "lesson-viewer.html",
+    "render_video.py",
+    "build_assets.py",
+    "cards_data.py",
+    "history-investigation.mp4",
+    "QA.md",
+    "manifest.json"
+  ]
+}
