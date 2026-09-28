@@ -397,7 +397,7 @@ def frame(index, seconds):
 
 def render():
     out=ROOT/"history-investigation.mp4"
-    cmd=["ffmpeg","-y","-loglevel","error","-f","rawvideo","-pix_fmt","rgb24","-s",f"{W}x{H}","-r","25","-i","-","-vf","scale=1280:720:flags=lanczos","-an","-c:v","libx264","-preset","slow","-crf","43","-pix_fmt","yuv420p","-movflags","+faststart",str(out)]
+    cmd=["ffmpeg","-y","-loglevel","error","-f","rawvideo","-pix_fmt","rgb24","-s",f"{W}x{H}","-r","25","-i","-","-vf","scale=1280:720:flags=lanczos","-an","-c:v","libx264","-preset","slow","-crf","47","-pix_fmt","yuv420p","-movflags","+faststart",str(out)]
     proc=subprocess.Popen(cmd,stdin=subprocess.PIPE)
     try:
         for chapter in range(6):
