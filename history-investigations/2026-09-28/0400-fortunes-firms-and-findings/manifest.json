@@ -42,7 +42,7 @@
     "fps": 25,
     "frames": 4500,
     "audio": false,
-    "sha256": "b74a00fbdb6494c30d070ac55a2e348994cdb163deb1867bb8eca8d6fae63677"
+    "sha256": "dcb62b01619d8dd4927bbee12060f258b729fa1530309cd6e91e7d7fed94f27d"
   },
   "motion_gate": [
     {
@@ -53,8 +53,8 @@
         26
       ],
       "pixel_change_percent": [
-        10.92,
-        9.31
+        13.39,
+        10.14
       ],
       "moving_objects": [
         "Investor shares",
@@ -78,8 +78,8 @@
         26
       ],
       "pixel_change_percent": [
-        8.84,
-        9.16
+        9.66,
+        10.02
       ],
       "moving_objects": [
         "company shares",
@@ -103,8 +103,8 @@
         26
       ],
       "pixel_change_percent": [
-        5.18,
-        7.37
+        5.65,
+        8.18
       ],
       "moving_objects": [
         "draft article",
@@ -128,8 +128,8 @@
         26
       ],
       "pixel_change_percent": [
-        12.11,
-        12.26
+        15.07,
+        14.68
       ],
       "moving_objects": [
         "EUGT funding",
@@ -154,8 +154,8 @@
         26
       ],
       "pixel_change_percent": [
-        9.06,
-        8.32
+        10.57,
+        10.51
       ],
       "moving_objects": [
         "company studies",
@@ -179,8 +179,8 @@
         26
       ],
       "pixel_change_percent": [
-        6.92,
-        9.15
+        7.59,
+        10.63
       ],
       "moving_objects": [
         "coalition",
