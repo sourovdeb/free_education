@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Truth-default mechanism flow</title>
+<desc id="desc">A flow diagram showing acceptance, suspicion triggers, verification, and possible error.</desc>
+<defs><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="8" dy="10" stdDeviation="5" flood-color="#111" flood-opacity="0.28"/></filter><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#151515"/></marker></defs>
+<rect width="1280" height="720" fill="#c9b58f"/>
+<rect x="30" y="30" width="1220" height="660" rx="6" fill="#e6dcc7" stroke="#151515" stroke-width="3" filter="url(#shadow)"/>
+<text x="70" y="90" font-family="monospace" font-size="34" font-weight="bold" fill="#151515">TRUTH-DEFAULT MECHANISM</text>
+<rect x="80" y="150" width="250" height="150" fill="#eee7d8" stroke="#151515" stroke-width="3"/>
+<text x="100" y="188" font-family="monospace" font-size="24" font-weight="bold" fill="#151515">1. MESSAGE</text>
+<text x="100" y="226" font-family="monospace" font-size="19" fill="#151515">Statement arrives.</text>
+<text x="100" y="256" font-family="monospace" font-size="19" fill="#151515">Default: accept.</text>
+<rect x="390" y="150" width="250" height="150" fill="#eee7d8" stroke="#151515" stroke-width="3"/>
+<text x="410" y="188" font-family="monospace" font-size="24" font-weight="bold" fill="#8f1d1d">2. FILTER</text>
+<text x="410" y="226" font-family="monospace" font-size="19" fill="#151515">Suspicion trigger?</text>
+<text x="410" y="256" font-family="monospace" font-size="19" fill="#151515">Often absent.</text>
+<rect x="700" y="150" width="250" height="150" fill="#eee7d8" stroke="#151515" stroke-width="3"/>
+<text x="720" y="188" font-family="monospace" font-size="24" font-weight="bold" fill="#151515">3. CHECK</text>
+<text x="720" y="226" font-family="monospace" font-size="19" fill="#151515">Verify details.</text>
+<text x="720" y="256" font-family="monospace" font-size="19" fill="#151515">Seek records.</text>
+<line x1="330" y1="225" x2="378" y2="225" stroke="#151515" stroke-width="5" marker-end="url(#arrow)"/>
+<line x1="640" y1="225" x2="688" y2="225" stroke="#151515" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="390" y="390" width="250" height="150" fill="#eee7d8" stroke="#151515" stroke-width="3"/>
+<text x="410" y="428" font-family="monospace" font-size="24" font-weight="bold" fill="#151515">NO TRIGGER</text>
+<text x="410" y="466" font-family="monospace" font-size="19" fill="#151515">Message accepted.</text>
+<text x="410" y="496" font-family="monospace" font-size="19" fill="#151515">Checking stops.</text>
+<line x1="515" y1="300" x2="515" y2="378" stroke="#8f1d1d" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="640" y="610" font-family="monospace" font-size="25" font-weight="bold" fill="#8f1d1d" text-anchor="middle">Risk: plausible lies pass.</text>
+<text x="640" y="650" font-family="monospace" font-size="22" fill="#151515" text-anchor="middle">Benefit: social exchange stays efficient.</text>
+</svg>
