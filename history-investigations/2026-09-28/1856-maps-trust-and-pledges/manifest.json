@@ -1,0 +1,120 @@
+{
+  "edition": "2026-09-28/1856-maps-trust-and-pledges",
+  "status": "complete_visual_gate",
+  "title": "Maps, Trust, and Pledges",
+  "word_counts": [
+    151,
+    160,
+    155,
+    147,
+    163,
+    155
+  ],
+  "source_counts": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "resolution": "1280x720",
+    "fps": 25,
+    "audio_streams": 0,
+    "status": "passed"
+  },
+  "repository_video": "included; Git blob hash matched local file",
+  "rendered_frame_review": {
+    "seconds_per_chapter": [
+      4,
+      15,
+      26
+    ],
+    "mean_pixel_differences_percent": [
+      [
+        4.84017,
+        4.91156
+      ],
+      [
+        2.36004,
+        3.46127
+      ],
+      [
+        3.04061,
+        4.22943
+      ],
+      [
+        4.19899,
+        4.20011
+      ],
+      [
+        5.44293,
+        5.58117
+      ],
+      [
+        2.61832,
+        3.22218
+      ]
+    ],
+    "inspection": "passed scene-specific causal motion"
+  },
+  "viewer_controls": [
+    "scrub",
+    "pause",
+    "step back",
+    "step forward",
+    "replay",
+    "causal object buttons",
+    "sources",
+    "reduced motion"
+  ],
+  "website": "unpublished file only",
+  "files": {
+    "README.md": {
+      "bytes": 432,
+      "sha256": "4ef534a52e31b1e5d7391d3c2427f9ae0753c2cd92b3d267cd09f46a32dabb32"
+    },
+    "edition.md": {
+      "bytes": 10711,
+      "sha256": "155e2df0d1af34e36ca6092c96f0b03fde57b48ec6dcaef45d3b91b118eefea3"
+    },
+    "wordpress-draft.html": {
+      "bytes": 12039,
+      "sha256": "9f719fe8031247f92e4d5ca9d94678529146b164d7ea9b74f5854f18ca5ebf99"
+    },
+    "evidence.svg": {
+      "bytes": 3082,
+      "sha256": "66536f2b79c0059ce4bad7f48bf041668c31953d1e9ac5e8f7f6d9cc4b9cadac"
+    },
+    "lesson.json": {
+      "bytes": 35802,
+      "sha256": "5101796958536dc3691da2e32491a2d6333dbac83ca1fcb87aa4ed5f941e0423"
+    },
+    "lesson-viewer.html": {
+      "bytes": 23402,
+      "sha256": "3f6b13126295e77dbdef32beb55135bbd63e21a8a9e89fb9d34a08c4f5f4dcdc"
+    },
+    "cards.json": {
+      "bytes": 18254,
+      "sha256": "dfede9c3bc199f59cf83ea0a4942c66adc7ab1e7086d3b4e09f6f6ea82201eb5"
+    },
+    "render_video.py": {
+      "bytes": 54554,
+      "sha256": "497da2960bee9af91a1707805e62b5b135575d013debf1b6655e9efa4f48cdc4"
+    },
+    "QA.md": {
+      "bytes": 2254,
+      "sha256": "e208fcf3b4c516e17a84f0f5a685d0a3e4cd5195f9ec8bf5ec022803b9ffff71"
+    },
+    "history-investigation.mp4": {
+      "bytes": 769715,
+      "sha256": "716dbfd0a257150fda2e7250cbf2a676ff93e4354c2cccf84272603eb830bb38"
+    },
+    "rendered-contact-sheet.jpg": {
+      "bytes": 381767,
+      "sha256": "30c1a8a50eacbb186dcb1e4b5a5eb6e22b952b343702f139986750ae00c55310"
+    }
+  }
+}
