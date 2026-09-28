@@ -1,0 +1,119 @@
+{
+  "edition": "2026-09-28/1700-trade-risk-and-repair",
+  "status": "complete_visual_gate",
+  "title": "Trade, Risk, and Repair",
+  "word_counts": [
+    158,
+    159,
+    163,
+    160,
+    164,
+    158
+  ],
+  "source_counts": [
+    4,
+    3,
+    4,
+    4,
+    4,
+    4
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "resolution": "1280x720",
+    "fps": 25,
+    "audio_streams": 0,
+    "status": "passed"
+  },
+  "rendered_frame_review": {
+    "seconds_per_chapter": [
+      4,
+      15,
+      26
+    ],
+    "mean_pixel_differences_percent": [
+      [
+        4.26,
+        4.32
+      ],
+      [
+        3.33,
+        2.91
+      ],
+      [
+        3.49,
+        2.89
+      ],
+      [
+        3.89,
+        3.67
+      ],
+      [
+        3.33,
+        4.11
+      ],
+      [
+        3.56,
+        4.12
+      ]
+    ],
+    "inspection": "passed scene-specific causal motion"
+  },
+  "viewer_controls": [
+    "scrub",
+    "pause",
+    "step back",
+    "step forward",
+    "replay",
+    "causal object buttons",
+    "sources",
+    "reduced motion"
+  ],
+  "website": "unpublished file only",
+  "files": {
+    "README.md": {
+      "bytes": 428,
+      "sha256": "2c0f2df066c2d8678b46f274e488e44e92f2079d8cf85c61031dfcd757dcad13"
+    },
+    "edition.md": {
+      "bytes": 10800,
+      "sha256": "e2bf25daa2cb1f3b193c225106dcf4101156ef9c06a6fdf52f57c912202c8e73"
+    },
+    "wordpress-draft.html": {
+      "bytes": 12121,
+      "sha256": "8e8559f3d0a921846f9f952292395e500994d279b8a71e6ee1e994d653f1c464"
+    },
+    "evidence.svg": {
+      "bytes": 3105,
+      "sha256": "2be5b3ebdfbfcb5478dfb79ad7dda56c9678afca034f447218230782ca3abcc5"
+    },
+    "lesson.json": {
+      "bytes": 34151,
+      "sha256": "2f51b05f9cebfd2b8be161daaf1619376346d1ffd4b2f354b4c7216a27901849"
+    },
+    "lesson-viewer.html": {
+      "bytes": 22970,
+      "sha256": "f5c8a4232b774e518999b3f293f84ac4080c67385d33d54730ed7ba97679a2fc"
+    },
+    "cards.json": {
+      "bytes": 17854,
+      "sha256": "e08f535d875d4c931bae7fc302ed322775f64ac930e91201a228944b4b7f030b"
+    },
+    "render_video.py": {
+      "bytes": 46333,
+      "sha256": "afe8e47d8452348e5646b9b3f951cf0450b220aee13f8802a306d058023a6db2"
+    },
+    "QA.md": {
+      "bytes": 2150,
+      "sha256": "f0ba51c89611c3668d67237be8c5f3cc64265f8d69558adb5cf2eba95ebb9cbc"
+    },
+    "history-investigation.mp4": {
+      "bytes": 623140,
+      "sha256": "69becb130b2e072f876221fee6aea026cbfe61439317a2521f1688bcbcd27b86"
+    },
+    "rendered-contact-sheet.jpg": {
+      "bytes": 139516,
+      "sha256": "5bf2f3352799b13ff70885333d806b791c29f3b2fe45eff5d98deacbd876c02b"
+    }
+  }
+}
