@@ -1,0 +1,219 @@
+{
+  "status": "complete_visual_gate",
+  "title": "Fortunes, Firms, and Findings",
+  "local_timestamp": "2026-09-28T04:00:00+04:00",
+  "folder": "history-investigations/2026-09-28/0400-fortunes-firms-and-findings",
+  "cards": [
+    {
+      "title": "Wallenberg shares finance Swedish science",
+      "word_count": 154,
+      "sources": 4
+    },
+    {
+      "title": "Soap shares became research grants",
+      "word_count": 154,
+      "sources": 4
+    },
+    {
+      "title": "Vioxx papers obscured authorship",
+      "word_count": 147,
+      "sources": 4
+    },
+    {
+      "title": "Carmakers financed diesel experiments",
+      "word_count": 151,
+      "sources": 4
+    },
+    {
+      "title": "Glyphosate review lost credibility",
+      "word_count": 141,
+      "sources": 4
+    },
+    {
+      "title": "Primitive Echo: coalition vigilance",
+      "word_count": 152,
+      "sources": 3
+    }
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "width": 1280,
+    "height": 720,
+    "fps": 25,
+    "frames": 4500,
+    "audio": false,
+    "sha256": "b74a00fbdb6494c30d070ac55a2e348994cdb163deb1867bb8eca8d6fae63677"
+  },
+  "motion_gate": [
+    {
+      "chapter": 1,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        10.92,
+        9.31
+      ],
+      "moving_objects": [
+        "Investor shares",
+        "KAW",
+        "peer review",
+        "research",
+        "oversight"
+      ],
+      "captions": [
+        "Bank shares build capital.",
+        "Reviewers select research.",
+        "Governance limits concentration."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 2,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        8.84,
+        9.16
+      ],
+      "moving_objects": [
+        "company shares",
+        "Leverhulme",
+        "awards",
+        "fellows",
+        "portfolio risk"
+      ],
+      "captions": [
+        "Soap sales create wealth.",
+        "Returns finance grants.",
+        "Accounts expose concentration."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 3,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        5.18,
+        7.37
+      ],
+      "moving_objects": [
+        "draft article",
+        "academic author",
+        "trial records",
+        "cardiac risk",
+        "withdrawal"
+      ],
+      "captions": [
+        "Merck funds drug trials.",
+        "Academic names add authority.",
+        "Withdrawal changes the market."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 4,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        12.11,
+        12.26
+      ],
+      "moving_objects": [
+        "EUGT funding",
+        "VW Beetle",
+        "test chamber",
+        "monkeys",
+        "exhaust",
+        "audit"
+      ],
+      "captions": [
+        "Carmakers fund EUGT.",
+        "Exhaust reaches test monkeys.",
+        "Investigations split responsibility."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 5,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        9.06,
+        8.32
+      ],
+      "moving_objects": [
+        "company studies",
+        "2000 review",
+        "named authors",
+        "internal emails",
+        "retraction"
+      ],
+      "captions": [
+        "Monsanto supplies review material.",
+        "Academics carry authorship.",
+        "Retraction removes authority."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 6,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        6.92,
+        9.15
+      ],
+      "moving_objects": [
+        "coalition",
+        "shared cues",
+        "suspicion",
+        "documents",
+        "evidence"
+      ],
+      "captions": [
+        "People observe shared ties.",
+        "Threat raises vigilance.",
+        "Evidence limits belief."
+      ],
+      "status": "passed"
+    }
+  ],
+  "website": {
+    "wordpress_ready": true,
+    "published": false,
+    "reason": "Hostinger actions unavailable"
+  },
+  "files": [
+    "README.md",
+    "edition.md",
+    "wordpress-draft.html",
+    "evidence.svg",
+    "lesson.json",
+    "lesson-viewer.html",
+    "render_video.py",
+    "build_assets.py",
+    "cards_data.py",
+    "history-investigation.mp4",
+    "QA.md",
+    "manifest.json"
+  ]
+}
