@@ -444,8 +444,13 @@
       "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": null,
-  "revision": 28,
+  "lease": {
+    "run_id": "automation-20260928T005743Z",
+    "lesson_id": "FML-0019",
+    "acquired_at": "2026-09-28T00:57:43Z",
+    "expires_at": "2026-09-28T02:57:43Z"
+  },
+  "revision": 29,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
