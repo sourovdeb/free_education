@@ -1,0 +1,23 @@
+The Garlic Bread Is Missing
+
+One order item is absent.
+
+Use four steps:
+
+1. Check the receipt.
+2. Name the missing item.
+3. Choose replacement or refund.
+4. Confirm the details.
+
+Model:
+“My order is missing the garlic bread.”
+
+Then choose:
+“Could you send a replacement, please?”
+
+Repository source pack:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0026-the-garlic-bread-is-missing
+
+Not deployed. Owner review remains required.
+
+#EnglishLearning #CustomerServiceEnglish #PracticalEnglish
