@@ -1,0 +1,1345 @@
+{
+  "title": "Trade, Risk, and Repair",
+  "subtitle": "History Investigation — 28 September 2026, 17:00 Réunion",
+  "palette": {
+    "ink": "#272735",
+    "paper": "#f3e6c8",
+    "teal": "#2a7775",
+    "coral": "#cf5c4f",
+    "gold": "#e0a83e",
+    "blue": "#4b78a3",
+    "green": "#6e8b67"
+  },
+  "chapter_seconds": 30,
+  "fps": 25,
+  "cards": [
+    {
+      "id": "opium-war-triangle",
+      "title": "Tea payments moved through opium",
+      "question": "Why did trade become war?",
+      "body": "**Documented fact.** Britain bought Chinese tea. Silk also sold. Porcelain also sold. Qing merchants preferred silver. British silver therefore flowed east. The East India Company controlled Indian opium. Private traders carried it onward. Chinese buyers paid silver. This reversed the flow. Qing law prohibited that trade. Commissioner Lin Zexu acted during 1839. Foreign stocks were surrendered. They were then destroyed. Britain demanded compensation. Parliament debated armed intervention. British forces attacked. The Treaty of Nanjing followed during 1842. It opened treaty ports. It ceded Hong Kong. It imposed an indemnity. **Scholarly interpretation.** Opium joined several conflicts. Trade access mattered. Imperial power mattered. Diplomatic equality also mattered. Compensation became a trigger. **Counterevidence and limits.** Tea demand caused no war alone. Chinese consumers sustained smuggling. British critics opposed intervention. Parliament was divided. Jurisdiction disputes also escalated tensions. Opium remained officially prohibited after the treaty. Full legalization came later. The record supports commercial coercion. It does not reduce everything to one commodity.",
+      "summary": "Tea pulled silver east. Opium reversed that flow.",
+      "sources": [
+        [
+          "War with China — Commons Debate, 1840",
+          "https://api.parliament.uk/historic-hansard/commons/1840/apr/07/war-with-china"
+        ],
+        [
+          "Uniform Penny Postage Debate, 1839",
+          "https://api.parliament.uk/historic-hansard/lords/1839/aug/05/uniform-penny-postage"
+        ],
+        [
+          "British Museum: Opium Pipe",
+          "https://www.britishmuseum.org/collection/object/A_OA-6606"
+        ],
+        [
+          "British Museum: Collecting and Empire",
+          "https://www.britishmuseum.org/visit/object-trails/collecting-and-empire-trail"
+        ]
+      ],
+      "beats": [
+        "Tea draws silver east.",
+        "Opium sends silver back.",
+        "Qing officials seize stocks.",
+        "Warships enforce compensation.",
+        "A treaty opens ports."
+      ],
+      "setting": "Canton waterfront and trade warehouses",
+      "objects": [
+        {
+          "kind": "teasack",
+          "label": "Chinese tea",
+          "track": [
+            [
+              90,
+              210
+            ],
+            [
+              170,
+              205
+            ],
+            [
+              265,
+              200
+            ],
+            [
+              265,
+              200
+            ],
+            [
+              265,
+              200
+            ],
+            [
+              265,
+              200
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "silver",
+          "label": "British silver",
+          "track": [
+            [
+              300,
+              120
+            ],
+            [
+              245,
+              135
+            ],
+            [
+              185,
+              160
+            ],
+            [
+              145,
+              185
+            ],
+            [
+              145,
+              185
+            ],
+            [
+              145,
+              185
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "opiumchest",
+          "label": "Indian opium",
+          "track": [
+            [
+              85,
+              105
+            ],
+            [
+              165,
+              115
+            ],
+            [
+              245,
+              130
+            ],
+            [
+              325,
+              145
+            ],
+            [
+              325,
+              145
+            ],
+            [
+              325,
+              145
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "qinggate",
+          "label": "Qing prohibition",
+          "track": [
+            [
+              405,
+              210
+            ],
+            [
+              405,
+              210
+            ],
+            [
+              405,
+              210
+            ],
+            [
+              405,
+              210
+            ],
+            [
+              405,
+              210
+            ],
+            [
+              405,
+              210
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "warship",
+          "label": "British force",
+          "track": [
+            [
+              575,
+              110
+            ],
+            [
+              575,
+              110
+            ],
+            [
+              575,
+              110
+            ],
+            [
+              505,
+              140
+            ],
+            [
+              430,
+              170
+            ],
+            [
+              430,
+              170
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "treaty",
+          "label": "Nanjing treaty",
+          "track": [
+            [
+              575,
+              235
+            ],
+            [
+              575,
+              235
+            ],
+            [
+              575,
+              235
+            ],
+            [
+              575,
+              235
+            ],
+            [
+              510,
+              220
+            ],
+            [
+              450,
+              210
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 158
+    },
+    {
+      "id": "triangle-fire-reform",
+      "title": "Fire accelerated existing reform",
+      "question": "Did one disaster create safety law?",
+      "body": "**Documented fact.** Fire struck Triangle Shirtwaist. The date was 25 March 1911. The factory occupied high floors. Fabric burned quickly. One exit door stayed locked. A fire escape collapsed. Fire ladders reached too low. The disaster killed 146 people. Most victims were young workers. Many were immigrant women. The owners faced manslaughter charges. A jury acquitted them. Civil claims followed later. New York created investigations. Factory laws then expanded. Fire safety improved. Building exits changed. Inspections increased. **Scholarly interpretation.** Public horror created leverage. Reformers already had networks. Unions already organized workers. The 1909 garment strike mattered. Frances Perkins already pursued reform. The fire made regulation politically urgent. **Counterevidence and limits.** The fire started no movement alone. Earlier laws already existed. Enforcement remained uneven. Reforms differed across states. Owners claimed ignorance about locking. Trial standards required specific proof. The acquittal proves no safe workplace. Nor does tragedy guarantee durable enforcement. The strongest claim is acceleration. Organization converted grief into rules.",
+      "summary": "Locked exits killed workers. Existing reformers converted outrage.",
+      "sources": [
+        [
+          "Cornell: Triangle Factory Fire Archive",
+          "https://trianglefire.ilr.cornell.edu/index.html"
+        ],
+        [
+          "New York Courts: Remembering Triangle",
+          "https://history.nycourts.gov/garfinkel_resources/cornell-remembering-triangle-factory/"
+        ],
+        [
+          "Smithsonian: The Triangle Fire",
+          "https://www.smithsonianmag.com/history/uncovering-the-history-of-the-triangle-shirtwaist-fire-124701842/"
+        ]
+      ],
+      "beats": [
+        "Workers sew above street.",
+        "Fabric feeds fast flames.",
+        "A locked exit blocks escape.",
+        "Organizers carry public outrage.",
+        "Investigations produce new rules."
+      ],
+      "setting": "Garment factory and reform chamber",
+      "objects": [
+        {
+          "kind": "sewingmachine",
+          "label": "sewing floor",
+          "track": [
+            [
+              95,
+              215
+            ],
+            [
+              95,
+              215
+            ],
+            [
+              95,
+              215
+            ],
+            [
+              95,
+              215
+            ],
+            [
+              95,
+              215
+            ],
+            [
+              95,
+              215
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "fabricpile",
+          "label": "fabric scraps",
+          "track": [
+            [
+              200,
+              230
+            ],
+            [
+              200,
+              230
+            ],
+            [
+              200,
+              230
+            ],
+            [
+              200,
+              230
+            ],
+            [
+              200,
+              230
+            ],
+            [
+              200,
+              230
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "workers",
+          "label": "garment workers",
+          "track": [
+            [
+              150,
+              150
+            ],
+            [
+              215,
+              155
+            ],
+            [
+              275,
+              165
+            ],
+            [
+              320,
+              175
+            ],
+            [
+              320,
+              175
+            ],
+            [
+              320,
+              175
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "flames",
+          "label": "fast fire",
+          "track": [
+            [
+              205,
+              205
+            ],
+            [
+              225,
+              185
+            ],
+            [
+              255,
+              165
+            ],
+            [
+              290,
+              150
+            ],
+            [
+              290,
+              150
+            ],
+            [
+              290,
+              150
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "exitdoor",
+          "label": "locked exit",
+          "track": [
+            [
+              385,
+              205
+            ],
+            [
+              385,
+              205
+            ],
+            [
+              385,
+              205
+            ],
+            [
+              385,
+              205
+            ],
+            [
+              385,
+              205
+            ],
+            [
+              385,
+              205
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "lawbook",
+          "label": "factory laws",
+          "track": [
+            [
+              570,
+              120
+            ],
+            [
+              570,
+              120
+            ],
+            [
+              570,
+              120
+            ],
+            [
+              535,
+              145
+            ],
+            [
+              480,
+              170
+            ],
+            [
+              430,
+              190
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 159
+    },
+    {
+      "id": "cutter-polio",
+      "title": "A vaccine succeeded; production failed",
+      "question": "What did the Cutter incident prove?",
+      "body": "**Documented fact.** Polio frightened families. A huge field trial tested Salk's vaccine. Results arrived during April 1955. The vaccine proved effective. Licensing followed quickly. Several companies began distribution. Cutter Laboratories made some batches. Those batches retained live virus. Existing tests had still passed them. Vaccinated children developed polio. Infection also reached contacts. Counts vary by definition. More than 250 cases were attributed. Paralysis and deaths followed. Officials recalled Cutter vaccine. National vaccination paused briefly. Plants were reinspected. Testing standards tightened. Production later resumed. **Scholarly interpretation.** Scientific success met manufacturing failure. Speed exposed regulatory weakness. Product safety required process control. Testing finished vials was insufficient. The incident strengthened federal oversight. **Counterevidence and limits.** The vaccine concept did not fail. Other producers avoided comparable outbreaks. Polio cases then fell sharply. Exact casualty totals differ. Direct recipients and contacts get counted differently. Political urgency influenced speed. It proves no general vaccine danger. It shows that scale changes risk. Regulation must follow production, not discovery alone.",
+      "summary": "The vaccine worked. One manufacturing process did not.",
+      "sources": [
+        [
+          "FDA: Science and Biological Regulation",
+          "https://www.fda.gov/about-fda/histories-product-regulation/science-and-regulation-biological-products"
+        ],
+        [
+          "CDC: Historical Vaccine Concerns",
+          "https://www.cdc.gov/vaccine-safety/historical-concerns/index.html"
+        ],
+        [
+          "The Cutter Incident",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC1410842/"
+        ],
+        [
+          "FDA: Ruth Kirschstein and Polio",
+          "https://www.fda.gov/about-fda/fda-history-exhibits/ruth-l-kirschstein-early-role-polio-vaccine-research"
+        ]
+      ],
+      "beats": [
+        "A vast trial succeeds.",
+        "Factories scale production.",
+        "Live virus survives one process.",
+        "Officials stop and inspect.",
+        "Stricter standards restore supply."
+      ],
+      "setting": "Vaccine plant and inspection line",
+      "objects": [
+        {
+          "kind": "test",
+          "label": "field trial",
+          "track": [
+            [
+              85,
+              210
+            ],
+            [
+              155,
+              195
+            ],
+            [
+              225,
+              185
+            ],
+            [
+              225,
+              185
+            ],
+            [
+              225,
+              185
+            ],
+            [
+              225,
+              185
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "factoryline",
+          "label": "production line",
+          "track": [
+            [
+              300,
+              225
+            ],
+            [
+              300,
+              225
+            ],
+            [
+              300,
+              225
+            ],
+            [
+              300,
+              225
+            ],
+            [
+              300,
+              225
+            ],
+            [
+              300,
+              225
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "vials",
+          "label": "vaccine batches",
+          "track": [
+            [
+              245,
+              145
+            ],
+            [
+              305,
+              145
+            ],
+            [
+              360,
+              150
+            ],
+            [
+              415,
+              160
+            ],
+            [
+              415,
+              160
+            ],
+            [
+              415,
+              160
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "viruscloud",
+          "label": "live virus",
+          "track": [
+            [
+              365,
+              105
+            ],
+            [
+              365,
+              105
+            ],
+            [
+              385,
+              125
+            ],
+            [
+              415,
+              145
+            ],
+            [
+              415,
+              145
+            ],
+            [
+              415,
+              145
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "recallstamp",
+          "label": "national pause",
+          "track": [
+            [
+              555,
+              100
+            ],
+            [
+              555,
+              100
+            ],
+            [
+              555,
+              100
+            ],
+            [
+              500,
+              125
+            ],
+            [
+              455,
+              150
+            ],
+            [
+              455,
+              150
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "inspection",
+          "label": "new standards",
+          "track": [
+            [
+              570,
+              235
+            ],
+            [
+              570,
+              235
+            ],
+            [
+              570,
+              235
+            ],
+            [
+              535,
+              220
+            ],
+            [
+              490,
+              205
+            ],
+            [
+              450,
+              190
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 163
+    },
+    {
+      "id": "black-monday-feedback",
+      "title": "Insurance amplified a falling market",
+      "question": "How did protection increase selling?",
+      "body": "**Documented fact.** Markets fell during October 1987. Black Monday came on October 19. The Dow dropped 22.6 percent. Other markets also plunged. Trading systems became overloaded. Price discovery weakened. Portfolio insurance had spread. Its models promised downside protection. Falling prices triggered futures sales. Further falls triggered more sales. Cash and futures markets moved unevenly. Buyers withdrew. Liquidity then evaporated. The Federal Reserve promised liquidity. Markets stabilized afterward. Exchanges later adopted circuit breakers. **Scholarly interpretation.** A protective strategy became feedback. Each seller acted rationally alone. Together they consumed market capacity. Automation accelerated coordination. Institutional links transmitted stress. **Counterevidence and limits.** Portfolio insurance caused no crash alone. Valuations were elevated. Interest rates had risen. Currency tensions also mattered. Ordinary investors also sold. Researchers dispute each factor's weight. The economy avoided depression. Banks remained broadly functional. Circuit breakers cannot remove panic. They create time for orders. The case demonstrates amplification. It does not supply one trigger. Complex markets can fail through interactions.",
+      "summary": "Falling prices triggered selling. Selling pushed prices lower.",
+      "sources": [
+        [
+          "Federal Reserve: Brief History of 1987",
+          "https://www.federalreserve.gov/pubs/feds/2007/200713/"
+        ],
+        [
+          "Federal Reserve History: 1987 Crash",
+          "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+        ],
+        [
+          "SEC: Future of U.S. Markets, 1988",
+          "https://www.sec.gov/news/speech/1988/102088ruder.pdf"
+        ],
+        [
+          "Federal Reserve: Financial Crises",
+          "https://www.federalreserve.gov/newsevents/speech/kohn20060518a.htm"
+        ]
+      ],
+      "beats": [
+        "Prices begin falling.",
+        "Insurance models order sales.",
+        "Selling deepens the fall.",
+        "Liquidity providers retreat.",
+        "Circuit breakers slow feedback."
+      ],
+      "setting": "Linked futures and stock exchanges",
+      "objects": [
+        {
+          "kind": "marketboard",
+          "label": "stock prices",
+          "track": [
+            [
+              95,
+              205
+            ],
+            [
+              95,
+              205
+            ],
+            [
+              95,
+              205
+            ],
+            [
+              95,
+              205
+            ],
+            [
+              95,
+              205
+            ],
+            [
+              95,
+              205
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "computer",
+          "label": "insurance model",
+          "track": [
+            [
+              220,
+              110
+            ],
+            [
+              220,
+              110
+            ],
+            [
+              220,
+              110
+            ],
+            [
+              220,
+              110
+            ],
+            [
+              220,
+              110
+            ],
+            [
+              220,
+              110
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "sellorders",
+          "label": "sell orders",
+          "track": [
+            [
+              250,
+              145
+            ],
+            [
+              320,
+              155
+            ],
+            [
+              390,
+              170
+            ],
+            [
+              460,
+              190
+            ],
+            [
+              460,
+              190
+            ],
+            [
+              460,
+              190
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "exchange",
+          "label": "futures market",
+          "track": [
+            [
+              500,
+              115
+            ],
+            [
+              500,
+              115
+            ],
+            [
+              500,
+              115
+            ],
+            [
+              500,
+              115
+            ],
+            [
+              500,
+              115
+            ],
+            [
+              500,
+              115
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "liquidity",
+          "label": "buyers retreat",
+          "track": [
+            [
+              560,
+              230
+            ],
+            [
+              530,
+              230
+            ],
+            [
+              500,
+              230
+            ],
+            [
+              455,
+              230
+            ],
+            [
+              410,
+              230
+            ],
+            [
+              410,
+              230
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "circuitbreaker",
+          "label": "trading pause",
+          "track": [
+            [
+              575,
+              80
+            ],
+            [
+              575,
+              80
+            ],
+            [
+              575,
+              80
+            ],
+            [
+              575,
+              80
+            ],
+            [
+              500,
+              90
+            ],
+            [
+              420,
+              100
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 160
+    },
+    {
+      "id": "asian-crisis",
+      "title": "Stable pegs hid currency risk",
+      "question": "Why did capital reverse so fast?",
+      "body": "**Documented fact.** East Asian economies attracted capital. Banks borrowed abroad. Much debt was short-term. Much debt used foreign currency. Exchange rates looked stable. Borrowers often stayed unhedged. Property and corporate lending expanded. Thailand abandoned its baht peg. The date was 2 July 1997. Capital then fled. Currencies weakened. Foreign debts became heavier. Bank failures followed. Contagion reached neighboring economies. The IMF supported Thailand, Indonesia, and Korea. Programs required reforms. Interest rates rose. Fiscal targets initially tightened. Some targets later eased. Recovery eventually followed. **Scholarly interpretation.** Stable pegs disguised risk. Short maturities created runs. Weak supervision magnified exposure. Policy conditions sought confidence. Some also deepened contraction. **Counterevidence and limits.** Countries differed substantially. Crony lending explains no region alone. External lenders also mispriced risk. China avoided collapse. Malaysia later used controls. Its comparison remains contested. IMF funds prevented worse defaults. Critics dispute program timing. Recovery had several causes. Exports helped. Currency depreciation helped. Global demand helped. The crisis mixed domestic fragility, mobile capital, and policy choices.",
+      "summary": "Short dollar debts met falling currencies. Balance sheets broke.",
+      "sources": [
+        [
+          "IMF: Asian Crisis — Causes and Cures",
+          "https://www.imf.org/external/pubs/ft/fandd/1998/06/imfstaff.htm"
+        ],
+        [
+          "IMF: What Have We Learned?",
+          "https://www.imf.org/external/pubs/ft/fandd/1999/09/lane.htm"
+        ],
+        [
+          "IMF Evaluation: Capital Account Crises",
+          "https://www.elibrary.imf.org/display/book/9781589061880/pt002.xml"
+        ],
+        [
+          "IMF: The Asian Crisis and Advice",
+          "https://www.elibrary.imf.org/display/book/9781557758354/ch022.xml"
+        ]
+      ],
+      "beats": [
+        "Cheap dollars enter banks.",
+        "A stable peg masks risk.",
+        "Capital suddenly reverses.",
+        "Currencies fall; debts swell.",
+        "Programs stabilize unevenly."
+      ],
+      "setting": "Bank balance sheets and currency gate",
+      "objects": [
+        {
+          "kind": "dollarloans",
+          "label": "short dollar debt",
+          "track": [
+            [
+              80,
+              120
+            ],
+            [
+              165,
+              130
+            ],
+            [
+              245,
+              145
+            ],
+            [
+              300,
+              155
+            ],
+            [
+              300,
+              155
+            ],
+            [
+              300,
+              155
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "bank",
+          "label": "local banks",
+          "track": [
+            [
+              330,
+              220
+            ],
+            [
+              330,
+              220
+            ],
+            [
+              330,
+              220
+            ],
+            [
+              330,
+              220
+            ],
+            [
+              330,
+              220
+            ],
+            [
+              330,
+              220
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "bahtpeg",
+          "label": "currency peg",
+          "track": [
+            [
+              320,
+              100
+            ],
+            [
+              320,
+              100
+            ],
+            [
+              320,
+              100
+            ],
+            [
+              320,
+              100
+            ],
+            [
+              320,
+              100
+            ],
+            [
+              320,
+              100
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "outflow",
+          "label": "capital exit",
+          "track": [
+            [
+              375,
+              150
+            ],
+            [
+              420,
+              145
+            ],
+            [
+              475,
+              135
+            ],
+            [
+              540,
+              120
+            ],
+            [
+              585,
+              110
+            ],
+            [
+              585,
+              110
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "fracture",
+          "label": "balance-sheet break",
+          "track": [
+            [
+              435,
+              225
+            ],
+            [
+              435,
+              225
+            ],
+            [
+              435,
+              225
+            ],
+            [
+              435,
+              225
+            ],
+            [
+              435,
+              225
+            ],
+            [
+              435,
+              225
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "imfpackage",
+          "label": "IMF program",
+          "track": [
+            [
+              575,
+              235
+            ],
+            [
+              575,
+              235
+            ],
+            [
+              575,
+              235
+            ],
+            [
+              545,
+              230
+            ],
+            [
+              500,
+              220
+            ],
+            [
+              455,
+              210
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 164
+    },
+    {
+      "id": "primitive-costly-signals",
+      "title": "Primitive Echo: visible cost",
+      "question": "Why can waste signal status?",
+      "body": "**Documented evidence.** People display expensive goods. Observers often infer status. Experiments test luxury labels. Identical clothing gets judged differently. Visible brands can gain favorable treatment. Romantic motives can alter spending. Social exclusion can also change displays. Costly-signaling theory offers one mechanism. Hard-to-afford signals may seem credible. Waste itself can demonstrate resources. Similar logic appears in biology. **Scholarly interpretation.** Modern luxury markets exploit old inference. Buyers purchase function. They may also purchase rank. Brands coordinate shared meanings. Visibility makes signals useful. Scarcity can strengthen them. Digital platforms widen audiences. **Counterevidence and limits.** Expense guarantees no wealth. Credit can finance display. Counterfeits can imitate brands. Meanings differ by culture. Quiet status signals also exist. People buy quality, beauty, and identity. Experiments simplify real markets. Evolutionary explanations remain hypotheses. Sexual selection explains no purchase alone. Social learning may suffice. Institutions shape which objects matter. Status symbols can reverse quickly. The evidence supports signaling effects. It does not prove one ancestral cause.",
+      "summary": "Visible cost can imply resources. Culture decides the symbol.",
+      "sources": [
+        [
+          "Luxury and Green Labels as Signals",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5295666/"
+        ],
+        [
+          "Status, Testosterone, and Consumption",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5603597/"
+        ],
+        [
+          "Luxury Brands as Costly Signals",
+          "https://doi.org/10.1016/j.evolhumbehav.2010.12.002"
+        ],
+        [
+          "Evolution of Costly Signaling",
+          "https://www.nature.com/articles/s41598-019-45272-2"
+        ]
+      ],
+      "beats": [
+        "One buyer selects luxury.",
+        "A visible cost gains attention.",
+        "Observers infer high resources.",
+        "Credit and copies weaken honesty.",
+        "Culture replaces the symbol."
+      ],
+      "setting": "Market stall and social audience",
+      "objects": [
+        {
+          "kind": "luxurywatch",
+          "label": "luxury signal",
+          "track": [
+            [
+              95,
+              210
+            ],
+            [
+              160,
+              195
+            ],
+            [
+              225,
+              180
+            ],
+            [
+              285,
+              170
+            ],
+            [
+              285,
+              170
+            ],
+            [
+              285,
+              170
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "shopper",
+          "label": "buyer",
+          "track": [
+            [
+              75,
+              235
+            ],
+            [
+              135,
+              225
+            ],
+            [
+              200,
+              215
+            ],
+            [
+              260,
+              205
+            ],
+            [
+              260,
+              205
+            ],
+            [
+              260,
+              205
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "observer",
+          "label": "observers",
+          "track": [
+            [
+              430,
+              225
+            ],
+            [
+              430,
+              225
+            ],
+            [
+              430,
+              225
+            ],
+            [
+              430,
+              225
+            ],
+            [
+              430,
+              225
+            ],
+            [
+              430,
+              225
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "statusbadge",
+          "label": "status inference",
+          "track": [
+            [
+              320,
+              110
+            ],
+            [
+              345,
+              120
+            ],
+            [
+              375,
+              130
+            ],
+            [
+              405,
+              145
+            ],
+            [
+              405,
+              145
+            ],
+            [
+              405,
+              145
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "creditcard",
+          "label": "borrowed cost",
+          "track": [
+            [
+              565,
+              100
+            ],
+            [
+              565,
+              100
+            ],
+            [
+              565,
+              100
+            ],
+            [
+              515,
+              120
+            ],
+            [
+              465,
+              140
+            ],
+            [
+              465,
+              140
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "counterfeit",
+          "label": "copied symbol",
+          "track": [
+            [
+              575,
+              200
+            ],
+            [
+              575,
+              200
+            ],
+            [
+              575,
+              200
+            ],
+            [
+              540,
+              195
+            ],
+            [
+              500,
+              190
+            ],
+            [
+              460,
+              185
+            ]
+          ],
+          "from": 3
+        }
+      ],
+      "word_count": 158
+    }
+  ]
+}
