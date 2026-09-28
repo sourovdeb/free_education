@@ -1,0 +1,20 @@
+Which Platform Changed?
+
+A station notice changes one detail.
+
+Use four steps:
+
+1. Match destination and date.
+2. Find “today only”.
+3. Use platform 5.
+4. Separate boarding and departure.
+
+Model:
+“The train leaves from platform 5 today. Boarding closes at 14:15.”
+
+Repository source pack:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0027-which-platform-changed
+
+Not deployed. Owner review remains required.
+
+#EnglishLearning #TravelEnglish #ReadingSkills
