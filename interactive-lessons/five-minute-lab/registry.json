@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0027",
+  "next_lesson_id": "FML-0028",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -634,10 +634,34 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0027",
+      "version": "1.0.0",
+      "title": "Which Platform Changed?",
+      "slug": "which-platform-changed",
+      "pathway": "use-english",
+      "interaction_family": "find-the-evidence",
+      "objective": "Find destination, exception, platform, and boarding-time evidence in a station notice, then state the current travel details.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0027-which-platform-changed/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed_browser_unavailable",
+      "deployment_status": "not_deployed",
+      "github_content_commit": null,
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "content_saved_delivery_pending"
     }
   ],
   "lease": null,
-  "revision": 37,
+  "revision": 38,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -678,7 +702,8 @@
     "FML-0021 v1.0.0 is mirrored and owner-delivered. Colourful-papercut expense-receipt motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
     "FML-0022 v1.0.0 is mirrored and owner-delivered. Colourful-papercut shift-swap motion was verified. Chromium was unavailable, so browser execution was not run. No deployment occurred.",
     "FML-0023 v1.0.0 teaches reporting a delay and expected arrival. Colourful-papercut route motion was verified. Chromium was unavailable, so browser execution was not run. No deployment occurred.",
-    "FML-0024 v1.0.0 teaches confirming collection or delivery, day, and time. Colourful-papercut order motion was verified. Chromium was unavailable, so browser execution was not run. No deployment occurred."
+    "FML-0024 v1.0.0 teaches confirming collection or delivery, day, and time. Colourful-papercut order motion was verified. Chromium was unavailable, so browser execution was not run. No deployment occurred.",
+    "FML-0027 v1.0.0 teaches finding a changed platform and separating boarding from departure. Colourful-papercut motion was verified. Browser execution was unavailable. No deployment occurred."
   ],
   "design_default": {
     "style": "colourful-papercut",

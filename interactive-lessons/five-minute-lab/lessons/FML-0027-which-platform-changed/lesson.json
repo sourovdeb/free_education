@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0027",
+  "version": "1.0.0",
+  "title": "Which Platform Changed?",
+  "slug": "which-platform-changed",
+  "pathway": "use-english",
+  "interaction_family": "find-the-evidence",
+  "audience": "Older teenagers and adults",
+  "level_estimate": [
+    "A2",
+    "B1"
+  ],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": [
+    "Can read clock times",
+    "Can recognise train, platform, and boarding"
+  ],
+  "objective": "Find destination, exception, platform, and boarding-time evidence in a station notice, then state the current travel details.",
+  "scenario": {
+    "setting": "A railway station",
+    "notice": "COAST LINE — Saturday 28 September. The 14:20 train to Saint-Pierre usually leaves from platform 2. Today only, it leaves from platform 5. Boarding closes at 14:15.",
+    "traveller_need": "Find the platform used today and the boarding deadline."
+  },
+  "model": {
+    "evidence": "Today only, it leaves from platform 5. Boarding closes at 14:15.",
+    "statement": "The 14:20 train to Saint-Pierre leaves from platform 5 today. Boarding closes at 14:15.",
+    "meaning_note": "Usually gives the normal platform. Today only marks an exception. Boarding closes gives the last boarding time, not departure time.",
+    "grammar_note": "Use leaves from + platform. Use at + clock time. Add today when the notice marks an exception.",
+    "appropriateness_note": "Check the destination and date first. State both platform and boarding time when helping another traveller."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "prompt": "Which platform should you use today?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Platform 2",
+          "correct": false,
+          "feedback": "Platform 2 is usual. Today only changes the train to platform 5."
+        },
+        {
+          "id": "b",
+          "text": "Platform 5",
+          "correct": true,
+          "feedback": "The exception line says today only and names platform 5."
+        },
+        {
+          "id": "c",
+          "text": "Platform 14",
+          "correct": false,
+          "feedback": "14:20 and 14:15 are times. No platform 14 appears."
+        }
+      ]
+    },
+    {
+      "id": "decision-2",
+      "prompt": "Which statement gives both current details?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It leaves from platform 2 at 14:15.",
+          "correct": false,
+          "feedback": "This uses the usual platform and treats boarding time as departure time."
+        },
+        {
+          "id": "b",
+          "text": "It leaves from platform 5 today. Boarding closes at 14:15.",
+          "correct": true,
+          "feedback": "This states the exception and keeps boarding separate from departure."
+        },
+        {
+          "id": "c",
+          "text": "It leaves at 14:20, so platform 14.",
+          "correct": false,
+          "feedback": "A clock time does not identify a platform."
+        }
+      ]
+    }
+  ],
+  "transfer_task": {
+    "scenario": "An airport shuttle usually uses bay 3. A notice says: ‘Monday only: Bay 7. Boarding closes 08:40. Departure 08:45.’",
+    "instruction": "Write two sentences for another traveller. State today's bay and boarding deadline.",
+    "acceptable_responses": [
+      "The shuttle leaves from bay 7 today. Boarding closes at 08:40.",
+      "Use bay 7 on Monday. You must board by 08:40."
+    ],
+    "rubric": [
+      "Names bay 7",
+      "Marks Monday or today",
+      "Gives 08:40 as boarding deadline",
+      "Does not confuse 08:40 with 08:45 departure"
+    ]
+  },
+  "retrieval_prompt": "Tomorrow, ask: Which words show the normal rule, the exception, and the boarding deadline?",
+  "visual": {
+    "summary": "A four-step evidence path: match destination, notice the exception, find the platform, then separate boarding and departure times.",
+    "alt_text": "Four layered paper cards lead from Saint-Pierre and today's exception to platform 5, then separate boarding at 14:15 from departure at 14:20.",
+    "text_equivalent": "MATCH DESTINATION -> FIND TODAY'S EXCEPTION -> USE PLATFORM 5 -> BOARD 14:15, DEPART 14:20"
+  },
+  "design": {
+    "style": "colourful-papercut",
+    "palette": {
+      "ink": "#12263A",
+      "paper": "#FFF7E8",
+      "coral": "#E76F51",
+      "teal": "#2A9D8F",
+      "gold": "#E9C46A",
+      "violet": "#6D5BD0"
+    },
+    "paper_layers": [
+      "cream background",
+      "navy shadow",
+      "coral station board",
+      "teal train",
+      "gold exception strip",
+      "violet platform sign"
+    ],
+    "cutout_assets": [
+      "traveller",
+      "station board",
+      "train",
+      "platform 2 sign",
+      "today-only strip",
+      "platform 5 sign",
+      "boarding clock",
+      "departure clock"
+    ],
+    "scenes": [
+      {
+        "id": 1,
+        "caption": "Match destination and train.",
+        "motion": "The destination card slides into the station board. The train arrives beside it."
+      },
+      {
+        "id": 2,
+        "caption": "Find today's exception.",
+        "motion": "Platform 2 folds away. A today-only strip reveals platform 5."
+      },
+      {
+        "id": 3,
+        "caption": "Separate platform from time.",
+        "motion": "The platform sign moves left. Two clocks move onto boarding and departure tracks."
+      },
+      {
+        "id": 4,
+        "caption": "State the current details.",
+        "motion": "The train moves toward platform 5. A summary ticket unfolds with both times."
+      }
+    ],
+    "captions": true,
+    "motion_optional": true,
+    "reduced_motion_route": "Use scene stills or the visualizer's reduced-motion mode."
+  },
+  "sources": [
+    {
+      "institution": "Council of Europe",
+      "title": "Common European Framework of Reference for Languages: Companion Volume (2020)",
+      "url": "https://rm.coe.int/common-european-framework-of-reference-for-languages-learning-teaching/16809ea0d4",
+      "accessed": "2026-09-28",
+      "coverage": "The overview and travel-related action-oriented descriptors were inspected.",
+      "limitations": "Descriptors are illustrative. The level label is an editorial estimate."
+    },
+    {
+      "institution": "Council of Europe",
+      "title": "CEFR Global Scale",
+      "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+      "accessed": "2026-09-28",
+      "coverage": "The A2 and B1 summaries were inspected for routine exchanges and travel situations.",
+      "limitations": "This lesson is not a formal alignment study."
+    },
+    {
+      "institution": "Merriam-Webster",
+      "title": "Platform dictionary entry",
+      "url": "https://www.merriam-webster.com/dictionary/platform",
+      "accessed": "2026-09-28",
+      "coverage": "The rail sense identifies a platform as the area beside tracks used for boarding.",
+      "limitations": "The entry does not teach timetable-reading strategy."
+    }
+  ],
+  "rights": {
+    "lesson_text": "Original lesson text created for this pack.",
+    "visuals": "Original procedural paper-cut shapes. No textbook or reference artwork copied.",
+    "source_use": "Sources inform teaching scope and terminology. No source exercise is reproduced."
+  },
+  "publication": {
+    "canonical_url": null,
+    "live_player_url": null,
+    "deployment_status": "not_deployed"
+  },
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed_browser_unavailable"
+}
