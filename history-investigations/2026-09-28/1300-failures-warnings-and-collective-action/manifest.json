@@ -1,0 +1,119 @@
+{
+  "edition": "2026-09-28/1300-failures-warnings-and-collective-action",
+  "status": "complete_visual_gate",
+  "title": "Failures, Warnings, and Collective Action",
+  "word_counts": [
+    149,
+    155,
+    158,
+    158,
+    160,
+    157
+  ],
+  "source_counts": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "resolution": "1280x720",
+    "fps": 25,
+    "audio_streams": 0,
+    "status": "passed"
+  },
+  "rendered_frame_review": {
+    "seconds_per_chapter": [
+      4,
+      15,
+      26
+    ],
+    "mean_pixel_differences": [
+      [
+        9.09,
+        11.96
+      ],
+      [
+        12.98,
+        13.68
+      ],
+      [
+        10.03,
+        13.93
+      ],
+      [
+        9.22,
+        10.87
+      ],
+      [
+        8.77,
+        9.74
+      ],
+      [
+        5.22,
+        8.67
+      ]
+    ],
+    "inspection": "passed scene-specific causal motion"
+  },
+  "viewer_controls": [
+    "scrub",
+    "pause",
+    "step back",
+    "step forward",
+    "replay",
+    "causal object buttons",
+    "sources",
+    "reduced motion"
+  ],
+  "website": "unpublished file only",
+  "files": {
+    "README.md": {
+      "bytes": 437,
+      "sha256": "85844ab51cb4deb5a1ce7e29eba442276e943e8886cf97ea72789db45693d900"
+    },
+    "edition.md": {
+      "bytes": 10763,
+      "sha256": "867ac2118ef85967b61fe48fc29dd8f73d035577ca24c91898bdeca3eb7b5bc9"
+    },
+    "wordpress-draft.html": {
+      "bytes": 12156,
+      "sha256": "66fcb34943d61c18601e7c4f7a91ec3ff605002797242df6413ead5cb8aa0e9e"
+    },
+    "evidence.svg": {
+      "bytes": 3072,
+      "sha256": "b0242342552296f08cc44b2dd6d56f71c15f6ed07a4f031b42e6724818284b5e"
+    },
+    "lesson.json": {
+      "bytes": 36907,
+      "sha256": "f844d9cdbd84b5216e9b3d9f8232ffe053375144db30deb7264d24b73be64cca"
+    },
+    "lesson-viewer.html": {
+      "bytes": 23736,
+      "sha256": "12b999c38e277acf28410aea69d76d34df540c7097c21368fe0573c3304e95a7"
+    },
+    "cards.json": {
+      "bytes": 18368,
+      "sha256": "6fa069a050d0ff98bea2a0c509ad21d3dfce9bc6b612d7fa58ee1230ab2a7d2e"
+    },
+    "render_video.py": {
+      "bytes": 41022,
+      "sha256": "27713b30ca438bb5654d06cd99d294416178430dc6ceed6004852d1ba5657429"
+    },
+    "QA.md": {
+      "bytes": 2004,
+      "sha256": "38c38adaba23b2406881a749eae9a4bbf7d035875602689a88b9d5a2dc04a3b8"
+    },
+    "history-investigation.mp4": {
+      "bytes": 691889,
+      "sha256": "ec1e346ee1f9d1dbb7a665467f97c0ef0569659bad114c1aee44af2afc081b14"
+    },
+    "rendered-contact-sheet.jpg": {
+      "bytes": 301273,
+      "sha256": "f91defb7ae63594ef1dbf92bd0531e3a2ffe8d09f475c92441b76d72ee84290e"
+    }
+  }
+}
