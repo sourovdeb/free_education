@@ -1,0 +1,94 @@
+{
+  "id": "FML-0022",
+  "version": "1.0.0",
+  "generated_from": "lesson.json",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 1122,
+      "sha256": "ce5ea9a472ad34c510bd9d8d6cb58958e6830c5582cbddf4a1f02daf0b8987ac"
+    },
+    {
+      "name": "SOURCES.md",
+      "bytes": 2249,
+      "sha256": "57dd5da1cb0f35a079a58f91023deec545c6a2f24a68b64885fa12ce89a0d3ac"
+    },
+    {
+      "name": "TESTS.md",
+      "bytes": 1285,
+      "sha256": "a942710f021fa17f4c327b95d9cfd423c13ebb38410b210b0f862207fa637eae"
+    },
+    {
+      "name": "build.py",
+      "bytes": 33226,
+      "sha256": "b93338bb273b705362d1f4f57ae8638b0d81cdce630e87475ff122c9c4bc1ea0"
+    },
+    {
+      "name": "captions.vtt",
+      "bytes": 480,
+      "sha256": "908802dcb0651ea7f4b1b7da9a39da56863654bd5613f93346e43663035643ca"
+    },
+    {
+      "name": "carousel.html",
+      "bytes": 5742,
+      "sha256": "227bad676e1be00fc6a311b0465ae027b6300c67e952e9794e440d11e37a6248"
+    },
+    {
+      "name": "diagram.png",
+      "bytes": 38516,
+      "sha256": "9afc2b45de50493ed2a3fdee5dc612afaf258c37ce3de89b2f9ff0b298e42c2a"
+    },
+    {
+      "name": "diagram.svg",
+      "bytes": 2131,
+      "sha256": "5595e58bd726a26eb5d59cc1e824bc61aa3519728b4777cf07b67aec291d6b2d"
+    },
+    {
+      "name": "diagram.txt",
+      "bytes": 496,
+      "sha256": "3eeb63051c212fe7279e3ad200d886097edcbf1ccd2ed9ca68b63c03b0dec06e"
+    },
+    {
+      "name": "index.html",
+      "bytes": 29867,
+      "sha256": "51523ffcf589c5dd3c66885c2e33e63904946b97369f986f61252bb766776af1"
+    },
+    {
+      "name": "lesson.json",
+      "bytes": 13394,
+      "sha256": "326c2a74830d1cf929925287e5f46d55427b35b9a74bba6a6565147f00355ce4"
+    },
+    {
+      "name": "linkedin-carousel.pdf",
+      "bytes": 243696,
+      "sha256": "11afcc0874145905bdf05747f54eaf3789521fcdf9904151acb54d28515fdb6b"
+    },
+    {
+      "name": "linkedin-post.txt",
+      "bytes": 564,
+      "sha256": "56c4b419102bc35d8e65ed937bc4edef8dc7017ace089c8098822bead74e0f0d"
+    },
+    {
+      "name": "medium.md",
+      "bytes": 5185,
+      "sha256": "a73a441134b3d51e70a9e7db1b0b853f928605376535709181963cbc0e750e2b"
+    },
+    {
+      "name": "papercut-720p25.mp4",
+      "bytes": 433184,
+      "sha256": "27198a89d389bf600953c862c8b11516278a70e8d511ef4fe8ffbf2df0c9c2b9"
+    },
+    {
+      "name": "video-transcript.md",
+      "bytes": 1143,
+      "sha256": "cde1f3db9782ff6a0b8432436a448bdcd7d9e58c7629463b85eab6be9c5bd88b"
+    },
+    {
+      "name": "wordpress-draft.html",
+      "bytes": 5297,
+      "sha256": "ff1f59ff1300aa15fd3bb558b6a0358ebe40df905ad5262275d76dbb9a102ea2"
+    }
+  ]
+}
