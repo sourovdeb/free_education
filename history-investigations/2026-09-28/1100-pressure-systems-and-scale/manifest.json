@@ -70,6 +70,10 @@
     "reduced motion"
   ],
   "website": "unpublished file only",
+  "github_video": {
+    "status": "omitted",
+    "reason": "GitHub connector truncated the binary upload; corrupted copy removed; verified full MP4 delivered through Google Drive"
+  },
   "files": {
     "README.md": {
       "bytes": 439,
