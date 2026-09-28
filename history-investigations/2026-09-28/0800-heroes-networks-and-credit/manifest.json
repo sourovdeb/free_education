@@ -1,0 +1,224 @@
+{
+  "status": "complete_visual_gate",
+  "title": "Heroes, Networks, and Credit",
+  "local_timestamp": "2026-09-28T08:00:00+04:00",
+  "folder": "history-investigations/2026-09-28/0800-heroes-networks-and-credit",
+  "cards": [
+    {
+      "title": "Rosa Parks was prepared",
+      "word_count": 145,
+      "sources": 4
+    },
+    {
+      "title": "Einstein\u2019s signature carried access",
+      "word_count": 140,
+      "sources": 4
+    },
+    {
+      "title": "Lovelace published a program",
+      "word_count": 140,
+      "sources": 3
+    },
+    {
+      "title": "Lamarr shared the patent",
+      "word_count": 143,
+      "sources": 4
+    },
+    {
+      "title": "Photo 51 joined evidence",
+      "word_count": 142,
+      "sources": 4
+    },
+    {
+      "title": "Primitive Echo: focal leaders",
+      "word_count": 147,
+      "sources": 3
+    }
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "width": 1280,
+    "height": 720,
+    "fps": 25,
+    "frames": 4500,
+    "audio": false,
+    "sha256": "de9046b461b50e9046049c3b61eba5bd80681b52fc204b157408467cb27a1790"
+  },
+  "motion_gate": [
+    {
+      "chapter": 1,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        13.26,
+        15.23
+      ],
+      "moving_objects": [
+        "Rosa Parks",
+        "segregated bus",
+        "boycott notice",
+        "walking riders",
+        "carpool network",
+        "Browder ruling"
+      ],
+      "captions": [
+        "Parks builds organizing experience.",
+        "Arrest activates local networks.",
+        "Plaintiffs change the law."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 2,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        14.21,
+        19.03
+      ],
+      "moving_objects": [
+        "Leo Szilard",
+        "signed letter",
+        "Einstein",
+        "uranium committee",
+        "chain reaction",
+        "wartime system"
+      ],
+      "captions": [
+        "Szilard frames the warning.",
+        "Roosevelt receives the letter.",
+        "War scales the system."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 3,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        12.46,
+        17.77
+      ],
+      "moving_objects": [
+        "Analytical Engine",
+        "Ada Lovelace",
+        "correspondence",
+        "Note G",
+        "unbuilt machine",
+        "1843 publication"
+      ],
+      "captions": [
+        "Babbage designs an engine.",
+        "Correspondence reshapes the notes.",
+        "An unfinished machine persists."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 4,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        12.66,
+        17.96
+      ],
+      "moving_objects": [
+        "Hedy Lamarr",
+        "Antheil timing",
+        "transmitter",
+        "receiver",
+        "guided torpedo",
+        "1942 patent"
+      ],
+      "captions": [
+        "Lamarr studies torpedo control.",
+        "Radios hop together.",
+        "Later systems adapt principles."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 5,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        12.09,
+        17.77
+      ],
+      "moving_objects": [
+        "Franklin",
+        "Photo 51",
+        "Raymond Gosling",
+        "shared data",
+        "DNA model",
+        "three papers"
+      ],
+      "captions": [
+        "Franklin prepares DNA fibres.",
+        "Wilkins shows the image.",
+        "Three papers appear together."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 6,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        10.56,
+        17.09
+      ],
+      "moving_objects": [
+        "working group",
+        "focal leader",
+        "shared signal",
+        "collective result",
+        "visible credit",
+        "restored record"
+      ],
+      "captions": [
+        "A group faces coordination.",
+        "Signals align group action.",
+        "Records restore distributed work."
+      ],
+      "status": "passed"
+    }
+  ],
+  "website": {
+    "wordpress_ready": true,
+    "published": false,
+    "reason": "Hostinger actions unavailable"
+  },
+  "files": [
+    "README.md",
+    "edition.md",
+    "wordpress-draft.html",
+    "evidence.svg",
+    "lesson.json",
+    "lesson-viewer.html",
+    "render_video.py",
+    "build_assets.py",
+    "cards_data.py",
+    "history-investigation.mp4",
+    "QA.md",
+    "manifest.json"
+  ]
+}
