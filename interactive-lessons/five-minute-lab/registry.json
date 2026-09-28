@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0025",
+  "next_lesson_id": "FML-0026",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -586,6 +586,30 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0025",
+      "version": "1.0.0",
+      "title": "Does This Contain Peanuts?",
+      "slug": "does-this-contain-peanuts",
+      "pathway": "use-english",
+      "interaction_family": "allergy-disclosure-and-check",
+      "objective": "State a food allergy, ask whether a dish contains that allergen, and ask staff to check preparation before ordering.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0025-does-this-contain-peanuts/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed_browser_unavailable",
+      "deployment_status": "not_deployed",
+      "github_content_commit": null,
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_pending_drive_and_email"
     }
   ],
   "lease": null,
