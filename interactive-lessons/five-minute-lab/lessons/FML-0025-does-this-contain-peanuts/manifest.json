@@ -1,0 +1,125 @@
+{
+  "id": "FML-0025",
+  "version": "1.0.0",
+  "generated_from": "lesson.json",
+  "files": [
+    {
+      "name": "FML-0025-linkedin-carousel-v1.0.0.pdf",
+      "bytes": 47014,
+      "sha256": "dd07059ac9bfdb1af9af4e70796b62b435ed6bad6b03771ec38effff361d7390"
+    },
+    {
+      "name": "FML-0025-papercut-v1.0.0-720p25.mp4",
+      "bytes": 266534,
+      "sha256": "2eafd4aea73f81e8135a78c86de41bfd804199292f577cd86174f36e41a8534d"
+    },
+    {
+      "name": "FML-0025-reading-v1.0.0.md",
+      "bytes": 2387,
+      "sha256": "e98385b1b2bee6a6c2670cd1df89e716e4fe1c16804311733d3d9cd7ac8dc46b"
+    },
+    {
+      "name": "README.md",
+      "bytes": 523,
+      "sha256": "96f610fcf07e78be5816c42a527002e00c4b215dc9556ef115136f0796a79c66"
+    },
+    {
+      "name": "SOURCES.md",
+      "bytes": 1286,
+      "sha256": "4cf00f27df2cb29392428bea0477e6f9169ee465842f698be4801219be6e73d5"
+    },
+    {
+      "name": "TESTS.md",
+      "bytes": 1165,
+      "sha256": "a82cf0c5b9ad1442b307d38cbfa8b50205cabf1a90c8f2594e600fdc79406859"
+    },
+    {
+      "name": "build.py",
+      "bytes": 41321,
+      "sha256": "033a7e0d43390dbcaec1f857da6e816b2970b2bf3d3ddfdb61c47353fcc39d5c"
+    },
+    {
+      "name": "captions.vtt",
+      "bytes": 191,
+      "sha256": "3018e9a24d1c6d107a30d9d9f92b4296149e8ecf568d56e779721367c7b0f8ba"
+    },
+    {
+      "name": "carousel.html",
+      "bytes": 1377,
+      "sha256": "4ee7e90889463f6daf774a8063b7da35f6deb556b67f0316ec2a4f38232f8d01"
+    },
+    {
+      "name": "diagram.png",
+      "bytes": 28358,
+      "sha256": "cf9e92a1da5d55932940d0f56272e64f919ccb4f8eebb1e8d2b26cb4435a986b"
+    },
+    {
+      "name": "diagram.svg",
+      "bytes": 3322,
+      "sha256": "6d21360f838de4233747742f674925938d690ff2cf721f511092820a48b6d8dd"
+    },
+    {
+      "name": "diagram.txt",
+      "bytes": 527,
+      "sha256": "ce81b21dc5ce6d53c69ad39e19dcec59b2af54abb05af47d8c55f448bf4ff948"
+    },
+    {
+      "name": "index.html",
+      "bytes": 12536,
+      "sha256": "916b58c60641b2b482ace6b4795710cc0095f0875744f428d11f3e9569dcd916"
+    },
+    {
+      "name": "lesson.json",
+      "bytes": 7521,
+      "sha256": "7429b0b6651e1e958524ed2daef472e00730ecba5b3f629d595d0c506194d448"
+    },
+    {
+      "name": "linkedin-post.txt",
+      "bytes": 705,
+      "sha256": "73d79b84ed977cd598a30af7bfab4436baf937c3bf3bd6dcb74f3e03ae142628"
+    },
+    {
+      "name": "medium.md",
+      "bytes": 1751,
+      "sha256": "f7af2e7b8dcb1807f7ea86cbb30195d6f62a7473713f640130608471018cd93c"
+    },
+    {
+      "name": "scene-1.png",
+      "bytes": 58784,
+      "sha256": "deacb282efcda7fd2043663af2d17fa717b7932d490fdfef740e1b92b6c2e90e"
+    },
+    {
+      "name": "scene-2.png",
+      "bytes": 32924,
+      "sha256": "8453181d66033d20725674201ca292840a824bf8eae9b81f56bbfb951d268bdb"
+    },
+    {
+      "name": "scene-3.png",
+      "bytes": 35800,
+      "sha256": "c60f3e306d1e5197abdc23dc3135d0bfbcea29b89e1345f60bf0072763b8ae69"
+    },
+    {
+      "name": "scene-4.png",
+      "bytes": 34178,
+      "sha256": "c1a7a303c486b8ef84acccff181270b7a664a5346ba20ee13b7b1005d23e32e6"
+    },
+    {
+      "name": "scene-visualizer.html",
+      "bytes": 3187,
+      "sha256": "d1154d3ff95cc267b4c5dc60fea4f06745a1d772db6bf39f30aedcfbe15c5a15"
+    },
+    {
+      "name": "video-transcript.md",
+      "bytes": 504,
+      "sha256": "c7e2d593aa251018b3f36db3b1b5807a5abe2e0a55d3abb8a89f217c480953d8"
+    },
+    {
+      "name": "wordpress-draft.html",
+      "bytes": 1652,
+      "sha256": "461263861c3abd10bb6fd108536123a909462708832dfc581ab8421095b56f98"
+    }
+  ],
+  "core_player_bytes": 12536,
+  "network_dependencies": 0,
+  "deployment_status": "not_deployed"
+}
