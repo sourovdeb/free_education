@@ -1,0 +1,224 @@
+{
+  "status": "complete_visual_gate",
+  "title": "Standards, Scale, and Lock-In",
+  "local_timestamp": "2026-09-28T10:00:00+04:00",
+  "folder": "history-investigations/2026-09-28/1000-standards-scale-and-lock-in",
+  "cards": [
+    {
+      "title": "Gutenberg needed capital",
+      "word_count": 146,
+      "sources": 4
+    },
+    {
+      "title": "The cable failed forward",
+      "word_count": 140,
+      "sources": 4
+    },
+    {
+      "title": "Cheap wire changed land",
+      "word_count": 140,
+      "sources": 4
+    },
+    {
+      "title": "Containers needed common dimensions",
+      "word_count": 142,
+      "sources": 3
+    },
+    {
+      "title": "QWERTY\u2019s lock-in is disputed",
+      "word_count": 143,
+      "sources": 4
+    },
+    {
+      "title": "Primitive Echo: familiar defaults",
+      "word_count": 141,
+      "sources": 4
+    }
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "width": 1280,
+    "height": 720,
+    "fps": 25,
+    "frames": 4500,
+    "audio": false,
+    "sha256": "698fdc7d541cbf5776497fa88635fcbdbe1b416dbf0a01d791a0de02fb0c90f8"
+  },
+  "motion_gate": [
+    {
+      "chapter": 1,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        17.82,
+        20.72
+      ],
+      "moving_objects": [
+        "metal type",
+        "printing press",
+        "Fust\u2019s capital",
+        "Gutenberg Bible",
+        "Fust lawsuit",
+        "printed books"
+      ],
+      "captions": [
+        "Asian precedents already exist.",
+        "Fust supplies costly capital.",
+        "A lawsuit transfers equipment."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 2,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        14.17,
+        18.59
+      ],
+      "moving_objects": [
+        "investor capital",
+        "Great Eastern",
+        "1858 cable",
+        "1865 break",
+        "Kelvin instrument",
+        "connected shores"
+      ],
+      "captions": [
+        "Investors fund an ocean cable.",
+        "The 1865 cable snaps.",
+        "Sensitive instruments sustain contact."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 3,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        12.5,
+        18.84
+      ],
+      "moving_objects": [
+        "open-range cattle",
+        "barbed wire",
+        "wire machine",
+        "closed range",
+        "homesteader",
+        "fence cutters"
+      ],
+      "captions": [
+        "Open range crosses claims.",
+        "Machines lower fencing costs.",
+        "Land conflict intensifies."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 4,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        17.01,
+        19.61
+      ],
+      "moving_objects": [
+        "loose cargo",
+        "Ideal-X",
+        "incompatible boxes",
+        "ISO dimensions",
+        "port crane",
+        "dockworker"
+      ],
+      "captions": [
+        "Dockworkers lift loose cargo.",
+        "Incompatible boxes block transfers.",
+        "Ports reorganize around cranes."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 5,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        20.97,
+        23.38
+      ],
+      "moving_objects": [
+        "Sholes machine",
+        "Remington",
+        "trained typist",
+        "QWERTY office",
+        "computer keyboard",
+        "inferiority disputed"
+      ],
+      "captions": [
+        "Sholes rearranges mechanical keys.",
+        "Typists learn shared movements.",
+        "Alternatives face switching costs."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 6,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        12.36,
+        16.22
+      ],
+      "moving_objects": [
+        "uncertain choice",
+        "local majority",
+        "familiar path",
+        "shared standard",
+        "default option",
+        "new alternative"
+      ],
+      "captions": [
+        "A learner faces uncertainty.",
+        "Copying lowers immediate risk.",
+        "A better path stays uncertain."
+      ],
+      "status": "passed"
+    }
+  ],
+  "website": {
+    "wordpress_ready": true,
+    "published": false,
+    "reason": "Hostinger actions unavailable"
+  },
+  "files": [
+    "README.md",
+    "edition.md",
+    "wordpress-draft.html",
+    "evidence.svg",
+    "lesson.json",
+    "lesson-viewer.html",
+    "render_video.py",
+    "build_assets.py",
+    "cards_data.py",
+    "history-investigation.mp4",
+    "QA.md",
+    "manifest.json"
+  ]
+}
