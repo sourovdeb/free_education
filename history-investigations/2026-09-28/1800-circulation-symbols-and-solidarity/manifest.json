@@ -1,0 +1,120 @@
+{
+  "edition": "2026-09-28/1800-circulation-symbols-and-solidarity",
+  "status": "complete_visual_gate",
+  "title": "Circulation, Symbols, and Solidarity",
+  "word_counts": [
+    159,
+    165,
+    166,
+    161,
+    162,
+    159
+  ],
+  "source_counts": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "resolution": "1280x720",
+    "fps": 25,
+    "audio_streams": 0,
+    "status": "passed"
+  },
+  "repository_video": "omitted after GitHub blob hash mismatch; verified MP4 retained in Drive delivery",
+  "rendered_frame_review": {
+    "seconds_per_chapter": [
+      4,
+      15,
+      26
+    ],
+    "mean_pixel_differences_percent": [
+      [
+        4.09,
+        3.51
+      ],
+      [
+        4.28,
+        5.27
+      ],
+      [
+        4.58,
+        5.39
+      ],
+      [
+        4.45,
+        6.52
+      ],
+      [
+        5.26,
+        6.23
+      ],
+      [
+        3.42,
+        3.68
+      ]
+    ],
+    "inspection": "passed scene-specific causal motion"
+  },
+  "viewer_controls": [
+    "scrub",
+    "pause",
+    "step back",
+    "step forward",
+    "replay",
+    "causal object buttons",
+    "sources",
+    "reduced motion"
+  ],
+  "website": "unpublished file only",
+  "files": {
+    "README.md": {
+      "bytes": 611,
+      "sha256": "c5b481b57f7d2cbde1e9f4e0d8a1da4a3bf60f21879bedce147b738ddafc9e13"
+    },
+    "edition.md": {
+      "bytes": 11245,
+      "sha256": "6deacab5adb310eda8d90ae80cff610958c86e3a93c82253b89110de2fd15200"
+    },
+    "wordpress-draft.html": {
+      "bytes": 12603,
+      "sha256": "8626d368cee2f4ade6b383d7e2a8f39604404eed23377b31d1105011278151ae"
+    },
+    "evidence.svg": {
+      "bytes": 3114,
+      "sha256": "4dc664b6eb1ffd3197e9f6749ecb0ad83f44ade107806e59c0b2ee3c402dbabe"
+    },
+    "lesson.json": {
+      "bytes": 34719,
+      "sha256": "4df51b905996c69b83df14fcc63e7129565be16aec8a8686fa676e6e5a6db3b0"
+    },
+    "lesson-viewer.html": {
+      "bytes": 23513,
+      "sha256": "29e1aa541927d491559f92ac14e98714e2519d3f0f94ecceb340b18918d3e308"
+    },
+    "cards.json": {
+      "bytes": 18377,
+      "sha256": "f46dd1d279796956d0889feb662e93833a79bf66415e1aa2242a890d96ca77a4"
+    },
+    "render_video.py": {
+      "bytes": 50537,
+      "sha256": "be8b22a508c1e80a169efa8d9d8c40fda85434c659b931e80c7fbf0dc332e5d7"
+    },
+    "QA.md": {
+      "bytes": 2280,
+      "sha256": "6baa3f2069890a33ae01f8373a26a338e6b4d314bdff1931e2d46c028bec6927"
+    },
+    "history-investigation.mp4": {
+      "bytes": 828118,
+      "sha256": "e704decc963fa29551024376a60019f5b033c520ca72625cd23ff4216848ad49"
+    },
+    "rendered-contact-sheet.jpg": {
+      "bytes": 344749,
+      "sha256": "e578f805065bc9bfb9b1952cf42adc6c108a2dbbf54adb4fbe6a7b0a1771530c"
+    }
+  }
+}
