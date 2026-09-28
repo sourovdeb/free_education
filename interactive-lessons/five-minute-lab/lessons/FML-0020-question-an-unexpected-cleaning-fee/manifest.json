@@ -1,0 +1,96 @@
+{
+  "id": "FML-0020",
+  "version": "1.0.0",
+  "title": "Why Is There a Cleaning Fee?",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-28T02:03:02Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 13693,
+      "sha256": "ad34ccbaf42f051723769a91aa64b53063a0a7d6a3ab023ac082c33c11e56f6c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 31620,
+      "sha256": "04bd5b971c3d155c03a3a2ff854e59ee983c14ceb2041318f6aea03d2f76ee27"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5416,
+      "sha256": "51f7aa78ed28dec25a3d49bdb3a45b5b36bc0f89a715f1fb11ac9523579e577a"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 5376,
+      "sha256": "40fdd5e100d0ae331ae3073b89c06edaa486cff2b88c9c73a26c5befde95d416"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 832,
+      "sha256": "9ca4edf6f420bff3479cb2eeeef5065dbbed3a4224b8f12b86235dfe41263edd"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 235046,
+      "sha256": "26dc787c2674f5e34cf57558f1d595624631ba68715ffd8c848b8c3c4f383975"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6495,
+      "sha256": "80ec6996b9071d646f2f461bbabf49f7138d62e8b1b40f990b2a15d8f29663c5"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2135,
+      "sha256": "f3afcb0e6109a8003f5edf4e11a6251de46cec93382485efd335f878e34c3ba4"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 37414,
+      "sha256": "7cc5d0ffed553bcb2d6b1cc1d9fcb4c79b9814d022715d91a728c3241177c38d"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 474,
+      "sha256": "2d526c7dd83ca2854e8372a1b02bd09e5e047a7421628b291c874233bbfa186b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "4feb6b739c69b523379e7d4d3d9f5f6279c3332dcdd04a6a443d183d92e1f5c9"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2280,
+      "sha256": "629b80970524b831441df022b8a0d9aa8075900053e17d2e9d38d5f907802ef0"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1660,
+      "sha256": "5229d14b6f5b6bba530b57f14cc7631e49d7b524ebd66834491d095cd01c2708"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1299,
+      "sha256": "1114d2fdd9e5568067b6b3e2a7245423ba0fddc3280b23e3014c1f907869db02"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 488,
+      "sha256": "9f93b604ed586d07f011f68459e994aa718652764b0f1265e2385b2f94531b9b"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 375202,
+      "sha256": "d5902556291652092d99bdcb6638f47381b53b0ecde3b14d5df7924672307532"
+    },
+    {
+      "path": "build.py",
+      "bytes": 38949,
+      "sha256": "219ca0f41b222aa5cfb9d32a3d80e443a48d5118fc0fbb209304dde05b961cc5"
+    }
+  ]
+}
