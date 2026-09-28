@@ -42,7 +42,7 @@
     "fps": 25,
     "frames": 4500,
     "audio": false,
-    "sha256": "de9046b461b50e9046049c3b61eba5bd80681b52fc204b157408467cb27a1790"
+    "sha256": "82ea7136acd3a8f31b41a85031aa07c4f0695bb13bb02386e70891125dd0a461"
   },
   "motion_gate": [
     {
@@ -53,8 +53,8 @@
         26
       ],
       "pixel_change_percent": [
-        13.26,
-        15.23
+        15.08,
+        15.02
       ],
       "moving_objects": [
         "Rosa Parks",
@@ -79,8 +79,8 @@
         26
       ],
       "pixel_change_percent": [
-        14.21,
-        19.03
+        15.74,
+        19.24
       ],
       "moving_objects": [
         "Leo Szilard",
@@ -105,8 +105,8 @@
         26
       ],
       "pixel_change_percent": [
-        12.46,
-        17.77
+        13.81,
+        18.47
       ],
       "moving_objects": [
         "Analytical Engine",
@@ -131,8 +131,8 @@
         26
       ],
       "pixel_change_percent": [
-        12.66,
-        17.96
+        15.62,
+        19.59
       ],
       "moving_objects": [
         "Hedy Lamarr",
@@ -157,8 +157,8 @@
         26
       ],
       "pixel_change_percent": [
-        12.09,
-        17.77
+        13.72,
+        19.86
       ],
       "moving_objects": [
         "Franklin",
@@ -183,8 +183,8 @@
         26
       ],
       "pixel_change_percent": [
-        10.56,
-        17.09
+        11.67,
+        17.74
       ],
       "moving_objects": [
         "working group",
