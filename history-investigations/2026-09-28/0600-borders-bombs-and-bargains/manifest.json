@@ -1,0 +1,217 @@
+{
+  "status": "complete_visual_gate",
+  "title": "Borders, Bombs, and Bargains",
+  "local_timestamp": "2026-09-28T06:00:00+04:00",
+  "folder": "history-investigations/2026-09-28/0600-borders-bombs-and-bargains",
+  "cards": [
+    {
+      "title": "Oil and fear converged",
+      "word_count": 150,
+      "sources": 4
+    },
+    {
+      "title": "A deadline hardened borders",
+      "word_count": 154,
+      "sources": 4
+    },
+    {
+      "title": "Fallout crossed assumptions",
+      "word_count": 148,
+      "sources": 4
+    },
+    {
+      "title": "Allies tolerated invasion",
+      "word_count": 152,
+      "sources": 4
+    },
+    {
+      "title": "Search built vaccine rings",
+      "word_count": 157,
+      "sources": 4
+    },
+    {
+      "title": "Primitive Echo: punishment",
+      "word_count": 147,
+      "sources": 4
+    }
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "width": 1280,
+    "height": 720,
+    "fps": 25,
+    "frames": 4500,
+    "audio": false,
+    "sha256": "bf9ba35827dce0f9cd3c73bf225e7cc01d12ade7f104a76afc9d0e220c6c2c7e"
+  },
+  "motion_gate": [
+    {
+      "chapter": 1,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        11.33,
+        13.11
+      ],
+      "moving_objects": [
+        "export blockade",
+        "TPAJAX plan",
+        "Iranian networks",
+        "Mosaddeq",
+        "oil and fear"
+      ],
+      "captions": [
+        "Iran nationalizes oil.",
+        "Networks mobilize the coup.",
+        "Motives remain layered."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 2,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        9.23,
+        14.12
+      ],
+      "moving_objects": [
+        "forty days",
+        "boundary award",
+        "new border",
+        "eastbound families",
+        "westbound families"
+      ],
+      "captions": [
+        "Withdrawal accelerates.",
+        "A line divides communities.",
+        "No line explains everything."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 3,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        10.48,
+        16.15
+      ],
+      "moving_objects": [
+        "Castle Bravo",
+        "fallout cloud",
+        "Rongelap residents",
+        "evacuation",
+        "medical monitoring"
+      ],
+      "captions": [
+        "A test exceeds forecasts.",
+        "Evacuation follows exposure.",
+        "Records bound the claim."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 4,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        9.73,
+        16.42
+      ],
+      "moving_objects": [
+        "Jakarta meeting",
+        "meeting record",
+        "invasion force",
+        "American weapons",
+        "truth commission"
+      ],
+      "captions": [
+        "Decolonization opens conflict.",
+        "Troops cross next day.",
+        "Responsibility remains layered."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 5,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        10.97,
+        13.01
+      ],
+      "moving_objects": [
+        "search worker",
+        "freeze-dried vaccine",
+        "vaccinated contacts",
+        "transmission stopped"
+      ],
+      "captions": [
+        "Search teams find cases.",
+        "Vaccines target that ring.",
+        "Systems beat one invention."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 6,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        9.59,
+        12.5
+      ],
+      "moving_objects": [
+        "contributors",
+        "free-rider",
+        "costly sanction",
+        "elected monitor",
+        "antisocial risk"
+      ],
+      "captions": [
+        "Contributors fill the pot.",
+        "Peers spend to punish.",
+        "Sanctions can turn antisocial."
+      ],
+      "status": "passed"
+    }
+  ],
+  "website": {
+    "wordpress_ready": true,
+    "published": false,
+    "reason": "Hostinger actions unavailable"
+  },
+  "files": [
+    "README.md",
+    "edition.md",
+    "wordpress-draft.html",
+    "evidence.svg",
+    "lesson.json",
+    "lesson-viewer.html",
+    "render_video.py",
+    "build_assets.py",
+    "cards_data.py",
+    "history-investigation.mp4",
+    "QA.md",
+    "manifest.json"
+  ]
+}
