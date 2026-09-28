@@ -1,0 +1,119 @@
+{
+  "edition": "2026-09-28/1100-pressure-systems-and-scale",
+  "status": "complete_visual_gate",
+  "title": "Pressure, Systems, and Scale",
+  "word_counts": [
+    147,
+    156,
+    152,
+    151,
+    153,
+    154
+  ],
+  "source_counts": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "resolution": "1280x720",
+    "fps": 25,
+    "audio_streams": 0,
+    "status": "passed"
+  },
+  "rendered_frame_review": {
+    "seconds_per_chapter": [
+      4,
+      15,
+      26
+    ],
+    "mean_pixel_differences": [
+      [
+        1.91,
+        3.97
+      ],
+      [
+        2.06,
+        2.92
+      ],
+      [
+        1.95,
+        3.46
+      ],
+      [
+        3.99,
+        5.75
+      ],
+      [
+        2.87,
+        4.65
+      ],
+      [
+        3.85,
+        5.55
+      ]
+    ],
+    "inspection": "passed scene-specific causal motion"
+  },
+  "viewer_controls": [
+    "scrub",
+    "pause",
+    "step back",
+    "step forward",
+    "replay",
+    "causal object buttons",
+    "sources",
+    "reduced motion"
+  ],
+  "website": "unpublished file only",
+  "files": {
+    "README.md": {
+      "bytes": 439,
+      "sha256": "bb6b78f005fe33acaa68ed9274c132e7940bd0fc79ebd7ccbc305da97d180f8e"
+    },
+    "edition.md": {
+      "bytes": 10792,
+      "sha256": "a09e50337696bd57391d4c20fb93ec3aad4894a80a329b22be0949bb47bd4e0d"
+    },
+    "wordpress-draft.html": {
+      "bytes": 12131,
+      "sha256": "89ee5ff6abc9d34f1116755ed8adb8c6854a447da744aa5d8d5ee79e0d122a93"
+    },
+    "evidence.svg": {
+      "bytes": 3023,
+      "sha256": "53ae9a15417a1dcf7b991852f1150499c3c72193f8f4b26867b1772a435f2812"
+    },
+    "lesson.json": {
+      "bytes": 37125,
+      "sha256": "2e2796bc844c4c61d0bf5869177151da4d94b11f897d0b9a1314894a6b4b458a"
+    },
+    "lesson-viewer.html": {
+      "bytes": 23547,
+      "sha256": "c9df7c62b3136cce09f06d52ba4e345e7d4327cc0da09630d5604352fdbe88d1"
+    },
+    "cards.json": {
+      "bytes": 18355,
+      "sha256": "053f6665a39cc9f39e75c0f9382d587f6be0ec4c674b49a3310d25b017cbefd5"
+    },
+    "render_video.py": {
+      "bytes": 22347,
+      "sha256": "301ac6c18a4b8e1cee2fe74ca6f8e16c87bf55404f87578f66dcccae876cbdd5"
+    },
+    "QA.md": {
+      "bytes": 1924,
+      "sha256": "416a0d82befbc5a4f314fd1b8f3aeec6afd23ddb1b834976fe98c05101a098d6"
+    },
+    "history-investigation.mp4": {
+      "bytes": 2108673,
+      "sha256": "3fec43de93e42ca79c1bf1db1ab21a21ef9b1842aa94638fd21d49b1b206029a"
+    },
+    "rendered-contact-sheet.jpg": {
+      "bytes": 452287,
+      "sha256": "89b2efd68031d416b74884238d1675255508dd773bbb30de30f5908bc80a1b9b"
+    }
+  }
+}
