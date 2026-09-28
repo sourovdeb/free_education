@@ -1,0 +1,1535 @@
+{
+  "title": "Pressure, Systems, and Scale",
+  "subtitle": "History Investigation — 28 September 2026, 11:00 Réunion",
+  "palette": {
+    "ink": "#272735",
+    "paper": "#f3e6c8",
+    "teal": "#2a7775",
+    "coral": "#cf5c4f",
+    "gold": "#e0a83e",
+    "blue": "#4b78a3",
+    "green": "#6e8b67"
+  },
+  "chapter_seconds": 30,
+  "fps": 25,
+  "cards": [
+    {
+      "id": "suez-sterling",
+      "title": "Sterling constrained Suez",
+      "question": "What stopped the invasion?",
+      "body": "**Documented fact.** Egypt nationalized the canal. Britain, France, and Israel invaded. Their forces advanced during 1956. Britain’s reserves then weakened. Oil routes were disrupted. Sterling faced speculative pressure. Britain requested American support. It also needed IMF access. Washington withheld immediate backing. Britain accepted a ceasefire. Later financing then followed. **Scholarly interpretation.** Military movement met financial limits. American leverage mattered greatly. Archival and IMF studies support this. Finance made diplomacy coercive. The crisis exposed dependency. It also accelerated decolonization’s politics. **Counterevidence and limits.** Money acted within pressure. The United Nations also intervened. Soviet threats affected calculations. Domestic opposition also grew. France and Israel differed. Battlefield failure alone explains little. Yet finance was not solitary. Nor did one week erase empire. Britain’s relative decline began earlier. Egypt also suffered invasion. Canal traffic temporarily stopped. The evidence supports constraint. It cannot isolate one cause. Claims of instant imperial collapse overreach.",
+      "summary": "Sterling pressure reinforced diplomacy. Military control proved insufficient.",
+      "sources": [
+        [
+          "Suez and the United States",
+          "https://www.nationalarchives.gov.uk/education/resources/fifties-britain/suez-united-states/"
+        ],
+        [
+          "U.K. Financial Position",
+          "https://history.state.gov/historicaldocuments/frus1955-57v27/d247"
+        ],
+        [
+          "Northwest of Suez",
+          "https://www.imf.org/external/pubs/ft/wp/2000/wp00192.pdf"
+        ],
+        [
+          "Spotlight on Suez",
+          "https://www.nationalarchives.gov.uk/education/students/videos/spotlight-on/spotlight-on-suez-crisis/spotlight-on-suez-crisis-video-transcript/"
+        ]
+      ],
+      "beats": [
+        "Egypt takes canal control.",
+        "Invading forces advance.",
+        "Oil routes close.",
+        "Sterling reserves fall.",
+        "Finance follows ceasefire."
+      ],
+      "setting": "Suez canal and Treasury desk",
+      "objects": [
+        {
+          "kind": "canal",
+          "label": "Suez canal",
+          "track": [
+            [
+              80,
+              220
+            ],
+            [
+              80,
+              220
+            ],
+            [
+              80,
+              220
+            ],
+            [
+              80,
+              220
+            ],
+            [
+              80,
+              220
+            ],
+            [
+              80,
+              220
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "ship",
+          "label": "invasion fleet",
+          "track": [
+            [
+              55,
+              245
+            ],
+            [
+              150,
+              235
+            ],
+            [
+              255,
+              225
+            ],
+            [
+              320,
+              220
+            ],
+            [
+              320,
+              220
+            ],
+            [
+              320,
+              220
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "oil",
+          "label": "oil route",
+          "track": [
+            [
+              410,
+              220
+            ],
+            [
+              410,
+              220
+            ],
+            [
+              410,
+              220
+            ],
+            [
+              360,
+              250
+            ],
+            [
+              330,
+              270
+            ],
+            [
+              330,
+              270
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "pound",
+          "label": "sterling",
+          "track": [
+            [
+              510,
+              95
+            ],
+            [
+              510,
+              95
+            ],
+            [
+              510,
+              95
+            ],
+            [
+              470,
+              135
+            ],
+            [
+              420,
+              175
+            ],
+            [
+              420,
+              175
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "reserve",
+          "label": "reserves",
+          "track": [
+            [
+              575,
+              190
+            ],
+            [
+              575,
+              190
+            ],
+            [
+              575,
+              190
+            ],
+            [
+              530,
+              210
+            ],
+            [
+              470,
+              250
+            ],
+            [
+              470,
+              250
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "gate",
+          "label": "U.S. support",
+          "track": [
+            [
+              575,
+              95
+            ],
+            [
+              575,
+              95
+            ],
+            [
+              575,
+              95
+            ],
+            [
+              515,
+              95
+            ],
+            [
+              450,
+              95
+            ],
+            [
+              390,
+              95
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "ceasefire",
+          "label": "ceasefire",
+          "track": [
+            [
+              310,
+              95
+            ],
+            [
+              310,
+              95
+            ],
+            [
+              310,
+              95
+            ],
+            [
+              310,
+              95
+            ],
+            [
+              310,
+              150
+            ],
+            [
+              310,
+              190
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 147
+    },
+    {
+      "id": "berlin-airlift",
+      "title": "Berlin became a conveyor",
+      "question": "How did planes beat blockade?",
+      "body": "**Documented fact.** Soviet authorities blocked surface routes. Western Berlin needed supplies. Aircraft used three corridors. Early operations remained inefficient. Congestion followed bad weather. Managers then standardized movement. Loaded planes used fixed spacing. Missed landings meant immediate return. Ground crews shortened unloading. Routes became one-way streams. Coal dominated tonnage. A new Tegel runway helped. Almost 278,000 flights operated. They carried 2.3 million tons. The blockade ended in May 1949. Flights continued through September. **Scholarly interpretation.** The decisive innovation was flow. Aircraft alone were insufficient. Rules converted scarce corridors. Repetition raised daily capacity. Civilian labor also mattered. So did British participation. The airlift became political signaling. It avoided armed road convoys. **Counterevidence and limits.** It remained dangerous. Seventy-six people died. Rations stayed austere. Eastern routes were not hermetic. The blockade ended through negotiation too. Airlift capacity cannot prove compellence. Soviet motives remain debated. Yet operational records are clear. Standardized timing changed throughput. The event was collective logistics.",
+      "summary": "Fixed intervals raised throughput. Ground crews completed the system.",
+      "sources": [
+        [
+          "Berlin Airlift Collection",
+          "https://www.trumanlibrary.gov/library/online-collections/berlin-airlift"
+        ],
+        [
+          "1949 Berlin Airlift",
+          "https://www.afhistory.af.mil/FAQs/Fact-Sheets/Article/458961/1949-the-berlin-airlift/"
+        ],
+        [
+          "Airlift Airport Tempelhof",
+          "https://www.thf-berlin.de/en/history-of-location/symbol-of-freedom/airlift"
+        ],
+        [
+          "Operation Vittles",
+          "https://www.amcmuseum.org/history/operation-vittles-berlin-airlift/"
+        ]
+      ],
+      "beats": [
+        "Roads and rails close.",
+        "Planes enter narrow corridors.",
+        "Spacing becomes standardized.",
+        "Crews unload coal quickly.",
+        "Throughput sustains Berlin."
+      ],
+      "setting": "Three air corridors and Tempelhof",
+      "objects": [
+        {
+          "kind": "blockade",
+          "label": "surface blockade",
+          "track": [
+            [
+              85,
+              245
+            ],
+            [
+              85,
+              245
+            ],
+            [
+              85,
+              245
+            ],
+            [
+              85,
+              245
+            ],
+            [
+              85,
+              245
+            ],
+            [
+              85,
+              245
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "plane",
+          "label": "loaded plane",
+          "track": [
+            [
+              45,
+              140
+            ],
+            [
+              160,
+              130
+            ],
+            [
+              285,
+              125
+            ],
+            [
+              405,
+              130
+            ],
+            [
+              520,
+              150
+            ],
+            [
+              575,
+              175
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "plane",
+          "label": "return plane",
+          "track": [
+            [
+              570,
+              95
+            ],
+            [
+              570,
+              95
+            ],
+            [
+              520,
+              90
+            ],
+            [
+              400,
+              85
+            ],
+            [
+              280,
+              90
+            ],
+            [
+              120,
+              105
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "tower",
+          "label": "air controller",
+          "track": [
+            [
+              325,
+              230
+            ],
+            [
+              325,
+              230
+            ],
+            [
+              325,
+              230
+            ],
+            [
+              325,
+              230
+            ],
+            [
+              325,
+              230
+            ],
+            [
+              325,
+              230
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "coal",
+          "label": "coal sacks",
+          "track": [
+            [
+              515,
+              210
+            ],
+            [
+              515,
+              210
+            ],
+            [
+              515,
+              210
+            ],
+            [
+              490,
+              235
+            ],
+            [
+              420,
+              255
+            ],
+            [
+              360,
+              255
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "loader",
+          "label": "ground crew",
+          "track": [
+            [
+              585,
+              250
+            ],
+            [
+              585,
+              250
+            ],
+            [
+              585,
+              250
+            ],
+            [
+              530,
+              245
+            ],
+            [
+              450,
+              245
+            ],
+            [
+              385,
+              245
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "city",
+          "label": "West Berlin",
+          "track": [
+            [
+              170,
+              245
+            ],
+            [
+              170,
+              245
+            ],
+            [
+              170,
+              245
+            ],
+            [
+              170,
+              245
+            ],
+            [
+              170,
+              245
+            ],
+            [
+              170,
+              245
+            ]
+          ],
+          "from": 0
+        }
+      ],
+      "word_count": 156
+    },
+    {
+      "id": "green-revolution",
+      "title": "Seeds needed a system",
+      "question": "What made yields rise?",
+      "body": "**Documented fact.** India faced severe food shortages. High-yield wheat then spread. Seeds were only one input. Irrigation expanded. Fertilizer use rose. Credit supported purchases. Guaranteed prices reduced risk. Public procurement bought grain. Storage and rationing moved it. Cereal production eventually tripled. Food dependence declined. **Scholarly interpretation.** The Green Revolution was institutional. Seed genetics required complements. State capacity changed adoption. Benefits reached many farmers. Lower prices reduced poverty. Higher yields also spared land. **Counterevidence and limits.** Gains were uneven. Irrigated regions moved first. Rice and wheat dominated. Other crops lagged. Fertilizer damaged some soils. Pumps depleted groundwater. Subsidies reinforced intensive farming. Inequality findings remain mixed. Some studies find diffusion. Others find regional gaps. The package did not end malnutrition. Nor did seeds cause every harm. Weather and later policies mattered. Counterfactual famine estimates vary. The record supports large gains. It also supports ecological costs. Future systems need broader crops. Water limits now matter.",
+      "summary": "Seeds worked with water, credit, fertilizer, and procurement.",
+      "sources": [
+        [
+          "Green Revolution: Impacts and Limits",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3411969/"
+        ],
+        [
+          "World Bank–India Partnership",
+          "https://www.worldbank.org/en/country/india/publication/the-world-bank-celebrates-75-years-of-partnership-with-india"
+        ],
+        [
+          "FAO Agricultural Transformation",
+          "https://www.fao.org/4/ag087e/ag087e05.htm"
+        ],
+        [
+          "Post-Green Revolution Cereals",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6911172/"
+        ]
+      ],
+      "beats": [
+        "Drought exposes food dependence.",
+        "Seeds enter irrigated fields.",
+        "Credit purchases fertilizer.",
+        "Procurement buys harvests.",
+        "Water costs accumulate."
+      ],
+      "setting": "Indian farm and grain depot",
+      "objects": [
+        {
+          "kind": "dryfield",
+          "label": "drought field",
+          "track": [
+            [
+              80,
+              235
+            ],
+            [
+              80,
+              235
+            ],
+            [
+              80,
+              235
+            ],
+            [
+              80,
+              235
+            ],
+            [
+              80,
+              235
+            ],
+            [
+              80,
+              235
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "seed",
+          "label": "high-yield seed",
+          "track": [
+            [
+              90,
+              95
+            ],
+            [
+              165,
+              125
+            ],
+            [
+              240,
+              165
+            ],
+            [
+              285,
+              205
+            ],
+            [
+              285,
+              205
+            ],
+            [
+              285,
+              205
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "water",
+          "label": "irrigation",
+          "track": [
+            [
+              210,
+              90
+            ],
+            [
+              240,
+              120
+            ],
+            [
+              285,
+              155
+            ],
+            [
+              315,
+              195
+            ],
+            [
+              330,
+              225
+            ],
+            [
+              330,
+              225
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "fertilizer",
+          "label": "fertilizer",
+          "track": [
+            [
+              390,
+              95
+            ],
+            [
+              390,
+              95
+            ],
+            [
+              350,
+              135
+            ],
+            [
+              320,
+              185
+            ],
+            [
+              320,
+              215
+            ],
+            [
+              320,
+              215
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "credit",
+          "label": "farm credit",
+          "track": [
+            [
+              500,
+              95
+            ],
+            [
+              460,
+              110
+            ],
+            [
+              420,
+              130
+            ],
+            [
+              380,
+              155
+            ],
+            [
+              345,
+              180
+            ],
+            [
+              345,
+              180
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "grain",
+          "label": "grain harvest",
+          "track": [
+            [
+              300,
+              245
+            ],
+            [
+              300,
+              245
+            ],
+            [
+              300,
+              245
+            ],
+            [
+              380,
+              235
+            ],
+            [
+              470,
+              215
+            ],
+            [
+              535,
+              190
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "depot",
+          "label": "public depot",
+          "track": [
+            [
+              560,
+              235
+            ],
+            [
+              560,
+              235
+            ],
+            [
+              560,
+              235
+            ],
+            [
+              560,
+              235
+            ],
+            [
+              560,
+              235
+            ],
+            [
+              560,
+              235
+            ]
+          ],
+          "from": 3
+        }
+      ],
+      "word_count": 152
+    },
+    {
+      "id": "apollo-chips",
+      "title": "Apollo bought reliability",
+      "question": "How did procurement scale chips?",
+      "body": "**Documented fact.** Integrated circuits existed already. Apollo adopted them early. Weight constraints encouraged that choice. Each guidance computer used thousands. NASA bought standardized logic gates. Repeated orders expanded production. Screening rejected weak batches. Reliability requirements shaped testing. Prices then fell. More suppliers entered. Apollo computers guided lunar missions. **Scholarly interpretation.** Procurement created a market. Demand reduced manufacturing uncertainty. Reliability was purchased deliberately. Public missions therefore shaped industry. The effect extended beyond invention. It helped make chips credible. **Counterevidence and limits.** Apollo was not alone. Minuteman also bought circuits. Military orders soon became larger. Manufacturers had prior designs. Commercial computing also drove demand. Available market-share data conflict. NASA historians call attribution uncertain. Apollo did not invent silicon. Nor did falling prices have one cause. Learning, competition, and scale interacted. Spaceflight nevertheless provided demanding proof. Its influence was catalytic. Exact shares remain unknowable. Celebratory claims require caution. The stronger claim concerns early demand.",
+      "summary": "Large orders scaled chips. Testing made reliability marketable.",
+      "sources": [
+        [
+          "Apollo Guidance Computer and Chips",
+          "https://airandspace.si.edu/stories/editorial/apollo-guidance-computer-and-first-silicon-chips"
+        ],
+        [
+          "Apollo Computer Object",
+          "https://www.si.edu/object/nasm_A19720343000"
+        ],
+        [
+          "Historical Studies of Spaceflight",
+          "https://www.nasa.gov/wp-content/uploads/2016/01/historical-studies-societal-impact-spaceflight-ebook_tagged.pdf"
+        ],
+        [
+          "Aerospace Systems and ICs",
+          "https://www.computerhistory.org/siliconengine/aerospace-systems-are-first-the-applications-for-ics-in-computers/"
+        ]
+      ],
+      "beats": [
+        "Engineers face strict weight.",
+        "NASA orders simple chips.",
+        "Factories repeat production.",
+        "Testing rejects weak batches.",
+        "Reliable computers reach space."
+      ],
+      "setting": "Chip factory and spacecraft lab",
+      "objects": [
+        {
+          "kind": "chip",
+          "label": "integrated circuit",
+          "track": [
+            [
+              90,
+              210
+            ],
+            [
+              170,
+              190
+            ],
+            [
+              250,
+              180
+            ],
+            [
+              330,
+              175
+            ],
+            [
+              410,
+              165
+            ],
+            [
+              490,
+              155
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "order",
+          "label": "NASA order",
+          "track": [
+            [
+              85,
+              95
+            ],
+            [
+              165,
+              100
+            ],
+            [
+              245,
+              110
+            ],
+            [
+              310,
+              120
+            ],
+            [
+              310,
+              120
+            ],
+            [
+              310,
+              120
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "factoryline",
+          "label": "production line",
+          "track": [
+            [
+              330,
+              235
+            ],
+            [
+              330,
+              235
+            ],
+            [
+              330,
+              235
+            ],
+            [
+              330,
+              235
+            ],
+            [
+              330,
+              235
+            ],
+            [
+              330,
+              235
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "test",
+          "label": "screening test",
+          "track": [
+            [
+              430,
+              95
+            ],
+            [
+              430,
+              95
+            ],
+            [
+              430,
+              95
+            ],
+            [
+              390,
+              135
+            ],
+            [
+              350,
+              175
+            ],
+            [
+              350,
+              175
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "reject",
+          "label": "failed batch",
+          "track": [
+            [
+              450,
+              190
+            ],
+            [
+              450,
+              190
+            ],
+            [
+              450,
+              190
+            ],
+            [
+              480,
+              225
+            ],
+            [
+              520,
+              260
+            ],
+            [
+              560,
+              270
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "computer",
+          "label": "guidance computer",
+          "track": [
+            [
+              545,
+              215
+            ],
+            [
+              545,
+              215
+            ],
+            [
+              545,
+              215
+            ],
+            [
+              545,
+              215
+            ],
+            [
+              500,
+              190
+            ],
+            [
+              460,
+              175
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "rocket",
+          "label": "Apollo",
+          "track": [
+            [
+              585,
+              250
+            ],
+            [
+              585,
+              250
+            ],
+            [
+              585,
+              250
+            ],
+            [
+              585,
+              250
+            ],
+            [
+              565,
+              190
+            ],
+            [
+              545,
+              90
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 151
+    },
+    {
+      "id": "montreal-protocol",
+      "title": "Ozone rules changed markets",
+      "question": "Why did cooperation work?",
+      "body": "**Documented fact.** Scientists linked CFCs to ozone loss. Satellite evidence sharpened concern. Governments signed the Montreal Protocol. The agreement controlled production. It also restricted trade. Timetables tightened repeatedly. A multilateral fund supported transitions. Technical panels evaluated substitutes. Industry redesigned refrigeration. Aerosols also changed. CFC production largely ended. Ozone recovery is now projected. **Scholarly interpretation.** Science alone was insufficient. Trade rules discouraged free-riding. Finance widened participation. Available substitutes reduced resistance. Adjustable schedules handled uncertainty. Institutions converted discovery into action. **Counterevidence and limits.** Early industry opposition existed. Some substitutes caused warming. HCFCs still damaged ozone. HFCs later required reduction. Illegal trade also persisted. Recovery remains slow. Climate change affects estimates. No single company caused success. Nor was compliance costless. Developing states received longer timelines. Essential-use exemptions remained. The treaty’s record is strong. Its mechanism was layered. Science, markets, money, and enforcement interacted. Replication elsewhere is difficult. Carbon dioxide has fewer substitutes. Its sources are broader.",
+      "summary": "Trade rules and funding converted ozone science into markets.",
+      "sources": [
+        [
+          "Montreal Protocol Text",
+          "https://ozone.unep.org/treaties/montreal-protocol-substances-deplete-ozone-layer"
+        ],
+        [
+          "Protocol Introduction",
+          "https://ozone.unep.org/treaties/montreal-protocol-substances-deplete-ozone-layer/introduction"
+        ],
+        [
+          "EPA Regulatory History",
+          "https://www.epa.gov/archive/epa/aboutepa/regulatory-history-cfcs-and-other-stratospheric-ozone-depleting-chemicals-1993.html"
+        ],
+        [
+          "1995 Chemistry Prize",
+          "https://www.nobelprize.org/prizes/chemistry/1995/9060-the-nobel-prize-in-chemistry-1995-1995-2/"
+        ]
+      ],
+      "beats": [
+        "CFCs rise upward.",
+        "Ozone thins.",
+        "Treaty closes markets.",
+        "Funding supports substitutes.",
+        "Recovery remains gradual."
+      ],
+      "setting": "Atmosphere, customs gate, workshop",
+      "objects": [
+        {
+          "kind": "spray",
+          "label": "CFC aerosol",
+          "track": [
+            [
+              80,
+              245
+            ],
+            [
+              110,
+              205
+            ],
+            [
+              150,
+              165
+            ],
+            [
+              190,
+              125
+            ],
+            [
+              210,
+              95
+            ],
+            [
+              210,
+              95
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "ozone",
+          "label": "ozone layer",
+          "track": [
+            [
+              60,
+              85
+            ],
+            [
+              60,
+              85
+            ],
+            [
+              60,
+              85
+            ],
+            [
+              60,
+              85
+            ],
+            [
+              60,
+              85
+            ],
+            [
+              60,
+              85
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "uv",
+          "label": "ultraviolet",
+          "track": [
+            [
+              300,
+              70
+            ],
+            [
+              300,
+              90
+            ],
+            [
+              300,
+              120
+            ],
+            [
+              300,
+              160
+            ],
+            [
+              300,
+              190
+            ],
+            [
+              300,
+              210
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "treaty",
+          "label": "1987 treaty",
+          "track": [
+            [
+              380,
+              95
+            ],
+            [
+              380,
+              95
+            ],
+            [
+              380,
+              95
+            ],
+            [
+              340,
+              135
+            ],
+            [
+              300,
+              175
+            ],
+            [
+              300,
+              175
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "tradegate",
+          "label": "trade control",
+          "track": [
+            [
+              435,
+              220
+            ],
+            [
+              435,
+              220
+            ],
+            [
+              435,
+              220
+            ],
+            [
+              435,
+              220
+            ],
+            [
+              435,
+              220
+            ],
+            [
+              435,
+              220
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "fund",
+          "label": "transition fund",
+          "track": [
+            [
+              520,
+              95
+            ],
+            [
+              520,
+              95
+            ],
+            [
+              520,
+              95
+            ],
+            [
+              480,
+              130
+            ],
+            [
+              440,
+              165
+            ],
+            [
+              440,
+              165
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "fridge",
+          "label": "safer substitute",
+          "track": [
+            [
+              565,
+              235
+            ],
+            [
+              565,
+              235
+            ],
+            [
+              565,
+              235
+            ],
+            [
+              565,
+              235
+            ],
+            [
+              520,
+              215
+            ],
+            [
+              485,
+              200
+            ]
+          ],
+          "from": 3
+        }
+      ],
+      "word_count": 153
+    },
+    {
+      "id": "primitive-panic-buying",
+      "title": "Primitive Echo: scarcity cascades",
+      "question": "Why do empty shelves spread?",
+      "body": "**Documented evidence.** Crisis buying follows cues. Perceived scarcity predicts purchases. Uncertainty strengthens that response. Seeing others buy matters. Empty shelves amplify urgency. Social media spreads images. Many shoppers add modest amounts. Their combined demand creates shortages. Stockpiling can be rational. Storm preparation reduces risk. **Scholarly interpretation.** Storage may echo scarcity adaptation. Keeping reserves protects households. Social observation also saves time. Others become danger sensors. Modern supply chains change effects. Synchronized buying overwhelms inventory. A protective response becomes collective harm. **Counterevidence and limits.** Evolutionary accounts remain hypotheses. Direct ancestral evidence is unavailable. Culture shapes storage norms. Income limits purchasing capacity. Household size matters. Retail restrictions change behavior. Panic is often misnamed. Fear is not universal. Conscientious planning can look similar. Hoarding disorder is different. It involves persistent impairment. Crisis stockpiling is temporary. Surveys also rely on self-report. Pandemic findings may not generalize. The best-supported mechanism combines scarcity, uncertainty, control, and imitation. Biology alone explains little.",
+      "summary": "Scarcity cues synchronize buying. Small choices can empty shelves.",
+      "sources": [
+        [
+          "Psychological Causes of Panic Buying",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7277661/"
+        ],
+        [
+          "Biopsychosocial Panic Buying Model",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7943846/"
+        ],
+        [
+          "Pandemic Buying Model",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7840055/"
+        ],
+        [
+          "Panic Buying Review",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10967731/"
+        ]
+      ],
+      "beats": [
+        "A warning creates uncertainty.",
+        "One shopper adds reserves.",
+        "Others observe the cart.",
+        "Demand empties shelves.",
+        "Restocking breaks the cascade."
+      ],
+      "setting": "Grocery aisle and supply depot",
+      "objects": [
+        {
+          "kind": "phone",
+          "label": "scarcity post",
+          "track": [
+            [
+              80,
+              95
+            ],
+            [
+              145,
+              105
+            ],
+            [
+              210,
+              120
+            ],
+            [
+              250,
+              135
+            ],
+            [
+              250,
+              135
+            ],
+            [
+              250,
+              135
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "shopper",
+          "label": "first shopper",
+          "track": [
+            [
+              90,
+              245
+            ],
+            [
+              165,
+              235
+            ],
+            [
+              240,
+              225
+            ],
+            [
+              315,
+              215
+            ],
+            [
+              390,
+              205
+            ],
+            [
+              390,
+              205
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "cart",
+          "label": "full cart",
+          "track": [
+            [
+              130,
+              255
+            ],
+            [
+              205,
+              250
+            ],
+            [
+              285,
+              240
+            ],
+            [
+              365,
+              230
+            ],
+            [
+              430,
+              220
+            ],
+            [
+              430,
+              220
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "shelf",
+          "label": "store shelf",
+          "track": [
+            [
+              510,
+              210
+            ],
+            [
+              510,
+              210
+            ],
+            [
+              510,
+              210
+            ],
+            [
+              510,
+              210
+            ],
+            [
+              510,
+              210
+            ],
+            [
+              510,
+              210
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "goods",
+          "label": "remaining goods",
+          "track": [
+            [
+              500,
+              180
+            ],
+            [
+              500,
+              180
+            ],
+            [
+              500,
+              180
+            ],
+            [
+              455,
+              195
+            ],
+            [
+              410,
+              215
+            ],
+            [
+              410,
+              215
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "crowd",
+          "label": "other shoppers",
+          "track": [
+            [
+              80,
+              275
+            ],
+            [
+              80,
+              275
+            ],
+            [
+              150,
+              265
+            ],
+            [
+              245,
+              250
+            ],
+            [
+              330,
+              235
+            ],
+            [
+              400,
+              225
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "truck",
+          "label": "restock truck",
+          "track": [
+            [
+              590,
+              250
+            ],
+            [
+              590,
+              250
+            ],
+            [
+              590,
+              250
+            ],
+            [
+              590,
+              250
+            ],
+            [
+              555,
+              240
+            ],
+            [
+              505,
+              230
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 154
+    }
+  ]
+}
