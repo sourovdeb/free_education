@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0018",
+  "version": "1.0.0",
+  "title": "Can I Return It Without the Receipt?",
+  "slug": "return-without-a-receipt",
+  "pathway": "use-english",
+  "interaction_family": "policy-evidence-and-readback",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Recognise common shopping words", "understand can or could for permission"],
+  "observable_outcome": "The learner asks whether alternative proof is accepted and accurately restates the return deadline and item condition.",
+  "learning_objective": "Ask whether a shop can accept a return without a receipt, then confirm the deadline and required item condition.",
+  "scenario": {
+    "setting": "A fictional clothing shop return counter.",
+    "prompt": "You bought a sweater 12 days ago. It is unused and the tag is attached. You lost the paper receipt, but your bank statement shows the purchase. The shop policy accepts returns within 30 days with proof of purchase.",
+    "puzzle": "What can replace the receipt as proof, and which deadline and condition must you confirm?",
+    "privacy_note": "The shop, purchase, policy, employee, and customer are fictional teaching data. The activity is language practice, not legal advice."
+  },
+  "model": {
+    "clarify": "Could I return this without the paper receipt? I have the bank statement.",
+    "customer_reply": "The sweater is unused, and the tag is still attached.",
+    "confirm": "So I can return it within 30 days with proof of purchase, and it must be unused with the tag attached, right?",
+    "neutral_variant": "Can I use my bank statement as proof of purchase instead of the receipt?"
+  },
+  "language_focus": {
+    "grammar": "Can I ...? asks for permission. Could I ...? is more formal and polite. Without names something that is absent. Instead of presents an alternative: a bank statement instead of the receipt.",
+    "meaning": "The question checks whether alternative proof is accepted. The readback separates three policy details: proof of purchase, the 30-day deadline, and the required condition of the item.",
+    "appropriateness": "Could I ...? suits a polite service encounter. Explaining what proof you do have is more useful than only saying what is missing. Confirming the deadline and condition prevents another misunderstanding.",
+    "detail_language": "Within 30 days means no later than the end of that period. With the tag attached describes the item's required condition. This lesson uses a fictional shop policy; real rights and policies vary by place and purchase type."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "Which evidence best replaces the missing paper receipt in this scenario?",
+    "options": [
+      {"text": "The bank statement showing the purchase", "correct": true, "feedback": "Correct. The scenario says the statement shows the purchase and the shop accepts proof of purchase."},
+      {"text": "The shop's carrier bag", "correct": false, "feedback": "A bag may come from the shop, but it does not clearly show this purchase. Use the bank statement."},
+      {"text": "No evidence at all", "correct": false, "feedback": "The fictional policy asks for proof of purchase. Offer the bank statement rather than no evidence."}
+    ]
+  },
+  "request_activity": {
+    "id": "decision-2",
+    "prompt": "Which question clearly checks permission and offers the alternative proof?",
+    "options": [
+      {"text": "Could I return this without the paper receipt? I have the bank statement.", "correct": true, "feedback": "Correct. It politely asks permission and immediately names the available proof."},
+      {"text": "Can I use my bank statement as proof of purchase instead of the receipt?", "correct": true, "feedback": "Also correct. It directly checks whether the alternative evidence is acceptable."},
+      {"text": "I lost it. Give me a refund.", "correct": false, "feedback": "This does not identify the available proof or check the policy. Ask whether the bank statement is accepted."}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each policy detail to its slot.",
+    "slots": ["proof", "deadline", "item condition"],
+    "items": [
+      {"detail": "bank statement", "answer": "proof", "feedback": {"proof": "Correct. It shows evidence of the purchase in this scenario.", "deadline": "The deadline is within 30 days.", "item condition": "Unused with the tag attached describes the condition."}},
+      {"detail": "within 30 days", "answer": "deadline", "feedback": {"proof": "The bank statement is the proof.", "deadline": "Correct. This is the time limit for the fictional policy.", "item condition": "The item's condition is unused with the tag attached."}},
+      {"detail": "unused with the tag attached", "answer": "item condition", "feedback": {"proof": "The proof is the bank statement.", "deadline": "The deadline is within 30 days.", "item condition": "Correct. These words describe how the sweater must be returned."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "You bought headphones online 20 days ago. They are unopened. You have the purchase email but no paper receipt. The fictional policy allows returns within 28 days with proof of purchase.",
+    "instruction": "Write one polite question about the purchase email. Then confirm the 28-day deadline and unopened condition.",
+    "acceptable_responses": [
+      "Could I use the purchase email as proof instead of a paper receipt? So I can return the headphones within 28 days if they are unopened, right?",
+      "Can I return these without a paper receipt? I have the purchase email. The deadline is 28 days and the box must be unopened, correct?"
+    ],
+    "rubric": ["I politely checked permission.", "I named the alternative proof.", "I confirmed the exact deadline.", "I confirmed the required item condition."],
+    "valid_variants": "Can I ...? and Could I ...? are both possible; could is more formal and polite. Right?, correct?, and Is that right? can all invite confirmation."
+  },
+  "review_prompt": "Tomorrow, recall the three return-policy slots: proof, deadline, and item condition. Make one confirmation question using all three.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["shop wall", "return counter", "sweater", "detached receipt", "bank statement", "calendar", "tag", "condition checklist", "speech cards"],
+    "cutout_assets": ["counter", "customer", "staff member", "sweater", "receipt", "bank statement", "calendar", "tag", "check mark", "headphones box", "email card"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Counter, clothing, proof cards, calendar leaves, tags, and speech pieces use cream cut edges and offset shadows.",
+    "motion_principle": "The receipt slips away; a bank-statement card slides into the proof slot; calendar leaves turn; the tag locks onto the sweater; policy cards stack for the readback. Captions remain fixed.",
+    "accessibility": "Dark navy text on cream panels; every colour-coded policy detail also has a word label and distinct shape."
+  },
+  "scenes": [
+    {"id": "missing", "title": "The receipt is missing", "caption": "I lost the paper receipt.", "explanation": "A receipt slips behind the return counter while the unused sweater stays visible.", "motion_cues": ["receipt slips", "sweater rises", "question card appears"]},
+    {"id": "proof", "title": "Offer other proof", "caption": "I have the bank statement.", "explanation": "A bank-statement card slides into the proof slot where the receipt was.", "motion_cues": ["statement slides", "proof slot opens", "check mark pivots"]},
+    {"id": "ask", "title": "Ask permission", "caption": "Could I return this without the paper receipt?", "explanation": "A layered speech card unfolds between the customer and staff member.", "motion_cues": ["speech card unfolds", "customer arm pivots", "staff member turns"]},
+    {"id": "deadline", "title": "Check the deadline", "caption": "Returns are accepted within 30 days.", "explanation": "Calendar leaves turn from day 12 toward a bold 30-day boundary.", "motion_cues": ["calendar opens", "day leaves turn", "deadline ring appears"]},
+    {"id": "condition", "title": "Confirm the condition", "caption": "Unused, with the tag attached, right?", "explanation": "The tag attaches to the sweater and proof, deadline, and condition cards stack beside a check mark.", "motion_cues": ["tag attaches", "policy cards stack", "check mark pivots"]},
+    {"id": "transfer", "title": "Your headphone return", "caption": "Purchase email, within 28 days, unopened.", "explanation": "An email card slides toward an unopened headphone box while a 28-day calendar unfolds.", "motion_cues": ["email card slides", "box enters", "calendar unfolds"]}
+  ],
+  "visual": {
+    "title": "Proof, deadline, condition",
+    "alt_text": "A colourful layered papercut flow. A paper receipt slips away and a bank-statement card enters the proof slot. A 30-day calendar opens, a tag attaches to an unused sweater, and proof, deadline, and condition cards stack beside a check mark.",
+    "prose": "First say what is missing and offer alternative proof. Ask whether the shop accepts it. Then identify the policy deadline and the item's required condition. Finish by reading back all three details: proof, deadline, and condition."
+  },
+  "sources": [
+    {"institution": "British Council LearnEnglish", "title": "Permission", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/permission", "accessed": "2026-09-27", "inspected": "The full grammar explanation states that can asks permission and could is more formal and polite.", "limitation": "It supports the permission forms, not this original retail scenario."},
+    {"institution": "GOV.UK", "title": "Accepting returns and giving refunds: the law", "url": "https://www.gov.uk/accepting-returns-and-giving-refunds", "accessed": "2026-09-27", "inspected": "The official guidance says a business may ask for proof of purchase and that evidence can include a sales receipt, bank statement, or packaging.", "limitation": "This is UK business guidance. The lesson uses a fictional policy and does not present jurisdiction-specific legal advice."}
+  ],
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Language and proof-of-purchase guidance are paraphrased with links. No protected exercise, artwork, shop branding, or legal text is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}
