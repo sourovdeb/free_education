@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">The three-detail readback</title><desc id="desc">A layered paper-cut path connects a telephone, an order card, three detail labels, and a confirmed collection ticket. The labels are method, day, and time.</desc>
+<defs><filter id="shadow" x="-20%" y="-20%" width="150%" height="150%"><feDropShadow dx="10" dy="12" stdDeviation="5" flood-color="#17233B" flood-opacity=".24"/></filter><pattern id="paper" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M0 7L20 2M0 17L20 12" stroke="#17233B" stroke-opacity=".05"/></pattern></defs>
+<rect width="1200" height="760" rx="38" fill="#FFF7E8"/><rect width="1200" height="760" rx="38" fill="url(#paper)"/>
+<text x="70" y="82" font-family="system-ui,sans-serif" font-size="38" font-weight="800" fill="#17233B">THE THREE-DETAIL READBACK</text>
+<g filter="url(#shadow)"><rect x="65" y="145" width="270" height="420" rx="34" fill="#F26B5B"/><rect x="450" y="145" width="290" height="420" rx="34" fill="#F5B83D"/><rect x="855" y="145" width="280" height="420" rx="34" fill="#1F9D8A"/></g>
+<text x="105" y="205" font-family="system-ui,sans-serif" font-size="30" font-weight="800" fill="white">CUSTOMER</text>
+<path d="M145 260c-28 16-28 105 0 122M250 260c28 16 28 105 0 122" fill="none" stroke="white" stroke-width="24" stroke-linecap="round"/>
+<text x="105" y="455" font-family="system-ui,sans-serif" font-size="25" font-weight="700" fill="white">Hear the details</text>
+<path d="M350 355H430" stroke="#17233B" stroke-width="13"/><path d="M430 355l-28-20v40z" fill="#17233B"/>
+<text x="492" y="205" font-family="system-ui,sans-serif" font-size="30" font-weight="800" fill="#17233B">COMPARE</text>
+<rect x="495" y="260" width="200" height="58" rx="18" fill="#F26B5B"/><text x="530" y="298" font-family="system-ui,sans-serif" font-size="24" font-weight="800" fill="white">METHOD</text>
+<rect x="495" y="342" width="200" height="58" rx="18" fill="#4B79D8"/><text x="565" y="380" font-family="system-ui,sans-serif" font-size="24" font-weight="800" fill="white">DAY</text>
+<rect x="495" y="424" width="200" height="58" rx="18" fill="white"/><text x="555" y="462" font-family="system-ui,sans-serif" font-size="24" font-weight="800" fill="#17233B">TIME</text>
+<path d="M755 355H835" stroke="#17233B" stroke-width="13"/><path d="M835 355l-28-20v40z" fill="#17233B"/>
+<text x="895" y="205" font-family="system-ui,sans-serif" font-size="30" font-weight="800" fill="white">READ BACK</text>
+<rect x="900" y="268" width="190" height="165" rx="18" fill="white"/><text x="928" y="315" font-family="system-ui,sans-serif" font-size="22" font-weight="800" fill="#17233B">COLLECTION</text><text x="943" y="360" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#17233B">SATURDAY</text><text x="963" y="405" font-family="system-ui,sans-serif" font-size="28" font-weight="800" fill="#4B79D8">11:30</text>
+<text x="910" y="485" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="white">Invite correction</text>
+<text x="70" y="650" font-family="system-ui,sans-serif" font-size="29" font-weight="800" fill="#17233B">Just to confirm, that's collection on Saturday at 11:30, right?</text>
+<text x="70" y="700" font-family="system-ui,sans-serif" font-size="22" fill="#17233B">Listen → compare method, day, time → read everything back.</text>
+</svg>

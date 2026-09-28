@@ -1,0 +1,8 @@
+ALT TEXT
+A layered paper-cut path connects a telephone, an order card, three detail labels, and a confirmed collection ticket. The labels are method, day, and time.
+
+PROSE EQUIVALENT
+Customer words lead to an order card. Compare method, day, and time. Correct any mismatch. Read all three details back.
+
+TEXT MAP
+Customer words -> compare METHOD + DAY + TIME -> corrected readback

@@ -1,0 +1,24 @@
+COLLECTION OR DELIVERY?
+
+A bakery order contains one mismatch.
+
+The customer says:
+“I'd like the cake for collection on Saturday at 11:30.”
+
+The card says:
+DELIVERY · Saturday · 11:30
+
+Try this readback:
+“Just to confirm, that's collection on Saturday at 11:30, right?”
+
+Now try:
+“Please deliver the flowers on Tuesday between 2 and 3 p.m.”
+
+Confirm four things:
+method · day · time · accuracy
+
+Repository download:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0024-collection-or-delivery
+
+This is not deployed.
+Level is an estimate.
