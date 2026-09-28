@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0018",
+  "next_lesson_id": "FML-0019",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -418,15 +418,34 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0018",
+      "version": "1.0.0",
+      "title": "Can I Return It Without the Receipt?",
+      "slug": "return-without-a-receipt",
+      "pathway": "use-english",
+      "interaction_family": "policy-evidence-and-readback",
+      "objective": "Ask whether a shop can accept a return without a receipt, then confirm the deadline and required item condition.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0018-return-without-a-receipt/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "ed62b109462f3eaf81466f447f3228e0c398b18d",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": {
-    "run_id": "automation-20260927T235813Z",
-    "lesson_id": "FML-0018",
-    "acquired_at": "2026-09-27T23:58:13Z",
-    "expires_at": "2026-09-28T01:58:13Z"
-  },
-  "revision": 27,
+  "lease": null,
+  "revision": 28,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -460,7 +479,8 @@
     "FML-0013 v1.0.0 is mirrored and owner-delivered. Colourful-papercut file motion was verified. No deployment occurred.",
     "FML-0014 v1.0.0 is mirrored and owner-delivered. Colourful-papercut price-scope motion was verified. Browser launch was attempted but unavailable. No deployment occurred.",
     "FML-0015 v1.0.0 is mirrored and owner-delivered. Colourful-papercut pickup-point motion was verified. Browser launch was attempted but Playwright was unavailable. No deployment occurred.",
-    "FML-0017 v1.0.0 is mirrored and owner-delivered. Colourful-papercut lost-item motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred."
+    "FML-0017 v1.0.0 is mirrored and owner-delivered. Colourful-papercut lost-item motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
+    "FML-0018 v1.0.0 is mirrored and owner-delivered. Colourful-papercut return-policy motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred."
   ],
   "design_default": {
     "style": "colourful-papercut",
