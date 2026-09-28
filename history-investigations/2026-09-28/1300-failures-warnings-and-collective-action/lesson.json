@@ -1,0 +1,1504 @@
+{
+  "title": "Failures, Warnings, and Collective Action",
+  "subtitle": "History Investigation — 28 September 2026, 13:00 Réunion",
+  "palette": {
+    "ink": "#272735",
+    "paper": "#f3e6c8",
+    "teal": "#2a7775",
+    "coral": "#cf5c4f",
+    "gold": "#e0a83e",
+    "blue": "#4b78a3",
+    "green": "#6e8b67"
+  },
+  "chapter_seconds": 30,
+  "fps": 25,
+  "cards": [
+    {
+      "id": "irish-famine-policy",
+      "title": "Blight met brittle policy",
+      "question": "Why did crop failure become famine?",
+      "body": "**Documented fact.** Potato blight arrived in 1845. Repeated failures destroyed the staple. Poor tenants lacked alternatives. Many farms still produced food. Grain and livestock exports continued. Robert Peel imported maize. His program provided some relief. Later policy shifted course. Public works required hard labor. Wages often arrived late. Soup kitchens briefly expanded aid. Poor Law workhouses then dominated. Disease killed alongside hunger. Emigration accelerated. Ireland’s population collapsed. **Scholarly interpretation.** Blight triggered catastrophe. Land structure magnified it. Poverty narrowed diets. Market ideology constrained relief. Administrative rules delayed access. Continued exports became morally explosive. **Counterevidence and limits.** Exports alone explain little. Confiscating them posed logistical limits. Imports also entered Ireland. Relief spending was substantial. Some officials worked urgently. Local capacity remained weak. Weather damaged transport. Exact death totals vary. Colonial governance shaped vulnerability. Intentional extermination is unsupported. Negligence and ideology are better documented. The famine combined pathogen, poverty, policy, and disease.",
+      "summary": "Blight destroyed a staple. Poverty and relief rules magnified mortality.",
+      "sources": [
+        [
+          "Famine Records and Relief Commission",
+          "https://nationalarchives.ie/help-with-research/research-guides/famine-records-distress-papers-and-the-relief-commission/"
+        ],
+        [
+          "Office of Public Works History",
+          "https://www.gov.ie/en/office-of-public-works/organisation-information/history-of-the-office-of-public-works/"
+        ],
+        [
+          "National Famine Commemoration 2026",
+          "https://www.gov.ie/en/department-of-the-taoiseach/speeches/national-famine-commemoration-irish-workhouse-centre-portumna-co-galway-sunday-17-may-2026/"
+        ],
+        [
+          "HERB-1 Blight Genome",
+          "https://doi.org/10.7554/eLife.00731"
+        ]
+      ],
+      "beats": [
+        "Blight ruins potatoes.",
+        "Exports still leave ports.",
+        "Public works ration relief.",
+        "Workhouses absorb families.",
+        "Disease and migration spread."
+      ],
+      "setting": "Irish farm, port, and relief office",
+      "objects": [
+        {
+          "kind": "potatofield",
+          "label": "blighted crop",
+          "track": [
+            [
+              90,
+              235
+            ],
+            [
+              90,
+              235
+            ],
+            [
+              90,
+              235
+            ],
+            [
+              90,
+              235
+            ],
+            [
+              90,
+              235
+            ],
+            [
+              90,
+              235
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "blight",
+          "label": "blight spores",
+          "track": [
+            [
+              80,
+              90
+            ],
+            [
+              120,
+              120
+            ],
+            [
+              165,
+              155
+            ],
+            [
+              205,
+              195
+            ],
+            [
+              205,
+              195
+            ],
+            [
+              205,
+              195
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "graincart",
+          "label": "export grain",
+          "track": [
+            [
+              230,
+              240
+            ],
+            [
+              290,
+              230
+            ],
+            [
+              355,
+              220
+            ],
+            [
+              420,
+              205
+            ],
+            [
+              470,
+              190
+            ],
+            [
+              470,
+              190
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "ship",
+          "label": "export ship",
+          "track": [
+            [
+              500,
+              235
+            ],
+            [
+              500,
+              235
+            ],
+            [
+              520,
+              220
+            ],
+            [
+              545,
+              195
+            ],
+            [
+              570,
+              170
+            ],
+            [
+              590,
+              145
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "reliefworks",
+          "label": "public works",
+          "track": [
+            [
+              300,
+              110
+            ],
+            [
+              300,
+              110
+            ],
+            [
+              280,
+              135
+            ],
+            [
+              260,
+              170
+            ],
+            [
+              250,
+              195
+            ],
+            [
+              250,
+              195
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "workhouse",
+          "label": "workhouse",
+          "track": [
+            [
+              440,
+              245
+            ],
+            [
+              440,
+              245
+            ],
+            [
+              440,
+              245
+            ],
+            [
+              440,
+              235
+            ],
+            [
+              420,
+              215
+            ],
+            [
+              400,
+              200
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "migrantship",
+          "label": "emigrant passage",
+          "track": [
+            [
+              560,
+              260
+            ],
+            [
+              560,
+              260
+            ],
+            [
+              560,
+              260
+            ],
+            [
+              550,
+              245
+            ],
+            [
+              525,
+              220
+            ],
+            [
+              490,
+              190
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 149
+    },
+    {
+      "id": "influenza-war-information",
+      "title": "War distorted pandemic signals",
+      "question": "Why was influenza called Spanish?",
+      "body": "**Documented fact.** Influenza spread globally during 1918. Troop movements connected continents. Crowded camps aided transmission. Warring states controlled information. Spain remained neutral. Its press reported openly. King Alfonso XIII became ill. Foreign readers therefore saw Spanish headlines. The virus gained a misleading name. Some authorities minimized danger. Philadelphia allowed a war-bond parade. Hospitals were soon overwhelmed. Other cities acted earlier. Closures and gathering bans reduced peak mortality. Medicine still lacked antivirals. Effective influenza vaccines came later. **Scholarly interpretation.** War shaped both spread and knowledge. Mobilization moved infection. Censorship obscured comparative risk. Patriotic events delayed distancing. Institutions reacted unevenly. **Counterevidence and limits.** Censorship was not universal. French newspapers sometimes reported outbreaks. Officials also faced diagnostic uncertainty. Influenza was not yet reportable everywhere. The virus’s geographic origin remains unsettled. Kansas is one hypothesis. Other origins remain plausible. Spain did not cause the pandemic. Naming followed visibility. Local intervention studies are observational. Timing still strongly correlates with outcomes.",
+      "summary": "Troop movement spread infection. Unequal reporting made Spain appear responsible.",
+      "sources": [
+        [
+          "CDC: 1918 Pandemic History",
+          "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-commemoration/1918-pandemic-history.htm"
+        ],
+        [
+          "Spanish Influenza: Lessons",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6477554/"
+        ],
+        [
+          "Public Health Interventions",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC1849867/"
+        ],
+        [
+          "Fighting Flu in Britain",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7574600/"
+        ]
+      ],
+      "beats": [
+        "Troop trains move infection.",
+        "Censors mute reports.",
+        "Spain reports openly.",
+        "A parade crowds streets.",
+        "Closures flatten peaks."
+      ],
+      "setting": "Troop station, newsroom, and city parade",
+      "objects": [
+        {
+          "kind": "trooptrain",
+          "label": "troop train",
+          "track": [
+            [
+              55,
+              240
+            ],
+            [
+              145,
+              230
+            ],
+            [
+              245,
+              220
+            ],
+            [
+              335,
+              210
+            ],
+            [
+              430,
+              200
+            ],
+            [
+              500,
+              190
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "viruscloud",
+          "label": "influenza",
+          "track": [
+            [
+              95,
+              150
+            ],
+            [
+              160,
+              165
+            ],
+            [
+              235,
+              180
+            ],
+            [
+              315,
+              190
+            ],
+            [
+              390,
+              195
+            ],
+            [
+              450,
+              195
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "censorstamp",
+          "label": "wartime censor",
+          "track": [
+            [
+              270,
+              100
+            ],
+            [
+              270,
+              100
+            ],
+            [
+              250,
+              125
+            ],
+            [
+              230,
+              150
+            ],
+            [
+              230,
+              150
+            ],
+            [
+              230,
+              150
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "newspaper",
+          "label": "Spanish press",
+          "track": [
+            [
+              420,
+              105
+            ],
+            [
+              420,
+              105
+            ],
+            [
+              400,
+              125
+            ],
+            [
+              375,
+              150
+            ],
+            [
+              375,
+              150
+            ],
+            [
+              375,
+              150
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "paradecrowd",
+          "label": "bond parade",
+          "track": [
+            [
+              520,
+              245
+            ],
+            [
+              520,
+              245
+            ],
+            [
+              500,
+              240
+            ],
+            [
+              465,
+              230
+            ],
+            [
+              430,
+              220
+            ],
+            [
+              430,
+              220
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "closuregate",
+          "label": "gathering ban",
+          "track": [
+            [
+              575,
+              135
+            ],
+            [
+              575,
+              135
+            ],
+            [
+              575,
+              135
+            ],
+            [
+              550,
+              155
+            ],
+            [
+              520,
+              180
+            ],
+            [
+              500,
+              200
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 155
+    },
+    {
+      "id": "bhola-cyclone-politics",
+      "title": "A cyclone exposed distance",
+      "question": "How did disaster reshape politics?",
+      "body": "**Documented fact.** Cyclone Bhola struck East Pakistan in November 1970. A huge storm surge crossed low islands. Death estimates vary widely. Roughly 300,000 is commonly cited. Warnings existed. Many residents lacked shelters. Communications collapsed. Relief reached remote islands slowly. Foreign helicopters and boats later arrived. Public anger targeted Pakistan’s central government. Elections followed in December. The Awami League won decisively. West Pakistani leaders then resisted transferring power. War began in 1971. Bangladesh became independent. **Scholarly interpretation.** Disaster exposed political distance. Unequal state capacity became visible. Recent spatial research links cyclone intensity with later voting and enlistment. Neglect likely strengthened mobilization. **Counterevidence and limits.** The cyclone did not create Bengali nationalism. Language conflict came earlier. Economic grievances were longstanding. Military repression drove war directly. Relief included substantial international aid. Some delays reflected destroyed infrastructure. Death counts remain uncertain. Satellite-based causal studies require assumptions. The strongest claim is catalytic. Bhola sharpened existing distrust. It did not mechanically cause independence.",
+      "summary": "Storm surge destroyed islands. Slow relief deepened existing political distrust.",
+      "sources": [
+        [
+          "NOAA: Bhola Cyclone Anniversary",
+          "https://www.aoml.noaa.gov/hurricane_blog/45th-anniversary-of-the-bhola-cyclone/"
+        ],
+        [
+          "NOAA Storm-Surge Review",
+          "https://repository.library.noaa.gov/view/noaa/59765/noaa_59765_DS1.pdf"
+        ],
+        [
+          "The Final Straw?",
+          "https://doi.org/10.1080/09584935.2023.2203901"
+        ],
+        [
+          "State Neglect and Revolution",
+          "https://insights.som.yale.edu/insights/when-state-neglect-turns-weather-into-revolution"
+        ]
+      ],
+      "beats": [
+        "Cyclone drives a surge.",
+        "Islands lose communications.",
+        "Relief arrives slowly.",
+        "Ballots punish distance.",
+        "Conflict breaks the state."
+      ],
+      "setting": "Bay of Bengal islands and relief airfield",
+      "objects": [
+        {
+          "kind": "cyclone",
+          "label": "cyclone",
+          "track": [
+            [
+              95,
+              95
+            ],
+            [
+              145,
+              115
+            ],
+            [
+              205,
+              140
+            ],
+            [
+              260,
+              165
+            ],
+            [
+              260,
+              165
+            ],
+            [
+              260,
+              165
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "stormwave",
+          "label": "storm surge",
+          "track": [
+            [
+              80,
+              250
+            ],
+            [
+              155,
+              240
+            ],
+            [
+              235,
+              230
+            ],
+            [
+              320,
+              220
+            ],
+            [
+              400,
+              215
+            ],
+            [
+              470,
+              210
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "islandhomes",
+          "label": "coastal islands",
+          "track": [
+            [
+              340,
+              240
+            ],
+            [
+              340,
+              240
+            ],
+            [
+              340,
+              240
+            ],
+            [
+              340,
+              240
+            ],
+            [
+              340,
+              240
+            ],
+            [
+              340,
+              240
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "brokenradio",
+          "label": "broken links",
+          "track": [
+            [
+              390,
+              105
+            ],
+            [
+              390,
+              105
+            ],
+            [
+              375,
+              130
+            ],
+            [
+              355,
+              160
+            ],
+            [
+              355,
+              160
+            ],
+            [
+              355,
+              160
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "reliefheli",
+          "label": "relief helicopters",
+          "track": [
+            [
+              580,
+              90
+            ],
+            [
+              580,
+              90
+            ],
+            [
+              555,
+              110
+            ],
+            [
+              515,
+              135
+            ],
+            [
+              470,
+              165
+            ],
+            [
+              430,
+              190
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "ballotbox",
+          "label": "December ballots",
+          "track": [
+            [
+              525,
+              245
+            ],
+            [
+              525,
+              245
+            ],
+            [
+              525,
+              245
+            ],
+            [
+              500,
+              230
+            ],
+            [
+              470,
+              210
+            ],
+            [
+              450,
+              195
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "fracture",
+          "label": "state fracture",
+          "track": [
+            [
+              585,
+              220
+            ],
+            [
+              585,
+              220
+            ],
+            [
+              585,
+              220
+            ],
+            [
+              585,
+              220
+            ],
+            [
+              555,
+              210
+            ],
+            [
+              515,
+              195
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 158
+    },
+    {
+      "id": "challenger-launch-decision",
+      "title": "Challenger reversed proof",
+      "question": "Why did warnings fail?",
+      "body": "**Documented fact.** Challenger launched on 28 January 1986. Air temperatures were unusually low. Shuttle boosters used rubber O-rings. Cold reduced sealing performance. Thiokol engineers opposed launch below prior experience. Managers reversed the recommendation. NASA accepted the launch. Hot gas escaped a joint. The external tank failed. Seven crew members died. The Rogers Commission investigated. It found both technical failure and flawed decision-making. Senior decision-makers lacked key O-ring history. The booster joint was later redesigned. **Scholarly interpretation.** The burden of proof shifted. Engineers were asked to prove failure. Managers treated missing data as safety. Earlier erosion had become normalized. Schedule pressure shaped discussion. **Counterevidence and limits.** No manager wanted disaster. Available temperature data were incomplete. Some warm launches also showed erosion. Rules did not clearly forbid launch. Organizational routines can produce danger without conspiracy. Political pressure is often overstated. The commission documented communication failures. It did not prove one motive. Challenger became a case about uncertainty, hierarchy, and normalization.",
+      "summary": "Cold weakened seals. Management treated uncertainty as permission.",
+      "sources": [
+        [
+          "Rogers Commission: Launch Decision",
+          "https://www.nasa.gov/history/rogersrep/v1ch5.htm"
+        ],
+        [
+          "Rogers Commission: Accident Analysis",
+          "https://www.nasa.gov/history/rogersrep/v1ch4.htm"
+        ],
+        [
+          "Rogers Commission Report",
+          "https://www.nasa.gov/history/rogersrep/genindex.htm"
+        ],
+        [
+          "Challenger Center History",
+          "https://www.nasa.gov/challenger-sts-51l-accident/"
+        ]
+      ],
+      "beats": [
+        "Ice chills the joint.",
+        "Engineers recommend delay.",
+        "Managers reverse advice.",
+        "Hot gas escapes.",
+        "The shuttle breaks apart."
+      ],
+      "setting": "Thiokol conference room and launchpad",
+      "objects": [
+        {
+          "kind": "icejoint",
+          "label": "cold O-ring",
+          "track": [
+            [
+              110,
+              220
+            ],
+            [
+              110,
+              220
+            ],
+            [
+              110,
+              220
+            ],
+            [
+              110,
+              220
+            ],
+            [
+              110,
+              220
+            ],
+            [
+              110,
+              220
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "engineermemo",
+          "label": "no-launch memo",
+          "track": [
+            [
+              220,
+              105
+            ],
+            [
+              250,
+              125
+            ],
+            [
+              285,
+              150
+            ],
+            [
+              315,
+              175
+            ],
+            [
+              315,
+              175
+            ],
+            [
+              315,
+              175
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "managementstamp",
+          "label": "management approval",
+          "track": [
+            [
+              400,
+              105
+            ],
+            [
+              400,
+              105
+            ],
+            [
+              380,
+              130
+            ],
+            [
+              360,
+              160
+            ],
+            [
+              350,
+              180
+            ],
+            [
+              350,
+              180
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "boosterjoint",
+          "label": "booster joint",
+          "track": [
+            [
+              450,
+              215
+            ],
+            [
+              450,
+              215
+            ],
+            [
+              450,
+              215
+            ],
+            [
+              450,
+              215
+            ],
+            [
+              450,
+              215
+            ],
+            [
+              450,
+              215
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "hotgas",
+          "label": "hot gas",
+          "track": [
+            [
+              455,
+              210
+            ],
+            [
+              455,
+              210
+            ],
+            [
+              455,
+              210
+            ],
+            [
+              480,
+              190
+            ],
+            [
+              520,
+              160
+            ],
+            [
+              555,
+              135
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "shuttlestack",
+          "label": "Challenger",
+          "track": [
+            [
+              560,
+              245
+            ],
+            [
+              560,
+              225
+            ],
+            [
+              560,
+              195
+            ],
+            [
+              560,
+              160
+            ],
+            [
+              555,
+              120
+            ],
+            [
+              540,
+              90
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "debris",
+          "label": "breakup",
+          "track": [
+            [
+              540,
+              105
+            ],
+            [
+              540,
+              105
+            ],
+            [
+              540,
+              105
+            ],
+            [
+              540,
+              105
+            ],
+            [
+              520,
+              120
+            ],
+            [
+              485,
+              155
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 158
+    },
+    {
+      "id": "aral-sea-diversion",
+      "title": "Cotton emptied the Aral",
+      "question": "How did irrigation erase a sea?",
+      "body": "**Documented fact.** The Aral Sea was enormous. Two rivers sustained it. Soviet planners expanded irrigation. Canals diverted river water. Cotton output increased. Desert agriculture supported livelihoods. Leakage wasted much water. River inflow then collapsed. The sea split apart. Salinity rose. Fisheries disappeared. Ports became stranded. Exposed lakebed produced dust. Chemicals remained in sediments. Communities faced economic and health burdens. Kazakhstan later built Kok-Aral Dam. The North Aral partly recovered. Fish returned. **Scholarly interpretation.** Targets displaced system feedback. Cotton benefits were immediate. Ecological costs arrived downstream. Poor canal design accelerated loss. Political borders later complicated repair. The northern recovery shows reversibility. Scale and coordination still matter. **Counterevidence and limits.** Irrigation was not pointless. It created farms and employment. Climate variability also affected water. Health studies show serious concerns. Exact causal attribution remains difficult. Poverty and sanitation confound exposure. The southern basin remains far harder. One dam cannot restore the original sea. The evidence supports engineered collapse, uneven benefits, and partial recovery.",
+      "summary": "Irrigation fed cotton. Lost river inflow collapsed a sea.",
+      "sources": [
+        [
+          "NASA: World of Change — Aral Sea",
+          "https://science.nasa.gov/earth/earth-observatory/world-of-change/aral-sea/"
+        ],
+        [
+          "NASA: North Aral Recovery",
+          "https://science.nasa.gov/earth/earth-observatory/north-aral-sea-recovery-7645/"
+        ],
+        [
+          "World Bank Development Report 1992",
+          "https://documents1.worldbank.org/curated/en/995041468323374213/pdf/105170REPLACEMENT0WDR01992.pdf"
+        ],
+        [
+          "Irrigation-Induced Environmental Change",
+          "https://doi.org/10.3390/rs9090900"
+        ]
+      ],
+      "beats": [
+        "Rivers feed the sea.",
+        "Canals divert water.",
+        "Cotton fields expand.",
+        "The shoreline retreats.",
+        "A dam revives the north."
+      ],
+      "setting": "Central Asian rivers, cotton fields, and dam",
+      "objects": [
+        {
+          "kind": "riverfork",
+          "label": "two rivers",
+          "track": [
+            [
+              85,
+              150
+            ],
+            [
+              125,
+              165
+            ],
+            [
+              170,
+              180
+            ],
+            [
+              215,
+              195
+            ],
+            [
+              215,
+              195
+            ],
+            [
+              215,
+              195
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "diversiongate",
+          "label": "irrigation gates",
+          "track": [
+            [
+              250,
+              190
+            ],
+            [
+              250,
+              190
+            ],
+            [
+              250,
+              190
+            ],
+            [
+              250,
+              190
+            ],
+            [
+              250,
+              190
+            ],
+            [
+              250,
+              190
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "canalwater",
+          "label": "canal flow",
+          "track": [
+            [
+              270,
+              205
+            ],
+            [
+              320,
+              210
+            ],
+            [
+              375,
+              220
+            ],
+            [
+              430,
+              230
+            ],
+            [
+              470,
+              235
+            ],
+            [
+              470,
+              235
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "cottonfield",
+          "label": "cotton crop",
+          "track": [
+            [
+              450,
+              240
+            ],
+            [
+              450,
+              240
+            ],
+            [
+              430,
+              230
+            ],
+            [
+              410,
+              215
+            ],
+            [
+              390,
+              200
+            ],
+            [
+              390,
+              200
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "shrinkingsea",
+          "label": "Aral shoreline",
+          "track": [
+            [
+              530,
+              215
+            ],
+            [
+              530,
+              215
+            ],
+            [
+              525,
+              220
+            ],
+            [
+              515,
+              230
+            ],
+            [
+              500,
+              245
+            ],
+            [
+              490,
+              255
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "strandedship",
+          "label": "stranded fleet",
+          "track": [
+            [
+              555,
+              240
+            ],
+            [
+              555,
+              240
+            ],
+            [
+              555,
+              240
+            ],
+            [
+              550,
+              235
+            ],
+            [
+              530,
+              225
+            ],
+            [
+              510,
+              215
+            ]
+          ],
+          "from": 3
+        },
+        {
+          "kind": "kokaraldam",
+          "label": "Kok-Aral Dam",
+          "track": [
+            [
+              580,
+              120
+            ],
+            [
+              580,
+              120
+            ],
+            [
+              580,
+              120
+            ],
+            [
+              580,
+              120
+            ],
+            [
+              550,
+              145
+            ],
+            [
+              520,
+              175
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 160
+    },
+    {
+      "id": "primitive-bystander",
+      "title": "Primitive Echo: waiting crowds",
+      "question": "Why can witnesses delay help?",
+      "body": "**Documented evidence.** People sometimes help less when others are present. Experiments call this the bystander effect. Responsibility can feel divided. People also watch others. Calm faces reduce perceived danger. Fear of embarrassment inhibits action. A meta-analysis found an overall effect. Context strongly changes it. Dangerous emergencies can reverse it. Groups sometimes help together. Familiarity can increase intervention. **Scholarly interpretation.** Social monitoring is usually useful. Other people supply information. Shared vigilance reduces individual effort. In ambiguous modern emergencies, that shortcut can misfire. Each observer waits. Collective silence then looks reassuring. Reputation concerns add hesitation. **Counterevidence and limits.** The effect is not universal. Famous real cases were often misreported. Laboratory emergencies are simplified. Culture changes intervention norms. Training changes behavior. Clear personal responsibility increases helping. Evolutionary explanations remain hypotheses. No single ancestral pressure is proven. Diffusion also affects perceived agency. Biology alone explains little. The practical countermeasure is explicit assignment. Name one helper. State one action. Ambiguity then falls.",
+      "summary": "Crowds supply social cues. Ambiguity can turn observation into delay.",
+      "sources": [
+        [
+          "Bystander Effect Meta-Analysis",
+          "https://pubmed.ncbi.nlm.nih.gov/21534650/"
+        ],
+        [
+          "Diffusion Reduces Agency",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5390744/"
+        ],
+        [
+          "Biology of the Bystander Effect",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8692770/"
+        ],
+        [
+          "Bystander Effect Revisited",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6099971/"
+        ]
+      ],
+      "beats": [
+        "A warning remains ambiguous.",
+        "Witnesses scan each other.",
+        "Responsibility diffuses.",
+        "Nobody moves first.",
+        "One named helper acts."
+      ],
+      "setting": "Station platform with an emergency",
+      "objects": [
+        {
+          "kind": "fallenperson",
+          "label": "person needing help",
+          "track": [
+            [
+              320,
+              230
+            ],
+            [
+              320,
+              230
+            ],
+            [
+              320,
+              230
+            ],
+            [
+              320,
+              230
+            ],
+            [
+              320,
+              230
+            ],
+            [
+              320,
+              230
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "ambiguousalarm",
+          "label": "unclear warning",
+          "track": [
+            [
+              320,
+              95
+            ],
+            [
+              320,
+              95
+            ],
+            [
+              320,
+              95
+            ],
+            [
+              320,
+              95
+            ],
+            [
+              320,
+              95
+            ],
+            [
+              320,
+              95
+            ]
+          ],
+          "from": 0
+        },
+        {
+          "kind": "observer",
+          "label": "observer one",
+          "track": [
+            [
+              100,
+              230
+            ],
+            [
+              150,
+              225
+            ],
+            [
+              205,
+              220
+            ],
+            [
+              250,
+              215
+            ],
+            [
+              270,
+              210
+            ],
+            [
+              270,
+              210
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "observer",
+          "label": "observer two",
+          "track": [
+            [
+              540,
+              230
+            ],
+            [
+              500,
+              225
+            ],
+            [
+              455,
+              220
+            ],
+            [
+              410,
+              215
+            ],
+            [
+              390,
+              210
+            ],
+            [
+              390,
+              210
+            ]
+          ],
+          "from": 1
+        },
+        {
+          "kind": "responsibility",
+          "label": "shared responsibility",
+          "track": [
+            [
+              320,
+              150
+            ],
+            [
+              320,
+              150
+            ],
+            [
+              300,
+              165
+            ],
+            [
+              285,
+              185
+            ],
+            [
+              285,
+              185
+            ],
+            [
+              285,
+              185
+            ]
+          ],
+          "from": 2
+        },
+        {
+          "kind": "namedhelper",
+          "label": "named helper",
+          "track": [
+            [
+              100,
+              105
+            ],
+            [
+              100,
+              105
+            ],
+            [
+              130,
+              130
+            ],
+            [
+              180,
+              165
+            ],
+            [
+              235,
+              195
+            ],
+            [
+              290,
+              215
+            ]
+          ],
+          "from": 4
+        },
+        {
+          "kind": "phone",
+          "label": "emergency call",
+          "track": [
+            [
+              555,
+              105
+            ],
+            [
+              555,
+              105
+            ],
+            [
+              555,
+              105
+            ],
+            [
+              555,
+              105
+            ],
+            [
+              510,
+              130
+            ],
+            [
+              455,
+              160
+            ]
+          ],
+          "from": 4
+        }
+      ],
+      "word_count": 157
+    }
+  ]
+}
