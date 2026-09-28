@@ -582,10 +582,10 @@
       "editorial_status": "needs_owner_review",
       "test_status": "static_checks_and_visual_inspection_passed_browser_unavailable",
       "deployment_status": "not_deployed",
-      "github_content_commit": null,
+      "github_content_commit": "ba895d47b16d624db4b349dff1dc0b598c09247c",
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
-      "delivery_status": "saved_pending_drive_and_email"
+      "delivery_status": "saved_and_sent"
     }
   ],
   "lease": null,
