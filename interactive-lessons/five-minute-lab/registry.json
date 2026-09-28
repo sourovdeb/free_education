@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0021",
+  "next_lesson_id": "FML-0022",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -490,15 +490,34 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0021",
+      "version": "1.0.0",
+      "title": "Which Receipt Is Missing?",
+      "slug": "identify-a-missing-expense-receipt",
+      "pathway": "use-english",
+      "interaction_family": "expense-claim-clue-and-deadline",
+      "objective": "Ask which expense receipt is missing, identify the claim date and amount, and confirm the submission deadline.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0021-identify-a-missing-expense-receipt/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "e2c5668f05f42db4f57ecb2b5eac002c69453135",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": {
-    "run_id": "automation-20260928T025847Z",
-    "lesson_id": "FML-0021",
-    "acquired_at": "2026-09-28T02:58:47Z",
-    "expires_at": "2026-09-28T04:58:47Z"
-  },
-  "revision": 33,
+  "lease": null,
+  "revision": 34,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -535,7 +554,8 @@
     "FML-0017 v1.0.0 is mirrored and owner-delivered. Colourful-papercut lost-item motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
     "FML-0018 v1.0.0 is mirrored and owner-delivered. Colourful-papercut return-policy motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
     "FML-0019 v1.0.0 is mirrored and owner-delivered. Colourful-papercut duplicate-charge motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
-    "FML-0020 v1.0.0 is mirrored and owner-delivered. Colourful-papercut booking-fee motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred."
+    "FML-0020 v1.0.0 is mirrored and owner-delivered. Colourful-papercut booking-fee motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
+    "FML-0021 v1.0.0 is mirrored and owner-delivered. Colourful-papercut expense-receipt motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred."
   ],
   "design_default": {
     "style": "colourful-papercut",
