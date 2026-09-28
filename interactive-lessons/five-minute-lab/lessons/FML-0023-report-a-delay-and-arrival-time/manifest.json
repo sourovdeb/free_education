@@ -1,0 +1,99 @@
+{
+  "id": "FML-0023",
+  "version": "1.0.0",
+  "generated_from": "lesson.json",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "name": "FML-0022-confirm-an-approved-shift-swap-v1.0.0.zip",
+      "bytes": 685856,
+      "sha256": "2c33879ceb1fa85fee9f099ad4f6ea8a16c71edce1eb46d8709d4e4fa2c1cf20"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1120,
+      "sha256": "cf0f0178ea8f8b43ce64142323fc3296cd2b08c09487a66fc821fac12140a514"
+    },
+    {
+      "name": "SOURCES.md",
+      "bytes": 1833,
+      "sha256": "e6fa7996f842344213a5671036c59983334aa22dce91ad944c549515cde4abf2"
+    },
+    {
+      "name": "TESTS.md",
+      "bytes": 1285,
+      "sha256": "bd0f17bcc6661c1819126ca5bb68b7e4a8da227abc48d1adebc4e32b27c1dcb6"
+    },
+    {
+      "name": "build.py",
+      "bytes": 34974,
+      "sha256": "4b3f1176aa272f33d2403fcaf9de08efdcdcae65469a35c8ca442bd67289bc94"
+    },
+    {
+      "name": "captions.vtt",
+      "bytes": 444,
+      "sha256": "a5215cd4618be201da4ef60891b0801768194ece97ff808186785f4a8d672eb6"
+    },
+    {
+      "name": "carousel.html",
+      "bytes": 5762,
+      "sha256": "2e6df10aa6c6555b90c0a1bcc3eeda2d8f3fabf3fe2f37c53f23253de835517e"
+    },
+    {
+      "name": "diagram.png",
+      "bytes": 37602,
+      "sha256": "51279bd3b075ea7561feaed9aca856bd13fb7315b2ff7dbf38173fb5b4ff20d4"
+    },
+    {
+      "name": "diagram.svg",
+      "bytes": 2076,
+      "sha256": "3e630af18da5d62a92949fcef9fffafd6684f31554efbe8b75c7a5571c9f65a8"
+    },
+    {
+      "name": "diagram.txt",
+      "bytes": 397,
+      "sha256": "b2bf518c0a20204dceb9c41c07511d4b6b347372054d9172ae302b6e61b09912"
+    },
+    {
+      "name": "index.html",
+      "bytes": 29213,
+      "sha256": "935260afd719d464f5da54d63fff4486b9d79f18598b70d9d8227f651ce7256c"
+    },
+    {
+      "name": "lesson.json",
+      "bytes": 12374,
+      "sha256": "0ec53f312985425132a6cec2c9ec0c47ffbbd005374d4acfb52a80af8e5182eb"
+    },
+    {
+      "name": "linkedin-carousel.pdf",
+      "bytes": 219268,
+      "sha256": "d6e6dc118c66a2e75ed86f4e581508778c414bba09edf7357866bb7807b59cb1"
+    },
+    {
+      "name": "linkedin-post.txt",
+      "bytes": 473,
+      "sha256": "68ec4a47e08902d7f472c99301ffb23962590bc4997834e53a3679d066b41d19"
+    },
+    {
+      "name": "medium.md",
+      "bytes": 4483,
+      "sha256": "a65364a70b474cdf163dd0a815df0c66e9d800c89d7228e49ae0f6e8ae6b5a8e"
+    },
+    {
+      "name": "papercut-720p25.mp4",
+      "bytes": 368696,
+      "sha256": "79e79080c26d123581f837b23e3fe0e95b1fed5cb6bc5b6db08b977f7a555d97"
+    },
+    {
+      "name": "video-transcript.md",
+      "bytes": 1002,
+      "sha256": "85c199f6977b57836645c168fdbb12f3503716dc5a094d046b92c5c4a8e5070c"
+    },
+    {
+      "name": "wordpress-draft.html",
+      "bytes": 4859,
+      "sha256": "28def96310f93a6ef99d42adf0351a9f6338c335266bc37d6b1c86a90b9de506"
+    }
+  ]
+}
