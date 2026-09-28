@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0019",
+  "next_lesson_id": "FML-0020",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -442,15 +442,34 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0019",
+      "version": "1.0.0",
+      "title": "Why Was I Charged Twice?",
+      "slug": "report-a-duplicate-hotel-charge",
+      "pathway": "use-english",
+      "interaction_family": "duplicate-charge-evidence-and-resolution",
+      "objective": "Explain that the same hotel charge appears twice, identify both transaction dates, and ask when the duplicate will be reversed.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0019-report-a-duplicate-hotel-charge/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "80feb6ff09be6203ca20ffa163137317a43604b1",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_and_sent"
     }
   ],
-  "lease": {
-    "run_id": "automation-20260928T005743Z",
-    "lesson_id": "FML-0019",
-    "acquired_at": "2026-09-28T00:57:43Z",
-    "expires_at": "2026-09-28T02:57:43Z"
-  },
-  "revision": 29,
+  "lease": null,
+  "revision": 30,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -485,7 +504,8 @@
     "FML-0014 v1.0.0 is mirrored and owner-delivered. Colourful-papercut price-scope motion was verified. Browser launch was attempted but unavailable. No deployment occurred.",
     "FML-0015 v1.0.0 is mirrored and owner-delivered. Colourful-papercut pickup-point motion was verified. Browser launch was attempted but Playwright was unavailable. No deployment occurred.",
     "FML-0017 v1.0.0 is mirrored and owner-delivered. Colourful-papercut lost-item motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
-    "FML-0018 v1.0.0 is mirrored and owner-delivered. Colourful-papercut return-policy motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred."
+    "FML-0018 v1.0.0 is mirrored and owner-delivered. Colourful-papercut return-policy motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
+    "FML-0019 v1.0.0 is mirrored and owner-delivered. Colourful-papercut duplicate-charge motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred."
   ],
   "design_default": {
     "style": "colourful-papercut",
