@@ -1,0 +1,119 @@
+{
+  "edition": "2026-09-28/1200-industrial-systems-and-cascades",
+  "status": "complete_visual_gate",
+  "title": "Industrial Systems and Cascades",
+  "word_counts": [
+    159,
+    158,
+    169,
+    161,
+    163,
+    167
+  ],
+  "source_counts": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "resolution": "1280x720",
+    "fps": 25,
+    "audio_streams": 0,
+    "status": "passed"
+  },
+  "rendered_frame_review": {
+    "seconds_per_chapter": [
+      4,
+      15,
+      26
+    ],
+    "mean_pixel_differences": [
+      [
+        11.65,
+        10.55
+      ],
+      [
+        6.09,
+        10.57
+      ],
+      [
+        10.8,
+        8.24
+      ],
+      [
+        7.3,
+        4.83
+      ],
+      [
+        4.01,
+        8.41
+      ],
+      [
+        5.49,
+        7.29
+      ]
+    ],
+    "inspection": "passed scene-specific causal motion"
+  },
+  "viewer_controls": [
+    "scrub",
+    "pause",
+    "step back",
+    "step forward",
+    "replay",
+    "causal object buttons",
+    "sources",
+    "reduced motion"
+  ],
+  "website": "unpublished file only",
+  "files": {
+    "README.md": {
+      "bytes": 440,
+      "sha256": "26e62249889ebe24028acba2b5bcaece712319f9330edd1d5299b42c49796850"
+    },
+    "edition.md": {
+      "bytes": 10737,
+      "sha256": "e3d4b18432cf8896fd90e0d592eacb9ddf54b4f0ced38d921f25ed39e9f12872"
+    },
+    "wordpress-draft.html": {
+      "bytes": 12122,
+      "sha256": "09ef3680792bc75e2c79b13212dc97309865b756b765921cab76ee30bfbc2700"
+    },
+    "evidence.svg": {
+      "bytes": 3061,
+      "sha256": "7661f048f7bdde05b2b425ca9089ae62c153c2ba5f7e8fd3dabf1bb5da94973f"
+    },
+    "lesson.json": {
+      "bytes": 36885,
+      "sha256": "deb6da19c3e22517af7138bb80b21e6af32b836112b25e551ff5a693fc30165f"
+    },
+    "lesson-viewer.html": {
+      "bytes": 23704,
+      "sha256": "5eee87824a51d6057eebf8c635c3c743fdadd6c6bea52e5766bc543b2e8c3c6a"
+    },
+    "cards.json": {
+      "bytes": 18518,
+      "sha256": "e62ea3b231bbb0ec439bd4d0184b729e14d1acd8dd4d1f00c1ec5b655c586a69"
+    },
+    "render_video.py": {
+      "bytes": 30914,
+      "sha256": "07e37935359aca1881e831d0133b3323e4f8bb57cd11ca13140fa6abb6b25ce2"
+    },
+    "QA.md": {
+      "bytes": 1974,
+      "sha256": "107dd40608dc94c08b9651d27b9ebb114e5965dd975ef9c42299fa5639dadd55"
+    },
+    "history-investigation.mp4": {
+      "bytes": 697072,
+      "sha256": "5b610eafbdf4f2a35f753a73f86b8851f7cd4b3ccf091f187e373c8fdac8bf07"
+    },
+    "rendered-contact-sheet.jpg": {
+      "bytes": 315422,
+      "sha256": "d021bbbe6c54a0a87c958f4e8df61883131de50a06e09baeeeb0ee62ca4beafc"
+    }
+  }
+}
