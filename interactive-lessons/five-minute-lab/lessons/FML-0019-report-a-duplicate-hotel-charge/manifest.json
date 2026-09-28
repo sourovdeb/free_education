@@ -1,0 +1,96 @@
+{
+  "id": "FML-0019",
+  "version": "1.0.0",
+  "title": "Why Was I Charged Twice?",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-28T01:12:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 13915,
+      "sha256": "0cd63a1ce780a2ac3a240b62d47013beef1e7e6ed900f398c3bf2931eecf3df6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 32279,
+      "sha256": "8f5af44e5c00935450a0e6b9abeaa0b5d6f475f5d1a708d3cdb58ab1a4aece87"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5731,
+      "sha256": "3b02a7b0095464aefc9070e239ba376ae12e72250c1642867270d550d9912dd2"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 5646,
+      "sha256": "9afb796a5ebe761cb6fc88453ea92787448cbd1d117172f71b4a72f8536e11a7"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 829,
+      "sha256": "be3aa1c011992b8ff5640990cbd43fd07a62059cb13dbd30e9176f143089003d"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 233074,
+      "sha256": "b21459f3cf718f2ca2200f1296a9700156527521f461bc1fb8e036568af16cde"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6505,
+      "sha256": "ba30cd03e071572a05e243086104511b8bc815dfaeb92ca2356dc80c2372e9d6"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2157,
+      "sha256": "fbf9b3fa2e845189411a26a5974c59daff6d59486eca26cda6940bb18e9084f0"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 40993,
+      "sha256": "aae634bc46dd7e68778bffd12ac492226d3dda6c59768e811c33de4fec2089df"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 552,
+      "sha256": "eb1c44c4e4c496a6ade7811e400ca75cbc6ce8661848eff305211b5eb99c38d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "cef2cc83b6173cc8cd131a3b43f1e993d47c431f9796881525c765844ed66913"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2181,
+      "sha256": "b9ee0dd43968d21dcdcb33a3fcfa2d131cbf8f19e84025e279391077f9384ad2"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1671,
+      "sha256": "9066c8da7f19f3035001f97abc389e9fbffbc7e27c0a5bcee8f62ba71cbbda57"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1251,
+      "sha256": "bdc1af80a84eb1fa9c4a9b60bbac52803e6e5ae4b91bfe2116d2a0d76c0b1280"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 473,
+      "sha256": "27a27bf1c7495098c3456cce42b1805d7670b49d3f678d157a6061552f678f7b"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 327672,
+      "sha256": "c6a7db7a10ebd3499ec8b9ca14a1a7de7dbf13f8053262726faffd8dfd930452"
+    },
+    {
+      "path": "build.py",
+      "bytes": 38772,
+      "sha256": "390ced289bc5f18182517f38f5eb97ecfc8f37a65efde80f5938d9f1666b4506"
+    }
+  ]
+}

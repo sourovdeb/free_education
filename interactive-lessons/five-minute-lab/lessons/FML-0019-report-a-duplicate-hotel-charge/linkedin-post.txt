@@ -1,0 +1,20 @@
+Why Was I Charged Twice?
+
+A clear duplicate-charge report names the evidence, amount, and both dates.
+
+State the evidence:
+“I think I was charged twice for the same stay. The first €84 transaction is dated 14 September, and the second is dated 16 September.”
+
+Ask for a check:
+“Could you check which one is the duplicate?”
+
+Then confirm the resolution:
+“When will the duplicate charge be reversed? So the 16 September charge will be reversed, and I should check my account again on Friday, right?”
+
+Try it with a car-rental deposit:
+€120, 3 October, 5 October, and a reversal question.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0019-report-a-duplicate-hotel-charge
+
+Owner review required.
