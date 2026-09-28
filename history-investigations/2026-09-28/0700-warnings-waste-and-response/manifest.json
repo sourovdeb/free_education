@@ -1,0 +1,221 @@
+{
+  "status": "complete_visual_gate",
+  "title": "Warnings, Waste, and Response",
+  "local_timestamp": "2026-09-28T07:00:00+04:00",
+  "folder": "history-investigations/2026-09-28/0700-warnings-waste-and-response",
+  "cards": [
+    {
+      "title": "Minamata connected factory to fish",
+      "word_count": 140,
+      "sources": 4
+    },
+    {
+      "title": "Thalidomide met one regulatory barrier",
+      "word_count": 153,
+      "sources": 3
+    },
+    {
+      "title": "Weather trapped London\u2019s coal smoke",
+      "word_count": 150,
+      "sources": 3
+    },
+    {
+      "title": "Aberfan exposed managed danger",
+      "word_count": 154,
+      "sources": 4
+    },
+    {
+      "title": "Love Canal changed waste law",
+      "word_count": 150,
+      "sources": 4
+    },
+    {
+      "title": "Primitive Echo: exclusion pressure",
+      "word_count": 149,
+      "sources": 4
+    }
+  ],
+  "video": {
+    "duration_seconds": 180,
+    "width": 1280,
+    "height": 720,
+    "fps": 25,
+    "frames": 4500,
+    "audio": false,
+    "sha256": "0d2ae616395b523e820759ff503dbc8c9eafe72f0b8a007599b8c89810106823"
+  },
+  "motion_gate": [
+    {
+      "chapter": 1,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        9.44,
+        10.74
+      ],
+      "moving_objects": [
+        "wastewater",
+        "contaminated fish",
+        "fishing family",
+        "research team",
+        "1968 recognition"
+      ],
+      "captions": [
+        "Factory wastewater enters water.",
+        "Families eat contaminated fish.",
+        "Recognition arrives after exposure."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 2,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        13.27,
+        13.67
+      ],
+      "moving_objects": [
+        "thalidomide",
+        "pregnancy",
+        "Kelsey",
+        "approval barrier",
+        "stronger law"
+      ],
+      "captions": [
+        "A sedative reaches patients.",
+        "Kelsey demands stronger evidence.",
+        "Law strengthens after tragedy."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 3,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        18.67,
+        21.74
+      ],
+      "moving_objects": [
+        "coal homes",
+        "factory smoke",
+        "warm-air cap",
+        "toxic smog",
+        "excess deaths",
+        "Clean Air Act"
+      ],
+      "captions": [
+        "London burns more coal.",
+        "Smoke thickens the fog.",
+        "Clean-air laws change fuel."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 4,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        10.19,
+        15.97
+      ],
+      "moving_objects": [
+        "coal tip",
+        "hidden springs",
+        "moving spoil",
+        "resident warnings",
+        "tribunal finding"
+      ],
+      "captions": [
+        "Waste piles over springs.",
+        "Spoil rushes downhill.",
+        "Inquiry assigns responsibility."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 5,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        10.47,
+        12.85
+      ],
+      "moving_objects": [
+        "chemical waste",
+        "covered canal",
+        "new homes",
+        "leaching chemicals",
+        "resident group",
+        "Superfund law"
+      ],
+      "captions": [
+        "Barrels fill the canal.",
+        "Rain carries chemicals outward.",
+        "Superfund changes responsibility."
+      ],
+      "status": "passed"
+    },
+    {
+      "chapter": 6,
+      "frames": [
+        4,
+        15,
+        26
+      ],
+      "pixel_change_percent": [
+        12.42,
+        15.11
+      ],
+      "moving_objects": [
+        "social group",
+        "excluded member",
+        "closed access",
+        "reconnection",
+        "aggression risk",
+        "context"
+      ],
+      "captions": [
+        "A group shares resources.",
+        "Belonging needs activate.",
+        "Context changes the response."
+      ],
+      "status": "passed"
+    }
+  ],
+  "website": {
+    "wordpress_ready": true,
+    "published": false,
+    "reason": "Hostinger actions unavailable"
+  },
+  "files": [
+    "README.md",
+    "edition.md",
+    "wordpress-draft.html",
+    "evidence.svg",
+    "lesson.json",
+    "lesson-viewer.html",
+    "render_video.py",
+    "build_assets.py",
+    "cards_data.py",
+    "history-investigation.mp4",
+    "QA.md",
+    "manifest.json"
+  ]
+}
