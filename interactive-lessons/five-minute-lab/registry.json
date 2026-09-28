@@ -606,10 +606,10 @@
       "editorial_status": "needs_owner_review",
       "test_status": "static_checks_and_visual_inspection_passed_browser_unavailable",
       "deployment_status": "not_deployed",
-      "github_content_commit": null,
+      "github_content_commit": "6bf874b2e1983f10402d718b05f8f4bd34dacf03",
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
-      "delivery_status": "saved_pending_drive_and_email"
+      "delivery_status": "saved_and_sent"
     }
   ],
   "lease": null,
