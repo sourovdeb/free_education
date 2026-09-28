@@ -4,7 +4,7 @@
   "status": "active",
   "setup_date": "2026-09-26",
   "first_scheduled_run": "2026-09-26T21:00:00+04:00",
-  "next_lesson_id": "FML-0023",
+  "next_lesson_id": "FML-0024",
   "default_pathway": "use-english",
   "estimated_levels": [
     "A2",
@@ -538,10 +538,34 @@
       "github_pdf_binary_status": "mirrored",
       "github_video_status": "mirrored",
       "delivery_status": "saved_and_sent"
+    },
+    {
+      "id": "FML-0023",
+      "version": "1.0.0",
+      "title": "I'm Running Ten Minutes Late",
+      "slug": "report-a-delay-and-arrival-time",
+      "pathway": "use-english",
+      "interaction_family": "delay-evidence-and-message-builder",
+      "objective": "Report a delay, give an expected arrival time, and promise an update if the time changes.",
+      "audience": "Older teenagers and adults",
+      "level_estimate": [
+        "A2",
+        "B1"
+      ],
+      "duration_estimate_minutes": "3-5",
+      "path": "interactive-lessons/five-minute-lab/lessons/FML-0023-report-a-delay-and-arrival-time/",
+      "design_style": "colourful-papercut",
+      "editorial_status": "needs_owner_review",
+      "test_status": "static_checks_and_visual_inspection_passed_browser_unavailable",
+      "deployment_status": "not_deployed",
+      "github_content_commit": "b9c80f5797e5d12a72044945c06ec4159a6dbad3",
+      "github_pdf_binary_status": "mirrored",
+      "github_video_status": "mirrored",
+      "delivery_status": "saved_pending_drive_and_email"
     }
   ],
   "lease": null,
-  "revision": 35,
+  "revision": 36,
   "editorial_policy": "needs_owner_review",
   "deployment_status": "not_deployed",
   "candidate_objectives": [
@@ -580,7 +604,8 @@
     "FML-0019 v1.0.0 is mirrored and owner-delivered. Colourful-papercut duplicate-charge motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
     "FML-0020 v1.0.0 is mirrored and owner-delivered. Colourful-papercut booking-fee motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
     "FML-0021 v1.0.0 is mirrored and owner-delivered. Colourful-papercut expense-receipt motion was verified. Browser launch was attempted but Chromium was unavailable. No deployment occurred.",
-    "FML-0022 v1.0.0 is mirrored and owner-delivered. Colourful-papercut shift-swap motion was verified. Chromium was unavailable, so browser execution was not run. No deployment occurred."
+    "FML-0022 v1.0.0 is mirrored and owner-delivered. Colourful-papercut shift-swap motion was verified. Chromium was unavailable, so browser execution was not run. No deployment occurred.",
+    "FML-0023 v1.0.0 teaches reporting a delay and expected arrival. Colourful-papercut route motion was verified. Chromium was unavailable, so browser execution was not run. No deployment occurred."
   ],
   "design_default": {
     "style": "colourful-papercut",
