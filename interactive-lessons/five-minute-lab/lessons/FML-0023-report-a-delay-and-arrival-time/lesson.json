@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0023",
+  "version": "1.0.0",
+  "title": "I'm Running Ten Minutes Late",
+  "slug": "report-a-delay-and-arrival-time",
+  "pathway": "use-english",
+  "interaction_family": "delay-evidence-and-message-builder",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Read clock times", "write a short message"],
+  "observable_outcome": "The learner writes a short delay message that states the problem, gives an expected arrival time, and promises an update if needed.",
+  "learning_objective": "Report a delay, give an expected arrival time, and promise an update if the time changes.",
+  "scenario": {
+    "setting": "A fictional cafe commute.",
+    "prompt": "Your shift starts at 8:00 a.m. It is 7:48. Your bus is diverted. The journey screen now shows 22 minutes. You expect to arrive at 8:10.",
+    "puzzle": "What should you tell your manager now? Which details help them plan?",
+    "privacy_note": "The workplace, route, names, times, and messages are fictional teaching data. This activity is language practice, not employment advice."
+  },
+  "model": {
+    "opening": "Hi Sam, I'm sorry, but my bus has been diverted.",
+    "delay": "I'm running about ten minutes late.",
+    "arrival": "I expect to arrive at 8:10.",
+    "update": "I'll message you if that changes.",
+    "full_message": "Hi Sam, I'm sorry, but my bus has been diverted. I'm running about ten minutes late. I expect to arrive at 8:10. I'll message you if that changes.",
+    "neutral_variants": ["I'm delayed and expect to arrive at about 8:10.", "My bus is delayed. I should arrive around 8:10."]
+  },
+  "language_focus": {
+    "grammar": "I'm running late uses am plus the -ing form. Here it describes a situation developing now. I expect to arrive uses the present simple to state your current estimate. I'll message uses will for a decision or promise made now.",
+    "meaning": "About ten minutes late describes the delay. At 8:10 gives the expected arrival time. These are related, but they are not the same detail.",
+    "appropriateness": "Contact the relevant person early. State the delay and expected arrival plainly. A brief apology can acknowledge the impact. Avoid excuses you cannot verify. Follow the real workplace process.",
+    "pronunciation": "In speech, stress ten minutes and 8:10. I'm contracts I am. I'll contracts I will. The details carry the message, so say them clearly.",
+    "workplace_note": "Workplace notification rules differ. Use the required channel, and update your estimate if it changes."
+  },
+  "evidence_activity": {
+    "id": "decision-1",
+    "prompt": "Which message helps the manager plan?",
+    "options": [
+      {"text": "I'm sorry. My bus has been diverted. I expect to arrive at 8:10.", "correct": true, "feedback": "Correct. It states the cause and gives a usable arrival time."},
+      {"text": "Something happened. I'll be there later.", "correct": false, "feedback": "This gives no expected arrival time. The manager still cannot plan."},
+      {"text": "The bus system is terrible today.", "correct": false, "feedback": "This expresses frustration. It does not state your delay or arrival time."}
+    ]
+  },
+  "question_activity": {
+    "id": "decision-2",
+    "prompt": "It is 7:48. The journey takes 22 minutes. Which arrival estimate matches the evidence?",
+    "options": [
+      {"text": "About 8:10.", "correct": true, "feedback": "Correct. Twenty-two minutes after 7:48 is 8:10."},
+      {"text": "Exactly 8:00.", "correct": false, "feedback": "The new journey time passes the 8:00 start. Do not promise the original time."},
+      {"text": "Sometime this morning.", "correct": false, "feedback": "This is too broad. The journey screen supports a closer estimate."}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each message part to its job.",
+    "slots": ["cause", "delay", "arrival", "follow-up"],
+    "items": [
+      {"detail": "My bus has been diverted.", "answer": "cause", "feedback": {"cause": "Correct. This names the current problem.", "delay": "The delay is about ten minutes.", "arrival": "The arrival estimate is 8:10.", "follow-up": "The follow-up promises another message."}},
+      {"detail": "I'm about ten minutes late.", "answer": "delay", "feedback": {"cause": "The cause is the bus diversion.", "delay": "Correct. This measures the delay.", "arrival": "The arrival estimate is 8:10.", "follow-up": "The follow-up promises another message."}},
+      {"detail": "I expect to arrive at 8:10.", "answer": "arrival", "feedback": {"cause": "The cause is the bus diversion.", "delay": "The delay is about ten minutes.", "arrival": "Correct. This gives the expected clock time.", "follow-up": "The follow-up promises another message."}},
+      {"detail": "I'll message if that changes.", "answer": "follow-up", "feedback": {"cause": "The cause is the bus diversion.", "delay": "The delay is about ten minutes.", "arrival": "The arrival estimate is 8:10.", "follow-up": "Correct. This promises a later update."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "A training session starts at 2:00 p.m. It is 1:50. Your delayed bus now shows 22 minutes. You expect to arrive at 2:12.",
+    "instruction": "Write one short message. Apologize briefly, state the delay, give the expected arrival time, and promise an update if needed.",
+    "acceptable_responses": [
+      "Hi Maya, I'm sorry, but my bus is delayed. I'm running about twelve minutes late and expect to arrive at 2:12. I'll message you if that changes.",
+      "Sorry, my bus has been delayed. I should arrive around 2:12. I'll update you if the time changes."
+    ],
+    "rubric": ["I contacted the person.", "I apologized briefly.", "I stated the delay.", "I gave 2:12.", "I promised an update."],
+    "valid_variants": "Expect to arrive, should arrive, and think I'll arrive can all give an estimate. About and around show that the time is not guaranteed. A short message may omit the cause when privacy or uncertainty matters, but it should still give the delay and expected arrival."
+  },
+  "review_prompt": "Tomorrow, recall the four message parts: cause, delay, arrival, and follow-up.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["road backdrop", "bus cutout", "detour sign", "clock faces", "journey screen", "message cards", "manager cutout", "arrival marker"],
+    "cutout_assets": ["bus", "worker", "manager", "detour arrow", "7:48 clock", "22-minute screen", "8:10 arrival clock", "four message tiles", "2:12 transfer card"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Vehicles, people, clocks, signs, and message tiles use cream cut edges, overlaps, and offset shadows.",
+    "motion_principle": "The bus travels, meets a detour, changes route, and reaches a later clock. Message tiles enter in sequence while clock hands pivot. Motion demonstrates the changing arrival estimate.",
+    "accessibility": "Dark navy text sits on cream panels. Every colour relationship also has words, numbers, arrows, and shape labels."
+  },
+  "scenes": [
+    {"id": "start-time", "title": "See the start time", "caption": "Your shift starts at 8:00 a.m.", "explanation": "A layered shift card and clock establish the promised start time.", "motion_cues": ["shift card rises", "clock hand pivots", "worker enters"]},
+    {"id": "detour", "title": "Notice the delay", "caption": "At 7:48, your bus meets a diversion.", "explanation": "The paper bus travels toward a detour sign, then follows a curved route.", "motion_cues": ["bus travels", "detour sign drops", "route bends"]},
+    {"id": "recalculate", "title": "Recalculate arrival", "caption": "The journey screen shows 22 minutes: arrival about 8:10.", "explanation": "A 7:48 clock connects to a 22-minute journey strip and an 8:10 arrival clock.", "motion_cues": ["clock hand pivots", "minutes strip unfolds", "arrival clock reveals"]},
+    {"id": "message-parts", "title": "Build the message", "caption": "Cause. Delay. Arrival. Follow-up.", "explanation": "Four paper message tiles enter in order and remain readable.", "motion_cues": ["cause tile enters", "delay tile follows", "arrival tile rises", "follow-up tile settles"]},
+    {"id": "send-update", "title": "Send a useful update", "caption": "I'm running late. I expect to arrive at 8:10.", "explanation": "The worker sends a message card to the manager while the arrival clock remains visible.", "motion_cues": ["worker arm pivots", "message travels", "manager receives"]},
+    {"id": "transfer", "title": "Your 2:12 message", "caption": "Write the delay, arrival time, and follow-up.", "explanation": "A new journey strip changes the context to a training session starting at 2:00.", "motion_cues": ["new clock enters", "bus moves", "blank message unfolds"]}
+  ],
+  "visual": {
+    "title": "Notice, calculate, message",
+    "alt_text": "A colourful layered papercut path. A bus diverted at 7:48 follows a detour. A 22-minute journey strip leads to an 8:10 arrival clock. Four message cards name the cause, delay, arrival, and follow-up.",
+    "prose": "First notice the changed journey time. Calculate the expected arrival. Then write four message parts: cause, delay, arrival, and follow-up. The arrival time helps the other person plan."
+  },
+  "sources": [
+    {"institution": "Cambridge Dictionary - English Grammar Today", "title": "Present continuous (I am working)", "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-continuous-i-am-working", "accessed": "2026-09-28", "inspected": "The official grammar entry was inspected for present-continuous form and situations in progress or developing around now.", "limitation": "It supports the grammar pattern, not this original commute scenario."},
+    {"institution": "Cambridge Dictionary - English Grammar Today", "title": "Part of speech: apologize or apology?", "url": "https://dictionary.cambridge.org/grammar/british-grammar/part-of-speech-apologize-or-apology", "accessed": "2026-09-28", "inspected": "The official entry was inspected for apologize as telling someone you are sorry.", "limitation": "It supports the language function, not workplace notification rules."},
+    {"institution": "CELTA Train", "title": "Language Life Support", "url": "https://www.celtatrain.com/", "accessed": "2026-09-28", "inspected": "A private course PDF copy was inspected at its introduction, MFP guidance, and present-continuous section. It separates meaning, form, and pronunciation and covers situations in progress, temporary situations, and future arrangements.", "limitation": "The private PDF is not redistributed. The public URL is only the publisher site."}
+  ],
+  "research_notes": {
+    "private_source_scope": "One educational PDF from the provided Core CELTA texts folder was inspected selectively. The whole folder and book were not read.",
+    "private_source_use": "The source informed MFP separation and the present-continuous explanation. No protected exercise, page image, wording, or activity was copied.",
+    "children_folder_scope": "The children materials folder was not used because this series currently serves older teenagers and adults."
+  },
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Language claims are paraphrased with links. No textbook exercise, page, artwork, route map, employer message, logo, music, or footage is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed_browser_unavailable",
+  "deployment_status": "not_deployed"
+}
