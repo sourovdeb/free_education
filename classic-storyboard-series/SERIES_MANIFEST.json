@@ -19,7 +19,11 @@
     {
       "book_id": "02-crime-and-punishment",
       "title": "Crime and Punishment",
-      "status": "queued"
+      "status": "verified-portable",
+      "source_edition": "Michael R. Katz translation; Liveright first edition, 2018",
+      "asset_zip_drive": "https://drive.google.com/file/d/1_vMzi0GwZF5539Er0Ogi0yv7iHdNnm3j/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1q4dM9VpoPWceN3DvdDym5jETPlifOoDD/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
     },
     {
       "book_id": "03-the-idiot",
