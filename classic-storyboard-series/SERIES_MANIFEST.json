@@ -91,7 +91,13 @@
     {
       "book_id": "10-anna-karenina",
       "title": "Anna Karenina",
-      "status": "queued"
+      "status": "verified-portable",
+      "source_edition": "Rosamund Bartlett translation; Oxford University Press first edition 2014; supplied uncorrected advance reading copy; 8 parts and 239 chapters",
+      "asset_zip_drive": "https://drive.google.com/file/d/11MVLRmzL6pospeDd5dYqO47dI_uBhypM/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1Af-L1vYqgXysNEPLvLKhmeMXMya4detd/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
     }
-  ]
+  ],
+  "series_status": "complete",
+  "completed_count": 10
 }
