@@ -12,7 +12,7 @@ One book enters production each hourly run. A run may continue the same book. Th
 | 6 | Nineteen Eighty-Four | Verified portable kit; Blender runtime remains untested |
 | 7 | Animal Farm | Verified portable kit; Blender runtime remains untested |
 | 8 | Jane Eyre | Verified portable kit; Blender runtime remains untested |
-| 9 | The Hound of the Baskervilles | Queued |
+| 9 | The Hound of the Baskervilles | Verified portable kit; Blender runtime remains untested |
 | 10 | Anna Karenina | Queued |
 
 ## Book 01: The Brothers Karamazov
@@ -109,6 +109,18 @@ The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZI
 This kit follows the supplied English-language EPUB, first published in 1847. The source contains a preface, a note to the third edition, and 38 numbered chapters. No protected prose is published.
 
 The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, checksums, descriptive names, glTF structure, export settings, and within-scene motion passed. The summary is exactly 240 seconds, 640×360, 25fps, and silent. Blender was unavailable, so native import remains untested. TypeSafe reviewed source identity and structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
+
+## Book 09: The Hound of the Baskervilles
+
+- [Named Blender asset kit](https://drive.google.com/file/d/1BTFH5CGvWAP07Uo5bUWcC_Ea9GklOXtN/view)
+- [Four-minute storyboard summary](https://drive.google.com/file/d/1LGtGTMjscbMVokKgsmwpQyiLAkPnqILo/view)
+- [Shared visual Blender guide](https://drive.google.com/file/d/1A-gEzBPxaFO9R3KHbPLYRV0k9KFCFtVM/view)
+- [Compact asset manifest](hound-baskervilles/ASSET_MANIFEST.md)
+- [Source renderer](hound-baskervilles/render_summary.py)
+
+This kit follows the supplied original English-language Feedbooks EPUB, published in 1902. The source has 15 numbered chapters. No protected prose is published.
+
+The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, 151 recorded checksums, descriptive names, glTF structure, export settings, and within-scene motion passed. The summary is exactly 240 seconds, 640×360, 25fps, and silent. Blender was unavailable, so native import remains untested. TypeSafe (jev-1.13.0) reviewed source identity and structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
 
 The work list derives from the user's supplied classic-fiction anthology. The prose and modern translations are not published here. The kits use original production art and summaries.
 
