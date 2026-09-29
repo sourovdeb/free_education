@@ -11,7 +11,7 @@ One book enters production each hourly run. A run may continue the same book. Th
 | 5 | A Gentle Creature and Other Stories | Verified portable kit; Blender runtime remains untested |
 | 6 | Nineteen Eighty-Four | Verified portable kit; Blender runtime remains untested |
 | 7 | Animal Farm | Verified portable kit; Blender runtime remains untested |
-| 8 | Jane Eyre | Queued |
+| 8 | Jane Eyre | Verified portable kit; Blender runtime remains untested |
 | 9 | The Hound of the Baskervilles | Queued |
 | 10 | Anna Karenina | Queued |
 
@@ -97,6 +97,18 @@ The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZI
 This kit follows the supplied English-language source headed *Animal Farm: A Fairy Story*. Its contents list two prefatory items and ten numbered chapters. No protected prose is published.
 
 The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, checksums, descriptive names, glTF structure, export settings, and within-scene motion passed. The animal figures use original layered papercut silhouettes. The summary is exactly 240 seconds, 640×360, 25fps, and silent. Blender was unavailable, so native import remains untested. TypeSafe reviewed source identity and structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
+
+## Book 08: Jane Eyre
+
+- [Named Blender asset kit](https://drive.google.com/file/d/13HXqsZsZW2PrpN2LkFPVKC-6PhEdJd-O/view)
+- [Four-minute storyboard summary](https://drive.google.com/file/d/1HnKXLt8RFWMbyYbt8x_bH5gvLwEh7Iiv/view)
+- [Shared visual Blender guide](https://drive.google.com/file/d/1A-gEzBPxaFO9R3KHbPLYRV0k9KFCFtVM/view)
+- [Compact asset manifest](jane-eyre/ASSET_MANIFEST.md)
+- [Source renderer](jane-eyre/render_summary.py)
+
+This kit follows the supplied English-language EPUB, first published in 1847. The source contains a preface, a note to the third edition, and 38 numbered chapters. No protected prose is published.
+
+The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, checksums, descriptive names, glTF structure, export settings, and within-scene motion passed. The summary is exactly 240 seconds, 640×360, 25fps, and silent. Blender was unavailable, so native import remains untested. TypeSafe reviewed source identity and structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
 
 The work list derives from the user's supplied classic-fiction anthology. The prose and modern translations are not published here. The kits use original production art and summaries.
 
