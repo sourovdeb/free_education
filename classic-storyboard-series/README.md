@@ -8,7 +8,7 @@ One book enters production each hourly run. A run may continue the same book. Th
 | 2 | Crime and Punishment | Verified portable kit; Blender runtime remains untested |
 | 3 | The Idiot | Verified portable kit; Blender runtime remains untested |
 | 4 | Notes from Underground and The Double | Verified portable kit; Blender runtime remains untested |
-| 5 | A Gentle Creature and Other Stories | Queued |
+| 5 | A Gentle Creature and Other Stories | Verified portable kit; Blender runtime remains untested |
 | 6 | Nineteen Eighty-Four | Queued |
 | 7 | Animal Farm | Queued |
 | 8 | Jane Eyre | Queued |
@@ -61,6 +61,18 @@ The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZI
 This combined kit follows Jessie Coulson's Penguin translation, first published in 1972 and reprinted with a new chronology in 2003. The supplied source uses two chapters for *Notes from Underground* and thirteen for *The Double*. No protected prose is published.
 
 The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, checksums, names, glTF structure, export settings, and within-scene motion passed. Blender was unavailable, so native import remains untested. TypeSafe reviewed source identity and combined structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
+
+## Book 05: A Gentle Creature and Other Stories
+
+- [Named Blender asset kit](https://drive.google.com/file/d/1aY72V7e1wLRMij0dyAEDW6AoOCCCpa_I/view)
+- [Four-minute storyboard summary](https://drive.google.com/file/d/1UHo1sulq1gm4qG6SSOu2gSkd6-8Fxf4x/view)
+- [Shared visual Blender guide](https://drive.google.com/file/d/1A-gEzBPxaFO9R3KHbPLYRV0k9KFCFtVM/view)
+- [Compact asset manifest](gentle-creature-stories/ASSET_MANIFEST.md)
+- [Source renderer](gentle-creature-stories/render_summary.py)
+
+This collection kit follows Alan Myers's Oxford World's Classics translation. Translation and notes date from 1995; the supplied edition was reissued in 2009. It covers *White Nights*, *A Gentle Creature*, and *The Dream of a Ridiculous Man*. No protected prose is published.
+
+The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, checksums, names, glTF structure, export settings, and within-scene motion passed. Blender was unavailable, so native import remains untested. TypeSafe reviewed source identity and collection structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
 
 The work list derives from the user's supplied classic-fiction anthology. The prose and modern translations are not published here. The kits use original production art and summaries.
 
