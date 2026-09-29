@@ -64,7 +64,11 @@
     {
       "book_id": "07-animal-farm",
       "title": "Animal Farm",
-      "status": "queued"
+      "status": "verified-portable",
+      "source_edition": "Original English-language 1945 text; supplied EPUB credits gutenberg.net.au and includes prefatory material",
+      "asset_zip_drive": "https://drive.google.com/file/d/1YvmZcRtuhs_zDz7UL3FYBHsjRCSce614/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1OyuzHKhGfB7198lx9VPEbrHrr5YwFrOn/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
     },
     {
       "book_id": "08-jane-eyre",
