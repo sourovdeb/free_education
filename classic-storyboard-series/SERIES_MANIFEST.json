@@ -28,7 +28,11 @@
     {
       "book_id": "03-the-idiot",
       "title": "The Idiot",
-      "status": "queued"
+      "status": "verified-portable",
+      "source_edition": "David McDuff translation; Penguin Classics, 2004",
+      "asset_zip_drive": "https://drive.google.com/file/d/1O9d2XLGj20Ne4uU3GUgCBCiZso0sUPmH/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1u9Sw5gaMC3eDzHpu9g2mskx6zk59u2_x/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
     },
     {
       "book_id": "04-notes-underground-double",
