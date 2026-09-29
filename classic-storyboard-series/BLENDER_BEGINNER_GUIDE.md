@@ -14,11 +14,11 @@ This guide serves all ten classic-fiction kits. Download the book ZIP from the s
 
 ## 2. Import the starter assets
 
-1. In the ZIP, open `02_Assets`. Look for `Characters`, `Props`, and `Locations` or stages.
+1. For Karamazov v1.1, open `03_Blender/Scene_Starts`. Select `SCENE_01_family_v001.glb` to get a named scene and camera. For loose pieces, open `02_Assets`.
 2. Choose a filename that names the thing, such as `CHAR_alyosha_v001.glb`.
 3. In Blender, choose **File → Import → glTF 2.0 (.glb/.gltf)**.
 4. Select the GLB and choose **Import glTF 2.0**.
-5. Repeat for a location and one prop.
+5. With a scene start, its pieces arrive together. With loose pieces, repeat for a location and prop.
 6. Expand each import in the Outliner. Select its parent or ROOT to move all pieces.
 
 **Check:** Three named groups appear. If nothing appears, press Home while over the viewport.
@@ -34,6 +34,8 @@ This guide serves all ten classic-fiction kits. Download the book ZIP from the s
 7. Press **Ctrl+Z** after a mistake.
 
 **Check:** The character stays assembled. If a hand separates, undo. Select the parent.
+
+**Change a colour:** Expand the parent in the Outliner. Select one mesh piece. Open Material Properties, marked by the sphere icon. Choose its material. Under Surface, change Base Color. If several pieces share that material, they change together. Click the number beside its name to make a separate copy first. Switch to Material Preview to inspect.
 
 ## 4. Choose a view
 
@@ -57,7 +59,20 @@ This guide serves all ten classic-fiction kits. Download the book ZIP from the s
 
 **Check:** Two .blend files exist. Opening either restores its own composition.
 
-## 6. Render and inspect
+## 6. Add simple motion
+
+1. Set the timeline start to frame 1.
+2. Select one character parent.
+3. Hover over its Location field. Press **I** to add a keyframe.
+4. Set the current frame to 75.
+5. Press **G**, then **X**. Move the character. Left-click.
+6. Hover over Location again. Press **I**.
+7. Press Spacebar to play. The character should travel.
+8. For a four-second shot, end at frame 100.
+
+**Check:** Only the chosen parent moves.
+
+## 7. Render and inspect
 
 1. Set **Render Properties → Render Engine → Eevee** if the kit needs it.
 2. Set the output folder in **Output Properties**.
