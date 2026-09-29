@@ -46,7 +46,11 @@
     {
       "book_id": "05-gentle-creature-stories",
       "title": "A Gentle Creature and Other Stories",
-      "status": "queued"
+      "status": "verified-portable",
+      "source_edition": "Alan Myers translation; Oxford World's Classics; 1995 translation and notes, 2009 reissue",
+      "asset_zip_drive": "https://drive.google.com/file/d/1aY72V7e1wLRMij0dyAEDW6AoOCCCpa_I/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1UHo1sulq1gm4qG6SSOu2gSkd6-8Fxf4x/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
     },
     {
       "book_id": "06-nineteen-eighty-four",
