@@ -73,7 +73,11 @@
     {
       "book_id": "08-jane-eyre",
       "title": "Jane Eyre",
-      "status": "queued"
+      "status": "verified-portable",
+      "source_edition": "Original English-language text; first published 1847; supplied EPUB includes preface and third-edition note",
+      "asset_zip_drive": "https://drive.google.com/file/d/13HXqsZsZW2PrpN2LkFPVKC-6PhEdJd-O/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1HnKXLt8RFWMbyYbt8x_bH5gvLwEh7Iiv/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
     },
     {
       "book_id": "09-hound-baskervilles",
