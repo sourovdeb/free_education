@@ -1,6 +1,8 @@
 # Ten classic-fiction storyboard books
 
-One book enters production each hourly run. A run may continue the same book. The series ends after ten verified kits. Each book gets a named Blender asset ZIP and a four-minute visual-summary MP4. The [shared Blender guide](BLENDER_BEGINNER_GUIDE.md) applies throughout.
+**Series status: complete — ten of ten verified portable kits.**
+
+One book entered production per run. A run may continue the same book. The series ends after ten verified kits. Each book gets a named Blender asset ZIP and a four-minute visual-summary MP4. The [shared Blender guide](BLENDER_BEGINNER_GUIDE.md) applies throughout.
 
 | # | Work | Status |
 |---:|---|---|
@@ -13,7 +15,7 @@ One book enters production each hourly run. A run may continue the same book. Th
 | 7 | Animal Farm | Verified portable kit; Blender runtime remains untested |
 | 8 | Jane Eyre | Verified portable kit; Blender runtime remains untested |
 | 9 | The Hound of the Baskervilles | Verified portable kit; Blender runtime remains untested |
-| 10 | Anna Karenina | Queued |
+| 10 | Anna Karenina | Verified portable kit; Blender runtime remains untested |
 
 ## Book 01: The Brothers Karamazov
 
@@ -121,6 +123,18 @@ The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZI
 This kit follows the supplied original English-language Feedbooks EPUB, published in 1902. The source has 15 numbered chapters. No protected prose is published.
 
 The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, 151 recorded checksums, descriptive names, glTF structure, export settings, and within-scene motion passed. The summary is exactly 240 seconds, 640×360, 25fps, and silent. Blender was unavailable, so native import remains untested. TypeSafe (jev-1.13.0) reviewed source identity and structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
+
+## Book 10: Anna Karenina
+
+- [Named Blender asset kit](https://drive.google.com/file/d/11MVLRmzL6pospeDd5dYqO47dI_uBhypM/view)
+- [Four-minute storyboard summary](https://drive.google.com/file/d/1Af-L1vYqgXysNEPLvLKhmeMXMya4detd/view)
+- [Shared visual Blender guide](https://drive.google.com/file/d/1A-gEzBPxaFO9R3KHbPLYRV0k9KFCFtVM/view)
+- [Compact asset manifest](anna-karenina/ASSET_MANIFEST.md)
+- [Source renderer](anna-karenina/render_summary.py)
+
+This kit follows Rosamund Bartlett’s translation, Oxford University Press first edition 2014, supplied as an uncorrected advance reading copy. The eight parts contain 34, 35, 32, 23, 33, 32, 31, and 19 chapters—239 total. No protected translation is published.
+
+The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, 151 recorded checksums, descriptive names, glTF structure, export settings, selected frames, and within-scene motion passed. The summary is exactly 240 seconds, 640×360, 25fps, and silent. Blender was unavailable, so native import remains untested. TypeSafe (jev-1.13.0) reviewed source identity and structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
 
 The work list derives from the user's supplied classic-fiction anthology. The prose and modern translations are not published here. The kits use original production art and summaries.
 
