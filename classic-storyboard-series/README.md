@@ -9,7 +9,7 @@ One book enters production each hourly run. A run may continue the same book. Th
 | 3 | The Idiot | Verified portable kit; Blender runtime remains untested |
 | 4 | Notes from Underground and The Double | Verified portable kit; Blender runtime remains untested |
 | 5 | A Gentle Creature and Other Stories | Verified portable kit; Blender runtime remains untested |
-| 6 | Nineteen Eighty-Four | Queued |
+| 6 | Nineteen Eighty-Four | Verified portable kit; Blender runtime remains untested |
 | 7 | Animal Farm | Queued |
 | 8 | Jane Eyre | Queued |
 | 9 | The Hound of the Baskervilles | Queued |
@@ -73,6 +73,18 @@ The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZI
 This collection kit follows Alan Myers's Oxford World's Classics translation. Translation and notes date from 1995; the supplied edition was reissued in 2009. It covers *White Nights*, *A Gentle Creature*, and *The Dream of a Ridiculous Man*. No protected prose is published.
 
 The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, checksums, names, glTF structure, export settings, and within-scene motion passed. Blender was unavailable, so native import remains untested. TypeSafe reviewed source identity and collection structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
+
+## Book 06: Nineteen Eighty-Four
+
+- [Named Blender asset kit](https://drive.google.com/file/d/10SOnMulE2Tl__SBjFAneH34fmYOfw9b-/view)
+- [Four-minute storyboard summary](https://drive.google.com/file/d/1wBbwHEZrJJ4gL4plPKIJwJsttHgvaqNB/view)
+- [Shared visual Blender guide](https://drive.google.com/file/d/1A-gEzBPxaFO9R3KHbPLYRV0k9KFCFtVM/view)
+- [Compact asset manifest](nineteen-eighty-four/ASSET_MANIFEST.md)
+- [Source renderer](nineteen-eighty-four/render_summary.py)
+
+This kit follows the supplied English-language source headed *1984: Illustrated (The Evergreen Classics)*. The register states three parts with 8, 9, and 6 chapters. Its edition date is not stated. No protected prose is published.
+
+The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, checksums, names, glTF structure, export settings, and within-scene motion passed. The summary is exactly 240 seconds, 640×360, 25fps, and silent. Blender was unavailable, so native import remains untested. TypeSafe reviewed source identity and structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
 
 The work list derives from the user's supplied classic-fiction anthology. The prose and modern translations are not published here. The kits use original production art and summaries.
 
