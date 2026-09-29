@@ -37,7 +37,11 @@
     {
       "book_id": "04-notes-underground-double",
       "title": "Notes from Underground and The Double",
-      "status": "queued"
+      "status": "verified-portable",
+      "source_edition": "Jessie Coulson translation; Penguin Classics; 1972 translation, 2003 chronology reprint",
+      "asset_zip_drive": "https://drive.google.com/file/d/1AAifZAljY1H9PIcAq8Qe9yXPGEpF_FfG/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1wwpbkYCNGyfoFg_mIJqBiD1Y974d65uB/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
     },
     {
       "book_id": "05-gentle-creature-stories",
