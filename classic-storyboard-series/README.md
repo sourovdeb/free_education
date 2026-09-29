@@ -5,7 +5,7 @@ One book enters production each hourly run. A run may continue the same book. Th
 | # | Work | Status |
 |---:|---|---|
 | 1 | The Brothers Karamazov | Verified portable kit; Blender runtime remains untested |
-| 2 | Crime and Punishment | Queued |
+| 2 | Crime and Punishment | Verified portable kit; Blender runtime remains untested |
 | 3 | The Idiot | Queued |
 | 4 | Notes from Underground and The Double | Queued |
 | 5 | A Gentle Creature and Other Stories | Queued |
@@ -25,6 +25,18 @@ One book enters production each hourly run. A run may continue the same book. Th
 The v1.2 kit has 128 named base GLB/SVG assets, eight editable GLB scene starts, and a native-file builder. Blender was unavailable when it was made. No native .blend file was verified. The summary uses eight moving cut-paper scenes. It covers the main story, not the novel's full text. Its captions interpret events. It lasts exactly 240 seconds at 640×360 and 25fps, without audio. The renderer uses previews from the kit.
 
 [Scene asset map](karamazov/SCENE_ASSET_MAP.md) lists the starter compositions. The ZIP passed integrity and glTF structure checks. Eight scenes showed motion. Blender runtime testing remains pending because Blender was unavailable. TypeSafe reviewed production rules, structure, and visual/export evidence only. It accepted portable delivery. No manuscript was submitted.
+
+## Book 02: Crime and Punishment
+
+- [Named Blender asset kit](https://drive.google.com/file/d/1_vMzi0GwZF5539Er0Ogi0yv7iHdNnm3j/view)
+- [Four-minute storyboard summary](https://drive.google.com/file/d/1q4dM9VpoPWceN3DvdDym5jETPlifOoDD/view)
+- [Shared visual Blender guide](https://drive.google.com/file/d/1A-gEzBPxaFO9R3KHbPLYRV0k9KFCFtVM/view)
+- [Compact asset manifest](crime-and-punishment/ASSET_MANIFEST.md)
+- [Source renderer](crime-and-punishment/render_summary.py)
+
+The supplied anthology contains two editions. This kit follows Michael R. Katz's 2018 Liveright translation. The source has six parts with 39 chapters, followed by two epilogue chapters. No protected prose is published.
+
+The ZIP contains 67 named GLB/SVG assets and eight editable GLB scene starts. ZIP integrity, checksums, names, buffers, nodes, meshes, materials, cameras, export settings, and motion passed. Blender was unavailable, so native import remains untested. TypeSafe reviewed source identity and structure, production rules, asset structure, and reported visual/export evidence. It accepted portable delivery. No manuscript was submitted.
 
 The work list derives from the user's supplied classic-fiction anthology. The prose and modern translations are not published here. The kits use original production art and summaries.
 
