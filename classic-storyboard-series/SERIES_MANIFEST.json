@@ -82,7 +82,11 @@
     {
       "book_id": "09-hound-baskervilles",
       "title": "The Hound of the Baskervilles",
-      "status": "queued"
+      "status": "verified-portable",
+      "source_edition": "Original English-language Feedbooks EPUB; published 1902; 15 numbered chapters",
+      "asset_zip_drive": "https://drive.google.com/file/d/1BTFH5CGvWAP07Uo5bUWcC_Ea9GklOXtN/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1LGtGTMjscbMVokKgsmwpQyiLAkPnqILo/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
     },
     {
       "book_id": "10-anna-karenina",
