@@ -1,0 +1,65 @@
+{
+  "series_id": "classic-storyboard-series",
+  "updated_at": "2026-09-29",
+  "limit": 10,
+  "shared_guide": {
+    "github": "https://github.com/sourovdeb/free_education/blob/main/classic-storyboard-series/BLENDER_BEGINNER_GUIDE.md",
+    "drive": "https://drive.google.com/file/d/1A-gEzBPxaFO9R3KHbPLYRV0k9KFCFtVM/view"
+  },
+  "books": [
+    {
+      "book_id": "01-brothers-karamazov",
+      "title": "The Brothers Karamazov",
+      "source_edition": "Richard Pevear and Larissa Volokhonsky translation",
+      "status": "verified-portable",
+      "asset_zip_drive": "https://drive.google.com/file/d/1MO5CjgzlmHOZHHQVOX56gfOvMpRUUF1F/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1b0Jvwg6uDSdkyHgMC3vvDeb46KjbR5xr/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
+    },
+    {
+      "book_id": "02-crime-and-punishment",
+      "title": "Crime and Punishment",
+      "status": "queued"
+    },
+    {
+      "book_id": "03-the-idiot",
+      "title": "The Idiot",
+      "status": "queued"
+    },
+    {
+      "book_id": "04-notes-underground-double",
+      "title": "Notes from Underground and The Double",
+      "status": "queued"
+    },
+    {
+      "book_id": "05-gentle-creature-stories",
+      "title": "A Gentle Creature and Other Stories",
+      "status": "queued"
+    },
+    {
+      "book_id": "06-nineteen-eighty-four",
+      "title": "Nineteen Eighty-Four",
+      "status": "queued"
+    },
+    {
+      "book_id": "07-animal-farm",
+      "title": "Animal Farm",
+      "status": "queued"
+    },
+    {
+      "book_id": "08-jane-eyre",
+      "title": "Jane Eyre",
+      "status": "queued"
+    },
+    {
+      "book_id": "09-hound-baskervilles",
+      "title": "The Hound of the Baskervilles",
+      "status": "queued"
+    },
+    {
+      "book_id": "10-anna-karenina",
+      "title": "Anna Karenina",
+      "status": "queued"
+    }
+  ]
+}
