@@ -1,6 +1,6 @@
 # Karamazov scene asset map
 
-Version 1.1. These are editorial staging starts. They do not reproduce the full novel. Each GLB contains named parent nodes and a camera. Select an asset parent to move, rotate, or scale it. Expand that parent to edit meshes and materials.
+Version 1.2. These are editorial staging starts. They do not reproduce the full novel. Each GLB contains named parent nodes and a camera. Select an asset parent to move, rotate, or scale it. Expand that parent to edit meshes and materials.
 
 | Scene file | Location | Characters | Props |
 |---|---|---|---|
@@ -13,4 +13,4 @@ Version 1.1. These are editorial staging starts. They do not reproduce the full 
 | SCENE_07_trial_v001.glb | LOC_courtroom | CHAR_dmitri, CHAR_ivan, CHAR_alyosha | PROP_document |
 | SCENE_08_children_v001.glb | LOC_stone_memorial | CHAR_alyosha, CHAR_kolya, CHAR_ilyusha | PROP_stone, PROP_tree_big |
 
-The private ZIP contains the complete manifest. It maps 128 asset names to use, scene, origin, version, and edit controls. The visual designs interpret the supplied Pevear/Volokhonsky section. Blender import still needs a runtime check.
+The private ZIP contains the complete manifest. It maps 128 asset names to use, scene, origin, version, and edit controls. The visual designs interpret the supplied Pevear/Volokhonsky section. Portable GLB structure passed. Blender import remains untested because Blender was unavailable. TypeSafe accepted portable delivery after reviewing rules, structure, and visual/export evidence.
