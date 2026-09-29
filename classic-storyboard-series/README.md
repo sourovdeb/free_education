@@ -6,7 +6,7 @@ One book enters production each hourly run. A run may continue the same book. Th
 |---:|---|---|
 | 1 | The Brothers Karamazov | Verified portable kit; Blender runtime remains untested |
 | 2 | Crime and Punishment | Verified portable kit; Blender runtime remains untested |
-| 3 | The Idiot | Queued |
+| 3 | The Idiot | Verified portable kit; Blender runtime remains untested |
 | 4 | Notes from Underground and The Double | Queued |
 | 5 | A Gentle Creature and Other Stories | Queued |
 | 6 | Nineteen Eighty-Four | Queued |
