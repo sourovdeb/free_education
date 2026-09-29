@@ -55,7 +55,11 @@
     {
       "book_id": "06-nineteen-eighty-four",
       "title": "Nineteen Eighty-Four",
-      "status": "queued"
+      "status": "verified-portable",
+      "source_edition": "English-language source headed 1984: Illustrated (The Evergreen Classics); edition date not stated in supplied register",
+      "asset_zip_drive": "https://drive.google.com/file/d/10SOnMulE2Tl__SBjFAneH34fmYOfw9b-/view",
+      "summary_mp4_drive": "https://drive.google.com/file/d/1wBbwHEZrJJ4gL4plPKIJwJsttHgvaqNB/view",
+      "runtime_note": "GLB structure verified. Blender runtime unavailable."
     },
     {
       "book_id": "07-animal-farm",
