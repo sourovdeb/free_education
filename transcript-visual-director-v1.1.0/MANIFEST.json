@@ -12,7 +12,8 @@
   "destination_status": {
     "github": "mirrored_candidate",
     "drive": "available_google_doc",
-    "gmail": "draft_target"
+    "gmail": "sent",
+    "gmail_message_id": "1a0f0830c3c21bea"
   },
   "tests": {
     "command": "python3 -m unittest discover -s tests -v",
@@ -44,7 +45,7 @@
     },
     {
       "path": "CYCLE_CHECKPOINT.md",
-      "characters": 668
+      "characters": 726
     },
     {
       "path": "LICENSE",
