@@ -19,6 +19,8 @@ The skipped test needs psutil.
 No dependency installation was attempted.
 
 GitHub candidate mirror completed.
+Gmail draft was sent.
+Gmail message ID: 1a0f0830c3c21bea.
 This Gmail draft is authoritative.
 The full package is included.
 No ZIP attachment is used.
