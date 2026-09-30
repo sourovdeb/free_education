@@ -1,0 +1,43 @@
+{
+  "source_sha256": "a7873e72a9dc42072b7e9f9ce3af61a064bbc37590dc7e5af755be75b36536a3",
+  "visuals": [
+    {
+      "id": "v001",
+      "source_ids": [
+        "s0001"
+      ],
+      "evidence": "Read the question. Think about it. Write your answer.",
+      "template": "steps",
+      "mode": "animate",
+      "start": 1,
+      "end": 9,
+      "title": "Answering a question",
+      "labels": [
+        "Read",
+        "Think",
+        "Write"
+      ]
+    },
+    {
+      "id": "v002",
+      "source_ids": [
+        "s0002"
+      ],
+      "evidence": "Team A has 10 books. Team B has 20 books.",
+      "template": "bars",
+      "mode": "still",
+      "start": 10,
+      "end": 18,
+      "title": "Books by team",
+      "labels": [
+        "Team A",
+        "Team B"
+      ],
+      "values": [
+        10,
+        20
+      ],
+      "unit": "books"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Transcript Visual Planner</title>
+<style>
+body{font:18px/1.45 system-ui;max-width:1000px;margin:auto;padding:20px}
+textarea,input,select,button{font:inherit;padding:10px;margin:5px 0;max-width:100%}
+textarea{width:100%;min-height:180px}
+button{min-height:44px}
+.seg{border:1px solid #777;padding:10px;margin:8px 0}
+svg{width:100%;height:auto;border:1px solid #777}
+pre{white-space:pre-wrap;word-break:break-word}
+:focus{outline:3px solid currentColor;outline-offset:2px}
+</style>
+<h1>Transcript Visual Planner</h1>
+<p>Local browser planning only.</p>
+<p>No uploads. No provider calls.</p>
+<label>Timed transcript</label>
+<textarea id="src" placeholder="Paste SRT, VTT, or segment JSON"></textarea>
+<button id="parse">Parse transcript</button>
+<div id="segments"></div>
+<hr>
+<label>Selected segment <input id="sid" readonly></label><br>
+<label>Template
+<select id="template">
+<option>steps</option><option>timeline</option><option>comparison</option>
+<option>quote</option><option>definition</option><option>doodle</option>
+</select></label><br>
+<label>Mode
+<select id="mode"><option>still</option><option>animate</option></select></label><br>
+<label>Title <input id="title"></label><br>
+<label>Labels, separated by |
+<input id="labels" placeholder="Read | Think | Write"></label><br>
+<button id="add">Add visual</button>
+<button id="download">Download proposal.json</button>
+<h2>Preview</h2>
+<div id="preview"></div>
+<h2>Proposal</h2>
+<pre id="json"></pre>
+<script>
+const state={segments:[],visuals:[],selected:null};
+function stamp(v){const p=v.replace(',','.').split(':').map(Number);if(p.length===2)p.unshift(0);return p[0]*3600+p[1]*60+p[2]}
+function parseText(text){
+ text=text.trim();
+ if(text.startsWith('{')||text.startsWith('[')){
+  const o=JSON.parse(text);const a=Array.isArray(o)?o:o.segments;
+  return a.map((x,i)=>({id:'s'+String(i+1).padStart(4,'0'),start:+x.start,end:+x.end,text:String(x.text).trim()}));
+ }
+ const lines=text.replaceAll('\r','').split('\n');const out=[];
+ for(let i=0;i<lines.length;i++){
+  if(!lines[i].includes('-->'))continue;
+  const [a,b]=lines[i].split('-->');let j=i+1,w=[];
+  while(j<lines.length&&lines[j].trim()){w.push(lines[j].trim());j++}
+  out.push({id:'s'+String(out.length+1).padStart(4,'0'),start:stamp(a.trim()),end:stamp(b.trim().split(/\s+/)[0]),text:w.join(' ')});
+ }
+ return out;
+}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function draw(){
+ const box=document.querySelector('#preview');const v=state.visuals.at(-1);
+ if(!v){box.textContent='Add one visual.';return}
+ const labs=v.labels.map((x,i)=>'<text x="80" y="'+(170+i*55)+'" font-size="28">'+esc(x)+'</text>').join('');
+ box.innerHTML='<svg viewBox="0 0 900 420" role="img" aria-label="'+esc(v.title)+'"><rect x="20" y="20" width="860" height="380" fill="white" stroke="black"/><text x="60" y="80" font-size="34">'+esc(v.title)+'</text><text x="60" y="120" font-size="18">Source '+esc(v.source_ids.join(','))+'</text>'+labs+'<text x="60" y="370" font-size="16">Source-linked preview. Not evidence.</text></svg>';
+}
+function refresh(){
+ document.querySelector('#segments').innerHTML=state.segments.map(s=>'<button class="seg" data-id="'+s.id+'">'+s.id+' · '+s.start.toFixed(2)+'–'+s.end.toFixed(2)+' · '+esc(s.text)+'</button>').join('');
+ document.querySelectorAll('.seg').forEach(b=>b.onclick=()=>{state.selected=state.segments.find(s=>s.id===b.dataset.id);document.querySelector('#sid').value=state.selected.id;});
+ document.querySelector('#json').textContent=JSON.stringify({source_sha256:"BROWSER_ROUTE_REQUIRES_RUNNER_REBIND",visuals:state.visuals},null,2);draw();
+}
+document.querySelector('#parse').onclick=()=>{try{state.segments=parseText(document.querySelector('#src').value);if(!state.segments.length)throw Error('No timed segments found.');refresh()}catch(e){alert(e.message)}};
+document.querySelector('#add').onclick=()=>{
+ if(!state.selected)return alert('Select a segment.');
+ const s=state.selected,d=s.end-s.start;if(d<2||d>15)return alert('Choose a 2–15 second segment.');
+ const labels=document.querySelector('#labels').value.split('|').map(x=>x.trim()).filter(Boolean);if(!labels.length)return alert('Add labels.');
+ state.visuals.push({id:'v'+String(state.visuals.length+1).padStart(3,'0'),source_ids:[s.id],evidence:s.text,template:document.querySelector('#template').value,mode:document.querySelector('#mode').value,start:s.start,end:s.end,title:document.querySelector('#title').value.trim()||'Visual',labels});refresh();
+};
+document.querySelector('#download').onclick=()=>{const data=JSON.stringify({source_sha256:"BROWSER_ROUTE_REQUIRES_RUNNER_REBIND",visuals:state.visuals},null,2);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([data],{type:'application/json'}));a.download='proposal.json';a.click();URL.revokeObjectURL(a.href);};
+refresh();
+</script>
+</html>
