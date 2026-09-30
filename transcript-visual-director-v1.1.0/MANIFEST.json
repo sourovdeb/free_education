@@ -1,0 +1,130 @@
+{
+  "skill_id": "S003",
+  "name": "transcript-visual-director",
+  "source_version": "1.0.0",
+  "candidate_version": "1.1.0",
+  "source_repository": "sourovdeb/free_education",
+  "source_commit": "ecdb71651123bd2e440708e7015a3b392b2e3dd4",
+  "work_status": "REVIEWED",
+  "validation": "OFFLINE_TESTS_PASS_WITH_SKIP",
+  "approval": "NOT_REQUESTED",
+  "deployment": "NOT_DEPLOYED",
+  "destination_status": {
+    "github": "candidate_mirror_pending",
+    "drive": "available_google_doc",
+    "gmail": "draft_target"
+  },
+  "tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 35,
+    "skipped": 1,
+    "failed": 0,
+    "skip_reason": "psutil unavailable; still pipeline test skipped"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "characters": 115
+    },
+    {
+      "path": "AGENT.md",
+      "characters": 2761
+    },
+    {
+      "path": "AGENTS.md",
+      "characters": 1448
+    },
+    {
+      "path": "AUDIT.md",
+      "characters": 4127
+    },
+    {
+      "path": "CHANGES.md",
+      "characters": 790
+    },
+    {
+      "path": "CYCLE_CHECKPOINT.md",
+      "characters": 666
+    },
+    {
+      "path": "LICENSE",
+      "characters": 1067
+    },
+    {
+      "path": "README.md",
+      "characters": 6890
+    },
+    {
+      "path": "START.cmd",
+      "characters": 90
+    },
+    {
+      "path": "START_HERE.md",
+      "characters": 1250
+    },
+    {
+      "path": "UPGRADE_PROMPT.md",
+      "characters": 978
+    },
+    {
+      "path": "browser_planner.html",
+      "characters": 5023
+    },
+    {
+      "path": "director.py",
+      "characters": 33019
+    },
+    {
+      "path": "docs/CONTRACT.md",
+      "characters": 5560
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "characters": 2762
+    },
+    {
+      "path": "docs/TEST_REPORT.md",
+      "characters": 1369
+    },
+    {
+      "path": "examples/demo.srt",
+      "characters": 161
+    },
+    {
+      "path": "examples/integrated-illumination.svg",
+      "characters": 1232
+    },
+    {
+      "path": "examples/proposal.json",
+      "characters": 858
+    },
+    {
+      "path": "render_scene.py",
+      "characters": 4367
+    },
+    {
+      "path": "requirements.txt",
+      "characters": 42
+    },
+    {
+      "path": "resolve_import.py",
+      "characters": 4374
+    },
+    {
+      "path": "skills/transcript-visual-director/SKILL.md",
+      "characters": 9716
+    },
+    {
+      "path": "still.py",
+      "characters": 4829
+    },
+    {
+      "path": "studio.ps1",
+      "characters": 12271
+    },
+    {
+      "path": "tests/test_director.py",
+      "characters": 9996
+    }
+  ]
+}

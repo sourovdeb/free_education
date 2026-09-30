@@ -1,0 +1,7 @@
+1
+00:00:01,000 --> 00:00:09,000
+Read the question. Think about it. Write your answer.
+
+2
+00:00:10,000 --> 00:00:18,000
+Team A has 10 books. Team B has 20 books.
