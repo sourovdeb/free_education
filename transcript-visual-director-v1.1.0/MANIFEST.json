@@ -10,7 +10,7 @@
   "approval": "NOT_REQUESTED",
   "deployment": "NOT_DEPLOYED",
   "destination_status": {
-    "github": "candidate_mirror_pending",
+    "github": "mirrored_candidate",
     "drive": "available_google_doc",
     "gmail": "draft_target"
   },
@@ -44,7 +44,7 @@
     },
     {
       "path": "CYCLE_CHECKPOINT.md",
-      "characters": 666
+      "characters": 668
     },
     {
       "path": "LICENSE",

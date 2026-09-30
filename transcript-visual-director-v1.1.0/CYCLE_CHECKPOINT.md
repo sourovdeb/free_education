@@ -18,11 +18,9 @@ Candidate tests were executed locally.
 The skipped test needs psutil.
 No dependency installation was attempted.
 
-GitHub candidate writes are pending.
+GitHub candidate mirror completed.
 This Gmail draft is authoritative.
 The full package is included.
-
-Next action:
-mirror the candidate package.
-Update the draft status.
-Send the existing draft.
+No ZIP attachment is used.
+Candidate validation remains offline.
+Target runtime remains untested.
