@@ -1,0 +1,7 @@
+{
+  "blender": "C:/Program Files/Blender Foundation/Blender 5.2/blender.exe",
+  "output_root": "E:/Resolve-Automation/Storyboard-Education-Runs",
+  "book_storyboard_glb": "C:/Program Files/Blackmagic Design/DaVinci Resolve/Fusion/blender-storyboard/asset-library/storyboard-pack/assets/A132-book-open.glb",
+  "book": {"video":"E:/your-book-recording.mp4", "plan_json":"", "review_csv":"", "captions":""},
+  "tutorial": {"video":"E:/your-tutorial-recording.mp4", "plan_json":"", "review_csv":"", "captions":"", "resolve_run":""}
+}
