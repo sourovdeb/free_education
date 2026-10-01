@@ -1,0 +1,9 @@
+{
+  "width":1920,"height":1080,"fps":25,"seconds":6,"mode":"orbit",
+  "subject_safe_rect":[0.34,0.16,0.66,0.88],
+  "title":"EXPLORE AN IDEA","caption":"Your exact words stay editable","text_3d":true,
+  "assets":[{"id":"EDU001","path":"../assets/EDU001.glb","size":1.6,"rotation":[65,0,0]},
+            {"id":"EDU003","path":"../assets/EDU003.glb","size":1.6,"rotation":[0,0,0]},
+            {"id":"EDU002","path":"../assets/EDU002.glb","size":1.5,"rotation":[0,-15,0]},
+            {"id":"EDU008","path":"../assets/EDU008.glb","size":1.5,"rotation":[0,0,0]}]
+}

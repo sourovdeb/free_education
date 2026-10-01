@@ -1,0 +1,7 @@
+*.pdf binary
+*.glb binary
+*.blend binary
+*.png binary
+*.jpg binary
+*.zip binary
+basic/*.py -text
