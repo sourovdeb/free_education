@@ -1,0 +1,7 @@
+When one detail is missed, ask for that part again. After hearing it, confirm the detail before continuing.
+Hear the message: Breakfast starts at six [noise] in the Palm Room. The place is known. The time is missing.
+Name the gap: Could you say the time again, please? Name the detail you need repeated.
+Hear the reply: Six forty-five. The reply supplies the missing time.
+Check the detail: Six forty-five, right? Checking gives space for correction.
+Build your request: Could you | say | the time | again, please? Could you + base verb forms the request.
+Try the café: You missed the table number. Ask, then check: fourteen. Say or write one sentence asking for the number again. Then add one checking sentence after you hear: fourteen.

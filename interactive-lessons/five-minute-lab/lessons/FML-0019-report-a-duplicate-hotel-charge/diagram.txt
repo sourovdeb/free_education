@@ -1,0 +1,3 @@
+First compare the one receipt charge with the two matching bank transactions. State the amount and both dates. Say that you think you were charged twice, then ask which transaction is the duplicate. Finish by asking when it will be reversed and confirming when to check again.
+
+Alt text: A colourful layered papercut evidence flow. One hotel receipt shows €84. A phone shows two matching €84 transaction cards dated 14 and 16 September. The second card is labelled possible duplicate, and an arrow points to check, reverse, and confirm the timing.

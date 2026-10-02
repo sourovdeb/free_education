@@ -1,0 +1,87 @@
+{
+  "id": "FML-0004",
+  "version": "1.1.0",
+  "title": "Tuesday, Not Thursday",
+  "revision_of": "1.0.0",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T14:15:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 7682,
+      "sha256": "77669fe2264d71a16c6a4776a4bcf44c9ebef36d14b231681cee94f0ac0ea133"
+    },
+    {
+      "path": "index.html",
+      "bytes": 15193,
+      "sha256": "51736065095e3959502371ef43ad3ad1e5f654206e9ef3737c665e78434d82c4"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5070,
+      "sha256": "893f041895003d280121ddc56620bff81a131411aa5adcd11487262588007fbe"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4103,
+      "sha256": "9da63a661bd1446f5245807022c476cc114dee3158ecd88bcfe2bd87af301f17"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 453,
+      "sha256": "61b303eb517c227585cec1e43cd8149adf6411244b882945f44ebb13ffc987a0"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 194613,
+      "sha256": "66fef068d0d7370ab3174141c9ac671e75d4104fc027e1b3a6bcbd1834169d31"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 8614,
+      "sha256": "10fe2489e2326a233b663339e92a0c0d905086730b9b34ce068ddc47331aec06"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 1702,
+      "sha256": "27eb64a563be146091d802ba21b65d752d859b0b1ded98bc5967558d0994e9c5"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 284,
+      "sha256": "f62a993e7c171e6a120f8da2755d59f81118b617383a97306f873e542eb8211d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 822,
+      "sha256": "e9c8b197606ff1673f156242e1f4d0f77bd2ffdbf5f7dfd03b03fe5d81208b5a"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1237,
+      "sha256": "eefa62778f43ede30cc40a54f45c4af20b9d93a779ae3ed86fee51cffe8d259f"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 977,
+      "sha256": "84572ed501f7ff5a6b95abb5ddd15e9f5f5908701097988dcc88afdcc4709870"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 822,
+      "sha256": "eb661c5d2c12a3a5e4bee9b0a6059050d606da9d0b48c555c1eb71bc9b121498"
+    },
+    {
+      "path": "doodle-720p25.mp4",
+      "bytes": 144376,
+      "sha256": "dd37c991e61910d0eb17113e740b5f756c6bf9598e21e88da82077ae48a3594e"
+    },
+    {
+      "path": "build.py",
+      "bytes": 18498,
+      "sha256": "6ce98cb071135190ca76a4b1ddcaba1a01dd320efc3869691cb7da671f1dff87"
+    }
+  ]
+}

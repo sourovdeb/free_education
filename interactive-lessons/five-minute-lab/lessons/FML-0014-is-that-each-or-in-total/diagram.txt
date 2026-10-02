@@ -1,0 +1,3 @@
+First notice that a price without a scope can have two meanings. Ask whether it is per person or in total. Use the reply with the group size to identify the whole amount. Then repeat the total and number of people and invite confirmation.
+
+Alt text: A colourful layered papercut flow. One €60 quote branches to per person or in total. The reply selects per person. Three €60 person-tags then combine into a €180 total for three people, followed by a confirmation check.

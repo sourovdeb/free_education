@@ -1,0 +1,87 @@
+{
+  "id": "FML-0006",
+  "version": "1.1.0",
+  "title": "Is Breakfast Included?",
+  "revision_of": "1.0.0",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T12:10:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 7233,
+      "sha256": "327a13f241c7306c0f9c0a4fcd04da8b5b1ebf9df86f85131b9f000506d947a2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14128,
+      "sha256": "00747ed811f51b82bdebecb87eb570dd6d3cd00d82918953d30126a62f85bf72"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 4348,
+      "sha256": "b76f9278e8878ca515f27d941787ce08514c0bc17b977ad6fa1e83b9faccab0c"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 3655,
+      "sha256": "8bed680c01d162eef1486f28a1d8415d7641abe5f2a234f2e8601d5771ed4c33"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 458,
+      "sha256": "32df9634d3b2abc68d48aeafe4aa2f96672c16efb0040714f2030ebd61495f96"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 183233,
+      "sha256": "bf17a3624e5bc84c99d2da6395ede191911aec6ded25bfd52284c4c1019dad8e"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6751,
+      "sha256": "9620d7b84661106d13d037f5aad6466c5bab49ea85cfe511e02cd27f97d2b3ae"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 1234,
+      "sha256": "17bdea6b829c2bb72849628c7bccc830276475e0b437c089e1d7279a5220fbd8"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 316,
+      "sha256": "18d60521ccffb1e7998ba5acbca7b67ed6234f2350f65fb7df6c8680fc80c85e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 835,
+      "sha256": "14ab342cc408c7277a381616d8a9c6728c6435ddf6a3941460b40ce4cede9353"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1207,
+      "sha256": "a181991267e3e22c3fbb8f6c86f072b5a220f03c6fa26b8e076b6ff86fa88960"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 974,
+      "sha256": "c33d280ffbf7aacf788519f645bebae5d1ee84ecf4f12840642b88e7c9e8f795"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 774,
+      "sha256": "5510446e9c2205754057a547c828e2078ce7a898dabc665b62f10fee70c50acc"
+    },
+    {
+      "path": "doodle-720p25.mp4",
+      "bytes": 134739,
+      "sha256": "b14842ff955f80bc6e6fbcafca546414ab595517705705b2a5bb608b8fe22d26"
+    },
+    {
+      "path": "build.py",
+      "bytes": 18000,
+      "sha256": "dd1b91675d93e2c4230ddc9c7bc5e59441456c7bccbdbe8b38ba40a67d0b5770"
+    }
+  ]
+}

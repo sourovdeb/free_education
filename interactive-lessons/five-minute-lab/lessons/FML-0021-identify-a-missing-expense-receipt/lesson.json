@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0021",
+  "version": "1.0.0",
+  "title": "Which Receipt Is Missing?",
+  "slug": "identify-a-missing-expense-receipt",
+  "pathway": "use-english",
+  "interaction_family": "expense-claim-clue-and-deadline",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Read dates and prices", "scan a short checklist"],
+  "observable_outcome": "The learner identifies a missing receipt from a checklist, asks which receipt is missing, and confirms the submission deadline.",
+  "learning_objective": "Ask which expense receipt is missing, identify the claim date and amount, and confirm the submission deadline.",
+  "scenario": {
+    "setting": "A fictional workplace expense system.",
+    "prompt": "Your 18 September expense claim totals €76: train €42, lunch €18, and taxi €16. The checklist shows the train and lunch receipts are attached. The taxi receipt is missing. Finance says: Please upload it by 4 p.m. Wednesday.",
+    "puzzle": "Which receipt is missing, which claim is it from, how much is it, and when must you upload it?",
+    "privacy_note": "The workplace, claim, receipts, amounts, colleague, and deadline are fictional teaching data. This activity is language practice, not accounting, tax, legal, or financial advice."
+  },
+  "model": {
+    "clarify": "Which receipt is missing from my 18 September expense claim?",
+    "colleague_reply": "The taxi receipt for €16 is missing.",
+    "confirm": "So I need to upload the €16 taxi receipt by 4 p.m. Wednesday, right?",
+    "neutral_variant": "Which receipt do I need to upload for my 18 September claim?"
+  },
+  "language_focus": {
+    "grammar": "In Which receipt is missing?, which receipt is the subject, so there is no do-support. In Which receipt do I need to upload?, which receipt is the object, so present-simple question order uses do + subject + base verb.",
+    "meaning": "Missing means not attached to the claim. The claim date identifies the form; the category and amount identify the receipt. By 4 p.m. Wednesday means no later than that time, not only at exactly 4 p.m.",
+    "appropriateness": "Ask a neutral question, name the claim date, then read back the category, amount, and deadline. This checks details without blaming the colleague.",
+    "detail_language": "Expense processes and evidence rules vary by employer and location. Follow the actual policy and ask the responsible team when unsure."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "Which receipt is missing from the 18 September claim?",
+    "options": [
+      {"text": "The €16 taxi receipt.", "correct": true, "feedback": "Correct. The checklist marks train and lunch as attached, leaving the taxi receipt missing."},
+      {"text": "The €42 train receipt.", "correct": false, "feedback": "The train receipt is attached. Look for the category without a check mark."},
+      {"text": "The €18 lunch receipt.", "correct": false, "feedback": "The lunch receipt is attached. The missing category is taxi."}
+    ]
+  },
+  "request_activity": {
+    "id": "decision-2",
+    "prompt": "Which question is grammatically well formed and useful here?",
+    "options": [
+      {"text": "Which receipt is missing from my 18 September claim?", "correct": true, "feedback": "Correct. Which receipt is the subject of is missing, so no do is needed."},
+      {"text": "Which receipt does missing from my 18 September claim?", "correct": false, "feedback": "Do not use does before missing in this subject question. Say Which receipt is missing?"},
+      {"text": "Why did you lose my receipt?", "correct": false, "feedback": "This assumes blame and does not identify the missing item. Ask which receipt is missing first."}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each detail to its job in the readback.",
+    "slots": ["claim date", "receipt category", "amount", "deadline"],
+    "items": [
+      {"detail": "18 September", "answer": "claim date", "feedback": {"claim date": "Correct. This identifies the expense claim.", "receipt category": "The category is taxi.", "amount": "The amount is €16.", "deadline": "The deadline is 4 p.m. Wednesday."}},
+      {"detail": "taxi", "answer": "receipt category", "feedback": {"claim date": "The claim date is 18 September.", "receipt category": "Correct. This names the missing receipt type.", "amount": "The amount is €16.", "deadline": "The deadline is 4 p.m. Wednesday."}},
+      {"detail": "€16", "answer": "amount", "feedback": {"claim date": "The claim date is 18 September.", "receipt category": "The category is taxi.", "amount": "Correct. This distinguishes the taxi expense by value.", "deadline": "The deadline is 4 p.m. Wednesday."}},
+      {"detail": "4 p.m. Wednesday", "answer": "deadline", "feedback": {"claim date": "The claim date is 18 September.", "receipt category": "The category is taxi.", "amount": "The amount is €16.", "deadline": "Correct. By means no later than this time."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "A 6 October claim lists parking €12 and lunch €21. The parking receipt is attached, but the lunch receipt is missing. Finance asks for it by noon Friday.",
+    "instruction": "Write one neutral question that identifies the claim. Then write a readback with the missing category, amount, and deadline.",
+    "acceptable_responses": [
+      "Which receipt is missing from my 6 October claim? So I need to upload the €21 lunch receipt by noon Friday, right?",
+      "Which receipt do I need to upload for the 6 October claim? The €21 lunch receipt is due by noon Friday, right?"
+    ],
+    "rubric": ["I named the claim date.", "I asked which receipt was missing without assigning blame.", "I included the category and amount.", "I confirmed the deadline with by."],
+    "valid_variants": "Which receipt is missing? and Which receipt do I need to upload? are both valid, but their grammar differs because the question phrase has a different job. Can you confirm ...? is also acceptable."
+  },
+  "review_prompt": "Tomorrow, recall the four readback slots: claim date, receipt category, amount, and deadline. Make one question and one confirmation.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["office wall", "expense folder", "claim sheet", "receipt cards", "check marks", "missing gap", "speech card", "upload tray", "deadline clock", "transfer claim"],
+    "cutout_assets": ["employee", "finance colleague", "claim folder", "18 September tab", "train €42 receipt", "lunch €18 receipt", "taxi €16 receipt", "check marks", "missing label", "speech card", "upload tray", "Wednesday 4 p.m. clock", "parking €12 receipt", "lunch €21 receipt"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Folders, receipt cards, labels, people, upload tray, and clock use cream cut edges, overlap, and offset shadows.",
+    "motion_principle": "The claim folder opens; receipt cards fan out; check marks attach while the taxi gap reveals; a question card unfolds; the taxi receipt slides into an upload tray while the deadline clock rises; a new claim repeats the evidence pattern. Captions remain fixed.",
+    "accessibility": "Dark navy text on cream panels; every colour-coded date, category, amount, and deadline also has a word label and distinct shape."
+  },
+  "scenes": [
+    {"id": "open-claim", "title": "Open the claim", "caption": "The 18 September claim totals €76.", "explanation": "A layered expense folder opens and reveals the claim date and total.", "motion_cues": ["folder opens", "date tab slides", "total rises"]},
+    {"id": "read-receipts", "title": "Read the receipt list", "caption": "Train €42, lunch €18, taxi €16.", "explanation": "Three receipt cards fan out from the claim folder so their categories and amounts can be compared.", "motion_cues": ["receipts fan out", "amounts rise", "cards settle"]},
+    {"id": "find-gap", "title": "Find the missing receipt", "caption": "Train and lunch are attached. Taxi €16 is missing.", "explanation": "Check marks attach to train and lunch while the taxi card slides away to reveal a word-labelled gap.", "motion_cues": ["check marks attach", "taxi card slides", "missing label reveals"]},
+    {"id": "ask", "title": "Ask which receipt", "caption": "Which receipt is missing from my 18 September claim?", "explanation": "A layered question card unfolds between the employee and finance colleague while the claim date stays visible.", "motion_cues": ["speech card unfolds", "employee arm pivots", "colleague turns"]},
+    {"id": "upload-deadline", "title": "Confirm the deadline", "caption": "Upload the €16 taxi receipt by 4 p.m. Wednesday.", "explanation": "The taxi receipt slides into an upload tray as a labelled clock and Wednesday deadline card rise beside it.", "motion_cues": ["receipt slides", "tray opens", "clock and deadline rise"]},
+    {"id": "transfer", "title": "Your lunch-receipt question", "caption": "The €21 lunch receipt is due by noon Friday.", "explanation": "A new claim dated 6 October opens; parking is checked and the lunch receipt separates for a new question and readback.", "motion_cues": ["new folder opens", "parking check attaches", "lunch receipt separates"]}
+  ],
+  "visual": {
+    "title": "Claim, category, amount, deadline",
+    "alt_text": "A colourful layered papercut evidence path. An 18 September expense claim shows train €42 and lunch €18 attached, while taxi €16 is missing. Arrows lead to ask which receipt is missing and confirm upload by 4 p.m. Wednesday.",
+    "prose": "First identify the claim by date. Scan the receipt checklist and find the category without a check mark. Read its amount. Ask which receipt is missing, then confirm the category, amount, and deadline."
+  },
+  "sources": [
+    {"institution": "British Council LearnEnglish", "title": "Unit 6: Enquiries", "url": "https://learnenglish.britishcouncil.org/free-resources/business/english-emails/unit-6-enquiries", "accessed": "2026-09-28", "inspected": "The retrieved page explains that subject questions do not add do, while object questions use an auxiliary verb.", "limitation": "It supports the question-form contrast, not this original expense scenario."},
+    {"institution": "Cambridge Dictionary — English Grammar Today", "title": "By", "url": "https://dictionary.cambridge.org/grammar/british-grammar/by", "accessed": "2026-09-28", "inspected": "The retrieved grammar entry explains by as not later than for arrangements and deadlines.", "limitation": "It supports the deadline meaning, not any employer policy."},
+    {"institution": "Cambridge Dictionary", "title": "expenses claim", "url": "https://dictionary.cambridge.org/dictionary/english/expenses-claim", "accessed": "2026-09-28", "inspected": "The retrieved entry defines an expenses claim as business spending an employee seeks to have repaid.", "limitation": "It supports workplace vocabulary only; terminology varies."},
+    {"institution": "Cambridge Dictionary", "title": "receipt", "url": "https://dictionary.cambridge.org/dictionary/english/receipt", "accessed": "2026-09-28", "inspected": "The retrieved entry defines a receipt as paper or a message proving that money, goods, or information were received.", "limitation": "It supports one vocabulary item, not evidence or reimbursement rules."}
+  ],
+  "research_notes": {
+    "box_search": "A focused Box search for an expense-receipt deadline lesson and one broader fallback returned irrelevant technical, literary-project, and general report files. No Box file is cited or copied.",
+    "private_seed_limit": "No private source content was used in the public pack."
+  },
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Language and vocabulary claims are paraphrased with links. No protected exercise, artwork, employer branding, expense form, receipt image, music, or footage is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}

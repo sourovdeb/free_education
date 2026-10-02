@@ -1,0 +1,96 @@
+{
+  "id": "FML-0015",
+  "version": "1.0.0",
+  "title": "Not the Main Entrance - the Taxi Rank",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T21:20:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 11786,
+      "sha256": "38501b8a8e06814dccfd13bb9dae901b4c74f5eca74bcb7e8d673405b2764f63"
+    },
+    {
+      "path": "index.html",
+      "bytes": 30234,
+      "sha256": "d8bd4f7f129fe96267a87597682320b203f3ab6c22ffb4eaf67d66304b291d87"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5155,
+      "sha256": "ab89bd21f45059d59e5d5e615ef2634c3acdc423ae1bcd12f7e3a0205193ea4e"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4639,
+      "sha256": "bf306ca232600226b1e7e4fd3a8d3bb653f7c57862d19e10c02f1c3da3a9cb73"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 637,
+      "sha256": "0874019e53d0b06bac19855d02b30f19d6a35088189cd4c1601cbb81b051e0bc"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 234680,
+      "sha256": "9a8aaef995118062f42242d7573eb0cf2116c8af4b0cb92344fcaa69feecfd4c"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6368,
+      "sha256": "f109eca3e49c48070e10103985a42cc2de355a381eeb52efcc943f8e9cf42806"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2138,
+      "sha256": "9ce0085b2ba96f45d040c055c41008573215aa41d79583f5012515fb5c13c116"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 42356,
+      "sha256": "a3d589dd89f6604af07d50127e65a434be0f365a0d91f752ca225f7085974f3a"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 443,
+      "sha256": "6711af3e31ce99e398d36f67f49dc9780431c2d49ff38dbab5daa96e4e223f8e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "babfefcaf572bb6846a521cea7a2a24633d41412fb867c21183e21f9ab292df3"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1776,
+      "sha256": "20ba8172acf35dfdac05381e239b0bfa98cf664f90b654f18f50512a416f4c48"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1645,
+      "sha256": "bf48a8a5f2f289532fc75e5389bdb15d0518651f525e5dc2a39b09da7929767e"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1325,
+      "sha256": "7c42a36bfb0af0a106bc7aae9f8751396e019708b84d4e0ffb55f2b4c9e5986e"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 503,
+      "sha256": "d7b01d347e2c73d68b09d4359f8cc74c2f263e60a95eca1df62b251286b0d9f4"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 349850,
+      "sha256": "2342c66a3128e408af6873ef3437d095482c6e874ed60d62ebf15fe11e6013f4"
+    },
+    {
+      "path": "build.py",
+      "bytes": 37656,
+      "sha256": "ea15f1afd5bdc0a17f3f817aaf84ebaeef604edaccd33c743cc9263827b3b1b3"
+    }
+  ]
+}

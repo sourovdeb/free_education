@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+<title id="title">Problem to action</title>
+<desc id="desc">Three connected boxes: name the item, state the problem, ask for action.</desc>
+<style>.b{fill:#fff;stroke:#111;stroke-width:4}.t{font:700 28px Arial,sans-serif;fill:#111}.s{font:22px Arial,sans-serif;fill:#111}.a{stroke:#111;stroke-width:4;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker></defs>
+<rect class="b" x="30" y="65" width="250" height="160" rx="8"/>
+<text class="t" x="155" y="115" text-anchor="middle">1. NAME ITEM</text>
+<text class="s" x="155" y="165" text-anchor="middle">the shower</text>
+<line class="a" x1="280" y1="145" x2="350" y2="145"/>
+<rect class="b" x="355" y="65" width="250" height="160" rx="8"/>
+<text class="t" x="480" y="115" text-anchor="middle">2. STATE PROBLEM</text>
+<text class="s" x="480" y="165" text-anchor="middle">isn't working</text>
+<line class="a" x1="605" y1="145" x2="675" y2="145"/>
+<rect class="b" x="680" y="65" width="250" height="160" rx="8"/>
+<text class="t" x="805" y="115" text-anchor="middle">3. ASK ACTION</text>
+<text class="s" x="805" y="160" text-anchor="middle">Could someone</text>
+<text class="s" x="805" y="190" text-anchor="middle">take a look?</text>
+</svg>

@@ -1,0 +1,3 @@
+A four-step path from hearing a booking to confirming it: hear Thursday at 7:30, select the day and time, repeat the details, then ask right?
+
+HEAR: Thursday at 7:30 -> SELECT: day plus time -> REPEAT: 7:30 on Thursday -> CHECK: right?

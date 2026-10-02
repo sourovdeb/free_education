@@ -1,0 +1,7 @@
+# Text equivalent
+
+MATCH DESTINATION -> FIND TODAY'S EXCEPTION -> USE PLATFORM 5 -> BOARD 14:15, DEPART 14:20
+
+Alt text: Four layered paper cards lead from Saint-Pierre and today's exception to platform 5, then separate boarding at 14:15 from departure at 14:20.
+
+First, match the destination. Next, find the words ‘today only’. Use platform 5. Keep boarding at 14:15 separate from departure at 14:20.

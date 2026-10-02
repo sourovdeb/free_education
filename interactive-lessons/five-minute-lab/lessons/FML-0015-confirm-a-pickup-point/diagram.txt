@@ -1,0 +1,3 @@
+First compare the spoken message with the booking. Correct only the mistaken place. Add the landmark to identify the exact point. Then repeat the place, landmark, and time in one confirmation question.
+
+Alt text: A colourful layered papercut flow. A main-entrance route is crossed out and redirected to a taxi rank. A blue clock appears beside the rank. Three labelled cards - place, landmark, and time - stack into one confirmation question.

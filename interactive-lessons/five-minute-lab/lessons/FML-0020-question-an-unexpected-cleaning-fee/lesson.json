@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0020",
+  "version": "1.0.0",
+  "title": "Why Is There a Cleaning Fee?",
+  "slug": "question-an-unexpected-cleaning-fee",
+  "pathway": "use-english",
+  "interaction_family": "booking-terms-evidence-and-fee-resolution",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Read a short booking confirmation", "compare prices and service details"],
+  "observable_outcome": "The learner contrasts a written booking term with an added fee, asks for an explanation, and confirms the corrected total.",
+  "learning_objective": "Ask a hotel to explain an unexpected cleaning fee, compare it with the written booking terms, and confirm whether it will be removed.",
+  "scenario": {
+    "setting": "A fictional apartment-hotel reception desk at checkout.",
+    "prompt": "Your booking confirmation says: Total €210. Cleaning included. Your checkout bill says: Total €245, including a €35 cleaning fee.",
+    "puzzle": "Which words are the strongest evidence, what should you ask, and what total should you confirm if the fee is removed?",
+    "privacy_note": "The hotel, booking, bill, staff member, and customer are fictional teaching data. This activity is language practice, not legal or financial advice."
+  },
+  "model": {
+    "clarify": "My booking confirmation says cleaning is included, but this bill adds a €35 cleaning fee.",
+    "customer_reply": "Could you explain why this fee was added? Could you check the written booking terms and remove the fee if it was included?",
+    "confirm": "So the €35 fee will be removed and the corrected total will be €210, right?",
+    "neutral_variant": "The confirmation says cleaning is included. Could you check why the bill includes an extra €35 fee?"
+  },
+  "language_focus": {
+    "grammar": "In the direct question Why was this fee added?, the order is question word + auxiliary verb + subject. After Could you explain ..., the embedded question uses statement order: why this fee was added, not why was this fee added.",
+    "meaning": "Included means already part of the stated total. An added fee is a separate amount placed on the bill. Corrected total means the new total after an agreed change.",
+    "appropriateness": "Name the exact written term and amount, contrast them with but, and ask for an explanation before requesting a change. This is clear without accusing the listener.",
+    "detail_language": "Written booking terms are useful evidence in this fictional exchange. Real hotel policies, consumer rights, taxes, and mandatory charges vary by provider and location."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "Which evidence best supports your question about the fee?",
+    "options": [
+      {"text": "The confirmation says cleaning is included, but the bill adds a €35 cleaning fee.", "correct": true, "feedback": "Correct. It compares the exact written term with the exact added amount."},
+      {"text": "The hotel room was comfortable.", "correct": false, "feedback": "Comfort does not explain the fee. Use the written words cleaning included and the €35 bill line."},
+      {"text": "The bill total is €245.", "correct": false, "feedback": "The total matters, but it does not show the conflict by itself. Compare cleaning included with the €35 cleaning fee."}
+    ]
+  },
+  "request_activity": {
+    "id": "decision-2",
+    "prompt": "Which question is clear, calm, and grammatically well formed?",
+    "options": [
+      {"text": "Could you explain why this fee was added?", "correct": true, "feedback": "Correct. The embedded question uses statement order: why this fee was added."},
+      {"text": "Could you explain why was this fee added?", "correct": false, "feedback": "After Could you explain, use statement order: why this fee was added."},
+      {"text": "You added a fake fee. Remove it now.", "correct": false, "feedback": "This accuses the listener and skips the evidence. State the written term and ask for an explanation first."}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each detail to its job in the request.",
+    "slots": ["written term", "added fee", "corrected total", "requested action"],
+    "items": [
+      {"detail": "cleaning included", "answer": "written term", "feedback": {"written term": "Correct. These are the key words in the confirmation.", "added fee": "The added fee is €35.", "corrected total": "The corrected total is €210.", "requested action": "The requested action is explain and remove if included."}},
+      {"detail": "€35", "answer": "added fee", "feedback": {"written term": "The written term is cleaning included.", "added fee": "Correct. This is the separate cleaning fee on the bill.", "corrected total": "The corrected total is €210.", "requested action": "The requested action is explain and remove if included."}},
+      {"detail": "€210", "answer": "corrected total", "feedback": {"written term": "The written term is cleaning included.", "added fee": "The added fee is €35.", "corrected total": "Correct. This is €245 minus the €35 fee.", "requested action": "The requested action is explain and remove if included."}},
+      {"detail": "explain and remove if included", "answer": "requested action", "feedback": {"written term": "The written term is cleaning included.", "added fee": "The added fee is €35.", "corrected total": "The corrected total is €210.", "requested action": "Correct. This asks for a reason and a conditional resolution."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "An airport hotel confirmation says shuttle included and shows a total of €160. The checkout bill is €178 because it adds an €18 shuttle fee.",
+    "instruction": "Write one sentence that compares the written term with the bill. Ask why the fee was added, request a check, and confirm the corrected total.",
+    "acceptable_responses": [
+      "My confirmation says the shuttle is included, but this bill adds an €18 shuttle fee. Could you explain why it was added and check the booking terms? So the corrected total will be €160, right?",
+      "The booking says shuttle included. Could you check why the bill includes an extra €18 and remove it if it was included? Will the new total be €160?"
+    ],
+    "rubric": ["I quoted or paraphrased the written term.", "I named the added fee and amount.", "I asked for an explanation or check without accusing anyone.", "I confirmed the corrected total."],
+    "valid_variants": "Can you explain ...? and Could you explain ...? are both possible; could is more formal and polite. Why was the fee added? is a valid direct question. After explain, use why the fee was added."
+  },
+  "review_prompt": "Tomorrow, recall the four request slots: written term, added fee, requested action, and corrected total. Make one calm request using all four.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["hotel wall", "reception counter", "booking confirmation", "checkout bill", "included tab", "fee card", "speech card", "correction arrow", "total cards", "shuttle bus"],
+    "cutout_assets": ["hotel facade", "customer", "staff member", "booking confirmation", "bill", "cleaning included tab", "€35 fee card", "€245 total", "€210 total", "speech card", "check mark", "shuttle bus", "€18 fee card"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Documents, term tabs, fee cards, speech pieces, totals, characters, and arrows use cream cut edges, overlap, and offset shadows.",
+    "motion_principle": "The confirmation opens; the bill slides over it; the written term and fee align; a question card unfolds; the €35 card lifts away while the total pivots to €210; the shuttle transfer scene repeats the evidence pattern. Captions remain fixed.",
+    "accessibility": "Dark navy text on cream panels; every colour-coded term, fee, total, and action also has a word label and distinct shape."
+  },
+  "scenes": [
+    {"id": "booking-term", "title": "Read the confirmation", "caption": "The booking says cleaning is included in €210.", "explanation": "A layered confirmation opens and reveals the written term cleaning included beside the total.", "motion_cues": ["confirmation opens", "included tab slides", "total rises"]},
+    {"id": "added-fee", "title": "Read the bill", "caption": "The bill adds a €35 cleaning fee and totals €245.", "explanation": "A checkout bill slides in and a separate €35 fee card drops into its list.", "motion_cues": ["bill slides", "fee card drops", "total appears"]},
+    {"id": "compare", "title": "Compare the evidence", "caption": "Cleaning included — but the bill adds €35.", "explanation": "The written term and added fee move side by side while a contrast arrow connects them.", "motion_cues": ["documents align", "evidence tabs meet", "contrast arrow travels"]},
+    {"id": "ask", "title": "Ask for an explanation", "caption": "Could you explain why this fee was added?", "explanation": "A layered speech card unfolds between the customer and staff member while the evidence remains visible.", "motion_cues": ["speech card unfolds", "customer arm pivots", "staff member turns"]},
+    {"id": "confirm-total", "title": "Confirm the correction", "caption": "Remove €35: the corrected total is €210.", "explanation": "The €35 fee card lifts away and the total pivots from €245 to €210 beside a word-labelled check mark.", "motion_cues": ["fee lifts", "old total pivots", "new total rises"]},
+    {"id": "transfer", "title": "Your shuttle-fee request", "caption": "Shuttle included — but the bill adds €18.", "explanation": "A shuttle bus enters as the written term and the €18 fee card separate for a new request.", "motion_cues": ["bus enters", "confirmation opens", "fee card separates"]}
+  ],
+  "visual": {
+    "title": "Written term, fee, question, total",
+    "alt_text": "A colourful layered papercut evidence path. A booking confirmation says cleaning included and €210. A checkout bill adds a €35 cleaning fee and totals €245. Arrows lead to ask why, request a check, remove the fee if included, and confirm €210.",
+    "prose": "First find the exact written term in the confirmation. Compare it with the separate fee and amount on the bill. Ask why the fee was added and request a check. If the fee is removed, confirm the corrected total."
+  },
+  "sources": [
+    {"institution": "British Council LearnEnglish", "title": "Question forms", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/question-forms", "accessed": "2026-09-28", "inspected": "The grammar explanation describes inversion in direct questions and the position of question words.", "limitation": "It supports the direct-question pattern, not this original hotel scenario."},
+    {"institution": "British Council LearnEnglish", "title": "Reported speech: questions", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2-grammar/reported-speech-questions", "accessed": "2026-09-28", "inspected": "The page explains that indirect questions retain the question word but use statement word order.", "limitation": "It supports the embedded-question explanation, not a billing procedure."},
+    {"institution": "UK Competition and Markets Authority", "title": "Hotel booking websites: compliance principles for businesses", "url": "https://www.gov.uk/government/publications/hotel-booking-websites-compliance-principles-for-businesses", "accessed": "2026-09-28", "inspected": "The official principles discuss clear presentation of total costs and additional charges in hotel booking contexts.", "limitation": "This is UK business guidance. The lesson uses it only to support the value of written price evidence and does not teach legal rights."},
+    {"institution": "Cambridge Dictionary", "title": "fee", "url": "https://dictionary.cambridge.org/dictionary/english/fee", "accessed": "2026-09-28", "inspected": "The entry defines fee as money paid for a particular piece of work or service.", "limitation": "It supports one vocabulary item, not whether a particular fee is lawful or refundable."}
+  ],
+  "research_notes": {
+    "box_search": "A focused Box search for hotel cleaning-fee lessons returned irrelevant material, and a broader booking-price search returned no results. No Box file is cited or copied.",
+    "private_seed_limit": "No private source content was used in the public pack."
+  },
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Language and price-transparency claims are paraphrased with links. No protected exercise, artwork, hotel branding, bill, booking screen, legal text, music, or footage is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}

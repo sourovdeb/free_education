@@ -1,0 +1,18 @@
+Could You Spell the Street Name?
+
+You hear most of a delivery address.
+One street name is unclear.
+
+Ask for that detail:
+“Could you spell the street name, please?”
+
+Then read everything back:
+“So that's 14 Rue des Alizes, 97460 Saint-Paul, right?”
+
+Try it with:
+27 Avenue des Palmiers, 97420 Le Port.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0011-confirm-a-delivery-address
+
+Owner review required.

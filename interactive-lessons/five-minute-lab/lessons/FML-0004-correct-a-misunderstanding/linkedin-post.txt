@@ -1,0 +1,17 @@
+Tuesday, Not Thursday
+
+You booked Tuesday at 7:30.
+Reception repeats Thursday.
+
+Find the one mismatch.
+Repair only that detail:
+Tuesday, not Thursday.
+
+Then confirm the full booking.
+
+Source and download repository:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0004-correct-a-misunderstanding
+
+This source is not deployed.
+A2-B1 editorial estimate.
+Owner review remains required.

@@ -1,0 +1,20 @@
+Why Is There a Cleaning Fee?
+
+A clear fee question compares the written term with the bill.
+
+State the evidence:
+“My booking confirmation says cleaning is included, but this bill adds a €35 cleaning fee.”
+
+Ask for an explanation and check:
+“Could you explain why this fee was added? Could you check the written booking terms and remove the fee if it was included?”
+
+Then confirm the resolution:
+“So the €35 fee will be removed and the corrected total will be €210, right?”
+
+Try it with an airport shuttle:
+“Shuttle included,” an added €18 fee, and a corrected total of €160.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0020-question-an-unexpected-cleaning-fee
+
+Owner review required.

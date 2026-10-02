@@ -1,0 +1,25 @@
+Does This Contain Peanuts?
+
+A food preference and an allergy are not the same message.
+
+Use three steps before ordering:
+
+1. State the allergy.
+2. Ask about ingredients.
+3. Ask staff to check preparation.
+
+Model:
+“I have a peanut allergy. Does this curry contain peanuts?”
+
+If preparation remains uncertain:
+“Please check cross-contact before I order.”
+
+Try this:
+You have an egg allergy. Ask about a salad dressing.
+
+Repository source pack:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0025-does-this-contain-peanuts
+
+Not deployed. Owner review remains required.
+
+#EnglishLearning #HospitalityEnglish #FoodAllergyAwareness

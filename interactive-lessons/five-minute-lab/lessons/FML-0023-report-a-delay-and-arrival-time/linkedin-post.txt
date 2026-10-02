@@ -1,0 +1,18 @@
+I'm Running Ten Minutes Late
+
+Late arrivals need specifics.
+
+State the delay:
+"I'm running about ten minutes late."
+
+Give the arrival time:
+"I expect to arrive at 8:10."
+
+Promise another update:
+"I'll message you if that changes."
+
+Source and download files:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0023-report-a-delay-and-arrival-time
+
+This is not a live player.
+Owner review remains required.

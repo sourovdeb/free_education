@@ -1,0 +1,18 @@
+Which Room Is the Meeting In?
+
+You know the time and floor.
+The room name is unclear.
+
+Ask for the room:
+“Could you tell me which room the meeting is in, please?”
+
+Then confirm the location:
+“So that's the Orchid Room on the third floor, right?”
+
+Try it with:
+Palm Room, second floor, 14:30.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0012-which-room-is-the-meeting-in
+
+Owner review required.

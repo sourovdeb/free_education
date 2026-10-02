@@ -1,0 +1,96 @@
+{
+  "id": "FML-0017",
+  "version": "1.0.0",
+  "title": "Was It on the Bus or at the Station?",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T23:01:25Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 11661,
+      "sha256": "5afc480f7c133dfc97438ce1ab259c0abd694f9f5e87c0cc245461906a0ac020"
+    },
+    {
+      "path": "index.html",
+      "bytes": 29987,
+      "sha256": "6f84eda80409b0566b18506df0aa2c7430ad3953e81b513d74f63e6ad9baf711"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5100,
+      "sha256": "a742f02eccef65df4c8f23a554440b034c28e0362e9134167a5fd68e978660b2"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4690,
+      "sha256": "70d1c3b66b93398f8f19d40c168eca2d586f5e3a115f84f0330022b9b8101f14"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 783,
+      "sha256": "a0ce35e50a16c0b31e83b3f0af81d12e8249ae383c9df47f1d7823137202e795"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 217175,
+      "sha256": "22f5a520ddd5004dfeafd697479317904e75219a4beeb09b2943830651559b6a"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6238,
+      "sha256": "5c9ff85f478ba9cb92bb066c0b6ae69a232ef44495487ab17f686755e23cf84b"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2154,
+      "sha256": "ba26e78ccaec644f5799e9349f45fc5d0ccae9eb4511c0844722d47cb69ae8de"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 40870,
+      "sha256": "3454d54bb567951cf710799ee2995416d3e7fcdfb683afc9dfbfd6ffc2e772f6"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 536,
+      "sha256": "11f2dbff5c21db1c85f11662490355ced9c5908c8fa6b1ccdf62421adca50c8f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "4124d8d760af012049901716d6d38142af6ffaaac81bbf1f9605107e10441c90"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1958,
+      "sha256": "cbde5089d87ea40c43ebaa07aa33f3b748c16d695d7ee9450601e9f21d88dc68"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1606,
+      "sha256": "0fc1773dd8443f795403a51870a931e26d1ade3c3f63b27ec178b91c8fd8272c"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1234,
+      "sha256": "5d01c1b6c375af98b0e707d390601ac56266cc0eb89bc05143b2ed6e26a91651"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 499,
+      "sha256": "4a5ded7dbe9496b0e0944dc389f1687ee19345beab97c2cf7a0143d86309ce39"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 333808,
+      "sha256": "1ed71013ac6cb7c7bdcd8df532f39cc61857056f3164f770b9f9d3ba70622fd1"
+    },
+    {
+      "path": "build.py",
+      "bytes": 39870,
+      "sha256": "761a5f81a3db202740c75a709f5beefd450a80c9839b454c8a207717acf139d9"
+    }
+  ]
+}
