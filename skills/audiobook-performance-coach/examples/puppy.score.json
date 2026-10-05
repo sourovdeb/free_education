@@ -1,0 +1,783 @@
+{
+  "format_version": 1,
+  "skill_version": "1.2.0",
+  "title": "The Puppy at the Door",
+  "source_sha256": "c49046406586e279af885ad200dedd00dd3cd71900331d81689158a0c121ff15",
+  "mode": "STORYTELLING",
+  "accent_keys": {
+    "UK-P": "Provisional non-rhotic teaching key; see SKILL.md."
+  },
+  "speakers": {
+    "NARRATOR": {
+      "accent_key": "UK-P",
+      "delivery": [
+        "conversation pace",
+        "thought-led phrasing"
+      ]
+    },
+    "MINA": {
+      "accent_key": "UK-P",
+      "delivery": [
+        "address the puppy",
+        "contain fear until recognition"
+      ]
+    }
+  },
+  "settings_lines": [
+    "Fiction retained from version 1.1.0.",
+    "Policy: annotated. Route: SCENE.",
+    "Mode: STORYTELLING; effects optional.",
+    "Accent: UK-P for both voices.",
+    "Mina: MEE-nuh; author-declared pronunciation.",
+    "Guides and timings remain provisional.",
+    "Bold marks phrase prominence. Capitals mark lexical stress.",
+    "Maps describe choices, not recordings."
+  ],
+  "segments": [
+    {
+      "id": "P01-S01",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 0,
+      "end": 31,
+      "reading": "Rain tapped against the window.",
+      "pronunciation": "rayn tapt uh-GENST dhuh WIN-doh.",
+      "word_guides": [
+        [
+          "Rain",
+          "rayn"
+        ],
+        [
+          "tapped",
+          "tapt"
+        ],
+        [
+          "against",
+          "uh-GENST"
+        ],
+        [
+          "the",
+          "dhuh"
+        ],
+        [
+          "window.",
+          "WIN-doh."
+        ]
+      ],
+      "focus": [
+        4
+      ],
+      "reading_cues": {
+        "before": [
+          "FX01"
+        ],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [
+          "FX01"
+        ],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S02",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 32,
+      "end": 67,
+      "reading": "Mina held the little blanket close.",
+      "pronunciation": "MEE-nuh held dhuh LI-tuhl BLANG-kit klohs.",
+      "word_guides": [
+        [
+          "Mina",
+          "MEE-nuh"
+        ],
+        [
+          "held",
+          "held"
+        ],
+        [
+          "the",
+          "dhuh"
+        ],
+        [
+          "little",
+          "LI-tuhl"
+        ],
+        [
+          "blanket",
+          "BLANG-kit"
+        ],
+        [
+          "close.",
+          "klohs."
+        ]
+      ],
+      "focus": [
+        5
+      ],
+      "reading_cues": {
+        "before": [],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S03",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 68,
+      "end": 100,
+      "reading": "Something scratched at the door.",
+      "pronunciation": "SUM-thing skracht uht dhuh daw.",
+      "word_guides": [
+        [
+          "Something",
+          "SUM-thing"
+        ],
+        [
+          "scratched",
+          "skracht"
+        ],
+        [
+          "at",
+          "uht"
+        ],
+        [
+          "the",
+          "dhuh"
+        ],
+        [
+          "door.",
+          "daw."
+        ]
+      ],
+      "focus": [
+        4
+      ],
+      "reading_cues": {
+        "before": [
+          "V01"
+        ],
+        "after": [
+          "FX02"
+        ]
+      },
+      "pronunciation_cues": {
+        "before": [
+          "V01"
+        ],
+        "after": [
+          "FX02"
+        ]
+      }
+    },
+    {
+      "id": "P01-S04a",
+      "speaker": "MINA",
+      "accent_key": "UK-P",
+      "start": 101,
+      "end": 119,
+      "reading": "“Please be there,”",
+      "pronunciation": "“pleez bee dhair,”",
+      "word_guides": [
+        [
+          "“Please",
+          "“pleez"
+        ],
+        [
+          "be",
+          "bee"
+        ],
+        [
+          "there,”",
+          "dhair,”"
+        ]
+      ],
+      "focus": [
+        2
+      ],
+      "reading_cues": {
+        "before": [
+          "V02"
+        ],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [
+          "V02"
+        ],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S04b",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 120,
+      "end": 134,
+      "reading": "she whispered.",
+      "pronunciation": "shee WIS-puhd.",
+      "word_guides": [
+        [
+          "she",
+          "shee"
+        ],
+        [
+          "whispered.",
+          "WIS-puhd."
+        ]
+      ],
+      "focus": [],
+      "reading_cues": {
+        "before": [
+          "V03"
+        ],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [
+          "V03"
+        ],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S05",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 135,
+      "end": 155,
+      "reading": "She opened the door.",
+      "pronunciation": "shee OH-puhnd dhuh daw.",
+      "word_guides": [
+        [
+          "She",
+          "shee"
+        ],
+        [
+          "opened",
+          "OH-puhnd"
+        ],
+        [
+          "the",
+          "dhuh"
+        ],
+        [
+          "door.",
+          "daw."
+        ]
+      ],
+      "focus": [
+        1
+      ],
+      "reading_cues": {
+        "before": [],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S06",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 156,
+      "end": 186,
+      "reading": "A wet puppy stood on the step.",
+      "pronunciation": "uh wet PU-pee stuud on dhuh step.",
+      "word_guides": [
+        [
+          "A",
+          "uh"
+        ],
+        [
+          "wet",
+          "wet"
+        ],
+        [
+          "puppy",
+          "PU-pee"
+        ],
+        [
+          "stood",
+          "stuud"
+        ],
+        [
+          "on",
+          "on"
+        ],
+        [
+          "the",
+          "dhuh"
+        ],
+        [
+          "step.",
+          "step."
+        ]
+      ],
+      "focus": [
+        2
+      ],
+      "reading_cues": {
+        "before": [
+          "V04"
+        ],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [
+          "V04"
+        ],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S07a",
+      "speaker": "MINA",
+      "accent_key": "UK-P",
+      "start": 187,
+      "end": 212,
+      "reading": "“I thought I’d lost you,”",
+      "pronunciation": "“eye thawt eyed lost yoo,”",
+      "word_guides": [
+        [
+          "“I",
+          "“eye"
+        ],
+        [
+          "thought",
+          "thawt"
+        ],
+        [
+          "I’d",
+          "eyed"
+        ],
+        [
+          "lost",
+          "lost"
+        ],
+        [
+          "you,”",
+          "yoo,”"
+        ]
+      ],
+      "focus": [
+        3
+      ],
+      "reading_cues": {
+        "before": [
+          "V05"
+        ],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [
+          "V05"
+        ],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S07b",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 213,
+      "end": 223,
+      "reading": "Mina said.",
+      "pronunciation": "MEE-nuh sed.",
+      "word_guides": [
+        [
+          "Mina",
+          "MEE-nuh"
+        ],
+        [
+          "said.",
+          "sed."
+        ]
+      ],
+      "focus": [],
+      "reading_cues": {
+        "before": [
+          "V06"
+        ],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [
+          "V06"
+        ],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S08",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 224,
+      "end": 250,
+      "reading": "The puppy wagged his tail.",
+      "pronunciation": "dhuh PU-pee wagd hiz tayl.",
+      "word_guides": [
+        [
+          "The",
+          "dhuh"
+        ],
+        [
+          "puppy",
+          "PU-pee"
+        ],
+        [
+          "wagged",
+          "wagd"
+        ],
+        [
+          "his",
+          "hiz"
+        ],
+        [
+          "tail.",
+          "tayl."
+        ]
+      ],
+      "focus": [
+        4
+      ],
+      "reading_cues": {
+        "before": [],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S09",
+      "speaker": "MINA",
+      "accent_key": "UK-P",
+      "start": 251,
+      "end": 267,
+      "reading": "“You came back!”",
+      "pronunciation": "“yoo kaym bak!”",
+      "word_guides": [
+        [
+          "“You",
+          "“yoo"
+        ],
+        [
+          "came",
+          "kaym"
+        ],
+        [
+          "back!”",
+          "bak!”"
+        ]
+      ],
+      "focus": [
+        2
+      ],
+      "reading_cues": {
+        "before": [
+          "V07"
+        ],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [
+          "V07"
+        ],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S10",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 268,
+      "end": 312,
+      "reading": "Mina laughed and wrapped him in the blanket.",
+      "pronunciation": "MEE-nuh lahft uhnd rapt him in dhuh BLANG-kit.",
+      "word_guides": [
+        [
+          "Mina",
+          "MEE-nuh"
+        ],
+        [
+          "laughed",
+          "lahft"
+        ],
+        [
+          "and",
+          "uhnd"
+        ],
+        [
+          "wrapped",
+          "rapt"
+        ],
+        [
+          "him",
+          "him"
+        ],
+        [
+          "in",
+          "in"
+        ],
+        [
+          "the",
+          "dhuh"
+        ],
+        [
+          "blanket.",
+          "BLANG-kit."
+        ]
+      ],
+      "focus": [
+        7
+      ],
+      "reading_cues": {
+        "before": [
+          "V08"
+        ],
+        "after": []
+      },
+      "pronunciation_cues": {
+        "before": [
+          "V08"
+        ],
+        "after": []
+      }
+    },
+    {
+      "id": "P01-S11",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 313,
+      "end": 344,
+      "reading": "Outside, the rain kept tapping.",
+      "pronunciation": "owt-SEYED, dhuh rayn kept TAP-ing.",
+      "word_guides": [
+        [
+          "Outside,",
+          "owt-SEYED,"
+        ],
+        [
+          "the",
+          "dhuh"
+        ],
+        [
+          "rain",
+          "rayn"
+        ],
+        [
+          "kept",
+          "kept"
+        ],
+        [
+          "tapping.",
+          "TAP-ing."
+        ]
+      ],
+      "focus": [
+        4
+      ],
+      "reading_cues": {
+        "before": [],
+        "after": [
+          "FX03"
+        ]
+      },
+      "pronunciation_cues": {
+        "before": [],
+        "after": [
+          "FX03"
+        ]
+      }
+    },
+    {
+      "id": "P01-S12",
+      "speaker": "NARRATOR",
+      "accent_key": "UK-P",
+      "start": 345,
+      "end": 373,
+      "reading": "Inside, everything was warm.",
+      "pronunciation": "in-SEYED, EV-ree-thing wuhz wawm.",
+      "word_guides": [
+        [
+          "Inside,",
+          "in-SEYED,"
+        ],
+        [
+          "everything",
+          "EV-ree-thing"
+        ],
+        [
+          "was",
+          "wuhz"
+        ],
+        [
+          "warm.",
+          "wawm."
+        ]
+      ],
+      "focus": [
+        3
+      ],
+      "reading_cues": {
+        "before": [],
+        "after": [
+          "P01"
+        ]
+      },
+      "pronunciation_cues": {
+        "before": [],
+        "after": [
+          "P01"
+        ]
+      }
+    }
+  ],
+  "cues": {
+    "FX01": {
+      "kind": "MOUTH",
+      "segment_id": "P01-S01",
+      "position": "before",
+      "text": "say \"tik...tik-tik\"; 1.2s proposal; below speech level; stop before S01",
+      "purpose": "orientation",
+      "basis": "TEXT",
+      "method": "speak the sound syllables",
+      "duration_seconds": 1.2,
+      "level": "below speech",
+      "exit": "before P01-S01 speech",
+      "fallback": "omit",
+      "overlap_speech": false
+    },
+    "V01": {
+      "kind": "VOICE",
+      "segment_id": "P01-S03",
+      "position": "before",
+      "text": "approach \"door\"; leave the cause unknown",
+      "word_anchor": "door"
+    },
+    "FX02": {
+      "kind": "MOUTH",
+      "segment_id": "P01-S03",
+      "position": "after",
+      "text": "say \"skr...skr\"; 0.6s proposal; no throat scrape; stop before S04a",
+      "purpose": "evidence",
+      "basis": "TEXT",
+      "method": "speak two clusters; use scratch...scratch if easier",
+      "duration_seconds": 0.6,
+      "level": "below speech",
+      "exit": "before P01-S04a speech",
+      "fallback": "omit",
+      "overlap_speech": false
+    },
+    "V02": {
+      "kind": "VOICE",
+      "segment_id": "P01-S04a",
+      "position": "before",
+      "text": "invite a response; fear[##.] -> hope[#..] at \"there\"",
+      "word_anchor": "there"
+    },
+    "V03": {
+      "kind": "VOICE",
+      "segment_id": "P01-S04b",
+      "position": "before",
+      "text": "return to narrator; keep speech voiced"
+    },
+    "V04": {
+      "kind": "VOICE",
+      "segment_id": "P01-S06",
+      "position": "before",
+      "text": "allow recognition on \"puppy\"",
+      "word_anchor": "puppy"
+    },
+    "V05": {
+      "kind": "VOICE",
+      "segment_id": "P01-S07a",
+      "position": "before",
+      "text": "hesitate before \"lost\"; reconnect on \"you\"",
+      "word_anchor": "lost"
+    },
+    "V06": {
+      "kind": "VOICE",
+      "segment_id": "P01-S07b",
+      "position": "before",
+      "text": "return to narrator"
+    },
+    "V07": {
+      "kind": "VOICE",
+      "segment_id": "P01-S09",
+      "position": "before",
+      "text": "acknowledge return; relief[#..] -> joy[##.] on \"back\"",
+      "word_anchor": "back"
+    },
+    "V08": {
+      "kind": "VOICE",
+      "segment_id": "P01-S10",
+      "position": "before",
+      "text": "return to narrator; settle the thought"
+    },
+    "FX03": {
+      "kind": "MOUTH",
+      "segment_id": "P01-S11",
+      "position": "after",
+      "text": "say \"tik...tik-tik\"; 0.8s proposal; below speech level; stop before S12",
+      "purpose": "motif",
+      "basis": "TEXT",
+      "method": "repeat the opening sound syllables",
+      "duration_seconds": 0.8,
+      "level": "below speech",
+      "exit": "before P01-S12 speech",
+      "fallback": "omit",
+      "overlap_speech": false
+    },
+    "P01": {
+      "kind": "PAUSE",
+      "segment_id": "P01-S12",
+      "position": "after",
+      "text": "1.0s proposal; let the scene close",
+      "duration_seconds": 1.0
+    }
+  },
+  "coaching_notes": [
+    "TEXT: rain, scratching, puppy, blanket.",
+    "CHOICE: fear, restraint, relief, effect-textures.",
+    "The source never states crying. Do not require a sob.",
+    "Mina wants the companion back. The obstacle is uncertainty.",
+    "At S04a, invite a response. At S07a, admit the fear.",
+    "At S09, acknowledge the return.",
+    "Keep the accent through those changes. Restore narrator delivery after quotations.",
+    "The puppy appears at S06. Never bark before that revelation.",
+    "No bark is needed afterward. The spoken reunion carries the turn.",
+    "FX01 establishes the stated rain. FX02 makes the scrape perceptible.",
+    "FX03 recalls rain after safety. Each stops before narration.",
+    "For NARRATION, omit FX01–FX03. Keep every source word intact.",
+    "| Anchor | Fear | Relief | Action |",
+    "|---|---|---|---|",
+    "| \"thought\" | presence | trace | approach the admission |",
+    "| \"lost\" | presence | trace | let the word arrive |",
+    "| \"you\" | trace | presence | reconnect |",
+    "Intensity does not specify volume. Mixed feelings can remain present.",
+    "Close means near: klohs. The verb close uses klohz.",
+    "I’d here means I had. Preserve the contraction and attribution.",
+    "Keep endings in tapt, wagd, rapt. Do not add another vowel.",
+    "Backchain: you; lost you; I’d lost you. Then restore the complete sentence.",
+    "Rehearse once without the effects. Add one only if useful.",
+    "No dictionary audio was checked. No narrator recording was assessed."
+  ],
+  "coverage_notes": [
+    "P01-S01 through P01-S12 are covered.",
+    "14 speaking segments retain 64 words.",
+    "Both scripts represent the same take.",
+    "Source fidelity has machine checks. Pronunciation still requires listening review.",
+    "No recording was generated. Small-model compatibility remains unverified."
+  ]
+}
