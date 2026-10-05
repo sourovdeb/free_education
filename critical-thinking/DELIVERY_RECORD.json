@@ -1,0 +1,85 @@
+{
+  "edition": "critical-thinking-education-1.0",
+  "date": "2026-10-05",
+  "repository": "sourovdeb/free_education",
+  "content_commit": "4c7eb49e50b8e1a05db4f8d69d89d08aca438b64",
+  "branch": "education/critical-thinking-10-days-v1-2026-10-05",
+  "draft_pull_request": "https://github.com/sourovdeb/free_education/pull/62",
+  "merged_by_this_run": false,
+  "initial_content_files": 18,
+  "wordpress": {
+    "site": "https://sourovdeb.com",
+    "existing_parent_page": 1077,
+    "existing_parent_title": "Resources",
+    "live_parent_content_changed": false,
+    "hub": {"id": 3682, "status": "draft", "parent": 1077},
+    "lessons": [
+      {"id": 3686, "key": "CT01", "status": "draft", "order": 1},
+      {"id": 3690, "key": "CT02", "status": "draft", "order": 2},
+      {"id": 3694, "key": "CT03", "status": "draft", "order": 3},
+      {"id": 3698, "key": "CT04", "status": "draft", "order": 4},
+      {"id": 3702, "key": "CT05", "status": "draft", "order": 5},
+      {"id": 3706, "key": "CT06", "status": "draft", "order": 6},
+      {"id": 3710, "key": "CT07", "status": "draft", "order": 7},
+      {"id": 3714, "key": "CT08", "status": "draft", "order": 8},
+      {"id": 3717, "key": "CT09", "status": "draft", "order": 9},
+      {"id": 3721, "key": "CT10", "status": "draft", "order": 10}
+    ],
+    "resources": [
+      {"id": 3723, "key": "skill-and-worksheet", "status": "draft"},
+      {"id": 3725, "key": "mistral-guide-companion", "status": "draft"},
+      {"id": 3736, "key": "skill-library-upgrade", "status": "draft"}
+    ],
+    "total_new_draft_pages": 14,
+    "all_children_parent": 3682,
+    "child_statuses_read_back": true,
+    "hub_content_and_status_read_back": true,
+    "front_end_visual_test": "not_run",
+    "published_by_this_run": 0,
+    "videos_added": 0
+  },
+  "email": {
+    "status": "sent",
+    "recipient": "authenticated_account_owner",
+    "sent_label_returned": true,
+    "attachments_requested": [
+      "Critical_Thinking_10_Daily_Practices.pdf",
+      "Mistral_Critical_Thinking_Build_Guide.pdf",
+      "SKILL.md",
+      "skill_library_upgrade_master_prompt.md",
+      "chatgpt_mini_honesty_quality_skill_questions.md"
+    ],
+    "private_source_attachments_published_to_repository": false
+  },
+  "practice_pdf": {
+    "name": "Critical_Thinking_10_Daily_Practices.pdf",
+    "pages": 3,
+    "sha256": "6cc75c9a3f694f8e7d57ed345647dd7781f7a52ad000a95402443c5812c20ee1",
+    "delivery": "conversation_download_and_email_attachment",
+    "binary_uploaded_to_repository": false,
+    "all_pages_rendered_and_visually_inspected": true,
+    "six_required_headings_checked": true
+  },
+  "verification": {
+    "github_compare": "18 added content files and zero deletions at content_commit",
+    "github_readme_read_back": true,
+    "full_repository_byte_download": "not_performed_successfully; container network DNS failed",
+    "arithmetic": "recalculated: 5.60 / 1.5 rounds to 3.73; 5.60 / 2 = 2.80; 8 * 12 = 96; 6 * 8 * 12 = 576",
+    "target_model_behavioral_cases": "12 proposed cases, all not_run",
+    "independent_evaluation": "not_run",
+    "learning_gain_evaluation": "not_run"
+  },
+  "recovery_notes": {
+    "wordpress_rate_limit": "one creation refused; destination read before successful retry; no duplicate resource page created",
+    "github_ref_update": "connector rejected argument binding; final populated branch created directly at content commit",
+    "unused_setup_branch": "education/critical-thinking-10-days-2026-10-05",
+    "unused_setup_branch_content": "unchanged starting commit; no lesson files committed there"
+  },
+  "limitations": [
+    "The prior Skill_Library_Session_Upgrade_v2_0.zip could not be retrieved; its reported 75 files were not migrated.",
+    "The Mistral website resource is a text companion, not the original illustrated PDF or a newly verified model recommendation.",
+    "Public branches and draft PRs are publicly readable. Personal transcripts, screenshots and signed URLs are excluded.",
+    "Saved distribution rules are not automatic monitoring of future chats or scheduled daily messages."
+  ],
+  "next_action": "Owner reviews course hub and records the selected lesson video. Re-supply the previous archive to complete a privacy-reviewed migration. Keep website drafts and PR unmerged until explicit approval."
+}
