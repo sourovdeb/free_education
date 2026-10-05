@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Step Quest: an optional sequencing game. No timer, accounts, or tracking.">
+<title>Step Quest — sequence practice</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#171717;background:#f4f4f0;font-size:18px;line-height:1.55;color-scheme:light}
+*{box-sizing:border-box}body{margin:0}button,select,input{font:inherit}button,select{min-height:48px}button,select,summary{touch-action:manipulation}button{cursor:pointer;border:2px solid #222;background:#fff;color:#171717;padding:.65rem 1rem;border-radius:3px;font-weight:650;text-align:left;overflow-wrap:anywhere}button:hover:not(:disabled):not([aria-disabled="true"]){background:#e9e9e3}button:disabled{cursor:default;color:#606060;border-color:#999;background:#e8e8e3}button[aria-disabled="true"]{cursor:default;background:#deded6;color:#343434;border-style:dashed}select{width:100%;padding:.55rem .7rem;border:2px solid #333;background:#fff;color:inherit;border-radius:3px}a{color:inherit;text-underline-offset:3px}a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible,[tabindex="-1"]:focus{outline:3px solid #171717;outline-offset:5px}p{margin:.5rem 0 1rem}h1,h2,h3{line-height:1.12;margin:0 0 .9rem}h1{font-size:clamp(2.6rem,9vw,4.5rem);letter-spacing:-.055em}h2{font-size:1.5rem}h3{font-size:1.1rem}main{max-width:1120px;margin:auto;padding:1.5rem 1.2rem 3rem}.skip{position:absolute;left:1rem;top:-6rem;background:#fff;padding:1rem;z-index:5}.skip:focus{top:1rem}.masthead{border-top:3px solid #171717;border-bottom:1px solid #171717;padding:1rem 0;margin-bottom:1.5rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}.brand{font-weight:750}.serial{font-family:monospace}.intro{margin:2rem 0}.intro p{max-width:60ch}.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:1rem}.panel{border:1px solid #555;padding:1.2rem;background:#fff;min-width:0}.panel h2{margin-top:.15rem}.field{margin:0 0 1rem}label{display:block;font-weight:650;margin-bottom:.35rem}.actions{display:flex;gap:.65rem;flex-wrap:wrap;margin-top:1rem}.primary{background:#171717;color:#fff}.primary:hover:not(:disabled){background:#343434!important}.eyebrow{font-family:monospace;margin-bottom:.75rem}.plan{padding-left:1.8rem;margin:1rem 0}.plan li{padding:.4rem 0 .4rem .3rem;border-bottom:1px solid #ddd}.plan li::marker{font-weight:700}.status{min-height:3.2rem;padding:.7rem .8rem;border-left:4px solid #171717;background:#f1f1eb;margin:1rem 0}.choices{display:grid;grid-template-columns:1fr;gap:.65rem}.choices button{width:100%;display:flex;justify-content:space-between;gap:.75rem;align-items:center}.tag{font-family:monospace;font-size:.85rem;white-space:nowrap}.steps{padding-left:1.8rem}.steps li{padding:.35rem 0;min-height:2rem}.meta{border-top:1px solid #777;margin-top:1.5rem;padding-top:1rem;font-size:.94rem}.note{max-width:66ch}summary{cursor:pointer;padding:.6rem 0;min-height:48px;font-weight:700}.footer{margin-top:1.5rem;border-top:1px solid #171717;padding-top:1rem;font-size:.94rem}.muted{color:#494949}.focus-layout .intro,.focus-layout .masthead,.focus-layout #notes{display:none}.focus-layout main{max-width:850px}.focus-layout .layout{grid-template-columns:1fr}.focus-layout .panel{padding:1rem}[hidden]{display:none!important}
+@media(max-width:720px){:root{font-size:17px}main{padding:1rem .85rem 2rem}.layout{grid-template-columns:1fr}.intro{margin:1.3rem 0}.panel{padding:1rem}.actions button{flex:1 1 145px}.masthead{margin-bottom:1rem}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+@media(forced-colors:active){button[aria-disabled="true"]{border:2px dashed GrayText}.status{border:2px solid CanvasText}}
+@media print{#setup,#game,#pause-panel,.actions,.footer,.skip,#notes,.masthead,.intro{display:none!important}.layout{display:block}.panel{border:0}#plan-box,#plan-wrap{display:block!important}body{background:#fff}.plan li{border-bottom:1px solid #888}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main-content">Skip to content</a>
+<main id="main-content" tabindex="-1">
+<header class="masthead"><span class="brand">Play / Learn / Choose</span><span class="serial">Edition 001 · v1.0.0</span></header>
+<div class="intro"><h1>Step Quest</h1><p>Put a plan in order. Choose your pace. Stop whenever you choose.</p><p class="muted">No timer. No scores. No accounts.</p></div>
+<div class="layout">
+<section class="panel" id="setup" aria-labelledby="setup-title">
+<p class="eyebrow">01 / Choose</p><h2 id="setup-title" tabindex="-1">Set up your game</h2>
+<div class="field"><label for="topic">Choose a plan</label><select id="topic"><option value="write">Write a note</option><option value="word">Learn a word</option><option value="read">Read a passage</option></select></div>
+<div class="field"><label for="length">How many steps?</label><select id="length"><option value="3">3 steps</option><option value="5">5 steps</option></select></div>
+<div class="field"><label for="mode">Choose your support</label><select id="mode" aria-describedby="mode-help"><option value="guide">Keep the plan visible</option><option value="recall">Hide it during play</option></select><p id="mode-help" class="muted">You can reveal it anytime.</p></div>
+<button class="primary" id="start" type="button">Begin</button>
+<p class="meta">This is an example plan. Other orders can work.</p>
+</section>
+<section class="panel" id="plan-box" aria-labelledby="plan-title">
+<p class="eyebrow">02 / Preview</p><h2 id="plan-title">Your plan</h2>
+<div id="plan-wrap"><ol class="plan" id="plan"></ol></div>
+<p id="hidden-note" hidden>The plan is hidden.</p>
+<div class="actions"><button id="reveal" type="button" aria-controls="plan-wrap" aria-expanded="true" hidden>Show the plan</button><button id="layout-toggle" type="button" aria-pressed="false">Hide page extras</button></div>
+</section>
+<section class="panel" id="game" aria-labelledby="game-title" hidden>
+<p class="eyebrow">03 / Play</p><h2 id="game-title" tabindex="-1">Choose step 1</h2>
+<p>Follow the previewed order. Click or tap a choice. Keyboard: Tab, then Enter.</p>
+<div class="choices" id="choices"></div>
+<p class="status" id="feedback" role="status" aria-live="polite" aria-atomic="true">Choose the starting step.</p>
+<h3 id="progress-title">Your sequence</h3><ol class="steps" id="sequence" aria-labelledby="progress-title"></ol>
+<div class="actions"><button id="undo" type="button" disabled>Undo one step</button><button id="pause" type="button">Pause</button><button id="finish" type="button" hidden>Choose a plan</button></div>
+</section>
+<section class="panel" id="pause-panel" aria-labelledby="pause-title" hidden><h2 id="pause-title" tabindex="-1">Take a pause</h2><p>Your place remains here. Closing this page clears progress.</p><div class="actions"><button id="resume" class="primary" type="button">Resume</button><button id="leave" type="button">Return to setup</button></div></section>
+</div>
+<details class="meta" id="notes"><summary>Purpose, access, and privacy</summary>
+<h3>Purpose</h3><p class="note">This game practises ordering steps. Showing the plan removes memorisation. Recall mode adds that demand. Neither mode measures your ability.</p><p class="note">This prototype has no trials. Benefits beyond play remain untested. It does not provide treatment. It does not replace care.</p>
+<h3>Access</h3><p class="note">Buttons work without dragging. No sound or animation plays. Controls support touch and keyboards. Labels do not depend on colour.</p><p class="note">The game currently requires reading. Audio instructions are not included. Screen-reader testing remains outstanding. Feedback from players remains outstanding.</p>
+<h3>Privacy</h3><p class="note">The game stores no data. It makes no network requests. Hosting services may keep logs. Reloading clears your progress.</p>
+<h3>After playing</h3><p class="note">You may try one step. You may choose another activity. You may stop.</p>
+<h3>Reuse</h3><p class="note">Code uses the MIT license. Research and testing notes accompany it. This is not a diagnosis.</p>
+</details>
+<footer class="footer">Sequence practice · No streaks · No penalties</footer>
+<noscript><p>This game needs JavaScript. No data leaves this game.</p></noscript>
+</main>
+<script>
+'use strict';
+(() => {
+  // Replace these arrays to author another plan. Each order is an example.
+  const plans = Object.freeze({
+    write: Object.freeze(['Choose a topic', 'Open a page', 'Write one sentence', 'Read your sentence', 'Save your note']),
+    word: Object.freeze(['Choose one word', 'Check its meaning', 'Read an example', 'Write an example', 'Review your example']),
+    read: Object.freeze(['Choose a passage', 'Read one paragraph', 'Pick one idea', 'Write one question', 'Choose whether to continue'])
+  });
+  const $ = id => document.getElementById(id);
+  const state = {plan: [], order: [], progress: 0, active: false, paused: false, recall: false};
+  function shuffle(items) {
+    const result = items.slice();
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    // A puzzle should not start in its answer order.
+    if (result.length > 1 && result.every((value, i) => value === items[i])) result.push(result.shift());
+    return result;
+  }
+  function planVisibility(visible) {
+    $('plan-wrap').hidden = !visible;
+    $('hidden-note').hidden = visible;
+    $('reveal').textContent = visible ? 'Hide the plan' : 'Show the plan';
+    $('reveal').setAttribute('aria-expanded', String(visible));
+  }
+  function preview() {
+    if (state.active) return;
+    const count = Number($('length').value);
+    const source = plans[$('topic').value] || plans.write;
+    state.plan = source.slice(0, [3, 5].includes(count) ? count : 3);
+    $('plan').replaceChildren(...state.plan.map(text => {
+      const li = document.createElement('li'); li.textContent = text; return li;
+    }));
+    planVisibility(true);
+  }
+  function updateProgress() {
+    $('sequence').replaceChildren(...state.plan.slice(0, state.progress).map(text => {
+      const li = document.createElement('li'); li.textContent = text; return li;
+    }));
+    const complete = state.progress === state.plan.length;
+    $('game-title').textContent = complete ? 'Your sequence is complete' : `Choose step ${state.progress + 1}`;
+    $('undo').disabled = state.progress === 0;
+    $('finish').hidden = !complete;
+    for (const button of $('choices').querySelectorAll('button')) {
+      const chosen = Number(button.dataset.index) < state.progress;
+      button.setAttribute('aria-disabled', String(chosen));
+      button.querySelector('.tag').textContent = chosen ? 'Chosen' : 'Choose';
+    }
+  }
+  function choose(index) {
+    if (!state.active || state.paused || index < state.progress || state.progress >= state.plan.length) return;
+    if (index !== state.progress) {
+      $('feedback').textContent = 'That step comes later. You can check the plan.';
+      return;
+    }
+    state.progress++;
+    updateProgress();
+    if (state.progress === state.plan.length) {
+      $('feedback').textContent = 'Sequence complete. You may stop here.';
+      planVisibility(true);
+      $('finish').focus();
+    } else {
+      $('feedback').textContent = `Step ${state.progress} placed. Choose step ${state.progress + 1}.`;
+      const next = $('choices').querySelector('button[aria-disabled="false"]');
+      if (next) next.focus();
+    }
+  }
+  function begin() {
+    preview();
+    state.progress = 0; state.active = true; state.paused = false;
+    state.recall = $('mode').value === 'recall';
+    state.order = shuffle(state.plan.map((_, i) => i));
+    $('choices').replaceChildren(...state.order.map(index => {
+      const button = document.createElement('button'); button.type = 'button';
+      button.dataset.index = String(index);
+      const label = document.createElement('span'); label.textContent = state.plan[index];
+      const tag = document.createElement('span'); tag.className = 'tag'; tag.setAttribute('aria-hidden', 'true');
+      button.append(label, tag); button.addEventListener('click', () => choose(index));
+      return button;
+    }));
+    $('setup').hidden = true; $('game').hidden = false; $('pause-panel').hidden = true;
+    $('reveal').hidden = !state.recall;
+    planVisibility(!state.recall);
+    $('feedback').textContent = 'Choose the starting step.';
+    updateProgress(); $('game-title').focus();
+  }
+  function setup() {
+    state.active = false; state.paused = false; state.progress = 0;
+    $('setup').hidden = false; $('game').hidden = true; $('pause-panel').hidden = true;
+    $('plan-box').hidden = false; $('reveal').hidden = true;
+    $('choices').replaceChildren(); $('sequence').replaceChildren();
+    preview(); $('setup-title').focus();
+  }
+  $('start').addEventListener('click', begin);
+  $('topic').addEventListener('change', preview);
+  $('length').addEventListener('change', preview);
+  $('reveal').addEventListener('click', () => planVisibility($('plan-wrap').hidden));
+  $('layout-toggle').addEventListener('click', () => {
+    const compact = document.body.classList.toggle('focus-layout');
+    $('layout-toggle').setAttribute('aria-pressed', String(compact));
+    $('layout-toggle').textContent = compact ? 'Show page extras' : 'Hide page extras';
+  });
+  $('undo').addEventListener('click', () => {
+    if (!state.active || state.paused || state.progress === 0) return;
+    state.progress--; updateProgress();
+    $('feedback').textContent = `Step removed. Choose step ${state.progress + 1}.`;
+    const available = $('choices').querySelector('button[aria-disabled="false"]');
+    if (available) available.focus();
+  });
+  $('pause').addEventListener('click', () => {
+    state.paused = true; $('game').hidden = true; $('plan-box').hidden = true;
+    $('pause-panel').hidden = false; $('resume').focus();
+  });
+  $('resume').addEventListener('click', () => {
+    state.paused = false; $('pause-panel').hidden = true;
+    $('game').hidden = false; $('plan-box').hidden = false; $('game-title').focus();
+  });
+  $('leave').addEventListener('click', setup);
+  $('finish').addEventListener('click', setup);
+  preview();
+})();
+</script>
+</body>
+</html>
