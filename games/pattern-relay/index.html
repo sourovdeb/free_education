@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pattern Relay — Shape Practice</title>
+<meta name="description" content="Copy or recall a shape sequence. Control the length and pace. No accounts, timers, or tracking.">
+<style>
+:root{font:18px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#171717;background:#f4f4f0;color-scheme:light}*{box-sizing:border-box}body{margin:0}main{max-width:920px;margin:auto;padding:24px 16px 48px}h1{font-size:clamp(2.3rem,7vw,3.8rem);line-height:1.1;margin:14px 0}h2{font-size:1.3rem;margin:0 0 12px}p{margin:8px 0 16px}.panel{border:1px solid #555;background:#fff;padding:20px;margin:16px 0}.serial{font-family:monospace}.muted{color:#494949}button,select{font:inherit;min-height:48px;color:inherit;background:#fff;border:2px solid #333;padding:10px 14px;border-radius:3px;touch-action:manipulation}button{cursor:pointer}button:hover:not(:disabled):not([aria-disabled="true"]){background:#e9e9e3}button:disabled,button[aria-disabled="true"]{color:#595959;border-style:dashed;cursor:default}.primary{background:#171717;color:#fff}.primary:hover:not(:disabled){background:#333}button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #171717;outline-offset:4px}label{font-weight:650}select{display:block;width:100%;margin-top:6px}.settings{display:grid;grid-template-columns:1fr 1fr;gap:16px}.actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}.pattern{display:flex;gap:10px;flex-wrap:wrap;list-style:decimal;padding-left:28px;margin:16px 0;min-height:80px}.token{border:1px solid #555;background:#f4f4f0;min-width:100px;min-height:90px;padding:8px 12px;text-align:center}.symbol{display:block;font-size:2rem;line-height:1.2}.name{display:block}.choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.choice{min-height:86px}.status{border-left:4px solid #171717;background:#eeeeea;padding:12px;min-height:56px}.topbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;border-top:3px solid #171717;padding-top:14px}summary{min-height:48px;padding:10px 0;cursor:pointer;font-weight:650}.compact .extra{display:none}.skip{position:absolute;top:-100px;left:16px;background:white;padding:16px}.skip:focus{top:8px}[hidden]{display:none!important}footer{border-top:1px solid #555;padding-top:12px;margin-top:24px}.steps{padding-left:26px}.steps li{padding:4px 0}@media(max-width:520px){main{padding:16px 12px 32px}.panel{padding:16px}.settings{grid-template-columns:1fr}.choices{grid-template-columns:repeat(2,minmax(0,1fr))}.token{min-width:96px}.actions button{flex:1 1 130px}}@media(forced-colors:active){.panel,.token,.status{border:1px solid CanvasText}}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Skip to game</a>
+<main id="main">
+<header>
+<div class="topbar"><span class="serial">Edition 002 · v1.0.0</span><button id="compact" type="button" aria-pressed="false">Hide page extras</button></div>
+<h1>Pattern Relay</h1>
+<p class="extra">Copy a sequence of shapes. Hide it to practise recall. Stop whenever you choose.</p>
+</header>
+<section class="panel" aria-labelledby="setup-title" id="setup">
+<h2 id="setup-title">Choose your setup</h2>
+<div class="settings">
+<div><label for="length">Pattern length</label><select id="length"><option value="2">2 items</option><option value="3" selected>3 items</option><option value="4">4 items</option><option value="5">5 items</option><option value="6">6 items</option></select></div>
+<div><label for="support">Pattern support</label><select id="support"><option value="visible">Keep pattern visible</option><option value="recall">Allow hiding for recall</option></select></div>
+</div>
+<p class="muted extra">Changing length resets this round.</p>
+</section>
+<div id="play-area">
+<section class="panel" aria-labelledby="pattern-title">
+<h2 id="pattern-title">1. Study the pattern</h2>
+<ol id="pattern" class="pattern" aria-label="Example pattern"></ol>
+<p id="hidden-note" hidden>The pattern is hidden.</p>
+<div class="actions"><button id="toggle" type="button" aria-controls="pattern" aria-expanded="true" disabled>Hide pattern</button><button id="new" type="button">New pattern</button><button id="pause" type="button">Pause</button></div>
+</section>
+<section class="panel" aria-labelledby="answer-title">
+<h2 id="answer-title">2. Rebuild the pattern</h2>
+<p id="empty">No shapes chosen.</p>
+<ol id="answer" class="pattern" aria-label="Your pattern" hidden></ol>
+<div id="choices" class="choices" role="group" aria-label="Choose shapes"></div>
+<div class="actions"><button id="check" type="button" class="primary">Check pattern</button><button id="undo" type="button" disabled>Undo</button><button id="clear" type="button" disabled>Clear answer</button><button id="reveal" type="button">Reveal pattern</button></div>
+<p id="status" class="status" role="status" aria-live="polite" aria-atomic="true">Study the pattern. Choose shapes.</p>
+</section>
+</div>
+<section id="paused" class="panel" aria-labelledby="paused-title" hidden><h2 id="paused-title">Take a pause</h2><p>Your place remains here. Closing clears this round.</p><div class="actions"><button id="resume" type="button" class="primary">Resume</button><button id="reset" type="button">Reset this round</button></div></section>
+<details class="panel extra" id="notes"><summary>Purpose, access, and privacy</summary><h2>How to play</h2><ol class="steps"><li>Study the shape sequence.</li><li>Keep or hide the pattern.</li><li>Select shapes in matching order.</li><li>Select Check pattern.</li><li>Undo or reveal whenever needed.</li></ol><p>Use Tab, then Enter. Space also activates buttons. Dragging is never required.</p><h2>Purpose</h2><p>Matching practises checking a sequence. Hiding adds a recall requirement. Benefits outside gameplay remain untested. This is not a treatment.</p><h2>Access</h2><p>Shapes have text labels. No sound or animation plays. Memory practice is your choice. Some players may dislike repetition. Player and screen-reader testing remain outstanding.</p><h2>Privacy</h2><p>The game stores no data. The game makes no requests. A web host may log visits. Reloading clears the round.</p><h2>Feedback</h2><p>What helped you play? What created a barrier? Please avoid sharing health information.</p></details>
+<footer><p>No timers, scores, or accounts.</p><p class="extra">Research notes accompany this game. Code uses the MIT license.</p></footer>
+<noscript><p>This game requires JavaScript. You can copy shapes on paper.</p></noscript>
+</main>
+<script>
+'use strict';
+(() => {
+  const names = ['Circle', 'Square', 'Triangle', 'Diamond', 'Star', 'Plus'];
+  const symbols = ['\u25cf', '\u25a0', '\u25b2', '\u25c6', '\u2605', '\u271a'];
+  const $ = id => document.getElementById(id);
+  const state = {pattern: [], answer: [], hidden: false, paused: false};
+  const buttons = [];
+  function say(text) { $('status').textContent = text; }
+  function tokens(target, values) {
+    target.replaceChildren(...values.map(index => {
+      const li = document.createElement('li'); li.className = 'token';
+      const symbol = document.createElement('span'); symbol.className = 'symbol';
+      symbol.setAttribute('aria-hidden', 'true'); symbol.textContent = symbols[index];
+      const name = document.createElement('span'); name.className = 'name'; name.textContent = names[index];
+      li.append(symbol, name); return li;
+    }));
+  }
+  function render() {
+    tokens($('pattern'), state.pattern); tokens($('answer'), state.answer);
+    $('pattern').hidden = state.hidden;
+    $('hidden-note').hidden = !state.hidden;
+    $('toggle').disabled = $('support').value === 'visible';
+    $('toggle').textContent = state.hidden ? 'Show pattern' : 'Hide pattern';
+    $('toggle').setAttribute('aria-expanded', String(!state.hidden));
+    $('empty').hidden = state.answer.length > 0;
+    $('answer').hidden = state.answer.length === 0;
+    $('undo').disabled = $('clear').disabled = state.answer.length === 0;
+    const full = state.answer.length === state.pattern.length;
+    buttons.forEach(button => button.setAttribute('aria-disabled', String(full)));
+    $('play-area').hidden = state.paused; $('setup').hidden = state.paused;
+    $('paused').hidden = !state.paused;
+  }
+  function newRound(focus = false) {
+    const requested = Number($('length').value);
+    const length = [2,3,4,5,6].includes(requested) ? requested : 3;
+    state.pattern = Array.from({length}, () => Math.floor(Math.random() * names.length));
+    state.answer = []; state.hidden = false; state.paused = false;
+    render(); say('Study the pattern. Choose shapes.');
+    if (focus) $('new').focus();
+  }
+  function add(index) {
+    if (state.paused) return;
+    if (state.answer.length >= state.pattern.length) { say('Answer full. Check or undo.'); return; }
+    state.answer.push(index); render(); say(`${names[index]} added. ${state.answer.length} of ${state.pattern.length}.`);
+  }
+  names.forEach((name, index) => {
+    const button = document.createElement('button'); button.type = 'button'; button.className = 'choice';
+    button.dataset.index = String(index); button.setAttribute('aria-label', `Add ${name}`);
+    const symbol = document.createElement('span'); symbol.className = 'symbol'; symbol.textContent = symbols[index]; symbol.setAttribute('aria-hidden', 'true');
+    const label = document.createElement('span'); label.textContent = name;
+    button.append(symbol, label); button.addEventListener('click', () => add(index));
+    buttons.push(button); $('choices').appendChild(button);
+  });
+  $('new').addEventListener('click', () => newRound());
+  $('length').addEventListener('change', () => newRound());
+  $('support').addEventListener('change', () => {
+    if ($('support').value === 'visible') state.hidden = false;
+    render(); say($('support').value === 'visible' ? 'Pattern stays visible.' : 'Hide it when ready.');
+  });
+  $('toggle').addEventListener('click', () => {
+    if ($('support').value !== 'recall' || state.paused) return;
+    state.hidden = !state.hidden; render(); say(state.hidden ? 'Pattern hidden.' : 'Pattern visible.');
+  });
+  $('reveal').addEventListener('click', () => { state.hidden = false; render(); say('Pattern revealed.'); });
+  $('undo').addEventListener('click', () => { state.answer.pop(); render(); say('Last choice removed.'); });
+  $('clear').addEventListener('click', () => { state.answer = []; render(); say('Answer cleared.'); });
+  $('check').addEventListener('click', () => {
+    if (state.answer.length !== state.pattern.length) { say('Add shapes to finish.'); return; }
+    say(state.answer.every((item, i) => item === state.pattern[i]) ? 'Pattern matched. Stop or continue.' : 'Patterns differ. Undo or reveal.');
+  });
+  $('pause').addEventListener('click', () => { state.paused = true; render(); $('resume').focus(); });
+  $('resume').addEventListener('click', () => { state.paused = false; render(); $('pause').focus(); });
+  $('reset').addEventListener('click', () => newRound(true));
+  $('compact').addEventListener('click', () => {
+    const compact = document.body.classList.toggle('compact');
+    $('compact').setAttribute('aria-pressed', String(compact));
+    $('compact').textContent = compact ? 'Show page extras' : 'Hide page extras';
+  });
+  newRound();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "series": "Browser Games",
+  "checked": "2026-10-05",
+  "website_status": "draft",
+  "live_game_url": null,
+  "participant_tested": false,
+  "editions": [
+    {"id": "001", "title": "Step Quest", "version": "1.0.0", "path": "step-quest/index.html", "mechanic": "example sequencing; optional recall", "git_blob": "cf2e63d1c06651f8b1d6513757717e7d5db2853f", "browser_assertions_passed": 213},
+    {"id": "002", "title": "Pattern Relay", "version": "1.0.0", "path": "pattern-relay/index.html", "mechanic": "shape matching; optional recall", "git_blob": "287d059622cfd8aa5c9454064aefc719c3dbbb95", "browser_assertions_passed": 178}
+  ]
+}
