@@ -1,0 +1,86 @@
+{
+  "blender": "5.2.1 LTS",
+  "date": "2026-10-01",
+  "basic_script_sha256": {
+    "book_reading_blender.py": "c7db46197711dedeef6bf5dc9c802e979dcee33e67e10d94bbca8ca6f874a627",
+    "tutorial_blender.py": "4f0144001e3bfc44f1a36eb58240c18eff91d1d14f496a649a70c37e571ebbc6",
+    "blender_edit_common.py": "af0b41ad5f4111a3032975967d652dcadcb9c82c5ab369e518d2acd8385543cc"
+  },
+  "book": {
+    "video_segments": 3,
+    "subtitle_cues": 13,
+    "frames": 1016,
+    "fps": 25,
+    "duration_seconds": 40.64,
+    "media_paths_verified": true,
+    "audio_video_boundaries_match": true
+  },
+  "tutorial": {
+    "video_segments": 124,
+    "subtitle_cues": 335,
+    "frames": 17628,
+    "fps": 25,
+    "duration_seconds": 705.12,
+    "media_paths_verified": true,
+    "audio_video_boundaries_match": true
+  },
+  "captions": {
+    "book_cues_preserved": 13,
+    "tutorial_cues_preserved": 335,
+    "timing_and_words_unchanged": true,
+    "box_margin_width_fraction": 0.01,
+    "historical_draft_retained": true
+  },
+  "assets": {
+    "count": 9,
+    "formats": [
+      "blend",
+      "GLB",
+      "SVG",
+      "RGBA PNG"
+    ],
+    "native_reopened": true,
+    "glbs_reimported": true
+  },
+  "overlays": {
+    "static_preview": true,
+    "side_preview": true,
+    "orbit_preview": true,
+    "sequence_frames": 25,
+    "sequence_size": [
+      640,
+      360
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "motion_pixel_difference": true,
+    "attached_to_new_blender_copy": true
+  },
+  "typesafe": {
+    "live_model": "jev-1.13.0",
+    "design_gate": "TEMPLATES_ONLY",
+    "asset_example": "EDU001",
+    "missing_key_fallback_test": "UNKNOWN"
+  },
+  "existing_v3": {
+    "zip_sha256": "e371acf862f94f2449dfbe06b921b5c0dc8aeb1e47a872e52bfecf6c906ef569",
+    "assets": 380,
+    "scenes": 140,
+    "native_sample": "subject_ballot_box",
+    "sample_import_and_render": true,
+    "all_assets_runtime_tested": false
+  },
+  "manual": {
+    "pages": 22,
+    "all_pages_rasterized": true,
+    "visual_layout_review": true
+  },
+  "not_tested": [
+    "Resolve runtime integration",
+    "full-resolution long animation export",
+    "automatic presenter tracking or occlusion",
+    "complete source adaptation"
+  ]
+}

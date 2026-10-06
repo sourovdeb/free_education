@@ -1,0 +1,5 @@
+# Optional: rebuilding/checking the PDF. Blender workflows do not need these.
+reportlab>=4
+pypdf>=5
+pillow>=10
+pypdfium2>=4
