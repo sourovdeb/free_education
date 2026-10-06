@@ -1,0 +1,7 @@
+# Text equivalent
+
+STATE ALLERGY -> ASK ABOUT INGREDIENTS -> CHECK PREPARATION -> CONFIRM BEFORE ORDERING
+
+Alt text: Four layered paper cards connected by arrows. The cards read State allergy, Ask contains, Check preparation, and Confirm before ordering. A peanut symbol appears on the ingredient card. A magnifier appears on the preparation card.
+
+The path separates ingredients from preparation. "Contains" asks about listed ingredients. A preparation check addresses possible cross-contact. Uncertainty is not confirmation.

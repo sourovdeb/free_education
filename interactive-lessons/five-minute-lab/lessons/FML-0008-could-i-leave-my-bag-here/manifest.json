@@ -1,0 +1,87 @@
+{
+  "id": "FML-0008",
+  "version": "1.1.0",
+  "title": "Could I Leave My Bag Here?",
+  "revision_of": "1.0.0",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T09:00:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 7708,
+      "sha256": "31568c89bc8438c9f6690150442de509c00e5fa15ca393c32f334ab9e4bbd8b9"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14076,
+      "sha256": "7ff950a39672e83b8e4eb65c59bc1ed1d8edcd195767a003bca25c08af30489a"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 4394,
+      "sha256": "390fda38343a7ca5146bcde1a3e5809efbcc08256edf2c6cbd269fdaf5793bc0"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 3423,
+      "sha256": "a0bbe461be07831d06df0daeeb36a808088e29fc4a83949cdd03e409c3309fa8"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 448,
+      "sha256": "df69a4a6455516590c0fe73a8d2d137ec42aec4647c2278af9a4082aa1be2902"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 179320,
+      "sha256": "ad8b9e1664edef9eddc1981af1f9d70b20339f0d52a0789227b058faabc3f6e3"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 7300,
+      "sha256": "d04cbffeb63ec91d2a920e9f6a85dabadf50820462c297999f4bbae3d08e9c33"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 1372,
+      "sha256": "e5bd1f8247f2608c1bd98c369ceb56d95a3672540bf93f94f18c43cff3c5b499"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 223,
+      "sha256": "55c36c22be2c8f80980dd5513fc1be83e798d7cae5d9e4c7dfc322ba64b44da2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 828,
+      "sha256": "0eac873a01c57d1e63ddbd6f0daa1b65f7929445fe5396902f18ec3af64bf769"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1244,
+      "sha256": "10595831c5368a6c0a6e17f314c1f62c4d6661a00348b638327fd32dc877f951"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 974,
+      "sha256": "8c048cba86e059be9f6e53e27b0e8e7cb4e7ffe957a7cedd2b85546a20bd58ca"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 756,
+      "sha256": "10edf0c6bb75e242af0f45e4f9ed0f150ab16bf65601db7c0694b20ce445034c"
+    },
+    {
+      "path": "doodle-720p25.mp4",
+      "bytes": 132713,
+      "sha256": "aa5d272d7315f8eaddb4f1418937e4595f9402c8e65486bf83af238139b61b58"
+    },
+    {
+      "path": "build.py",
+      "bytes": 18227,
+      "sha256": "8e446d49fd842ae12cfbd72b913f1988bf12e58690231be8bc15681a770f9884"
+    }
+  ]
+}

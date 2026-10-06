@@ -1,0 +1,7 @@
+# Text equivalent
+
+CHECK EVIDENCE -> NAME MISSING ITEM -> CHOOSE OUTCOME -> CONFIRM DETAILS
+
+Alt text: Four layered paper cards connect receipt evidence to a missing garlic bread label, then branch toward replacement or refund, and finish at confirmation.
+
+First, compare the receipt with the bag. Next, name the absent item. Choose replacement or refund. Finally, confirm timing, amount, or destination.

@@ -1,0 +1,96 @@
+{
+  "id": "FML-0014",
+  "version": "1.0.0",
+  "title": "Is That \u20ac60 Each or in Total?",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T20:20:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 12100,
+      "sha256": "b424373795b87156b83bfa75e1d7bea9f70d6dd60d9cea8d3f522d12a34d500d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 30838,
+      "sha256": "36b856f912bf8c994b3d70a0b6f9614a0006017f3147116b5c6b1708d081af87"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5248,
+      "sha256": "f46a71f1aa5fd95e476501d765b5b8f273facfe574e5a4501f8772d07bb53c2c"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 5084,
+      "sha256": "21f5e1016826112818eb996f573ffbef444d545d6a984cac6669e77732e123c7"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 529,
+      "sha256": "5ceda3ca56ed087b698bb0550519a1841f3048a40c700c7e61c2cdc231258c99"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 240133,
+      "sha256": "f78777078ec4def68e26a48df45f465c3cf67f7599f60772e875b37c226f7cca"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6384,
+      "sha256": "725477895b2eb2565287cc7969974936c4ef74f8019bbe15acb2ee1e64a918dd"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2134,
+      "sha256": "405872e1438b99f7cf65031bdd55553d11a18152808c5d65bb34327ee42ce623"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 42223,
+      "sha256": "73c670b925c5ae11f6821c0237a1857e2ee41c235378d36a6b520c96ad448586"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 476,
+      "sha256": "f36474eee597bab55926b30193bea4b3e937103f14fd84d4dd43b177f1cfe6ee"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "ce26a2ef51ee8021e02ffa3397f3ade64c4bb8d8fdf93ef2175de140199d5594"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2062,
+      "sha256": "1f4f2b94734a28011e82b5b393a0050790681e2248eb957b93ccc7d0cf6bc972"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1583,
+      "sha256": "0b9c45a7cb66a0bda4dd5d71a2b11eed8a0afde66b30e1286fe68bf57b3ecad7"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1323,
+      "sha256": "42a5e4895e521453cb0de77573bf0284f312861624d7f48b1ff9dfa22c937b7f"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 463,
+      "sha256": "e0f3ba5dd20c2f5a39f7a606ed91e89034249ffe987f1d221f8839f9f13caebb"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 396245,
+      "sha256": "32c95adbde045e7580fca5a27a2d10dc631c9637bbf620e3cd3084795ce093e3"
+    },
+    {
+      "path": "build.py",
+      "bytes": 37927,
+      "sha256": "67300a7d9a9543ff35691232d6d592797e7ee5af1bcb080e3a62005ef4ed5473"
+    }
+  ]
+}

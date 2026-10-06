@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0016",
+  "version": "1.0.0",
+  "title": "Chips, Not Salad",
+  "slug": "replace-the-wrong-side-dish",
+  "pathway": "use-english",
+  "interaction_family": "order-correction-and-readback",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Recognise common restaurant food words", "understand a simple polite request with could"],
+  "observable_outcome": "The learner identifies a wrong side dish, asks for the ordered side instead, and confirms the corrected meal.",
+  "learning_objective": "Ask a restaurant to replace the wrong side dish, then confirm the corrected order.",
+  "scenario": {
+    "setting": "A casual restaurant after the server brings a meal.",
+    "prompt": "You ordered grilled fish with chips. The server brings grilled fish with salad.",
+    "puzzle": "Which detail is wrong, and how can you request the change before confirming the corrected meal?",
+    "privacy_note": "The restaurant, server, meal, and order details are fictional teaching data."
+  },
+  "model": {
+    "clarify": "Excuse me, I ordered chips, not salad.",
+    "customer_reply": "Could you replace the salad with chips, please?",
+    "confirm": "Thank you. So that's grilled fish with chips, right?",
+    "neutral_variant": "Excuse me, could I have chips instead of salad, please?"
+  },
+  "language_focus": {
+    "grammar": "I ordered X, not Y contrasts the expected item with the item received. In replace A with B, A is removed and B takes its place: replace the salad with chips.",
+    "meaning": "The main dish is correct; only the side dish needs changing. The request names both the item to remove and the replacement, so the correction is easy to check.",
+    "appropriateness": "Excuse me gets the server's attention politely. Could you ... please? is a polite request. A calm readback of the whole meal checks that the change is understood.",
+    "detail_language": "With links the main dish and side dish: grilled fish with chips. Instead of is a valid alternative when the requested replacement is clear."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "Compare the order with the plate. Which detail is wrong?",
+    "options": [
+      {"text": "The side dish", "correct": true, "feedback": "Correct. The order says chips, but the plate has salad. The grilled fish is correct."},
+      {"text": "The main dish", "correct": false, "feedback": "Both the order and the plate have grilled fish. The side dish is the mismatch."},
+      {"text": "The table number", "correct": false, "feedback": "No table number is given. Compare the food: chips were ordered, but salad arrived."}
+    ]
+  },
+  "request_activity": {
+    "id": "decision-2",
+    "prompt": "Choose a clear, polite request for the change.",
+    "options": [
+      {"text": "Could you replace the salad with chips, please?", "correct": true, "feedback": "Correct. It names what should leave and what should replace it, and the request is polite."},
+      {"text": "Excuse me, could I have chips instead of salad, please?", "correct": true, "feedback": "Also correct. Instead of makes the replacement clear, and Excuse me plus please suits a service situation."},
+      {"text": "This is wrong. Take it away.", "correct": false, "feedback": "This reports a problem but does not clearly name the replacement. Ask for chips and keep the tone polite."}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each detail to its correction slot.",
+    "slots": ["main dish", "incorrect side", "replacement side"],
+    "items": [
+      {"detail": "grilled fish", "answer": "main dish", "feedback": {"main dish": "Correct. Grilled fish is the main dish and does not need changing.", "incorrect side": "The incorrect side is salad. Grilled fish is the correct main dish.", "replacement side": "The requested replacement side is chips. Grilled fish stays on the plate."}},
+      {"detail": "salad", "answer": "incorrect side", "feedback": {"main dish": "Salad is a side dish here, not the main dish.", "incorrect side": "Correct. Salad arrived, but it was not ordered.", "replacement side": "Chips are the requested replacement. Salad is the side to remove."}},
+      {"detail": "chips", "answer": "replacement side", "feedback": {"main dish": "Chips are the side dish, not the grilled-fish main dish.", "incorrect side": "Salad is the incorrect side that arrived.", "replacement side": "Correct. Chips are the ordered side that should replace the salad."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "You ordered a burger with a side salad. The server brings a burger with onion rings.",
+    "instruction": "Write one polite correction and request. Then write one confirmation of the complete corrected meal.",
+    "acceptable_responses": [
+      "Excuse me, I ordered a side salad, not onion rings. Could you replace the onion rings with a side salad, please? So that's a burger with a side salad, right?",
+      "Excuse me, could I have a side salad instead of onion rings, please? Thank you. That's a burger with a side salad, correct?"
+    ],
+    "rubric": ["I politely introduced the correction.", "I named the incorrect side dish.", "I clearly requested the replacement side.", "I confirmed the main dish and corrected side."],
+    "valid_variants": "Could I have ... instead of ...? and Could you change ... to ...? can work when both sides are clear. Right?, correct?, and Is that right? can all invite confirmation."
+  },
+  "review_prompt": "Tomorrow, recall the two slots after replace: replace the incorrect side with the ordered side. Then confirm one complete corrected meal.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["restaurant wall", "server and diner cutouts", "plate", "fish", "salad leaves", "chips", "order ticket", "speech cards"],
+    "cutout_assets": ["restaurant table", "person", "plate", "fish", "salad", "chips carton", "order ticket", "speech card", "swap arrow", "check mark"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Layered tableware, food pieces, order cards, and speech pieces use cream cut edges and offset shadows.",
+    "motion_principle": "The plate slides in with the wrong salad; the salad lifts away while chips slide into its place; labelled meal pieces then stack for the readback. Captions remain fixed.",
+    "accessibility": "Dark navy text on cream panels; every colour-coded food piece also has a word label and distinct shape."
+  },
+  "scenes": [
+    {"id": "mismatch", "title": "Spot the mismatch", "caption": "The order says chips. The plate has salad.", "explanation": "A plate with fish and salad slides beside an order ticket that says fish with chips.", "motion_cues": ["plate enters", "order ticket rises", "salad leaves pivot"]},
+    {"id": "contrast", "title": "Name the correction", "caption": "I ordered chips, not salad.", "explanation": "The chips label moves into the expected slot while the salad label folds out of the order.", "motion_cues": ["chips label slides", "salad label folds", "contrast line appears"]},
+    {"id": "request", "title": "Make the request", "caption": "Could you replace the salad with chips, please?", "explanation": "A layered speech card unfolds between the diner and server with both food names visible.", "motion_cues": ["speech card unfolds", "diner arm pivots", "server turns"]},
+    {"id": "replace", "title": "Show the replacement", "caption": "Replace the salad with chips.", "explanation": "Salad lifts out of the side-dish space and a carton of chips slides into the same space.", "motion_cues": ["salad lifts", "swap arrow turns", "chips slide in"]},
+    {"id": "confirm", "title": "Confirm the meal", "caption": "Grilled fish with chips, right?", "explanation": "Main-dish and replacement-side cards stack in order. A check mark pivots beside the complete meal.", "motion_cues": ["fish card slides", "chips card slides", "check mark pivots"]},
+    {"id": "transfer", "title": "Your burger order", "caption": "A burger with a side salad, not onion rings.", "explanation": "Onion rings move away from a burger plate as a side-salad bowl slides into place.", "motion_cues": ["burger plate enters", "onion rings exit", "side salad arrives"]}
+  ],
+  "visual": {
+    "title": "Name the mismatch, request the replacement, confirm the meal",
+    "alt_text": "A colourful layered papercut flow. A fish plate has salad although the order ticket says chips. The salad lifts away, chips slide into the same side-dish space, and fish plus chips stack into a confirmation question.",
+    "prose": "First compare the order with the plate. Name the side dish you ordered and contrast it with the side you received. Ask to replace the incorrect side with the ordered side. Then repeat the main dish and corrected side in one confirmation question."
+  },
+  "sources": [
+    {"institution": "British Council LearnEnglish", "title": "Requests, offers and invitations", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/requests-offers-invitations", "accessed": "2026-09-27", "inspected": "The requests section states that could you and would you are polite ways to ask someone to do something, and gives a could you ... please pattern.", "limitation": "It supports the request form, not this original restaurant scenario."},
+    {"institution": "Cambridge Dictionary", "title": "Replace", "url": "https://dictionary.cambridge.org/dictionary/english/replace", "accessed": "2026-09-27", "inspected": "The dictionary entry defines replace as taking the place of something or putting one thing or person in the place of another and illustrates replace with.", "limitation": "It supports the change-of-item meaning and complement pattern; no dictionary example is reproduced in the lesson."}
+  ],
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Grammar and word meanings are paraphrased with links. No protected exercise or artwork is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}

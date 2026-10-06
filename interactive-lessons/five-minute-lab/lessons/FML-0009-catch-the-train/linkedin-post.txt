@@ -1,0 +1,16 @@
+Catch It or Miss It?
+
+The train leaves at 10:20.
+
+Catch focuses on timing.
+Take names the travel choice.
+Miss means arriving too late.
+
+Try the bus transfer task.
+
+Source and download repository:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0009-catch-the-train
+
+This source is not deployed.
+A2-B1 editorial estimate.
+Owner review remains required.

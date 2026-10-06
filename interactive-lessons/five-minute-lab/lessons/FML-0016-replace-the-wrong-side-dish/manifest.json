@@ -1,0 +1,96 @@
+{
+  "id": "FML-0016",
+  "version": "1.0.0",
+  "title": "Chips, Not Salad",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T22:16:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 10952,
+      "sha256": "da2665ff544d059564d4393ca47b0f041b21fc788400b3dca5e059cc059065e3"
+    },
+    {
+      "path": "index.html",
+      "bytes": 29804,
+      "sha256": "29467c8ddecf4399ac355992057688fe4352b23912b68bcf3d7adb445a84608d"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 4900,
+      "sha256": "9431913f857822be9c7fdcb5f600ab082acc961adad66eb951830f46d4e06611"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4057,
+      "sha256": "11b4c97624f1b56e38099bbe4cc2924b8a5cbf0004dce5c2808d95ccca0e3884"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 637,
+      "sha256": "823cab2aa5e7c11f49d41de1e8d211cf8b9caef399fce69d95cecf214216e8b2"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 223324,
+      "sha256": "5d120e9f0677ac9123901a47fd5cdae37342102095deed6a196588486b6ea788"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6427,
+      "sha256": "3075431dc5d393f33c7a0fc7061668ba47ed60837132a23738e7a939e7850cbd"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2130,
+      "sha256": "e4ee2380339a8b0334acfb20eb80100a5bec27436c154127f1b1a034f3161019"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 45875,
+      "sha256": "5f29bd08cc9e519e245c335f5bd8faeab6e43ee45840d606f0b5cafa4c5729d5"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 475,
+      "sha256": "f26de29840b7d8fb31b14c895c52bea426c2d354746b87de2b2011f40e425b42"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "542e117f6a1759ccab0b4a04edef75c907223deeb9428bcb208242a024682c7c"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1533,
+      "sha256": "4a4df19c1185016b87aec3bd362590e530349a5294dd6ab5929923cd1de2d4f6"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1638,
+      "sha256": "95551e9137b347fc74c69f815db82e0370e3289a48282ae81d7261d75302bb99"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1198,
+      "sha256": "cef4974260c5b51abf27ac24eb5d30f56f8821517fbe198f304e034a42b7c468"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 431,
+      "sha256": "36b39b4a86b8571b179e283c47759e14f608b700a92f7ae419ccedf312dba00b"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 346282,
+      "sha256": "f1a240ad18acfe37e8ce7c823e05454dfbb55e8f4490458b15bfabe5b405977a"
+    },
+    {
+      "path": "build.py",
+      "bytes": 38974,
+      "sha256": "ee19733760f5f4f24a79f330df4097afeb6bd169f94dc04c1345e4ceda28b6e1"
+    }
+  ]
+}

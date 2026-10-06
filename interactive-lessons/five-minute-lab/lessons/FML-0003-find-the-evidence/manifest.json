@@ -1,0 +1,87 @@
+{
+  "id": "FML-0003",
+  "version": "1.1.0",
+  "title": "Find the Words That Prove It",
+  "revision_of": "1.0.0",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T15:15:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 7886,
+      "sha256": "cda794115ba59c52efde04666745cc283384b1fb7f1801e15e55967a61a7f12e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14835,
+      "sha256": "29929d36601c8bafbe7a772a2bf27ca1878da0f0685cd76d04a816cded8ab550"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5142,
+      "sha256": "1e60aee840716792d8493a6b4df3d0be67a63a579db7fef834977535775f8ac1"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4179,
+      "sha256": "503f75da78336ac1e482f89e8ad2c7c8577661f013d3d16ec850cc5ce4da96e1"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 452,
+      "sha256": "827fb3ef82344722d24f4f6e9300ac0250d1cbd32a2a35eb3c662b48835ad5b1"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 190736,
+      "sha256": "a22a3a8e742d4d9ed140ce6a3994796d1d542b3c54e94e83b0cb1df6b87f1248"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 8632,
+      "sha256": "2175145a2a60075b2fe08c400da328b360b2979cd8776630bb9aa5c56a04998d"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 1684,
+      "sha256": "03b13d9aa067fa7d3bf6bc2c3df32db55e8dd1ae862f9c142292ce018b6f46e4"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 266,
+      "sha256": "dbcd6308e53eb2e0ed965cf2fa62d09292f6c48f2efa81316bf05d3b1b9b345b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 838,
+      "sha256": "353898ee9fe366cc7b8637ea1f464a64c855dd7eed58587d712e3b15dc04835c"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1311,
+      "sha256": "c448a088ebfbd4a355ba7be9352388ed35626293a3536b48724fcbd0f0bc50af"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 979,
+      "sha256": "5538071aca2c992dc5e42fc7a46d5d2c07f190b999d14d9cb2a350ea9594c16b"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 762,
+      "sha256": "e3804d48ffd958b1f0dd9fec803f825a9620795eec1645487db427c524f9a507"
+    },
+    {
+      "path": "doodle-720p25.mp4",
+      "bytes": 141417,
+      "sha256": "d4d936a444457590cda94f545e47717e705390c3c19fc5493ffe2e6a85abbeee"
+    },
+    {
+      "path": "build.py",
+      "bytes": 18671,
+      "sha256": "5d56a648a5d221f54e29cc2f315deea8813ba8c34e4e5265f7dac7a99905838e"
+    }
+  ]
+}

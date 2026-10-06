@@ -1,0 +1,96 @@
+{
+  "id": "FML-0021",
+  "version": "1.0.0",
+  "title": "Which Receipt Is Missing?",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-28T03:20:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 12903,
+      "sha256": "482bdc2e03abae286be4cdcbc8954f6c6f66e43d915da7328f1b464fed1a1847"
+    },
+    {
+      "path": "index.html",
+      "bytes": 30169,
+      "sha256": "3b4a61a0600e6a83762aadca37cf58cecdf60acdd9e5c9e201bd821932ca6bae"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5208,
+      "sha256": "bfcd69b9280d5c6f06bfa05a48fcaf6cbc71839b923fb63820402b16fff65cab"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4899,
+      "sha256": "40c277a7662623c4511e01ed82375bf33d2e035113eb5fac98d0e8fcd774a7b6"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 702,
+      "sha256": "3ea2a5f9935eb8c3197b3c3256d7f0557a76ab5f37ca9a50e29e272fe46d52c2"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 235278,
+      "sha256": "b99af049580802fdc5262efb5aecbf42ca04e23204e9930f37d3487fd44fc107"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6003,
+      "sha256": "28f16479a3ddce7535655170eda14884f1b41c6197259b17ee55b7dfb1aff667"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2121,
+      "sha256": "1f7e6dd33763ed0d8bdcd461f2ed9d7ca07409a0a542dddd27aa9e6b7d3d03a7"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 40479,
+      "sha256": "3a78b1c601c42e103c561a3684733cd5dee9be02e87fc2db854918e3a06ad03f"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 443,
+      "sha256": "5e7dcc87ed74f21820249c4d1b83356dd1b50fe8fef9a9e19bcac97b38fcc717"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "cde88aced49cb2fe80239a167a96529581ca2eff83359cf53f63a3a3e8322d64"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2095,
+      "sha256": "ca6c22fd8efff0b78913d0c311e2205efa686451027fd8ee53551c289585b6f5"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1678,
+      "sha256": "f4d630254d0da407054d106c41f67b6e754a4f4a05c6a320221a44e0677ba946"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1341,
+      "sha256": "520f218d341b06f28aeb5a42b17abaea741c16855cccaf77236d83037f35347a"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 484,
+      "sha256": "1138595e8d54a6fbd0bd63728f4ab6e9b48a32c3d7fc310cc9d0f44b14b0cd68"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 356021,
+      "sha256": "c49bad5ff3bdaf218382d1e90ec6d39f94b1351f27ec7b7d089789ed3865e11d"
+    },
+    {
+      "path": "build.py",
+      "bytes": 38338,
+      "sha256": "45f54a1f1bded5d54d995874e561a78a4e4c2dbcc442d7ab9986cd229a835792"
+    }
+  ]
+}

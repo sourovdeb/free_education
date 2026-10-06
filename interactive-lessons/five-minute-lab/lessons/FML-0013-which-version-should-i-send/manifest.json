@@ -1,0 +1,96 @@
+{
+  "id": "FML-0013",
+  "version": "1.0.0",
+  "title": "Which Version Should I Send?",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T19:12:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 13120,
+      "sha256": "02340f63a2228e60579140dbec9369bc160c1add76624c086a2815c17dc7e4d7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 30027,
+      "sha256": "6857ed28276b1c013384841a11c6853914f6ad8473f83bbf2a0a53e1a52d4455"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5135,
+      "sha256": "c51357f0d000869ac73d30ad5c8487a05fc72f19f5caf12d16f272d42f253177"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 5015,
+      "sha256": "d05df3cf002294bf43562e58271ec63cf2580cb9da26480aeaa6ea2d7c43df53"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 546,
+      "sha256": "f882bf59f61925b168c589aa5616c48f3d4db064aa3504a1f6dc9974859fbe6d"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 234731,
+      "sha256": "615660a062db2dd9dc4e64be42c11f584d3344eefb329f8f29a1fb182cb2aaea"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6107,
+      "sha256": "e8989c528a88e6a6863bc8009a7f8925e9c1f0943340e79184daab14ee17b42b"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2086,
+      "sha256": "7be76397b04c1e89d86ea8dce80122c0bc7f34c209ed32dcc3f0cbfc5b430ec4"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 40245,
+      "sha256": "63bdd13a929e308d937bb1d680e05da7cfcb61489102870932f528223957b318"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 417,
+      "sha256": "de500c08d93a05d8509a90a8b7fb9fdd2f86b79617018123b2b3166db57fece3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "3b3c10cffe153bcb068e1d64bf8a61a756e575bb94a928ff6aa2007fcf6f0dcf"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2271,
+      "sha256": "65ca64c63061a4350cbe7909b9c29262708142528ffa55a90530154555d16698"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1532,
+      "sha256": "1ba7552343853dc1f3b4c901b53549c2bd743a44ac1c34b4743b64793b83f2fe"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1344,
+      "sha256": "b3866f602ecae0da910f173208f2370ce9d12a320ae29d5d5d856c2f3559d165"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 510,
+      "sha256": "34fa065bc7c2de75f582a1fc8bc044945d6d852de390fbc303acf4fe06ec2e53"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 418362,
+      "sha256": "b44fe6736580dc10a8c76d56e782cdb6c42fc00e44559e1fd6cd92afde9f90f4"
+    },
+    {
+      "path": "build.py",
+      "bytes": 37687,
+      "sha256": "7a5897c8b7a2f2c25ebfaee48482f520e5bd4335b1941f3caff7e0c0f57c3717"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "FML-0005",
+  "version": "1.1.0",
+  "title": "The Shower Isn't Working",
+  "revision_of": "1.0.0",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T13:05:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 7890,
+      "sha256": "0ef5cdc20bf466e79f2834a8c2b3fb4fcf37e2b2079e026bc4da661f95a01c52"
+    },
+    {
+      "path": "index.html",
+      "bytes": 15637,
+      "sha256": "4910e5dc7359d0b50be7c6f7a6bcf871edd8bd084ed9cf2b74473d1c67c2f506"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5349,
+      "sha256": "8721105c5d974dc8d177714cf73847ea5195607e4ff7a5c48c9927bc1a0c67c5"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4340,
+      "sha256": "426d455f185aea13436b8292b66b6dd0105ab3822699386c03ce302076927d45"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 452,
+      "sha256": "fde2f15a1c58300e80462cdcadaa21649a4262bd52d0b728765b21d4d9d83b30"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 169969,
+      "sha256": "917e5c8b67b7f58d7932a00a39de61cffb5475211e7890c19982780a20d89ffb"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 9099,
+      "sha256": "0ad5e76a891baec6382994ccf098d84c8416f2b06bb3ebc93aeaeb9c565efaf9"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 1781,
+      "sha256": "377d17d83f616a0c252d03aac073bc643d4c9dcef7cd577273b5508e3d1c8da7"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 310,
+      "sha256": "f59224e30b36b724fc890726e89cd2943042c6c645114b2e8e49dfd9a6276a57"
+    },
+    {
+      "path": "README.md",
+      "bytes": 848,
+      "sha256": "6b4514d6732bd3b0721ef6cf1bf78837a0ff4391a518c0e3b7034fd62ac12df5"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1192,
+      "sha256": "e5e299fa2370df6f37b657fb0ff0ae7424c90ff93edc944cf71872dee1b795a4"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 971,
+      "sha256": "064ec21bf86cc16e8f8970858734c7540faf69f0631def94ff3ec29ff9da48fe"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 756,
+      "sha256": "1a24845c6f3702c1a4d066af942208d84e5b440a073ae367a1e2e14e66841fe8"
+    },
+    {
+      "path": "doodle-720p25.mp4",
+      "bytes": 136997,
+      "sha256": "1035dc93ebcfe0d0d8386f22c83d736c1e12f0a2c5d5b629dafcaa46e8080590"
+    },
+    {
+      "path": "build.py",
+      "bytes": 18523,
+      "sha256": "53250d859d72bdbe89631344d8fee369b73157404714327dee43d95af27d9b93"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Has My Shift Swap Been Approved?
+
+A shift swap needs two checks.
+
+Ask about status:
+"Has my shift swap with Lina been approved?"
+
+Then read both shifts back:
+"So Lina works Tuesday 6 October from 7 a.m., and I work Thursday 8 October from 3 p.m., right?"
+
+Try it with another swap:
+Saturday at 10 a.m. and Monday at 2 p.m.
+
+Source and download files:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0022-confirm-an-approved-shift-swap
+
+This is not a live player.
+Owner review remains required.

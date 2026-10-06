@@ -1,0 +1,18 @@
+A hotel problem can use three steps.
+
+1. Name the item.
+2. State the problem.
+3. Ask for action.
+
+Example:
+"There's a problem with the shower. It isn't working. Could someone take a look, please?"
+
+Try this:
+Your room key fails.
+How would you report it?
+
+Repository source:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0005-report-a-room-problem
+
+The repository link is source.
+No live player is claimed.

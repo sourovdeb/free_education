@@ -1,0 +1,18 @@
+Is That €60 Each or in Total?
+
+One price can have two scopes.
+Is it for each person or everyone?
+
+Ask about the scope:
+“Is that €60 per person or €60 in total?”
+
+Then confirm the whole booking:
+“So that is €180 in total for three people, right?”
+
+Try it with:
+€45 per person for two people.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0014-is-that-each-or-in-total
+
+Owner review required.

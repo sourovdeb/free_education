@@ -1,0 +1,101 @@
+{
+  "id": "FML-0004",
+  "version": "1.1.0",
+  "title": "Tuesday, Not Thursday",
+  "slug": "correct-a-misunderstanding",
+  "pathway": "use-english",
+  "interaction_family": "find-evidence-and-correct",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Can name days and times", "Can understand a short booking confirmation"],
+  "observable_outcome": "Correct one mistaken booking day and confirm the corrected day and time.",
+  "learning_objective": "Use Sorry, I meant X, not Y and a short confirmation question to repair one wrong booking detail.",
+  "scenario": {
+    "setting": "Restaurant reception",
+    "prompt": "You booked Tuesday at 7:30. Reception repeats Thursday at 7:30. Only the day is wrong.",
+    "model": "Sorry, I meant Tuesday, not Thursday. So that is Tuesday at 7:30, right?"
+  },
+  "language": {
+    "grammar": "I meant uses the past form of mean to correct an earlier message. X, not Y contrasts the intended detail with the mistaken one.",
+    "meaning": "Tuesday is the intended day; Thursday is the detail to replace. The confirmation question checks the final shared version.",
+    "appropriateness": "Sorry softens the interruption. A calm voice and stress on Tuesday help signal a repair rather than blame. Sorry - Tuesday, not Thursday is also a suitable shorter repair.",
+    "time_phrase": "So that is Tuesday at 7:30, right? repeats both the repaired day and the unchanged time before the conversation ends."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "type": "find-the-evidence",
+      "prompt": "Booking card: TUESDAY, 7:30. Reception says Thursday. Which detail needs repair?",
+      "options": [
+        {"text": "The day", "correct": true, "feedback": "Yes. The card and reception disagree about Tuesday versus Thursday; both give 7:30."},
+        {"text": "The time", "correct": false, "feedback": "No. Both versions say 7:30. Keep the matching detail and repair only the day."},
+        {"text": "Both day and time", "correct": false, "feedback": "No. Changing 7:30 would create a new mistake. Repair only the evidence that conflicts."}
+      ]
+    },
+    {
+      "id": "decision-2",
+      "type": "choose-and-explain",
+      "prompt": "Which repair clearly replaces the wrong detail?",
+      "options": [
+        {"text": "Sorry, I meant Tuesday, not Thursday.", "correct": true, "feedback": "Yes. It gives the intended day first, rejects the mistaken day, and stays polite."},
+        {"text": "No. You are wrong.", "correct": false, "feedback": "This signals disagreement but does not supply the correct day. It can also sound blaming."},
+        {"text": "Sorry, I meant Thursday, not Tuesday.", "correct": false, "feedback": "This reverses the evidence. Put the intended detail before not and the mistaken detail after it."}
+      ]
+    },
+    {
+      "id": "decision-3",
+      "type": "confirmation-choice",
+      "prompt": "Reception accepts the correction. Which reply checks the final booking?",
+      "options": [
+        {"text": "So that is Tuesday at 7:30, right?", "correct": true, "feedback": "Yes. It confirms the repaired day and the unchanged time together."},
+        {"text": "Thursday is fine.", "correct": false, "feedback": "No. This accepts the mistaken day and conflicts with the booking evidence."},
+        {"text": "What time is Tuesday?", "correct": false, "feedback": "This is unclear. A day does not have one time; repeat the full booking detail instead."}
+      ]
+    }
+  ],
+  "transfer": {
+    "situation": "You asked for room 214. Reception says room 240. The room number is the only mismatch.",
+    "task": "Write one polite repair. Then write one question that confirms the final room number.",
+    "acceptable_responses": [
+      "Sorry, I meant room 214, not 240. So that is room 214, right?",
+      "Sorry - room 214, not room 240. Just to confirm, it is room 214?",
+      "I asked for room 214, not 240. Could you confirm room 214, please?"
+    ],
+    "rubric": ["The repair identifies 214 as correct.", "The repair rejects 240.", "The wording is suitable for a service conversation.", "The final question checks room 214.", "Clear valid variants are accepted."]
+  },
+  "review_prompt": "Tomorrow, repair this mismatch: you booked Friday at 6:00, but someone repeats Sunday at 6:00.",
+  "visual": {
+    "alt_text": "A four-step path: hear Thursday at 7:30, spot that Thursday conflicts with the Tuesday booking, correct Tuesday not Thursday, then confirm Tuesday at 7:30.",
+    "text_equivalent": "HEAR: Thursday at 7:30 -> SPOT: the booking says Tuesday -> CORRECT: Tuesday, not Thursday -> CONFIRM: Tuesday at 7:30, right?"
+  },
+  "scenes": [
+    {"title": "Evidence", "caption": "BOOKING: Tuesday, 7:30", "explanation": "Read the booking before you answer. It is the evidence for the intended day and time.", "focus": "READ"},
+    {"title": "Mismatch", "caption": "Reception: Thursday at 7:30.", "explanation": "Compare the two details. The time matches, but the day does not.", "focus": "SPOT"},
+    {"title": "Repair", "caption": "Sorry, I meant Tuesday, not Thursday.", "explanation": "Give the intended detail first, then contrast it with the mistaken detail.", "focus": "CORRECT"},
+    {"title": "Response", "caption": "Reception: Tuesday at 7:30. Got it.", "explanation": "Reception accepts the repair and repeats the new shared version.", "focus": "LISTEN"},
+    {"title": "Confirm", "caption": "So that is Tuesday at 7:30, right?", "explanation": "Check both the repaired day and the unchanged time before ending.", "focus": "CHECK"},
+    {"title": "Transfer", "caption": "Room 214, not 240.", "explanation": "Use the same repair pattern with a different booking detail.", "focus": "USE"}
+  ],
+  "video": {"resolution": "1280x720", "frame_rate": 25, "audio": false, "captions": true, "optional": true},
+  "sources": [
+    {"institution": "Cambridge University Press & Assessment", "title": "Mean", "url": "https://dictionary.cambridge.org/grammar/british-grammar/mean", "accessed": "2026-09-27", "coverage": "I mean and I meant can operate as discourse markers that add, clarify, or correct what a speaker says.", "limitations": "General grammar reference; the booking scenario and repair task are original."},
+    {"institution": "Cambridge University Press & Assessment", "title": "You mean", "url": "https://dictionary.cambridge.org/dictionary/english/you-mean", "accessed": "2026-09-27", "coverage": "The expression is used to check or clarify another person's intended meaning.", "limitations": "Dictionary entry; it does not prescribe one universal service-repair script."},
+    {"institution": "Cambridge University Press & Assessment", "title": "Intonation", "url": "https://dictionary.cambridge.org/grammar/british-grammar/intonation", "accessed": "2026-09-27", "coverage": "Intonation is the way the voice rises and falls and helps communicate meaning in speech.", "limitations": "General pronunciation reference; appropriateness also depends on context, relationship, and delivery."}
+  ],
+  "rights": {
+    "lesson_text": "Original",
+    "scenarios": "Original",
+    "diagram": "Original",
+    "code": "Original adaptation of the series generator",
+    "video": "Original black-and-white doodles and captions",
+    "third_party_assets": "None",
+    "source_use": "References inform language claims. No source exercise or artwork is reproduced."
+  },
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed",
+  "canonical_url": null,
+  "live_player_url": null,
+  "revision_of": "1.0.0"
+}
