@@ -1,0 +1,545 @@
+[
+  {
+    "id": "sculptures",
+    "title": "Sculpture: evidence and hypotheses",
+    "subtitle": "Egypt and India | Captions. No narration.",
+    "scenes": [
+      {
+        "duration": 15,
+        "date": "c. 2500 BCE",
+        "title": "Who commissioned the Sphinx?",
+        "lines": [
+          "Layers connect quarry and temples.",
+          "Lehner favours attribution to Khafre.",
+          "Khufu's involvement remains a hypothesis.",
+          "Erosion alone cannot establish dates."
+        ],
+        "status": "ATTRIBUTION / HYPOTHESIS",
+        "source": "S04–S05 · Lehner / AERA",
+        "diagram": "strata",
+        "timeline": [
+          {
+            "date": "c. 2500 BCE",
+            "label": "Sphinx"
+          },
+          {
+            "date": "c. 1350 BCE",
+            "label": "Amarna"
+          },
+          {
+            "date": "8th c. CE",
+            "label": "Kailasa"
+          },
+          {
+            "date": "9th–13th c.",
+            "label": "Chola"
+          }
+        ],
+        "active": 0
+      },
+      {
+        "duration": 15,
+        "date": "c. 1353–1336 BCE",
+        "title": "A drillhole holds evidence",
+        "lines": [
+          "Corundum survived inside one drillhole.",
+          "Bronze corrosion accompanied the residue.",
+          "Abrasive drilling explains the mixture.",
+          "The mineral's origin remains unresolved."
+        ],
+        "status": "OBSERVATION / INTERPRETATION",
+        "source": "S02 · Serotta and Carò / Met, 2015",
+        "diagram": "drill",
+        "timeline": [
+          {
+            "date": "c. 2500 BCE",
+            "label": "Sphinx"
+          },
+          {
+            "date": "c. 1350 BCE",
+            "label": "Amarna"
+          },
+          {
+            "date": "8th c. CE",
+            "label": "Kailasa"
+          },
+          {
+            "date": "9th–13th c.",
+            "label": "Chola"
+          }
+        ],
+        "active": 1
+      },
+      {
+        "duration": 15,
+        "date": "8th century CE",
+        "title": "Kailasa emerges through excavation",
+        "lines": [
+          "Workers removed the surrounding rock.",
+          "Excavation proceeded from the top.",
+          "The main temple dates here.",
+          "Rashtrakuta patrons supported construction."
+        ],
+        "status": "SUPPORTED",
+        "source": "S06–S07 · Poduval / Impart",
+        "diagram": "quarry",
+        "timeline": [
+          {
+            "date": "c. 2500 BCE",
+            "label": "Sphinx"
+          },
+          {
+            "date": "c. 1350 BCE",
+            "label": "Amarna"
+          },
+          {
+            "date": "8th c. CE",
+            "label": "Kailasa"
+          },
+          {
+            "date": "9th–13th c.",
+            "label": "Chola"
+          }
+        ],
+        "active": 2
+      },
+      {
+        "duration": 15,
+        "date": "Kailasa · construction phases",
+        "title": "What remains under debate?",
+        "lines": [
+          "Poduval proposes five excavation phases.",
+          "Assignments depend on style comparisons.",
+          "Main construction and additions differ.",
+          "Exact completion dates remain uncertain."
+        ],
+        "status": "SCHOLARLY INTERPRETATION",
+        "source": "S06–S07 · Poduval / Impart",
+        "diagram": "temple",
+        "timeline": [
+          {
+            "date": "Planning",
+            "label": "Design"
+          },
+          {
+            "date": "Excavation",
+            "label": "Rock removal"
+          },
+          {
+            "date": "Additions",
+            "label": "Later work"
+          }
+        ],
+        "active": 2,
+        "track_label": "Excavation sequence"
+      },
+      {
+        "duration": 15,
+        "date": "9th–13th centuries CE",
+        "title": "Chola bronzes: the method",
+        "lines": [
+          "Sculptors modelled figures in wax.",
+          "Clay enclosed each wax model.",
+          "Melting removed the wax.",
+          "Metal filled the resulting mould.",
+          "Breaking it released the sculpture."
+        ],
+        "status": "SUPPORTED",
+        "source": "S08 · Smithsonian, 2002–2003",
+        "diagram": "wax",
+        "timeline": [
+          {
+            "date": "Model",
+            "label": "Wax"
+          },
+          {
+            "date": "Mould",
+            "label": "Clay"
+          },
+          {
+            "date": "Casting",
+            "label": "Metal"
+          }
+        ],
+        "active": 2,
+        "track_label": "Casting sequence"
+      },
+      {
+        "duration": 15,
+        "date": "2014 · research date",
+        "title": "Testing transport with water",
+        "lines": [
+          "Fall's team tested sand friction.",
+          "Adding water could reduce friction.",
+          "Excess water reversed the benefit.",
+          "Not every journey is reconstructed."
+        ],
+        "status": "EXPERIMENT / HISTORICAL HYPOTHESIS",
+        "source": "S03 · Fall et al. / PRL abstract",
+        "diagram": "sled",
+        "timeline": [
+          {
+            "date": "2014",
+            "label": "Sand tests"
+          },
+          {
+            "date": "2015",
+            "label": "Residue report"
+          },
+          {
+            "date": "2023",
+            "label": "Tool marks"
+          }
+        ],
+        "active": 0
+      },
+      {
+        "duration": 15,
+        "date": "2023 · research date",
+        "title": "Reading the tool marks",
+        "lines": [
+          "Serotta examines marks and experiments.",
+          "Pounding and abrasion shaped stone.",
+          "Finishing can erase tool traces.",
+          "Some tool identifications remain disputed."
+        ],
+        "status": "EVIDENCE / INTERPRETATION",
+        "source": "S01 · Serotta / Museo Egizio",
+        "diagram": "tools",
+        "timeline": [
+          {
+            "date": "2014",
+            "label": "Sand tests"
+          },
+          {
+            "date": "2015",
+            "label": "Residue report"
+          },
+          {
+            "date": "2023",
+            "label": "Tool marks"
+          }
+        ],
+        "active": 2
+      },
+      {
+        "duration": 15,
+        "date": "Investigation questions",
+        "title": "Follow evidence through each step",
+        "lines": [
+          "Which workshop made the object?",
+          "Which patron financed each phase?",
+          "Which materials supplied the tools?",
+          "Hypotheses require evidence."
+        ],
+        "status": "OPEN QUESTIONS",
+        "source": "Source register: S01–S08 · accompanying HTML",
+        "diagram": "evidence",
+        "timeline": [
+          {
+            "date": "Observe",
+            "label": "Marks"
+          },
+          {
+            "date": "Compare",
+            "label": "Experiments"
+          },
+          {
+            "date": "Test",
+            "label": "Explanations"
+          }
+        ],
+        "active": 2,
+        "track_label": "Investigation steps"
+      }
+    ]
+  },
+  {
+    "id": "dynasties",
+    "title": "Dynasties: influence and evidence",
+    "subtitle": "Rothschild first | Captions. No narration.",
+    "scenes": [
+      {
+        "duration": 15,
+        "date": "1770s–1821 · Rothschild",
+        "title": "How did influence develop?",
+        "lines": [
+          "The business developed in Frankfurt.",
+          "Five houses connected Europe's markets.",
+          "Liedtke studies their agent networks.",
+          "Letters and credit aided transactions."
+        ],
+        "status": "RECORDS / SCHOLARLY EXPLANATION",
+        "source": "R1 · Rainer Liedtke, 2016",
+        "diagram": "network",
+        "timeline": [
+          {
+            "date": "1770s",
+            "label": "Frankfurt"
+          },
+          {
+            "date": "1815",
+            "label": "Waterloo"
+          },
+          {
+            "date": "1875",
+            "label": "Suez loan"
+          },
+          {
+            "date": "1917",
+            "label": "Balfour"
+          },
+          {
+            "date": "2025",
+            "label": "Ownership"
+          }
+        ],
+        "active": 0
+      },
+      {
+        "duration": 15,
+        "date": "1815 · Waterloo",
+        "title": "Financing and a disputed story",
+        "lines": [
+          "Britain commissioned troop financing.",
+          "A market-crash story followed Waterloo.",
+          "Cathcart challenges its evidence.",
+          "Possible profits remain unquantified."
+        ],
+        "status": "FINANCING SUPPORTED / MYTH UNPROVEN",
+        "source": "R2–R3 · Archive / Cathcart excerpts",
+        "diagram": "bank",
+        "timeline": [
+          {
+            "date": "1770s",
+            "label": "Frankfurt"
+          },
+          {
+            "date": "1815",
+            "label": "Waterloo"
+          },
+          {
+            "date": "1875",
+            "label": "Suez loan"
+          },
+          {
+            "date": "1917",
+            "label": "Balfour"
+          },
+          {
+            "date": "2025",
+            "label": "Ownership"
+          }
+        ],
+        "active": 1
+      },
+      {
+        "duration": 15,
+        "date": "1875–1876 · Suez",
+        "title": "A loan with receipts",
+        "lines": [
+          "Britain bought the Khedive's shares.",
+          "Rothschild supplied four million pounds.",
+          "Treasury records document repayment.",
+          "Financing involved dealings with ministers."
+        ],
+        "status": "SUPPORTED / SCOPED INFERENCE",
+        "source": "R4–R5 · Rothschild / Bank of England archives",
+        "diagram": "bank",
+        "timeline": [
+          {
+            "date": "1770s",
+            "label": "Frankfurt"
+          },
+          {
+            "date": "1815",
+            "label": "Waterloo"
+          },
+          {
+            "date": "1875",
+            "label": "Suez loan"
+          },
+          {
+            "date": "1917",
+            "label": "Balfour"
+          },
+          {
+            "date": "2025",
+            "label": "Ownership"
+          }
+        ],
+        "active": 2
+      },
+      {
+        "duration": 15,
+        "date": "1917 · Balfour's letter",
+        "title": "Consultation shows access",
+        "lines": [
+          "Officials consulted Walter Rothschild.",
+          "The Cabinet approved the declaration.",
+          "Walter received Balfour's letter.",
+          "Consultation does not establish control."
+        ],
+        "status": "DOCUMENTED ACCESS / CONTROL UNPROVEN",
+        "source": "R6–R7 · British Library / declaration transcript",
+        "diagram": "evidence",
+        "timeline": [
+          {
+            "date": "1770s",
+            "label": "Frankfurt"
+          },
+          {
+            "date": "1815",
+            "label": "Waterloo"
+          },
+          {
+            "date": "1875",
+            "label": "Suez loan"
+          },
+          {
+            "date": "1917",
+            "label": "Balfour"
+          },
+          {
+            "date": "2025",
+            "label": "Ownership"
+          }
+        ],
+        "active": 3
+      },
+      {
+        "duration": 15,
+        "date": "2023–2025 · company ownership",
+        "title": "Define the institution",
+        "lines": [
+          "Concordia led the company privatisation.",
+          "Family and investors hold shares.",
+          "This describes Rothschild and Company.",
+          "It cannot establish ownership everywhere."
+        ],
+        "status": "COMPANY DISCLOSURE",
+        "source": "R8–R9 · Rothschild & Co / Concordia",
+        "diagram": "ownership",
+        "timeline": [
+          {
+            "date": "1770s",
+            "label": "Frankfurt"
+          },
+          {
+            "date": "1815",
+            "label": "Waterloo"
+          },
+          {
+            "date": "1875",
+            "label": "Suez loan"
+          },
+          {
+            "date": "1917",
+            "label": "Balfour"
+          },
+          {
+            "date": "2025",
+            "label": "Ownership"
+          }
+        ],
+        "active": 4
+      },
+      {
+        "duration": 15,
+        "date": "Europe / United States",
+        "title": "Medici and Rockefeller",
+        "lines": [
+          "Medici patronage promoted their authority.",
+          "Medici rule ended in 1737.",
+          "Standard Oil faced dissolution: 1911.",
+          "Rockefeller grants financed research."
+        ],
+        "status": "SUPPORTED / INSTITUTIONAL LIMITS",
+        "source": "D1–D5 · Met / Uffizi / archives / court",
+        "diagram": "bank",
+        "timeline": [
+          {
+            "date": "1537",
+            "label": "Cosimo: duke"
+          },
+          {
+            "date": "1737",
+            "label": "Medici end"
+          },
+          {
+            "date": "1911",
+            "label": "Oil breakup"
+          },
+          {
+            "date": "1913",
+            "label": "Foundation"
+          }
+        ],
+        "active": 3
+      },
+      {
+        "duration": 15,
+        "date": "Asia · Japan / India",
+        "title": "Mitsui and the Mughals",
+        "lines": [
+          "Mitsui trading began in 1673.",
+          "Occupation reforms dismantled family ownership.",
+          "Mughal rule began in 1526.",
+          "Their sovereignty ended in 1858."
+        ],
+        "status": "SUPPORTED / STRUCTURES CHANGE",
+        "source": "D6–D11 · Mitsui Bunko / Met / British Library",
+        "diagram": "evidence",
+        "timeline": [
+          {
+            "date": "1526",
+            "label": "Mughal rule"
+          },
+          {
+            "date": "1673",
+            "label": "Mitsui trade"
+          },
+          {
+            "date": "1858",
+            "label": "Mughal end"
+          },
+          {
+            "date": "1946",
+            "label": "Honsha dissolves"
+          }
+        ],
+        "active": 3
+      },
+      {
+        "duration": 15,
+        "date": "Evaluate each allegation",
+        "title": "Power needs a mechanism",
+        "lines": [
+          "Identify the person and institution.",
+          "Connect actions with outcomes.",
+          "Compare explanations and counterevidence.",
+          "Influence does not establish omnipotence."
+        ],
+        "status": "RESEARCH METHOD",
+        "source": "Sources and limits in accompanying HTML",
+        "diagram": "evidence",
+        "timeline": [
+          {
+            "date": "Records",
+            "label": "What happened?"
+          },
+          {
+            "date": "Mechanism",
+            "label": "How?"
+          },
+          {
+            "date": "Limits",
+            "label": "What fails?"
+          }
+        ],
+        "active": 2,
+        "track_label": "Investigation steps"
+      }
+    ]
+  }
+]

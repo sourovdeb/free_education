@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-10-07",
+  "wordpress": [
+    {
+      "id": 3964,
+      "title": "Egypt and India Sculpture: Evidence and Hypotheses",
+      "status": "draft",
+      "link": "https://sourovdeb.com/?p=3964",
+      "date": "2026-10-07T13:16:01",
+      "editor_url": "https://sourovdeb.com/wp-admin/post.php?post=3964&action=edit",
+      "verification": {
+        "id": 3964,
+        "status": "draft",
+        "contentExact": true,
+        "hasVideo": true,
+        "hasFutureVideo": true,
+        "noPlaceholder": true
+      }
+    },
+    {
+      "id": 3965,
+      "title": "Dynasties and Influence: Starting with Rothschild",
+      "status": "draft",
+      "link": "https://sourovdeb.com/?p=3965",
+      "date": "2026-10-07T13:16:01",
+      "editor_url": "https://sourovdeb.com/wp-admin/post.php?post=3965&action=edit",
+      "verification": {
+        "id": 3965,
+        "status": "draft",
+        "contentExact": true,
+        "hasVideo": true,
+        "hasFutureVideo": true,
+        "noPlaceholder": true
+      }
+    }
+  ],
+  "media": {
+    "sculptures": {
+      "id": 3962,
+      "source_url": "https://sourovdeb.com/wp-content/uploads/2026/10/sculptures-evidence-timeline-2026-10-07.mp4",
+      "mime_type": "video/mp4",
+      "title": "Egypt and India sculpture timeline",
+      "file_size": 670826
+    },
+    "dynasties": {
+      "id": 3963,
+      "source_url": "https://sourovdeb.com/wp-content/uploads/2026/10/dynasties-evidence-timeline-2026-10-07.mp4",
+      "mime_type": "video/mp4",
+      "title": "Dynasties timeline starting with Rothschild",
+      "file_size": 684354
+    }
+  },
+  "videos": {
+    "sculptures": {
+      "duration_seconds": 120,
+      "width": 1280,
+      "height": 720,
+      "fps": 25,
+      "codec": "h264",
+      "audio": false
+    },
+    "dynasties": {
+      "duration_seconds": 120,
+      "width": 1280,
+      "height": 720,
+      "fps": 25,
+      "codec": "h264",
+      "audio": false
+    }
+  }
+}
