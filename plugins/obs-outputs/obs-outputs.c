@@ -9,16 +9,19 @@ OBS_DECLARE_MODULE()
 OBS_MODULE_USE_DEFAULT_LOCALE("obs-outputs", "en-US")
 MODULE_EXPORT const char *obs_module_description(void)
 {
-	return "OBS core RTMP/FLV/null outputs";
+	return "OBS core MP4/MOV/null outputs";
 }
 
-extern struct obs_output_info rtmp_output_info;
 extern struct obs_output_info null_output_info;
-extern struct obs_output_info flv_output_info;
 extern struct obs_output_info mp4_output_info;
 extern struct obs_output_info mov_output_info;
+#ifdef ENABLE_STREAMING
+extern struct obs_output_info rtmp_output_info;
+extern struct obs_output_info flv_output_info;
+#endif
 
 #if defined(_WIN32) && defined(MBEDTLS_THREADING_ALT)
+#if defined(ENABLE_STREAMING)
 void mbed_mutex_init(mbedtls_threading_mutex_t *m)
 {
 	CRITICAL_SECTION *c = bzalloc(sizeof(CRITICAL_SECTION));
@@ -48,9 +51,11 @@ int mbed_mutex_unlock(mbedtls_threading_mutex_t *m)
 	return 0;
 }
 #endif
+#endif
 
 bool obs_module_load(void)
 {
+#ifdef ENABLE_STREAMING
 #ifdef _WIN32
 	WSADATA wsad;
 	WSAStartup(MAKEWORD(2, 2), &wsad);
@@ -59,10 +64,15 @@ bool obs_module_load(void)
 #if defined(_WIN32) && defined(MBEDTLS_THREADING_ALT)
 	mbedtls_threading_set_alt(mbed_mutex_init, mbed_mutex_free, mbed_mutex_lock, mbed_mutex_unlock);
 #endif
+#endif
 
+#ifdef ENABLE_STREAMING
 	obs_register_output(&rtmp_output_info);
+#endif
 	obs_register_output(&null_output_info);
+#ifdef ENABLE_STREAMING
 	obs_register_output(&flv_output_info);
+#endif
 	obs_register_output(&mp4_output_info);
 	obs_register_output(&mov_output_info);
 	return true;
@@ -70,7 +80,7 @@ bool obs_module_load(void)
 
 void obs_module_unload(void)
 {
-#ifdef _WIN32
+#if defined(ENABLE_STREAMING) && defined(_WIN32)
 #ifdef MBEDTLS_THREADING_ALT
 	mbedtls_threading_free_alt();
 #endif
