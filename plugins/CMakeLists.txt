@@ -90,7 +90,10 @@ add_core_module(obs-ffmpeg)
 add_core_module(obs-filters)
 add_core_module(obs-libfdk)
 add_core_module(obs-nvenc PLATFORMS WINDOWS LINUX)
-add_core_module(obs-outputs)
+option(ENABLE_STREAMING "Enable streaming outputs (RTMP/FLV)" OFF)
+if(ENABLE_STREAMING)
+  add_core_module(obs-outputs)
+endif()
 add_core_module(
     obs-qsv11
     PLATFORMS WINDOWS LINUX
@@ -103,13 +106,17 @@ add_core_module(
     PLATFORMS WINDOWS MACOS LINUX
     WITH_MESSAGE
 )
-add_core_module(obs-webrtc)
+if(ENABLE_STREAMING)
+  add_core_module(obs-webrtc)
+endif()
 
 check_obs_websocket()
 
 add_core_module(obs-x264)
 add_core_module(oss-audio PLATFORMS FREEBSD OPENBSD)
-add_core_module(rtmp-services)
+if(ENABLE_STREAMING)
+  add_core_module(rtmp-services)
+endif()
 add_core_module(sndio PLATFORMS LINUX FREEBSD OPENBSD)
 add_core_module(text-freetype2)
 add_core_module(vlc-video WITH_MESSAGE)
