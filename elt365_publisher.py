@@ -15,7 +15,11 @@ import time
 import os
 
 ENDPOINT = "https://sourovdeb.com/wp-json/sourov/v1/ai-post"
-API_KEY = os.environ.get("SOUROV_WP_KEY", "")
+API_KEY = os.getenv('SOUROV_WP_KEY')
+if not API_KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
 DISCLAIMER = (
     "<p><em>Independent project; not affiliated with, endorsed by, or accredited by "
     "Cambridge University Press &amp; Assessment. Confers no qualification.</em></p>"

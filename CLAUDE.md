@@ -161,7 +161,7 @@ This repository contains free educational content that syncs to sourovdeb.com.
 
 ### How it works
 - **Script**: `sync_verification.py` (pairs with my_professional_documents)
-- **Auth**: WordPress REST API with `X-Sourov-Key` header
+- **Auth**: WordPress REST API with `X-Sourov-Key` header. The key is read from the `SOUROV_WP_KEY` environment variable (scripts abort if it is unset). Do not hardcode or commit it.
 - **Endpoint**: `https://sourovdeb.com/wp-json/sourov/v1/ai-post`
 - **Output**: Draft posts on WordPress (never auto-published)
 - **Dedup**: Checks title against existing posts

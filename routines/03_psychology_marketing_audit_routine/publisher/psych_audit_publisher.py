@@ -5,12 +5,16 @@ Posts the ego-depletion audit micro-blog as a DRAFT via the custom WP endpoint,
 following the same pattern as elt365_lessons_publisher.py.
 """
 
-import urllib.request
+import urllib.request, os
 import urllib.error
 import json
 
 WP_ENDPOINT = "https://www.sourovdeb.com/wp-json/sourov/v1/ai-post"
-WP_KEY = "REDACTED"
+WP_KEY = os.getenv('SOUROV_WP_KEY')
+if not WP_KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
 MENTAL_HEALTH_CATEGORY_ID = 582
 
 POST = {

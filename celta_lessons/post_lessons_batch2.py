@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
-import requests, time
+import requests, time, os
 
 API_URL = "https://www.sourovdeb.com/wp-json/sourov/v1/ai-post"
-HEADERS = {"X-Sourov-Key": "REDACTED", "Content-Type": "application/json"}
-
+WP_KEY = os.getenv('SOUROV_WP_KEY')
+if not WP_KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
+HEADERS = {"X-Sourov-Key": WP_KEY, "Content-Type": "application/json"}
 LC = {
     "A1":       {"c":"#27ae60","bg":"#eafaf1","lbl":"A1 Beginner","em":"🌱"},
     "A2":       {"c":"#2980b9","bg":"#ebf5fb","lbl":"A2 Elementary","em":"🌿"},

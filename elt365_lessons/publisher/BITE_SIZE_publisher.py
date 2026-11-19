@@ -3,13 +3,17 @@
 Create 30 CELTA-style interactive HTML lessons as WordPress drafts.
 Personal experience: Sourov Deb — 18 yrs hospitality Sydney, immigration story,
 4 languages, La Réunion life, daughter, Cambridge CELTA course completed.
-Key: REDACTED
+Auth: X-Sourov-Key header; key is read from SOUROV_WP_KEY.
 No Claude/Anthropic trademarks. No "certified/qualified" for CELTA.
 """
-import urllib.request, json, time, sys
+import urllib.request, json, time, sys, os
 
 WP_API  = "https://www.sourovdeb.com/wp-json/sourov/v1/ai-post"
-WP_KEY  = "REDACTED"
+WP_KEY = os.getenv('SOUROV_WP_KEY')
+if not WP_KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
 CAT_ELT = 9   # English Teaching
 
 DISCLAIMER = '<p style="font-size:0.72em;color:#a0aec0;text-align:center;margin-top:30px;border-top:1px solid #e2e8f0;padding-top:15px;"><em>Independent project; not affiliated with, endorsed by, or accredited by Cambridge University Press &amp; Assessment. Confers no qualification.</em></p>'

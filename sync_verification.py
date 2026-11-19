@@ -11,7 +11,11 @@ from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
-API_KEY = "REDACTED"
+API_KEY = os.getenv('SOUROV_WP_KEY')
+if not API_KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
 WP_URL = "https://sourovdeb.com"
 WP_ENDPOINT = f"{WP_URL}/wp-json/sourov/v1"
 

@@ -146,10 +146,13 @@ pip install PyQt6 transformers torch pandas requests beautifulsoup4 yt-dlp
 
 ### Publish lessons to WordPress
 ```bash
+export SOUROV_WP_KEY='your-wordpress-ai-post-key'
 cd routines/01_elt365_lessons_routine/publisher/
 python elt365_lessons_publisher.py
 ```
-Publishes all lessons as drafts to sourovdeb.com
+Publishes all lessons as drafts to sourovdeb.com.
+
+Publisher scripts (and `sync_verification.py`) read the WordPress `X-Sourov-Key` from the `SOUROV_WP_KEY` environment variable and exit with an error if it is unset. Do not commit the key.
 
 ---
 

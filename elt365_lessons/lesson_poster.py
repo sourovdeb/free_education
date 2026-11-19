@@ -6,7 +6,11 @@ Usage: SOUROV_WP_KEY=<key> python3 lesson_poster.py
 import json, os, time, requests
 
 WP_ENDPOINT = "https://www.sourovdeb.com/wp-json/sourov/v1/ai-post"
-WP_KEY = os.environ["SOUROV_WP_KEY"]
+WP_KEY = os.getenv('SOUROV_WP_KEY')
+if not WP_KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
 HEADERS = {"X-Sourov-Key": WP_KEY, "Content-Type": "application/json"}
 
 DISCLAIMER = (

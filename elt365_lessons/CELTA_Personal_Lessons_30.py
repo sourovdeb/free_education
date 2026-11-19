@@ -20,11 +20,14 @@ Compliance:
 - status: "draft" — nothing auto-published
 - No AI tool names/trademarks in content
 """
-import json, time, urllib.request, urllib.error
+import json, time, urllib.request, urllib.error, os
 
 EP  = "https://www.sourovdeb.com/wp-json/sourov/v1/ai-post"
-KEY = "REDACTED"
-
+KEY = os.getenv('SOUROV_WP_KEY')
+if not KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
 def post_wp(d):
     req = urllib.request.Request(
         EP, json.dumps(d).encode(),

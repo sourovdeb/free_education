@@ -5,15 +5,18 @@ Posts 50 bite-size (5-min) lessons as draft to the custom WP endpoint.
 Disclaimer required on every post per SKILL_elt365_micro_lesson_writer §1.3
 """
 
-import urllib.request
+import urllib.request, os
 import urllib.error
 import json
 import time
 import sys
 
 WP_ENDPOINT = "https://www.sourovdeb.com/wp-json/sourov/v1/ai-post"
-WP_KEY = "REDACTED"
-
+WP_KEY = os.getenv('SOUROV_WP_KEY')
+if not WP_KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
 DISCLAIMER = (
     "<p><em>Independent project; not affiliated with, endorsed by, or accredited by "
     "Cambridge University Press &amp; Assessment. Confers no qualification.</em></p>"

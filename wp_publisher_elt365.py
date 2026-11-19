@@ -3,7 +3,7 @@
 ELT365 batch WordPress publisher.
 Usage: python3 wp_publisher_elt365.py
 Posts Days 152-212 (Months 6 & 7) as drafts to sourovdeb.com.
-Credential: X-Sourov-Key from .env or hardcoded for local use only.
+Credential: X-Sourov-Key from the SOUROV_WP_KEY environment variable (aborts if unset).
 """
 import json
 import urllib.request
@@ -12,7 +12,11 @@ import time
 import os
 
 WP_ENDPOINT = "https://sourovdeb.com/wp-json/sourov/v1/ai-post"
-WP_KEY = os.environ.get("SOUROV_KEY", "")
+WP_KEY = os.getenv('SOUROV_WP_KEY')
+if not WP_KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
 DISCLAIMER = (
     "<hr><p><em>Independent project; not affiliated with, endorsed by, or accredited "
     "by Cambridge University Press &amp; Assessment. Confers no qualification.</em></p>"

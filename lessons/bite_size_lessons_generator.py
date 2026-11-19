@@ -6,7 +6,7 @@ Personal note:
   CELTA teacher training in Landerneau (2026), and life in La Reunion.
 
 Usage:
-  export WP_KEY=your_key_here
+  export SOUROV_WP_KEY=your_key_here
   python3 bite_size_lessons_generator.py
 
 Disclaimer:
@@ -16,7 +16,11 @@ Disclaimer:
 import os, requests, json, time
 
 API_URL = "https://www.sourovdeb.com/wp-json/sourov/v1/ai-post"
-KEY = os.environ.get("WP_KEY", "")  # Set via environment — never hardcode
+KEY = os.getenv('SOUROV_WP_KEY')
+if not KEY:
+    raise SystemExit(
+        'ERROR: environment variable SOUROV_WP_KEY is not set. Export your WordPress ai-post API key before running this script.'
+    )
 
 DISCLAIMER = (
     '<p style="font-size:11px;color:#777;border-top:1px solid #e0e0e0;'
