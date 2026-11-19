@@ -15,8 +15,8 @@
 
 ## In this repository (last 3 months)
 
-- [ELT365 modules](elt365/) and [elt365_lessons](elt365_lessons/) — micro-course lessons, updated through 2026-10
-- [transcript-visual-director v1.0.0](transcript-visual-director-v1.0.0/) and [v1.1.0](transcript-visual-director-v1.1.0/) — teaching video plans
+- [ELT365 modules and lessons](elt365_lessons/) — micro-course lessons, updated through 2026-10 (`ELT365/` and `elt365/` were merged into this folder)
+- [transcript-visual-director v1.1.0](transcript-visual-director-v1.1.0/) — teaching video plans
 - [storyboard-factory-v3](storyboard-factory-v3/) and [classic-storyboard-series](classic-storyboard-series/) — ten-book storyboard series (2026-09-29)
 - [routines](routines/) — psychology research audits, human-nature units with slides (2026-09/10)
 - [built-with-script-1.0.0](built-with-script-1.0.0/) — Apps Script teaching-automation kit

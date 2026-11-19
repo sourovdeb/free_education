@@ -2,9 +2,9 @@
 
 ## First install
 
-1. Download source-notebook-wordpress-theme.zip.
+1. Zip the `wordpress-source-notebook` folder in this pack (WordPress needs a zip to upload a theme).
 2. In WordPress, open Appearance, Themes, Add New, Upload Theme.
-3. Upload the ZIP, preview it, then activate only when satisfied.
+3. Upload that zip, preview it, then activate only when satisfied.
 
 This theme changes presentation only. It does not move posts, change links, edit categories, or alter media.
 

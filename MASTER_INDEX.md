@@ -544,7 +544,7 @@ free_education/
 │       ├── README.md
 │       └── 2026-07-05_antidepressant-placebo-audit.md
 │
-├── elt365_lessons/                        ← Original (keep for compatibility)
+├── elt365_lessons/                        ← ELT365 lessons (ELT365/ and elt365/ merged here)
 │   ├── ELT365_M06_Receptive_Skills_D152-181.md
 │   ├── PRO_Professional_Development_10_Lessons.md
 │   ├── YL_Young_Learners_10_Lessons.md

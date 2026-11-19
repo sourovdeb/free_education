@@ -2,9 +2,9 @@
 
 ## Publish without a build tool
 
-1. Download source-notebook-github-pages.zip.
+1. Copy the files in this folder (`github-pages-source-notebook`).
 2. Create a GitHub repository.
-3. Upload the contents of github-pages-source-notebook.
+3. Upload those files to the repository root.
 4. In repository Settings, Pages, choose the main branch and root folder.
 
 ## What to edit first
