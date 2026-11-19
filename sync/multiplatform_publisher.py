@@ -17,17 +17,26 @@ from typing import Dict, List, Any, Tuple
 from urllib.parse import quote
 
 # ==== ENVIRONMENT CONFIGURATION ====
-WP_USER = os.getenv("WP_USER", "sourovdeb@zohomail.com")
-WP_PASS = os.getenv("WP_PASS", "REDACTED")
+def _require_env(name: str) -> str:
+    val = os.getenv(name)
+    if not val:
+        raise SystemExit(
+            f"ERROR: environment variable {name} is not set. "
+            "Export it before running this script."
+        )
+    return val
+
+WP_USER = _require_env("WP_USER")
+WP_PASS = _require_env("WP_PASS")
 WP_ENDPOINT = "https://www.sourovdeb.com/wp-json/wp/v2/posts"
 
-DEVTO_KEY = os.getenv("DEVTO_KEY", "REDACTED")
+DEVTO_KEY = _require_env("DEVTO_KEY")
 DEVTO_ENDPOINT = "https://dev.to/api/articles"
 
-BOX_TOKEN = os.getenv("BOX_TOKEN", "REDACTED")
+BOX_TOKEN = _require_env("BOX_TOKEN")
 
-INDEXNOW_KEY = os.getenv("INDEXNOW_KEY", "REDACTED")
-INDEXNOW_URLS = "https://www.sourovdeb.com/REDACTED.txt"
+INDEXNOW_KEY = _require_env("INDEXNOW_KEY")
+INDEXNOW_URLS = f"https://www.sourovdeb.com/{INDEXNOW_KEY}.txt"
 
 SITE_URL = "https://www.sourovdeb.com"
 BATCH_SIZE = 10  # Process in batches
