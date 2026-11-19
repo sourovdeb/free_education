@@ -1,0 +1,226 @@
+{
+  "checked_on": "2026-10-01",
+  "video_access": "Descriptions read; videos not watched; captions empty.",
+  "videos": [
+    {
+      "videoId": "HqlhGYi3rpc",
+      "title": "How to make VIRAL 2D Stick figure Animation Shorts (Step by Step)",
+      "author": "SHIN LOGIC",
+      "lengthSeconds": "1973",
+      "url": "https://www.youtube.com/watch?v=HqlhGYi3rpc",
+      "viewing_status": "Description read; video not watched",
+      "caption_fetch": {
+        "http_status": 200,
+        "response_bytes": 0,
+        "available": false
+      },
+      "description_summary": "A 32m53s tutorial on Blender Grease Pencil stick figure animation. Published chapters cover reference import, drawing, coloring, rigging, weight painting, testing, expressions, Time Offset modifier, animation and background."
+    },
+    {
+      "videoId": "_J3H6Lfwxu0",
+      "title": "How to Use Codex CLI + Blender MCP to Build 3D Scenes with ChatGPT 6 Astra",
+      "author": "Kazi Ahmed",
+      "lengthSeconds": "181",
+      "url": "https://www.youtube.com/watch?v=_J3H6Lfwxu0",
+      "viewing_status": "Description read; video not watched",
+      "caption_fetch": {
+        "http_status": 200,
+        "response_bytes": 0,
+        "available": false
+      },
+      "description_summary": "A 3m01s tutorial describing Codex CLI with Blender MCP to procedurally construct and light a hospital corridor with props and a slow camera push-in. Description specifies an 8-second 1920x1080 24fps render and no downloaded assets or textures. The description links the ahujasid Blender MCP repository."
+    }
+  ],
+  "playlist": {
+    "url": "https://www.youtube.com/playlist?list=PLw86iS0BRh9MONe9EI6Ikp4BJja3Itb-d",
+    "title": "Storyboard and Animatic tutorial / Blender Grease Pencil - YouTube",
+    "entries": [],
+    "status": "Playlist title verified; legacy playlistVideoRenderer entries unavailable; raw visible IDs recorded without asserting order or completeness.",
+    "visible_video_ids": [
+      "OR5H3ZEwe8I",
+      "4oQ6gFjrPkM",
+      "zaYCUfrzgGk",
+      "3NvXpZMEZZU",
+      "bEgROwSrTWI",
+      "sSVB3Uekzos",
+      "Uys1cHzTLhM",
+      "3wa-SIbRYRE",
+      "KHHIeNbtdjo",
+      "NlA7B9apgSw",
+      "zRqdSIrxWRM",
+      "Pya3OBs2jYM",
+      "TznbEJETrVo",
+      "-bPCTGNyBbE"
+    ],
+    "visible_entries_metadata": [
+      {
+        "id": "OR5H3ZEwe8I",
+        "title": "Greace Pencil Cinematic in Blender for Beginers | All Parts in one video | 2023 | Storyboarding",
+        "author": "Stan Shakhov / Land of Animation ",
+        "http_status": 200
+      },
+      {
+        "id": "4oQ6gFjrPkM",
+        "title": "John Wick action scene / Storyboard Animatic Timelapse part 002 #Blender #GreasePencil #Animatic",
+        "author": "Stan Shakhov / Land of Animation ",
+        "http_status": 200
+      },
+      {
+        "id": "zaYCUfrzgGk",
+        "title": "Blender tutorial / John Wick 3d action cinematic scene / Timelaps / GreasePencil / part 2",
+        "author": "Stan Shakhov / Land of Animation ",
+        "http_status": 200
+      },
+      {
+        "id": "3NvXpZMEZZU",
+        "title": "action scene motion storyboard for Sword of the Stranger / time-lapse #Blender #GreasePencil",
+        "author": "Stan Shakhov / Land of Animation ",
+        "http_status": 200
+      },
+      {
+        "id": "bEgROwSrTWI",
+        "title": "Blender tutorial / John Wick 3d action cinematic scene / Timelaps / GreasePencil / part 1",
+        "author": "Stan Shakhov / Land of Animation ",
+        "http_status": 200
+      },
+      {
+        "id": "sSVB3Uekzos",
+        "error": "JSONDecodeError"
+      },
+      {
+        "id": "Uys1cHzTLhM",
+        "error": "JSONDecodeError"
+      },
+      {
+        "id": "3wa-SIbRYRE",
+        "error": "JSONDecodeError"
+      },
+      {
+        "id": "KHHIeNbtdjo",
+        "title": "How to create an animatic in Blender using the Grease Pencil tool - Part 4 - Tutorial",
+        "author": "Stan Shakhov / Land of Animation ",
+        "http_status": 200
+      },
+      {
+        "id": "NlA7B9apgSw",
+        "error": "JSONDecodeError"
+      },
+      {
+        "id": "zRqdSIrxWRM",
+        "error": "JSONDecodeError"
+      },
+      {
+        "id": "Pya3OBs2jYM",
+        "title": "Time-laps / animatic of one shot / Daily training / Blender",
+        "author": "Stan Shakhov / Land of Animation ",
+        "http_status": 200
+      },
+      {
+        "id": "TznbEJETrVo",
+        "title": "How to create location for animatic John Wick",
+        "author": "Stan Shakhov / Land of Animation ",
+        "http_status": 200
+      },
+      {
+        "id": "-bPCTGNyBbE",
+        "title": "How to draw storyboard faster or 3D character as a tool to speed up your work with a storyboard",
+        "author": "Stan Shakhov / Land of Animation ",
+        "http_status": 200
+      }
+    ]
+  },
+  "technical_docs": [
+    {
+      "url": "https://raw.githubusercontent.com/ahujasid/blender-mcp/main/README.md",
+      "http_status": 200,
+      "bytes": 34386,
+      "title": [],
+      "observed_facts": [
+        "Third-party integration, not made by Blender.",
+        "README states package renamed mcp-for-blender; old blender-mcp remains supported.",
+        "README describes separate MCP server and Blender addon. Existing config should be preserved.",
+        "No installation or config changes performed."
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Blender-IO/main/README.md",
+      "http_status": 200,
+      "bytes": 5726,
+      "title": [],
+      "observed_facts": [
+        "Official Khronos glTF importer/exporter repository.",
+        "Bundled with Blender 2.80 and higher.",
+        "Shared importer/exporter code supports round-trip workflows."
+      ]
+    },
+    {
+      "url": "https://docs.blender.org/api/current/bpy.types.TextCurve.html",
+      "http_status": 200,
+      "bytes": 398261,
+      "title": [
+        "TextCurve(Curve) - Blender Python API"
+      ],
+      "verified_terms": [
+        "extrude",
+        "bevel_depth",
+        "align_x",
+        "body",
+        "size"
+      ]
+    },
+    {
+      "url": "https://docs.blender.org/manual/en/latest/render/output/properties/output.html",
+      "http_status": 200,
+      "bytes": 486929,
+      "title": [
+        "Output - Blender 5.2 LTS Manual"
+      ],
+      "verified_terms": [
+        "RGBA",
+        "PNG",
+        "image sequence",
+        "File Extensions"
+      ]
+    },
+    {
+      "url": "https://docs.blender.org/manual/en/latest/grease_pencil/modifiers/modify/time_offset.html",
+      "http_status": 404,
+      "bytes": 442651,
+      "title": [
+        "Not Found (404) - Blender 5.2 LTS Manual"
+      ]
+    }
+  ],
+  "source_references": [
+    {
+      "id": "orwell-official-essay",
+      "title": "Politics and the English Language",
+      "author": "George Orwell",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+      "provider": "The Orwell Foundation",
+      "status": "LIVE_PAGE_OPENED",
+      "kind": "Officially hosted essay",
+      "reuse": "Link/reference only in this register. Site states copyright remains in some jurisdictions and hosting is with Orwell Estate permission. No full text copied."
+    },
+    {
+      "id": "greene-publisher",
+      "title": "The Laws of Human Nature",
+      "author": "Robert Greene",
+      "url": "https://www.penguinrandomhouse.com/books/317474/the-laws-of-human-nature-by-robert-greene/9780698184541/",
+      "provider": "Penguin Random House",
+      "status": "LIVE_PAGE_OPENED",
+      "kind": "Publisher book metadata and reader resource",
+      "reuse": "Link/reference only. No book text or cover copied; user-selected authorized passages remain required for passage-level production."
+    },
+    {
+      "id": "democracy-primary-example",
+      "title": "Declaration of Independence: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "provider": "US National Archives",
+      "status": "LIVE_PAGE_OPENED",
+      "kind": "Primary document transcription",
+      "scope": "Candidate source reference only; not a comprehensive history of democracy and not the user's selected book or global chronology.",
+      "reuse": "No text copied. Source selection and historical asset assignments remain UNKNOWN."
+    }
+  ]
+}

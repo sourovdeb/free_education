@@ -1,0 +1,54 @@
+{
+  "reopened": true,
+  "asset_roots": 9,
+  "glb_files": 9,
+  "glb_imports": [
+    {
+      "id": "EDU001",
+      "mesh_count": 15,
+      "imported": true
+    },
+    {
+      "id": "EDU002",
+      "mesh_count": 4,
+      "imported": true
+    },
+    {
+      "id": "EDU003",
+      "mesh_count": 4,
+      "imported": true
+    },
+    {
+      "id": "EDU004",
+      "mesh_count": 5,
+      "imported": true
+    },
+    {
+      "id": "EDU005",
+      "mesh_count": 4,
+      "imported": true
+    },
+    {
+      "id": "EDU006",
+      "mesh_count": 5,
+      "imported": true
+    },
+    {
+      "id": "EDU007",
+      "mesh_count": 11,
+      "imported": true
+    },
+    {
+      "id": "EDU008",
+      "mesh_count": 6,
+      "imported": true
+    },
+    {
+      "id": "EDU009",
+      "mesh_count": 10,
+      "imported": true
+    }
+  ],
+  "contact_sheet": 997830,
+  "blender": "5.2.1 LTS"
+}

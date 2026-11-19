@@ -1,0 +1,7 @@
+{
+  "width":1920,"height":1080,"fps":25,"seconds":6,"mode":"side",
+  "subject_safe_rect":[0.34,0.16,0.66,0.88],
+  "title":"STEP BY STEP","caption":"Keep the demonstrated controls visible","text_3d":false,
+  "assets":[{"id":"EDU003","path":"../assets/EDU003.glb","size":1.6,"rotation":[0,0,0]},
+            {"id":"EDU009","path":"../assets/EDU009.glb","size":1.6,"rotation":[0,0,0]}]
+}

@@ -1,0 +1,166 @@
+{
+  "version": "1.0",
+  "license": "CC0-1.0",
+  "units": "metres",
+  "palette": {
+    "navy": "243653",
+    "teal": "35B8A8",
+    "gold": "FFC35A",
+    "paper": "F6EEDA",
+    "coral": "EF786A"
+  },
+  "assets": [
+    {
+      "id": "EDU001",
+      "name": "Open book",
+      "glb": "EDU001.glb",
+      "svg": "EDU001.svg",
+      "png": "EDU001.png",
+      "root": "EDU001",
+      "dimensions_m": [
+        2.074,
+        1.5,
+        0.37
+      ],
+      "original": true,
+      "source_meaning": "UNASSIGNED",
+      "notes": "Parametric original geometry"
+    },
+    {
+      "id": "EDU002",
+      "name": "Writing pen",
+      "glb": "EDU002.glb",
+      "svg": "EDU002.svg",
+      "png": "EDU002.png",
+      "root": "EDU002",
+      "dimensions_m": [
+        0.26,
+        0.25,
+        1.8
+      ],
+      "original": true,
+      "source_meaning": "UNASSIGNED",
+      "notes": "Parametric original geometry"
+    },
+    {
+      "id": "EDU003",
+      "name": "Speech panel",
+      "glb": "EDU003.glb",
+      "svg": "EDU003.svg",
+      "png": "EDU003.png",
+      "root": "EDU003",
+      "dimensions_m": [
+        2.0,
+        0.21,
+        1.592
+      ],
+      "original": true,
+      "source_meaning": "UNASSIGNED",
+      "notes": "Parametric original geometry"
+    },
+    {
+      "id": "EDU004",
+      "name": "Theatrical mask",
+      "glb": "EDU004.glb",
+      "svg": "EDU004.svg",
+      "png": "EDU004.png",
+      "root": "EDU004",
+      "dimensions_m": [
+        1.4,
+        0.584,
+        1.652
+      ],
+      "original": true,
+      "source_meaning": "UNASSIGNED",
+      "notes": "Parametric original geometry"
+    },
+    {
+      "id": "EDU005",
+      "name": "Standing mirror",
+      "glb": "EDU005.glb",
+      "svg": "EDU005.svg",
+      "png": "EDU005.png",
+      "root": "EDU005",
+      "dimensions_m": [
+        1.152,
+        0.65,
+        2.07
+      ],
+      "original": true,
+      "source_meaning": "UNASSIGNED",
+      "notes": "Parametric original geometry"
+    },
+    {
+      "id": "EDU006",
+      "name": "Ballot box",
+      "glb": "EDU006.glb",
+      "svg": "EDU006.svg",
+      "png": "EDU006.png",
+      "root": "EDU006",
+      "dimensions_m": [
+        1.4,
+        1.15,
+        1.89
+      ],
+      "original": true,
+      "source_meaning": "UNASSIGNED",
+      "notes": "Parametric original geometry"
+    },
+    {
+      "id": "EDU007",
+      "name": "Civic columns",
+      "glb": "EDU007.glb",
+      "svg": "EDU007.svg",
+      "png": "EDU007.png",
+      "root": "EDU007",
+      "dimensions_m": [
+        2.1,
+        0.85,
+        1.89
+      ],
+      "original": true,
+      "source_meaning": "UNASSIGNED",
+      "notes": "Parametric original geometry"
+    },
+    {
+      "id": "EDU008",
+      "name": "Relationship nodes",
+      "glb": "EDU008.glb",
+      "svg": "EDU008.svg",
+      "png": "EDU008.png",
+      "root": "EDU008",
+      "dimensions_m": [
+        1.86,
+        0.46,
+        1.76
+      ],
+      "original": true,
+      "source_meaning": "UNASSIGNED",
+      "notes": "Parametric original geometry"
+    },
+    {
+      "id": "EDU009",
+      "name": "Pivot figure",
+      "glb": "EDU009.glb",
+      "svg": "EDU009.svg",
+      "png": "EDU009.png",
+      "root": "EDU009",
+      "dimensions_m": [
+        1.096,
+        0.44,
+        1.914
+      ],
+      "original": true,
+      "source_meaning": "UNASSIGNED",
+      "notes": "Named parent pivots; not a skinned rig"
+    }
+  ],
+  "semantic_gate": "UNKNOWN: TypeSafe credential unavailable; no literary or historical interpretation assigned",
+  "limitations": [
+    "Figure uses object parenting, not skinning or an armature",
+    "Mirror appearance depends on target renderer",
+    "Speech text remains editable in Blender; GLB contains fixed mesh text",
+    "Gallery placement is presentation only; exported GLBs have local origins",
+    "SVG counterparts are simplified original icons, not orthographic geometry exports"
+  ]
+}
