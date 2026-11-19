@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Life Playbook"
+  short_description: "Turn commitments into goals and actions"
+  default_prompt: "Use $build-life-playbook. Review commitments, constraints, and evidence. Build goals and capacity limits."

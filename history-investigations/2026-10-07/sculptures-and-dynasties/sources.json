@@ -1,0 +1,424 @@
+{
+  "checked_date": "2026-10-07",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Reading Tool Marks on Egyptian Stone Sculpture",
+      "author": "Anna Serotta",
+      "publisher": "Rivista del Museo Egizio 7",
+      "date": "2023; precise day not displayed",
+      "url": "https://rivista.museoegizio.it/article/reading-tool-marks-on-egyptian-stone-sculpture/",
+      "doi": "10.29353/rime.2023.5098",
+      "web_ref": "turn3view0",
+      "access": "Full text accessible; sections 1–4.1 inspected, especially lines 77–104 and 147–161.",
+      "kind": "Scholarly primary study: imaging, object examination, carving experiments.",
+      "finding": "Tool marks and experiments support percussion and abrasion. Copper or bronze percussion tools were ineffective on hard stone; copper saws and drills could operate with abrasives. Fine carving with flint is supported as an interpretation, with archaeological uncertainties.",
+      "limitation": "The study chiefly examines small sculptures. Tool composition, practice and chronology remain incompletely reconstructed."
+    },
+    {
+      "id": "S02",
+      "title": "Hidden Secrets of Ancient Egyptian Technology",
+      "author": "Anna Serotta and Federico Carò",
+      "publisher": "The Metropolitan Museum of Art",
+      "date": "2015-05-22",
+      "url": "https://www.metmuseum.org/ru/perspectives/ancient-egyptian-technology",
+      "web_ref": "turn10view0",
+      "access": "Full article inspected, lines 3–40.",
+      "kind": "Museum conservator and scientist report of their analysis.",
+      "finding": "An Amarna fragment dated about 1353–1336 BCE retained corundum, powdered limestone and bronze corrosion inside a drillhole. The authors infer drilling with a bronze tube and corundum-rich abrasive.",
+      "limitation": "One specimen does not establish prevalence. The abrasive's geological origin and procurement remain unresolved.",
+      "dependency": "The 2023 Serotta study cites the same corundum finding; do not count it twice as independent evidence."
+    },
+    {
+      "id": "S03",
+      "title": "Sliding Friction on Wet and Dry Sand",
+      "author": "A. Fall, B. Weber, M. Pakpour, N. Lenoir, N. Shahidzadeh, J. Fiscina, C. Wagner and D. Bonn",
+      "publisher": "Physical Review Letters 112, 175502",
+      "date": "2014-04-29",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.175502",
+      "doi": "10.1103/PhysRevLett.112.175502",
+      "web_ref": "turn6view3",
+      "access": "Publisher abstract and publication metadata inspected; full experimental paper not inspected.",
+      "kind": "Primary experimental research, abstract-level access.",
+      "finding": "Adding some water reduces sliding friction in the tested sands. Capillary bridges increase stiffness. Excess water reverses the benefit; grain-size distribution also matters.",
+      "limitation": "This establishes a physical mechanism, not every Egyptian hauling route, load or construction sequence."
+    },
+    {
+      "id": "S04",
+      "title": "Who Built the Sphinx?",
+      "author": "Mark Lehner",
+      "publisher": "Ancient Egypt Research Associates",
+      "date": "Undated webpage; cited research extends through 2017",
+      "url": "https://aeraweb.org/projects/who-built-the-sphinx/",
+      "web_ref": "turn3view2",
+      "access": "Article inspected, including construction sequence, alternative attribution and notes; lines 20–64 and 82–91.",
+      "kind": "Archaeologist's account of mapping and geological investigation.",
+      "finding": "Matching bedrock layers and temple blocks tie Sphinx quarrying to temple construction. Lehner judges Khafre's attribution stronger than Khufu's, while explicitly distinguishing probability from proof.",
+      "limitation": "Whether Khufu conceived or began the project remains a hypothesis. Some reconstructed block sequences are themselves hypotheses."
+    },
+    {
+      "id": "S05",
+      "title": "Geology of the Sphinx",
+      "author": "Ancient Egypt Research Associates; drawing on K. Lal Gauri and field research",
+      "publisher": "Ancient Egypt Research Associates",
+      "date": "Undated webpage; references Gauri 1995 and Hawass/Lehner 1994",
+      "url": "https://aeraweb.org/geology-of-the-sphinx/",
+      "web_ref": "turn10view1",
+      "access": "Full substantive webpage inspected, lines 13–41.",
+      "kind": "Archaeological research organisation's geological explanation.",
+      "finding": "The Sphinx crosses limestone layers with different properties. A comparison claiming identical layers at the Debehen tomb is incorrect. Rock properties and exposure can explain differential weathering without requiring a prehistoric construction date.",
+      "limitation": "This source critiques older-Sphinx arguments; it is not a direct reading of every proposed alternative. Avoid claiming all weathering questions are closed."
+    },
+    {
+      "id": "S06",
+      "title": "The Architecture of Ellora Caves",
+      "author": "Jayaram Poduval, professor of art history and aesthetics, Maharaja Sayajirao University of Baroda",
+      "publisher": "Sahapedia",
+      "date": "No publication date displayed in retrieved text",
+      "url": "https://www.sahapedia.org/the-architecture-of-ellora-caves",
+      "web_ref": "turn13view2",
+      "access": "Selected relevant sections inspected: introductory analysis, top-down excavation, inscriptions and Kailasa; lines 41–59, 76–97 and 305–381.",
+      "kind": "Named specialist's architectural analysis.",
+      "finding": "Kailasa was cut from the rock from top to bottom. Poduval distinguishes five excavation phases and ties patronage to Rashtrakuta rulers through inscriptions, comparisons and style. He interprets the design as drawing on established regional traditions.",
+      "limitation": "Ruler-by-ruler attribution and excavation phases involve interpretation. A copper plate mentions Krishna, but Cave 16 lacks a site inscription naming its patron."
+    },
+    {
+      "id": "S07",
+      "title": "Kailasanatha Temple, Ellora",
+      "author": "Impart Encyclopedia of Art",
+      "publisher": "Art & Photography Foundation / Museum of Art & Photography",
+      "date": "2022-04-21",
+      "url": "https://imp-art.org/articles/kailasanatha-temple-ellora/",
+      "web_ref": "turn13view1",
+      "access": "Article inspected, especially lines 28–51 and bibliography.",
+      "kind": "Museum-affiliated scholarly synthesis, not an excavation report.",
+      "finding": "The synthesis places the main temple in the eighth century, with subsequent additions. It presents political readings of sculpture and architectural borrowing as scholarly interpretations rather than directly documented patron intentions.",
+      "limitation": "Do not use its tonnage or approximate construction duration as established measurements. The named foundational Dhavalikar 1982 paper was located, but its full text was inaccessible through JSTOR."
+    },
+    {
+      "id": "S08",
+      "title": "The Sensuous and the Sacred: Chola Bronzes from South India",
+      "author": "Smithsonian National Museum of Asian Art",
+      "publisher": "Smithsonian",
+      "date": "Exhibition: 2002-11-10 to 2003-03-09",
+      "url": "https://asia-archive.si.edu/exhibition/the-sensuous-and-the-sacred-chola-bronzes-from-south-india/",
+      "web_ref": "turn6view2",
+      "access": "Full exhibition description inspected, lines 5–11.",
+      "kind": "Museum curatorial explanation of objects and casting.",
+      "finding": "Chola bronzes used lost-wax casting: wax models, clay moulds and molten metal. The mould broke to release the sculpture. Processional images supported worship and royal patronage between the ninth and thirteenth centuries.",
+      "limitation": "This explains the production method; it does not attribute every surviving sculpture to a particular workshop or ruler."
+    },
+    {
+      "id": "R1",
+      "title": "Agents for the Rothschilds: A Nineteenth-Century Information Network",
+      "author": "Rainer Liedtke",
+      "date": "2016",
+      "type": "Scholarly archival research",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/9783110415162-003/html",
+      "inspected_url": "https://www.researchgate.net/publication/344247639_Agents_for_the_Rothschilds_A_Nineteenth-Century_Information_Network",
+      "refs": [
+        "turn4search0",
+        "turn9view4"
+      ],
+      "inspection": "Full chapter text inspected via ResearchGate; publisher bibliographic record verified; publisher page fetch failed.",
+      "supports": "Correspondence across five houses and more than 100 agents; origins 1770s; 1798 Manchester; 1820s–1870s dominance; government loans; liquidity support; no master plan; joint-stock banking competition; missing outgoing correspondence.",
+      "limit": "Archive-based reconstruction; author expressly acknowledges incomplete correspondence. Publisher date 2016; ResearchGate metadata says November 2015. Keep derived prose under 200 words."
+    },
+    {
+      "id": "R2",
+      "title": "Nathan Mayer Rothschild and the Waterloo Commission",
+      "author": "The Rothschild Archive",
+      "type": "Archive interpretation",
+      "url": "https://www.rothschildarchive.org/business/n_m_rothschild_and_sons_london/nathan_mayer_rothschild_and_the_waterloo_commission",
+      "refs": [
+        "turn2search1",
+        "turn17search0"
+      ],
+      "inspection": "Extensive indexed text inspected; direct open failed.",
+      "supports": "1814–1815 British government bullion contract; evidence for possible Waterloo gains slender; amount impossible to estimate.",
+      "limit": "Family archive has institutional perspective. Do not claim zero profit. Do not reproduce quotations."
+    },
+    {
+      "id": "R3",
+      "title": "Nathan Rothschild and the Battle of Waterloo",
+      "author": "Brian Cathcart",
+      "date": "2013–2014",
+      "type": "Historian's research article",
+      "url": "https://www.rothschildarchive.org/materials/nathan_and_waterloo.pdf",
+      "alternate_url": "https://www1.rothschildarchive.org/materials/annual_review_2013_2014_complete_pdf_copy_4.pdf",
+      "refs": [
+        "turn12search15",
+        "turn17search5"
+      ],
+      "inspection": "Indexed article sections inspected; PDF opening failed.",
+      "supports": "No evidence for market manipulation or first-news claim; receipt of a letter from Ghent on June 21; contemporary stock prices did not collapse.",
+      "limit": "Hosted by family archive; Cathcart's independent newspaper account has only 25-word tool allowance and should not be used for extended paraphrase. Use this archival article citation. No assertion of absolutely no gain."
+    },
+    {
+      "id": "R4",
+      "title": "Suez Canal loan receipts, 1876",
+      "author": "The Rothschild Archive",
+      "type": "Archival Treasury repayment letter with commentary",
+      "url": "https://www.rothschildarchive.org/collections/archivists_choice/march_2015_suez_canal_loan_receipts_1876",
+      "refs": [
+        "turn2search4"
+      ],
+      "inspection": "Indexed article and transcribed Treasury letter inspected; direct open failed.",
+      "supports": "£4m advanced in 1875 for British government's purchase of Khedive's shares; Treasury repayment letter 9 March 1876, £1.5m first instalment; repayment within five months.",
+      "limit": "Do not repeat the no-documentation handshake legend as fact. Distinguish purchase of shares from ownership of the canal or Egypt."
+    },
+    {
+      "id": "R5",
+      "title": "Government shareholdings: Suez Canal Company",
+      "author": "Bank of England Archive",
+      "type": "Independent archival catalogue",
+      "url": "https://www.bankofengland.co.uk/CalmView/Record.aspx?id=C40%2F491&src=CalmView.Catalog",
+      "refs": [
+        "turn2search3"
+      ],
+      "inspection": "Indexed catalogue description inspected; subsequent open gave catalogue technical error.",
+      "supports": "C40/491, dated 1875–1886, records HMG acquisition of 176,602 shares, held at Bank on behalf of Chancellor and Lionel de Rothschild.",
+      "limit": "Catalogue-level confirmation. Do not suggest inspection of the underlying file."
+    },
+    {
+      "id": "R6",
+      "title": "The Balfour Declaration, Add MS 41178 A",
+      "author": "British Library",
+      "type": "Archive catalogue",
+      "url": "https://searcharchives.bl.uk/catalog/040-002093104",
+      "refs": [
+        "turn7view3"
+      ],
+      "inspection": "Opened and read catalogue.",
+      "supports": "6 October 1917 letter asks Walter Rothschild's opinion; 2 November letter conveys British government support; deposited 1924.",
+      "limit": "Evidence of access and consultation, not unilateral control. Do not flatten Walter, Edmond and Lionel into one person."
+    },
+    {
+      "id": "R7",
+      "title": "Balfour Declaration – UK/Non-UN document",
+      "author": "Arthur James Balfour; reproduced by United Nations",
+      "date": "1917-11-02",
+      "type": "Primary declaration transcript",
+      "url": "https://www.un.org/unispal/document/auto-insert-193242/",
+      "refs": [
+        "turn4search1"
+      ],
+      "inspection": "Full indexed letter inspected; direct open returned 403.",
+      "supports": "Cabinet approved declaration; letter asked Rothschild to inform Zionist Federation; included clauses on non-Jewish communities' civil/religious rights and Jews' rights elsewhere.",
+      "limit": "A letter of policy support, not transfer of ownership to Rothschild. Do not imply the rights clauses resolved later conflict or were fulfilled."
+    },
+    {
+      "id": "R8",
+      "title": "Actionnaires",
+      "author": "Rothschild & Co",
+      "date": "Ownership as of 31 December 2025",
+      "type": "Current company disclosure",
+      "url": "https://www.rothschildandco.com/fr/nous-connaitre/actionnaires/",
+      "refs": [
+        "turn7view5"
+      ],
+      "inspection": "Opened and read current ownership page.",
+      "supports": "Rothschild family members, group partners and investor partners own Rothschild & Co.",
+      "limit": "Self-report; describes one firm, not every Rothschild entity or total family wealth. Do not infer ownership of other banks."
+    },
+    {
+      "id": "R9",
+      "title": "Implementation of squeeze-out",
+      "author": "Rothschild & Co Concordia",
+      "date": "2023-10-03",
+      "type": "Regulatory transaction disclosure",
+      "url": "https://www.rothschildandco.com/siteassets/publications/concordia/2023/en_pr_date_of_the_mandatory_delisting_11_october_2023.pdf",
+      "refs": [
+        "turn7view7",
+        "turn4search8"
+      ],
+      "inspection": "Opened PDF and inspected text.",
+      "supports": "Concordia-led tender/squeeze-out with partners and outside investors; mandatory delisting scheduled 11 October 2023.",
+      "limit": "This release announces implementation; timeline can say '2023: Concordia-led privatisation' using official offer records. Do not confuse effective and assimilated holdings."
+    },
+    {
+      "id": "R10",
+      "title": "Who owns the Federal Reserve?",
+      "author": "Federal Reserve Board",
+      "date": "Updated May 28, 2026",
+      "type": "Institutional governance explanation",
+      "url": "https://www.federalreserve.gov/faqs/about_14986.htm",
+      "refs": [
+        "turn15view1"
+      ],
+      "inspection": "Opened and read.",
+      "supports": "Board is federal agency accountable to Congress; regional Reserve Bank stock held by member banks differs from corporate stock.",
+      "limit": "Governance facts counter ownership claims. They do not prove absence of lobbying or all forms of influence."
+    },
+    {
+      "id": "R11",
+      "title": "Who owns the Bank of England?",
+      "author": "Bank of England",
+      "type": "Institutional ownership explanation",
+      "url": "https://www.bankofengland.co.uk/explainers/who-owns-the-bank-of-england",
+      "refs": [
+        "turn15view2"
+      ],
+      "inspection": "Opened and read.",
+      "supports": "Nationalised 1946; capital held on behalf of HM Treasury.",
+      "limit": "Legal ownership evidence. Do not infer no influence from the financial sector."
+    },
+    {
+      "id": "D1",
+      "title": "The Medici: Portraits and Politics",
+      "institution": "Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/primer/medici-portraits",
+      "ref": "turn8view0",
+      "access": "Full institutional interpretation inspected",
+      "supports": "Cosimo I became duke in 1537; portraiture, literary patronage, diplomacy and alliances promoted authority; descendants ruled Florence through 1737."
+    },
+    {
+      "id": "D2",
+      "title": "Storia | Gli Uffizi",
+      "institution": "Uffizi Galleries",
+      "url": "https://www.uffizi.it/gli-uffizi/storia",
+      "ref": "turn14view2",
+      "access": "Full institutional history inspected",
+      "supports": "Cosimo commissioned administrative/judicial offices from 1560. Gian Gastone died without heirs in 1737; Medici principate ended; Anna Maria's convention retained collections in Florence."
+    },
+    {
+      "id": "D3",
+      "title": "Evolution of a Foundation: an Institutional History of the Rockefeller Foundation",
+      "institution": "Rockefeller Archive Center",
+      "url": "https://resource.rockarch.org/story/rockefeller-foundation-history-origins-to-2013/",
+      "ref": "turn8view3",
+      "access": "Full institutional history inspected; archival citations embedded",
+      "supports": "Foundation incorporated May 14, 1913; health infrastructure and research/education funding; staff and trustees mediated funding decisions.",
+      "limitation": "Institutional archival history; distinguish foundation decisions from individual family members."
+    },
+    {
+      "id": "D4",
+      "title": "Standard Oil Co. v. United States, 221 U.S. 1",
+      "institution": "U.S. Government Publishing Office / Supreme Court",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-221/USREPORTS-221-1/context",
+      "ref": "turn14view4",
+      "access": "Judicial record metadata inspected; Court opinion and disposition inspected through Justia primary-text reprint.",
+      "supports": "Decision date May 15, 1911; unlawful restraint and monopolization; dissolution decree affirmed with modifications; six months for implementation. Court Term 1910 explains misleading 1910 citation labels.",
+      "related_full_text": "https://www.supremecourt.gov/pdfs/USReports/USREPORTS-221_PDFA.pdf",
+      "related_ref": "turn8search8",
+      "primary_text_reprint": "https://supreme.justia.com/cases/federal/us/221/1/",
+      "primary_text_ref": "turn25view1",
+      "primary_text_location": "Opinion pages 78–82; tool lines 550–584."
+    },
+    {
+      "id": "D5",
+      "title": "Board of Trustees",
+      "institution": "The Rockefeller Foundation",
+      "url": "https://www.rockefellerfoundation.org/about-us/leadership-and-board/board-of-trustees/",
+      "ref": "turn19view1",
+      "access": "Full current governance page inspected",
+      "supports": "Foundation continues, governed by trustees overseeing grants, budgets, expenditures, investments. At least twelve members; president ex officio.",
+      "limitation": "Do not present foundation as synonymous with all Rockefeller descendants."
+    },
+    {
+      "id": "D6",
+      "title": "Visiting the birthplace of the Mitsui family",
+      "institution": "Mitsui & Co.",
+      "url": "https://www.mitsui.com/jp/en/roots/1209869_7253.html",
+      "ref": "turn11view2",
+      "access": "Full corporate history inspected",
+      "supports": "Takatoshi Mitsui opened Echigoya textile store in Edo in 1673; expanded into money exchange; banking profits later exceeded textile profits.",
+      "limitation": "Corporate origin narrative, cross-check structural claims against archive."
+    },
+    {
+      "id": "D7",
+      "title": "49 Breakup of the Mitsui Zaibatsu",
+      "institution": "Mitsui Bunko archive",
+      "url": "https://mitsui-bunko.or.jp/archives/eng_story49/",
+      "ref": "turn14view3",
+      "access": "Full archival history inspected, illustrated with archival records",
+      "supports": "Mitsui family consented to dissolution October 22, 1945; Mitsui Honsha dissolved September 30, 1946; family ownership and personal links severed through occupation reforms; family meeting dissolved July 16, 1946."
+    },
+    {
+      "id": "D8",
+      "title": "South Asia, 1400–1600 A.D.",
+      "institution": "Metropolitan Museum of Art",
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html",
+      "ref": "turn19view2",
+      "access": "Full museum chronology inspected",
+      "supports": "Mughal dynasty dated 1526–1858; 1526 Panipat; rule interrupted 1540–1555; Akbar succession 1556; administration and mixed artistic patronage."
+    },
+    {
+      "id": "D9",
+      "title": "The Art of the Mughals before 1600",
+      "institution": "Metropolitan Museum of Art, Department of Islamic Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600",
+      "ref": "turn14view0",
+      "access": "Full scholarly museum essay inspected",
+      "supports": "Akbar's reign 1556–1605; administration, trade and cultural patronage; workshops included Persians, Indian Muslims and Hindus; manuscript traditions incorporated Persian, Indian and European elements.",
+      "scholarly_bibliography": "Milo Cleveland Beach, Mughal and Rajput Painting (1992); Ebba Koch, Mughal Art and Imperial Ideology (2001). Bibliography identified, books not read."
+    },
+    {
+      "id": "D10",
+      "title": "Papers regarding trial and banishment of Muhammad Bahadur Shah",
+      "institution": "British Library, India Office Records",
+      "url": "https://searcharchives.bl.uk/catalog/041-000540061",
+      "ref": "turn19view0",
+      "access": "Archival catalogue inspected; manuscripts not digitized/read",
+      "supports": "Archive documents trial, banishment and family removal; file dated September–November 1858.",
+      "limitation": "Catalogue demonstrates surviving records; do not claim manuscript contents were inspected."
+    },
+    {
+      "id": "D11",
+      "title": "Our roots",
+      "institution": "Mitsui & Co.",
+      "url": "https://www.mitsui.com/jp/en/roots/index.html",
+      "ref": "turn11view3",
+      "access": "Current corporate statement inspected",
+      "supports": "Explicitly states no legal continuation between former Mitsui & Co. and present Mitsui & Co., established after 1947 disbandment."
+    },
+    {
+      "id": "D12",
+      "title": "Standard Oil Monopoly: Topics in Chronicling America — Introduction",
+      "institution": "Library of Congress",
+      "url": "https://guides.loc.gov/chronicling-america-standard-oil-monopoly/introduction",
+      "access": "Historical guide inspected by lead researcher",
+      "supports": "1911 Standard Oil dissolution; newspaper research guide"
+    }
+  ],
+  "inspection_notes": {
+    "S01": "Study sections inspected. Experiments inform tool identification.",
+    "S02": "Museum analysis inspected. One specimen limits generalisation.",
+    "S03": "Abstract inspected; paper unread. Experiments establish feasibility.",
+    "S04": "Research account inspected. Attribution remains an interpretation.",
+    "S05": "Research account inspected. Shares institutional roots with S04.",
+    "S06": "Architecture sections inspected. Phases and patronage involve interpretation.",
+    "S07": "Museum synthesis inspected. Foundational Dhavalikar paper unread.",
+    "S08": "Exhibition explanation inspected. Workshop attribution remains unresolved.",
+    "R1": "Chapter text inspected through ResearchGate. Publisher metadata also checked.",
+    "R2": "Indexed excerpts inspected. Direct opening failed.",
+    "R3": "Indexed article sections inspected. PDF opening failed.",
+    "R4": "Indexed text and receipt inspected. Direct opening failed.",
+    "R5": "Catalogue excerpt inspected. Underlying file not inspected.",
+    "R6": "Catalogue inspected. Manuscripts not inspected.",
+    "R7": "Indexed letter transcript inspected. Direct opening returned 403.",
+    "R8": "Company disclosure inspected. Ownership date: December 2025.",
+    "R9": "Disclosure PDF inspected. Records one transaction.",
+    "R10": "Governance explanation inspected. Updated May 2026.",
+    "R11": "Ownership explanation inspected. Addresses ownership, not every influence.",
+    "D1": "Museum interpretation inspected.",
+    "D2": "Museum history inspected.",
+    "D3": "Archive history inspected. Institutional perspective requires context.",
+    "D4": "Court metadata and reprint inspected. Official PDF opening failed.",
+    "D5": "Trustee governance page inspected.",
+    "D6": "Corporate history inspected. Compare archival source D7.",
+    "D7": "Archive history inspected. Illustrations include institutional records.",
+    "D8": "Museum chronology inspected.",
+    "D9": "Museum essay inspected. Bibliography identified; books unread.",
+    "D10": "Catalogue inspected. Manuscripts not inspected.",
+    "D11": "Corporate continuity statement inspected.",
+    "D12": "Library research guide inspected."
+  },
+  "limits": [
+    "Catalogue descriptions do not equal manuscript inspection.",
+    "Rothschild Archive content was inspected through indexed excerpts where direct retrieval failed.",
+    "Rainer Liedtke publisher year is 2016; ResearchGate records November 2015.",
+    "Fall et al. was inspected at abstract level.",
+    "Source-derived claims are paraphrased; bibliographic titles are retained."
+  ]
+}
