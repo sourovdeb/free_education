@@ -1,0 +1,30 @@
+{
+"id":"FML-0005",
+"version":"1.0.0",
+"title":"The Shower Isn't Working",
+"slug":"report-a-room-problem",
+"pathway":"use-english",
+"interaction_family":"report-request-builder",
+"audience":"Older teenagers and adults",
+"level_estimate":["A2","B1"],
+"duration_estimate_minutes":"3-5",
+"prerequisites":["Common room items","Simple present forms"],
+"objective":"Report one room problem and ask staff to check it.",
+"scenario":{"context":"Hotel room","problem":"The shower does not work","goal":"Report the problem and ask for help"},
+"model":{"meaning":"Name item, state problem, ask action","form":["There's a problem with + noun","It isn't working","Could someone + base verb + please"],"appropriacy":"Routine service problem","pronunciation":"Stress item and problem word"},
+"activities":[
+{"id":"decision-1","type":"choose","prompt":"Identify the clear problem report","best_answer":"There's a problem with the shower. It isn't working."},
+{"id":"decision-2","type":"choose","prompt":"Identify the request for action","best_answer":"Could someone take a look, please?"},
+{"id":"builder","type":"arrange","prompt":"Build the message in three parts"}
+],
+"transfer_task":{"scenario":"A room key fails","instruction":"Report the problem, then ask for help","rubric":["Name item","State problem","Ask action","Keep meaning clear"]},
+"review_prompt":"Report a service problem in three steps.",
+"visual":{"title":"Problem to action","alt_text":"Name the item, state what is wrong, then ask for action","text_equivalent":"Name item -> state problem -> ask action"},
+"sources_file":"SOURCES.md",
+"rights":{"scenario":"original","activities":"original","diagram":"original","code":"original"},
+"canonical_url":null,
+"live_player_url":null,
+"editorial_status":"needs_owner_review",
+"test_status":"static_and_browser_checks_passed_pdf_render_passed",
+"deployment_status":"not_deployed"
+}

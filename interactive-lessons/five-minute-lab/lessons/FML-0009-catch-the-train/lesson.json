@@ -1,0 +1,208 @@
+{
+  "id": "FML-0009",
+  "version": "1.1.0",
+  "title": "Catch It or Miss It?",
+  "slug": "catch-the-train",
+  "pathway": "use-english",
+  "interaction_family": "context-switch-collocation",
+  "audience": "Older teenagers and adults",
+  "level_estimate": [
+    "A2",
+    "B1"
+  ],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": [
+    "Understands clock times.",
+    "Knows train and bus."
+  ],
+  "objective": "Choose and use catch, take, or miss with scheduled transport according to meaning.",
+  "observable_outcome": "Choose and use catch, take, or miss with scheduled transport according to meaning.",
+  "learning_objective": "Use catch a train for reaching scheduled transport in time, miss a train for arriving too late, and accept take a train as a neutral travel choice.",
+  "scenario": {
+    "setting": "Hotel reception before a train journey",
+    "prompt": "It is 10:08. Your train leaves at 10:20. The station is eight minutes away.",
+    "model": "If I leave now, I can still catch the 10:20 train."
+  },
+  "language": {
+    "grammar": "Catch, take, and miss are verbs followed by a transport noun phrase, such as the 10:20 train.",
+    "meaning": {
+      "catch": "Reach scheduled transport in time and travel on it.",
+      "miss": "Arrive too late to use the scheduled service.",
+      "take": "Use that form or service for travel; timing is not the main meaning."
+    },
+    "appropriateness": "Catch and take can both be valid with train. Catch foregrounds making the scheduled service. Take is neutral about travel choice."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "type": "choose-and-explain",
+      "prompt": "You have twelve minutes. Which sentence focuses on being in time?",
+      "options": [
+        {
+          "text": "I can still catch the 10:20 train.",
+          "correct": true,
+          "feedback": "Yes. Catch focuses on reaching the scheduled train in time."
+        },
+        {
+          "text": "I can still miss the 10:20 train.",
+          "correct": false,
+          "feedback": "Miss means arriving too late for the train."
+        },
+        {
+          "text": "I can still train the 10:20.",
+          "correct": false,
+          "feedback": "Train is not the transport verb needed here."
+        }
+      ]
+    },
+    {
+      "id": "decision-2",
+      "type": "meaning-contrast",
+      "prompt": "Which sentence is neutral about the travel choice?",
+      "options": [
+        {
+          "text": "I usually take the train to work.",
+          "correct": true,
+          "feedback": "Yes. Take can state the transport choice without focusing on being just in time."
+        },
+        {
+          "text": "I missed the train to work.",
+          "correct": false,
+          "feedback": "This says you arrived too late for it."
+        },
+        {
+          "text": "I caught the train to work.",
+          "correct": false,
+          "feedback": "This is valid English, but catch makes successful boarding part of the meaning."
+        }
+      ]
+    },
+    {
+      "id": "decision-3",
+      "type": "scenario-response",
+      "prompt": "It is 10:18. You are still at the hotel. What now fits?",
+      "options": [
+        {
+          "text": "I might miss the 10:20 train.",
+          "correct": true,
+          "feedback": "Yes. Miss fits the risk of arriving too late."
+        },
+        {
+          "text": "I might catch the hotel.",
+          "correct": false,
+          "feedback": "Catch needs the transport service here, not the hotel."
+        },
+        {
+          "text": "I might take late.",
+          "correct": false,
+          "feedback": "Take needs a transport noun phrase, such as take the train."
+        }
+      ]
+    }
+  ],
+  "transfer": {
+    "situation": "A bus leaves at 18:05. It is 17:55.",
+    "task": "Write one sentence using catch, take, or miss. Make the meaning clear.",
+    "acceptable_responses": [
+      "I need to catch the 18:05 bus.",
+      "If I don't leave now, I'll miss the 18:05 bus.",
+      "I'll take the 18:05 bus."
+    ],
+    "rubric": [
+      "The verb matches the intended meaning.",
+      "The transport noun is present.",
+      "The time or situation is clear.",
+      "Valid take/catch differences are accepted."
+    ]
+  },
+  "review_prompt": "Tomorrow: which verb focuses on reaching scheduled transport before it leaves: catch or take?",
+  "visual": {
+    "alt_text": "A three-way transport map: in time leads to catch the train, too late leads to miss the train, and neutral travel choice leads to take the train.",
+    "text_equivalent": "IN TIME -> catch the train | TOO LATE -> miss the train | TRAVEL CHOICE -> take the train"
+  },
+  "scenes": [
+    {
+      "title": "The clock",
+      "caption": "It is 10:08. The train leaves at 10:20.",
+      "explanation": "Twelve minutes remain. The station is eight minutes away.",
+      "focus": "TIME"
+    },
+    {
+      "title": "Catch",
+      "caption": "I can still catch the 10:20 train.",
+      "explanation": "Catch focuses on reaching scheduled transport in time.",
+      "focus": "IN TIME"
+    },
+    {
+      "title": "Take",
+      "caption": "I usually take the train to work.",
+      "explanation": "Take states the transport choice. Timing is not central.",
+      "focus": "TRAVEL CHOICE"
+    },
+    {
+      "title": "Miss",
+      "caption": "I might miss the 10:20 train.",
+      "explanation": "Miss means arriving too late for the scheduled service.",
+      "focus": "TOO LATE"
+    },
+    {
+      "title": "Meaning map",
+      "caption": "In time: catch. Travel choice: take. Too late: miss.",
+      "explanation": "The situation changes the best verb. Catch and take can both be valid.",
+      "focus": "COMPARE"
+    },
+    {
+      "title": "Your turn",
+      "caption": "The bus leaves at 18:05. It is 17:55.",
+      "explanation": "Write one sentence. Make your intended meaning clear.",
+      "focus": "TRANSFER"
+    }
+  ],
+  "video": {
+    "resolution": "1280x720",
+    "frame_rate": 25,
+    "audio": false,
+    "captions": true,
+    "optional": true
+  },
+  "sources": [
+    {
+      "institution": "Cambridge Dictionary",
+      "title": "catch",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/catch",
+      "accessed": "2026-09-27",
+      "coverage": "Transport sense: travel on or be in time for a train, bus, aircraft, or similar service.",
+      "limitations": "Dictionary coverage; lesson examples are original."
+    },
+    {
+      "institution": "Cambridge Dictionary",
+      "title": "train",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/train",
+      "accessed": "2026-09-27",
+      "coverage": "Examples confirm both catch/take a train and miss a train.",
+      "limitations": "Dictionary examples support usage, not a rigid catch-versus-take rule."
+    },
+    {
+      "institution": "Cambridge Dictionary - English Grammar Today",
+      "title": "Take",
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/take",
+      "accessed": "2026-09-27",
+      "coverage": "Lists take a bus and take a train among common phrases.",
+      "limitations": "General grammar reference."
+    }
+  ],
+  "rights": {
+    "lesson_text": "Original",
+    "scenarios": "Original",
+    "diagram": "Original",
+    "code": "Original",
+    "third_party_assets": "None",
+    "source_use": "References inform language claims. No source exercise or artwork is reproduced."
+  },
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed",
+  "canonical_url": null,
+  "live_player_url": null,
+  "revision_of": "1.0.0"
+}

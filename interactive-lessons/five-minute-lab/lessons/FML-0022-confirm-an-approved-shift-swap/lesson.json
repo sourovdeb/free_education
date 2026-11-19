@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0022",
+  "version": "1.0.0",
+  "title": "Has My Shift Swap Been Approved?",
+  "slug": "confirm-an-approved-shift-swap",
+  "pathway": "use-english",
+  "interaction_family": "roster-evidence-and-readback",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Read dates and times", "understand work shifts"],
+  "observable_outcome": "The learner checks whether a shift swap is approved, identifies both shift dates, and confirms which shift to work.",
+  "learning_objective": "Ask whether a shift swap has been approved, identify the original and new shifts, and confirm which shift to work.",
+  "scenario": {
+    "setting": "A fictional cafe roster.",
+    "prompt": "You asked to swap with Lina. Your original shift is Tuesday 6 October, 7 a.m.-3 p.m. Lina's shift is Thursday 8 October, 3 p.m.-11 p.m. The manager writes: Approved. Lina covers Tuesday morning. You work Thursday evening.",
+    "puzzle": "Is the swap approved? Which shift will Lina work? Which shift will you work?",
+    "privacy_note": "The workplace, names, roster, dates, and times are fictional teaching data. This activity is language practice, not employment advice."
+  },
+  "model": {
+    "status_question": "Has my shift swap with Lina been approved?",
+    "manager_reply": "Yes. Lina covers your Tuesday morning shift. You work her Thursday evening shift.",
+    "confirm": "So Lina works Tuesday 6 October from 7 a.m., and I work Thursday 8 October from 3 p.m., right?",
+    "neutral_variants": [
+      "Is my shift swap with Lina approved?",
+      "Did you approve my shift swap with Lina?"
+    ]
+  },
+  "language_focus": {
+    "grammar": "Has my shift swap been approved? is a present-perfect passive question: has + subject + been + past participle. Is my shift swap approved? asks about its current status. Did you approve my shift swap? is active and names the decision-maker.",
+    "meaning": "The present-perfect question asks whether the approval happened before now and matters now. The readback names both dates and start times so each person knows which shift to work.",
+    "appropriateness": "Ask for status without assuming approval. After receiving an answer, confirm both people, both dates, and both start times. Use right? only as a check, not as pressure for agreement.",
+    "pronunciation": "In natural speech, has and been are often unstressed. Put stronger stress on swap, approved, Tuesday, Thursday, 7, and 3 when those details carry the contrast.",
+    "workplace_note": "Roster rules differ. Follow the actual workplace process, and do not treat a proposed swap as approved until the responsible person confirms it."
+  },
+  "evidence_activity": {
+    "id": "decision-1",
+    "prompt": "Which line proves the swap is confirmed?",
+    "options": [
+      {"text": "Approved. Lina covers Tuesday morning.", "correct": true, "feedback": "Correct. Approved gives the status, and the next words show who covers the original shift."},
+      {"text": "You asked to swap with Lina.", "correct": false, "feedback": "This proves a request exists. It does not prove the manager accepted it."},
+      {"text": "Your original shift is Tuesday.", "correct": false, "feedback": "This identifies the old shift. It gives no approval status."}
+    ]
+  },
+  "question_activity": {
+    "id": "decision-2",
+    "prompt": "Which question checks approval without assuming it?",
+    "options": [
+      {"text": "Has my shift swap with Lina been approved?", "correct": true, "feedback": "Correct. This asks whether the decision happened and matters now."},
+      {"text": "My shift swap is approved, isn't it?", "correct": false, "feedback": "This expects agreement. Use an open yes-no question when the status is unknown."},
+      {"text": "Why haven't you approved my shift swap?", "correct": false, "feedback": "This assumes refusal or delay. First ask whether the swap has been approved."}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each roster detail to its job.",
+    "slots": ["original shift", "new shift", "colleague", "status"],
+    "items": [
+      {"detail": "Tuesday 6 October, 7 a.m.", "answer": "original shift", "feedback": {"original shift": "Correct. This is the shift Lina will cover.", "new shift": "The new shift is Thursday 8 October at 3 p.m.", "colleague": "The colleague is Lina.", "status": "The status word is approved."}},
+      {"detail": "Thursday 8 October, 3 p.m.", "answer": "new shift", "feedback": {"original shift": "The original shift is Tuesday 6 October at 7 a.m.", "new shift": "Correct. This is the shift you will work.", "colleague": "The colleague is Lina.", "status": "The status word is approved."}},
+      {"detail": "Lina", "answer": "colleague", "feedback": {"original shift": "The original shift starts Tuesday at 7 a.m.", "new shift": "The new shift starts Thursday at 3 p.m.", "colleague": "Correct. Lina is the colleague in the swap.", "status": "The status word is approved."}},
+      {"detail": "approved", "answer": "status", "feedback": {"original shift": "The original shift starts Tuesday at 7 a.m.", "new shift": "The new shift starts Thursday at 3 p.m.", "colleague": "The colleague is Lina.", "status": "Correct. Approved shows the manager accepted the swap."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "You asked to swap with Omar. Your original shift is Saturday 10 October, 10 a.m.-6 p.m. Omar's shift is Monday 12 October, 2 p.m.-10 p.m. The manager has not answered yet.",
+    "instruction": "Write one neutral status question. Then imagine the manager says yes. Write a readback naming who works each date and start time.",
+    "acceptable_responses": [
+      "Has my shift swap with Omar been approved? So Omar works Saturday 10 October from 10 a.m., and I work Monday 12 October from 2 p.m., right?",
+      "Is my shift swap with Omar approved? To confirm, Omar covers Saturday at 10 a.m., and I work Monday at 2 p.m., right?"
+    ],
+    "rubric": [
+      "I asked about approval.",
+      "I did not assume approval.",
+      "I named both people.",
+      "I named both dates.",
+      "I named both start times."
+    ],
+    "valid_variants": "Has ... been approved?, Is ... approved?, and Did you approve ...? can all work. They differ in grammar and focus. A readback can use covers, works, or takes if the meaning stays clear."
+  },
+  "review_prompt": "Tomorrow, recall this sequence: ask status, identify the original shift, identify the new shift, and read both details back.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["roster wall", "calendar cards", "worker cutouts", "swap arrows", "approval stamp", "speech card", "clock faces", "confirmation strip"],
+    "cutout_assets": ["worker", "Lina", "manager", "Tuesday card", "Thursday card", "swap arrows", "approved stamp", "status question card", "7 a.m. clock", "3 p.m. clock", "Omar transfer card"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Calendar cards, people, arrows, stamp, clocks, and speech cards use cream cut edges, overlap, and offset shadows.",
+    "motion_principle": "Calendar cards slide onto the roster; the swap arrows cross; the approval stamp descends and rebounds; the question card unfolds; the worker cards exchange places while clock hands pivot; the transfer roster repeats the sequence.",
+    "accessibility": "Dark navy text sits on cream panels. Every colour relationship also has names, dates, times, arrows, and shape labels."
+  },
+  "scenes": [
+    {"id": "read-roster", "title": "Read your original shift", "caption": "You work Tuesday 6 October from 7 a.m.", "explanation": "A layered Tuesday roster card slides onto the wall beside your worker cutout.", "motion_cues": ["roster card slides", "worker rises", "clock hand pivots"]},
+    {"id": "request-swap", "title": "See the proposed swap", "caption": "Lina's shift is Thursday 8 October from 3 p.m.", "explanation": "Your Tuesday card and Lina's Thursday card move together while crossed arrows reveal the proposed exchange.", "motion_cues": ["cards approach", "arrows cross", "names settle"]},
+    {"id": "approval", "title": "Find the approval", "caption": "Approved. Lina covers Tuesday morning.", "explanation": "A paper approval stamp descends onto the request while the word approved remains readable.", "motion_cues": ["stamp descends", "stamp rebounds", "status strip reveals"]},
+    {"id": "ask-status", "title": "Ask about status", "caption": "Has my shift swap with Lina been approved?", "explanation": "A layered question card unfolds between the worker and manager without showing a presumed answer.", "motion_cues": ["question card unfolds", "worker arm pivots", "manager turns"]},
+    {"id": "confirm-roster", "title": "Confirm both shifts", "caption": "Lina works Tuesday at 7 a.m. You work Thursday at 3 p.m.", "explanation": "The worker cards exchange places and clock hands rotate to their confirmed start times.", "motion_cues": ["worker cards exchange", "clock hands rotate", "confirmation strip rises"]},
+    {"id": "transfer", "title": "Your Omar swap", "caption": "Ask first. Then read Saturday 10 a.m. and Monday 2 p.m. back.", "explanation": "A new pair of roster cards enters for a fresh status question and confirmation.", "motion_cues": ["new cards enter", "status card remains blank", "readback arrows reveal"]}
+  ],
+  "visual": {
+    "title": "Ask, read, confirm",
+    "alt_text": "A colourful layered papercut roster path. A Tuesday 6 October 7 a.m. card and a Thursday 8 October 3 p.m. card connect through a swap request. An approval stamp leads to a status question and a readback naming Lina on Tuesday and the learner on Thursday.",
+    "prose": "First ask whether the swap is approved. Then identify the original shift and the new shift. Read back who works each date and start time. Approval status plus two clear assignments prevents the roster details from being confused."
+  },
+  "sources": [
+    {"institution": "Cambridge Dictionary - English Grammar Today", "title": "Passive: forms", "url": "https://dictionary.cambridge.org/grammar/british-grammar/passive-forms", "accessed": "2026-09-28", "inspected": "The official grammar entry was retrieved through its current search result. It supports forming passive structures with be plus a past participle.", "limitation": "It supports the grammar pattern, not this original roster scenario."},
+    {"institution": "Cambridge Dictionary - English Grammar Today", "title": "Present perfect simple (I have worked)", "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-simple-i-have-worked", "accessed": "2026-09-28", "inspected": "The official result was inspected for finished events with present relevance and present-perfect question form.", "limitation": "It supports the time meaning, not workplace approval rules."},
+    {"institution": "Cambridge Dictionary - English Grammar Today", "title": "Questions: echo and checking questions", "url": "https://dictionary.cambridge.org/grammar/british-grammar/questions-echo-and-checking-questions", "accessed": "2026-09-28", "inspected": "The official entry was inspected for using checking questions to confirm what was heard.", "limitation": "It supports the readback function, not any specific tag or intonation in every context."},
+    {"institution": "CELTA Train", "title": "Language Life Support", "url": "https://www.celtatrain.com/", "accessed": "2026-09-28", "inspected": "A private course PDF copy was inspected at its introduction, MFP guidance, and present-perfect section. It separates meaning, form, pronunciation, and present relevance.", "limitation": "The private PDF is not redistributed. The public URL is only the publisher site."}
+  ],
+  "research_notes": {
+    "private_source_scope": "One educational PDF from the provided Core CELTA texts folder was inspected selectively. The whole folder and book were not read.",
+    "private_source_use": "The source informed MFP separation. No protected exercise, page image, wording, or activity was copied.",
+    "children_folder_scope": "The children materials folder was listed but not used because this series currently serves older teenagers and adults."
+  },
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Language claims are paraphrased with links. No textbook exercise, page, artwork, employer roster, logo, music, or footage is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed_browser_unavailable",
+  "deployment_status": "not_deployed"
+}

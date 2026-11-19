@@ -1,0 +1,20 @@
+Which Receipt Is Missing?
+
+A clear receipt question identifies one missing item and checks its deadline.
+
+Ask which receipt:
+“Which receipt is missing from my 18 September expense claim?”
+
+Use the colleague's answer:
+“The taxi receipt for €16 is missing.”
+
+Then confirm every detail:
+“So I need to upload the €16 taxi receipt by 4 p.m. Wednesday, right?”
+
+Try it with another claim:
+6 October, a missing €21 lunch receipt, and a deadline of noon Friday.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0021-identify-a-missing-expense-receipt
+
+Owner review required.

@@ -1,0 +1,135 @@
+{
+  "id": "FML-0002",
+  "version": "1.1.0",
+  "title": "So, That's 7:30 on Thursday?",
+  "slug": "confirm-a-time",
+  "pathway": "use-english",
+  "interaction_family": "arrange-and-match",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Recognise common days and clock times", "Understand a short booking message"],
+  "observable_outcome": "Repeat the booked day and time in a checking question, then respond to the confirmation.",
+  "learning_objective": "Confirm a booking time by selecting the risky details, arranging a checking question, and producing a new confirmation.",
+  "scenario": {
+    "setting": "Airport shuttle booking",
+    "prompt": "Your shuttle is booked for Thursday at 7:30 a.m. Pick-up is at the east entrance.",
+    "problem": "You think you heard the booking correctly. You want to check the day and time before ending the conversation.",
+    "model": "So, that's 7:30 a.m. on Thursday, right?",
+    "neutral_alternative": "Is that 7:30 a.m. on Thursday?"
+  },
+  "language": {
+    "grammar": "A conversational check can use So, + that's + detail + right? A neutral full question can use Is that + detail? Use at with a clock time and on with a day when stating the arrangement.",
+    "meaning": "The speaker repeats information they believe is correct and asks the listener to confirm it.",
+    "appropriateness": "Right? is conversational and can sound more or less certain depending on intonation. Is that ...? is a neutral alternative when speaking to an unfamiliar person.",
+    "time_phrase": "At 7:30 names the clock time. On Thursday names the day. In the checking question, 7:30 a.m. on Thursday keeps both details together."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "Which sentence checks the booked day and time?",
+    "options": [
+      {"text": "Is that 7:30 a.m. on Thursday?", "correct": true, "feedback": "Yes. It repeats both risky details and asks for confirmation."},
+      {"text": "What time is it?", "correct": false, "feedback": "This usually asks for the current time. It does not repeat the booking details."},
+      {"text": "See you sometime Thursday.", "correct": false, "feedback": "This keeps the day but loses the exact time, so the booking remains partly unchecked."}
+    ]
+  },
+  "matching_activity": {
+    "id": "decision-2",
+    "prompt": "Match each booking detail to its role.",
+    "roles": ["day", "time", "place"],
+    "pairs": [
+      {"detail": "Thursday", "answer": "day", "feedback": {"day": "Correct. Thursday names the day.", "time": "Thursday is not a clock time; it names the day.", "place": "Thursday is not a location; it names the day."}},
+      {"detail": "7:30 a.m.", "answer": "time", "feedback": {"day": "7:30 a.m. is not a day; it is the clock time.", "time": "Correct. 7:30 a.m. names the time.", "place": "7:30 a.m. is not a location; it names the time."}},
+      {"detail": "east entrance", "answer": "place", "feedback": {"day": "East entrance is not a day; it names the place.", "time": "East entrance is not a time; it names the place.", "place": "Correct. East entrance names the pick-up place."}}
+    ]
+  },
+  "arrange_activity": {
+    "id": "decision-3",
+    "prompt": "Build the conversational checking question.",
+    "chunks": [
+      {"text": "So,", "position": 1, "feedback": "Good start. So, links the check to what you just heard."},
+      {"text": "that's", "position": 2, "feedback": "Correct. That's introduces the repeated booking details."},
+      {"text": "7:30 a.m.", "position": 3, "feedback": "Correct. Keep the exact clock time."},
+      {"text": "on Thursday,", "position": 4, "feedback": "Correct. On introduces the day."},
+      {"text": "right?", "position": 5, "feedback": "Correct. Right? asks the listener to confirm."}
+    ],
+    "wrong_feedback": "That chunk does not fit here yet. Look at the model and choose the next part.",
+    "complete_feedback": "Complete: So, that's 7:30 a.m. on Thursday, right?"
+  },
+  "transfer": {
+    "situation": "A clinic receptionist says: Your appointment is Monday at 2:15 p.m. in Room 4.",
+    "task": "Say or write one sentence confirming the day and time. Add the room if useful.",
+    "acceptable_responses": [
+      "So, that's 2:15 p.m. on Monday, right?",
+      "Is that 2:15 p.m. on Monday?",
+      "Did you say Monday at 2:15 p.m.?",
+      "So, Monday at 2:15 p.m. in Room 4, right?"
+    ],
+    "rubric": ["I repeated the day and time.", "I asked for confirmation.", "I kept the exact details.", "My wording fits the situation.", "Other clear checking questions can work."]
+  },
+  "review_prompt": "Tomorrow, what can you say when you think you heard a booking time correctly but want to check it?",
+  "visual": {
+    "alt_text": "A four-step path from hearing a booking to confirming it: hear Thursday at 7:30, select the day and time, repeat the details, then ask right?",
+    "text_equivalent": "HEAR: Thursday at 7:30 -> SELECT: day plus time -> REPEAT: 7:30 on Thursday -> CHECK: right?"
+  },
+  "scenes": [
+    {"title": "Hear", "caption": "Thursday at 7:30 a.m.", "explanation": "Listen for the booking details that could cause a missed journey.", "focus": "HEAR"},
+    {"title": "Select", "caption": "DAY: Thursday / TIME: 7:30 a.m.", "explanation": "Choose the day and time as the risky details to confirm.", "focus": "SELECT"},
+    {"title": "Arrange", "caption": "So, + that's + time + on + day + right?", "explanation": "Put the booking details inside a checking-question frame.", "focus": "BUILD"},
+    {"title": "Check", "caption": "So, that's 7:30 a.m. on Thursday, right?", "explanation": "Repeat the exact details and invite confirmation.", "focus": "CHECK"},
+    {"title": "Confirm", "caption": "Yes, Thursday at 7:30 a.m.", "explanation": "The listener confirms both details. The booking is now clear.", "focus": "CONFIRM"},
+    {"title": "Transfer", "caption": "Monday at 2:15 p.m., Room 4", "explanation": "Use the same pattern with a clinic appointment.", "focus": "USE"}
+  ],
+  "video": {"resolution": "1280x720", "frame_rate": 25, "duration_seconds": 30, "audio": false, "captions": true, "optional": true},
+  "sources": [
+    {
+      "institution": "Cambridge University Press & Assessment",
+      "title": "Questions: statement questions (you're over 18?)",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/questions-statement-questions-you-re-over-18",
+      "accessed": "2026-09-27",
+      "coverage": "Official Cambridge search coverage states that speakers can use statement questions when they think they know the answer and seek confirmation; fall-rising intonation can signal confirmation.",
+      "limitations": "Direct page access returned HTTP 403. The lesson dialogue and activities are original."
+    },
+    {
+      "institution": "Cambridge University Press & Assessment",
+      "title": "Tags",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/tags",
+      "accessed": "2026-09-27",
+      "coverage": "Official Cambridge reference used for the conversational confirmation tag right?.",
+      "limitations": "Direct page access returned HTTP 403. A neutral full-question alternative is also taught."
+    },
+    {
+      "institution": "British Council LearnEnglish",
+      "title": "Unit 5: Making arrangements",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/business/english-emails/unit-5-making-arrangements",
+      "accessed": "2026-09-27",
+      "coverage": "The official page gives on with days and at with clock times in arrangements.",
+      "limitations": "The source focuses on email arrangements; this lesson applies the time language to spoken confirmation."
+    },
+    {
+      "institution": "British Council LearnEnglish",
+      "title": "Prepositions of time: at, in, on",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/prepositions-of-time-at-in-on",
+      "accessed": "2026-09-27",
+      "coverage": "The official A1-A2 grammar page explains at with clock times and on with days.",
+      "limitations": "It supports form only and does not validate this lesson with learners."
+    }
+  ],
+  "source_gap": "The v1.0.0 record cites a private TKT handbook overview. That private source was not reopened for this revision, and no exercise or wording from it is reproduced.",
+  "rights": {
+    "lesson_text": "Original",
+    "scenarios": "Original",
+    "diagram": "Original",
+    "code": "Original adaptation of the series generator",
+    "video": "Original black-and-white doodles and captions",
+    "third_party_assets": "None",
+    "source_use": "References support language explanation only. No source exercise, image, audio, or page is redistributed."
+  },
+  "canonical_url": null,
+  "live_player_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed",
+  "revision_of": "1.0.0",
+  "relationship_to_existing_library": "Preserves FML-0002's booking-confirmation objective. It remains distinct from lessons that teach pronouncing or telling time."
+}

@@ -1,0 +1,21 @@
+Was It on the Bus or at the Station?
+
+A useful lost-item report separates place, position, and identifying features.
+Use evidence to choose the vehicle, describe the item, then confirm the search details.
+
+Clarify the place:
+“I think I left it on the number 12 bus, not at the station.”
+
+Describe the item:
+“It's a small black backpack with a red zip tag and a front pocket.”
+
+Then confirm the search:
+“So that's bus 12, under a seat near the back, correct?”
+
+Try it with an umbrella:
+train 6, overhead rack, blue curved handle, and a name label.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0017-clarify-a-lost-item-location
+
+Owner review required.

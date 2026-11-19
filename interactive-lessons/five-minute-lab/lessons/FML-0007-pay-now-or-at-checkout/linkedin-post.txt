@@ -1,0 +1,17 @@
+Pay Now or at Checkout?
+
+Your room is booked.
+Payment timing is unclear.
+
+Do starts the question.
+Pay stays in base form.
+Two options expose the procedure.
+
+Try the cafe transfer.
+
+Source and download repository:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0007-pay-now-or-at-checkout
+
+This source is not deployed.
+A2-B1 editorial estimate.
+Owner review remains required.

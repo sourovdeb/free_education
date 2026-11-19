@@ -1,0 +1,7 @@
+PROBLEM TO ACTION
+
+[NAME ITEM] -> [STATE PROBLEM] -> [ASK FOR ACTION]
+ the shower      isn't working      Could someone
+                                   take a look?
+
+Text equivalent: Name the item. State what is wrong. Ask someone to check it.

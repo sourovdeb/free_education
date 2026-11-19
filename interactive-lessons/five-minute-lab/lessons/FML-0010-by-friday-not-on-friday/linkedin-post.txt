@@ -1,0 +1,23 @@
+By Friday?
+
+Your manager writes:
+“Please send the revised rota by Friday.”
+
+What does “by” change?
+
+It marks the deadline.
+Earlier delivery can work.
+
+Try this confirmation:
+“Just to confirm, do you need it before Friday starts, or anytime on Friday?”
+
+Then restate the cutoff.
+
+Source and download repository:
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0010-by-friday-not-on-friday
+
+This link shows source files.
+It is not deployed.
+
+A2-B1 editorial estimate.
+Owner review remains required.

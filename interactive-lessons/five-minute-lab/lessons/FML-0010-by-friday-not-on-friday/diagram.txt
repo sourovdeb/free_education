@@ -1,0 +1,8 @@
+A Monday-to-Friday timeline. A thick line ends at Friday 3 p.m. The line shows any earlier delivery is acceptable. A separate circle on Friday shows that on Friday names the day, not a deadline.
+
+Picture a line running toward Friday. ‘By Friday’ points to the line’s end: finish before or at that boundary. ‘On Friday’ circles Friday itself: the event happens that day. Adding ‘3 p.m.’ makes the boundary visible.
+
+Relationship map:
+By Friday -> a latest acceptable boundary -> earlier work can qualify.
+On Friday -> the named day -> the event happens that day.
+By 3 p.m. Friday -> the boundary becomes specific.

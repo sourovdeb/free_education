@@ -1,0 +1,212 @@
+{
+  "id": "FML-0008",
+  "version": "1.1.0",
+  "title": "Could I Leave My Bag Here?",
+  "slug": "could-i-leave-my-bag-here",
+  "pathway": "use-english",
+  "interaction_family": "permission-request-builder",
+  "audience": "Older teenagers and adults",
+  "level_estimate": [
+    "A2",
+    "B1"
+  ],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": [
+    "Can understand simple hotel situations.",
+    "Knows common place and time words."
+  ],
+  "observable_outcome": "Ask permission to leave an item somewhere until a stated time, then acknowledge the answer.",
+  "learning_objective": "Use Could I + base verb + object + place + until + time? to ask permission in a travel situation.",
+  "scenario": {
+    "setting": "Hotel reception after checkout",
+    "prompt": "Checkout is at 11:00. Your train leaves at 15:30. You want the hotel to keep your bag.",
+    "model": "Could I leave my bag here until three?"
+  },
+  "language": {
+    "grammar": "Could + subject + base verb forms a permission question. No do/does is added.",
+    "meaning": "Could I...? asks permission. Here, leave means put an item somewhere where it stays.",
+    "appropriateness": "Could I...? is a polite permission request. Can I...? is also common. May I...? is more formal.",
+    "time_phrase": "Until three means the bag may stay there up to three o’clock."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "type": "choose-and-explain",
+      "prompt": "Which sentence asks permission?",
+      "options": [
+        {
+          "text": "Could I leave my bag here until three?",
+          "correct": true,
+          "feedback": "Yes. Could I asks permission. Leave stays in the base form."
+        },
+        {
+          "text": "Could I left my bag here until three?",
+          "correct": false,
+          "feedback": "After could, use the base verb: leave, not left."
+        },
+        {
+          "text": "Could you leave my bag here until three?",
+          "correct": false,
+          "feedback": "This asks the other person to do something. The target asks permission for your action."
+        }
+      ]
+    },
+    {
+      "id": "decision-2",
+      "type": "meaning-check",
+      "prompt": "What does until three mean here?",
+      "options": [
+        {
+          "text": "The bag can stay there up to 3:00.",
+          "correct": true,
+          "feedback": "Yes. Until marks the end point of the time period."
+        },
+        {
+          "text": "The bag must arrive at exactly 3:00.",
+          "correct": false,
+          "feedback": "No. Until describes how long the bag may stay."
+        },
+        {
+          "text": "The bag leaves before checkout.",
+          "correct": false,
+          "feedback": "No. The request is for storage after checkout."
+        }
+      ]
+    },
+    {
+      "id": "decision-3",
+      "type": "response-choice",
+      "prompt": "Reception says: Yes, you can leave it behind reception. What response fits?",
+      "options": [
+        {
+          "text": "Thanks. I'll collect it at three.",
+          "correct": true,
+          "feedback": "Yes. It acknowledges permission and confirms the collection time."
+        },
+        {
+          "text": "Thanks. I collected it at three.",
+          "correct": false,
+          "feedback": "That sounds like a past event. The collection is still in the future."
+        },
+        {
+          "text": "Could I leave your bag here?",
+          "correct": false,
+          "feedback": "That changes the object. You are talking about your own bag."
+        }
+      ]
+    }
+  ],
+  "transfer": {
+    "situation": "After a meeting, you need to leave a parcel at reception until 4:00.",
+    "task": "Write one permission question.",
+    "acceptable_responses": [
+      "Could I leave this parcel here until four?",
+      "Can I leave this parcel here until four?",
+      "Is it okay if I leave this parcel here until four?"
+    ],
+    "rubric": [
+      "The question asks permission.",
+      "The action and object are clear.",
+      "The time limit is clear.",
+      "A valid alternative is accepted."
+    ]
+  },
+  "review_prompt": "Tomorrow, complete: Could I leave ___ here until ___?",
+  "visual": {
+    "alt_text": "A four-part sentence map shows permission, action and object, place, and time limit: Could I | leave my bag | here | until three?",
+    "text_equivalent": "PERMISSION: Could I | ACTION + OBJECT: leave my bag | PLACE: here | TIME LIMIT: until three"
+  },
+  "scenes": [
+    {
+      "title": "The gap",
+      "caption": "Checkout is 11:00. Your train leaves at 15:30.",
+      "explanation": "You need a safe place for your bag between checkout and departure.",
+      "focus": "SITUATION"
+    },
+    {
+      "title": "Permission",
+      "caption": "Could I leave my bag here until three?",
+      "explanation": "Could I asks permission for your own action.",
+      "focus": "PERMISSION"
+    },
+    {
+      "title": "Base verb",
+      "caption": "Could I leave ...?",
+      "explanation": "After could, use the base verb leave, not left.",
+      "focus": "FORM"
+    },
+    {
+      "title": "Time limit",
+      "caption": "... until three?",
+      "explanation": "Until three gives the end point of the storage period.",
+      "focus": "TIME"
+    },
+    {
+      "title": "Confirm",
+      "caption": "Thanks. I'll collect it at three.",
+      "explanation": "Acknowledge permission and confirm the collection time.",
+      "focus": "RESPONSE"
+    },
+    {
+      "title": "Your turn",
+      "caption": "A parcel needs storage until 4:00.",
+      "explanation": "Write one permission question. Keep the object and time clear.",
+      "focus": "TRANSFER"
+    }
+  ],
+  "video": {
+    "resolution": "1280x720",
+    "frame_rate": 25,
+    "audio": false,
+    "captions": true,
+    "optional": true
+  },
+  "sources": [
+    {
+      "institution": "Cambridge Dictionary",
+      "title": "Can, could or may?",
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/can-could-or-may",
+      "accessed": "2026-09-27",
+      "coverage": "Permission requests; could is more formal/polite than can.",
+      "limitations": "General grammar reference; context affects register."
+    },
+    {
+      "institution": "British Council LearnEnglish",
+      "title": "Permission",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/permission",
+      "accessed": "2026-09-27",
+      "coverage": "Can/could/may for asking permission.",
+      "limitations": "General reference; not a hotel-specific source."
+    },
+    {
+      "institution": "Cambridge Essential English Dictionary",
+      "title": "leave",
+      "url": "https://dictionary.cambridge.org/us/dictionary/essential-british-english/leave",
+      "accessed": "2026-09-27",
+      "coverage": "A2 sense: put something in a place where it will stay.",
+      "limitations": "Dictionary definition."
+    },
+    {
+      "institution": "Cambridge Dictionary",
+      "title": "Until",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/until",
+      "accessed": "2026-09-27",
+      "coverage": "Until as a preposition means up to a stated time.",
+      "limitations": "General grammar coverage."
+    }
+  ],
+  "rights": {
+    "lesson_text": "Original",
+    "scenarios": "Original",
+    "diagram": "Original",
+    "code": "Original",
+    "third_party_assets": "None",
+    "source_use": "References inform language claims. No source exercise or artwork is reproduced."
+  },
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed",
+  "canonical_url": null,
+  "live_player_url": null,
+  "revision_of": "1.0.0"
+}

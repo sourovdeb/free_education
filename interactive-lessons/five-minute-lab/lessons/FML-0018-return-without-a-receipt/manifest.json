@@ -1,0 +1,96 @@
+{
+  "id": "FML-0018",
+  "version": "1.0.0",
+  "title": "Can I Return It Without the Receipt?",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T23:58:13Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 11445,
+      "sha256": "9a8a2bd1c0bf00e4e18bed4af2a3b13b3a66143a390bc5fb2f07169fb41bcbf8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 29420,
+      "sha256": "0334e45aea6ba4e2cb2c3bb4a96168f266625553dd58a59b3cf74a5cb1dd8807"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 5497,
+      "sha256": "bfee23c0dd1fd67cc9dd2d8bd8e8370e4c5fc5ef5f32127d19b3d2b675dcebb8"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 4657,
+      "sha256": "98126272ec9a34b261ca6ca10dc29617120661242d91abf10d4d5637ffcfd642"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 770,
+      "sha256": "2e96a61dd3c255585e31d6892d9d7449db4a2c473896908268d1e1fbc9cede64"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 217152,
+      "sha256": "2f04d508a95387c056f6abee118fd2aec63c3a30c3584db01cb9925cda2e2a9e"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6205,
+      "sha256": "155258dec8fe2997049e8d76fc8d519f1458b5abcb6509a35f6b28c3ae36d1b1"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 2141,
+      "sha256": "1a3c7a5170ff96e3a7ea5516afc7be7d90e85d3a99d1a8db29bffa457fa93a03"
+    },
+    {
+      "path": "diagram.png",
+      "bytes": 39538,
+      "sha256": "88fbd6d903b0ca0a08b6ab9aa2f7aad9a783ba58b6861e71181883d6330aae8d"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 483,
+      "sha256": "ce902d5aef7c19878b150cd47bc668f62e92824ed955705533a8f6c40c25ee55"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1684,
+      "sha256": "d028b00de239ee6913ec3e33d24b0c9ba6add7c90283bb469d39c8ea08f18621"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1490,
+      "sha256": "df4d83a7163c2614c24875529352cea957082c88dace3a572d1feb30d60d1792"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 1639,
+      "sha256": "9af9e3736fb2acf9b6ad0d668bf3cf5a666b0df0683dc0a7fce2b27c8033bbcd"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 1136,
+      "sha256": "820716b0b64a657a34c4cc80631a24988435a6ad87212f5be074a97914b74006"
+    },
+    {
+      "path": "captions.vtt",
+      "bytes": 422,
+      "sha256": "9b8132ffa91c358e7583b39f64c9aa27849ea8bb3425afa3dcc0d67aaa3df43e"
+    },
+    {
+      "path": "papercut-720p25.mp4",
+      "bytes": 288679,
+      "sha256": "baacb3e832037fc959e7013791d5a2be6ed23a524adab806fe4eb43aec4b4253"
+    },
+    {
+      "path": "build.py",
+      "bytes": 38550,
+      "sha256": "3b2a30396d8281b26343ed3f00e3ba195fab369f20712d2d32459c3ccbaf353d"
+    }
+  ]
+}

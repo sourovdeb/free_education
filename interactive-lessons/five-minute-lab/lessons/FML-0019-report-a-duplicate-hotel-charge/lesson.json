@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FML-0019",
+  "version": "1.0.0",
+  "title": "Why Was I Charged Twice?",
+  "slug": "report-a-duplicate-hotel-charge",
+  "pathway": "use-english",
+  "interaction_family": "duplicate-charge-evidence-and-resolution",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Read dates and prices", "recognise a hotel receipt and a bank transaction"],
+  "observable_outcome": "The learner identifies two matching transactions, reports the duplicate without accusing anyone, and asks when it will be reversed.",
+  "learning_objective": "Explain that the same hotel charge appears twice, identify both transaction dates, and ask when the duplicate will be reversed.",
+  "scenario": {
+    "setting": "A fictional hotel reception desk after a one-night stay.",
+    "prompt": "Your hotel receipt shows one room charge of €84. Your bank app shows two €84 transactions from the same hotel: 14 September and 16 September.",
+    "puzzle": "Which evidence shows a duplicate, which date belongs to the second transaction, and what action should you request?",
+    "privacy_note": "The hotel, dates, transactions, staff member, and customer are fictional teaching data. This activity is language practice, not financial or legal advice."
+  },
+  "model": {
+    "clarify": "I think I was charged twice for the same stay. The first €84 transaction is dated 14 September, and the second is dated 16 September.",
+    "customer_reply": "Could you check which one is the duplicate?",
+    "confirm": "When will the duplicate charge be reversed? So the 16 September charge will be reversed, and I should check my account again on Friday, right?",
+    "neutral_variant": "My receipt shows one €84 charge, but my bank app shows two. Could you check the transaction dated 16 September?"
+  },
+  "language_focus": {
+    "grammar": "In the direct question When will the duplicate charge be reversed?, the order is question word + will + subject + be + past participle. The passive form focuses on the charge and the action, not on who caused the problem.",
+    "meaning": "Charged twice means two matching payments appear for one purchase. Duplicate names the repeated transaction. Reverse means undo a completed payment entry in this fictional scenario.",
+    "appropriateness": "I think ... signals a problem without making an accusation. Give the amount and both dates, ask the staff member to check, and then request a clear action and time.",
+    "detail_language": "Transaction date identifies when an entry appears. The original transaction is dated 14 September; the matching second transaction is dated 16 September. Real reversal times and dispute procedures vary by provider and location."
+  },
+  "choice_activity": {
+    "id": "decision-1",
+    "prompt": "Which evidence best shows a possible duplicate in this scenario?",
+    "options": [
+      {"text": "One receipt charge and two matching €84 bank transactions", "correct": true, "feedback": "Correct. The receipt shows one room charge, while the bank app shows the same amount twice."},
+      {"text": "Two different hotel services with different prices", "correct": false, "feedback": "Different services and prices do not show the same charge twice. Compare the one €84 receipt line with the two €84 transactions."},
+      {"text": "One €84 transaction on 14 September", "correct": false, "feedback": "One transaction matches the receipt. The possible duplicate appears only when the second matching €84 transaction is included."}
+    ]
+  },
+  "request_activity": {
+    "id": "decision-2",
+    "prompt": "Which report is clear, calm, and specific?",
+    "options": [
+      {"text": "I think I was charged twice. The €84 transactions are dated 14 and 16 September. Could you check which one is the duplicate?", "correct": true, "feedback": "Correct. It states the problem, gives the amount and both dates, and asks for a check."},
+      {"text": "My receipt shows one €84 charge, but my bank app shows two. Could you check the transaction dated 16 September?", "correct": true, "feedback": "Also correct. It contrasts the receipt with the bank app and identifies the second date."},
+      {"text": "You took my money twice. Fix it now.", "correct": false, "feedback": "This accuses the listener and omits the dates. State the evidence, ask for a check, and request the action."}
+    ]
+  },
+  "slot_activity": {
+    "id": "decision-3",
+    "prompt": "Match each detail to its job in the report.",
+    "slots": ["amount", "original date", "duplicate date", "requested action"],
+    "items": [
+      {"detail": "€84", "answer": "amount", "feedback": {"amount": "Correct. This is the matching amount shown twice.", "original date": "The first transaction is dated 14 September.", "duplicate date": "The matching second transaction is dated 16 September.", "requested action": "The requested action is to check and reverse the duplicate."}},
+      {"detail": "14 September", "answer": "original date", "feedback": {"amount": "The amount is €84.", "original date": "Correct. This is the date of the first transaction.", "duplicate date": "The matching second transaction is dated 16 September.", "requested action": "The requested action is to check and reverse the duplicate."}},
+      {"detail": "16 September", "answer": "duplicate date", "feedback": {"amount": "The amount is €84.", "original date": "The first transaction is dated 14 September.", "duplicate date": "Correct. This is the date of the matching second transaction.", "requested action": "The requested action is to check and reverse the duplicate."}},
+      {"detail": "check and reverse the duplicate", "answer": "requested action", "feedback": {"amount": "The amount is €84.", "original date": "The first transaction is dated 14 September.", "duplicate date": "The matching second transaction is dated 16 September.", "requested action": "Correct. This asks for investigation and a clear resolution."}}
+    ]
+  },
+  "production_task": {
+    "scenario": "A car-rental receipt shows one €120 deposit. Your bank app shows two €120 transactions: 3 October and 5 October.",
+    "instruction": "Write a calm report with the amount and both dates. Then ask when the duplicate will be reversed and confirm when to check again.",
+    "acceptable_responses": [
+      "I think I was charged twice for the deposit. The €120 transactions are dated 3 and 5 October. Could you check which one is the duplicate? When will it be reversed?",
+      "My receipt shows one €120 deposit, but my bank app shows two. Could you check the transaction dated 5 October and tell me when the duplicate will be reversed?"
+    ],
+    "rubric": ["I stated the repeated amount.", "I gave both transaction dates.", "I asked for a check without accusing anyone.", "I asked when the duplicate would be reversed."],
+    "valid_variants": "I think I was charged twice, I can see two matching charges, and my bank app shows the amount twice are all valid. Could you check ...? and Can you check ...? are both possible; could is more formal and polite."
+  },
+  "review_prompt": "Tomorrow, recall the four report slots: amount, original date, duplicate date, and requested action. Make one calm question using all four.",
+  "design": {
+    "style": "colourful-papercut",
+    "reference_url": "https://www.youtube.com/watch?v=yZPuZhp5ioA",
+    "reference_limit": "The reference title/page was verified earlier. Full playback and frames were not inspected. No artwork, characters, music, footage, or software dependency was copied.",
+    "palette": {"paper_cream": "#FFF3D9", "coral": "#E96B67", "teal": "#37A6A0", "mustard": "#F2BD4B", "navy": "#21304A", "lilac": "#9A86D7"},
+    "paper_layers": ["hotel wall", "reception counter", "phone", "receipt", "transaction cards", "date tabs", "speech cards", "reversal arrow", "calendar", "car-rental counter"],
+    "cutout_assets": ["hotel facade", "customer", "staff member", "phone", "receipt", "€84 transaction card", "date tabs", "duplicate label", "reversal arrow", "Friday calendar", "car", "€120 deposit cards"],
+    "texture": "Restrained fibres and speckles generated procedurally.",
+    "depth": "Phone, receipt, transaction rows, date tabs, speech pieces, calendar, and arrow use cream cut edges, overlap, and offset shadows.",
+    "motion_principle": "One receipt enters; two matching transaction cards slide into separate rows; date tabs pull apart; a speech card unfolds; the duplicate pivots while a reversal arrow travels back; the transfer deposit cards separate. Captions remain fixed.",
+    "accessibility": "Dark navy text on cream panels; every colour-coded transaction, date, and action also has a word label and distinct shape."
+  },
+  "scenes": [
+    {"id": "one-charge", "title": "One hotel charge", "caption": "The receipt shows one €84 room charge.", "explanation": "A single €84 receipt slips onto the hotel desk beside the room key.", "motion_cues": ["receipt slides", "key pivots", "hotel sign rises"]},
+    {"id": "two-transactions", "title": "Two bank transactions", "caption": "The bank app shows two matching €84 transactions.", "explanation": "Two identical €84 transaction cards slide into separate phone rows.", "motion_cues": ["phone enters", "first card slides", "second card follows"]},
+    {"id": "compare-dates", "title": "Compare the dates", "caption": "14 September first. 16 September second.", "explanation": "The two date tabs pull apart so the matching amount and different dates remain visible together.", "motion_cues": ["date tabs separate", "amount badges align", "duplicate label appears"]},
+    {"id": "report", "title": "Report the problem", "caption": "I think I was charged twice for the same stay.", "explanation": "A layered speech card unfolds between the customer and staff member without covering the evidence.", "motion_cues": ["speech card unfolds", "customer arm pivots", "staff member turns"]},
+    {"id": "resolve", "title": "Ask for resolution", "caption": "When will the duplicate charge be reversed?", "explanation": "The 16 September card pivots while a reversal arrow travels back and a Friday check card appears.", "motion_cues": ["duplicate card pivots", "arrow travels", "Friday card rises"]},
+    {"id": "transfer", "title": "Your car-rental report", "caption": "One €120 deposit. Two transaction dates.", "explanation": "A car-rental receipt shows one deposit while two €120 transaction cards separate into 3 and 5 October.", "motion_cues": ["car enters", "deposit receipt slides", "transaction cards separate"]}
+  ],
+  "visual": {
+    "title": "Evidence, dates, request",
+    "alt_text": "A colourful layered papercut evidence flow. One hotel receipt shows €84. A phone shows two matching €84 transaction cards dated 14 and 16 September. The second card is labelled possible duplicate, and an arrow points to check, reverse, and confirm the timing.",
+    "prose": "First compare the one receipt charge with the two matching bank transactions. State the amount and both dates. Say that you think you were charged twice, then ask which transaction is the duplicate. Finish by asking when it will be reversed and confirming when to check again."
+  },
+  "sources": [
+    {"institution": "British Council LearnEnglish", "title": "Question forms", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/question-forms", "accessed": "2026-09-28", "inspected": "The grammar explanation describes inversion in questions and gives question-word examples.", "limitation": "It supports the question pattern, not this original hotel scenario."},
+    {"institution": "Cambridge Dictionary", "title": "duplicate", "url": "https://dictionary.cambridge.org/dictionary/english/duplicate", "accessed": "2026-09-28", "inspected": "The entry defines duplicate as an exact copy and gives noun, adjective, and verb uses.", "limitation": "It supports one vocabulary item, not a payment-dispute procedure."},
+    {"institution": "Cambridge Dictionary", "title": "transaction", "url": "https://dictionary.cambridge.org/dictionary/english/transaction", "accessed": "2026-09-28", "inspected": "The entry defines a transaction as an occasion when money is exchanged or something is bought or sold.", "limitation": "It supports one vocabulary item, not this fictional evidence set."},
+    {"institution": "Consumer Financial Protection Bureau", "title": "How to fix mistakes in your credit card bill", "url": "https://www.consumerfinance.gov/ask-cfpb/how-to-fix-mistakes-in-your-credit-card-bill-en-82/", "accessed": "2026-09-28", "inspected": "The official page advises reviewing charges, explaining what is wrong, and asking the provider to investigate a suspected billing mistake.", "limitation": "It is U.S. credit-card guidance. The lesson does not teach legal deadlines or replace provider-specific advice."}
+  ],
+  "research_notes": {
+    "box_search": "A focused Box search and one broader search returned no relevant educational source. No Box file is cited or copied.",
+    "private_seed_limit": "No private source content was used in the public pack."
+  },
+  "rights": {
+    "lesson_text": "Original for this project.",
+    "illustrations": "Original procedural SVG and raster papercut assets generated from lesson.json.",
+    "video": "Original silent procedural animation generated from lesson.json; no third-party audio or footage.",
+    "third_party_material": "Language and consumer-guidance claims are paraphrased with links. No protected exercise, artwork, hotel branding, bank screen, or legal text is reproduced."
+  },
+  "canonical_url": null,
+  "live_url": null,
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_browser_attempt_and_visual_inspection_passed",
+  "deployment_status": "not_deployed"
+}

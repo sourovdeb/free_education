@@ -1,0 +1,101 @@
+{
+  "id": "FML-0007",
+  "version": "1.1.0",
+  "title": "Pay Now or at Checkout?",
+  "slug": "pay-now-or-at-checkout",
+  "pathway": "use-english",
+  "interaction_family": "conversation-fork",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Can understand simple hotel questions.", "Knows present simple statements with pay."],
+  "observable_outcome": "Ask when payment happens, understand the answer, then confirm the payment time.",
+  "learning_objective": "Use Do I pay + option A + or + option B? to check a payment procedure and confirm the answer.",
+  "scenario": {
+    "setting": "Hotel reception",
+    "prompt": "Your room is booked. Reception has not said when payment happens.",
+    "model": "Do I pay now or at checkout?"
+  },
+  "language": {
+    "grammar": "Do + subject + base verb forms a present simple question. After do, use pay, not paying.",
+    "meaning": "The speaker asks which of two payment times or procedures applies.",
+    "appropriateness": "This direct choice question is suitable when both options seem possible. Should I pay...? is also common when asking what the hotel expects.",
+    "time_phrase": "At checkout means during the hotel leaving-and-billing stage. Here, now means before the stay begins."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "type": "choose-and-explain",
+      "prompt": "Which sentence clearly checks the procedure?",
+      "options": [
+        {"text": "Do I pay now or at checkout?", "correct": true, "feedback": "Yes. Do starts the question, pay stays in the base form, and both times are clear."},
+        {"text": "I pay now or at checkout.", "correct": false, "feedback": "This has statement word order. Use Do I pay...? to ask the question."},
+        {"text": "Do I paying now or at checkout?", "correct": false, "feedback": "After do, use the base verb pay, not paying."}
+      ]
+    },
+    {
+      "id": "decision-2",
+      "type": "meaning-check",
+      "prompt": "Reception says, 'At checkout.' What does that answer tell you?",
+      "options": [
+        {"text": "Pay when leaving the hotel.", "correct": true, "feedback": "Yes. Hotel checkout is the stage when a guest leaves and settles the bill."},
+        {"text": "Pay before entering the room.", "correct": false, "feedback": "No. That would mean pay now. At checkout points to the leaving stage."},
+        {"text": "Payment is optional.", "correct": false, "feedback": "No. The answer gives the payment time. It does not remove the payment."}
+      ]
+    },
+    {
+      "id": "decision-3",
+      "type": "response-choice",
+      "prompt": "Which reply confirms what you understood?",
+      "options": [
+        {"text": "Thanks. I'll pay when I check out.", "correct": true, "feedback": "Yes. It acknowledges the answer and restates the payment time."},
+        {"text": "Thanks. I paid when I checked out.", "correct": false, "feedback": "That describes a completed past event. Your stay has not happened yet."},
+        {"text": "Thanks. Checkout is optional.", "correct": false, "feedback": "No. Reception described payment timing, not whether checkout is optional."}
+      ]
+    }
+  ],
+  "transfer": {
+    "situation": "At a cafe, you do not know whether to pay at the counter or at your table.",
+    "task": "Write one two-option question. Then add one short confirmation for the answer: 'At the counter.'",
+    "acceptable_responses": [
+      "Do I pay at the counter or at the table? Thanks. I'll pay at the counter.",
+      "Should I pay at the counter or at the table? Okay, at the counter.",
+      "Do we pay here or at the table? Thanks, we'll pay here."
+    ],
+    "rubric": ["The question checks a real procedure.", "The two options are clear.", "The verb form is usable.", "The confirmation matches the answer.", "A valid alternative is accepted."]
+  },
+  "review_prompt": "Tomorrow, complete and answer: Do I pay ___ or ___?",
+  "visual": {
+    "alt_text": "A hotel journey runs from arrival to stay to checkout. A choice path compares paying now at arrival with paying later at checkout, then joins at a confirmation step.",
+    "text_equivalent": "ARRIVAL: pay now? | STAY | CHECKOUT: pay later? -> ASK: Do I pay now or at checkout? -> CONFIRM: I'll pay when I check out."
+  },
+  "scenes": [
+    {"title": "The gap", "caption": "Your room is booked. Payment timing is unclear.", "explanation": "Two payment moments seem possible: arrival or checkout.", "focus": "SITUATION"},
+    {"title": "Ask", "caption": "Do I pay now or at checkout?", "explanation": "A two-option question checks which payment procedure applies.", "focus": "QUESTION"},
+    {"title": "Base verb", "caption": "Do I pay ...?", "explanation": "After do, use the base verb pay, not paying.", "focus": "FORM"},
+    {"title": "The answer", "caption": "At checkout.", "explanation": "Payment happens during the hotel leaving-and-billing stage.", "focus": "MEANING"},
+    {"title": "Confirm", "caption": "Thanks. I'll pay when I check out.", "explanation": "Restating the time shows what you understood.", "focus": "RESPONSE"},
+    {"title": "Your turn", "caption": "At a cafe: the counter or the table?", "explanation": "Ask with two options. Then confirm the counter answer.", "focus": "TRANSFER"}
+  ],
+  "video": {"resolution": "1280x720", "frame_rate": 25, "audio": false, "captions": true, "optional": true},
+  "sources": [
+    {"institution": "British Council LearnEnglish", "title": "Question forms", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms", "accessed": "2026-09-27", "coverage": "Present simple questions use do before the subject and the infinitive form of the verb.", "limitations": "General grammar reference; not hotel-specific."},
+    {"institution": "Cambridge University Press & Assessment", "title": "checkout", "url": "https://dictionary.cambridge.org/dictionary/english/checkout", "accessed": "2026-09-27", "coverage": "Hotel checkout is when a guest leaves after paying and returning a key.", "limitations": "Dictionary definition; hotel practices can vary."},
+    {"institution": "Cambridge University Press & Assessment", "title": "pay", "url": "https://dictionary.cambridge.org/dictionary/learner-english/pay", "accessed": "2026-09-27", "coverage": "Pay means giving money for goods or services.", "limitations": "Learner dictionary definition."}
+  ],
+  "rights": {
+    "lesson_text": "Original",
+    "scenarios": "Original",
+    "diagram": "Original",
+    "code": "Original adaptation of the series generator",
+    "video": "Original black-and-white doodles and captions",
+    "third_party_assets": "None",
+    "source_use": "References inform language claims. No source exercise or artwork is reproduced."
+  },
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed",
+  "canonical_url": null,
+  "live_player_url": null,
+  "revision_of": "1.0.0"
+}

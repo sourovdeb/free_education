@@ -1,0 +1,87 @@
+{
+  "id": "FML-0009",
+  "version": "1.1.0",
+  "title": "Catch It or Miss It?",
+  "revision_of": "1.0.0",
+  "source_of_truth": "lesson.json",
+  "generated_at": "2026-09-27T09:00:00Z",
+  "editorial_status": "needs_owner_review",
+  "deployment_status": "not_deployed",
+  "files": [
+    {
+      "path": "lesson.json",
+      "bytes": 7647,
+      "sha256": "da2b80cecc2c8bd80dc821519254e2938700f113be1108a6ebf978250143a9ea"
+    },
+    {
+      "path": "index.html",
+      "bytes": 13736,
+      "sha256": "f6943217e5e365ae3319c9f94d62dd04763fcd4c51410c68fa2f76fdf4653a04"
+    },
+    {
+      "path": "wordpress-draft.html",
+      "bytes": 3559,
+      "sha256": "4c0a3a253c3d8b890671ff5857eccb32fd8383314bf115caf91fda1f0eedf44e"
+    },
+    {
+      "path": "medium.md",
+      "bytes": 2936,
+      "sha256": "6ac4636a9c2bc2c0789ad515f6ead181987ce2747ce7bd42738a02526f0ab858"
+    },
+    {
+      "path": "linkedin-post.txt",
+      "bytes": 422,
+      "sha256": "224f71992bb3689a26eaa2763ab6b4d1ccdc8687bd3217dff9e6a4c48c6a3319"
+    },
+    {
+      "path": "linkedin-carousel.pdf",
+      "bytes": 177596,
+      "sha256": "1e71e8a91f4bdfd340c0e2bc84b4cb3fcc64d5bf12bb59a337f99c10bc2e528f"
+    },
+    {
+      "path": "carousel.html",
+      "bytes": 6713,
+      "sha256": "28cd7a1d27b5d2c8001786763344fd4f6bf5e3851cc0f3ccd5c2a93171478cc4"
+    },
+    {
+      "path": "diagram.svg",
+      "bytes": 1226,
+      "sha256": "a5a05acb206dc1eebd230414acf751760f5a0e0b243c0d35d49ed00c57fc04c3"
+    },
+    {
+      "path": "diagram.txt",
+      "bytes": 237,
+      "sha256": "c0b80657063cc6121f2216d1d810c281075efc8933b369f5887e8fd1931ca363"
+    },
+    {
+      "path": "README.md",
+      "bytes": 807,
+      "sha256": "08781855a4f8506825e43a4f0647eb75be604e36b4da2df538cedfea65b90116"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1018,
+      "sha256": "09a19da9e2099ac0993f501cb934cee32321105084a3544a9ba8ff89f6fd12b9"
+    },
+    {
+      "path": "TESTS.md",
+      "bytes": 920,
+      "sha256": "7d6a090ba944285e09667d5e4679a67e55d6ef7e40c280bc6715ea1f066d7221"
+    },
+    {
+      "path": "video-transcript.md",
+      "bytes": 802,
+      "sha256": "eb04a71137b22de376fc655706106d008f46236ab57b5894876930eb44d37f42"
+    },
+    {
+      "path": "doodle-720p25.mp4",
+      "bytes": 138777,
+      "sha256": "7c3536bbc36a0a3417249e19c8a2fc0facc9b8b7c7404e110be79d0f28be450c"
+    },
+    {
+      "path": "build.py",
+      "bytes": 17580,
+      "sha256": "fc8cad78985175acf9fc8219a01a2fc65fada602e0c1bea6604803f5c1d01a17"
+    }
+  ]
+}

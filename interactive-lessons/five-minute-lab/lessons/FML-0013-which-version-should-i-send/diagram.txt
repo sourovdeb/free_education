@@ -1,0 +1,3 @@
+First notice that final does not identify one file. Ask which version to send. Use the reply to select the version number, filename, and date. Then repeat the complete filename and date and invite confirmation.
+
+Alt text: A layered papercut flow. Two possible document files lead to a which-version question. The reply selects version 4 and 18 September. The exact filename and date then combine in one confirmation.

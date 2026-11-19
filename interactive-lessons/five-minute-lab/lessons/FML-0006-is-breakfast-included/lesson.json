@@ -1,0 +1,101 @@
+{
+  "id": "FML-0006",
+  "version": "1.1.0",
+  "title": "Is Breakfast Included?",
+  "slug": "is-breakfast-included",
+  "pathway": "use-english",
+  "interaction_family": "question-builder",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Understands common hotel services.", "Recognises simple questions with be."],
+  "observable_outcome": "Ask whether a service is part of a hotel price, interpret the answer, then state a decision.",
+  "learning_objective": "Use Is + service + included? to check a package, then respond accurately to included or extra-cost information.",
+  "scenario": {
+    "setting": "Hotel reception",
+    "prompt": "Your room costs €80. The booking lists Wi-Fi, but says nothing about breakfast.",
+    "model": "Is breakfast included?"
+  },
+  "language": {
+    "grammar": "For this yes-no question, put is before the subject: Is + breakfast + included?",
+    "meaning": "Included means the service is already part of the price or package.",
+    "appropriateness": "The direct question is polite and normal at reception. Could you tell me if breakfast is included? is a softer, longer alternative.",
+    "time_phrase": "A reply such as No, breakfast costs €12 means breakfast is available, but its price is extra."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "type": "choose-and-explain",
+      "prompt": "Which sentence checks the package?",
+      "options": [
+        {"text": "Is breakfast included?", "correct": true, "feedback": "Yes. Is comes before breakfast, and included asks whether the service is part of the price."},
+        {"text": "Breakfast is included.", "correct": false, "feedback": "This is a statement. It assumes the answer instead of checking it."},
+        {"text": "Does breakfast included?", "correct": false, "feedback": "Use the be verb here: Is breakfast included? Do not add does."}
+      ]
+    },
+    {
+      "id": "decision-2",
+      "type": "arrange-and-match",
+      "prompt": "Which order builds the question?",
+      "options": [
+        {"text": "Is + breakfast + included?", "correct": true, "feedback": "Correct. The be verb comes first, then the service, then included."},
+        {"text": "Breakfast + included + is?", "correct": false, "feedback": "This order does not form a standard yes-no question. Move is to the front."},
+        {"text": "Included + breakfast + is?", "correct": false, "feedback": "Start with is, not included: Is breakfast included?"}
+      ]
+    },
+    {
+      "id": "decision-3",
+      "type": "response-choice",
+      "prompt": "Reception says, 'No, breakfast costs €12.' Which reply fits?",
+      "options": [
+        {"text": "Thanks. I'll add breakfast.", "correct": true, "feedback": "Yes. This shows you understood breakfast costs extra and states your decision."},
+        {"text": "Great. Breakfast is free.", "correct": false, "feedback": "No. A €12 price means breakfast is not included."},
+        {"text": "Thanks. Breakfast starts at twelve.", "correct": false, "feedback": "No. €12 is the price, not the breakfast time."}
+      ]
+    }
+  ],
+  "transfer": {
+    "situation": "Your airport hotel booking does not mention airport pickup. Reception says pickup costs €20.",
+    "task": "Write one included-question. Then add one short sentence accepting or declining the €20 service.",
+    "acceptable_responses": [
+      "Is airport pickup included? Thanks. I'll add it.",
+      "Is the airport pickup included? Thanks, I won't add it.",
+      "Could you tell me if airport pickup is included? Okay, I'll arrange another ride."
+    ],
+    "rubric": ["The question names the service.", "The question checks the package.", "The word order is usable.", "The decision matches extra-cost information.", "A clear alternative is accepted."]
+  },
+  "review_prompt": "Tomorrow, ask whether Wi-Fi is included, then give one possible reply.",
+  "visual": {
+    "alt_text": "A package map places room and Wi-Fi inside an €80 box. Breakfast sits outside with a question mark. The question Is breakfast included? checks whether breakfast moves inside the package.",
+    "text_equivalent": "€80 PACKAGE: room + Wi-Fi | UNKNOWN: breakfast? -> ASK: Is breakfast included? -> ANSWER: included or extra cost -> DECIDE."
+  },
+  "scenes": [
+    {"title": "The gap", "caption": "Room: €80. Wi-Fi: included. Breakfast: not listed.", "explanation": "The booking shows some package details, but breakfast is unknown.", "focus": "EVIDENCE"},
+    {"title": "Ask", "caption": "Is breakfast included?", "explanation": "The question checks whether breakfast belongs inside the room package.", "focus": "QUESTION"},
+    {"title": "Build", "caption": "Is + breakfast + included?", "explanation": "Put is before the service to form the yes-no question.", "focus": "FORM"},
+    {"title": "Interpret", "caption": "No, breakfast costs €12.", "explanation": "Breakfast is available, but its price is extra.", "focus": "MEANING"},
+    {"title": "Decide", "caption": "Thanks. I'll add breakfast.", "explanation": "A short decision confirms what you understood.", "focus": "RESPONSE"},
+    {"title": "Your turn", "caption": "Airport pickup: included or €20 extra?", "explanation": "Ask about the package. Then accept or decline the extra-cost service.", "focus": "TRANSFER"}
+  ],
+  "video": {"resolution": "1280x720", "frame_rate": 25, "audio": false, "captions": true, "optional": true},
+  "sources": [
+    {"institution": "Cambridge University Press & Assessment", "title": "Questions: yes-no questions", "url": "https://dictionary.cambridge.org/grammar/british-grammar/questions-yes-no-questions-are-you-feeling-cold", "accessed": "2026-09-27", "coverage": "Yes-no questions can use be + subject + main verb or complement.", "limitations": "General grammar reference; not hotel-specific."},
+    {"institution": "Cambridge University Press & Assessment", "title": "include", "url": "https://dictionary.cambridge.org/dictionary/english/include", "accessed": "2026-09-27", "coverage": "Include means contain something as part of something else; examples connect inclusion with bills and services.", "limitations": "Dictionary coverage; package terms vary."},
+    {"institution": "British Council LearnEnglish", "title": "Questions and negatives", "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/questions-negatives", "accessed": "2026-09-27", "coverage": "Question order with forms of be, including Is he? and related short answers.", "limitations": "General reference; not a lesson-efficacy source."}
+  ],
+  "rights": {
+    "lesson_text": "Original",
+    "scenarios": "Original",
+    "diagram": "Original",
+    "code": "Original adaptation of the series generator",
+    "video": "Original black-and-white doodles and captions",
+    "third_party_assets": "None",
+    "source_use": "References inform language claims. No source exercise or artwork is reproduced."
+  },
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed",
+  "canonical_url": null,
+  "live_player_url": null,
+  "revision_of": "1.0.0"
+}

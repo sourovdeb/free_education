@@ -1,0 +1,20 @@
+Can I Return It Without the Receipt?
+
+A useful return question names the proof you have, then checks the deadline and item condition.
+
+Ask permission and offer proof:
+“Could I return this without the paper receipt? I have the bank statement.”
+
+Describe the condition:
+“The sweater is unused, and the tag is still attached.”
+
+Then confirm the policy:
+“So I can return it within 30 days with proof of purchase, and it must be unused with the tag attached, right?”
+
+Try it with unopened headphones:
+purchase email, within 28 days, unopened.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0018-return-without-a-receipt
+
+Owner review required.

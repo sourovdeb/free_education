@@ -1,0 +1,102 @@
+{
+  "id": "FML-0003",
+  "version": "1.1.0",
+  "title": "Find the Words That Prove It",
+  "slug": "find-the-evidence",
+  "pathway": "use-english",
+  "interaction_family": "find-the-evidence",
+  "audience": "Older teenagers and adults",
+  "level_estimate": ["A2", "B1"],
+  "duration_estimate_minutes": "3-5",
+  "prerequisites": ["Can read common times", "Can understand short public notices"],
+  "observable_outcome": "Answer a specific-information question and copy the exact notice words that support the answer.",
+  "learning_objective": "Use question keywords to scan a short notice, select relevant evidence, and give an evidence-based answer.",
+  "scenario": {
+    "setting": "Hotel airport shuttle notice",
+    "prompt": "AIRPORT SHUTTLE CHANGE. Friday only. The airport shuttle leaves from Gate B, not Gate A. Last departure: 18:40. Hotel guests need a blue ticket.",
+    "model": "Where should you wait? Gate B. Evidence: The airport shuttle leaves from Gate B, not Gate A."
+  },
+  "language": {
+    "grammar": "Short notices often omit full sentences: Last departure: 18:40 means The last departure is at 18:40. Your answer may be short if the evidence is copied clearly.",
+    "meaning": "Evidence is the exact part of the notice that makes an answer reasonable. The answer Gate B is supported by the line naming Gate B as the departure point.",
+    "appropriateness": "For practical notices, scan for the detail asked about rather than reading every word at the same speed. Copy only enough text to prove the answer without changing its meaning.",
+    "time_phrase": "18:50 is after 18:40, so a traveller arriving at 18:50 cannot take the last shuttle described by this notice."
+  },
+  "activities": [
+    {
+      "id": "decision-1",
+      "type": "find-the-evidence",
+      "prompt": "Where should you wait for the shuttle?",
+      "options": [
+        {"text": "Gate B", "correct": true, "feedback": "Yes. The notice says the shuttle leaves from Gate B, not Gate A."},
+        {"text": "Gate A", "correct": false, "feedback": "No. Gate A appears only as the old or rejected location. The words not Gate A rule it out."},
+        {"text": "The hotel lobby", "correct": false, "feedback": "No. The notice mentions hotel guests but gives no lobby departure point."}
+      ]
+    },
+    {
+      "id": "decision-2",
+      "type": "evidence-choice",
+      "prompt": "Which words prove the last shuttle leaves before 19:00?",
+      "options": [
+        {"text": "Last departure: 18:40.", "correct": true, "feedback": "Correct. This line gives the last time, and 18:40 is twenty minutes before 19:00."},
+        {"text": "Friday only.", "correct": false, "feedback": "This gives the day, not the departure time. It cannot prove the before-19:00 answer."},
+        {"text": "Hotel guests need a blue ticket.", "correct": false, "feedback": "This gives a ticket rule. It does not contain time evidence."}
+      ]
+    },
+    {
+      "id": "decision-3",
+      "type": "reasoning-choice",
+      "prompt": "You arrive at 18:50. Can you take this shuttle?",
+      "options": [
+        {"text": "No - the last departure is 18:40.", "correct": true, "feedback": "Yes. The answer and copied time agree: 18:50 is after the last departure."},
+        {"text": "Yes - 18:50 is before 19:00.", "correct": false, "feedback": "No. The relevant boundary is 18:40, not 19:00. Use the notice's exact cutoff."},
+        {"text": "Yes - it is Friday.", "correct": false, "feedback": "Friday is required, but the arrival is still ten minutes after the last departure."}
+      ]
+    }
+  ],
+  "transfer": {
+    "situation": "LIBRARY - SATURDAY. Open: 09:00-13:00. Help desk closes at 12:30. Returns box stays open all day.",
+    "task": "At 12:45, can you ask the help desk for assistance? Answer yes or no. Then copy the words that prove your answer.",
+    "acceptable_responses": [
+      "No. Evidence: Help desk closes at 12:30.",
+      "No - the notice says, 'Help desk closes at 12:30.'",
+      "You cannot ask the help desk at 12:45 because it closes at 12:30."
+    ],
+    "rubric": ["The answer is no.", "The evidence names the help desk.", "The evidence includes 12:30.", "The answer connects 12:45 with the earlier closing time.", "Clear valid variants are accepted."]
+  },
+  "review_prompt": "Tomorrow, explain the five-step reading path: question, key word, scan, evidence, answer.",
+  "visual": {
+    "alt_text": "A four-stage evidence path: ask where to wait, scan the shuttle notice, highlight Gate B not Gate A, then answer Gate B with the supporting line.",
+    "text_equivalent": "QUESTION: Where should you wait? -> SCAN: look for gate -> EVIDENCE: leaves from Gate B, not Gate A -> ANSWER: Gate B."
+  },
+  "scenes": [
+    {"title": "Notice", "caption": "AIRPORT SHUTTLE CHANGE", "explanation": "First identify the type of text and the practical situation.", "focus": "NOTICE"},
+    {"title": "Question", "caption": "Where should you wait?", "explanation": "The question tells you to look for a place, especially a gate.", "focus": "KEY WORD"},
+    {"title": "Scan", "caption": "Gate B ... not Gate A", "explanation": "Move your eyes to the gate words instead of rereading every line equally.", "focus": "SCAN"},
+    {"title": "Evidence", "caption": "The shuttle leaves from Gate B, not Gate A.", "explanation": "Copy the smallest complete line that proves the location.", "focus": "PROVE"},
+    {"title": "Answer", "caption": "Gate B.", "explanation": "Give the answer, then connect it to the evidence when explanation is required.", "focus": "ANSWER"},
+    {"title": "Transfer", "caption": "Help desk closes at 12:30.", "explanation": "Use the same evidence path with a new notice and a new time.", "focus": "USE"}
+  ],
+  "video": {"resolution": "1280x720", "frame_rate": 25, "audio": false, "captions": true, "optional": true},
+  "sources": [
+    {"institution": "British Council LearnEnglish", "title": "A2 reading", "url": "https://learnenglish.britishcouncil.org/free-resources/reading/a2", "accessed": "2026-09-27", "coverage": "The official A2 reading collection uses short, simple texts and tasks for finding information in everyday materials.", "limitations": "The shuttle and library notices, questions, feedback, and diagram are original."},
+    {"institution": "Council of Europe", "title": "CEFR Companion Volume", "url": "https://rm.coe.int/common-european-framework-of-reference-for-languages-learning-teaching/16809ea0d4", "accessed": "2026-09-27", "coverage": "The official framework describes reading reception through can-do descriptors and treats levels as context-sensitive reference points.", "limitations": "A2-B1 is an editorial estimate, not an assessment or accreditation claim."},
+    {"institution": "Council of Europe", "title": "Reading comprehension", "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/reading-comprehension", "accessed": "2026-09-27", "coverage": "The official page notes that reading-task difficulty varies with both text and task characteristics.", "limitations": "It does not validate this lesson with learners."}
+  ],
+  "source_gap": "The v1.0.0 record cites private Reading Guidance Notes by Simon Brooks (2016). That underlying file was not reopened in this run; no text or exercise from it is reproduced.",
+  "rights": {
+    "lesson_text": "Original",
+    "scenarios": "Original",
+    "diagram": "Original",
+    "code": "Original adaptation of the series generator",
+    "video": "Original black-and-white doodles and captions",
+    "third_party_assets": "None",
+    "source_use": "References inform method and level framing. No source exercise or artwork is reproduced."
+  },
+  "editorial_status": "needs_owner_review",
+  "test_status": "static_checks_and_visual_inspection_passed",
+  "deployment_status": "not_deployed",
+  "canonical_url": null,
+  "live_player_url": null,
+  "revision_of": "1.0.0"
+}

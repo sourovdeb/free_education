@@ -1,0 +1,3 @@
+A four-stage evidence path: ask where to wait, scan the shuttle notice, highlight Gate B not Gate A, then answer Gate B with the supporting line.
+
+QUESTION: Where should you wait? -> SCAN: look for gate -> EVIDENCE: leaves from Gate B, not Gate A -> ANSWER: Gate B.

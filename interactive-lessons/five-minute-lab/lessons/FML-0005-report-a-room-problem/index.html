@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FML-0005 - The Shower Isn't Working</title>
+<style>
+:root{font-family:Arial,Helvetica,sans-serif;color:#111;background:#f5f5f2;line-height:1.45}
+*{box-sizing:border-box}body{margin:0}.wrap{max-width:760px;margin:auto;padding:18px}.card{background:#fff;border:2px solid #111;padding:18px;margin:14px 0}.eyebrow{font-size:.82rem;text-transform:uppercase;letter-spacing:.08em}.big{font-size:clamp(1.7rem,7vw,3rem);line-height:1.05;margin:.3rem 0 1rem}.goal{font-size:1.1rem}.path{display:grid;grid-template-columns:1fr;gap:8px}.step{border:2px solid #111;padding:12px}.choices{display:grid;gap:10px}.choice,.token,.action{min-height:48px;border:2px solid #111;background:#fff;padding:10px 12px;font:inherit;text-align:left;cursor:pointer}.choice:hover,.token:hover,.action:hover{background:#eee}.choice:focus,.token:focus,.action:focus{outline:4px solid #555;outline-offset:2px}.feedback{border-left:6px solid #111;padding:10px 12px;background:#eee;margin-top:8px;min-height:48px}.good{font-weight:700}.builder{display:grid;gap:8px}.built{min-height:78px;border:2px dashed #111;padding:10px;background:#fafafa}.small{font-size:.92rem}.reading{border-top:2px solid #111;margin-top:18px;padding-top:16px}textarea{width:100%;min-height:92px;font:inherit;padding:10px;border:2px solid #111}button.reset{margin-top:12px} @media(min-width:650px){.path{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<section class="card">
+<div class="eyebrow">5-Minute English Lab · FML-0005</div>
+<h1 class="big">The Shower Isn't Working</h1>
+<p class="goal"><strong>Goal:</strong> Report one room problem. Ask staff to check it.</p>
+<p>No timer. No account.</p>
+</section>
+<section class="card">
+<h2>1. See the pattern</h2>
+<div class="path" aria-label="Three-step problem reporting path">
+<div class="step"><strong>Name item</strong><br>The shower.</div>
+<div class="step"><strong>State problem</strong><br>It isn't working.</div>
+<div class="step"><strong>Ask action</strong><br>Could someone take a look, please?</div>
+</div>
+<p><strong>Model:</strong> Hi, there's a problem with the shower. It isn't working. Could someone take a look, please?</p>
+</section>
+<section class="card" data-q="q1">
+<h2>2. Name the problem</h2>
+<p>Which message is clearest?</p>
+<div class="choices">
+<button class="choice" data-feedback="This is vague. It does not say what failed.">The shower is bad.</button>
+<button class="choice" data-best="1" data-feedback="This names the item and states the problem.">There's a problem with the shower. It isn't working.</button>
+<button class="choice" data-feedback="This states possession. It does not report a problem.">I have a shower.</button>
+</div><div class="feedback" aria-live="polite">Choose one answer.</div>
+</section>
+<section class="card" data-q="q2">
+<h2>3. Ask for action</h2>
+<p>Which sentence asks staff?</p>
+<div class="choices">
+<button class="choice" data-best="1" data-feedback="This asks someone to examine the problem.">Could someone take a look, please?</button>
+<button class="choice" data-feedback="This gives background. It does not request help.">The shower was new.</button>
+<button class="choice" data-feedback="This is unclear. It does not state the action needed.">Shower now.</button>
+</div><div class="feedback" aria-live="polite">Choose one answer.</div>
+</section>
+<section class="card">
+<h2>4. Build the message</h2>
+<p>Tap each part in order.</p>
+<div class="builder" id="builder">
+<button class="token" data-order="1">There's a problem with the shower.</button>
+<button class="token" data-order="2">It isn't working.</button>
+<button class="token" data-order="3">Could someone take a look, please?</button>
+</div>
+<div class="built" id="built" aria-live="polite">Your message appears here.</div>
+<button class="action reset" id="reset" type="button">Reset message</button>
+</section>
+<section class="card">
+<h2>5. Try a new problem</h2>
+<p>Your room key fails.</p>
+<p>Report the problem. Ask help.</p>
+<textarea aria-label="Write your transfer answer" placeholder="Write your message here."></textarea>
+<details><summary>Open self-check</summary><ul><li>Name the item.</li><li>State the problem.</li><li>Ask for action.</li><li>Keep the meaning clear.</li></ul><p>Example: My room key isn't working. Could you help me, please?</p></details>
+</section>
+<section class="card reading">
+<h2>Reading mode</h2>
+<p>If scripts fail, use this:</p>
+<p>Use three steps. Name the item. State the problem. Ask for action.</p>
+<p>Model: There's a problem with the shower. It isn't working. Could someone take a look, please?</p>
+<p>Tomorrow: how can you report a service problem in three steps?</p>
+</section>
+</main>
+<script>
+for (const group of document.querySelectorAll('[data-q]')) {
+  const box = group.querySelector('.feedback');
+  for (const btn of group.querySelectorAll('.choice')) {
+    btn.addEventListener('click', () => {
+      const good = btn.dataset.best === '1';
+      box.textContent = (good ? 'Good fit. ' : 'Try again. ') + btn.dataset.feedback;
+      box.classList.toggle('good', good);
+    });
+  }
+}
+const built=document.getElementById('built');
+const tokens=[...document.querySelectorAll('.token')];
+let next=1, parts=[];
+for (const token of tokens) token.addEventListener('click',()=>{
+  const order=Number(token.dataset.order);
+  if(order!==next){ built.textContent='Try the three parts in order.'; return; }
+  parts.push(token.textContent.trim()); next += 1; token.disabled=true;
+  built.textContent=parts.join(' ');
+  if(next===4) built.textContent += ' Complete.';
+});
+document.getElementById('reset').addEventListener('click',()=>{
+  next=1;parts=[];built.textContent='Your message appears here.';
+  for(const token of tokens) token.disabled=false;
+});
+</script>
+</body></html>

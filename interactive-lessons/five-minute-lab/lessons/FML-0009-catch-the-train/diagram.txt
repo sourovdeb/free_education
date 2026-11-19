@@ -1,0 +1,3 @@
+A three-way transport map: in time leads to catch the train, too late leads to miss the train, and neutral travel choice leads to take the train.
+
+IN TIME -> catch the train | TOO LATE -> miss the train | TRAVEL CHOICE -> take the train

@@ -1,0 +1,18 @@
+Which Version Should I Send?
+
+Two proposal files remain.
+The word final is unclear.
+
+Ask for the version:
+“Which version should I send, please?”
+
+Then confirm the file:
+“So I should send proposal_client_v4_18-Sep.pdf, dated 18 September. Is that right?”
+
+Try it with:
+budget_report_v3_09-Oct.xlsx, dated 9 October.
+
+Source and download files (not a live player):
+https://github.com/sourovdeb/free_education/tree/microlearning/hourly/interactive-lessons/five-minute-lab/lessons/FML-0013-which-version-should-i-send
+
+Owner review required.

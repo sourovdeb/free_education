@@ -1,0 +1,67 @@
+{
+  "id": "FML-0001",
+  "version": "1.1.0",
+  "files": {
+    "README.md": {
+      "bytes": 1497,
+      "sha256": "205c9d8146b2d0ff1d4b615a730983b25ee2db55a01c95b447d0add6980592ff"
+    },
+    "SOURCES.md": {
+      "bytes": 1598,
+      "sha256": "aa527a4887e213f4dd867a5cd83638fcc63252dbc3d4781aa4ea1e5951f506a8"
+    },
+    "TESTS.md": {
+      "bytes": 933,
+      "sha256": "6200acbc0669e49a416976ca8ceba33f3a5127a61ca08a00bc6906f424aae5d6"
+    },
+    "build.py": {
+      "bytes": 15502,
+      "sha256": "28ae7bd1eb7ae573b856b3134a71b33220137d75c134305438bd8d27670dc5ae"
+    },
+    "carousel.html": {
+      "bytes": 5722,
+      "sha256": "7b07270704c6eb25a484265f0e383cdf34254b40c2a20b7d0d4e499a105c5cff"
+    },
+    "diagram.svg": {
+      "bytes": 920,
+      "sha256": "170d6fa3a493614f616dd6178c085fc74a47fd91d8c11cbf80f0be99089eccb5"
+    },
+    "diagram.txt": {
+      "bytes": 738,
+      "sha256": "904d11b97fe96c443aaabb9cafb671564600fa0eb10658c13f6d9f88da22ab4a"
+    },
+    "doodle-720p25.mp4": {
+      "bytes": 255416,
+      "sha256": "25eebececaed97152f57bf959c212271090d7cb548511f7d1203bd878dfaae25"
+    },
+    "index.html": {
+      "bytes": 20843,
+      "sha256": "fac044e1c6d5e182e5f4769901655c92523d1ab45fb7e5a617df3d2559189aa0"
+    },
+    "lesson.json": {
+      "bytes": 9358,
+      "sha256": "85e612c689b499130ba5862787ec8f5bdd6fffcd007e45253c18a5af7cf0d7dd"
+    },
+    "linkedin-carousel.pdf": {
+      "bytes": 193329,
+      "sha256": "f92ad5a18dfc0d0f20a12001ed464d764cc488f5c84fc47a74fa7f1be15395a0"
+    },
+    "linkedin-post.txt": {
+      "bytes": 524,
+      "sha256": "ede986cc9a5aee21c681a697708a6fa546f6cacad3f5976c26d9d7960a05048e"
+    },
+    "medium.md": {
+      "bytes": 4553,
+      "sha256": "f1dd285a5701c64d154f28549da35a4aea709c1db46c7e7d2dc7f118940ecd96"
+    },
+    "video-transcript.md": {
+      "bytes": 797,
+      "sha256": "47dab7434252a2cd56065d5d9ee4bf07a996cc907cc9eb4978ed5b6d66904dee"
+    },
+    "wordpress-draft.html": {
+      "bytes": 5339,
+      "sha256": "fd15171fcda334d2d3b2b3f45f133e7661082c1d3d1e89548ac2fb75e7d0a1a0"
+    }
+  },
+  "manifest_excludes_itself": true
+}
