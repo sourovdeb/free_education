@@ -45,6 +45,13 @@ Each numbered folder represents one routine (automated task) that runs on a sche
 
 ---
 
+### 3️⃣ **03_psychology_marketing_mental_health_audit_routine**
+
+**What it does:** Audits claims about human psychology, neuroscience, marketing influence, and mental health treatment — checking primary sources, methodology, funding/conflicts of interest, and opposing research, then drafting a sourced micro-blog verdict.
+
+**Contains:**
+- Dated audit files, one per claim, each with a full methodology/funding/bias writeup plus a ready-to-publish micro-blog draft
+- Held for human review before any external publishing (see the routine's README)
 ### 3️⃣ **03_psychology_claims_audit_routine**
 
 **What it does:** Audits psychology, neuroscience, marketing-influence, and mental-health-treatment claims — checks primary sources, funding/conflicts of interest on all sides, and opposing research — then drafts a short cited micro-blog post.
@@ -164,6 +171,7 @@ of interest, and opposing research, then drafts a source-linked micro-blog post.
 **Output format:** Markdown (.md)  
 **Status:** ✅ Active
 
+📖 [Go to routine →](03_psychology_marketing_mental_health_audit_routine/)
 📖 [Go to routine →](03_psychology_research_audits_routine/)
 📖 [Go to routine →](03_research_audit_routine/)
 📖 [Go to routine →](03_psych_research_audit_routine/)
@@ -197,6 +205,9 @@ routines/
 │   ├── webscrapper (1).py
 │   └── README.md
 │
+└── 03_psychology_marketing_mental_health_audit_routine/
+    ├── README.md
+    └── 2026-07-05_power-posing-audit.md
 └── 03_psychology_claims_audit_routine/
     ├── README.md
     └── posts/
